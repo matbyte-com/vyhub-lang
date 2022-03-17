@@ -759,7 +759,9 @@
       "edit": "Edit Server",
       "numberOfReservedSlots": "Number of reserved slots",
       "keepReservedSlotsFree": "Keep reserved slots free",
-      "hideReservedSlots": "Hide reserved slots"
+      "hideReservedSlots": "Hide reserved slots",
+      "discordEnterIdAsAddress": "Enter your guilds id as server address. Enter your favourite number as port.",
+      "addBot": "Add our bot to your guild."
     },
     "messages": {
       "createSuccess": "Server successfully created.",
