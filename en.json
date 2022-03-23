@@ -181,6 +181,7 @@
       "purchaseNow": "Purchase Now",
       "orderOverview": "Order Overview",
       "cartTotal": "Cart Total",
+      "defaultCurrency": "Default Currency",
       "unfinishedPurchase": "Unfinished Purchase",
       "billingAddress": "Billing Address",
       "removeAllPackets": "Remove all packets",
