@@ -565,7 +565,8 @@
     "messages": {
       "addSuccess": "News successfully added",
       "editSuccess": "News edited successfully",
-      "deleteSucces": "News deleted successfully"
+      "deleteSuccess": "News deleted successfully",
+      "messageEmpty": "Please enter a message"
     }
   },
   "_requirement": {
