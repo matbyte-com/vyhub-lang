@@ -831,6 +831,9 @@
       }
     }
   },
+  "_authorization": {
+    "title": "Authorization"
+  },
   "update": "Update",
   "recurring": "Recurring",
   "revenue": "Revenue",
