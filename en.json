@@ -837,6 +837,7 @@
     "discord": "Discord",
     "discord_key": "Client ID",
     "discord_secret": "Client Secret",
+    "redirectUrl": "Redirect Url",
     "messages": {
       "editedConfig": "Edited Config"
     }
