@@ -832,7 +832,10 @@
     }
   },
   "_authorization": {
-    "title": "Authorization"
+    "title": "Authorization",
+    "discord": "Discord",
+    "discord_key": "Client ID",
+    "discord_secret": "Client Secret"
   },
   "update": "Update",
   "recurring": "Recurring",
