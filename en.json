@@ -383,7 +383,8 @@
     "group_team_member_edited": "Groups is team member edited.",
     "user_admin_status_removed": "Admin status of user {username} - {user_id} edited: admin = {status}.",
     "discord_no_permission_for_server":  "Discord bot can't fetch guild {guild_id}.",
-    "discord_no_permission_to_target_group": "Discord bot can't target group."
+    "discord_no_permission_to_target_group": "Discord bot can't target group.",
+    "social_config_edit": "Social (authorization) config edited."
     },
   "_forms": {
     "labels": {
@@ -835,7 +836,10 @@
     "title": "Authorization",
     "discord": "Discord",
     "discord_key": "Client ID",
-    "discord_secret": "Client Secret"
+    "discord_secret": "Client Secret",
+    "messages": {
+      "editedConfig": "Edited Config"
+    }
   },
   "update": "Update",
   "recurring": "Recurring",
