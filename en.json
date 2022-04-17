@@ -712,7 +712,8 @@
     "warnings":  "Warnings",
     "legal":  "Legal",
     "ticket": "Ticket",
-    "team": "Team"
+    "team": "Team",
+    "notificationLink": "Notification"
   },
   "_warning": {
     "title": "Warnings",
@@ -993,5 +994,6 @@
   "author": "Author",
   "team": "Team",
   "help": "Help",
-  "ticket": "Ticket"
+  "ticket": "Ticket",
+  "redirect": "Redirect"
 }
