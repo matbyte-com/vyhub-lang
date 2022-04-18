@@ -146,6 +146,9 @@
     }
   },
   "_group": {
+    "mappings": {
+      "name": "Name of the group/rank/role on the server"
+    },
     "messages": {
       "addedGroup": "Group created.",
       "deletedGroup": "Group deleted.",
@@ -157,8 +160,7 @@
   "_properties": {
     "ban_show": "Enables user to display bans in specified bundle",
     "ban_edit": "Enables user to edit bans in specified bundle",
-    "bundle_edit": "Add and Edit Serverbundles",
-    "server_group": "Name of the group/rank/role on the server"
+    "bundle_edit": "Add and Edit Serverbundles"
   },
   "_shop": {
     "labels": {
@@ -272,6 +274,10 @@
       "DISCORD": {
         "name": "Discord",
         "info": "Your place to talk and hang out."
+      },
+      "MINECRAFT": {
+        "name": "Minecraft",
+        "info": "Build your own world."
       }
     }
   },
@@ -994,6 +1000,7 @@
   "author": "Author",
   "team": "Team",
   "help": "Help",
+  "mappings": "Mappings",
   "ticket": "Ticket",
   "redirect": "Redirect"
 }
