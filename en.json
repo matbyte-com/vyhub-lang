@@ -260,7 +260,8 @@
   },
   "_user": {
     "labels": {
-      "newUsers": "New Users"
+      "newUsers": "New Users",
+      "authRequestDescription": "Execute the following command on a {type} server to login:"
     },
     "type": {
       "CENTRAL": {
