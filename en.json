@@ -332,6 +332,7 @@
     "group_add": "Added group {groupName} {groupId}.",
     "user_imported_from": "User imported from {source}.",
     "group_edit": "Edited group {groupName} {groupId}.",
+    "user_sync_failed": "Failed to sync user {user_id}.",
     "group_deleted": "Deleted group {groupName} {groupId}.",
     "refund_finished": "Finished refund. debit_id: {debit_id}, purchase_id: {purchase_id}.",
     "payment_initiate": "Initiated {gateway} payment. action: {action}, message: {message}, Code: {status_code}.",
