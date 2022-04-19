@@ -7,11 +7,6 @@
       "close": "close"
     }
   },
-  "_footer": {
-    "labels": {
-      "language": "language"
-    }
-  },
   "_membership": {
     "labels": {
       "add": "Add Group Membership",
@@ -135,6 +130,8 @@
     "requirements": "Requirements",
     "showTicket": "Enable Ticket System",
     "showTeam": "Enable Team Page",
+    "language": "Language",
+    "languageNewDescriptionText": "Help us translate to your language",
     "labels": {
       "title": "Settings",
       "groupSettings":  "Groupsettings",
@@ -850,6 +847,10 @@
       "editedConfig": "Edited Config"
     }
   },
+  "_language": {
+    "en": "English",
+    "de": "Deutsch"
+  },
   "update": "Update",
   "recurring": "Recurring",
   "revenue": "Revenue",
@@ -1003,5 +1004,6 @@
   "help": "Help",
   "mappings": "Mappings",
   "ticket": "Ticket",
-  "redirect": "Redirect"
+  "redirect": "Redirect",
+  "here": "here"
 }
