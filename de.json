@@ -11,7 +11,8 @@
         "labels": {
             "add": "Gruppenmitgliedschaft hinzufügen",
             "edit": "Gruppenmitgliedschaft bearbeiten",
-            "endMembership": "Mitgliedschaft beenden"
+            "endMembership": "Mitgliedschaft beenden",
+            "activeMemberships": "Aktive Mitgliedschaften"
         }
     }
 }
