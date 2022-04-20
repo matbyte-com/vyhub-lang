@@ -841,8 +841,9 @@
   "_authorization": {
     "title": "Authorization",
     "discord": "Discord",
-    "discord_key": "Client ID",
-    "discord_secret": "Client Secret",
+    "discordOauthClientId": "Client ID",
+    "discordOauthClientSecret": "Client Secret",
+    "discordBotToken": "Bot Token",
     "redirectUrl": "Redirect URL",
     "messages": {
       "editedConfig": "Edited Config"
