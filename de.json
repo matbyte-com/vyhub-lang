@@ -13,6 +13,9 @@
             "edit": "Gruppenmitgliedschaft bearbeiten",
             "endMembership": "Mitgliedschaft beenden",
             "activeMemberships": "Aktive Mitgliedschaften"
+        },
+        "messages": {
+            "membershipSuccessfullyAdded": "Mitgliedschaft erfolgreich hinzugefügt"
         }
     }
 }
