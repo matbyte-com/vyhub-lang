@@ -17,5 +17,10 @@
         "messages": {
             "membershipSuccessfullyAdded": "Mitgliedschaft erfolgreich hinzugefügt"
         }
+    },
+    "_dashboard": {
+        "labels": {
+            "linkNewAccount": "Konto Verknüpfen"
+        }
     }
 }
