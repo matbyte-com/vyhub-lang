@@ -9,7 +9,9 @@
     },
     "_membership": {
         "labels": {
-            "add": "Gruppenmitgliedschaft hinzufügen"
+            "add": "Gruppenmitgliedschaft hinzufügen",
+            "edit": "Gruppenmitgliedschaft bearbeiten",
+            "endMembership": "abc"
         }
     }
 }
