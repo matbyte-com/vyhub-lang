@@ -25,7 +25,7 @@
             "linkedAccounts": "Verknüpfte Accounts",
             "activeProperties": "Aktive Eigenschaften",
             "groupMemberships": "Gruppenmitgliedschaften",
-            "bansAndWarnings": "Bans und Verwarnungen",
+            "bansAndWarnings": "Banns und Verwarnungen",
             "userLog": "Nutzerlog",
             "admin": "Admin",
             "registered_on": "Registriert am:",
@@ -39,7 +39,7 @@
     },
     "_theme": {
         "backgroundUrl": "Hintergrundbild",
-        "showCommunityName": "Zeige den Community Name",
+        "showCommunityName": "Community Namen anzeigen",
         "primaryColor": "Primär-Farbe",
         "logoUrl": "Logo Bild",
         "logoDescription": "Lade die Seite neu, wenn das Logo nicht korrekt dargestellt wird",
@@ -50,24 +50,24 @@
         "errorColor": "Fehler-Farbe",
         "warningColor": "Warnung-Farbe",
         "backgroundColor": "Hintergrundfarbe",
-        "backgroundColorDescription": "Farbe wird von Hintergrundbild überschrieben",
-        "darkmode": "Darkmode"
+        "backgroundColorDescription": "Farbe wird vom Hintergrundbild überschrieben",
+        "darkmode": "Dunkler Modus"
     },
     "_ban": {
         "labels": {
-            "title": "Bans",
+            "title": "Banns",
             "add": "Bann hinzufügen",
             "lengthInMinutes": "Länge (in Minuten)",
             "edit": "Bann bearbeiten",
-            "details": "Ban Details",
+            "details": "Bann Details",
             "unban": "Entbannen",
             "reban": "Erneut bannen",
-            "unbanned": "Ban aufgehoben",
-            "infiniteBandDescription": "Leer lassen für permanenten Ban",
-            "bundleDescription": "Leer lassen für globalen Ban"
+            "unbanned": "Bann aufgehoben",
+            "infiniteBandDescription": "Leer lassen für permanenten Bann",
+            "bundleDescription": "Leer lassen für globalen Bann"
         },
         "messages": {
-            "showingUserBans": "Zeige Bans für Nutzer mit der ID: {id}"
+            "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}"
         }
     },
     "_serverbundle": {
@@ -86,5 +86,469 @@
             "loginSuccess": "Erfolgreich eingeloggt.",
             "loginError": "Fehler beim Anmeldevorgang."
         }
-    }
+    },
+    "_shop": {
+        "labels": {
+            "taxAllowUnknown": "Erlaube Käufe aus Ländern ohne Steuervorschriften.",
+            "donationGoal": "Spendenziel",
+            "perMonth": "pro Monat",
+            "enableDonationGoal": "Spendenziel aktivieren",
+            "cancelPayment": "Zahlung stornieren",
+            "cancelPurchase": "Kauf abbrechen"
+        },
+        "messages": {
+            "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
+            "notEnoughCredits": "Du hast nicht genug Credits, um diesen Kauf zu bezahlen. Bitte wähle eine andere Zahlungsmethode oder kauf mehr Credits.",
+            "addToCartSuccess": "Paket erfolgreich in den Warenkorb hinzugefügt.",
+            "removeFromCartSuccess": "Paket erfolgreich aus dem Warenkorb entfernt.",
+            "confirmCreditsPayment": "Bitte bestätigen Sie die Zahlung von {credits} Credits.",
+            "couponsEditSuccess": "Coupon erfolgreich bearbeitet.",
+            "addToCartError": "Beim Hinzufügen des Pakets zu deinem Warenkorb ist ein Fehler aufgetreten.",
+            "cartEmpty": "Dein Warenkorb ist leer.",
+            "mustAgree": "Du musst zustimmen, um fortzufahren!",
+            "selectGateway": "Bitte wähle deine Zahlungsmethode.",
+            "noAddressSpecified": "Adresse noch nicht angegeben.",
+            "clearCartSuccess": "Alle Pakete erfolgreich aus dem Warenkorb entfernt.",
+            "couponApplySuccess": "Der Coupon wurde erfolgreich angewendet.",
+            "couponRemoveSuccess": "Coupon erfolgreich entfernt."
+        },
+        "purchaseStatus": {
+            "open": "Offen",
+            "cancelled": "Abgebrochen",
+            "finished": "Abgeschlossen",
+            "refunded": "Zurückerstattet",
+            "revoked": "Widerrufen",
+            "enabled": "Aktiv",
+            "disabled": "Abgelaufen"
+        }
+    },
+    "_errors": {
+        "country_not_allowed": "Käufe aus deinem Land sind nicht erlaubt.",
+        "packet_not_compatible": "Dieses Paket ist nicht mit einem anderen Paket kompatibel: {packet_title}.",
+        "coupon": {
+            "not_found": "Dieser Code ist ungültig."
+        },
+        "cart_not_empty": "Dein Warenkorb muss leer sein, um dieses Paket hinzuzufügen.",
+        "packet_requires_other": "Dieses Paket erfordert ein anderes Paket: {packet_title}.",
+        "packet_already_in_cart": "Dieses Paket ist bereits in deinem Warenkorb.",
+        "packet_not_purchasable": "Du kannst dieses Paket nicht kaufen.",
+        "cart_full": "Dein Warenkorb ist voll.",
+        "not_found": "Nicht gefunden."
+    },
+    "_navigation": {
+        "externalLink": "Externer Link",
+        "enabled": "Aktiviert",
+        "type": "Typ",
+        "link": "Link",
+        "titleAlreadyUsed": "Titel bereits verwendet!"
+    },
+    "_gateway": {
+        "labels": {
+            "coupon": "Coupon (manuelle Bestätigung)",
+            "webhookURL": "Webhook URL"
+        },
+        "messages": {
+            "formAttributeChangeExplanation": "Die unten stehenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird."
+        }
+    },
+    "_notification": {
+        "ban_new": "Du wurdest gebannt. Grund: {reason}",
+        "newNotifications": "Neue Benachrichtigungen",
+        "hideReadNotifications": "Gelesene Benachrichtigungen verstecken",
+        "noNotification": "Keine Benachrichtigungen",
+        "viewAll": "Alle anzeigen",
+        "notifications": "Benachrichtigungen",
+        "markAllAsRead": "Alle als gelesen markieren",
+        "isLink": "Link",
+        "markRead": "Als gelesen markieren",
+        "markUnRead": "Als ungelesen markieren ",
+        "type": {
+            "general": "Allgemein",
+            "ban": "Bann",
+            "ticket": "Ticket",
+            "warning": "Warnung",
+            "shop": "Shop"
+        },
+        "packet_applied": "Paket {packet_title} wurde aktiviert!"
+    },
+    "_warning": {
+        "ttlPlaceholder": "Dauer (in Tagen)",
+        "countTillBanDesc": "0 für KEINE automatischen Banns.",
+        "banLength": "Dauer des automatischen Banns (Minuten)",
+        "reason": "Grund"
+    },
+    "_ticket": {
+        "tickets": "Tickets",
+        "creator": "Ersteller",
+        "close": "Schließen",
+        "ticket": "Ticket",
+        "content": "Inhalt",
+        "created": "Erstellt",
+        "last_post": "Letzter Beitrag",
+        "addTicket": "Ticket erstellen",
+        "noTickets": "Du hast noch keine Tickets erstellt.",
+        "title": "Titel",
+        "readMore": "Mehr lesen",
+        "open": "Offen",
+        "closed": "Geschlossen",
+        "showClosed": "Geschlossene anzeigen"
+    },
+    "_import": {
+        "gextension": {
+            "labels": {
+                "basicData": "Grundlegende Daten",
+                "url": "GExtension URL",
+                "furtherData": "Weitere Daten"
+            }
+        },
+        "messages": {
+            "description": "In diesem Abschnitt kannst du Daten aus anderen Systemen importieren."
+        }
+    },
+    "_server": {
+        "messages": {
+            "createSuccess": "Server erfolgreich erstellt.",
+            "editSuccess": "Server erfolgreich bearbeitet.",
+            "deleteSuccess": "Server erfolgreich gelöscht."
+        },
+        "labels": {
+            "unknownStatus": "Status Unbekannt",
+            "create": "Server erstellen",
+            "edit": "Server bearbeiten"
+        }
+    },
+    "_personalSettings": {
+        "emailNotifications": "E-Mail Benachrichtigungen",
+        "title": "Persönliche Einstellungen",
+        "email": "E-Mail",
+        "messages": {
+            "emailUpdated": "E-Mail erfolgreich aktualisiert"
+        }
+    },
+    "select": "Auswählen",
+    "message": "Nachricht",
+    "not_available": "Nicht verfügbar",
+    "properties": "Eigenschaften",
+    "settingsSaveSuccess": "Einstellungen erfolgreich gespeichert.",
+    "unexpectedErrorOccurred": "Es ist ein unerwarteter Fehler aufgetreten.",
+    "refresh": "Aktualisieren",
+    "example": "Beispiel",
+    "_address": {
+        "labels": {
+            "streetAndNumber": "Straße und Hausnummer",
+            "addition": "Zusatz",
+            "city": "Stadt",
+            "state": "Staat",
+            "zip_code": "Postleitzahl",
+            "selectAddress": "Adresse auswählen"
+        },
+        "messages": {
+            "selectedSuccess": "Adresse erfolgreich ausgewählt.",
+            "changeSuccess": "Geschäftsadresse erfolgreich geändert.",
+            "addSuccess": "Neue Adresse erfolgreich hinzugefügt.",
+            "noAddressesYet": "Du hast noch keine Adressen."
+        }
+    },
+    "_packet": {
+        "labels": {
+            "add": "Paket hinzufügen",
+            "buyableDetail": "Kann im Shop gekauft werden",
+            "buyableActive": "Kaufbar, wenn der Benutzer dieses Paket in einem aktiven Zustand hat.",
+            "limitPaymentMethodsDetail": "Wenn Zahlungsmethoden ausgewählt sind, können nur diese verwendet werden. Wenn nicht, können alle Methoden verwendet werden.",
+            "edit": "Paket bearbeiten",
+            "customPrice": "Benutzerdefinierter Preis",
+            "buyable": "Kaufbar",
+            "enabledDetail": "Ist diese Funktion deaktiviert, kann das Paket nicht gekauft werden und alle zugewiesenen Pakete werden inaktiv.",
+            "notBuyable": "Nicht kaufbar",
+            "currency": "Währung",
+            "recurring": "Wiederkehrend",
+            "buyableInactive": "Kaufbar, wenn der Benutzer dieses Paket in einem inaktiven Zustand hat.",
+            "activeFor": "Aktiv für",
+            "activeSince": "Aktiv seit",
+            "activeUntil": "Aktiv bis",
+            "paymentMethods": "Zahlungsmethoden",
+            "limitPaymentMethods": "Begrenzte Zahlungsmöglichkeiten",
+            "customPriceDetail": "Lassen Sie den Benutzer den Preis bestimmen. Der oben eingegebene Preis wird als Mindestpreis verwendet.",
+            "details": "Paket Details",
+            "relationRequires": "Erfordert das ausgewählte Paket für einen Kauf",
+            "relationNotCompatible": "Nicht kompatibel mit dem ausgewählten Paket.",
+            "end": "Ende"
+        },
+        "messages": {
+            "sortOnlyWithCategory": "Pakete können nur sortiert werden, wenn eine Kategorie ausgewählt ist.",
+            "addSuccess": "Paket erfolgreich erstellt.",
+            "editSuccess": "Paket erfolgreich bearbeitet.",
+            "deleteSuccess": "Paket erfolgreich gelöscht."
+        },
+        "status": {
+            "ENABLED": "Aktiviert",
+            "DISABLED": "Deaktiviert"
+        }
+    },
+    "extraProperties": "Zusätzliche Eigenschaften",
+    "length": "Länge",
+    "_home": {
+        "messages": {
+            "messageEmpty": "Bitte gib eine Nachricht ein"
+        }
+    },
+    "_reward": {
+        "labels": {
+            "create": "Belohnung erstellen",
+            "onEvent": "Ausführen bei Ereignis",
+            "_events": {
+                "disable": "Ausführen, wenn das angewandte Paket inaktiv wird",
+                "direct": "Direkt ausführen",
+                "spawn": "Ausführen beim Spawnen",
+                "death": "Ausführen beim Tod"
+            },
+            "once": "Nur einmal ausführen (pro Paket)",
+            "edit": "Belohnung bearbeiten",
+            "onceFromAll": "Nur auf einem Server ausführen",
+            "_types": {
+                "command": "Ausführen eines Befehls auf dem Server",
+                "credits": "Credits zum Konto des Käufers hinzufügen",
+                "membership": "Gruppenmitgliedschaft hinzufügen"
+            }
+        },
+        "messages": {
+            "createSuccess": "Belohnung erfolgreich erstellt.",
+            "editSuccess": "Belohnung erfolgreich bearbeitet.",
+            "deleteSuccess": "Belohnung erfolgreich gelöscht."
+        },
+        "status": {
+            "OPEN": "Offen",
+            "EXECUTED": "Ausgeführt",
+            "FAILED": "Gescheitert"
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "confirmDebitText": "Kauf bestätigen? Dies kann nicht rückgängig gemacht werden.",
+            "totalRevenue": "Gesamteinnahmen",
+            "myPurchases": "Meine Käufe",
+            "allPurchases": "Alle Käufe",
+            "revoke": "Widerrufen",
+            "revoked": "Zurückgezogen",
+            "unrevoke": "Unwiderruflich",
+            "refund": "Erstatten",
+            "refunded": "Erstattet",
+            "amountNet": "Nettobetrag",
+            "amountTotal": "Gesamtbetrag",
+            "monthlyRevenue": "Monatliche Einnahmen",
+            "creditsSpent": "Ausgegebene Credits",
+            "cancelSubscription": "Abonnement kündigen",
+            "confirmPurchases": "Käufe bestätigen",
+            "coupon": "Coupon",
+            "confirm": "Bestätigen",
+            "declineDebitText": "Kauf stornieren? Dies kann nicht rückgängig gemacht werden.",
+            "reward": "Belohnung"
+        },
+        "messages": {
+            "cancelSubscriptionSuccess": "Abonnement erfolgreich gekündigt.",
+            "refundInitSuccess": "Rückerstattung erfolgreich eingeleitet.",
+            "revokeSuccess": "Kauf erfolgreich widerrufen.",
+            "refreshSuccess": "Die Zahlungsdaten wurden erfolgreich aktualisiert."
+        }
+    },
+    "_settings": {
+        "multigroupDescription": "In diesem Bundle können Benutzer gleichzeitig Mitglied in mehreren Gruppen sein.",
+        "formulaBeta": "Diese Funktion befindet sich in der Betaphase. Bitte verwende die Funktion mit Bedacht.",
+        "membercount": "Mitglieder",
+        "gameserver": "Gameserver",
+        "defaultGroup": "Standard Gruppe",
+        "multigroup": "Mehrere Gruppen",
+        "totalUsers": "Benutzer insgesamt: ",
+        "navUpdate": "Reihenfolge aktualisieren",
+        "addRequirementSet": "Anforderungsset hinzufügen",
+        "editRequirementSet": "Anforderungsset bearbeiten",
+        "addRequirement": "Anforderung hinzufügen",
+        "formulaError": "Formel nicht gültig - Konsole für zusätzliche Informationen prüfen",
+        "formulaSymbolOr": "Dieses Symbol | für ODER",
+        "formulaSymbolAnd": "Dieses Symbol & für UND",
+        "documentationLink": "Dokumentation",
+        "serverAndServerbundle": "Server / Serverbundle",
+        "requirements": "Anforderungen",
+        "showTicket": "Ticket System aktivieren",
+        "showTeam": "Team Seite aktivieren",
+        "language": "Sprache",
+        "languageNewDescriptionText": "Hilf uns bei der Übersetzung in deine Sprache"
+    },
+    "_user": {
+        "type": {
+            "STEAM": {
+                "name": "Steam"
+            },
+            "DISCORD": {
+                "name": "Discord"
+            },
+            "MINECRAFT": {
+                "name": "Minecraft",
+                "info": "Baue deine eigene Welt."
+            }
+        }
+    },
+    "_log": {
+        "type": {
+            "system": "System",
+            "ban": "Bann",
+            "packet": "Paket",
+            "group": "Gruppe",
+            "discord": "Discord",
+            "server": "Server"
+        },
+        "config_edit": "Allgemeine Konfiguration editiert."
+    },
+    "port": "Port",
+    "disabled": "Deaktiviert",
+    "author": "Autor",
+    "_requirement": {
+        "addRequirement": "Anforderung",
+        "requirementType": "Typ",
+        "operators": {
+            "EQ": "Gleich",
+            "ACTIVE": "Aktiv",
+            "GT": "Größer als",
+            "HAVE": "Hat",
+            "NHAVE": "Hat nicht",
+            "INACTIVE": "Inaktiv",
+            "LT": "Weniger als",
+            "NEVER_ACTIVE": "Niemals aktiv",
+            "ONLY_ACTIVE": "Nur inaktiv",
+            "ONLY_INACTIVE": "Nur Aktiv"
+        }
+    },
+    "_discount": {
+        "labels": {
+            "create": "Rabatt erstellen",
+            "edit": "Rabatt bearbeiten",
+            "allPackets": "Verwendbar für alle Pakete",
+            "delete": "Rabatt löschen"
+        },
+        "messages": {
+            "deleteSuccess": "Rabatt erfolgreich gelöscht.",
+            "editSuccess": "Rabatt erfolgreich bearbeitet.",
+            "createSuccess": "Rabatt erfolgreich erstellt."
+        }
+    },
+    "_userLogEntry": {
+        "addLogEntry": "Log Eintrag hinzufügen"
+    },
+    "_pageTitle": {
+        "settings": "Einstellungen",
+        "bans": "Banns",
+        "notifications": "Benachrichtigungen",
+        "shopPacket": "Shop - Paket",
+        "shop": "Shop",
+        "shopCategory": "Shop - Kategorie",
+        "log": "Log",
+        "ticket": "Ticket",
+        "team": "Team",
+        "notificationLink": "Benachrichtigung"
+    },
+    "_api": {
+        "labels": {
+            "createKey": "Schlüssel erstellen"
+        },
+        "messages": {
+            "keyCreated": "Neuer Schlüssel erstellt:",
+            "keyCreateSuccess": "Schlüssel erfolgreich erstellt."
+        }
+    },
+    "_team": {
+        "title": "Team",
+        "editTeam": "Team bearbeiten",
+        "teamGroupsSuccessfullyEdited": "Team-Gruppen erfolgreich bearbeitet."
+    },
+    "every": "Alle",
+    "requirements": "Anforderungen",
+    "servers": "Server",
+    "general": "Allgemein",
+    "revoked": "Widerrufen",
+    "purchases": "Käufe",
+    "language": "Sprache",
+    "payment": "Zahlung",
+    "payments": "Zahlungen",
+    "open": "Offen",
+    "log": "Log",
+    "cancelled": "Abgebrochen",
+    "finished": "Abgeschlossen",
+    "search": "Suche",
+    "amount": "Betrag",
+    "invoice": "Rechnung",
+    "statistics": "Statistiken",
+    "days": "Tage",
+    "oneTime": "Einmalig",
+    "groupname": "Name",
+    "startdate": "Beginn",
+    "imageURL": "Bild URL",
+    "groups": "Gruppen",
+    "description": "Beschreibung",
+    "text": "Text",
+    "country": "Land",
+    "allGroups": "Alle Gruppen",
+    "allProperties": "Alle Eigenschaften",
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "packets": "Pakete",
+    "dark_mode": "Dunkler Modus",
+    "add": "Hinzufügen",
+    "name": "Name",
+    "percentage": "Prozentsatz",
+    "info": "Info",
+    "date": "Datum",
+    "advancedProperties": "Erweiterte Eigenschaften",
+    "details": "Details",
+    "server": "Server",
+    "endsOn": "Endet am",
+    "createdOn": "Erstellt am",
+    "reason": "Grund",
+    "id": "ID",
+    "edit": "Bearbeiten",
+    "cancel": "Abbrechen",
+    "create": "Erstellen",
+    "actions": "Aktionen",
+    "title": "Titel",
+    "summary": "Zusammenfassung",
+    "expired": "Abgelaufen",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "areYouSure": "Bist du dir sicher?",
+    "delete": "Löschen",
+    "color": "Farbe",
+    "category": "Kategorie",
+    "packet": "Paket",
+    "price": "Preis",
+    "address": "Adresse",
+    "start": "Start",
+    "download": "Herunterladen",
+    "or": "oder",
+    "ipAddress": "IP-Adresse",
+    "continue": "Fortfahren",
+    "api": "API",
+    "url": "URL",
+    "noDataAvailable": "Keine Daten verfügbar.",
+    "enabled": "Aktiviert",
+    "htmlNoMatch": "Dies ist keine gültige URL",
+    "end": "Ende",
+    "group": "Gruppe",
+    "reset": "Zurücksetzen",
+    "shop": "Shop",
+    "creator": "Ersteller",
+    "status": "Status",
+    "communityName": "Community Name",
+    "serverStatus": "Server Status",
+    "connect": "Verbinden",
+    "save": "Speichern",
+    "enable": "Aktivieren",
+    "disable": "Deaktivieren",
+    "error": "Fehler",
+    "maxInputExceeded": "Maximale Eingabelänge von {length} überschritten",
+    "discord": "Discord",
+    "key": "Schlüssel",
+    "personalSettings": "Persönliche Einstellungen",
+    "team": "Team",
+    "help": "Hilfe",
+    "ticket": "Ticket",
+    "here": "Hier"
 }
