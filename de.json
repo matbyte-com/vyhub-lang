@@ -40,12 +40,18 @@
     "_theme": {
         "backgroundUrl": "Hintergrundbild",
         "showCommunityName": "Zeige den Community Name",
-        "primaryColor": "",
+        "primaryColor": "Primär-Farbe",
         "logoUrl": "Logo Bild",
         "logoDescription": "Lade die Seite neu, wenn das Logo nicht korrekt dargestellt wird",
         "logoWidth": "Breite des Logos",
         "favicon": "Favicon",
-        "showInformationFab": "Informationen anzeigen fab"
+        "showInformationFab": "Informationen anzeigen fab",
+        "successColor": "Erfolg-Farbe",
+        "errorColor": "Fehler-Farbe",
+        "warningColor": "Warnung-Farbe",
+        "backgroundColor": "Hintergrundfarbe",
+        "backgroundColorDescription": "Farbe wird von Hintergrundbild überschrieben",
+        "darkmode": "Darkmode"
     },
     "_ban": {
         "labels": {
