@@ -20,7 +20,48 @@
     },
     "_dashboard": {
         "labels": {
-            "linkNewAccount": "Konto Verknüpfen"
+            "linkNewAccount": "Konto Verknüpfen",
+            "title": "{usr}",
+            "linkedAccounts": "Verknüpfte Accounts",
+            "activeProperties": "Aktive Properties",
+            "groupMemberships": "Gruppenmitgliedschaften",
+            "bansAndWarnings": "Bans und Verwarnungen",
+            "userLog": "Nutzerlog",
+            "admin": "Admin",
+            "registered_on": "Angemeldet am:",
+            "membershipEndDescription": "Leer lassen für unbegrenzte Dauer",
+            "removeAdminTitle": "Admin entfernen?"
+        },
+        "messages": {
+            "adminSuccessfullyRemoved": "Admin erfolgreich entfernt",
+            "removeAdminConfirmation": "Vergiss nicht, den ehemaligen Admin auch von der Instanz in der zentralen Instanzübersicht zu entfernen."
+        }
+    },
+    "_theme": {
+        "backgroundUrl": "Hintergrundbild",
+        "showCommunityName": "Zeige den Community Name",
+        "primaryColor": "",
+        "logoUrl": "Logo Bild",
+        "logoDescription": "Lade die Seite neu, wenn das Logo nicht korrekt dargestellt wird",
+        "logoWidth": "Breite des Logos",
+        "favicon": "Favicon"
+    },
+    "_ban": {
+        "labels": {
+            "title": "Bans",
+            "add": "Ban hinzufügen"
+        }
+    },
+    "_serverbundle": {
+        "messages": {
+            "createSuccess": "Serverbundle erfolgreich erstellt.",
+            "editSuccess": "Serverbundle erfolgreich bearbeitet.",
+            "deleteSuccess": "Serverbundle erfolgreich gelöscht."
+        }
+    },
+    "_login": {
+        "messages": {
+            "loginSuccess": "Erfolgreich eingeloggt."
         }
     }
 }
