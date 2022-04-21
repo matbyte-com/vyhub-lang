@@ -10,7 +10,8 @@
             "groupMemberships": "Adhésions de groupe",
             "admin": "Administrateurs",
             "membershipEndDescription": "Laisser vide pour une durée illimitée",
-            "removeAdminTitle": "Supprimer l'administrateur ?"
+            "removeAdminTitle": "Supprimer l'administrateur ?",
+            "title": "{usr}"
         },
         "messages": {
             "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale.",
@@ -85,7 +86,8 @@
             "addServer": "Ajouter un serveur",
             "editGroup": "Modifier le groupe"
         },
-        "formulaBeta": "Cette fonction est en phase bêta. Veuillez utiliser avec prudence."
+        "formulaBeta": "Cette fonction est en phase bêta. Veuillez utiliser avec prudence.",
+        "httpPlaceholder": "https://google.de"
     },
     "_home": {
         "messages": {
@@ -629,7 +631,8 @@
             "coupon": "Coupon (confirmation manuelle)",
             "webhookURL": "URL du webhook",
             "paypal": "PayPal",
-            "paysafecard": "Paysafecard"
+            "paysafecard": "Paysafecard",
+            "stripe": "Stripe"
         },
         "messages": {
             "createSuccess": "Passerelle de paiement créée avec succès.",
