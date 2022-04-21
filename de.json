@@ -23,12 +23,12 @@
             "linkNewAccount": "Konto Verknüpfen",
             "title": "{usr}",
             "linkedAccounts": "Verknüpfte Accounts",
-            "activeProperties": "Aktive Properties",
+            "activeProperties": "Aktive Eigenschaften",
             "groupMemberships": "Gruppenmitgliedschaften",
             "bansAndWarnings": "Bans und Verwarnungen",
             "userLog": "Nutzerlog",
             "admin": "Admin",
-            "registered_on": "Angemeldet am:",
+            "registered_on": "Registriert am:",
             "membershipEndDescription": "Leer lassen für unbegrenzte Dauer",
             "removeAdminTitle": "Admin entfernen?"
         },
@@ -50,9 +50,9 @@
     "_ban": {
         "labels": {
             "title": "Bans",
-            "add": "Ban hinzufügen",
+            "add": "Bann hinzufügen",
             "lengthInMinutes": "Länge (in Minuten)",
-            "edit": "Ban bearbeiten",
+            "edit": "Bann bearbeiten",
             "details": "Ban Details",
             "unban": "Entbannen",
             "reban": "Erneut bannen",
