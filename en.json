@@ -389,6 +389,7 @@
     "user_admin_status_removed": "Admin status of user {username} - {user_id} edited: admin = {status}.",
     "discord_no_permission_for_server":  "Discord bot can't fetch guild {guild_id}.",
     "discord_no_permission_to_target_group": "Discord bot can't target group.",
+    "discord_wrong_bot_token": "Discord bot can't login (bot token wrong)",
     "social_config_edit": "Social (authorization) config edited."
     },
   "_forms": {
