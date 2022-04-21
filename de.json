@@ -44,12 +44,24 @@
         "logoUrl": "Logo Bild",
         "logoDescription": "Lade die Seite neu, wenn das Logo nicht korrekt dargestellt wird",
         "logoWidth": "Breite des Logos",
-        "favicon": "Favicon"
+        "favicon": "Favicon",
+        "showInformationFab": "Informationen anzeigen fab"
     },
     "_ban": {
         "labels": {
             "title": "Bans",
-            "add": "Ban hinzufügen"
+            "add": "Ban hinzufügen",
+            "lengthInMinutes": "Länge (in Minuten)",
+            "edit": "Ban bearbeiten",
+            "details": "Ban Details",
+            "unban": "Entbannen",
+            "reban": "Erneut bannen",
+            "unbanned": "Ban aufgehoben",
+            "infiniteBandDescription": "Leer lassen für permanenten Ban",
+            "bundleDescription": "Leer lassen für globalen Ban"
+        },
+        "messages": {
+            "showingUserBans": "Zeige Bans für Nutzer mit der ID: {id}"
         }
     },
     "_serverbundle": {
@@ -57,11 +69,16 @@
             "createSuccess": "Serverbundle erfolgreich erstellt.",
             "editSuccess": "Serverbundle erfolgreich bearbeitet.",
             "deleteSuccess": "Serverbundle erfolgreich gelöscht."
+        },
+        "labels": {
+            "createApiKey": "Neuen API Schlüssel erstellen",
+            "apiKeys": "Serverbundle API Schlüssel"
         }
     },
     "_login": {
         "messages": {
-            "loginSuccess": "Erfolgreich eingeloggt."
+            "loginSuccess": "Erfolgreich eingeloggt.",
+            "loginError": "Fehler beim Anmeldevorgang."
         }
     }
 }
