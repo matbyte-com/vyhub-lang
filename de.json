@@ -94,7 +94,10 @@
             "perMonth": "pro Monat",
             "enableDonationGoal": "Spendenziel aktivieren",
             "cancelPayment": "Zahlung stornieren",
-            "cancelPurchase": "Kauf abbrechen"
+            "cancelPurchase": "Kauf abbrechen",
+            "cart": "Einkaufswagen",
+            "invoiceLogoURL": "Rechnungslogo URL",
+            "invoiceLogoURLDetails": "URL für ein Logo, welches auf der Rechnung angezeigt wird."
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -372,7 +375,30 @@
         "showTicket": "Ticket System aktivieren",
         "showTeam": "Team Seite aktivieren",
         "language": "Sprache",
-        "languageNewDescriptionText": "Hilf uns bei der Übersetzung in deine Sprache"
+        "languageNewDescriptionText": "Hilf uns bei der Übersetzung in deine Sprache",
+        "backgroundColorDescription": "Hintergrundbild überschreibt die Hintergrundfarbe",
+        "labels": {
+            "addBundle": "Serverbundle hinzufügen",
+            "title": "Einstellungen",
+            "groupSettings": "Gruppeneinstellungen",
+            "addGroup": "Gruppe Hinzufügen",
+            "editGroup": "Gruppe bearbeiten",
+            "editBundle": "Servrebundle bearbeiten",
+            "addServer": "Server hinzufügen"
+        },
+        "contentSanitizationWarning": "JavaScript kann nur von Admins genutzt werden. Ansonsten wird JavaScript entfernt.",
+        "externalLink": "Externer Link",
+        "htmlContent": "HTML Inhalt",
+        "imageUrl": "Bild URL",
+        "rawHtml": "Rohes HTML",
+        "addLink": "Link hinzufügen",
+        "navReset": "Reihenfolge zurücksetzen",
+        "addNavlink": "Link hinzufügen",
+        "editNavLink": "Link bearbeiten",
+        "editor": "Editor",
+        "contentEmpty": "Leerer Inhalt",
+        "httpPlaceholder": "https://google.de",
+        "logicFormula": "Logische Formel"
     },
     "_user": {
         "type": {
@@ -550,5 +576,22 @@
     "team": "Team",
     "help": "Hilfe",
     "ticket": "Ticket",
-    "here": "Hier"
+    "here": "Hier",
+    "_group": {
+        "isTeamDescription": "Mitglieder der Gruppe werden auf der Teamseite angezeigt",
+        "messages": {
+            "editedGroup": "Gruppe bearbeitet.",
+            "addedGroup": "Gruppe erstellt.",
+            "deletedGroup": "Gruppe entfernt."
+        },
+        "mappings": {
+            "name": "Name der Gruppe/Rolle/Rang auf dem Server"
+        },
+        "isTeam": "Ist Team"
+    },
+    "_properties": {
+        "ban_show": "Erlaubt Nutzer Bans in bestimmten Serverbundle anzuschauen",
+        "ban_edit": "Erlaubt Nuter Bans in bestimmten Serverbundle zu bearbeiten",
+        "bundle_edit": "Hinzufügen und Bearbeiten von Serverbundles"
+    }
 }
