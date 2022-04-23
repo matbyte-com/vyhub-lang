@@ -578,7 +578,7 @@
     "ticket": "Ticket",
     "here": "Hier",
     "_group": {
-        "isTeamDescription": "Mitglieder der Gruppe werden auf der Teamseite angezeigt",
+        "isTeamDescription": "Mitglieder der Gruppe werden auf der Team-Seite angezeigt",
         "messages": {
             "editedGroup": "Gruppe bearbeitet.",
             "addedGroup": "Gruppe erstellt.",
