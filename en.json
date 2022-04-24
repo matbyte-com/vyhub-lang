@@ -773,7 +773,8 @@
       "keepReservedSlotsFree": "Keep reserved slots free",
       "hideReservedSlots": "Hide reserved slots",
       "discordEnterIdAsAddress": "Enter your guilds id as server address. Enter your favourite number as port.",
-      "addBot": "Add our bot to your guild.",
+      "addBot": "Add bot to your guild.",
+      "discordApplicationIdNeeded": "Create Discord application.",
       "guildIdDocs": "Find guild id."
     },
     "messages": {
