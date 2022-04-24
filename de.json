@@ -45,13 +45,14 @@
         "logoDescription": "Lade die Seite neu, wenn das Logo nicht korrekt dargestellt wird",
         "logoWidth": "Breite des Logos",
         "favicon": "Favicon",
-        "showInformationFab": "Informationen anzeigen fab",
+        "showInformationFab": "Feedback Knopf anzeigen",
         "successColor": "Erfolg-Farbe",
         "errorColor": "Fehler-Farbe",
         "warningColor": "Warnung-Farbe",
         "backgroundColor": "Hintergrundfarbe",
         "backgroundColorDescription": "Farbe wird vom Hintergrundbild überschrieben",
-        "darkmode": "Dunkler Modus"
+        "darkmode": "Dunkler Modus",
+        "showInformationFabDescription": "Feedback Knopf unten rechts"
     },
     "_ban": {
         "labels": {
