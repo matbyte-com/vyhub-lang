@@ -843,11 +843,6 @@
         "discordOauthClientSecret": "Clé secrète du client",
         "discordBotToken": "Jeton de robot"
     },
-    "_language": {
-        "en": "English",
-        "de": "Deutsch",
-        "fr": "Français"
-    },
     "update": "Mise à jour",
     "recurring": "Récurrent",
     "revenue": "Revenu",

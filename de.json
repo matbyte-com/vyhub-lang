@@ -593,10 +593,5 @@
         "ban_show": "Erlaubt Nutzer Bans in bestimmten Serverbundle anzuschauen",
         "ban_edit": "Erlaubt Nuter Bans in bestimmten Serverbundle zu bearbeiten",
         "bundle_edit": "Hinzufügen und Bearbeiten von Serverbundles"
-    },
-    "_language": {
-        "en": "English",
-        "de": "Deutsch",
-        "fr": "Français"
     }
 }

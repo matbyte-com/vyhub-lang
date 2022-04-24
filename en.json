@@ -850,11 +850,6 @@
       "editedConfig": "Edited Config"
     }
   },
-  "_language": {
-    "en": "English",
-    "de": "Deutsch",
-    "fr": "Français"
-  },
   "update": "Update",
   "recurring": "Recurring",
   "revenue": "Revenue",
