@@ -844,8 +844,9 @@
         "discordBotToken": "Jeton de robot"
     },
     "_language": {
-        "en": "Anglais",
-        "de": "Allemand"
+        "en": "English",
+        "de": "Deutsch",
+        "fr": "Français"
     },
     "update": "Mise à jour",
     "recurring": "Récurrent",

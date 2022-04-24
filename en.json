@@ -852,7 +852,8 @@
   },
   "_language": {
     "en": "English",
-    "de": "Deutsch"
+    "de": "Deutsch",
+    "fr": "Français"
   },
   "update": "Update",
   "recurring": "Recurring",
