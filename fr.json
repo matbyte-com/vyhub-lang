@@ -716,7 +716,9 @@
         "notificationLink": "L'Équipe",
         "team": "L'Équipe",
         "shopCheckout": "Vérifier",
-        "legal": "Légal"
+        "legal": "Légal",
+        "log": "Log",
+        "notifications": "Notifications"
     },
     "_warning": {
         "title": "Avertissements",
@@ -757,7 +759,8 @@
             "addedPost": "Message créé.",
             "toggleStatus": "Statut basculé.",
             "addedThread": "Fil créé."
-        }
+        },
+        "showClosed": "Ferme ticket"
     },
     "_server": {
         "labels": {
@@ -768,8 +771,9 @@
             "keepReservedSlotsFree": "Gardez les emplacements réservés libres",
             "hideReservedSlots": "Masquer les emplacements réservés",
             "discordEnterIdAsAddress": "Entrez l'identifiant de votre guilde comme adresse de serveur. Entrez votre numéro préféré comme port.",
-            "addBot": "Ajoutez notre bot à votre guilde.",
-            "guildIdDocs": "Trouver l'identifiant de la guilde."
+            "addBot": "Ajoutez un bot à votre guilde.",
+            "guildIdDocs": "Trouver l'identifiant de la guilde.",
+            "discordApplicationIdNeeded": "Créer une application Discord."
         },
         "messages": {
             "createSuccess": "Serveur créé avec succès.",
@@ -991,5 +995,11 @@
     "perDay": "Par jour",
     "perMonth": "Par mois",
     "category": "Catégorie",
-    "connect": "Relier"
+    "connect": "Relier",
+    "script": "Script",
+    "email": "Email",
+    "date": "Date",
+    "message": "Message",
+    "log": "Log",
+    "navigation": "Navigation"
 }
