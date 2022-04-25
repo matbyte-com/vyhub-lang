@@ -152,5 +152,12 @@
     },
     "_properties": {
         "ban_show": "Permite al usuario mostrar prohibiciones en un paquete específico"
+    },
+    "_user": {
+        "type": {
+            "DISCORD": {
+                "name": "Discord"
+            }
+        }
     }
 }
