@@ -1,1 +1,156 @@
-{}
+{
+    "_header": {
+        "labels": {
+            "login": "Acceso",
+            "logout": "Desconectarse",
+            "close": "Cerrar",
+            "register": "Registro"
+        }
+    },
+    "_membership": {
+        "labels": {
+            "add": "Agregar membresía de grupo",
+            "edit": "Editar membresía de grupo",
+            "activeMemberships": "Membresías activas",
+            "endMembership": "Terminar membresía"
+        },
+        "messages": {
+            "membershipSuccessfullyAdded": "Membresía agregada con éxito"
+        }
+    },
+    "_dashboard": {
+        "labels": {
+            "linkedAccounts": "Cuentas Vinculadas",
+            "linkNewAccount": "vincular nueva cuenta",
+            "activeProperties": "Propiedades activas",
+            "bansAndWarnings": "Prohibiciones y Advertencias",
+            "userLog": "Registro de usuario",
+            "admin": "Admin",
+            "registered_on": "Registrado en:",
+            "groupMemberships": "Membresías de grupo",
+            "membershipEndDescription": "Dejar vacío por duración ilimitada",
+            "removeAdminTitle": "¿Quitar administrador?"
+        },
+        "messages": {
+            "adminSuccessfullyRemoved": "Administrador eliminado con éxito",
+            "removeAdminConfirmation": "No olvide eliminar al administrador anterior de la instancia en la descripción general de su instancia central."
+        }
+    },
+    "_ban": {
+        "labels": {
+            "title": "Prohibiciones",
+            "add": "Añadir prohibición",
+            "lengthInMinutes": "Duración (en minutos)",
+            "edit": "Editar prohibición",
+            "details": "Detalles de prohibición",
+            "unban": "Desbanear",
+            "reban": "prohibir de nuevo",
+            "unbanned": "Desbaneado",
+            "infiniteBandDescription": "Dejar vacío para la prohibición de por vida",
+            "bundleDescription": "Dejar vacío para la prohibición global"
+        },
+        "messages": {
+            "showingUserBans": "Mostrando prohibiciones de usuario con ID: {id}"
+        }
+    },
+    "_serverbundle": {
+        "labels": {
+            "apiKeys": "Claves API del paquete de servidor",
+            "createApiKey": "Crear nueva clave API"
+        },
+        "messages": {
+            "editSuccess": "Serverbundle editado con éxito.",
+            "deleteSuccess": "Serverbundle eliminado con éxito.",
+            "createSuccess": "Serverbundle creado con éxito."
+        }
+    },
+    "_login": {
+        "messages": {
+            "loginSuccess": "Iniciado sesión con éxito.",
+            "loginError": "Error al iniciar sesión."
+        }
+    },
+    "_theme": {
+        "showInformationFab": "Mostrar fabulosa información",
+        "primaryColor": "Color primario",
+        "successColor": "Color de éxito",
+        "errorColor": "Color de error",
+        "warningColor": "Color de advertencia",
+        "backgroundColor": "Color de fondo",
+        "darkmode": "Modo oscuro",
+        "backgroundUrl": "Imagen de fondo",
+        "logoUrl": "Logotipo",
+        "communityNameDescription": "Muestra el nombre de la comunidad en el encabezado",
+        "logoWidth": "Ancho del logotipo",
+        "favicon": "Icono de favoritos",
+        "messages": {
+            "editedTheme": "Tema editado."
+        },
+        "backgroundColorDescription": "El color se sobrescribe con la imagen de fondo",
+        "showCommunityName": "Mostrar nombre de la comunidad",
+        "logoDescription": "Recargar página si el logotipo no se muestra correctamente"
+    },
+    "_settings": {
+        "permissionLevel": "Nivel de permiso",
+        "membercount": "Miembros",
+        "gameserver": "Servidor de juegos",
+        "defaultGroup": "Grupo predeterminado",
+        "multigroup": "Grupos Múltiples",
+        "totalUsers": "Usuarios totales: ",
+        "backgroundColorDescription": "La imagen de fondo sobrescribe el color de fondo",
+        "externalLink": "Enlace externo",
+        "htmlContent": "Contenido HTML",
+        "imageUrl": "Imagen URL",
+        "addNavlink": "Agregar enlace de navegación",
+        "navReset": "Restablecer orden",
+        "addLink": "Añadir enlace",
+        "editNavLink": "Editar enlace de navegación",
+        "editor": "Editor",
+        "contentEmpty": "El contenido está vacío",
+        "httpPlaceholder": "https://google.es/",
+        "addRequirementSet": "Agregar conjunto de requisitos",
+        "editRequirementSet": "Editar conjunto de requisitos",
+        "addRequirement": "Agregar requisito",
+        "logicFormula": "Fórmula lógica",
+        "formulaTypeError": "Compruebe si todas las identificaciones utilizadas están presentes",
+        "editFormula": "Editar fórmula",
+        "formula": "Fórmula",
+        "formulaSymbolOr": "Este símbolo | para O",
+        "formulaSymbolAnd": "Este símbolo & para Y",
+        "formulaBeta": "Esta función está en fase beta. Úselo con precaución.",
+        "documentationLink": "Documentación",
+        "requirements": "Requisitos",
+        "showTicket": "Habilitar sistema de tickets",
+        "language": "Idioma",
+        "labels": {
+            "title": "Configuraciones",
+            "groupSettings": "Ajustes de grupo",
+            "addGroup": "Añadir grupo",
+            "editGroup": "Editar grupo",
+            "addBundle": "Agregar paquete de servidor",
+            "editBundle": "Editar paquete de servidor",
+            "addServer": "Agregar servidor"
+        },
+        "navUpdate": "Actualizar orden de navegación",
+        "showTeam": "Habilitar página de equipo",
+        "languageNewDescriptionText": "Ayúdanos a traducir a tu idioma",
+        "multigroupDescription": "Los usuarios pueden ser miembros de varios grupos a la vez en este paquete.",
+        "contentSanitizationWarning": "Solo los administradores pueden usar JavaScript. De lo contrario, se desinfectará.",
+        "formulaError": "Fórmula no válida - consulte la consola para obtener información adicional"
+    },
+    "_group": {
+        "messages": {
+            "addedGroup": "Grupo creado.",
+            "deletedGroup": "Grupo eliminado.",
+            "editedGroup": "Grupo editado."
+        },
+        "isTeam": "es equipo",
+        "mappings": {
+            "name": "Nombre del grupo/rango/rol en el servidor"
+        },
+        "isTeamDescription": "Los miembros del grupo se mostrarán en la página del equipo"
+    },
+    "_properties": {
+        "ban_show": "Permite al usuario mostrar prohibiciones en un paquete específico"
+    }
+}
