@@ -52,7 +52,11 @@
         "backgroundColor": "Hintergrundfarbe",
         "backgroundColorDescription": "Farbe wird vom Hintergrundbild überschrieben",
         "darkmode": "Dunkler Modus",
-        "showInformationFabDescription": "Feedback Knopf unten rechts"
+        "showInformationFabDescription": "Feedback Knopf unten rechts",
+        "communityNameDescription": "Zeigt Community Name im Header an",
+        "messages": {
+            "editedTheme": "Leitmotiv Bearbeitet."
+        }
     },
     "_ban": {
         "labels": {
@@ -399,7 +403,8 @@
         "editor": "Editor",
         "contentEmpty": "Leerer Inhalt",
         "httpPlaceholder": "https://google.de",
-        "logicFormula": "Logische Formel"
+        "logicFormula": "Logische Formel",
+        "permissionLevel": "Rechte Level"
     },
     "_user": {
         "type": {
