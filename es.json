@@ -136,7 +136,9 @@
         "languageNewDescriptionText": "Ayúdanos a traducir a tu idioma",
         "multigroupDescription": "Los usuarios pueden ser miembros de varios grupos a la vez en este paquete.",
         "contentSanitizationWarning": "Solo los administradores pueden usar JavaScript. De lo contrario, se desinfectará.",
-        "formulaError": "Fórmula no válida - consulte la consola para obtener información adicional"
+        "formulaError": "Fórmula no válida - consulte la consola para obtener información adicional",
+        "rawHtml": "HTML sin procesar",
+        "serverAndServerbundle": "Servidor / Paquete de servidor"
     },
     "_group": {
         "messages": {
@@ -151,13 +153,34 @@
         "isTeamDescription": "Los miembros del grupo se mostrarán en la página del equipo"
     },
     "_properties": {
-        "ban_show": "Permite al usuario mostrar prohibiciones en un paquete específico"
+        "ban_show": "Permite al usuario mostrar prohibiciones en un paquete específico",
+        "ban_edit": "Permite al usuario editar prohibiciones en un paquete específico",
+        "bundle_edit": "Agregar y editar paquetes de servidores"
     },
     "_user": {
         "type": {
             "DISCORD": {
                 "name": "Discord"
             }
+        }
+    },
+    "_shop": {
+        "labels": {
+            "total": "Total",
+            "purchaseNow": "Comprar ahora",
+            "cart": "Cesta",
+            "invoiceLogoURL": "URL del logotipo de la factura",
+            "invoiceLogoURLDetails": "URL de un logotipo que se muestra en la factura.",
+            "admin": "Administración de la tienda",
+            "applyCoupon": "Aplicar cupón",
+            "couponCode": "Código promocional",
+            "tax": "Impuesto",
+            "taxRules": "Reglas Tributarias",
+            "checkout": "Verificar",
+            "payment": "Pago",
+            "paymentId": "ID de pago",
+            "addToCart": "Añadir a la cesta",
+            "credits": "Créditos"
         }
     }
 }
