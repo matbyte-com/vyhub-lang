@@ -44,7 +44,7 @@
         "logoUrl": "Logo Bild",
         "logoDescription": "Lade die Seite neu, wenn das Logo nicht korrekt dargestellt wird",
         "logoWidth": "Breite des Logos",
-        "favicon": "Favicon",
+        "favicon": "Favourisiertes icon",
         "showInformationFab": "Feedback Knopf anzeigen",
         "successColor": "Erfolg-Farbe",
         "errorColor": "Fehler-Farbe",
@@ -297,7 +297,8 @@
     "length": "Länge",
     "_home": {
         "messages": {
-            "messageEmpty": "Bitte gib eine Nachricht ein"
+            "messageEmpty": "Bitte gib eine Nachricht ein",
+            "deleteSuccess": "Nachrichten erfolgreich gelöscht"
         }
     },
     "_reward": {
@@ -363,7 +364,7 @@
         "multigroupDescription": "In diesem Bundle können Benutzer gleichzeitig Mitglied in mehreren Gruppen sein.",
         "formulaBeta": "Diese Funktion befindet sich in der Betaphase. Bitte verwende die Funktion mit Bedacht.",
         "membercount": "Mitglieder",
-        "gameserver": "Gameserver",
+        "gameserver": "Spielserver",
         "defaultGroup": "Standard Gruppe",
         "multigroup": "Mehrere Gruppen",
         "totalUsers": "Benutzer insgesamt: ",
@@ -375,7 +376,7 @@
         "formulaSymbolOr": "Dieses Symbol | für ODER",
         "formulaSymbolAnd": "Dieses Symbol & für UND",
         "documentationLink": "Dokumentation",
-        "serverAndServerbundle": "Server / Serverbundle",
+        "serverAndServerbundle": "Server /Serverbündel",
         "requirements": "Anforderungen",
         "showTicket": "Ticket System aktivieren",
         "showTeam": "Team Seite aktivieren",
@@ -404,7 +405,10 @@
         "contentEmpty": "Leerer Inhalt",
         "httpPlaceholder": "https://google.de",
         "logicFormula": "Logische Formel",
-        "permissionLevel": "Rechte Level"
+        "permissionLevel": "Rechte Level",
+        "formulaTypeError": "Überprüfe ob alle benutzen Id's vorhanden sind",
+        "editFormula": "Formula Bearbeiten",
+        "formula": "Form"
     },
     "_user": {
         "type": {
@@ -447,7 +451,15 @@
             "LT": "Weniger als",
             "NEVER_ACTIVE": "Niemals aktiv",
             "ONLY_ACTIVE": "Nur inaktiv",
-            "ONLY_INACTIVE": "Nur Aktiv"
+            "ONLY_INACTIVE": "Nur Aktiv",
+            "NEQ": "Nicht Gleich",
+            "LEQ": "Weniger Gleich als",
+            "GEQ": "Mehr gleich als"
+        },
+        "types": {
+            "DATE": "Datum",
+            "USER_SELF": "Benutzer Selbst",
+            "PROPERTY": "Eigenschaft"
         }
     },
     "_discount": {
