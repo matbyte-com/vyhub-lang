@@ -720,7 +720,8 @@
     "legal":  "Legal",
     "ticket": "Ticket",
     "team": "Team",
-    "notificationLink": "Notification"
+    "notificationLink": "Notification",
+    "faq": "FAQ"
   },
   "_warning": {
     "title": "Warnings",
