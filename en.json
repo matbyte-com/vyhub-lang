@@ -51,7 +51,11 @@
       "bundleDescription": "Leave empty for global ban"
     },
     "messages": {
-      "showingUserBans": "Showing bans of user with ID: {id}"
+      "showingUserBans": "Showing bans of user with ID: {id}",
+      "banAdded": "Ban created",
+      "banDeleted": "Ban deleted",
+      "banEdited": "Ban edited",
+      "banToggled": "Ban status toggled"
     }
   },
   "_serverbundle":{
@@ -721,7 +725,7 @@
     "ticket": "Ticket",
     "team": "Team",
     "notificationLink": "Notification",
-    "faq": "FAQ"
+    "serverDashboard":  "Server Dashboard"
   },
   "_warning": {
     "title": "Warnings",
@@ -783,6 +787,11 @@
       "createSuccess": "Server successfully created.",
       "editSuccess": "Server successfully edited.",
       "deleteSuccess": "Server successfully deleted."
+    },
+    "type": {
+      "DISCORD": "Discord",
+      "GMOD": "Garry's Mod",
+      "MINECRAFT": "Minecraft"
     },
     "deleteBundleConfirmationText": "This will delete objects referenced to this bundle (e.g. rewards)"
   },
@@ -852,6 +861,9 @@
     "messages": {
       "editedConfig": "Edited Config"
     }
+  },
+  "_serverDashboard": {
+    "noUsersFound": "No Users Found"
   },
   "update": "Update",
   "recurring": "Recurring",
