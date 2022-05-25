@@ -876,6 +876,24 @@
       "addedTransaction": "Transaction added"
     }
   },
+  "_faq": {
+    "title": "FAQ",
+    "add": "Add question",
+    "update": "Update faq order",
+    "reset": "Reset faq order",
+    "addQuestionDialog": "Add question",
+    "editQuestionDialog": "Edit question",
+    "formTitle": "Title",
+    "formContent": "Content",
+    "html": "HTML is allowed in this field.",
+    "messages": {
+      "addSuccess": "FAQ question created. ",
+      "editSuccess": "FAQ question updated.",
+      "deleteSuccess": "FAQ question deleted.",
+      "updatedOrder": "FAQ order updated.",
+      "contentEmpty": "Please enter a content"
+    }
+  },
   "update": "Update",
   "recurring": "Recurring",
   "revenue": "Revenue",
@@ -1031,5 +1049,6 @@
   "ticket": "Ticket",
   "redirect": "Redirect",
   "here": "here",
-  "confirm": "Confirm"
+  "confirm": "Confirm",
+  "faq": "FAQ"
 }
