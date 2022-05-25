@@ -218,7 +218,9 @@
       "clearCartSuccess": "Successfully removed all packets from cart.",
       "paymentCancelled": "This payment has been cancelled. You can try it again by visiting your shopping cart.",
       "paymentSuccess": "The payment has been finished successfully. The purchased packets have been assigned to your account.",
+      "paymentFailed": "An error occurred during the payment process. Please try to restart the process.",
       "paymentPending": "This payment is pending. Please complete it by visiting the shopping cart.",
+      "paymentProcessing": "The payment has been approved and will be finished soon. Please wait up to a minute on this page.",
       "unfinishedPurchase": "There is an ongoing purchase that hasn't been finished yet.",
       "purchaseCancelledSuccess": "The purchase has been cancelled.",
       "couponApplySuccess": "Coupon successfully applied.",
@@ -1019,5 +1021,6 @@
   "mappings": "Mappings",
   "ticket": "Ticket",
   "redirect": "Redirect",
-  "here": "here"
+  "here": "here",
+  "confirm": "Confirm"
 }
