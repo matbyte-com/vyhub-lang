@@ -108,7 +108,10 @@
     },
     "_ban": {
         "messages": {
-            "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}"
+            "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}",
+            "banAdded": "Le ban a bien été créé",
+            "banDeleted": "Le ban a bien été supprimé",
+            "banEdited": "Le ban a bien été modifié"
         },
         "labels": {
             "title": "Bannissements",
@@ -407,7 +410,8 @@
         "ban_new_full": "L'utilisateur {creatorId} a ajouté le bannissement {banId} pour l'utilisateur {userId} dans le groupe {bundleId} du {createdOn} au {endDate}. Raison : {raison}.",
         "requirement_set_deleted": "L'ensemble d'exigences a supprimé {requirementSetName} {requirementSetId}.",
         "membership_edit": "Adhésion modifiée : Groupe : {groupName}, Utilisateur : {username}, Ancien : {oldBegin} {oldEnd}, Nouveau : {newBegin} {newEnd}.",
-        "discord_wrong_bot_token": "Le bot Discord ne peut pas se connecter (jeton de bot erroné)"
+        "discord_wrong_bot_token": "Le bot Discord ne peut pas se connecter (jeton de bot erroné)",
+        "discord_no_permission": "Erreur de permission Discord , Merci d'essayer d'enlever le bot et de le re ajouter sur le serveur."
     },
     "_address": {
         "labels": {
@@ -718,7 +722,8 @@
         "shopCheckout": "Vérifier",
         "legal": "Légal",
         "log": "Log",
-        "notifications": "Notifications"
+        "notifications": "Notifications",
+        "serverDashboard": "Tableau de bord du serveur"
     },
     "_warning": {
         "title": "Avertissements",
@@ -760,7 +765,7 @@
             "toggleStatus": "Statut basculé.",
             "addedThread": "Fil créé."
         },
-        "showClosed": "Ferme ticket"
+        "showClosed": "Afficher les tickets fermés"
     },
     "_server": {
         "labels": {
@@ -780,7 +785,10 @@
             "editSuccess": "Serveur modifié avec succès.",
             "deleteSuccess": "Serveur supprimé avec succès."
         },
-        "deleteBundleConfirmationText": "Cela supprimera les objets référencés à ce lot (par exemple, les récompenses)"
+        "deleteBundleConfirmationText": "Cela supprimera les objets référencés à ce lot (par exemple, les récompenses)",
+        "type": {
+            "DISCORD": ""
+        }
     },
     "_server_exception": {
         "begin_smaller_end": "La date de début doit être inférieur à la date de fin"
@@ -966,7 +974,7 @@
     "communityName": "Nom de la communauté",
     "submit": "Soumettre",
     "serverStatus": "État du serveur",
-    "save": "Sauver",
+    "save": "Enregistrer",
     "warnings": "Avertissements",
     "bans": "Bannissements",
     "enable": "Activé",
@@ -1001,5 +1009,8 @@
     "date": "Date",
     "message": "Message",
     "log": "Log",
-    "navigation": "Navigation"
+    "navigation": "Navigation",
+    "_serverDashboard": {
+        "noUsersFound": "Aucun utilisateur trouvé"
+    }
 }
