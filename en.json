@@ -866,7 +866,8 @@
     }
   },
   "_serverDashboard": {
-    "noUsersFound": "No Users Found"
+    "noUsersFound": "No users found.",
+    "selectAUser": "Select a user to see details."
   },
   "update": "Update",
   "recurring": "Recurring",
