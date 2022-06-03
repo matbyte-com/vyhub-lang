@@ -30,7 +30,8 @@
             "admin": "Admin",
             "registered_on": "Registriert am:",
             "membershipEndDescription": "Leer lassen für unbegrenzte Dauer",
-            "removeAdminTitle": "Admin entfernen?"
+            "removeAdminTitle": "Admin entfernen?",
+            "credits": "Credits"
         },
         "messages": {
             "adminSuccessfullyRemoved": "Admin erfolgreich entfernt",
@@ -72,7 +73,11 @@
             "bundleDescription": "Leer lassen für globalen Bann"
         },
         "messages": {
-            "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}"
+            "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}",
+            "banDeleted": "Ban gelöscht",
+            "banEdited": "Ban bearbeitet",
+            "banToggled": "Ban status geändert",
+            "banAdded": "Ban erstellt"
         }
     },
     "_serverbundle": {
@@ -102,7 +107,31 @@
             "cancelPurchase": "Kauf abbrechen",
             "cart": "Einkaufswagen",
             "invoiceLogoURL": "Rechnungslogo URL",
-            "invoiceLogoURLDetails": "URL für ein Logo, welches auf der Rechnung angezeigt wird."
+            "invoiceLogoURLDetails": "URL für ein Logo, welches auf der Rechnung angezeigt wird.",
+            "applyCoupon": "Gutschein anwenden",
+            "couponCode": "Gutscheincode",
+            "tax": "Mehrwertsteuer",
+            "taxRules": "Mehrwertsteuer Regeln",
+            "subtotal": "Zwischensumme",
+            "checkout": "Kasse",
+            "payment": "Zahlung",
+            "paymentId": "Zahlungs ID",
+            "total": "Gesamt",
+            "businessAddress": "Geschäftsadresse",
+            "credits": "Credits",
+            "purchaseNow": "Jetzt Kaufen",
+            "orderOverview": "Bestellübersicht",
+            "cartTotal": "Gesamtpreis",
+            "defaultCurrency": "Standardwährung",
+            "unfinishedPurchase": "Unvollendeter Kauf",
+            "billingAddress": "Rechnungsadresse",
+            "loginToBuy": "Melde dich an, um dieses Paket zu kaufen",
+            "taxAllowUnknownDescription": "Wenn deaktiviert, sind Käufe aus Ländern, in denen keine Steuerregel konfiguriert ist, nicht möglich.",
+            "enableDonationGoalDescription": "Spendenziel Komponente angezeigt auf der Startseite (News)",
+            "admin": "Shop Admin",
+            "addToCart": "Zum Warenkorb hinzufügen",
+            "removeAllPackets": "Entferne alle Pakete",
+            "checkoutCheckboxes": "Kontrollkästchen Kasse"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -118,7 +147,23 @@
             "noAddressSpecified": "Adresse noch nicht angegeben.",
             "clearCartSuccess": "Alle Pakete erfolgreich aus dem Warenkorb entfernt.",
             "couponApplySuccess": "Der Coupon wurde erfolgreich angewendet.",
-            "couponRemoveSuccess": "Coupon erfolgreich entfernt."
+            "couponRemoveSuccess": "Coupon erfolgreich entfernt.",
+            "confirmCouponPayment": "Bitte gib deinen {gateway_name} Code ein. Die Zahlung wird dann manuell von einem Teammitglied genehmigt.",
+            "startingPaymentFailed": "Beim Starten der Zahlung ist ein Fehler aufgetreten. Bitte versuche es erneut oder verwende eine andere Zahlungsmethode!",
+            "paymentActionFailed": "Beim Weiterleiten auf die Zahlungsseite ist ein Fehler aufgetreten. Bitte versuche es erneut oder verwende eine andere Zahlungsmethode! Fehlermeldung: {message}",
+            "noOngoingPurchase": "Es gibt einen laufenden Kauf. Bitte gehe zur Kasse.",
+            "paymentCancelled": "Diese Zahlung wurde abgebrochen. Du kannst es im Warenkorb erneut versuchen.",
+            "paymentSuccess": "Die Zahlung wurde erfolgreich abgeschlossen. Die gekauften Pakete wurden deinem Account zugeordnet.",
+            "paymentProcessing": "Die Zahlung wurde genehmigt und wird in Kürze abgeschlossen. Bitte warte noch einige Minuten auf dieser Seite, während die Zahlungs verarbeitet wird.",
+            "unfinishedPurchase": "Es gibt einen laufenden Kauf, der noch nicht abgeschlossen ist.",
+            "purchaseCancelledSuccess": "Der Kauf wurde abgebrochen.",
+            "couponNotApplied": "Der Gutschein konnte auf kein Paket im Einkaufswagen angewendet werden.",
+            "includesVAT": "Enthält {tax_rate} % Mehrwertsteuer.",
+            "selectBillingAddressFirst": "Bitte wähle zuerst eine Rechnungsadresse.",
+            "selectEmailFirst": "Bitte aktualisiere zuerst deine E-Mail-Adresse",
+            "cancelPurchaseConfirmation": "Angefangene Zahlungen werden abgebrochen. Alle eingegebenen Gutscheine gehen verloren. Die Stornierung eines Kaufs kann nicht rückgängig gemacht werden.",
+            "paymentPending": "Diese Zahlung steht noch aus. Bitte vervollständige sie im Warenkorb.",
+            "paymentFailed": "Während des Zahlungsvorgangs ist ein Fehler aufgetreten. Bitte versuche, die Zahlung neu zu starten."
         },
         "purchaseStatus": {
             "open": "Offen",
@@ -127,7 +172,8 @@
             "refunded": "Zurückerstattet",
             "revoked": "Widerrufen",
             "enabled": "Aktiv",
-            "disabled": "Abgelaufen"
+            "disabled": "Abgelaufen",
+            "recurring": "Wiederkehrend"
         }
     },
     "_errors": {
@@ -141,14 +187,34 @@
         "packet_already_in_cart": "Dieses Paket ist bereits in deinem Warenkorb.",
         "packet_not_purchasable": "Du kannst dieses Paket nicht kaufen.",
         "cart_full": "Dein Warenkorb ist voll.",
-        "not_found": "Nicht gefunden."
+        "not_found": "Nicht gefunden.",
+        "packet_relation_violated": "Dieses Paket verletzt eine Paketbeziehung mit einem anderen Paket: {relation_type} {packet_title}.",
+        "missing_properties": "Du hast nicht alle erforderlichen Berechtigungen: {properties}",
+        "no_permissions": "Berechtigungsfehler: {msg}",
+        "unauthorized": "Dazu musst du eingeloggt sein.",
+        "wrong_currency": "Du kannst keine Pakete mit unterschiedlichen Währungen in deinem Warenkorb haben."
     },
     "_navigation": {
         "externalLink": "Externer Link",
         "enabled": "Aktiviert",
         "type": "Typ",
         "link": "Link",
-        "titleAlreadyUsed": "Titel bereits verwendet!"
+        "titleAlreadyUsed": "Titel bereits verwendet!",
+        "messages": {
+            "addedLink": "Navigationslink erstellt.",
+            "updatedLinkOrder": "Navigationsreihenfolge aktualisiert.",
+            "removedLink": "Navigationslink gelöscht.",
+            "editedLink": "Navigationslink bearbeitet."
+        },
+        "linkTitle": "Title",
+        "htmlContent": "HTML Inhalt",
+        "title": "Navigation",
+        "addNavLink": "Navigationslink hinzufügen",
+        "editNavLink": "Navigationslink bearbeiten",
+        "noHtmlGiven": "Bitte geben Sie HTML ein!",
+        "deleteDefaultLink": "Standardlink kann nicht gelöscht werden",
+        "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder",
+        "cantFindLink": "Der Index des zu aktualisierenden Navigationslinks konnte nicht gefunden werden"
     },
     "_gateway": {
         "labels": {
@@ -248,7 +314,10 @@
             "city": "Stadt",
             "state": "Staat",
             "zip_code": "Postleitzahl",
-            "selectAddress": "Adresse auswählen"
+            "selectAddress": "Adresse auswählen",
+            "add": "Adresse hinzufügen",
+            "change": "Adresse bearbeiten",
+            "vat_number": "Umsatzsteuer-Identifikationsnummer hinzufügen"
         },
         "messages": {
             "selectedSuccess": "Adresse erfolgreich ausgewählt.",
@@ -280,7 +349,20 @@
             "details": "Paket Details",
             "relationRequires": "Erfordert das ausgewählte Paket für einen Kauf",
             "relationNotCompatible": "Nicht kompatibel mit dem ausgewählten Paket.",
-            "end": "Ende"
+            "end": "Ende",
+            "relationDisables": "Deaktiviert das ausgewählte Paket beim Kauf",
+            "imageDetail": "Eine HTTPS-URL zum Paketbild.",
+            "editBundle": "Serverbundle bearbeiten",
+            "expires": "Läuft ab",
+            "recurringDetail": "Ein Abonnement wird mit dem im Feld „Aktiv für“ angegebenen Intervall erstellt.",
+            "limitedPayments": "Begrenzte Zahlungen",
+            "relationUpgrades": "Kann verwendet werden, um das ausgewählte Paket zu aktualisieren.",
+            "deleteAppliedPacket": "Angewandtes Paket löschen",
+            "abstractDetail": "Kurze Stichpunkte, die die Hauptmerkmale des Pakets beschreiben.",
+            "abstract": "Abstrakt",
+            "packetRelations": "Paketbeziehungen",
+            "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv sein soll. Lass dieses Feld für Pakete frei, die nach einiger Zeit nicht deaktiviert werden sollen. Wenn die wiederkehrende Option aktiviert ist, wird dieser Wert als Abonnementintervall verwendet.",
+            "editRewards": "Prämien bearbeiten"
         },
         "messages": {
             "sortOnlyWithCategory": "Pakete können nur sortiert werden, wenn eine Kategorie ausgewählt ist.",
@@ -309,7 +391,9 @@
                 "disable": "Ausführen, wenn das angewandte Paket inaktiv wird",
                 "direct": "Direkt ausführen",
                 "spawn": "Ausführen beim Spawnen",
-                "death": "Ausführen beim Tod"
+                "death": "Ausführen beim Tod",
+                "connect": "Beim Verbinden ausführen",
+                "disconnect": "Beim Trennen ausführen"
             },
             "once": "Nur einmal ausführen (pro Paket)",
             "edit": "Belohnung bearbeiten",
@@ -317,13 +401,17 @@
             "_types": {
                 "command": "Ausführen eines Befehls auf dem Server",
                 "credits": "Credits zum Konto des Käufers hinzufügen",
-                "membership": "Gruppenmitgliedschaft hinzufügen"
-            }
+                "membership": "Gruppenmitgliedschaft hinzufügen",
+                "script": "Ausführen eines Skripts auf dem/den Server(n)"
+            },
+            "addAppliedReward": "Angewendete Prämie hinzufügen"
         },
         "messages": {
             "createSuccess": "Belohnung erfolgreich erstellt.",
             "editSuccess": "Belohnung erfolgreich bearbeitet.",
-            "deleteSuccess": "Belohnung erfolgreich gelöscht."
+            "deleteSuccess": "Belohnung erfolgreich gelöscht.",
+            "deleteAppliedRewardSuccess": "Angewendete Prämie erfolgreich gelöscht",
+            "createAppliedRewardSuccess": "Angewendete Prämie erfolgreich hinzugefügt"
         },
         "status": {
             "OPEN": "Offen",
@@ -413,15 +501,25 @@
     "_user": {
         "type": {
             "STEAM": {
-                "name": "Steam"
+                "name": "Steam",
+                "info": "Die berühmte Gaming-Plattform."
             },
             "DISCORD": {
-                "name": "Discord"
+                "name": "Discord",
+                "info": "Dein Platz zum Reden und Abhängen."
             },
             "MINECRAFT": {
                 "name": "Minecraft",
                 "info": "Baue deine eigene Welt."
+            },
+            "CENTRAL": {
+                "name": "VyHub Central",
+                "info": "Hole dir deine persönliche Dashboard URL."
             }
+        },
+        "labels": {
+            "newUsers": "Neue Nutzer",
+            "authRequestDescription": "Führen Sie den folgenden Befehl auf einem {type}-Server aus, um sich anzumelden:"
         }
     },
     "_log": {
@@ -433,7 +531,24 @@
             "discord": "Discord",
             "server": "Server"
         },
-        "config_edit": "Allgemeine Konfiguration editiert."
+        "config_edit": "Allgemeine Konfiguration editiert.",
+        "ban_edit_status": "Status zu {status} geändert.",
+        "ban_edit_length": "Enddatum in {endDate} geändert.",
+        "requirement_set_add": "Anforderungssatz {requirementSetName} {requirementSetId} hinzugefügt.",
+        "requirement_set_edit": "Anforderungssatz {requirementSetName} {requirementSetId} bearbeitet.",
+        "requirement_add": "Anforderung {requirementId} hinzugefügt.",
+        "news_edit": "Nachricht bearbeitet {newsSubject} {newsId}.",
+        "news_deleted": "Nachricht gelöscht {newsSubject} {newsId}.",
+        "news_add": "Nachricht hinzugefügt {newsSubject} {newsId}.",
+        "user_log_entry_add": "{message}",
+        "discord_wrong_bot_token": "Discord-Bot kann sich nicht anmelden (Bot-Token falsch)",
+        "social_config_edit": "Eisntellung der sozialen Autorisierung bearbeitet.",
+        "discord_no_permission_for_server": "Der Discord-Bot kann die Gilde nicht abrufen {guild_id}.",
+        "discord_no_permission_to_target_group": "Der Discord-Bot kann Zielgruppe nicht ändern.",
+        "group_team_member_edited": "Gruppe ist Teammitglied bearbeitet.",
+        "requirement_set_deleted": "Anforderungssatz gelöscht {requirementSetName} {requirementSetId}.",
+        "legal_edit": "Rechtliches bearbeitet.",
+        "discord_no_permission": "Discord-Berechtigungsfehler. Bitte versuchen Sie, den Bot erneut zur Gilde hinzuzufügen."
     },
     "port": "Port",
     "disabled": "Deaktiviert",
@@ -611,5 +726,30 @@
         "ban_show": "Erlaubt Nutzer Bans in bestimmten Serverbundle anzuschauen",
         "ban_edit": "Erlaubt Nuter Bans in bestimmten Serverbundle zu bearbeiten",
         "bundle_edit": "Hinzufügen und Bearbeiten von Serverbundles"
+    },
+    "_legal": {
+        "messages": {
+            "editedLegal": "Rechtliches bearbeitet."
+        },
+        "descriptionText": "In den meisten Ländern ist es zwingend erforderlich, zumindest die Kontaktdaten, Nutzungsbedingungen und eine Datenschutzerklärung des Website-Betreibers anzugeben. Eine beispielhafte Datenschutzerklärung findest du in den Dokumenten.",
+        "showLegalReminder": "Bitte setze die AGB in den Einstellungen!"
+    },
+    "_forms": {
+        "labels": {
+            "iconDescription": "Verfügbare Symbole"
+        }
+    },
+    "_packetCategory": {
+        "labels": {
+            "create": "Paketkategorie erstellen",
+            "delete": "Paketkategorie löschen",
+            "imageDetail": "Eine HTTPS-URL zum Kategoriebild.",
+            "edit": "Paketkategorie bearbeiten"
+        },
+        "messages": {
+            "createSuccess": "Paketkategorie erfolgreich erstellt.",
+            "deleteSuccess": "Paketkategorie erfolgreich gelöscht.",
+            "editSuccess": "Paketkategorie erfolgreich bearbeitet."
+        }
     }
 }
