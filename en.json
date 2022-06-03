@@ -30,7 +30,8 @@
       "admin": "Admin",
       "registered_on": "Registered on:",
       "membershipEndDescription": "Leave empty for unlimited duration",
-      "removeAdminTitle": "Remove admin?"
+      "removeAdminTitle": "Remove admin?",
+      "credits": "Credits"
     },
     "messages": {
       "adminSuccessfullyRemoved": "Admin successfully removed",
