@@ -328,7 +328,8 @@
       "design": "Design",
       "warning": "Warning",
       "discord": "Discord",
-      "server": "Server"
+      "server": "Server",
+      "faq": "FAQ"
     },
     "edit": "Edited {name}: {key} = {value}",
     "object_edit": "Edited {classname} with id {id}: {key} = {value}.",
