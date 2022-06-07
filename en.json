@@ -135,6 +135,7 @@
     "requirements": "Requirements",
     "showTicket": "Enable Ticket System",
     "showTeam": "Enable Team Page",
+    "showFaq": "Enable FAQ Page",
     "language": "Language",
     "languageNewDescriptionText": "Help us translate to your language",
     "labels": {
@@ -730,7 +731,8 @@
     "ticket": "Ticket",
     "team": "Team",
     "notificationLink": "Notification",
-    "serverDashboard":  "Server Dashboard"
+    "serverDashboard":  "Server Dashboard",
+    "faq": "FAQ"
   },
   "_warning": {
     "title": "Warnings",
