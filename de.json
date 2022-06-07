@@ -219,10 +219,18 @@
     "_gateway": {
         "labels": {
             "coupon": "Coupon (manuelle Bestätigung)",
-            "webhookURL": "Webhook URL"
+            "webhookURL": "Webhook URL",
+            "paypal": "Paypal",
+            "stripe": "Stripe",
+            "paysafecard": "Paysafecard",
+            "create": "Zahlungsmethode Erstellen",
+            "edit": "Zahlungsmethode Editieren"
         },
         "messages": {
-            "formAttributeChangeExplanation": "Die unten stehenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird."
+            "formAttributeChangeExplanation": "Die unten stehenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird.",
+            "createSuccess": "Zahlungsmethode erfolgreich erstellt.",
+            "deleteSuccess": "Zahlungsmethode erfolgreich gelöscht.",
+            "editSuccess": "Zahlungsmethode erfolgreich editiert."
         }
     },
     "_notification": {
@@ -241,15 +249,40 @@
             "ban": "Bann",
             "ticket": "Ticket",
             "warning": "Warnung",
-            "shop": "Shop"
+            "shop": "Shop",
+            "news": "Neuigkeiten"
         },
-        "packet_applied": "Paket {packet_title} wurde aktiviert!"
+        "packet_applied": "Paket {packet_title} wurde aktiviert!",
+        "browserNotifications": "Browser-Benachrichtigungen",
+        "messages": {
+            "readSuccess": "Lesestatus erfolgreich geändert"
+        },
+        "news_new": "Neuigkeit erstellt: {newsSubject}.",
+        "ticket_new": "{username} hat ein Ticket erstellt: {title}",
+        "ticket_update": "Neuer Beitrag im Ticket: {title}",
+        "timeAgo": "vor {time}",
+        "purchase_cancelled": "Dein Kauf in Höhe von {amount} wurde storniert!",
+        "purchase_finished": "Dein Kauf in Höhe von {amount} wurde abgeschlossen!",
+        "warning_new": "Es wurde eine neue Verwarnung erstellt. Grund: {reason}"
     },
     "_warning": {
         "ttlPlaceholder": "Dauer (in Tagen)",
         "countTillBanDesc": "0 für KEINE automatischen Banns.",
         "banLength": "Dauer des automatischen Banns (Minuten)",
-        "reason": "Grund"
+        "reason": "Grund",
+        "messages": {
+            "addedWarning": "Verwarnung erstellt.",
+            "deletedWarning": "Verwarnung gelöscht.",
+            "toggledWarning": "Verwarnung Status geändert.",
+            "editedSettings": "Verwarnungseinstellungen geändert."
+        },
+        "title": "Verwarnungen",
+        "ttl": "Verwarndauer (tage)",
+        "ttlDescription": "Zeit, bis die Verwarnung abläuft",
+        "countTillBan": "Anzahl der Verwarnungen bis zum automatischen Bann",
+        "settingFormDesc": "Benutzer werden automatisch gesperrt, wenn sie die angegebene Anzahl von aktiven Warnungen erreichen.",
+        "add": "Verwarnung hinzufügen",
+        "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}"
     },
     "_ticket": {
         "tickets": "Tickets",
@@ -265,14 +298,31 @@
         "readMore": "Mehr lesen",
         "open": "Offen",
         "closed": "Geschlossen",
-        "showClosed": "Geschlossene anzeigen"
+        "showClosed": "Geschlossene anzeigen",
+        "lastUpdated": "Letztes Update",
+        "addPost": "Beitrag hinzufügen",
+        "messages": {
+            "addedPost": "Beitrag erstellt.",
+            "toggleStatus": "Status geändert.",
+            "addedThread": "Thread erstellt."
+        }
     },
     "_import": {
         "gextension": {
             "labels": {
                 "basicData": "Grundlegende Daten",
                 "url": "GExtension URL",
-                "furtherData": "Weitere Daten"
+                "furtherData": "Weitere Daten",
+                "groupServerbundleUser": "Gruppen, Serverbundle, Nutzer",
+                "gexPacket": "GExtension Paket",
+                "urlDescription": "URL zu Ihrer GExtension-Website ohne index.php. Beispiel: https://mycommunity.com/gextension/",
+                "apiKeyDescription": "Kopiere deinen API-Schlüssel den GExtension Einstellungen.",
+                "packetTranslations": "Paketübersetzung",
+                "excludedRewards": "Ausgeschlossene Prämien"
+            },
+            "messages": {
+                "import1Description": "VyHub ist nun bereit, die ersten Objekte zu importieren: Gruppen, Serverbundle und Benutzer. Achte darauf, den Importprozess in dieser Reihenfolge zu starten.",
+                "import2Description": "Du kannst nun die unten aufgeführten Objekte importieren. Die Reihenfolge ist nicht relevant."
             }
         },
         "messages": {
@@ -288,16 +338,32 @@
         "labels": {
             "unknownStatus": "Status Unbekannt",
             "create": "Server erstellen",
-            "edit": "Server bearbeiten"
-        }
+            "edit": "Server bearbeiten",
+            "keepReservedSlotsFree": "Reservierte Slots freihalten",
+            "numberOfReservedSlots": "Anzahl an reservierten Slots",
+            "hideReservedSlots": "Reservierte Slots ausblenden",
+            "discordEnterIdAsAddress": "Gib deine Gilden-ID als Serveradresse ein. Gib deine Lieblingszahl als Port ein.",
+            "addBot": "Bot zu deiner Gilde hinzufügen.",
+            "discordApplicationIdNeeded": "Discord-Anwendung erstellen.",
+            "guildIdDocs": "Gilden-ID finden."
+        },
+        "type": {
+            "GMOD": "Garry's Mod",
+            "DISCORD": "Discord",
+            "MINECRAFT": "Minecraft"
+        },
+        "deleteBundleConfirmationText": "Dadurch werden Objekte gelöscht, die auf dieses Serverbundle verweisen (z. B. Belohnungen)"
     },
     "_personalSettings": {
         "emailNotifications": "E-Mail Benachrichtigungen",
         "title": "Persönliche Einstellungen",
         "email": "E-Mail",
         "messages": {
-            "emailUpdated": "E-Mail erfolgreich aktualisiert"
-        }
+            "emailUpdated": "E-Mail erfolgreich aktualisiert",
+            "emailNotificationSettingsToggled": "Benachrichtigungseinstellungen erfolgreich aktualisiert"
+        },
+        "enableEmailNotifications": "E-Mail Benachrichtigungen aktivieren",
+        "noEmailSpecified": "Noch keine E-Mail angegeben"
     },
     "select": "Auswählen",
     "message": "Nachricht",
@@ -380,12 +446,20 @@
     "_home": {
         "messages": {
             "messageEmpty": "Bitte gib eine Nachricht ein",
-            "deleteSuccess": "Nachrichten erfolgreich gelöscht"
-        }
+            "deleteSuccess": "Nachrichten erfolgreich gelöscht",
+            "addSuccess": "Nachricht erfolgreich hinzugefügt",
+            "editSuccess": "Nachricht erfolgreich bearbeitet"
+        },
+        "messageTypePinned": "Nachricht des Tages",
+        "addNews": "Neue Nachricht",
+        "messageType": "Typ",
+        "messageTypeNews": "Nachricht",
+        "messageSubject": "Thema",
+        "editNews": "Nachricht bearbeiten"
     },
     "_reward": {
         "labels": {
-            "create": "Belohnung erstellen",
+            "create": "Prämien erstellen",
             "onEvent": "Ausführen bei Ereignis",
             "_events": {
                 "disable": "Ausführen, wenn das angewandte Paket inaktiv wird",
@@ -396,7 +470,7 @@
                 "disconnect": "Beim Trennen ausführen"
             },
             "once": "Nur einmal ausführen (pro Paket)",
-            "edit": "Belohnung bearbeiten",
+            "edit": "Prämien bearbeiten",
             "onceFromAll": "Nur auf einem Server ausführen",
             "_types": {
                 "command": "Ausführen eines Befehls auf dem Server",
@@ -496,7 +570,8 @@
         "permissionLevel": "Rechte Level",
         "formulaTypeError": "Überprüfe ob alle benutzen Id's vorhanden sind",
         "editFormula": "Formula Bearbeiten",
-        "formula": "Form"
+        "formula": "Form",
+        "showFaq": "FAQ aktivieren"
     },
     "_user": {
         "type": {
@@ -529,7 +604,14 @@
             "packet": "Paket",
             "group": "Gruppe",
             "discord": "Discord",
-            "server": "Server"
+            "server": "Server",
+            "faq": "FAQ",
+            "shop": "Shop",
+            "user": "Nutzer",
+            "news": "Neuigkeiten",
+            "requirement": "Anforderung",
+            "design": "Design",
+            "warning": "Verwarnung"
         },
         "config_edit": "Allgemeine Konfiguration editiert.",
         "ban_edit_status": "Status zu {status} geändert.",
@@ -574,8 +656,30 @@
         "types": {
             "DATE": "Datum",
             "USER_SELF": "Benutzer Selbst",
-            "PROPERTY": "Eigenschaft"
-        }
+            "PROPERTY": "Eigenschaft",
+            "GROUP_MEMBER": "Gruppenmitglied",
+            "PERMISSION_LEVEL": "Berechtigungswert",
+            "PERMISSION_LEVEL_SB": "Berechtigungswert (in Serverbundle)",
+            "PROPERTY_SB": "Berechtigung (in Serverbundle)",
+            "USER_ATTRIBUTE": "Nutzer Attribut",
+            "PACKET": "Packet"
+        },
+        "messages": {
+            "addedSet": "Berechtigungsset hinzugefügt",
+            "addedRequirement": "Vorraussetzung hinzugefügt",
+            "editedSet": "Berechtigungsset bearbeitet",
+            "editedRequirement": "Berechtigungsset bearbeitet",
+            "deletedSet": "Berechtigungsset gelöscht",
+            "deletedRequirement": "Vorraussetzung gelöscht",
+            "editedFormula": "Formel editiert"
+        },
+        "requirementOperator": "Operator",
+        "permissionLevel": "Brechtigungsstufe",
+        "requirementSet": "Anforderungsset",
+        "propertyName": "Berechtigungsname",
+        "attributeName": "Attributsname",
+        "attributeValue": "Attributswert",
+        "date": "Datum"
     },
     "_discount": {
         "labels": {
@@ -603,15 +707,25 @@
         "log": "Log",
         "ticket": "Ticket",
         "team": "Team",
-        "notificationLink": "Benachrichtigung"
+        "notificationLink": "Benachrichtigung",
+        "shopCheckout": "Kasse",
+        "shopCart": "Warenkorb",
+        "serverDashboard": "Server Dashboard",
+        "faq": "FAQ",
+        "about": "Über",
+        "dashboard": "Dashboard",
+        "shopAdministration": "Shop - Administration",
+        "legal": "Rechtliches"
     },
     "_api": {
         "labels": {
-            "createKey": "Schlüssel erstellen"
+            "createKey": "Schlüssel erstellen",
+            "limitToServerbundle": "Auf Serverbundle beschränken"
         },
         "messages": {
             "keyCreated": "Neuer Schlüssel erstellt:",
-            "keyCreateSuccess": "Schlüssel erfolgreich erstellt."
+            "keyCreateSuccess": "Schlüssel erfolgreich erstellt.",
+            "keyRevokeSuccess": "Schlüssel erfolgreich widerrufen."
         }
     },
     "_team": {
@@ -751,5 +865,136 @@
             "deleteSuccess": "Paketkategorie erfolgreich gelöscht.",
             "editSuccess": "Paketkategorie erfolgreich bearbeitet."
         }
-    }
+    },
+    "_property": {
+        "descriptions": {
+            "warning_delete": "Verwarnungen löschen",
+            "nav_show": "Navigationseinstellungen anzeigen",
+            "user_create": "Einen fremden Benutzer erstellen (nur API)",
+            "user_edit": "Details von anderen Benutzern bearbeiten",
+            "user_ignore_target_level": "Ermöglicht die Bearbeitung eines Benutzers unabhängig von seiner Stufe und erlaubt das Hinzufügen von Gruppenmitgliedschaften.",
+            "user_morph": "Erlauben, als ein anderer Benutzer zu handeln. Wird nur für einige Endpunkte unterstützt.",
+            "user_attribute_definition_edit": "Bearbeiten von Benutzerattributsdefinitionen.",
+            "user_attribute_edit": "Bearbeiten von Benutzerattributsdaten.",
+            "server_edit": "Verwalten von Servern",
+            "server_show": "Servereinstellungen anzeigen",
+            "bundle_edit": "Verwalten von Serverbundlen",
+            "theme_show": "Themeneinstellungen anzeigen",
+            "theme_edit": "Theme-Einstellungen bearbeiten",
+            "ban_show": "Banns anzeigen",
+            "ban_edit": "Bann bearbeiten",
+            "ban_delete": "Banns löschen",
+            "ban_global": "Erstellen von globalen Banns",
+            "warning_show": "Verwarnungen anzeigen",
+            "warning_edit": "Verwarnungen bearbeiten",
+            "address_show": "Adressen von anderen Benutzern anzeigen.",
+            "group_edit": "Gruppen verwalten",
+            "nav_edit": "Navigationseinstellungen bearbeiten",
+            "news_edit": "Neuigkeiten bearbeiten"
+        },
+        "categories": {
+            "general": "Allgemein",
+            "bans_and_warnings": "Banns und Verwarnungen",
+            "other": "Andere"
+        }
+    },
+    "paymentGateways": "Zahlungsmethoden",
+    "_faq": {
+        "update": "Reihenfolge bearbeiten",
+        "reset": "Reihenfolge zurücksetzen",
+        "addQuestionDialog": "Frage hinzufügen",
+        "editQuestionDialog": "Frage bearbeiten",
+        "messages": {
+            "contentEmpty": "Bitte gib einen Inhalt ein",
+            "addSuccess": "Frage erstellt. ",
+            "editSuccess": "Frage bearbeitet.",
+            "deleteSuccess": "Frage gelöscht.",
+            "updatedOrder": "Reihenfolge geändert."
+        },
+        "title": "FAQ",
+        "add": "Frage hinzufügen",
+        "formTitle": "Titel",
+        "formContent": "Inhalt",
+        "html": "HTML ist in diesem Feld erlaubt"
+    },
+    "unexpectedError": "Unerwarteter Fehler",
+    "automatic": "Automatisch",
+    "discounts": "Rabattte",
+    "maxUsages": "Maximale Nutzungszahl",
+    "environment": "Umgebung",
+    "perDay": "Pro Tag",
+    "perMonth": "Pro Monat",
+    "serverbundle": "Serverbundle",
+    "legal": "Rechtliches",
+    "confirm": "Bestätigen",
+    "_taxRule": {
+        "labels": {
+            "edit": "Steuerregel bearbeiten",
+            "create": "Steuerregel erstellen"
+        },
+        "messages": {
+            "createSuccess": "Steuerregel erfolgreich erstellt.",
+            "deleteSuccess": "Steuerregel erfolgreich gelöscht.",
+            "allCountriesDetail": "Leer lassen, um alle Länder zu erfassen.",
+            "infoDetail": "Wird während der Kaufabwicklung und auf der Rechnung angezeigt."
+        }
+    },
+    "begin": "Beginn",
+    "_authorization": {
+        "title": "Autorisierung",
+        "discord": "Discord",
+        "discordOauthClientId": "Client ID",
+        "discordOauthClientSecret": "Client Secret",
+        "discordBotToken": "Bot Token",
+        "redirectUrl": "Redirect URL",
+        "messages": {
+            "editedConfig": "Konfiguration bearbeitet"
+        }
+    },
+    "_serverDashboard": {
+        "selectAUser": "Wähle einen Nutzer, um Details zu sehen.",
+        "noUsersFound": "Keine Nutzer gefunden."
+    },
+    "perYear": "Pro Jahr",
+    "type": "Typ",
+    "categories": "Kategorien",
+    "tax": "Steuer",
+    "all": "Alle",
+    "navigation": "Navigation",
+    "rewards": "Prämien",
+    "relations": "Beziehungen",
+    "user": "Nutzer",
+    "link_account": "Account verknüpfen",
+    "icon": "Icon",
+    "command": "Kommando",
+    "script": "Script",
+    "report": "Melden",
+    "apiKeys": "API Keys",
+    "mappings": "Zuordnungen",
+    "faq": "FAQ",
+    "_server_exception": {
+        "begin_smaller_end": "Das Anfangsdatum muss nach dem Enddatum liegen."
+    },
+    "_creditHistory": {
+        "messages": {
+            "addedTransaction": "Transaktion hinzugefügt"
+        },
+        "addTransaction": "Transaktion hinzufügen"
+    },
+    "sales": "Verkäufe",
+    "change": "Bearbeiten",
+    "code": "Code",
+    "none": "None",
+    "warnings": "Verwarnungen",
+    "bans": "Banns",
+    "redirect": "Weiterleitung",
+    "paymentMethods": "Zahlungsmethoden",
+    "gateway": "Gateway",
+    "apiKey": "API Key",
+    "value": "Wert",
+    "totals": "Gesamt",
+    "dashboard": "Dashboard",
+    "bundle": "Bundle",
+    "import": "Import",
+    "subtitle": "Untertitel"
 }
