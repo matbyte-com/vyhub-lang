@@ -255,6 +255,7 @@
     "packet_not_purchasable": "You cannot purchase this packet.",
     "cart_full": "Your cart is full.",
     "not_found": "Not found.",
+    "illegal_value": "Invalid value: {msg}",
     "missing_properties": "You do not have all required properties: {properties}",
     "no_permissions": "Permission error: {msg}",
     "unauthorized": "You must be logged in to do this.",
