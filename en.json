@@ -28,7 +28,8 @@
       "bansAndWarnings": "Bans and Warnings",
       "userLog": "User Log",
       "admin": "Admin",
-      "registered_on": "Registered on:",
+      "registered_on": "Registered on",
+      "last_online": "Last online",
       "membershipEndDescription": "Leave empty for unlimited duration",
       "removeAdminTitle": "Remove admin?",
       "credits": "Credits"
