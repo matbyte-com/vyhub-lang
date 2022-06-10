@@ -255,6 +255,7 @@
     "packet_already_in_cart": "This packet is already in your cart.",
     "packet_not_purchasable": "You cannot purchase this packet.",
     "cart_full": "Your cart is full.",
+    "payment_error": "Payment Error: {msg}",
     "not_found": "Not found.",
     "illegal_value": "Invalid value: {msg}",
     "missing_properties": "You do not have all required properties: {properties}",
