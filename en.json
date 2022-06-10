@@ -904,7 +904,9 @@
     "categories": {
       "general": "General",
       "bans_and_warnings": "Bans and Warnings",
-      "other": "Other"
+      "other": "Other",
+      "user": "User",
+      "shop": "Shop"
     },
     "descriptions": {
       "user_create": "Create a foreign user (API only)",
