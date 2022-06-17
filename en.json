@@ -12,7 +12,8 @@
       "add": "Add Group Membership",
       "edit": "Edit Group Membership",
       "endMembership": "End Membership",
-      "activeMemberships": "Active Memberships"
+      "activeMemberships": "Active Memberships",
+      "showPastMemberships": "Show past memberships"
     },
     "messages": {
       "membershipSuccessfullyAdded": "Membership successfully added"
