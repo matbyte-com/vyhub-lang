@@ -78,11 +78,9 @@
         "warningColor": "Color de advertencia",
         "backgroundColor": "Color de fondo",
         "darkmode": "Modo oscuro",
-        "backgroundUrl": "Imagen de fondo",
         "logoUrl": "Logotipo",
         "communityNameDescription": "Muestra el nombre de la comunidad en el encabezado",
         "logoWidth": "Ancho del logotipo",
-        "favicon": "Icono de favoritos",
         "messages": {
             "editedTheme": "Tema editado."
         },

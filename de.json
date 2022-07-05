@@ -39,13 +39,10 @@
         }
     },
     "_theme": {
-        "backgroundUrl": "Hintergrundbild",
         "showCommunityName": "Community Namen anzeigen",
         "primaryColor": "Primär-Farbe",
-        "logoUrl": "Logo Bild",
         "logoDescription": "Lade die Seite neu, wenn das Logo nicht korrekt dargestellt wird",
         "logoWidth": "Breite des Logos",
-        "favicon": "Favourisiertes icon",
         "showInformationFab": "Feedback Knopf anzeigen",
         "successColor": "Erfolg-Farbe",
         "errorColor": "Fehler-Farbe",
