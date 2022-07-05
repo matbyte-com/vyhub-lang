@@ -565,7 +565,7 @@
         "editNavLink": "Link bearbeiten",
         "editor": "Editor",
         "contentEmpty": "Leerer Inhalt",
-        "httpPlaceholder": "https://google.de",
+        "httpPlaceholder": "https://myurl.com",
         "logicFormula": "Logische Formel",
         "permissionLevel": "Rechte Level",
         "formulaTypeError": "Überprüfe ob alle benutzen Id's vorhanden sind",

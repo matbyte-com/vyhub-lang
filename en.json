@@ -80,7 +80,7 @@
   },
   "_theme": {
     "showInformationFab": "Show information fab",
-    "showInformationFabDescription": "Information fab in bottom right",
+    "showInformationFabDescription": "Information fab at bottom right",
     "primaryColor": "Primary Color",
     "successColor": "Success Color",
     "errorColor": "Error Color",
@@ -88,13 +88,13 @@
     "backgroundColor": "Background Color",
     "backgroundColorDescription": "Color is overwritten by background image",
     "darkmode": "Darkmode",
-    "backgroundUrl": "Background Image",
-    "logoUrl": "Logo Image",
+    "backgroundImageURL": "Background Image URL",
+    "logoURL": "Logo URL",
     "showCommunityName": "Show Community Name",
     "communityNameDescription": "Displays community name in header",
     "logoDescription": "Reload Page if logo is not displayed correctly",
     "logoWidth": "Logo Width",
-    "favicon": "Favicon",
+    "faviconURL": "Favicon URL",
     "messages": {
       "editedTheme": "Theme edited."
     }
@@ -120,7 +120,7 @@
     "editor": "Editor",
     "contentSanitizationWarning": "JavaScript is only allowed to be used by Admins. Otherwise it is going to be sanitized.",
     "contentEmpty": "Content is empty",
-    "httpPlaceholder": "https://google.de",
+    "httpPlaceholder": "https://myurl.com",
     "addRequirementSet": "Add Requirement Set",
     "editRequirementSet": "Edit Requirement Set",
     "addRequirement": "Add Requirement",
