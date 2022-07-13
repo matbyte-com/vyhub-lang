@@ -473,7 +473,8 @@
       "sortOnlyWithCategory": "Packets can only be sorted if a category is selected.",
       "addSuccess": "Packet successfully created.",
       "editSuccess": "Packet successfully edited.",
-      "deleteSuccess": "Packet successfully deleted."
+      "deleteSuccess": "Packet successfully deleted.",
+      "deleteWarning": "Caution! Deleting a packet also deletes all related applied packets, applied rewards and purchase items. Maybe disable the packet instead?"
     },
     "status": {
       "ENABLED": "Enabled",
@@ -495,6 +496,7 @@
   },
   "_reward": {
     "labels": {
+      "checkForReplacements": "Check the docs for available reward types and string replacements",
       "create": "Create Reward",
       "once": "Only execute once (per packet)",
       "onEvent": "Execute on event",
@@ -650,6 +652,7 @@
       "webhookURL": "Webhook URL"
     },
     "messages": {
+      "deleteWarning": "Caution! Deleting a payment gateway causes the deletion of all purchases and payments where the gateway has been used! This action can't be undone. Maybe disable it instead?",
       "createSuccess": "Payment gateway successfully created.",
       "deleteSuccess": "Payment gateway successfully deleted.",
       "editSuccess": "Payment gateway successfully edited.",
