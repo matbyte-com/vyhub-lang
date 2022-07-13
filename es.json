@@ -78,7 +78,6 @@
         "warningColor": "Color de advertencia",
         "backgroundColor": "Color de fondo",
         "darkmode": "Modo oscuro",
-        "logoUrl": "Logotipo",
         "communityNameDescription": "Muestra el nombre de la comunidad en el encabezado",
         "logoWidth": "Ancho del logotipo",
         "messages": {

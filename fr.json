@@ -27,7 +27,6 @@
         "warningColor": "Couleur d'avertissements",
         "backgroundColorDescription": "La couleur est écrasée par l'image d'arrière-plan",
         "darkmode": "Mode sombre",
-        "logoUrl": "Image du logo",
         "showCommunityName": "Afficher le nom de la communauté",
         "logoDescription": "Recharger la page si le logo ne s'affiche pas correctement",
         "logoWidth": "Largeur du logo",
