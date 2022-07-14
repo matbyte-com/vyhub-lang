@@ -900,11 +900,28 @@
     "formContent": "Content",
     "html": "HTML is allowed in this field.",
     "messages": {
-      "addSuccess": "FAQ question created. ",
+      "addSuccess": "FAQ question created.",
       "editSuccess": "FAQ question updated.",
       "deleteSuccess": "FAQ question deleted.",
       "updatedOrder": "FAQ order updated.",
       "contentEmpty": "Please enter a content"
+    }
+  },
+  "_advert": {
+    "title": "Adverts",
+    "add": "Add advert",
+    "update": "Update adverts order",
+    "reset": "Reset adverts order",
+    "formTitle": "Title",
+    "formContent": "Content",
+    "formEnabled": "Enable",
+    "addAdvertDialog": "Add advert",
+    "editAdvertDialog": "Edit advert",
+    "messages": {
+      "addSuccess": "Advert created.",
+      "deleteSuccess": "Advert deleted.",
+      "editSuccess": "Advert updated.",
+      "updatedOrder": "Advert order updated."
     }
   },
   "_property": {
@@ -1128,5 +1145,6 @@
   "redirect": "Redirect",
   "here": "here",
   "confirm": "Confirm",
-  "faq": "FAQ"
+  "faq": "FAQ",
+  "adverts": "Adverts"
 }
