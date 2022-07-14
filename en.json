@@ -566,6 +566,7 @@
     "messages": {
       "cancelSubscriptionSuccess": "Subscription successfully cancelled.",
       "refundInitSuccess": "Refund successfully initiated.",
+      "deleteSuccess": "Purchase successfully deleted.",
       "revokeSuccess": "Purchase successfully revoked.",
       "refreshSuccess": "Payment data successfully refreshed.",
       "unrevokeSuccess": "Purchase successfully unrevoked.",
@@ -573,6 +574,7 @@
       "deleteAppliedPacketSuccess": "Applied packet successfully deleted.",
       "createAppliedPacketSuccess": "Applied packet successfully created.",
       "refundConfirm": "Are you sure that you want to refund this purchase?",
+      "deleteConfirm": "Are you sure that you want to delete this purchase? This action can't be undone. Related applied packets will not be deleted.",
       "cancelSubscriptionConfirm": "Are you sure that you want to cancel this subscription?",
       "confirmPurchaseSuccess": "Purchase successfully approved",
       "declinePurchaseSuccess": "Purchase successfully cancelled"
