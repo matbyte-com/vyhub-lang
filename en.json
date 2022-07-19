@@ -798,7 +798,8 @@
       "discordEnterIdAsAddress": "Enter your guilds id as server address. Enter your favourite number as port.",
       "addBot": "Add bot to your guild.",
       "discordApplicationIdNeeded": "Create Discord application.",
-      "guildIdDocs": "Find guild id."
+      "guildIdDocs": "Find guild id.",
+      "details": "Server Details"
     },
     "messages": {
       "createSuccess": "Server successfully created.",
@@ -1146,5 +1147,6 @@
   "here": "here",
   "confirm": "Confirm",
   "faq": "FAQ",
-  "adverts": "Adverts"
+  "adverts": "Adverts",
+  "map": "Map"
 }
