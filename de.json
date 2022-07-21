@@ -993,5 +993,6 @@
     "dashboard": "Dashboard",
     "bundle": "Bundle",
     "import": "Import",
-    "subtitle": "Untertitel"
+    "subtitle": "Untertitel",
+    "map": "Karte"
 }
