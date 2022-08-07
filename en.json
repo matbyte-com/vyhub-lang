@@ -81,6 +81,7 @@
   "_theme": {
     "showInformationFab": "Show information fab",
     "showInformationFabDescription": "Information fab at bottom right",
+    "headerColor": "Header and Footer Color",
     "primaryColor": "Primary Color",
     "successColor": "Success Color",
     "errorColor": "Error Color",
