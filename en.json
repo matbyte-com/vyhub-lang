@@ -139,6 +139,8 @@
     "showTicket": "Enable Ticket System",
     "showTeam": "Enable Team Page",
     "showFaq": "Enable FAQ Page",
+    "communityDescription": "Community Description",
+    "communityDescriptionDescr": "This description will be shown in search engine test results",
     "language": "Language",
     "languageNewDescriptionText": "Help us translate to your language",
     "labels": {
