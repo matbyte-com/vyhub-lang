@@ -990,7 +990,8 @@
       "authorization_show": "Show authorization settings",
       "authorization_edit": "Edit authorization settings",
       "auth_request_confirm": "Confirm auth requests (only for gameservers)",
-      "faq_edit": "Edit FAQ in settings"
+      "faq_edit": "Edit FAQ in settings",
+      "reserved_slot_use": "Use reserved slots on a server"
     }
   },
   "update": "Update",
