@@ -51,7 +51,8 @@
       "reban": "Reban",
       "unbanned": "Unbanned",
       "infiniteBandDescription": "Leave empty for lifetime ban",
-      "bundleDescription": "Leave empty for global ban"
+      "bundleDescription": "Leave empty for global ban",
+      "protestBan": "Protest Ban"
     },
     "messages": {
       "showingUserBans": "Showing bans of user with ID: {id}",
@@ -374,6 +375,7 @@
     "ban_deleted": "Deleted ban {banId}.",
     "ban_new": "Added ban in bundle {bundleName} until {endDate}. Reason: {reason}.",
     "ban_new_full": "User {creatorId} added ban {banId} for user {userId} in bundle {bundleId} from {createdOn} until {endDate}. Reason: {reason}.",
+    "ban_protest": "Ban protested by user",
     "ban_edit_reason": "Changed reason to {reason}.",
     "ban_edit_bundle": "Changed bundle to {bundleName}.",
     "ban_edit_status": "Changed status to {status}.",
@@ -782,8 +784,9 @@
     "open": "Open",
     "closed": "Closed",
     "close": "Close",
-    "showClosed": "show closed",
-
+    "banProtest": "Ban protest",
+    "showClosed": "Show closed",
+    "showBan": "Show Ban",
     "messages": {
       "addedPost": "Post created.",
       "toggleStatus": "Status toggled.",
