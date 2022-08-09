@@ -52,7 +52,8 @@
       "unbanned": "Unbanned",
       "infiniteBandDescription": "Leave empty for lifetime ban",
       "bundleDescription": "Leave empty for global ban",
-      "protestBan": "Protest Ban"
+      "protestBan": "Protest Ban",
+      "banProtests": "Protests"
     },
     "messages": {
       "showingUserBans": "Showing bans of user with ID: {id}",
@@ -791,6 +792,10 @@
       "addedPost": "Post created.",
       "toggleStatus": "Status toggled.",
       "addedThread": "Thread created."
+    },
+    "status": {
+      "open": "open",
+      "closed": "closed"
     }
   },
   "_server": {
