@@ -268,6 +268,8 @@
     "no_permissions": "Permission error: {msg}",
     "unauthorized": "You must be logged in to do this.",
     "wrong_currency": "You cannot have packets with different currencies in your cart.",
+    "ban_protest_open": "There already exists an open protest for this ban.",
+    "too_many_ban_protests": "There are already 3 protests for this ban.",
     "coupon": {
       "not_found": "This code is invalid."
     }
