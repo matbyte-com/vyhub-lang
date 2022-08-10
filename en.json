@@ -993,15 +993,17 @@
       "account_show": "View credit accounts of other users",
       "account_edit": "Edit credit account transactions of users",
       "admin_menu": "Enable admin menu",
-      "ticket_show": "Able to show tickets",
-      "ticket_edit": "Able to edit tickets",
+      "ticket_show": "View tickets",
+      "ticket_edit": "Edit tickets",
       "apikey_edit": "Manage API keys",
       "legal_edit": "Edit Legal content",
       "authorization_show": "Show authorization settings",
       "authorization_edit": "Edit authorization settings",
       "auth_request_confirm": "Confirm auth requests (only for gameservers)",
       "faq_edit": "Edit FAQ in settings",
-      "reserved_slot_use": "Use reserved slots on a server"
+      "reserved_slot_use": "Use reserved slots on a server",
+      "advert_show": "View adverts",
+      "advert_edit": "Manage adverts"
     }
   },
   "update": "Update",
