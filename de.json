@@ -12,7 +12,8 @@
             "add": "Gruppenmitgliedschaft hinzufügen",
             "edit": "Gruppenmitgliedschaft bearbeiten",
             "endMembership": "Mitgliedschaft beenden",
-            "activeMemberships": "Aktive Mitgliedschaften"
+            "activeMemberships": "Aktive Mitgliedschaften",
+            "showPastMemberships": "Inaktive Mitgliedschaften anzeigen"
         },
         "messages": {
             "membershipSuccessfullyAdded": "Mitgliedschaft erfolgreich hinzugefügt"
@@ -28,10 +29,11 @@
             "bansAndWarnings": "Banns und Verwarnungen",
             "userLog": "Nutzerlog",
             "admin": "Admin",
-            "registered_on": "Registriert am:",
+            "registered_on": "Registriert am",
             "membershipEndDescription": "Leer lassen für unbegrenzte Dauer",
             "removeAdminTitle": "Admin entfernen?",
-            "credits": "Credits"
+            "credits": "Credits",
+            "last_online": "Zuletzt online"
         },
         "messages": {
             "adminSuccessfullyRemoved": "Admin erfolgreich entfernt",
@@ -54,7 +56,11 @@
         "communityNameDescription": "Zeigt Community Name im Header an",
         "messages": {
             "editedTheme": "Leitmotiv Bearbeitet."
-        }
+        },
+        "backgroundImageURL": "URL zum Hintergrundbild",
+        "logoURL": "URL zum Logo",
+        "faviconURL": "URL zum Favicon",
+        "headerColor": "Farbe der Kopf- und Fußzeile"
     },
     "_ban": {
         "labels": {
@@ -67,7 +73,9 @@
             "reban": "Erneut bannen",
             "unbanned": "Bann aufgehoben",
             "infiniteBandDescription": "Leer lassen für permanenten Bann",
-            "bundleDescription": "Leer lassen für globalen Bann"
+            "bundleDescription": "Leer lassen für globalen Bann",
+            "banProtests": "Entbannungsanträge",
+            "protestBan": "Entbannungsantrag"
         },
         "messages": {
             "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}",
@@ -189,7 +197,12 @@
         "missing_properties": "Du hast nicht alle erforderlichen Berechtigungen: {properties}",
         "no_permissions": "Berechtigungsfehler: {msg}",
         "unauthorized": "Dazu musst du eingeloggt sein.",
-        "wrong_currency": "Du kannst keine Pakete mit unterschiedlichen Währungen in deinem Warenkorb haben."
+        "wrong_currency": "Du kannst keine Pakete mit unterschiedlichen Währungen in deinem Warenkorb haben.",
+        "ban_protest_open": "Es existiert bereits ein Entbannungsantrag für diesen Bann.",
+        "too_many_ban_protests": "Es gibt bereits 3 Entbannungsanträge für diesen Bann.",
+        "requirement_parse_error": "Konnte Vorraussetzungs-Formel nicht verarbeiten. Bitte kontaktiere einen Admin.",
+        "payment_error": "Zahlungsfehler: {msg}",
+        "illegal_value": "Ungültiger Wert: {msg}"
     },
     "_navigation": {
         "externalLink": "Externer Link",
@@ -568,7 +581,9 @@
         "formulaTypeError": "Überprüfe ob alle benutzen Id's vorhanden sind",
         "editFormula": "Formula Bearbeiten",
         "formula": "Form",
-        "showFaq": "FAQ aktivieren"
+        "showFaq": "FAQ aktivieren",
+        "communityDescription": "Community Beschreibung",
+        "communityDescriptionDescr": "Diese Beschreibung wird in Suchmaschinen angezeigt"
     },
     "_user": {
         "type": {
@@ -627,7 +642,32 @@
         "group_team_member_edited": "Gruppe ist Teammitglied bearbeitet.",
         "requirement_set_deleted": "Anforderungssatz gelöscht {requirementSetName} {requirementSetId}.",
         "legal_edit": "Rechtliches bearbeitet.",
-        "discord_no_permission": "Discord-Berechtigungsfehler. Bitte versuchen Sie, den Bot erneut zur Gilde hinzuzufügen."
+        "discord_no_permission": "Discord-Berechtigungsfehler. Bitte versuchen Sie, den Bot erneut zur Gilde hinzuzufügen.",
+        "payment_process": "Zahlungsfortschritt. gateway: {gateway}, message: {message}, action: {action}, detail: {detail}.",
+        "payment_error": "Zahlungsfehler. gateway: {gateway}, message: {message}, action: {action}, detail: {detail}, code: {status_code}.",
+        "packet_applied": "Paket {packet_title} mit id {packet_id} wurde Nutzer {user_id} zugewiesen: applied_packet_id: {applied_packet_id}.",
+        "debit_status_changed": "Zahlungsstatus geändert: debit_id: {debit_id}, status: {old_status} -> {new_status}.",
+        "purchase_status_changed": "Kaufstatus geändert. purchase_id: {purchase_id}, status: {old_status} -> {new_status}.",
+        "purchase_finished": "Kauf mit id {purchase_id} abgeschlossen.",
+        "purchase_cancelled": "Kauf mit id {purchase_id} abgebrochen.",
+        "payment_event": "Behandle Zahlungs-Ereignis: gateway: {gateway}, message: {message}, detail: {detail}.",
+        "edit": "{name} bearbeitet: {key} = {value}",
+        "object_edit": "{classname} mit id {id} wurde bearbeitet: {key} = {value}.",
+        "object_delete": "{classname} mit id {id} wurde gelöscht.",
+        "object_create": "{classname} mit id {id} wurde erstellt: {params}",
+        "applied_packet_extended": "Angewandtes Paket wurde mit id {applied_packet_id} wurde verlängert.",
+        "applied_packet_not_extended": "Konnte angewandtes Paket mit id {applied_packet_id} nicht verlängern: {reason}.",
+        "group_add": "Gruppe {groupName} mit id {groupId} erstellt.",
+        "payment_cancelled": "Zahlung abgebrochen. debit_id: {debit_id}.",
+        "payment_initiate": "{gateway} Zahlung initialisiert. action: {action}, message: {message}, Code: {status_code}.",
+        "payment_refund": "{gateway} Zahlung rückerstatett. action: {action}, message: {message}, Code: {status_code}.",
+        "user_imported_from": "Nutzer importiert von {source}.",
+        "group_edit": "Gruppe {groupName} mit id {groupId} bearbeitet.",
+        "user_sync_failed": "Fehler beim synchronisieren von Nutzer {user_id}.",
+        "group_deleted": "Gruppe {groupName} mit id {groupId} gelöscht.",
+        "refund_finished": "Rückerstattung abgeschlossen. debit_id: {debit_id}, purchase_id: {purchase_id}.",
+        "purchase_revoke": "Kauf mit id {purchase_id} widerrufen.",
+        "purchase_unrevoke": "Widerruf von Kauf mit id {purchase_id} rückgängig gemacht."
     },
     "port": "Port",
     "disabled": "Deaktiviert",
