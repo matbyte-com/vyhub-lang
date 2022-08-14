@@ -832,6 +832,7 @@
   "_api": {
     "labels": {
       "createKey": "Create Key",
+      "createdKey": "Created API Key",
       "limitToServerbundle": "Limit to Serverbundle"
     },
     "messages": {
