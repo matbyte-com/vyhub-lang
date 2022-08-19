@@ -1029,6 +1029,7 @@
   "all": "All",
   "every": "Every",
   "requirements": "Requirements",
+  "subcategory": "Subcategory",
   "servers": "Servers",
   "paymentGateways": "Payment Gateways",
   "paymentMethods": "Payment Methods",
