@@ -812,7 +812,8 @@
       "discordEnterIdAsAddress": "Enter your guilds id as server address. Enter your favourite number as port.",
       "addBot": "Add bot to your guild.",
       "discordApplicationIdNeeded": "Create Discord application.",
-      "guildIdDocs": "Find guild id.",
+      "guildIdDocs": "Find guild ID",
+      "setup": "Setup Server",
       "details": "Server Details"
     },
     "messages": {
@@ -824,6 +825,24 @@
       "DISCORD": "Discord",
       "GMOD": "Garry's Mod",
       "MINECRAFT": "Minecraft"
+    },
+    "instructions": {
+      "COMMON": {
+        "runCommands": "Generate the required commands by clicking the button and execute them in the server console of your server.",
+        "wait": "Wait up to a minute for VyHub to initialize. There will be a message in the server console if the connection was successful."
+      },
+      "GMOD": {
+        "download": "Download the vyhub-gmod addon, unpack it and put it into the addons folder of your server. Then restart your server.",
+        "serverConsoleHint": "Important: The server console is NOT the console in the game (when pressing F10)."
+      },
+      "MINECRAFT": {
+        "download": "Download the vyhub-minecraft plugin .jar and put it into the plugins folder of your server. Then restart your server."
+      },
+      "DISCORD": {
+        "createApp": "Create a Discord Application and enable Discord authorization.",
+        "readInstructions": "Read and follow the further instructions in the docs.",
+        "addBot": "Add the Bot to your guild. Click reload if the button is not working."
+      }
     },
     "deleteBundleConfirmationText": "This will delete objects referenced to this bundle (e.g. rewards)"
   },
@@ -1028,6 +1047,7 @@
   "categories": "Categories",
   "tax": "Tax",
   "all": "All",
+  "generate": "Generate",
   "every": "Every",
   "requirements": "Requirements",
   "subcategory": "Subcategory",
@@ -1167,5 +1187,7 @@
   "confirm": "Confirm",
   "faq": "FAQ",
   "adverts": "Adverts",
-  "map": "Map"
+  "map": "Map",
+  "setup": "Setup",
+  "instructions": "Instructions"
 }
