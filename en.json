@@ -839,9 +839,9 @@
         "download": "Download the vyhub-minecraft plugin .jar and put it into the plugins folder of your server. Then restart your server."
       },
       "DISCORD": {
-        "createApp": "Create a Discord Application and enable Discord authorization.",
+        "createApp": "Create a Discord application and enable Discord authorization.",
         "readInstructions": "Read and follow the further instructions in the docs.",
-        "addBot": "Add the Bot to your guild. Click reload if the button is not working."
+        "addBot": "Add the Bot to your Discord server. Click reload if the button is not working."
       }
     },
     "deleteBundleConfirmationText": "This will delete objects referenced to this bundle (e.g. rewards)"
