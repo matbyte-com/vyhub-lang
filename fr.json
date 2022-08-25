@@ -2,7 +2,7 @@
     "_dashboard": {
         "labels": {
             "userLog": "Journal de l'utilisateur",
-            "registered_on": "Inscrit le :",
+            "registered_on": "Inscrit le",
             "linkedAccounts": "Comptes liés",
             "linkNewAccount": "lier un nouveau compte",
             "activeProperties": "Propriétés actives",
@@ -11,7 +11,9 @@
             "admin": "Administrateurs",
             "membershipEndDescription": "Laisser vide pour une durée illimitée",
             "removeAdminTitle": "Supprimer l'administrateur ?",
-            "title": "{usr}"
+            "title": "{usr}",
+            "last_online": "Dernière connexion",
+            "credits": "Crédits"
         },
         "messages": {
             "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale.",
@@ -34,7 +36,11 @@
             "editedTheme": "Thème édité."
         },
         "showInformationFab": "Afficher les informations fab",
-        "showInformationFabDescription": "Info fab en bas à droite"
+        "showInformationFabDescription": "Info fab en bas à droite",
+        "backgroundImageURL": "URL de l'image d'arrière-plan",
+        "logoURL": "URL du logo",
+        "faviconURL": "URL du favicon",
+        "headerColor": "Couleur de l'en-tête et bas de page"
     },
     "_settings": {
         "contentSanitizationWarning": "JavaScript ne peut être utilisé que par les administrateurs. Sinon, il va être désinfecté.",
@@ -84,7 +90,11 @@
             "editGroup": "Modifier le groupe"
         },
         "formulaBeta": "Cette fonction est en phase bêta. Veuillez utiliser avec prudence.",
-        "httpPlaceholder": "https://myurl.com"
+        "httpPlaceholder": "https://myurl.com",
+        "communityDescriptionDescr": "Cette description sera affichée dans les résultats des moteurs de recherche",
+        "communityDescription": "Description de la communauté",
+        "showFaq": "Activer la page FAQ",
+        "addServerTooltip": "Veuillez premièrement ajouter un groupe de serveurs"
     },
     "_home": {
         "messages": {
@@ -106,9 +116,9 @@
     "_ban": {
         "messages": {
             "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}",
-            "banAdded": "Le ban a bien été créé",
-            "banDeleted": "Le ban a bien été supprimé",
-            "banEdited": "Le ban a bien été modifié"
+            "banAdded": "Bannissement ajouté",
+            "banDeleted": "Bannissement supprimé",
+            "banEdited": "Bannissement modifié"
         },
         "labels": {
             "title": "Bannissements",
@@ -120,7 +130,9 @@
             "reban": "Rebannir",
             "unbanned": "Non banni",
             "infiniteBandDescription": "Laisser vide pour un bannissement à vie",
-            "bundleDescription": "Laisser vide pour un bannissement global"
+            "bundleDescription": "Laisser vide pour un bannissement global",
+            "banProtests": "Contestations",
+            "protestBan": "Contester le bannissement"
         }
     },
     "_shop": {
@@ -187,7 +199,9 @@
             "cancelPurchaseConfirmation": "Les paiements commencés sont annulés. Tous les coupons saisis sont perdus. L'annulation d'un achat ne peut pas être annulée.",
             "paymentActionFailed": "Une erreur s'est produite lors de la redirection vers la page de paiement. Veuillez réessayer ou utiliser un autre mode de paiement ! Message d'erreur : {message}",
             "selectBillingAddressFirst": "Veuillez d'abord sélectionner une adresse de facturation.",
-            "paymentSuccess": "Le paiement a été terminé avec succès. Les paquets achetés ont été attribués à votre compte."
+            "paymentSuccess": "Le paiement a été terminé avec succès. Les paquets achetés ont été attribués à votre compte.",
+            "paymentProcessing": "Le paiement a été confirmé et va être finalisé sous peu. Merci d'attendre quelques minutes sur cette page le temps que le paiement soit traité.",
+            "paymentFailed": "Une erreur s'est produite lors du processus de paiement. Veuillez réessayer."
         },
         "purchaseStatus": {
             "open": "Ouvrir",
@@ -213,7 +227,8 @@
             "add": "Ajouter une adhésion à un groupe",
             "edit": "Modifier l'appartenance au groupe",
             "activeMemberships": "Adhésions actives",
-            "endMembership": "Mettre fin à l'adhésion"
+            "endMembership": "Mettre fin à l'adhésion",
+            "showPastMemberships": "Afficher les anciennes adhésions"
         },
         "messages": {
             "membershipSuccessfullyAdded": "Adhésion ajoutée avec succès"
@@ -270,7 +285,11 @@
         "wrong_currency": "Vous ne pouvez pas avoir de paquets avec des devises différentes dans votre panier.",
         "packet_relation_violated": "Ce paquet viole une relation de paquet avec un autre paquet : {relation_type} {packet_title}.",
         "country_not_allowed": "Les achats depuis votre pays ne sont pas autorisés.",
-        "requirement_parse_error": "Impossible d'analyser la formule des exigences. Veuillez contacter un administrateur."
+        "requirement_parse_error": "Impossible d'analyser la formule des exigences. Veuillez contacter un administrateur.",
+        "ban_protest_open": "Une contestation existe déjà pour ce bannissement.",
+        "too_many_ban_protests": "Il y a déjà 3 contestations pour ce bannissement.",
+        "payment_error": "Erreur de paiement : {msg}",
+        "illegal_value": "Valeur invalide : {msg}"
     },
     "_user": {
         "labels": {
@@ -338,7 +357,8 @@
             "warning": "Avertissement",
             "discord": "Discord",
             "server": "Serveur",
-            "ban": "Bannissement"
+            "ban": "Bannissement",
+            "faq": "FAQ"
         },
         "object_edit": "Modifié {classname} avec l'id {id} : {key} = {value}.",
         "object_delete": "Supprimé {classname} avec l'id {id}.",
@@ -408,7 +428,8 @@
         "requirement_set_deleted": "L'ensemble d'exigences a supprimé {requirementSetName} {requirementSetId}.",
         "membership_edit": "Adhésion modifiée : Groupe : {groupName}, Utilisateur : {username}, Ancien : {oldBegin} {oldEnd}, Nouveau : {newBegin} {newEnd}.",
         "discord_wrong_bot_token": "Le bot Discord ne peut pas se connecter (jeton de bot erroné)",
-        "discord_no_permission": "Erreur de permission Discord , Merci d'essayer d'enlever le bot et de le re ajouter sur le serveur."
+        "discord_no_permission": "Erreur de permission Discord , Merci d'essayer d'enlever le bot et de le re ajouter sur le serveur.",
+        "ban_protest": "Bannissement contesté par l'utilisateur"
     },
     "_address": {
         "labels": {
@@ -476,7 +497,8 @@
             "sortOnlyWithCategory": "Les paquets ne peuvent être triés que si une catégorie est sélectionnée.",
             "addSuccess": "Paquet créé avec succès.",
             "editSuccess": "Paquet édité avec succès.",
-            "deleteSuccess": "Paquet supprimé avec succès."
+            "deleteSuccess": "Paquet supprimé avec succès.",
+            "deleteWarning": "Attention ! Supprimer un paquet, supprime également tous les paquets liés déjà appliqués, les récompenses, les items achetés. Ne voulez-vous pas plutôt désactiver le paquet ?"
         },
         "status": {
             "ENABLED": "Activé",
@@ -517,7 +539,8 @@
                 "script": "Exécuter un script sur le(s) serveur(s)",
                 "credits": "Ajouter des crédits au compte des acheteurs",
                 "membership": "Ajouter une appartenance à un groupe"
-            }
+            },
+            "checkForReplacements": "Consultez la documentation pour connaître les récompenses disponibles et les \"strings\" de remplacement"
         },
         "status": {
             "OPEN": "Ouvrir",
@@ -576,7 +599,9 @@
             "refundConfirm": "Êtes-vous sûr de vouloir rembourser cet achat ?",
             "declinePurchaseSuccess": "Achat annulé avec succès",
             "confirmPurchaseSuccess": "Achat approuvé avec succès",
-            "cancelSubscriptionConfirm": "Êtes-vous sûr de vouloir annuler cet abonnement ?"
+            "cancelSubscriptionConfirm": "Êtes-vous sûr de vouloir annuler cet abonnement ?",
+            "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet achat ? Cette action ne peut pas être annulée. Les paquets liés déjà appliqués ne seront pas supprimés.",
+            "deleteSuccess": "Achat supprimé avec succès."
         }
     },
     "_requirement": {
@@ -639,7 +664,8 @@
             "createSuccess": "Passerelle de paiement créée avec succès.",
             "deleteSuccess": "Passerelle de paiement supprimée avec succès.",
             "editSuccess": "Passerelle de paiement modifiée avec succès.",
-            "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée."
+            "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée.",
+            "deleteWarning": "Attention ! Supprimer une passerelle de paiement provoque la suppression de tous les achats et paiements utilisés par la passerelle de paiement. Cette action ne peut pas être annulée. Ne voulez-vous pas plutôt la désactiver ?"
         }
     },
     "_taxRule": {
@@ -700,7 +726,9 @@
         "purchase_finished": "Votre achat de {amount} est terminé !",
         "purchase_cancelled": "Votre achat de {amount} a été annulé !",
         "warning_new": "Un nouvel avertissement a été créé. Raison : {reason}",
-        "coupon_purchase_new": "{username} a soumis des codes {gateway_name} ({amount_total} {currency_symbol}) qui doivent être approuvés."
+        "coupon_purchase_new": "{username} a soumis des codes {gateway_name} ({amount_total} {currency_symbol}) qui doivent être approuvés.",
+        "purchase_finished_other": "{username} a finalisé son achat de {amount} avec {gateway_name}.",
+        "timeAgo": "il y a {time}"
     },
     "_pageTitle": {
         "dashboard": "Tableau de bord",
@@ -720,7 +748,8 @@
         "legal": "Légal",
         "log": "Log",
         "notifications": "Notifications",
-        "serverDashboard": "Tableau de bord du serveur"
+        "serverDashboard": "Tableau de bord du serveur",
+        "faq": "FAQ"
     },
     "_warning": {
         "title": "Avertissements",
@@ -762,7 +791,13 @@
             "toggleStatus": "Statut basculé.",
             "addedThread": "Fil créé."
         },
-        "showClosed": "Afficher les tickets fermés"
+        "showClosed": "Afficher les tickets fermés",
+        "banProtest": "Contester son bannissement",
+        "showBan": "Voir bannissement",
+        "status": {
+            "open": "ouvert",
+            "closed": "fermé"
+        }
     },
     "_server": {
         "labels": {
@@ -775,7 +810,9 @@
             "discordEnterIdAsAddress": "Entrez l'identifiant de votre guilde comme adresse de serveur. Entrez votre numéro préféré comme port.",
             "addBot": "Ajoutez un bot à votre guilde.",
             "guildIdDocs": "Trouver l'identifiant de la guilde.",
-            "discordApplicationIdNeeded": "Créer une application Discord."
+            "discordApplicationIdNeeded": "Créer une application Discord.",
+            "setup": "Configurer le serveur",
+            "details": "Détails du serveur"
         },
         "messages": {
             "createSuccess": "Serveur créé avec succès.",
@@ -784,7 +821,26 @@
         },
         "deleteBundleConfirmationText": "Cela supprimera les objets référencés à ce lot (par exemple, les récompenses)",
         "type": {
-            "DISCORD": ""
+            "DISCORD": "Discord",
+            "MINECRAFT": "Minecraft",
+            "GMOD": "Garry's Mod"
+        },
+        "instructions": {
+            "COMMON": {
+                "wait": "Attendez jusqu'à 1 minute que VyHub s'initialise. Un message dans la console du serveur apparaîtra en cas de connexion avec succès."
+            },
+            "GMOD": {
+                "serverConsoleHint": "Important : La console du serveur n'est pas la console de jeu (quand vous appuyez sur F10).",
+                "download": "Téléchargez le vyhub-gmod addon, dézippez-le et placez-le dans le dossier addons de votre serveur. Puis, redémarrez le serveur."
+            },
+            "DISCORD": {
+                "createApp": "Crée une application Discord et active l'authorization Discord.",
+                "readInstructions": "Lisez et suivez les instructions suivantes dans la documentation.",
+                "addBot": "Ajoutez le Bot à votre serveur Discord. Appuyez sur \"reload\" si le bouton ne fonctionne pas."
+            },
+            "MINECRAFT": {
+                "download": "Téléchargez le plugin vyhub-minecraft et placez-le dans le dossier plugins de votre serveur. Puis, redémarrez le serveur."
+            }
         }
     },
     "_server_exception": {
@@ -793,7 +849,8 @@
     "_api": {
         "labels": {
             "createKey": "Créer une clé",
-            "limitToServerbundle": "Limiter au groupe de serveurs"
+            "limitToServerbundle": "Limiter au groupe de serveurs",
+            "createdKey": "Clé API créée"
         },
         "messages": {
             "keyCreated": "Nouvelle clé créée :",
@@ -1008,6 +1065,65 @@
     "log": "Log",
     "navigation": "Navigation",
     "_serverDashboard": {
-        "noUsersFound": "Aucun utilisateur trouvé"
+        "noUsersFound": "Aucun utilisateur trouvé",
+        "selectAUser": "Sélectionnez un utilisateur pour voir les détails."
+    },
+    "_faq": {
+        "formTitle": "Titre",
+        "update": "Modifier l'ordre de la FAQ",
+        "add": "Ajouter une question",
+        "editQuestionDialog": "Modifier une question",
+        "reset": "Réinitialiser l'ordre de la FAQ",
+        "messages": {
+            "updatedOrder": "Ordre FAQ modifié.",
+            "addSuccess": "Question FAQ créée.",
+            "editSuccess": "Question FAQ modifiée.",
+            "deleteSuccess": "Question FAQ supprimée.",
+            "contentEmpty": "Veuillez saisir du contenu"
+        },
+        "addQuestionDialog": "Ajouter une question",
+        "formContent": "Contenu",
+        "html": "HTML est autorisé dans cette section.",
+        "title": "FAQ"
+    },
+    "_advert": {
+        "add": "Ajouter une annonce",
+        "update": "Modifier l'ordre des annonces",
+        "messages": {
+            "deleteSuccess": "Annonce supprimée.",
+            "updatedOrder": "L'ordre des annonces a été modifié.",
+            "editSuccess": "Annonce modifiée.",
+            "addSuccess": "Annonce créée."
+        },
+        "title": "Annonces",
+        "reset": "Réinitialiser l'ordre des annonces",
+        "formTitle": "Titre",
+        "formContent": "Contenu",
+        "formEnabled": "Activer",
+        "editAdvertDialog": "Modifier l'annonce",
+        "addAdvertDialog": "Ajouter une annonce"
+    },
+    "_property": {
+        "categories": {
+            "general": "Général",
+            "bans_and_warnings": "Bannissements et Avertissements",
+            "other": "Autre",
+            "user": "Utilisateur",
+            "shop": "Boutique"
+        },
+        "descriptions": {
+            "server_edit": "Modifier le serveur",
+            "user_morph": "Permets de se faire passer pour un autre utilisateur. Seulement supporté par quelque endpoints.",
+            "server_show": "Voir les paramètres du serveur",
+            "user_attribute_definition_edit": "",
+            "user_edit": "Modifier les détails d'autres utilisateurs",
+            "user_ignore_target_level": "Autorise la modification des détails d'un utilisateur sans tenir compte de son niveau et autorise l'ajout de n'importe quelle adhésion."
+        }
+    },
+    "_creditHistory": {
+        "messages": {
+            "addedTransaction": "Transcription ajoutée"
+        },
+        "addTransaction": "Ajouter une transcription"
     }
 }
