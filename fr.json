@@ -118,7 +118,8 @@
             "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}",
             "banAdded": "Bannissement ajouté",
             "banDeleted": "Bannissement supprimé",
-            "banEdited": "Bannissement modifié"
+            "banEdited": "Bannissement modifié",
+            "banToggled": "Statut du bannissement changé"
         },
         "labels": {
             "title": "Bannissements",
@@ -428,8 +429,9 @@
         "requirement_set_deleted": "L'ensemble d'exigences a supprimé {requirementSetName} {requirementSetId}.",
         "membership_edit": "Adhésion modifiée : Groupe : {groupName}, Utilisateur : {username}, Ancien : {oldBegin} {oldEnd}, Nouveau : {newBegin} {newEnd}.",
         "discord_wrong_bot_token": "Le bot Discord ne peut pas se connecter (jeton de bot erroné)",
-        "discord_no_permission": "Erreur de permission Discord , Merci d'essayer d'enlever le bot et de le re ajouter sur le serveur.",
-        "ban_protest": "Bannissement contesté par l'utilisateur"
+        "discord_no_permission": "Erreur de permission Discord , Veuillez essayer de supprimer et de rajouter le bot à votre serveur.",
+        "ban_protest": "Bannissement contesté par l'utilisateur",
+        "users_linked": "Utilisateur lié {link_user_id} avec {base_user_id}. Crédits {credits} transférés lors de la fusion des comptes de crédit."
     },
     "_address": {
         "labels": {
@@ -809,7 +811,7 @@
             "hideReservedSlots": "Masquer les emplacements réservés",
             "discordEnterIdAsAddress": "Entrez l'identifiant de votre guilde comme adresse de serveur. Entrez votre numéro préféré comme port.",
             "addBot": "Ajoutez un bot à votre guilde.",
-            "guildIdDocs": "Trouver l'identifiant de la guilde.",
+            "guildIdDocs": "Trouver l'identifiant du Serveur Discord",
             "discordApplicationIdNeeded": "Créer une application Discord.",
             "setup": "Configurer le serveur",
             "details": "Détails du serveur"
@@ -827,7 +829,8 @@
         },
         "instructions": {
             "COMMON": {
-                "wait": "Attendez jusqu'à 1 minute que VyHub s'initialise. Un message dans la console du serveur apparaîtra en cas de connexion avec succès."
+                "wait": "Attendez jusqu'à 1 minute que VyHub s'initialise. Un message dans la console du serveur apparaîtra en cas de connexion avec succès.",
+                "runCommands": "Générez les commandes requises en cliquant sur le bouton et exécutez-les dans la console serveur de votre serveur."
             },
             "GMOD": {
                 "serverConsoleHint": "Important : La console du serveur n'est pas la console de jeu (quand vous appuyez sur F10).",
@@ -1065,7 +1068,7 @@
     "log": "Log",
     "navigation": "Navigation",
     "_serverDashboard": {
-        "noUsersFound": "Aucun utilisateur trouvé",
+        "noUsersFound": "Aucun utilisateur trouvé.",
         "selectAUser": "Sélectionnez un utilisateur pour voir les détails."
     },
     "_faq": {
@@ -1115,9 +1118,60 @@
             "server_edit": "Modifier le serveur",
             "user_morph": "Permets de se faire passer pour un autre utilisateur. Seulement supporté par quelque endpoints.",
             "server_show": "Voir les paramètres du serveur",
-            "user_attribute_definition_edit": "",
+            "user_attribute_definition_edit": "Modifier les définitions d'attributs de l'utilisateur.",
             "user_edit": "Modifier les détails d'autres utilisateurs",
-            "user_ignore_target_level": "Autorise la modification des détails d'un utilisateur sans tenir compte de son niveau et autorise l'ajout de n'importe quelle adhésion."
+            "user_ignore_target_level": "Autorise la modification des détails d'un utilisateur sans tenir compte de son niveau et autorise l'ajout de n'importe quelle adhésion.",
+            "general_edit": "Gérer les paramètres généraux",
+            "log_show": "Voir les Logs",
+            "packet_show": "Voir les paquets et les récompenses",
+            "shop_show": "Voir les paramètres de la boutique",
+            "discount_show": "Voir les réductions de la boutique",
+            "advert_edit": "Gérer les annonces",
+            "ticket_edit": "Modifier les Tickets",
+            "advert_show": "Voir les annonces",
+            "purchase_show": "Voir les achats et les statistiques",
+            "purchase_edit": "Gérer les achats",
+            "applied_packet_show": "Voir les paquets appliqués et les récompenses.",
+            "applied_packet_edit": "Modifiez les paquets et les récompenses.",
+            "gateway_show": "Voir les passerelles de paiement",
+            "gateway_edit": "Gérer les passerelles de paiement",
+            "general_show": "Afficher les paramètres généraux",
+            "user_log": "Voir et ajouter des entrées au logs de l'utilisateur",
+            "user_attribute_edit": "Modifier les données d'attribut utilisateur.",
+            "bundle_edit": "Gérer les serveurs groupés",
+            "ban_edit": "Gérer les bannissements",
+            "theme_show": "Voir le paramètres du thème",
+            "theme_edit": "Modifier les paramètres du thème",
+            "ban_show": "Voir les bannissements",
+            "address_show": "Afficher les adresses des autres utilisateurs.",
+            "warning_config_show": "Afficher la configuration des avertissement",
+            "warning_config_edit": "Editer la configuration des avertissements",
+            "ban_delete": "Supprimer le bannissement",
+            "ban_global": "Crée un bannissement Global",
+            "warning_show": "Voir les avertissements",
+            "warning_edit": "Gérer les avertissements",
+            "warning_delete": "Supprimer un avertissements",
+            "requirement_edit": "Gérer l'ensembles des exigences",
+            "shop_edit": "Gérer les paramètres de la boutique",
+            "group_edit": "Gérer les Groupes",
+            "nav_show": "Afficher les paramètres de la barre de navigation",
+            "nav_edit": "Gérer la bar de navigation",
+            "news_edit": "Gérer les Actualités",
+            "requirement_show": "Afficher l'ensembles des exigences",
+            "user_create": "Créer un utilisateur étranger (API uniquement)",
+            "packet_edit": "Gérer les packs de la boutique",
+            "legal_edit": "Modifier le Legal Content",
+            "authorization_show": "Voir les paramètres d'autorisation",
+            "authorization_edit": "Modifier les paramètres d'autorisation",
+            "faq_edit": "Modifier la FAQ dans les paramètres",
+            "reserved_slot_use": "Utiliser les place réservés sur le serveur",
+            "apikey_edit": "Gérer les API Keys",
+            "admin_menu": "Activer le Menu Admin",
+            "ticket_show": "Voir les Tickets",
+            "discount_edit": "Gérer les réductions de la boutique",
+            "account_show": "Afficher les crédit du comptes des autres utilisateurs",
+            "auth_request_confirm": "Confirmer les demandes d'authentification (uniquement pour les serveurs de jeu)",
+            "account_edit": "Modifier les transactions de compte de crédit des utilisateurs"
         }
     },
     "_creditHistory": {
@@ -1125,5 +1179,13 @@
             "addedTransaction": "Transcription ajoutée"
         },
         "addTransaction": "Ajouter une transcription"
-    }
+    },
+    "subcategory": "Sous-catégorie",
+    "generate": "Générer",
+    "confirm": "Confirmer",
+    "faq": "FAQ",
+    "adverts": "Annonces",
+    "map": "Map",
+    "setup": "Installation",
+    "instructions": "Consignes"
 }
