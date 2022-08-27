@@ -2,7 +2,7 @@
     "_dashboard": {
         "labels": {
             "userLog": "Journal de l'utilisateur",
-            "registered_on": "Inscrit le",
+            "registered_on": "Inscrit le :",
             "linkedAccounts": "Comptes liés",
             "linkNewAccount": "lier un nouveau compte",
             "activeProperties": "Propriétés actives",
