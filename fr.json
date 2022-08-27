@@ -2,7 +2,7 @@
     "_dashboard": {
         "labels": {
             "userLog": "Journal de l'utilisateur",
-            "registered_on": "Inscrit le :",
+            "registered_on": "Inscrit le",
             "linkedAccounts": "Comptes liés",
             "linkNewAccount": "lier un nouveau compte",
             "activeProperties": "Propriétés actives",
@@ -405,7 +405,7 @@
         "user_token_create": "Création du jeton {token_id} avec la portée {scope} pour le groupe de serveurs{bundle_id}.",
         "user_token_revoke": "Jeton révoqué {token_id}.",
         "warning_config_edit": "Configuration d'avertissement modifiée.",
-        "reward_process_failed": "Impossible d'exécuter la récompense appliquée {reward_type} {applied_reward_id}: {error}.",
+        "reward_process_failed": "Impossible d'exécuter la récompense appliquée {reward_type} {applied_reward_id} : {error}.",
         "reward_process_success": "La récompense appliquée {reward_type} {applied_reward_id} a été exécutée avec succès.",
         "reward_membership_lower_level": "Récompense d'adhésion {applied_reward_id} ignorée car le niveau de l'utilisateur {user_id} ({user_level}) est supérieur au niveau du groupe {group_id} ({group_level}).",
         "group_team_member_edited": "Les groupes sont modifiés par les membres de l'équipe.",
