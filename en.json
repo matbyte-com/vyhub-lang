@@ -200,6 +200,8 @@
       "removeAllPackets": "Remove all packets",
       "donationGoal": "Donation Goal",
       "perMonth": "per month",
+      "taxIncludedInPacketPrice": "Tax included in packet price",
+      "taxIncludedInPacketPriceDescription": "Instead of adding taxes to the specified packet price on top, they are included in the price.",
       "loginToBuy": "Log in to buy this packet",
       "checkoutCheckboxes": "Checkout checkboxes",
       "taxAllowUnknown": "Allow purchases from countries without tax rule.",
@@ -481,6 +483,7 @@
     "messages": {
       "sortOnlyWithCategory": "Packets can only be sorted if a category is selected.",
       "addSuccess": "Packet successfully created.",
+      "customPricePossible": "The price for this packet can be customized.",
       "editSuccess": "Packet successfully edited.",
       "deleteSuccess": "Packet successfully deleted.",
       "deleteWarning": "Caution! Deleting a packet also deletes all related applied packets, applied rewards and purchase items. Maybe disable the packet instead?"
