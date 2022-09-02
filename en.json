@@ -690,7 +690,8 @@
       "create": "Create Discount",
       "edit": "Edit Discount",
       "allPackets": "Usable for all packets",
-      "delete": "Delete Discount"
+      "delete": "Delete Discount",
+      "maxUsagesPerUser": "Maximum usages per user"
     },
     "messages": {
       "deleteSuccess": "Discount successful deleted.",
@@ -1187,6 +1188,7 @@
   "ticket": "Ticket",
   "redirect": "Redirect",
   "here": "here",
+  "discount": "Discount",
   "confirm": "Confirm",
   "faq": "FAQ",
   "adverts": "Adverts",
