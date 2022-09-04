@@ -182,6 +182,7 @@
       "applyCoupon": "Apply Coupon",
       "couponCode": "Coupon Code",
       "tax": "Tax",
+      "net": "net",
       "taxRules": "Tax Rules",
       "subtotal": "Subtotal",
       "checkout": "Checkout",
@@ -663,6 +664,9 @@
       "edit": "Edit Payment Gateway",
       "paysafecard": "Paysafecard",
       "coupon": "Coupon (manual confirmation)",
+      "acceptPending": "Accept pending payments",
+      "doNotAcceptPending": "Do not accept pending payments",
+      "acceptPendingDescription": "Some payment methods (e.g. SEPA Direct Debit, SOFORT, ...) take several days until completed. If this option is enabled, purchases paid with these methods are finished directly after completing the checkout process. There is a small chance that the payment fails afterwards.",
       "webhookURL": "Webhook URL"
     },
     "messages": {
