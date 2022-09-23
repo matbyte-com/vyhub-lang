@@ -175,6 +175,8 @@
   },
   "_shop": {
     "labels": {
+      "financeReport": "Finance Report",
+      "downloadInvoices": "Download Invoices",
       "cart": "Cart",
       "invoiceLogoURL": "Invoice logo URL",
       "invoiceLogoURLDetails": "URL to a logo that is displayed on the invoice.",
