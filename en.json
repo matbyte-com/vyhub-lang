@@ -519,6 +519,7 @@
       "onEvent": "Execute on event",
       "edit": "Edit Reward",
       "onceFromAll": "Only execute on one server",
+      "reactivateOnExtend": "Execute again if packet has been extended (on subscription payment)",
       "addAppliedReward": "Add applied reward",
       "_events": {
         "direct": "Execute directly",
