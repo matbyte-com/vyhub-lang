@@ -170,7 +170,12 @@
             "cancelPayment": "Annuler le paiement",
             "cancelPurchase": "Annuler l'achat",
             "loginToBuy": "Connectez-vous pour acheter ce pack",
-            "taxAllowUnknownDescription": "Si cette option est désactivée, les achats provenant de pays qui n'ont pas de règle fiscale explicite configurée ne sont pas possibles."
+            "taxAllowUnknownDescription": "Si cette option est désactivée, les achats provenant de pays qui n'ont pas de règle fiscale explicite configurée ne sont pas possibles.",
+            "financeReport": "Rapport financier",
+            "downloadInvoices": "Télécharger les factures",
+            "taxIncludedInPacketPrice": "Taxe incluse dans le prix",
+            "taxIncludedInPacketPriceDescription": "Au lieu d'ajouter des taxes au prix du paquet spécifié, elles sont incluses dans le prix.",
+            "net": "net"
         },
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} crédits.",
@@ -431,7 +436,9 @@
         "discord_wrong_bot_token": "Le bot Discord ne peut pas se connecter (jeton de bot erroné)",
         "discord_no_permission": "Erreur de permission Discord , Veuillez essayer de supprimer et de rajouter le bot à votre serveur.",
         "ban_protest": "Bannissement contesté par l'utilisateur",
-        "users_linked": "Utilisateur lié {link_user_id} avec {base_user_id}. Crédits {credits} transférés lors de la fusion des comptes de crédit."
+        "users_linked": "Utilisateur lié {link_user_id} avec {base_user_id}. Crédits {credits} transférés lors de la fusion des comptes de crédit.",
+        "applied_packet_disabled": "Paquet appliqué désactivé {applied_packet_id}.",
+        "applied_packet_upgraded": "Paquet appliqué {old_applied_packet_id} amélioré avec{new_applied_packet_id}. Ajouté pour {days} jours."
     },
     "_address": {
         "labels": {
@@ -500,7 +507,8 @@
             "addSuccess": "Paquet créé avec succès.",
             "editSuccess": "Paquet édité avec succès.",
             "deleteSuccess": "Paquet supprimé avec succès.",
-            "deleteWarning": "Attention ! Supprimer un paquet, supprime également tous les paquets liés déjà appliqués, les récompenses, les items achetés. Ne voulez-vous pas plutôt désactiver le paquet ?"
+            "deleteWarning": "Attention ! Supprimer un paquet, supprime également tous les paquets liés déjà appliqués, les récompenses, les items achetés. Ne voulez-vous pas plutôt désactiver le paquet ?",
+            "customPricePossible": "Le prix de ce paquet peut être personnalisé."
         },
         "status": {
             "ENABLED": "Activé",
@@ -542,7 +550,8 @@
                 "credits": "Ajouter des crédits au compte des acheteurs",
                 "membership": "Ajouter une appartenance à un groupe"
             },
-            "checkForReplacements": "Consultez la documentation pour connaître les récompenses disponibles et les \"strings\" de remplacement"
+            "checkForReplacements": "Consultez la documentation pour connaître les récompenses disponibles et les \"strings\" de remplacement",
+            "reactivateOnExtend": "Exécuter à nouveau si le paquet a été prolongé (sur paiement de l'abonnement)"
         },
         "status": {
             "OPEN": "Ouvrir",
@@ -660,7 +669,10 @@
             "webhookURL": "URL du webhook",
             "paypal": "PayPal",
             "paysafecard": "Paysafecard",
-            "stripe": "Stripe"
+            "stripe": "Stripe",
+            "acceptPending": "Accepter les paiements en attente",
+            "doNotAcceptPending": "Ne pas accepter les paiements en attente",
+            "acceptPendingDescription": "Certains modes de paiement (par exemple, prélèvement SEPA, SOFORT, ...) prennent plusieurs jours avant d'être effectués. Si cette option est activée, les achats payés avec ces méthodes sont terminés directement après avoir terminé le processus de paiement. Il y a une petite chance que le paiement échoue par la suite."
         },
         "messages": {
             "createSuccess": "Passerelle de paiement créée avec succès.",
@@ -687,7 +699,8 @@
             "create": "Créer une remise",
             "edit": "Modifier la remise",
             "allPackets": "Utilisable pour tous les paquets",
-            "delete": "Supprimer la remise"
+            "delete": "Supprimer la remise",
+            "maxUsagesPerUser": "Utilisation maximale par utilisateur"
         },
         "messages": {
             "deleteSuccess": "Remise supprimée avec succès.",
@@ -730,7 +743,9 @@
         "warning_new": "Un nouvel avertissement a été créé. Raison : {reason}",
         "coupon_purchase_new": "{username} a soumis des codes {gateway_name} ({amount_total} {currency_symbol}) qui doivent être approuvés.",
         "purchase_finished_other": "{username} a finalisé son achat de {amount} avec {gateway_name}.",
-        "timeAgo": "il y a {time}"
+        "timeAgo": "il y a {time}",
+        "applied_packet_disabled": "Votre paquet {packet_title} a été désactivé.",
+        "applied_packet_upgraded": "Votre paquet {old_packet_title} a été mis à jour avec {new_packet_title}."
     },
     "_pageTitle": {
         "dashboard": "Tableau de bord",
@@ -1187,5 +1202,6 @@
     "adverts": "Annonces",
     "map": "Map",
     "setup": "Installation",
-    "instructions": "Consignes"
+    "instructions": "Consignes",
+    "discount": "Remise"
 }
