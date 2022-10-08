@@ -671,6 +671,7 @@
       "coupon": "Coupon (manual confirmation)",
       "acceptPending": "Accept pending payments",
       "doNotAcceptPending": "Do not accept pending payments",
+      "clientCertDescription": "A client certificate and key is used as authentication method for the paysafecard API. Contact the paysafecard support to get one.",
       "acceptPendingDescription": "Some payment methods (e.g. SEPA Direct Debit, SOFORT, ...) take several days until completed. If this option is enabled, purchases paid with these methods are finished directly after completing the checkout process. There is a small chance that the payment fails afterwards.",
       "webhookURL": "Webhook URL"
     },
@@ -1122,6 +1123,8 @@
   "dashboard": "Dashboard",
   "message": "Message",
   "date": "Date",
+  "clientCert": "Client Certificate",
+  "clientKey": "Client Key",
   "advancedProperties": "Advanced Properties",
   "details": "Details",
   "server": "Server",
