@@ -136,7 +136,12 @@
             "admin": "Shop Admin",
             "addToCart": "Zum Warenkorb hinzufügen",
             "removeAllPackets": "Entferne alle Pakete",
-            "checkoutCheckboxes": "Kontrollkästchen Kasse"
+            "checkoutCheckboxes": "Kontrollkästchen Kasse",
+            "taxIncludedInPacketPrice": "Steuern im Paketpreis enthalten",
+            "taxIncludedInPacketPriceDescription": "Anstatt Steuern auf den angegebenen Paketpreis aufzuschlagen, sind sie im Preis inbegriffen.",
+            "financeReport": "Finanzbericht",
+            "downloadInvoices": "Rechnungen herunterladen",
+            "net": "net"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -234,13 +239,18 @@
             "stripe": "Stripe",
             "paysafecard": "Paysafecard",
             "create": "Zahlungsmethode Erstellen",
-            "edit": "Zahlungsmethode Editieren"
+            "edit": "Zahlungsmethode Editieren",
+            "clientCertDescription": "Als Authentifizierungsmethode für die paysafecard API wird ein Client-Zertifikat und -Schlüssel verwendet. Wenden Sie sich an den paysafecard-Support, um eine zu erhalten.",
+            "acceptPending": "Akzeptieren Sie ausstehende Zahlungen",
+            "doNotAcceptPending": "Akzeptieren Sie keine ausstehenden Zahlungen",
+            "acceptPendingDescription": "Einige Zahlungsarten (z. B. SEPA-Lastschrift, SOFORT, ...) benötigen mehrere Tage, bis sie abgeschlossen sind. Wenn diese Option aktiviert ist, werden mit diesen Methoden bezahlte Einkäufe direkt nach Abschluss des Bestellvorgangs abgeschlossen. Es besteht eine geringe Chance, dass die Zahlung danach fehlschlägt."
         },
         "messages": {
             "formAttributeChangeExplanation": "Die unten stehenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird.",
             "createSuccess": "Zahlungsmethode erfolgreich erstellt.",
             "deleteSuccess": "Zahlungsmethode erfolgreich gelöscht.",
-            "editSuccess": "Zahlungsmethode erfolgreich editiert."
+            "editSuccess": "Zahlungsmethode erfolgreich editiert.",
+            "deleteWarning": "Vorsicht! Das Löschen eines Zahlungsgateways bewirkt das Löschen aller Käufe und Zahlungen, bei denen das Gateway verwendet wurde! Diese Aktion kann nicht rückgängig gemacht werden. Vielleicht stattdessen deaktivieren?"
         }
     },
     "_notification": {
@@ -273,7 +283,11 @@
         "timeAgo": "vor {time}",
         "purchase_cancelled": "Dein Kauf in Höhe von {amount} wurde storniert!",
         "purchase_finished": "Dein Kauf in Höhe von {amount} wurde abgeschlossen!",
-        "warning_new": "Es wurde eine neue Verwarnung erstellt. Grund: {reason}"
+        "warning_new": "Es wurde eine neue Verwarnung erstellt. Grund: {reason}",
+        "coupon_purchase_new": "{username} eingereicht {gateway_name} Codes ({amount_total} {currency_symbol}) die müssen genehmigt werden.",
+        "applied_packet_disabled": "Ihr Paket {packet_title} wurde deaktiviert.",
+        "applied_packet_upgraded": "Ihr Paket {old_packet_title} wurde aufgerüstet mit {new_packet_title}.",
+        "purchase_finished_other": "{username} einen Kauf abgeschlossen {amount} via {gateway_name}."
     },
     "_warning": {
         "ttlPlaceholder": "Dauer (in Tagen)",
@@ -315,7 +329,13 @@
             "addedPost": "Beitrag erstellt.",
             "toggleStatus": "Status geändert.",
             "addedThread": "Thread erstellt."
-        }
+        },
+        "status": {
+            "open": "offen",
+            "closed": "geschlossen"
+        },
+        "banProtest": "Ban Widerrufen",
+        "showBan": "Ban zeigen"
     },
     "_import": {
         "gextension": {
@@ -332,7 +352,9 @@
             },
             "messages": {
                 "import1Description": "VyHub ist nun bereit, die ersten Objekte zu importieren: Gruppen, Serverbundle und Benutzer. Achte darauf, den Importprozess in dieser Reihenfolge zu starten.",
-                "import2Description": "Du kannst nun die unten aufgeführten Objekte importieren. Die Reihenfolge ist nicht relevant."
+                "import2Description": "Du kannst nun die unten aufgeführten Objekte importieren. Die Reihenfolge ist nicht relevant.",
+                "packetsDataDescription": "Wählen Sie aus, welches VyHub-Paket an Eigentümer von GExtension-Paketen weitergegeben werden soll. Es ist auch möglich, einige Belohnungen auszuschließen. Wenn keine GExtension-Pakete aus wählbar sind, vergewissern Sie sich, dass Ihre URL und Ihr API-Schlüssel korrekt sind. Starten Sie anschließend den Paketimport.",
+                "basicDataDescription": "Fügen Sie die URL zu Ihrer GExtension-Site ein (ohne index.php). Stellen Sie sicher, dass Sie GExtension Version 2.7.8 oder neuer verwenden."
             }
         },
         "messages": {
@@ -355,14 +377,34 @@
             "discordEnterIdAsAddress": "Gib deine Gilden-ID als Serveradresse ein. Gib deine Lieblingszahl als Port ein.",
             "addBot": "Bot zu deiner Gilde hinzufügen.",
             "discordApplicationIdNeeded": "Discord-Anwendung erstellen.",
-            "guildIdDocs": "Gilden-ID finden."
+            "guildIdDocs": "Gilden-ID finden.",
+            "details": "Serverdetails",
+            "setup": "Server Aufsetzen"
         },
         "type": {
             "GMOD": "Garry's Mod",
             "DISCORD": "Discord",
             "MINECRAFT": "Minecraft"
         },
-        "deleteBundleConfirmationText": "Dadurch werden Objekte gelöscht, die auf dieses Serverbundle verweisen (z. B. Belohnungen)"
+        "deleteBundleConfirmationText": "Dadurch werden Objekte gelöscht, die auf dieses Serverbundle verweisen (z. B. Belohnungen)",
+        "instructions": {
+            "DISCORD": {
+                "addBot": "Füge den Bot zu deinem Discord-Server hinzu. Klicken Sie auf Neu laden, wenn die Schaltfläche nicht funktioniert.",
+                "createApp": "Erstellen Sie eine Discord-Anwendung und aktivieren Sie die Discord-Autorisierung.",
+                "readInstructions": "Lesen und befolgen Sie die weiteren Anweisungen in den Dokumenten."
+            },
+            "COMMON": {
+                "runCommands": "Generieren Sie die erforderlichen Befehle, indem Sie auf die Schaltfläche klicken, und führen Sie sie in der Serverkonsole Ihres Servers aus.",
+                "wait": "Warten Sie bis zu einer Minute, bis VyHub initialisiert ist. Bei erfolgreicher Verbindung erscheint eine Meldung in der Serverkonsole."
+            },
+            "GMOD": {
+                "download": "Laden Sie das Addon vyhub-gmod herunter, entpacken Sie es und legen Sie es in den Addons-Ordner Ihres Servers. Starten Sie dann Ihren Server neu.",
+                "serverConsoleHint": "Wichtig: Die Serverkonsole ist NICHT die Konsole im Spiel (beim Drücken von F10)."
+            },
+            "MINECRAFT": {
+                "download": "Laden Sie das vyhub-minecraft-Plugin .jar herunter und legen Sie es in den Plugins-Ordner Ihres Servers. Starten Sie dann Ihren Server neu."
+            }
+        }
     },
     "_personalSettings": {
         "emailNotifications": "E-Mail Benachrichtigungen",
@@ -444,7 +486,9 @@
             "sortOnlyWithCategory": "Pakete können nur sortiert werden, wenn eine Kategorie ausgewählt ist.",
             "addSuccess": "Paket erfolgreich erstellt.",
             "editSuccess": "Paket erfolgreich bearbeitet.",
-            "deleteSuccess": "Paket erfolgreich gelöscht."
+            "deleteSuccess": "Paket erfolgreich gelöscht.",
+            "customPricePossible": "Der Preis für dieses Paket kann angepasst werden.",
+            "deleteWarning": "Vorsicht! Das Löschen eines Pakets löscht auch alle zugehörigen angewendeten Pakete, angewendeten Prämien und Kaufgegenstände. Vielleicht das Paket stattdessen deaktivieren?"
         },
         "status": {
             "ENABLED": "Aktiviert",
@@ -465,7 +509,10 @@
         "messageType": "Typ",
         "messageTypeNews": "Nachricht",
         "messageSubject": "Thema",
-        "editNews": "Nachricht bearbeiten"
+        "editNews": "Nachricht bearbeiten",
+        "newsOfTheDay": "Neuigkeiten des Tages",
+        "news": "Nachrichten",
+        "newsExhausted": "Das ist es. Du hast alles gesehen"
     },
     "_reward": {
         "labels": {
@@ -488,7 +535,9 @@
                 "membership": "Gruppenmitgliedschaft hinzufügen",
                 "script": "Ausführen eines Skripts auf dem/den Server(n)"
             },
-            "addAppliedReward": "Angewendete Prämie hinzufügen"
+            "addAppliedReward": "Angewendete Prämie hinzufügen",
+            "reactivateOnExtend": "Erneut ausführen, wenn das Paket verlängert wurde (bei Abonnementzahlung)",
+            "checkForReplacements": "Überprüfen Sie die Dokumentation auf verfügbare Belohnungstypen und String-Ersetzungen"
         },
         "messages": {
             "createSuccess": "Belohnung erfolgreich erstellt.",
@@ -523,13 +572,32 @@
             "coupon": "Coupon",
             "confirm": "Bestätigen",
             "declineDebitText": "Kauf stornieren? Dies kann nicht rückgängig gemacht werden.",
-            "reward": "Belohnung"
+            "reward": "Belohnung",
+            "details": "Einzelheiten zum Kauf",
+            "salesCount": "Verkaufszählung",
+            "appliedPackets": "Angewandte Pakete",
+            "paymentGateway": "Zahlungs-Gateways",
+            "showApprovedDebits": "Genehmigte Abbuchungen anzeigen",
+            "addAppliedReward": "Angewendete Prämie hinzufügen",
+            "revenueByCountry": "Umsatz nach Land",
+            "editAppliedPacket": "Angewendetes Paket bearbeiten",
+            "addAppliedPacket": "Angewendetes Paket hinzufügen"
         },
         "messages": {
             "cancelSubscriptionSuccess": "Abonnement erfolgreich gekündigt.",
             "refundInitSuccess": "Rückerstattung erfolgreich eingeleitet.",
             "revokeSuccess": "Kauf erfolgreich widerrufen.",
-            "refreshSuccess": "Die Zahlungsdaten wurden erfolgreich aktualisiert."
+            "refreshSuccess": "Die Zahlungsdaten wurden erfolgreich aktualisiert.",
+            "deleteSuccess": "Kauf erfolgreich gelöscht.",
+            "editAppliedPacketSuccess": "Angewendetes Paket erfolgreich bearbeitet.",
+            "deleteAppliedPacketSuccess": "Angewandtes Paket erfolgreich gelöscht.",
+            "unrevokeSuccess": "Kauf erfolgreich widerrufen.",
+            "cancelSubscriptionConfirm": "Möchten Sie dieses Abonnement wirklich kündigen?",
+            "deleteConfirm": "Möchten Sie diesen Kauf wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden. Zugehörige angewendete Pakete werden nicht gelöscht.",
+            "confirmPurchaseSuccess": "Kauf erfolgreich genehmigt",
+            "createAppliedPacketSuccess": "Angewandtes Paket erfolgreich erstellt.",
+            "refundConfirm": "Sind Sie sicher, dass Sie diesen Kauf zurückerstatten möchten?",
+            "declinePurchaseSuccess": "Kauf erfolgreich abgebrochen"
         }
     },
     "_settings": {
@@ -677,7 +745,22 @@
         "payment_credits_fail": "Fehler bei Zahlung mit Credits. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}, reason: {reason}.",
         "purchase_refund": "Kauf zurückerstattet. purchase_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
         "cms_deleted": "CMS HTML Seite gelöscht.",
-        "theme_edit": "Design bearbeitet."
+        "theme_edit": "Design bearbeitet.",
+        "applied_packet_disabled": "Angewandtes Paket deaktiviert {applied_packet_id}.",
+        "applied_packet_upgraded": "Verbessertes angewendetes Paket {old_applied_packet_id} mit {new_applied_packet_id}. Hinzugefügt {days} Tage.",
+        "ban_edit_reason": "Grund geändert zu {reason}.",
+        "membership_edit": "Bearbeitete Mitgliedschaft: Gruppe: {groupName}, Benutzer: {username}, Alt: {oldBegin} {oldEnd}, Neu: {newBegin} {newEnd}.",
+        "warning_config_edit": "Warnkonfiguration bearbeitet.",
+        "warning_delete": "Lösche Verwarnung von: {username}.",
+        "warning_add": "Verwarnung Hinzugefügt für: {username}.",
+        "user_token_create": "Token erstellt {token_id} mit Umfang {scope} für Serverbundle {bundle_id}.",
+        "user_token_revoke": "Widerrufenen Token {token_id}.",
+        "ban_new_full": "Benutzer {creatorId} Bann hinzugefügt {banId} für Benutzer {userId} in bundle {bundleId} von {createdOn} bis um {endDate}. Grund: {reason}.",
+        "ban_protest": "Bann durch Benutzer protestiert",
+        "ban_edit_bundle": "Bundle geändert, zu {bundleName}.",
+        "membership_add": "Zur Gruppe hinzugefügt {group_name} in Bundle {serverbundle} bis um {until}.",
+        "membership_deleted": "Gelöschte Mitgliedschaft: Gruppe: {groupName}, Benutzer: {username}.",
+        "membership_ended": "Mitgliedschaft Beendet: Gruppe: {groupName}, Benutzer: {username}."
     },
     "port": "Port",
     "disabled": "Deaktiviert",
@@ -733,7 +816,8 @@
             "create": "Rabatt erstellen",
             "edit": "Rabatt bearbeiten",
             "allPackets": "Verwendbar für alle Pakete",
-            "delete": "Rabatt löschen"
+            "delete": "Rabatt löschen",
+            "maxUsagesPerUser": "Maximale Nutzung pro Benutzer"
         },
         "messages": {
             "deleteSuccess": "Rabatt erfolgreich gelöscht.",
@@ -762,12 +846,14 @@
         "about": "Über",
         "dashboard": "Dashboard",
         "shopAdministration": "Shop - Administration",
-        "legal": "Rechtliches"
+        "legal": "Rechtliches",
+        "warnings": "Verwarnungen"
     },
     "_api": {
         "labels": {
             "createKey": "Schlüssel erstellen",
-            "limitToServerbundle": "Auf Serverbundle beschränken"
+            "limitToServerbundle": "Auf Serverbundle beschränken",
+            "createdKey": "API-Schlüssel erstellt"
         },
         "messages": {
             "keyCreated": "Neuer Schlüssel erstellt:",
@@ -937,12 +1023,48 @@
             "address_show": "Adressen von anderen Benutzern anzeigen.",
             "group_edit": "Gruppen verwalten",
             "nav_edit": "Navigationseinstellungen bearbeiten",
-            "news_edit": "Neuigkeiten bearbeiten"
+            "news_edit": "Neuigkeiten bearbeiten",
+            "shop_edit": "Shop-Einstellungen verwalten",
+            "apikey_edit": "API-Schlüssel verwalten",
+            "legal_edit": "Rechtliche Inhalte bearbeiten",
+            "warning_config_show": "Warnkonfiguration in den Einstellungen anzeigen",
+            "general_show": "Allgemeine Einstellungen anzeigen",
+            "purchase_show": "Einkäufe und Statistiken anzeigen",
+            "purchase_edit": "Einkäufe verwalten",
+            "applied_packet_show": "Sehen Sie sich angewendete Pakete und Belohnungen an.",
+            "applied_packet_edit": "Bearbeitete Pakete und Prämien bearbeiten.",
+            "shop_show": "Shop-Einstellungen ansehen",
+            "account_show": "Guthaben Konten anderer Benutzer anzeigen",
+            "ticket_edit": "Tickets bearbeiten",
+            "authorization_show": "Berechtigungseinstellungen anzeigen",
+            "advert_show": "Anzeigen ansehen",
+            "advert_edit": "Anzeigen verwalten",
+            "admin_menu": "Admin-Menü aktivieren",
+            "warning_config_edit": "Bearbeiten Sie die Warnkonfiguration in den Einstellungen",
+            "requirement_show": "Anforderungssätze anzeigen",
+            "requirement_edit": "Anforderungssätze verwalten",
+            "gateway_show": "Zahlungsgateways anzeigen",
+            "gateway_edit": "Zahlungs-Gateways verwalten",
+            "user_log": "Einträge zum Benutzerprotokoll anzeigen und hinzufügen",
+            "packet_show": "Pakete und Belohnungen anzeigen",
+            "packet_edit": "Shop-Pakete verwalten",
+            "general_edit": "Allgemeine Einstellungen verwalten",
+            "log_show": "Protokolle anzeigen",
+            "discount_show": "Shop-Rabatte ansehen",
+            "discount_edit": "Shop-Rabatte verwalten",
+            "account_edit": "Guthaben Konto Transaktionen von Benutzern bearbeiten",
+            "ticket_show": "Tickets Anzeigen",
+            "authorization_edit": "Berechtigungseinstellungen bearbeiten",
+            "auth_request_confirm": "Authentifizierungsanfragen bestätigen (nur für Gameserver)",
+            "faq_edit": "FAQ in den Einstellungen bearbeiten",
+            "reserved_slot_use": "Verwenden Sie reservierte Slots auf einem Server"
         },
         "categories": {
             "general": "Allgemein",
             "bans_and_warnings": "Banns und Verwarnungen",
-            "other": "Andere"
+            "other": "Andere",
+            "user": "Benutzer",
+            "shop": "Shop"
         }
     },
     "paymentGateways": "Zahlungsmethoden",
@@ -953,7 +1075,7 @@
         "editQuestionDialog": "Frage bearbeiten",
         "messages": {
             "contentEmpty": "Bitte gib einen Inhalt ein",
-            "addSuccess": "Frage erstellt. ",
+            "addSuccess": "Frage erstellt.",
             "editSuccess": "Frage bearbeitet.",
             "deleteSuccess": "Frage gelöscht.",
             "updatedOrder": "Reihenfolge geändert."
@@ -1044,5 +1166,37 @@
     "bundle": "Bundle",
     "import": "Import",
     "subtitle": "Untertitel",
-    "map": "Karte"
+    "map": "Karte",
+    "update": "Aktualisieren",
+    "_advert": {
+        "title": "Ankündigungen",
+        "messages": {
+            "deleteSuccess": "Anzeige gelöscht.",
+            "editSuccess": "Anzeige aktualisiert.",
+            "updatedOrder": "Anzeigen Reihenfolge aktualisiert.",
+            "addSuccess": "Anzeige erstellt."
+        },
+        "add": "Anzeige hinzufügen",
+        "update": "Anzeigenreihenfolge aktualisieren",
+        "formEnabled": "berechtigen",
+        "reset": "Anzeigenreihenfolge zurücksetzen",
+        "formTitle": "Titel",
+        "formContent": "Inhalt",
+        "addAdvertDialog": "Anzeige hinzufügen",
+        "editAdvertDialog": "Anzeige bearbeiten"
+    },
+    "revenue": "Einnahmen",
+    "subcategory": "Unterkategorie",
+    "clientCert": "Client-Zertifikat",
+    "clientKey": "Kundenschlüssel",
+    "instructions": "Anweisungen",
+    "adverts": "Anzeigen",
+    "setup": "Konfiguration",
+    "requirementSet": "Anforderungssatz",
+    "theme": "Style",
+    "submit": "Einreichen",
+    "recurring": "wiederkehrend",
+    "generate": "Generieren",
+    "discount": "Rabatt",
+    "enddate": "Ende"
 }
