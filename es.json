@@ -95,14 +95,10 @@
         "multigroup": "Grupos Múltiples",
         "totalUsers": "Usuarios totales: ",
         "backgroundColorDescription": "La imagen de fondo sobrescribe el color de fondo",
-        "externalLink": "Enlace externo",
         "htmlContent": "Contenido HTML",
         "imageUrl": "Imagen URL",
-        "addNavlink": "Agregar enlace de navegación",
         "navReset": "Restablecer orden",
-        "addLink": "Añadir enlace",
         "editNavLink": "Editar enlace de navegación",
-        "editor": "Editor",
         "contentEmpty": "El contenido está vacío",
         "httpPlaceholder": "https://myurl.com",
         "addRequirementSet": "Agregar conjunto de requisitos",
@@ -128,13 +124,10 @@
             "editBundle": "Editar paquete de servidor",
             "addServer": "Agregar servidor"
         },
-        "navUpdate": "Actualizar orden de navegación",
         "showTeam": "Habilitar página de equipo",
         "languageNewDescriptionText": "Ayúdanos a traducir a tu idioma",
         "multigroupDescription": "Los usuarios pueden ser miembros de varios grupos a la vez en este paquete.",
-        "contentSanitizationWarning": "Solo los administradores pueden usar JavaScript. De lo contrario, se desinfectará.",
         "formulaError": "Fórmula no válida - consulte la consola para obtener información adicional",
-        "rawHtml": "HTML sin procesar",
         "serverAndServerbundle": "Servidor / Paquete de servidor"
     },
     "_group": {

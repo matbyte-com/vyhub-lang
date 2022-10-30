@@ -210,11 +210,8 @@
         "illegal_value": "Ungültiger Wert: {msg}"
     },
     "_navigation": {
-        "externalLink": "Externer Link",
         "enabled": "Aktiviert",
-        "type": "Typ",
         "link": "Link",
-        "titleAlreadyUsed": "Titel bereits verwendet!",
         "messages": {
             "addedLink": "Navigationslink erstellt.",
             "updatedLinkOrder": "Navigationsreihenfolge aktualisiert.",
@@ -228,8 +225,7 @@
         "editNavLink": "Navigationslink bearbeiten",
         "noHtmlGiven": "Bitte geben Sie HTML ein!",
         "deleteDefaultLink": "Standardlink kann nicht gelöscht werden",
-        "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder",
-        "cantFindLink": "Der Index des zu aktualisierenden Navigationslinks konnte nicht gefunden werden"
+        "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder"
     },
     "_gateway": {
         "labels": {
@@ -608,7 +604,6 @@
         "defaultGroup": "Standard Gruppe",
         "multigroup": "Mehrere Gruppen",
         "totalUsers": "Benutzer insgesamt: ",
-        "navUpdate": "Reihenfolge aktualisieren",
         "addRequirementSet": "Anforderungsset hinzufügen",
         "editRequirementSet": "Anforderungsset bearbeiten",
         "addRequirement": "Anforderung hinzufügen",
@@ -632,15 +627,10 @@
             "editBundle": "Servrebundle bearbeiten",
             "addServer": "Server hinzufügen"
         },
-        "contentSanitizationWarning": "JavaScript kann nur von Admins genutzt werden. Ansonsten wird JavaScript entfernt.",
         "externalLink": "Externer Link",
-        "htmlContent": "HTML Inhalt",
         "imageUrl": "Bild URL",
-        "rawHtml": "Rohes HTML",
         "addLink": "Link hinzufügen",
-        "navReset": "Reihenfolge zurücksetzen",
         "addNavlink": "Link hinzufügen",
-        "editNavLink": "Link bearbeiten",
         "editor": "Editor",
         "contentEmpty": "Leerer Inhalt",
         "httpPlaceholder": "https://myurl.com",
