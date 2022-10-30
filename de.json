@@ -225,7 +225,26 @@
         "editNavLink": "Navigationslink bearbeiten",
         "noHtmlGiven": "Bitte geben Sie HTML ein!",
         "deleteDefaultLink": "Standardlink kann nicht gelöscht werden",
-        "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder"
+        "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder",
+        "_location": {
+            "header": "Kopfzeile",
+            "footer": "Fusszeile"
+        },
+        "sublink": "Sublink",
+        "editor": "Bearbeiter",
+        "cmsPageTitle": "HTML Seiten",
+        "html": "HTML",
+        "rawHtml": "Rohes HTML",
+        "parentNavigationLink": "Übergeordneter Navigationslink",
+        "navUpdate": "Navigationsreihenfolge aktualisieren",
+        "navReset": "Navigationsreihenfolge zurücksetzen",
+        "reqProp": "Erforderliche Eigenschaft",
+        "location": "Standort",
+        "cmsPage": "HTML Seite",
+        "addCmsPage": "Seite hinzufügen",
+        "editCmsPage": "Seite bearbeiten",
+        "deleteCmsPage": "Seite löschen",
+        "contentSanitizationWarning": "JavaScript darf nur von Admins verwendet werden. Sonst wird saniert."
     },
     "_gateway": {
         "labels": {
@@ -627,11 +646,8 @@
             "editBundle": "Servrebundle bearbeiten",
             "addServer": "Server hinzufügen"
         },
-        "externalLink": "Externer Link",
         "imageUrl": "Bild URL",
-        "addLink": "Link hinzufügen",
         "addNavlink": "Link hinzufügen",
-        "editor": "Editor",
         "contentEmpty": "Leerer Inhalt",
         "httpPlaceholder": "https://myurl.com",
         "logicFormula": "Logische Formel",
@@ -750,7 +766,12 @@
         "ban_edit_bundle": "Bundle geändert, zu {bundleName}.",
         "membership_add": "Zur Gruppe hinzugefügt {group_name} in Bundle {serverbundle} bis um {until}.",
         "membership_deleted": "Gelöschte Mitgliedschaft: Gruppe: {groupName}, Benutzer: {username}.",
-        "membership_ended": "Mitgliedschaft Beendet: Gruppe: {groupName}, Benutzer: {username}."
+        "membership_ended": "Mitgliedschaft Beendet: Gruppe: {groupName}, Benutzer: {username}.",
+        "warning_toggle": "Warnstatus auf Deaktiviert umschalten: {newStatus}, Benutzer: {username}.",
+        "reward_process_failed": "Die angewendete Belohnung konnte nicht ausgeführt werden {reward_type} {applied_reward_id}: {error}.",
+        "reward_process_success": "Erfolgreich ausgeführte Belohnung {reward_type} {applied_reward_id}.",
+        "reward_membership_lower_level": "MEMBERSHIP-Belohnung ignoriert {applied_reward_id} weil Benutzer {user_id} Level ({user_level}) ist höher als das Gruppenniveau {group_id} ({group_level}).",
+        "user_admin_status_removed": "Admin-Status des Benutzers {username} - {user_id} editiert: Admin = {status}."
     },
     "port": "Port",
     "disabled": "Deaktiviert",
@@ -1188,5 +1209,6 @@
     "recurring": "wiederkehrend",
     "generate": "Generieren",
     "discount": "Rabatt",
-    "enddate": "Ende"
+    "enddate": "Ende",
+    "flags": "Flaggen"
 }
