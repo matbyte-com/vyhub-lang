@@ -45,7 +45,6 @@
     "_settings": {
         "multigroup": "Plusieurs groupes",
         "multigroupDescription": "Les utilisateurs peuvent être membres de plusieurs groupes à la fois dans ce bundle.",
-        "htmlContent": "Contenu HTML",
         "documentationLink": "Documentation",
         "showTicket": "Activer le système de tickets",
         "permissionLevel": "Niveau d'autorisation",
@@ -55,7 +54,6 @@
         "totalUsers": "Nombre total d'utilisateurs : ",
         "backgroundColorDescription": "L'image d'arrière-plan écrase la couleur d'arrière-plan",
         "imageUrl": "URL de l'image",
-        "navUpdate": "Mettre à jour l'ordre de navigation",
         "addLink": "Ajouter un lien",
         "contentEmpty": "Le contenu est vide",
         "addRequirementSet": "Ajouter un ensemble d'exigences",

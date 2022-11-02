@@ -647,7 +647,6 @@
             "addServer": "Server hinzufügen"
         },
         "imageUrl": "Bild URL",
-        "addNavlink": "Link hinzufügen",
         "contentEmpty": "Leerer Inhalt",
         "httpPlaceholder": "https://myurl.com",
         "logicFormula": "Logische Formel",
