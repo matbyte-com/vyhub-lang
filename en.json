@@ -306,11 +306,15 @@
       "addedLink": "Navigation link created.",
       "updatedLinkOrder": "Navigation order updated.",
       "removedLink": "Navigation link deleted.",
-      "editedLink": "Navigation link edited."
+      "editedLink": "Navigation link edited.",
+      "cmsAdded": "Html page added.",
+      "cmsEdited": "Html page edited.",
+      "cmsDeleted": "Html page deleted."
     },
     "_location": {
       "header": "Header",
-      "footer": "Footer"
+      "footer": "Footer",
+      "help": "Help"
     },
     "linkTitle": "Title",
     "sublink": "Sublink",
