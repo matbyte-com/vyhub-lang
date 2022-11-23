@@ -1,5 +1,8 @@
 {
     "ply": {
         "no_permissions": "Du hast nicht die nötigen Berechtigungen dafür."
+    },
+    "warning": {
+        "toggled": "Status der Verwarnung wurde geändert."
     }
 }
