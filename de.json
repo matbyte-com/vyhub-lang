@@ -1,1 +1,5 @@
-{}
+{
+    "ply": {
+        "no_permissions": "Du hast nicht die nötigen Berechtigungen dafür."
+    }
+}
