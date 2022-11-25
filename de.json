@@ -50,9 +50,12 @@
         "warnings": "Verwarnungen",
         "date": "Datum",
         "warn": "Verwarnung",
-        "ban": "Bann"
+        "ban": "Bann",
+        "bans": "Banns"
     },
     "dashboard": {
-        "select_user": "Bitte wähle einen Spieler aus."
+        "select_user": "Bitte wähle einen Spieler aus.",
+        "action_ban": "Bannen",
+        "action_warn": "Verwarnen"
     }
 }
