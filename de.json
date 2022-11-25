@@ -38,6 +38,21 @@
         "permanently": "Permanent",
         "unban_url": "Entbannungs URL",
         "error_api": "Fehler bei der Kommunikation mit der API: %s",
-        "never": "Nie"
+        "never": "Nie",
+        "active_global": "Aktiv (Global)",
+        "unban": "Entbannen",
+        "actions": "Aktionen",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "disabled": "Deaktiviert",
+        "unbanned": "Entbannt",
+        "reban": "Bannen",
+        "warnings": "Verwarnungen",
+        "date": "Datum",
+        "warn": "Verwarnung",
+        "ban": "Bann"
+    },
+    "dashboard": {
+        "select_user": "Bitte wähle einen Spieler aus."
     }
 }
