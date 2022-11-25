@@ -26,7 +26,9 @@
         "full_no_slot": "The server is full and you do not have access to a reserved slot"
     },
     "dashboard": {
-        "select_user": "Please select an user."
+        "select_user": "Please select an user.",
+        "action_ban": "Ban",
+        "action_warn": "Warn"
     },
     "other": {
         "active": "Active",
