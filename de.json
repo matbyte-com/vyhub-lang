@@ -216,7 +216,10 @@
             "addedLink": "Navigationslink erstellt.",
             "updatedLinkOrder": "Navigationsreihenfolge aktualisiert.",
             "removedLink": "Navigationslink gelöscht.",
-            "editedLink": "Navigationslink bearbeitet."
+            "editedLink": "Navigationslink bearbeitet.",
+            "cmsDeleted": "HTML-Seite gelöscht.",
+            "cmsAdded": "HTML-Seite hinzugefügt.",
+            "cmsEdited": "HTML-Seite bearbeitet."
         },
         "linkTitle": "Title",
         "htmlContent": "HTML Inhalt",
@@ -228,7 +231,8 @@
         "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder",
         "_location": {
             "header": "Kopfzeile",
-            "footer": "Fusszeile"
+            "footer": "Fusszeile",
+            "help": "Hilfe"
         },
         "sublink": "Sublink",
         "editor": "Bearbeiter",
@@ -770,7 +774,8 @@
         "reward_process_failed": "Die angewendete Belohnung konnte nicht ausgeführt werden {reward_type} {applied_reward_id}: {error}.",
         "reward_process_success": "Erfolgreich ausgeführte Belohnung {reward_type} {applied_reward_id}.",
         "reward_membership_lower_level": "MEMBERSHIP-Belohnung ignoriert {applied_reward_id} weil Benutzer {user_id} Level ({user_level}) ist höher als das Gruppenniveau {group_id} ({group_level}).",
-        "user_admin_status_removed": "Admin-Status des Benutzers {username} - {user_id} editiert: Admin = {status}."
+        "user_admin_status_removed": "Admin-Status des Benutzers {username} - {user_id} editiert: Admin = {status}.",
+        "users_linked": "Linkedin-Benutzer {link user_id} mit {base user_id}. Beim Zusammenführen von Kreditkonten wurden {credits} Credits übertragen."
     },
     "port": "Port",
     "disabled": "Deaktiviert",
