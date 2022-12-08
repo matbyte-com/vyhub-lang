@@ -776,7 +776,8 @@
     "team": "Team",
     "notificationLink": "Notification",
     "serverDashboard":  "Server Dashboard",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "forum": "Forum"
   },
   "_warning": {
     "title": "Warnings",
@@ -965,6 +966,28 @@
       "deleteSuccess": "FAQ question deleted.",
       "updatedOrder": "FAQ order updated.",
       "contentEmpty": "Please enter a content"
+    }
+  },
+  "_forum": {
+    "TopicCategories": "Forum categories",
+    "manageTopicCategories": "Manage topic categories",
+    "manageTopics": "Manage topics",
+    "addThread": "Add thread",
+    "addCategory": "Add category",
+    "addTopic": "Add topic",
+    "editTopicCategory": "Edit topic category",
+    "topicAdminUser": "Topic Admins",
+    "deleteCategory": "Delete category",
+    "deleteTopic": "Delete topic",
+    "messages": {
+      "TopicCategoryCreated": "Topic category created.",
+      "TopicCreated": "Topic created.",
+      "TopicCategoryEdited": "Topic category edited.",
+      "TopicEdited": "Topic edited.",
+      "categoryDeleteSuccess": "Category successful deleted.",
+      "topicDeleteSuccess": "Topic successful deleted.",
+      "updatedOrder": "Forum order updated.",
+      "TopicDescriptionTooLong": "The description is too long. The maximum length is 75 characters."
     }
   },
   "_advert": {
