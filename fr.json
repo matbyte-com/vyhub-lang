@@ -54,7 +54,6 @@
         "totalUsers": "Nombre total d'utilisateurs : ",
         "backgroundColorDescription": "L'image d'arrière-plan écrase la couleur d'arrière-plan",
         "imageUrl": "URL de l'image",
-        "addLink": "Ajouter un lien",
         "contentEmpty": "Le contenu est vide",
         "addRequirementSet": "Ajouter un ensemble d'exigences",
         "editRequirementSet": "Modifier l'ensemble d'exigences",
