@@ -775,7 +775,7 @@
         "reward_process_success": "Erfolgreich ausgeführte Belohnung {reward_type} {applied_reward_id}.",
         "reward_membership_lower_level": "MEMBERSHIP-Belohnung ignoriert {applied_reward_id} weil Benutzer {user_id} Level ({user_level}) ist höher als das Gruppenniveau {group_id} ({group_level}).",
         "user_admin_status_removed": "Admin-Status des Benutzers {username} - {user_id} editiert: Admin = {status}.",
-        "users_linked": "Verknüpfter Benutzer {link_user_id} mit {base_user_id}. Übertragen {credits} Credits beim Zusammenführen von Kreditkonten."
+        "users_linked": "Benutzer {link_user_id} mit {base_user_id} verknüpft. {credits} Credits wurden beim Zusammenführen übertragen."
     },
     "port": "Port",
     "disabled": "Deaktiviert",
