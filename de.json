@@ -714,7 +714,7 @@
         "news_add": "Nachricht hinzugefügt {newsSubject} {newsId}.",
         "user_log_entry_add": "{message}",
         "discord_wrong_bot_token": "Discord-Bot kann sich nicht anmelden (Bot-Token falsch)",
-        "social_config_edit": "Eisntellung der sozialen Autorisierung bearbeitet.",
+        "social_config_edit": "Konfiguration der sozialen Autorisierung bearbeitet.",
         "discord_no_permission_for_server": "Der Discord-Bot kann die Gilde nicht abrufen {guild_id}.",
         "discord_no_permission_to_target_group": "Der Discord-Bot kann Zielgruppe nicht ändern.",
         "group_team_member_edited": "Gruppe ist Teammitglied bearbeitet.",
