@@ -770,7 +770,7 @@
         "membership_add": "Zur Gruppe hinzugefügt {group_name} in Bundle {serverbundle} bis um {until}.",
         "membership_deleted": "Gelöschte Mitgliedschaft: Gruppe: {groupName}, Benutzer: {username}.",
         "membership_ended": "Mitgliedschaft Beendet: Gruppe: {groupName}, Benutzer: {username}.",
-        "warning_toggle": "Warnstatus auf Deaktiviert umschalten: {newStatus}, Benutzer: {username}.",
+        "warning_toggle": "Schalten Sie den Warnstatus auf Deaktiviert um: {newStatus}, Benutzer: {username}.",
         "reward_process_failed": "Die angewendete Belohnung konnte nicht ausgeführt werden {reward_type} {applied_reward_id}: {error}.",
         "reward_process_success": "Erfolgreich ausgeführte Belohnung {reward_type} {applied_reward_id}.",
         "reward_membership_lower_level": "MEMBERSHIP-Belohnung ignoriert {applied_reward_id} weil Benutzer {user_id} Level ({user_level}) ist höher als das Gruppenniveau {group_id} ({group_level}).",
