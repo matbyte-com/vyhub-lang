@@ -278,7 +278,7 @@
         "type": {
             "CENTRAL": {
                 "name": "VyHub Central",
-                "info": "Get a personal dashboard url."
+                "info": "The platform to manage and monetize your gameservers."
             },
             "STEAM": {
                 "name": "Steam",
