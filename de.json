@@ -1215,5 +1215,15 @@
     "generate": "Generieren",
     "discount": "Rabatt",
     "enddate": "Ende",
-    "flags": "Flaggen"
+    "flags": "Flaggen",
+    "_forum": {
+        "TopicCategories": "Forum Kategorien",
+        "manageTopics": "Topics Verwalten",
+        "addThread": "Neues Thema",
+        "addCategory": "Kategorie erstellen",
+        "deleteCategory": "Kategorie löschen",
+        "messages": {
+            "categoryDeleteSuccess": "Kategorie erfolgreich gelöscht."
+        }
+    }
 }
