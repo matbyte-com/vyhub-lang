@@ -967,25 +967,36 @@
         }
     },
     "_forum": {
-        "TopicCategories": "Forum categories",
-        "manageTopicCategories": "Manage topic categories",
-        "manageTopics": "Manage topics",
-        "addThread": "Add thread",
-        "addCategory": "Add category",
-        "addTopic": "Add topic",
-        "editTopicCategory": "Edit topic category",
+        "TopicCategories": "Forum",
+        "manageTopicCategories": "Manage Topic Categories",
+        "manageTopics": "Manage Topics",
+        "selectTopicCategory": "Select a Topic Category",
+        "addThread": "Add Thread",
+        "addCategory": "Add Category",
+        "addTopic": "Add Topic",
+        "editTopicCategory": "Edit Topic Category",
         "topicAdminUser": "Topic Admins",
-        "deleteCategory": "Delete category",
-        "deleteTopic": "Delete topic",
+        "deleteCategory": "Delete Category",
+        "deleteTopic": "Delete Topic",
+        "lock": "Lock",
+        "unlock": "Unlock",
+        "locked": "Locked",
+        "unlocked": "Unlocked",
+        "deleteThread": "Delete Thread",
+        "rename": "Rename",
+        "renameThread": "Rename Thread",
+        "admin": "Forum Admin",
+        "hideClosed": "Hide Closed Threads",
+        "threadLocked": "Thread Locked",
         "messages": {
-            "TopicCategoryCreated": "Topic category created.",
-            "TopicCreated": "Topic created.",
-            "TopicCategoryEdited": "Topic category edited.",
-            "TopicEdited": "Topic edited.",
+            "topicCategoryCreated": "Topic category created.",
+            "topicCreated": "Topic created.",
+            "topicCategoryEdited": "Topic category edited.",
+            "topicEdited": "Topic edited.",
+            "topicDescriptionTooLong": "The description is too long. The maximum length is 75 characters.",
             "categoryDeleteSuccess": "Category successful deleted.",
             "topicDeleteSuccess": "Topic successful deleted.",
-            "updatedOrder": "Forum order updated.",
-            "TopicDescriptionTooLong": "The description is too long. The maximum length is 75 characters."
+            "updatedOrder": "Forum order updated."
         }
     },
     "_advert": {
@@ -1238,5 +1249,6 @@
     "adverts": "Adverts",
     "map": "Map",
     "setup": "Setup",
-    "instructions": "Instructions"
+    "instructions": "Instructions",
+    "writeToConfirm": "Write to confirm:"
 }
