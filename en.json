@@ -967,7 +967,7 @@
         }
     },
     "_forum": {
-        "TopicCategories": "Forum",
+        "title": "Forum",
         "manageTopicCategories": "Manage Topic Categories",
         "manageTopics": "Manage Topics",
         "selectTopicCategory": "Select a Topic Category",
