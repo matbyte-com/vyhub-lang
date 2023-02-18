@@ -863,7 +863,8 @@
         "dashboard": "Dashboard",
         "shopAdministration": "Shop - Administration",
         "legal": "Rechtliches",
-        "warnings": "Verwarnungen"
+        "warnings": "Verwarnungen",
+        "forum": "Forum"
     },
     "_api": {
         "labels": {
@@ -1217,12 +1218,26 @@
     "enddate": "Ende",
     "flags": "Flaggen",
     "_forum": {
-        "manageTopics": "Topics Verwalten",
+        "manageTopics": "Themen verwalten",
         "addThread": "Neues Thema",
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
         "messages": {
             "categoryDeleteSuccess": "Kategorie erfolgreich gelöscht."
-        }
+        },
+        "lock": "Sperren",
+        "selectTopicCategory": "Wählen Sie eine Themenkategorie aus",
+        "unlock": "Freischalten",
+        "locked": "Geschlossen",
+        "unlocked": "Entsperrt",
+        "deleteThread": "Thread löschen",
+        "rename": "Umbenennen",
+        "renameThread": "Thema umbenennen",
+        "title": "Forum",
+        "manageTopicCategories": "Themenkategorien verwalten",
+        "addTopic": "Thema hinzufügen",
+        "editTopicCategory": "Themenkategorie bearbeiten",
+        "topicAdminUser": "Themen-Admins",
+        "deleteTopic": "Thema löschen"
     }
 }
