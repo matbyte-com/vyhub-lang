@@ -7,6 +7,17 @@
             "close": "close"
         }
     },
+    "_invoice": {
+        "invoice": "Invoice",
+        "invoiceDate": "Invoice Date",
+        "deliveryDate": "Delivery Date",
+        "vatNumber": "VAT Number",
+        "paymentMethod": "Payment Method",
+        "transaction": "Transaction",
+        "item": "Item",
+        "quantity": "Quantity",
+        "price": "Price"
+    },
     "_membership": {
         "labels": {
             "add": "Add Group Membership",
