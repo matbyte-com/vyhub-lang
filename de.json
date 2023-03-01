@@ -2,8 +2,8 @@
     "_header": {
         "labels": {
             "register": "Registrieren",
-            "login": "Anmelden",
-            "logout": "Abmelden",
+            "login": "Login",
+            "logout": "Ausloggen",
             "close": "Schließen"
         }
     },
