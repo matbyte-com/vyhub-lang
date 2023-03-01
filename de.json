@@ -1,1 +1,48 @@
-{}
+{
+    "_header": {
+        "purchases": "Käufe",
+        "labels": {
+            "login": "Login",
+            "register": "Registrieren",
+            "logout": "Ausloggen"
+        },
+        "start": "Start",
+        "features": "Features",
+        "games": "Spiele",
+        "pricing": "Preise",
+        "partners": "Partner",
+        "blog": "Blog",
+        "demo": "Demo",
+        "dashboard": "Dashboard",
+        "contact": "Kontakt",
+        "faq": "FAQ",
+        "docs": "Doku",
+        "admin": "Admin",
+        "profile": "Profil"
+    },
+    "_footer": {
+        "_about": {
+            "supportedGames": "Unterstütze Spiele",
+            "features": "Features",
+            "pricing": "Preise",
+            "blog": "Blog",
+            "demo": "Demo"
+        },
+        "about": "Über VyHub",
+        "help": "Hilfe bekommen",
+        "company": "Firma",
+        "legal": "Rechtliches",
+        "_help": {
+            "support": "Support",
+            "docs": "Dokumentation"
+        },
+        "_company": {
+            "partners": "Partner"
+        },
+        "_legal": {
+            "about": "Über",
+            "termsOfService": "AGB",
+            "privacyPolicy": "Datenschutz"
+        }
+    }
+}
