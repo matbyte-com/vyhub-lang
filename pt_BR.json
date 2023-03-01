@@ -1,1 +1,65 @@
-{}
+{
+    "_membership": {
+        "labels": {
+            "activeMemberships": "Inscrições",
+            "endMembership": "Encerrar inscrição",
+            "add": "Adicionar inscrição ao grupo",
+            "edit": "Editar inscrição do grupo",
+            "showPastMemberships": "Mostrar inscrições antigas"
+        },
+        "messages": {
+            "membershipSuccessfullyAdded": "Inscrição adicionada com sucesso"
+        }
+    },
+    "_dashboard": {
+        "labels": {
+            "membershipEndDescription": "Deixar vazio por duração ilimitada",
+            "admin": "Admin",
+            "linkedAccounts": "Contas vinculadas",
+            "linkNewAccount": "Vincular nova conta",
+            "activeProperties": "Propriedades ativas",
+            "groupMemberships": "Incrição ao grupo",
+            "bansAndWarnings": "Banimentos e Advertências",
+            "userLog": "Registro de Usuário",
+            "registered_on": "Registrado em",
+            "last_online": "Online pela última vez",
+            "removeAdminTitle": "Remover administrador?",
+            "credits": "Créditos"
+        },
+        "messages": {
+            "removeAdminConfirmation": "Não se esqueça de remover o antigo administrador da instância na sua central de visão geral da instância.",
+            "adminSuccessfullyRemoved": "Administrador removido com sucesso"
+        }
+    },
+    "_header": {
+        "labels": {
+            "login": "Entrar",
+            "register": "Cadastre-se",
+            "logout": "Encerrar a sessão",
+            "close": "Fechar"
+        }
+    },
+    "_invoice": {
+        "invoice": "Fatura",
+        "invoiceDate": "Data da fatura",
+        "deliveryDate": "Prazo de entrega",
+        "vatNumber": "Número do IVA",
+        "paymentMethod": "Método de pagamento",
+        "transaction": "Transação",
+        "item": "Item",
+        "quantity": "Quantidade",
+        "price": "Preço"
+    },
+    "_ban": {
+        "labels": {
+            "title": "Proibições",
+            "add": "Adicionar proibição",
+            "lengthInMinutes": "Duração (em minutos)",
+            "edit": "Editar proibição",
+            "details": "Detalhes da proibição",
+            "unban": "Desbanir",
+            "reban": "Proibir novamente",
+            "unbanned": "Desbanido"
+        }
+    }
+}
