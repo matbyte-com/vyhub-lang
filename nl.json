@@ -173,7 +173,8 @@
             "addBundle": "Serverbundel toevoegen",
             "editBundle": "Serverbundel bewerken",
             "addServer": "Server toevoegen"
-        }
+        },
+        "showTicket": "Ticketsysteem inschakelen"
     },
     "_group": {
         "mappings": {
@@ -230,7 +231,8 @@
             "enableDonationGoal": "Donatiedoel inschakelen",
             "enableDonationGoalDescription": "Donatiedoelcomponent weergegeven op startpagina (Nieuws)",
             "cancelPayment": "Annuleer betaling",
-            "cancelPurchase": "Annuleer aankoop"
+            "cancelPurchase": "Annuleer aankoop",
+            "couponCode": "coupon code"
         },
         "messages": {
             "notEnoughCredits": "U heeft niet genoeg tegoed om deze aankoop te betalen. Kies een andere betaalmethode of koop meer credits.",
@@ -247,7 +249,32 @@
             "startingPaymentFailed": "Er is een fout opgetreden bij het initiëren van de betaling. Probeer het opnieuw of gebruik een andere betaalmethode!",
             "selectGateway": "Selecteer uw betaalmethode.",
             "noAddressSpecified": "Adress is nog niet gespecificeerd.",
-            "removeFromCartSuccess": "Pakket verwijderd uit winkelwagen."
+            "removeFromCartSuccess": "Pakket verwijderd uit winkelwagen.",
+            "cancelPurchaseConfirmation": "Gestarte betalingen worden geannuleerd. Alle ingevoerde coupons zijn verloren. Het annuleren van een aankoop kan niet ongedaan worden gemaakt.",
+            "paymentPending": "Deze betaling is in behandeling. Vul het in door naar de winkelwagen te gaan.",
+            "paymentProcessing": "De betaling is goedgekeurd en wordt binnenkort afgerond. Wacht een paar minuten op deze pagina terwijl uw betaling wordt verwerkt.",
+            "clearCartSuccess": "Alle pakketten met succes uit de winkelwagen verwijderd.",
+            "paymentCancelled": "Deze betaling is geannuleerd. U kunt het opnieuw proberen door naar uw winkelwagen te gaan.",
+            "paymentSuccess": "De betaling is succesvol afgerond. De gekochte pakketten zijn toegewezen aan uw account.",
+            "paymentFailed": "Er is een fout opgetreden tijdens het betalingsproces. Probeer het proces opnieuw te starten.",
+            "unfinishedPurchase": "Er is een lopende aankoop die nog niet is afgerond.",
+            "purchaseCancelledSuccess": "De betaling is geannuleerd.",
+            "couponApplySuccess": "Coupon is succesvol toegepast.",
+            "couponRemoveSuccess": "Coupon succesvol verwijderd.",
+            "couponNotApplied": "Coupon kan niet worden toegepast op een pakket in uw winkelwagen.",
+            "includesVAT": "Inclusief {tax_rate}% btw.",
+            "selectBillingAddressFirst": "Selecteer eerst een factuuradres.",
+            "selectEmailFirst": "Werk eerst uw e-mailadres bij"
+        },
+        "purchaseStatus": {
+            "open": "Open",
+            "cancelled": "Geannuleerd",
+            "finished": "Afgerond",
+            "refunded": "Terugbetaald",
+            "revoked": "Terug getrokken",
+            "recurring": "Terugkerend",
+            "enabled": "Actief",
+            "disabled": "Verlopen"
         }
     },
     "or": "of",
@@ -268,5 +295,81 @@
             "loginSuccess": "Succesvol ingelogd.",
             "loginError": "Fout gedurende het inloggen"
         }
+    },
+    "_errors": {
+        "unauthorized": "Je moet ingelogd zijn om dit te doen.",
+        "too_many_ban_protests": "Er zijn al 3 protesten voor dit verbod.",
+        "packet_requires_other": "Dit pakket vereist een ander pakket: {packet_title}.",
+        "packet_not_compatible": "Dit pakket is niet compatibel met een ander pakket: {packet_title}.",
+        "country_not_allowed": "Aankopen uit uw land zijn niet toegestaan.",
+        "requirement_parse_error": "Formule voor vereisten kan niet worden geparseerd. Neem contact op met een beheerder.",
+        "cart_not_empty": "Uw winkelwagen moet leeg zijn om dit pakket toe te voegen.",
+        "packet_relation_violated": "Dit pakket schendt een pakketrelatie met een ander pakket: {relation_type} {packet_title}.",
+        "packet_already_in_cart": "Dit pakket zit al in je winkelwagen.",
+        "packet_not_purchasable": "U kunt dit pakket niet kopen.",
+        "cart_full": "Je winkelwagen is vol.",
+        "payment_error": "Betalingsfout: {bericht}",
+        "not_found": "Niet gevonden.",
+        "illegal_value": "Ongeldige waarde: {msg}",
+        "missing_properties": "U heeft niet alle vereiste eigenschappen: {properties}",
+        "no_permissions": "Toestemmingsfout: {msg}",
+        "wrong_currency": "U kunt geen pakketten met verschillende valuta in uw winkelwagen hebben.",
+        "ban_protest_open": "Er bestaat al een openlijk protest tegen dit verbod.",
+        "coupon": {
+            "not_found": "Deze code is ongeldig."
+        }
+    },
+    "_user": {
+        "type": {
+            "STEAM": {
+                "info": "Het beroemde spelplatform.",
+                "name": "Steam"
+            },
+            "DISCORD": {
+                "info": "Jouw plek om te praten en rond te hangen",
+                "name": "Discord"
+            },
+            "CENTRAL": {
+                "name": "VyHub Centraal",
+                "info": "Het platform om je gameservers te beheren en er geld mee te verdienen."
+            },
+            "MINECRAFT": {
+                "name": "Minecraft",
+                "info": "Bouw je eigen netwerk."
+            }
+        },
+        "labels": {
+            "newUsers": "Nieuwe gebruiker",
+            "authRequestDescription": "Voer de volgende opdracht uit op een {type} server om in te loggen:"
+        }
+    },
+    "_navigation": {
+        "messages": {
+            "cmsAdded": "Html pagina toegevoegd",
+            "addedLink": "Navigatielink gemaakt.",
+            "updatedLinkOrder": "Navigatievolgorde bijgewerkt.",
+            "removedLink": "Navigatielink verwijderd.",
+            "editedLink": "Navigatie link bewerkt.",
+            "cmsEdited": "Html pagina bewerkt.",
+            "cmsDeleted": "Html pagina verwijderd"
+        },
+        "_location": {
+            "header": "Kopstuk",
+            "footer": "voetstuk",
+            "help": "Help"
+        },
+        "linkTitle": "Titel",
+        "sublink": "Sublink",
+        "editor": "Bewerker",
+        "cmsPageTitle": "HTML Paginas",
+        "enabled": "Inschakelen",
+        "htmlContent": "HTML inhoud"
+    },
+    "_legal": {
+        "descriptionText": "In de meeste landen is het verplicht om in ieder geval de contactgegevens, gebruiksvoorwaarden en een privacybeleid van de website-exploitant te hebben. U vindt een voorbeeld van een privacybeleid in de documenten.",
+        "messages": {
+            "editedLegal": "Juridisch aanpassen."
+        },
+        "showLegalReminder": "Stel juridische informatie in de instellingen in!"
     }
 }
