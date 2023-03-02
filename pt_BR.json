@@ -59,7 +59,317 @@
             "details": "Detalhes da proibição",
             "unban": "Desbanir",
             "reban": "Proibir novamente",
-            "unbanned": "Desbanido"
+            "unbanned": "Desbanido",
+            "protestBan": "Contestação de banimento",
+            "infiniteBandDescription": "Deixe em branco para banimento permanente",
+            "bundleDescription": "Deixe em branco para uma proibição global",
+            "banProtests": "Contestações"
+        },
+        "messages": {
+            "showingUserBans": "Mostrando proibições de usuário com ID",
+            "banAdded": "Banimento criado",
+            "banDeleted": "Banimento deletado",
+            "banEdited": "Banimento editado",
+            "banToggled": "Status do banimento alterado"
         }
+    },
+    "_serverbundle": {
+        "messages": {
+            "editSuccess": "Pacote do servidor alterado com sucesso.",
+            "createSuccess": "Pacote do servidor criado com sucesso.",
+            "deleteSuccess": "Pacote do servidor excluído com sucesso."
+        },
+        "labels": {
+            "apiKeys": "Chaves API do pacote do servidor",
+            "createApiKey": "Criar nova chave API"
+        }
+    },
+    "_theme": {
+        "communityNameDescription": "Mostrar nome da comunidade no cabeçalho",
+        "headerColor": "Cor do cabeçalho e rodapé",
+        "primaryColor": "Cor primária",
+        "successColor": "Cor do éxito",
+        "errorColor": "Cor do erro",
+        "warningColor": "Cor de advertência",
+        "backgroundColor": "Cor de fundo",
+        "backgroundColorDescription": "Cor é substituida pela imagem de fundo",
+        "darkmode": "Modo escuro",
+        "backgroundImageURL": "Imagem do fundo do URL",
+        "logoURL": "Logotipo URL",
+        "showCommunityName": "Mostrar nome da comunidade",
+        "logoDescription": "Recarregar página se o logotipo não aparece corretamente",
+        "logoWidth": "Amplitude do logotipo",
+        "faviconURL": "Ícone do site URL",
+        "messages": {
+            "editedTheme": "Tema editado."
+        }
+    },
+    "_settings": {
+        "multigroupDescription": "Usuários podem ser membros de múltiplos grupos por vez em esse pacote.",
+        "showTicket": "Habilitar Sistema de Bilhetes",
+        "serverAndServerbundle": "Servidor / Grupo de Servidores",
+        "communityDescriptionDescr": "Esta descrição será mostrada nos resultados do teste do motor de busca",
+        "labels": {
+            "addBundle": "Adicionar Pacote de Servidor",
+            "title": "Configurações",
+            "groupSettings": "Configurações de Grupo",
+            "addGroup": "Adicionar Grupo",
+            "editGroup": "Editar Grupo",
+            "editBundle": "Editar Pacote de Servidor",
+            "addServer": "Adicionar Servidor"
+        },
+        "permissionLevel": "Nível de Permissão",
+        "membercount": "Membros",
+        "gameserver": "Servidor do Jogo",
+        "defaultGroup": "Grupo Padrão",
+        "multigroup": "Grupos Múltiplos",
+        "totalUsers": "Total de Usuários: ",
+        "backgroundColorDescription": "A imagem de fundo substitui a cor de fundo",
+        "imageUrl": "Imagem URL",
+        "contentEmpty": "O conteúdo está vazio",
+        "httpPlaceholder": "https://myurl.com",
+        "addRequirementSet": "Adicionar Conjunto de Requisitos",
+        "editRequirementSet": "Editar Conjunto de Requisitos",
+        "addRequirement": "Adicionar Requerimento",
+        "logicFormula": "Fórmula Lógica",
+        "formulaTypeError": "Checar se todas das identificações usadas estão presentes",
+        "formulaError": "Fórmula não válida - Cheque o painel para informações adicionais",
+        "editFormula": "Editar Fórmula",
+        "formula": "Fórmula",
+        "formulaSymbolOr": "Esse símbolo | para OR",
+        "formulaSymbolAnd": "Esse Símbolo & para E",
+        "formulaBeta": "Essa função está em fase de teste. Por favor, utilize com cuidado.",
+        "documentationLink": "Documentação",
+        "requirements": "Requerimentos",
+        "showTeam": "Habiliar Página de Equipe",
+        "showFaq": "Habilitar Página de Perguntas Frequentes",
+        "communityDescription": "Descrição da Comunidade",
+        "language": "Idioma",
+        "languageNewDescriptionText": "Nos ajude a traduzir para o seu idioma",
+        "addServerTooltip": "Adicionar o Pacote de Servidor primeiro"
+    },
+    "_properties": {
+        "ban_show": "Permite ao usuário a mostrar proibições em um pacote específico",
+        "ban_edit": "Permite ao usuário editar banimentos no pacote especificado",
+        "bundle_edit": "Adicionar e Editar Pacote de Servidores"
+    },
+    "_group": {
+        "mappings": {
+            "name": "Nome do grupo/classificação/papel no servidor"
+        },
+        "messages": {
+            "addedGroup": "Grupo Criado.",
+            "deletedGroup": "Grupo Excluído.",
+            "editedGroup": "Grupo Editado."
+        },
+        "isTeam": "É Equipe",
+        "isTeamDescription": "Membros do grupo serão mostrados na página de equipe"
+    },
+    "_shop": {
+        "labels": {
+            "paymentId": "Identificação de Pagamento",
+            "taxRules": "Regras Fiscais",
+            "defaultCurrency": "Moeda Padrão",
+            "taxIncludedInPacketPrice": "Impostos incluídos no valor do pacote",
+            "taxIncludedInPacketPriceDescription": "Ao invés de adicionar impostos no preço do pacote especificado no topo, eles estão incluídos no valor.",
+            "enableDonationGoalDescription": "Componente de meta de doação exibido na página inicial (Novidades)",
+            "financeReport": "Relatório Financeiro",
+            "downloadInvoices": "Baixar Faturas",
+            "cart": "Carrinho",
+            "invoiceLogoURL": "Logotipo URL da Fatura",
+            "invoiceLogoURLDetails": "URL de um logotipo que é mostrado na fatura.",
+            "admin": "Administração da Loja",
+            "applyCoupon": "Aplicar Cupom",
+            "couponCode": "Código de Cupom",
+            "tax": "Imposto",
+            "net": "Rede",
+            "subtotal": "Subtotal",
+            "checkout": "Check-out",
+            "payment": "Pagamento",
+            "addToCart": "Adicionar ao carrinho",
+            "total": "Total",
+            "businessAddress": "Endereço Comercial",
+            "credits": "Créditos",
+            "purchaseNow": "Comprar Agora",
+            "orderOverview": "Tabela de Pedidos",
+            "cartTotal": "Total do Carrinho",
+            "unfinishedPurchase": "Compra não finalizada",
+            "billingAddress": "Endereço de Cobrança",
+            "removeAllPackets": "Remover todos os pacotes",
+            "donationGoal": "Meta de Doação",
+            "perMonth": "Por mês",
+            "enableDonationGoal": "Permitir doação global",
+            "cancelPayment": "Cancelar Pagamento",
+            "cancelPurchase": "Cancelar Compra",
+            "loginToBuy": "Entre para comprar esse pacote",
+            "checkoutCheckboxes": "Finalizar caixas de seleção",
+            "taxAllowUnknown": "Permitir compras de países sem regras fiscais.",
+            "taxAllowUnknownDescription": "Se desativado, compras originárias de países que não possuem uma regra de impostos explícita configurada, não serão possíveis."
+        },
+        "messages": {
+            "notEnoughCredits": "Você não tem créditos suficientes para pagar essa compra. Por favor escolha um método de pagamento diferente ou compre mais créditos.",
+            "paymentCancelled": "Este pagamento foi cancelado. Você pode tentar novamente visitando o seu carrinho de compras.",
+            "confirmCreditsPayment": "Por favor conforme o pagamento de {créditos} créditos.",
+            "confirmCouponPayment": "Por favor insira o seu código {gateway_name} . O pagamento será manualmente aprovado por um membro da equipe.",
+            "couponsEntered": "Seu cupom foi adicionado com sucesso. Você pode editar o seu cupom até a sua compra ser aprovada.",
+            "couponsEditSuccess": "Cupom editado com sucesso.",
+            "addToCartError": "Um erro ocorreu enquanto adicionava o pacote em seu carrinho.",
+            "paymentPending": "O pagamento está pendente. Por favor, complete o pagamento visitando o carrinho de compras.",
+            "addToCartSuccess": "Pacote adicionado com sucesso ao seu carrinho.",
+            "cartEmpty": "Seu carrinho está vazio.",
+            "mustAgree": "Você deve concordar para continuar!",
+            "startingPaymentFailed": "Ocorreu um erro enquanto iniciava o pagamento. Por favor, tente novamente ou utilize outro método de pagamento!",
+            "selectGateway": "Por favor selecione um método de pagamento.",
+            "noOngoingPurchase": "Não há nenhuma compra em curso. Por favor, inicie o check-out no carrinho.",
+            "paymentActionFailed": "Ocorreu um erro enquanto redirecionava para a página de pagamento. Por favor, tente novamente ou utilize outro método de pagamento! Mensagem de erro: {Mensagem}",
+            "noAddressSpecified": "Endereço não especificado ainda.",
+            "paymentProcessing": "O pagamento foi aprovado e será finalizado em breve. Por favor, aguarde alguns minutos nesta página enquanto o pagamento está sendo processado.",
+            "removeFromCartSuccess": "Pacote removido com sucesso do carrinho.",
+            "clearCartSuccess": "Todos os pacotes removidos do carrinho com sucesso.",
+            "paymentSuccess": "Este pagamento foi finalizado com sucesso. Os pacotes de compra foram atribuídos a sua conta.",
+            "paymentFailed": "Um erro ocorreu durante o processo de pagamento. Por favor, tente reiniciar o processo.",
+            "unfinishedPurchase": "Existe uma compra em curso que ainda não foi concluída.",
+            "purchaseCancelledSuccess": "A compra foi cancelada.",
+            "couponApplySuccess": "Cupom aplicado com sucesso.",
+            "couponRemoveSuccess": "Cupom removido com sucesso.",
+            "couponNotApplied": "Este cupom não pôde ser aplicado em nenhum pacote no seu carrinho.",
+            "includesVAT": "Incluem {tarifa_impostos}% IVA.",
+            "selectBillingAddressFirst": "Por favor, selecione um endereço de cobrança primeiro.",
+            "selectEmailFirst": "Por favor, primeiro atualize o endereço de e-mail",
+            "cancelPurchaseConfirmation": "Os pagamentos iniciados foram cancelados. Todos os cupons utilizados foram perdidos. O cancelamento da compra não pode ser desfeito."
+        },
+        "purchaseStatus": {
+            "open": "Aberto",
+            "cancelled": "Cancelado",
+            "finished": "Concluído",
+            "refunded": "Restituído",
+            "recurring": "Recorrente",
+            "enabled": "Ativo",
+            "revoked": "Revogado",
+            "disabled": "Expirado"
+        }
+    },
+    "_login": {
+        "messages": {
+            "loginSuccess": "Sessão iniciada com sucesso.",
+            "loginError": "Erro ao iniciar sessão."
+        }
+    },
+    "_errors": {
+        "country_not_allowed": "Compras do seu país não são permitidas.",
+        "cart_not_empty": "Seu carrinho deve estar vazio para adicionar este pacote.",
+        "packet_requires_other": "Esse pacote requere um outro pacote: {titulo_pacote}.",
+        "packet_not_compatible": "Esse pacote não é compatível com o outro pacote: {titulo_pacote}.",
+        "packet_already_in_cart": "Esse pacote já está em seu carrinho.",
+        "packet_not_purchasable": "Você não pode comprar este pacote.",
+        "cart_full": "Seu carrinho está cheio.",
+        "payment_error": "Erro de Pagamento: {msg}",
+        "not_found": "Não encontrado.",
+        "no_permissions": "Erro de Permissão: {msg}",
+        "unauthorized": "Você deve estar logado para fazer isso.",
+        "wrong_currency": "Você não pode ter pacotes com diferentes moedas em seu carrinho.",
+        "ban_protest_open": "Já existe um protesto aberto para essa proibição.",
+        "coupon": {
+            "not_found": "Esse código é inválido."
+        },
+        "requirement_parse_error": "Não foi possível analisar as fórmulas dos requisitos. Por favor, entre em contato com o administrador.",
+        "packet_relation_violated": "Esse pacote viola a relação com um outro pacote: {relação_tipo} {titulo_pacote}.",
+        "illegal_value": "Valor inválido: {msg}",
+        "missing_properties": "Você não tem todas as propriedades necessárias: {propriedades}",
+        "too_many_ban_protests": "Já existem 3 protestos para esta proibição."
+    },
+    "_user": {
+        "labels": {
+            "newUsers": "Novos Usuários",
+            "authRequestDescription": "Execute o seguinte comendo em um {tipo} servidor para entrar:"
+        },
+        "type": {
+            "CENTRAL": {
+                "name": "Central VyHub",
+                "info": "A plataforma pra gerenciar e monetizar seus servidores de jogos."
+            },
+            "STEAM": {
+                "name": "Steam",
+                "info": "A famosa plataforma de jogos."
+            },
+            "DISCORD": {
+                "name": "Discord",
+                "info": "Seu lugar para conversar e curtir."
+            },
+            "MINECRAFT": {
+                "name": "Minecraft",
+                "info": "Construa o seu próprio mundo."
+            }
+        }
+    },
+    "_legal": {
+        "messages": {
+            "editedLegal": "Direito editado."
+        },
+        "showLegalReminder": "Por favor, insira as informações legais nas configurações!",
+        "descriptionText": "Na maioria dos países é obrigatório ter, pelo menos, os detalhes de contato do operador do website, termos de uso e política de privacidade. Você pode encontrar um exemplo de política de privacidade na documentação."
+    },
+    "_navigation": {
+        "messages": {
+            "addedLink": "Link de Navegação criado.",
+            "updatedLinkOrder": "Ordem de Navegação foi atualizada.",
+            "removedLink": "Link de Navegação foi excluído.",
+            "editedLink": "Link de Navegação foi editado.",
+            "cmsAdded": "Página HTML adicionada.",
+            "cmsDeleted": "Página HTML deletada.",
+            "cmsEdited": "Página de HTML editada."
+        },
+        "_location": {
+            "header": "Cabeçalho",
+            "footer": "Rodapé",
+            "help": "Ajuda"
+        },
+        "linkTitle": "Título",
+        "editor": "Editor",
+        "enabled": "Habilitado",
+        "htmlContent": "Conteúdo HTML",
+        "link": "Link",
+        "html": "Html",
+        "rawHtml": "HTML Bruto",
+        "title": "Navegação",
+        "parentNavigationLink": "Principal link de Navegação",
+        "addNavLink": "Adicionar Link de Navegação",
+        "noHtmlGiven": "Por favor insira algum HTML!",
+        "navReset": "Reinicie Pedido de Navegação",
+        "reqProp": "Propriedade Necessária",
+        "location": "Localização",
+        "cmsPage": "Página HTML",
+        "addCmsPage": "Adicionar Página",
+        "editCmsPage": "Editar Página",
+        "deleteCmsPage": "Deletar Página",
+        "bothHtmlInputsUsed": "Não utilize as duas entradas HTML",
+        "cmsPageTitle": "Páginas HTML",
+        "sublink": "Sublink",
+        "editNavLink": "Editar Link de Navegação",
+        "navUpdate": "Atualize Pedido de Navegação",
+        "deleteDefaultLink": "Não pode excluir o link padrão",
+        "contentSanitizationWarning": "O uso do JavaScript somente é autorizado ser utilizado por Administradores. Caso contrário ele será desinfetado."
+    },
+    "_log": {
+        "type": {
+            "user": "Usuário",
+            "shop": "Loja",
+            "packet": "Pacote",
+            "group": "Grupo",
+            "news": "Novidades",
+            "requirement": "Requerimento",
+            "design": "Estilo",
+            "warning": "Aviso",
+            "discord": "Discord",
+            "server": "Servidor",
+            "faq": "FAQ",
+            "system": "Sistema",
+            "ban": "Banimento"
+        },
+        "edit": "Editado {nome}: {chave} = {valor}",
+        "object_delete": "Deletado {nome da classe} com identificação {id}.",
+        "object_create": "Criado {nome da classe} com identificação {id}: {parâmetros}",
+        "object_edit": "Editado {nome da classe} com identificação {id}: {chave} = {valor}.",
+        "applied_packet_disabled": "Pacote Aplicado Desabilitado {aplicado_pacote_id}."
     }
 }
