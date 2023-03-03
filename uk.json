@@ -1,1 +1,424 @@
-{}
+{
+    "_settings": {
+        "contentEmpty": "Вміст порожній",
+        "serverAndServerbundle": "Сервер / Серверний блок",
+        "showFaq": "Увімкнути сторінку FAQ",
+        "addRequirementSet": "Додати набір параметрів",
+        "editRequirementSet": "Редагувати набір параметрів",
+        "addRequirement": "Додати параметр",
+        "formulaTypeError": "Перевірте, чи всі використані ID присутні",
+        "formulaSymbolOr": "Цей символ | для АБО (OR)",
+        "formulaSymbolAnd": "Цей символ & для І (AND)",
+        "imageUrl": "URL зображення",
+        "httpPlaceholder": "https://myurl.com",
+        "logicFormula": "Логічна формула",
+        "editFormula": "Редагувати формулу",
+        "formula": "Формула",
+        "requirements": "Вимоги",
+        "communityDescriptionDescr": "Цей опис буде показано в результатах тестування пошукових систем",
+        "addServerTooltip": "Спочатку додайте серверний блок",
+        "labels": {
+            "editBundle": "Редагувати серверний блок",
+            "addBundle": "Додати серверний блок",
+            "addServer": "Додати сервер",
+            "groupSettings": "Налаштування групи",
+            "addGroup": "Додати групу",
+            "editGroup": "Редагувати групу",
+            "title": "Налаштування"
+        },
+        "showTicket": "Увімкнути систему квитків",
+        "showTeam": "Увімкнути сторінку команди",
+        "backgroundColorDescription": "Фонове зображення заміщує колір фону",
+        "formulaError": "Формула невірна - зверніться до консолі для отримання додаткової інформації",
+        "formulaBeta": "Ця функція знаходиться в стадії бета-тестування. Будь ласка, використовуйте з обережністю.",
+        "documentationLink": "Документація",
+        "language": "Мова",
+        "languageNewDescriptionText": "Допоможіть нам перекласти на вашу мову",
+        "communityDescription": "Опис спільноти",
+        "gameserver": "Ігровий сервер",
+        "permissionLevel": "Рівень дозволу",
+        "membercount": "Учасники",
+        "defaultGroup": "Група за замовчуванням",
+        "totalUsers": "Кількість користувачів: ",
+        "multigroup": "Декілька груп",
+        "multigroupDescription": "Користувачі можуть бути членами кількох груп одночасно в цьому пакеті."
+    },
+    "_theme": {
+        "logoURL": "URL логотипу",
+        "faviconURL": "URL-адреса фавіконки",
+        "warningColor": "Колір попередження",
+        "showCommunityName": "Показати назву спільноти",
+        "showInformationFab": "Показати кнопку зворотного зв'язку",
+        "primaryColor": "Основний колір",
+        "showInformationFabDescription": "Кнопка зворотнього зв'язку внизу праворуч",
+        "successColor": "Колір успіху",
+        "errorColor": "Колір помилки",
+        "headerColor": "Колір верхнього та нижнього колонтитулів",
+        "communityNameDescription": "Відображати назву спільноти в заголовку",
+        "logoDescription": "Перезавантажити сторінку, якщо логотип відображається некоректно",
+        "logoWidth": "Ширина логотипу",
+        "backgroundColor": "Фоновий колір",
+        "backgroundImageURL": "URL фонового зображення",
+        "backgroundColorDescription": "Колір замінюється фоновим зображенням",
+        "darkmode": "Темний режим",
+        "messages": {
+            "editedTheme": "Тему відредаговано."
+        }
+    },
+    "_log": {
+        "type": {
+            "requirement": "Вимоги",
+            "user": "Користувач",
+            "ban": "Бан",
+            "shop": "Магазин",
+            "packet": "Пакет",
+            "group": "Група",
+            "news": "Новини",
+            "design": "Дизайн",
+            "system": "Система",
+            "warning": "Попередження",
+            "server": "Сервер",
+            "discord": "Discord",
+            "faq": "FAQ"
+        },
+        "ban_protest": "Користувач оскаржив бан",
+        "group_add": "Додано групу {groupName} {groupId}.",
+        "ban_edit_reason": "Змінено причину на {reason}.",
+        "applied_packet_extended": "Застосований пакет {applied_packet_id} розширено.",
+        "payment_process": "Здійснено процес оплати. шлюз: {gateway}, повідомлення: {message}, дія: {action}, деталі: {detail}.",
+        "purchase_status_changed": "Змінено статус покупки. покупка_id: {purchase_id}, статус: {old_status} -> {new_status}.",
+        "purchase_finished": "Покупку завершено. покупка_id: {purchase_id}.",
+        "config_edit": "Відредаговано загальну конфігурацію.",
+        "membership_add": "Додано до групи {group_name} у пакет {serverbundle} до {until}.",
+        "warning_delete": "Видалити попередження для користувача: {username}.",
+        "purchase_unrevoke": "Покупку не повернуто. покупка_id: {purchase_id}.",
+        "group_deleted": "Видалено групу {groupName} {groupId}.",
+        "object_create": "Створено {classname} з id {id}: {params}",
+        "applied_packet_upgraded": "Оновлено застосований пакет {old_applied_packet_id} з {new_applied_packet_id}. Додано {days} днів.",
+        "group_edit": "Групу {groupName} {groupId} відредаговано.",
+        "applied_packet_disabled": "Застосований пакет {applied_packet_id} відключено.",
+        "applied_packet_not_extended": "Не вдалося розширити застосований пакет {applied_packet_id}: {reason}.",
+        "user_imported_from": "Користувача імпортовано з {source}.",
+        "refund_finished": "Завершено повернення. дебет_id: {debit_id}, покупка_id: {purchase_id}.",
+        "user_sync_failed": "Не вдалося синхронізувати користувача {user_id}.",
+        "membership_ended": "Припинення членства: Група: {groupName}, Користувач: {username}.",
+        "purchase_refund": "Покупку повернуто. покупка_id: {purchase_id}, дебет_id: {debit_id}, повернення_дебету_id: {refund_debit_id}.",
+        "payment_credits_success": "Оплата кредиту успішна. дія: {action}, користувач_id: {user_id}, дебет_id: {debit_id}, кредити: {credits}.",
+        "edit": "Відредаговано {name}: {key} = {value}",
+        "object_edit": "Відредаговано {classname} з id {id}: {key} = {value}.",
+        "debit_status_changed": "Змінено дебетовий статус. дебет_id: {debit_id}, статус: {old_status} -> {new_status}.",
+        "purchase_cancelled": "Покупку скасовано. покупка_id: {purchase_id}.",
+        "purchase_revoke": "Покупку повернуто. покупка_id: {purchase_id}.",
+        "payment_error": "Помилка платежу. шлюз: {gateway}, повідомлення: {message}, дія: {action}, деталі: {detail}, код: {status_code}.",
+        "cms_edit": "Відредагована html-сторінка cms.",
+        "ban_edit_length": "Дату завершення змінено на {endDate}.",
+        "nav_edit": "Відредаговані навігаційні лінки.",
+        "payment_credits_fail": "Не вдалося оплатити кредит. дія: {action}, користувач_id: {user_id}, дебет_id: {debit_id}, кредити: {credits}, причина: {reason}.",
+        "cms_deleted": "Видалено сторінку cms html.",
+        "ban_new": "Додано бан у пакет {bundleName} до {endDate}. Причина: {reason}.",
+        "ban_new_full": "Користувач {creatorId} додав бан {banId} для користувача {userId} у пакеті {bundleId} з {createdOn} до {endDate}. Причина: {reason}.",
+        "ban_edit_status": "Статус змінено на {статус}.",
+        "requirement_set_deleted": "Набір вимог видалено {requirementSetName} {requirementSetId}.",
+        "news_add": "Додано новину {newsSubject} {newsId}.",
+        "news_deleted": "Новину {newsSubject} {newsId} видалено.",
+        "membership_deleted": "Видалено учасника: Група: {groupName}, Користувач: {username}.",
+        "membership_edit": "Відредаговане членство: Група: {groupName}, Користувач: {username}, Старий: {oldBegin} {oldEnd}, Новий: {newBegin} {newEnd}.",
+        "requirement_set_add": "Додано набір вимог {requirementSetName} {requirementSetId}.",
+        "requirement_set_edit": "Набір вимог {requirementSetName} {requirementSetId} відредаговано.",
+        "news_edit": "Відредаговані новини {newsSubject} {newsId}.",
+        "warning_toggle": "Встановити статус попередження користувача {username} на {newStatus}.",
+        "payment_refund": "Повернуто платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}.",
+        "payment_cancelled": "Платіж скасовано. дебет_id: {debit_id}.",
+        "payment_initiate": "Ініційовано платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}.",
+        "packet_applied": "Застосовано пакет {packet_title} ({packet_id}) для користувача {user_id}. застосовано_пакет_id: {applied_packet_id}.",
+        "payment_event": "Обробка платіжної операції. шлюз: {gateway}, повідомлення: {message}, деталі: {detail}.",
+        "ban_edit_bundle": "Змінено назву пакета на {bundleName}.",
+        "requirement_add": "Вимога {requirementId} додана.",
+        "warning_add": "Додано попередження для користувача: {username}.",
+        "object_delete": "Видалено {classname} з id {id}.",
+        "theme_edit": "Відредагована тема.",
+        "ban_deleted": "Видалено бан {banId}."
+    },
+    "_invoice": {
+        "invoice": "Рахунок",
+        "deliveryDate": "Дата доставки",
+        "paymentMethod": "Спосіб оплати",
+        "transaction": "Транзакція",
+        "quantity": "Кількість",
+        "price": "Ціна",
+        "vatNumber": "Номер платника ПДВ",
+        "item": "Предмет",
+        "invoiceDate": "Дата рахунку"
+    },
+    "_dashboard": {
+        "labels": {
+            "userLog": "Лог користувача",
+            "groupMemberships": "Членство в групі",
+            "credits": "Кредити",
+            "last_online": "Останній раз онлайн",
+            "membershipEndDescription": "Залишити порожнім на необмежений час",
+            "linkNewAccount": "Прив'язати новий акаунт",
+            "admin": "Адмін",
+            "bansAndWarnings": "Бани та попередження",
+            "removeAdminTitle": "Видалити адміна?",
+            "registered_on": "Зареєстровано на",
+            "title": "{usr}",
+            "linkedAccounts": "Пов'язані акаунти",
+            "activeProperties": "Активні опції"
+        },
+        "messages": {
+            "adminSuccessfullyRemoved": "Адміна успішно видалено",
+            "removeAdminConfirmation": "Не забудьте видалити колишнього адміністратора з аккаунта в центральному списку аккаунта."
+        }
+    },
+    "_ban": {
+        "messages": {
+            "showingUserBans": "Показати бани користувача з ID: {id}",
+            "banDeleted": "Бан видалено",
+            "banEdited": "Бан відредаговано",
+            "banToggled": "Статус бану змінено",
+            "banAdded": "Бан створено"
+        },
+        "labels": {
+            "protestBan": "Заявка на зняття бану",
+            "reban": "Знову забанити",
+            "lengthInMinutes": "Тривалість (у хвилинах)",
+            "unbanned": "Розбанено",
+            "details": "Деталі бану",
+            "infiniteBandDescription": "Залишити порожнім для довічного бану",
+            "unban": "Розбанити",
+            "bundleDescription": "Залишити порожнім для глобального бану",
+            "title": "Бани",
+            "add": "Додати бан",
+            "edit": "Редагувати бан",
+            "banProtests": "Протести"
+        }
+    },
+    "_serverbundle": {
+        "labels": {
+            "createApiKey": "Створити новий ключ API",
+            "apiKeys": "Ключі API для серверного блоку"
+        },
+        "messages": {
+            "editSuccess": "Серверний блок успішно відредаговано.",
+            "createSuccess": "Серверний блок успішно створено.",
+            "deleteSuccess": "Серверний блок успішно видалено."
+        }
+    },
+    "_navigation": {
+        "deleteDefaultLink": "Не вдається видалити основний лінк",
+        "noHtmlGiven": "Будь ласка, введіть якийсь html!",
+        "_location": {
+            "header": "Заголовок",
+            "footer": "Нижній колонтитул",
+            "help": "Допомога"
+        },
+        "sublink": "Сублінк",
+        "rawHtml": "Raw HTML",
+        "navReset": "Скинути правила навігації",
+        "navUpdate": "Оновити правила навігації",
+        "reqProp": "Необхідна вимога",
+        "parentNavigationLink": "Основний навігаційний лінк",
+        "cmsPageTitle": "HTML-сторінки",
+        "editor": "Редактор",
+        "html": "Html",
+        "title": "Навігація",
+        "bothHtmlInputsUsed": "Не використовуйте обидва HTML-входи",
+        "messages": {
+            "cmsEdited": "Html-сторінку відредаговано.",
+            "cmsDeleted": "Html-сторінку видалено.",
+            "cmsAdded": "Додано html-сторінку.",
+            "addedLink": "Створено навігаційний лінк.",
+            "updatedLinkOrder": "Оновлена навігація.",
+            "removedLink": "Навігаційний лінк видалено.",
+            "editedLink": "Навігаційний лінк відредаговано."
+        },
+        "addCmsPage": "Додати сторінку",
+        "editCmsPage": "Редагувати сторінку",
+        "location": "Розташування",
+        "deleteCmsPage": "Видалити сторінку",
+        "addNavLink": "Додати навігаційний лінк",
+        "cmsPage": "HTML-сторінка",
+        "contentSanitizationWarning": "JavaScript дозволено використовувати лише адміністраторам. В іншому випадку він буде вилучений.",
+        "htmlContent": "Вміст у форматі HTML",
+        "linkTitle": "Заголовок",
+        "enabled": "Включено",
+        "link": "Лінк",
+        "editNavLink": "Редагувати навігаційний лінк"
+    },
+    "_header": {
+        "labels": {
+            "login": "Вхід",
+            "register": "Зареєструватися",
+            "logout": "Вихід",
+            "close": "Закрити"
+        }
+    },
+    "_membership": {
+        "labels": {
+            "endMembership": "Видалити з групи",
+            "showPastMemberships": "Показати неактивні підписки",
+            "edit": "Редагувати групу",
+            "activeMemberships": "Активні учасники",
+            "add": "Додати в групу"
+        },
+        "messages": {
+            "membershipSuccessfullyAdded": "Учасника успішно додано"
+        }
+    },
+    "_shop": {
+        "messages": {
+            "confirmCouponPayment": "Будь ласка, введіть код {gateway_name}. Після цього платіж буде вручну схвалений членом команди.",
+            "couponApplySuccess": "Купон успішно використано.",
+            "couponRemoveSuccess": "Купон успішно видалено.",
+            "purchaseCancelledSuccess": "Покупка скасована.",
+            "couponNotApplied": "Купон не може бути застосований до жодного пакету у вашому кошику.",
+            "paymentFailed": "Під час оплати виникла помилка. Будь ласка, спробуйте перезапустити процес.",
+            "includesVAT": "Включає {tax_rate}% ПДВ.",
+            "paymentCancelled": "Цей платіж було скасовано. Ви можете спробувати ще раз, зайшовши до кошика.",
+            "unfinishedPurchase": "Наразі триває купівля, яка ще не завершена.",
+            "paymentSuccess": "Платіж успішно завершено. Придбані пакети приєднані до вашого облікового запису.",
+            "selectBillingAddressFirst": "Будь ласка, спочатку оберіть адресу для виставлення рахунку.",
+            "confirmCreditsPayment": "Будь ласка, підтвердіть сплату {credits} кредитів.",
+            "couponsEditSuccess": "Купон успішно відредаговано.",
+            "addToCartSuccess": "Пакет успішно додано до кошика.",
+            "cartEmpty": "Ваш кошик порожній.",
+            "couponsEntered": "Ваш купон успішно додано. Ви можете редагувати свій купон, поки ваша покупка не буде підтверджена.",
+            "notEnoughCredits": "У вас недостатньо кредитів для оплати цієї покупки. Будь ласка, оберіть інший спосіб оплати або придбайте більше кредитів.",
+            "startingPaymentFailed": "Під час ініціювання платежу виникла помилка. Будь ласка, спробуйте ще раз або скористайтеся іншим способом оплати!",
+            "paymentActionFailed": "Виникла помилка при перенаправленні на сторінку оплати. Будь ласка, спробуйте ще раз або скористайтеся іншим способом оплати! Повідомлення про помилку: {message}",
+            "paymentProcessing": "Платіж був схвалений і буде завершений найближчим часом. Будь ласка, зачекайте кілька хвилин на цій сторінці, поки ваш платіж обробляється.",
+            "selectEmailFirst": "Будь ласка, спочатку оновіть свою електронну адресу",
+            "cancelPurchaseConfirmation": "Розпочаті платежі скасовуються. Всі введені купони втрачаються. Скасування покупки не може бути відмінено.",
+            "noAddressSpecified": "Адреса ще не вказана.",
+            "removeFromCartSuccess": "Пакет успішно видалено з кошика.",
+            "clearCartSuccess": "Успішно видалено всі пакети з кошика.",
+            "addToCartError": "Виникла помилка при додаванні пакета до кошика.",
+            "mustAgree": "Ви повинні погодитися, щоб продовжити!",
+            "paymentPending": "Цей платіж очікує на розгляд. Будь ласка, завершіть його, відвідавши кошик.",
+            "noOngoingPurchase": "Наразі немає поточної покупки. Будь ласка, почніть оформлення замовлення в кошику.",
+            "selectGateway": "Будь ласка, оберіть спосіб оплати."
+        },
+        "labels": {
+            "tax": "Податок",
+            "taxRules": "Правила оподаткування",
+            "subtotal": "Проміжний підсумок",
+            "applyCoupon": "Застосувати купон",
+            "couponCode": "Код купона",
+            "checkout": "Оформити замовлення",
+            "paymentId": "ID платежу",
+            "addToCart": "Додати в кошик",
+            "total": "Разом",
+            "businessAddress": "Юридична адреса",
+            "taxIncludedInPacketPriceDescription": "Замість того, щоб додавати податки до вказаної ціни пакета в кінці, вони включені в ціну.",
+            "billingAddress": "Адреса для виставлення рахунку",
+            "removeAllPackets": "Видалити всі пакети",
+            "checkoutCheckboxes": "Поставте галочку в чекбоксах",
+            "perMonth": "в місяць",
+            "taxAllowUnknown": "Дозволити покупки з країн без податкового правила.",
+            "cancelPurchase": "Скасувати покупку",
+            "cancelPayment": "Скасувати платіж",
+            "downloadInvoices": "Завантажити рахунки",
+            "invoiceLogoURLDetails": "URL логотипу, який відображається в рахунку.",
+            "payment": "Оплата",
+            "unfinishedPurchase": "Незавершена покупка",
+            "loginToBuy": "Увійдіть, щоб придбати цей пакет",
+            "taxAllowUnknownDescription": "Якщо цю функцію вимкнено, покупки з країн, для яких не налаштовано чітке податкове правило, будуть неможливими.",
+            "financeReport": "Фінансовий звіт",
+            "purchaseNow": "Купити зараз",
+            "admin": "Управління магазином",
+            "net": "нетто",
+            "taxIncludedInPacketPrice": "Податок включений у вартість пакета",
+            "cart": "Кошик",
+            "invoiceLogoURL": "URL логотипу рахунку",
+            "credits": "Кредити",
+            "orderOverview": "Огляд замовлень",
+            "cartTotal": "Всього в кошику",
+            "defaultCurrency": "Валюта за замовчуванням"
+        },
+        "purchaseStatus": {
+            "cancelled": "Скасовано",
+            "revoked": "Анульовано",
+            "recurring": "Повторення",
+            "enabled": "Активно",
+            "finished": "Завершено",
+            "refunded": "Повернуто",
+            "disabled": "Прострочено",
+            "open": "Відкрити"
+        }
+    },
+    "_properties": {
+        "ban_edit": "Дозволяє користувачеві редагувати бани у заданому пакеті",
+        "ban_show": "Дозволяє користувачеві відображати бани у заданому пакеті",
+        "bundle_edit": "Додавати та редагувати блоки серверів"
+    },
+    "_errors": {
+        "unauthorized": "Ви повинні увійти в систему, щоб зробити це.",
+        "wrong_currency": "У вашому кошику не може бути пакетів з різними валютами.",
+        "cart_full": "Ваш кошик заповнений.",
+        "payment_error": "Помилка платежу: {msg}",
+        "not_found": "Не знайдено.",
+        "no_permissions": "Помилка доступу: {msg}",
+        "packet_requires_other": "Цьому пакету потрібен інший пакет: {packet_title}.",
+        "packet_not_compatible": "Цей пакет не сумісний з іншими пакетами: {packet_title}.",
+        "missing_properties": "Ви не маєте всіх необхідних параметрів: {properties}",
+        "packet_relation_violated": "Цей пакет порушує зв'язок пакета з іншим пакетом: {relation_type} {packet_title}.",
+        "cart_not_empty": "Щоб додати цей пакет, ваш кошик має бути порожнім.",
+        "country_not_allowed": "Покупки з вашої країни заборонені.",
+        "packet_already_in_cart": "Цей пакет вже у вашому кошику.",
+        "requirement_parse_error": "Не вдалося розібрати формулу вимог. Зверніться до адміністратора.",
+        "packet_not_purchasable": "Ви не можете придбати цей пакет.",
+        "too_many_ban_protests": "Вже є 3 протести проти цього бану.",
+        "ban_protest_open": "Вже існує відкритий протест проти цього бану.",
+        "illegal_value": "Недопустиме значення: {msg}",
+        "coupon": {
+            "not_found": "Цей код неправильний."
+        }
+    },
+    "_login": {
+        "messages": {
+            "loginError": "Помилка при вході в систему.",
+            "loginSuccess": "Успішний вхід."
+        }
+    },
+    "_group": {
+        "mappings": {
+            "name": "Назва групи/рангу/ролі на сервері"
+        },
+        "messages": {
+            "deletedGroup": "Групу видалено.",
+            "editedGroup": "Групу відредаговано.",
+            "addedGroup": "Групу створено."
+        },
+        "isTeamDescription": "Учасники групи будуть показані на сторінці команди",
+        "isTeam": "Це команда"
+    },
+    "_user": {
+        "type": {
+            "CENTRAL": {
+                "name": "Центр VyHub",
+                "info": "Платформа для управління та монетизації ваших ігрових серверів."
+            },
+            "STEAM": {
+                "info": "Відома ігрова платформа.",
+                "name": "Steam"
+            },
+            "DISCORD": {
+                "name": "Discord",
+                "info": "Твоє місце для спілкування та відпочинку."
+            },
+            "MINECRAFT": {
+                "name": "Minecraft",
+                "info": "Створіть свій власний світ."
+            }
+        },
+        "labels": {
+            "authRequestDescription": "Виконайте наступну команду на {type} сервері для входу:",
+            "newUsers": "Нові користувачі"
+        }
+    },
+    "_legal": {
+        "descriptionText": "У більшості країн обов'язковою умовою є наявність принаймні контактних даних оператора веб-сайту, умов використання та політики конфіденційності. Ви можете знайти приклад політики конфіденційності в документації.",
+        "showLegalReminder": "Будь ласка, вкажіть юридичну інформацію в налаштуваннях!"
+    }
+}
