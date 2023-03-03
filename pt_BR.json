@@ -366,10 +366,11 @@
             "system": "Sistema",
             "ban": "Banimento"
         },
-        "edit": "Editado {nome}: {chave} = {valor}",
-        "object_delete": "Deletado {nome da classe} com identificação {id}.",
-        "object_create": "Criado {nome da classe} com identificação {id}: {parâmetros}",
-        "object_edit": "Editado {nome da classe} com identificação {id}: {chave} = {valor}.",
-        "applied_packet_disabled": "Pacote Aplicado Desabilitado {aplicado_pacote_id}."
+        "edit": "Editado {name}: {key} = {value}",
+        "object_delete": "Deletado {classname} com identificação {id}.",
+        "object_create": "Criado {classname} com identificação {id}: {params}",
+        "object_edit": "Editado {classname} com identificação {id}: {key} = {value}.",
+        "applied_packet_disabled": "Pacote Aplicado Desabilitado {applied_packet_id}.",
+        "applied_packet_extended": "Pacote Extendido Aplicado {applied_packet_id}."
     }
 }
