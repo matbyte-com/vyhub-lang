@@ -37,12 +37,120 @@
             "docs": "Dokumentation"
         },
         "_company": {
-            "partners": "Partner"
+            "partners": "Partner",
+            "affiliateProgramme": "Partnerprogramm"
         },
         "_legal": {
             "about": "Über",
             "termsOfService": "AGB",
             "privacyPolicy": "Datenschutz"
+        }
+    },
+    "_home": {
+        "_faq": {
+            "question3": "Gibt es eine gratis Testphase?",
+            "question5": "Ich bin ein GExtension Nutzer. Kann ich meine Daten mit zu VyHub nehmen?",
+            "question6": "Wo bekomme ich Hilfe?",
+            "question1": "Was macht VyHub anders im Vergleich zu unserer Konkurrenz?",
+            "question2": "Wie viel kostet VyHub?",
+            "question4": "Kann ich meine eigene Domain nutzen?"
+        },
+        "rightManagement": "Berechtigungskontrolle",
+        "ourGoals": "Unsere Ziele",
+        "andMore": "Und viel mehr..",
+        "ourAmbitions": "Unsere Ambition",
+        "shop": "Shop",
+        "discordIntegration": "Discord Integration",
+        "simple": "Einfach",
+        "sections": {
+            "shop": {
+                "bulletPoint4": "Bedingte Angebote, Rabattcodes und mehr",
+                "description": "Erstelle deinen eigenen Shop und verdiene Geld mit unserem fortschrittlichen, einfach zu bedienenden Shopsystem.",
+                "bulletPoint1": "Erstelle deine eigenen Produkte und Belohnungen",
+                "bulletPoint2": "Problemlose Integration mit anderen Mods",
+                "bulletPoint3": "Automatische Bezahlung durch Paypal, Stripe oder Paysafecard",
+                "bulletPoint5": "Ausführliche Verkaufsstatistiken"
+            },
+            "andMore": {
+                "bulletPoint3": "Ticketsystem",
+                "bulletPoint1": "News Seite",
+                "bulletPoint4": "Teamseite"
+            },
+            "bansWarnings": {
+                "bulletPoint1": "Banne und verwarne Spieler innerhalb der Spiele oder über die Webseite",
+                "bulletPoint2": "Integration mit anderen Mods"
+            }
+        },
+        "bansWarnings": "Banns & Verwarnungen",
+        "viewAllFeatures": "All unsere Funktionen",
+        "endcards": {
+            "customizable": {
+                "bulletPoint3": "Nutze HTML für deine eigenen Unterseiten",
+                "bulletPoint4": "Nutze deine eigene (Sub)domain"
+            },
+            "simple": {
+                "bulletPoint2": "Direkter Kontakt zu den Entwicklern für Erweiterungen",
+                "bulletPoint3": "Einfach zu nutzende Webseite"
+            },
+            "hasslefree": {
+                "bulletPoint1": "Kein eigener Webserver benötigt",
+                "bulletPoint2": "Automatische Updates",
+                "bulletPoint3": "Keine versteckten Kosten",
+                "bulletPoint4": "Schnelle Einrichtung"
+            }
+        },
+        "faq": "Häufig gestellte Fragen",
+        "supportedGames": "Unterstütze Spiele / Integrationen"
+    },
+    "_dashboard": {
+        "yourInstances": "Deine Instanzen",
+        "currentlyProvisioned": "Diese Instanz wird gerade erstellt",
+        "instanceDeleted": "Diese Instanz ist gelöscht",
+        "detailDialogTitle": "Details",
+        "createInstance": "Instanz erstellen"
+    },
+    "_instance": {
+        "labels": {
+            "edit": "Instanz editieren",
+            "daysLeft": "Tage übrig",
+            "noTimeLeft": "Keine Zeit übrig",
+            "extendRuntime": "Laufzeit verlängern",
+            "frontendUrl": "FrontEnd URL",
+            "cname": "CNAME",
+            "apiUrl": "API URL",
+            "activePackets": "Aktive Pakete",
+            "addAdmin": "Admin hinzufügen",
+            "advancedSettings": "Erweiterte Einstellungen",
+            "resumeInstance": "Instanz fortsetzen",
+            "transferOwnership": "Eigentum übertragen",
+            "stopInstance": "Instanz stoppen",
+            "upgradeVersion": "Version updaten",
+            "newExpirationDate": "Neues Ablaufdatum"
+        },
+        "instanceName": "Name der Instanz",
+        "cnamePointingAt": "CNAME zeigt auf",
+        "editInstance": "Instanz editieren",
+        "editedInstance": "Instanz erfolgreich editiert",
+        "version": "Version",
+        "autoUpdate": "Installiere kleinere Updates automatisch",
+        "autoUpdateTime": "Zeit des automatischen Updates (UTC)",
+        "addedAdmin": "Admin erfolgreich hinzugefügt",
+        "_status": {
+            "PROVISION": "Frontend einrichten",
+            "PROVISIONED": "Bereit",
+            "DELETED": "Gestoppt",
+            "DELETE": "Lösche",
+            "UNPROVISIONED": "API-Server einrichten"
+        },
+        "statusHelp": "Kontaktiere den Support, wenn der Status sich nach 10 Minuten nicht ändert.",
+        "deletedInstance": "Instanz erfolgreich gestoppt",
+        "autoUpdateDescription": "Die Instanz wird zur gewählten Stunde automatisch aktualisiert",
+        "autoUpdateActivated": "Automatisches update aktualisiert",
+        "removedAdmin": "Admin erfolgreich entfernt"
+    },
+    "log": {
+        "labels": {
+            "log": "Log"
         }
     }
 }
