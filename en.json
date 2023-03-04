@@ -1005,14 +1005,29 @@
         "numberOfPosts": "Post Count: ",
         "pin": "Pin",
         "unpin": "Unpin",
+        "posts": "Posts",
+        "addTopicCategory": "Add Topic Category",
+        "editTopic": "Edit Topic",
+        "latestPosts": "Latest Posts",
+        "latestThreads": "Latest Threads",
+        "statistics": "Forum Statistics",
+        "threads": "Threads",
+        "by": "by",
+        "editPost": "Allow edit posts",
+        "editPostDescription": "Allow users to edit their own posts.",
+        "edited": "Edited",
         "messages": {
             "topicCategoryCreated": "Topic category created.",
             "topicCreated": "Topic created.",
             "topicCategoryEdited": "Topic category edited.",
             "topicEdited": "Topic edited.",
-            "categoryDeleteSuccess": "Category successful deleted.",
+            "categoryDeleteSuccess": "Category successfully deleted.",
             "topicDeleteSuccess": "Topic successful deleted.",
-            "updatedOrder": "Forum order updated."
+            "updatedOrder": "Forum order updated.",
+            "editSuccess": "Successfully edited.",
+            "deleteSuccess": "Successfully deleted.",
+            "pinned": "Thread pinned.",
+            "unpinned": "Thread unpinned."
         }
     },
     "_advert": {
