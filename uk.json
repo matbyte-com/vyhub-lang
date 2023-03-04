@@ -26,7 +26,7 @@
             "editGroup": "Редагувати групу",
             "title": "Налаштування"
         },
-        "showTicket": "Увімкнути систему квитків",
+        "showTicket": "Увімкнути систему запитів",
         "showTeam": "Увімкнути сторінку команди",
         "backgroundColorDescription": "Фонове зображення заміщує колір фону",
         "formulaError": "Формула невірна - зверніться до консолі для отримання додаткової інформації",
@@ -160,7 +160,10 @@
         "price": "Ціна",
         "vatNumber": "Номер платника ПДВ",
         "item": "Предмет",
-        "invoiceDate": "Дата рахунку"
+        "invoiceDate": "Дата рахунку",
+        "subtotalNoVat": "Проміжний підсумок (без ПДВ)",
+        "vat": "ПДВ",
+        "total": "Всього"
     },
     "_dashboard": {
         "labels": {
@@ -269,7 +272,7 @@
     "_membership": {
         "labels": {
             "endMembership": "Видалити з групи",
-            "showPastMemberships": "Показати неактивні підписки",
+            "showPastMemberships": "Показати неактивних учасників",
             "edit": "Редагувати групу",
             "activeMemberships": "Активні учасники",
             "add": "Додати в групу"
@@ -625,17 +628,19 @@
             "paypal": "PayPal",
             "create": "Створіть платіжний шлюз",
             "edit": "Редагувати платіжний шлюз",
-            "acceptPending": "Приймайте відкладені платежі",
+            "acceptPending": "Прийміть відкладені платежі",
             "acceptPendingDescription": "Деякі способи оплати (наприклад, SEPA Direct Debit, SOFORT, ...) обробляються протягом декількох днів. Якщо ця опція увімкнена, покупки, оплачені цими методами, будуть завершені одразу після завершення процесу оформлення замовлення. Існує невелика ймовірність того, що після цього платіж не пройде.",
             "coupon": "Купон (підтвердження в ручному режимі)",
-            "doNotAcceptPending": "Не приймайте відкладені платежі",
-            "clientCertDescription": "Клієнтський сертифікат і ключ використовуються як метод автентифікації для API paysafecard. Зверніться до служби підтримки paysafecard, щоб отримати його."
+            "doNotAcceptPending": "Не приймати відкладені платежі",
+            "clientCertDescription": "Клієнтський сертифікат і ключ використовуються як метод автентифікації для API paysafecard. Зверніться до служби підтримки paysafecard, щоб отримати його.",
+            "webhookURL": "URL-адреса вебхука",
+            "stripe": "Stripe"
         },
         "messages": {
             "createSuccess": "Платіжний шлюз успішно створено.",
             "deleteSuccess": "Платіжний шлюз успішно видалено.",
             "editSuccess": "Платіжний шлюз успішно відредаговано.",
-            "formAttributeChangeExplanation": "Атрибути нижче не будуть редагуватися, якщо значення не вказано.",
+            "formAttributeChangeExplanation": "Атрибути вказані нижче не будуть редагуватися, якщо не вказано жодного значення.",
             "deleteWarning": "Увага! Видалення платіжного шлюзу призводить до видалення всіх покупок і платежів, де він використовувався! Ця дія не може бути скасована. Можливо, замість цього краще вимкнути його?"
         }
     },
@@ -647,7 +652,7 @@
         "messages": {
             "createSuccess": "Податкове правило успішно створено.",
             "deleteSuccess": "Податкове правило успішно видалено.",
-            "allCountriesDetail": "Залиште поле порожнім, щоб орієнтуватися на всі країни.",
+            "allCountriesDetail": "Залиште поле порожнім, щоб охопити всі країни.",
             "infoDetail": "Буде показано під час оформлення замовлення та на рахунку-фактурі."
         }
     },
@@ -686,7 +691,321 @@
     "_discount": {
         "labels": {
             "create": "Створити знижку",
-            "edit": "Редагувати знижку"
+            "edit": "Редагувати знижку",
+            "maxUsagesPerUser": "Максимальне використання на одного користувача",
+            "allPackets": "Застосовується для всіх пакетів",
+            "delete": "Видалити знижку"
+        },
+        "messages": {
+            "deleteSuccess": "Знижку успішно видалено.",
+            "editSuccess": "Знижка успішно відредагована.",
+            "createSuccess": "Знижка успішно створена."
         }
-    }
+    },
+    "_notification": {
+        "markRead": "позначити як прочитане",
+        "applied_packet_disabled": "Ваш пакет {packet_title} було відключено.",
+        "ticket_update": "Нове повідомлення в запиту: {title}",
+        "purchase_finished": "Вашу покупку на {amount} завершено!",
+        "coupon_purchase_new": "{username} надіслав {gateway_name} коди ({amount_total} {currency_symbol}), які потрібно схвалити.",
+        "news_new": "Новина створена: {newsSubject}.",
+        "ticket_new": "{username} створив запит: {title}",
+        "viewAll": "переглянути все",
+        "type": {
+            "general": "Головне",
+            "ban": "Бан",
+            "news": "Новини",
+            "shop": "Магазин",
+            "warning": "Попередження",
+            "ticket": "Запит"
+        },
+        "noNotification": "Немає сповіщень",
+        "messages": {
+            "readSuccess": "Успішно переключено статус прочитаного"
+        },
+        "timeAgo": "{time} тому.",
+        "notifications": "Сповіщення",
+        "newNotifications": "Нові сповіщення",
+        "markAllAsRead": "Позначте все як прочитане",
+        "hideReadNotifications": "Приховати прочитані повідомлення",
+        "isLink": "Лінк",
+        "markUnRead": "позначити як непрочитане ",
+        "browserNotifications": "Сповіщення браузера",
+        "ban_new": "Вас було забанено. Причина: {reason}",
+        "packet_applied": "Пакет {packet_title} активовано!",
+        "applied_packet_upgraded": "Ваш пакет {old_packet_title} було оновлено до {new_packet_title}.",
+        "purchase_finished_other": "{username} завершив покупку на {amount} через {gateway_name}.",
+        "purchase_cancelled": "Ваша покупка на {amount} була скасована!",
+        "warning_new": "Створено нове попередження. Причина: [reason]"
+    },
+    "_pageTitle": {
+        "shopCheckout": "Оформити замовлення",
+        "settings": "Налаштування",
+        "legal": "Юридичні питання",
+        "serverDashboard": "Серверна панель",
+        "faq": "FAQ",
+        "notifications": "Сповіщення",
+        "shop": "Магазин",
+        "bans": "Бани",
+        "shopPacket": "Магазин - Пакет",
+        "shopCategory": "Магазин - Категорія",
+        "shopCart": "Кошик",
+        "shopAdministration": "Магазин - Управління",
+        "log": "Лог",
+        "warnings": "Попередження",
+        "team": "Команда",
+        "notificationLink": "Повідомлення",
+        "forum": "Форум",
+        "ticket": "Запит"
+    },
+    "_warning": {
+        "ttl": "Час до попередження (дні)",
+        "messages": {
+            "editedSettings": "Налаштування попереджень відредаговано.",
+            "deletedWarning": "Попередження видалено.",
+            "addedWarning": "Попередження створено.",
+            "toggledWarning": "Статус попередження змінено."
+        },
+        "ttlDescription": "Час до того, як попередження буде позначено як прострочене",
+        "countTillBan": "Кількість попереджень до автоматичного бану",
+        "title": "Попередження",
+        "settingFormDesc": "Користувачі будуть заблоковані автоматично, коли вони досягнуть вказаної кількості АКТИВНИХ попереджень.",
+        "add": "Додати попередження",
+        "banLength": "Тривалість автоматичного бану (хвилини)",
+        "reason": "Причина",
+        "showUserWarnings": "Показувати попередження користувача з ID: {id}",
+        "ttlPlaceholder": "Тривалість (у днях)"
+    },
+    "_property": {
+        "descriptions": {
+            "ticket_show": "Переглянути запити",
+            "ticket_edit": "Редагувати запити",
+            "user_create": "Створити іноземного користувача (тільки API)",
+            "user_edit": "Редагувати інформацію про інших користувачів"
+        },
+        "categories": {
+            "user": "Користувач",
+            "bans_and_warnings": "Бани та попередження",
+            "shop": "Магазин",
+            "other": "Інше"
+        }
+    },
+    "_server": {
+        "messages": {
+            "editSuccess": "Сервер успішно відредаговано.",
+            "deleteSuccess": "Сервер успішно видалено.",
+            "createSuccess": "Сервер успішно створено."
+        },
+        "instructions": {
+            "COMMON": {
+                "runCommands": "Згенеруйте необхідні команди, натиснувши кнопку, і виконайте їх у серверній консолі вашого сервера.",
+                "wait": "Зачекайте до хвилини, поки VyHub ініціалізується. У консолі сервера з'явиться повідомлення про успішне з'єднання."
+            },
+            "GMOD": {
+                "download": "Завантажте аддон vyhub-gmod, розпакуйте його і помістіть в папку addons вашого сервера. Потім перезавантажте сервер.",
+                "serverConsoleHint": "Важливо: Консоль сервера НЕ є консоллю в грі (при натисканні F10)."
+            },
+            "DISCORD": {
+                "createApp": "Створіть додаток Discord та увімкніть авторизацію в Discord.",
+                "addBot": "Додайте бота до вашого сервера Discord. Натисніть перезавантажити, якщо кнопка не працює.",
+                "readInstructions": "Прочитайте та дотримуйтесь подальших інструкцій з документації."
+            }
+        },
+        "labels": {
+            "unknownStatus": "Статус невідомий",
+            "create": "Створити сервер",
+            "details": "Інформація про сервер",
+            "edit": "Редагувати сервер",
+            "hideReservedSlots": "Приховати зарезервовані слоти",
+            "discordApplicationIdNeeded": "Створіть додаток Discord.",
+            "setup": "Налаштувати сервер",
+            "numberOfReservedSlots": "Кількість зарезервованих слотів"
+        },
+        "type": {
+            "DISCORD": "Discord",
+            "MINECRAFT": "Minecraft"
+        },
+        "deleteBundleConfirmationText": "Це призведе до видалення об'єктів, пов'язаних з цим пакетом (наприклад, винагороди)"
+    },
+    "_server_exception": {
+        "begin_smaller_end": "Дата початку має бути після дати закінчення"
+    },
+    "_personalSettings": {
+        "emailNotifications": "Сповіщення по електронній пошті",
+        "noEmailSpecified": "Ще не вказано жодної адреси електронної пошти",
+        "title": "Персональні налаштування",
+        "email": "Email",
+        "enableEmailNotifications": "Увімкнути сповіщення електронною поштою",
+        "messages": {
+            "emailUpdated": "Email успішно оновлено",
+            "emailNotificationSettingsToggled": "Налаштування сповіщень успішно оновлено"
+        }
+    },
+    "_import": {
+        "messages": {
+            "description": "У цьому розділі ви можете імпортувати дані з інших систем."
+        },
+        "gextension": {
+            "messages": {
+                "import1Description": "VyHub готовий до імпорту перших об'єктів: Групи, Серверні пакети та Користувачі. Переконайтеся, що процес імпорту відбувається саме в цьому порядку.",
+                "import2Description": "Тепер ви можете імпортувати додаткові об'єкти нижче. Порядок не має значення.",
+                "packetsDataDescription": "Виберіть, який пакет VyHub має бути наданий власникам пакетів GExtension. Також можна виключити деякі винагороди. Якщо жодні пакети GExtension не доступні для вибору, переконайтеся, що ваша URL-адреса та ключ API правильні. Після цього запустіть імпорт пакетів.",
+                "basicDataDescription": "Вставте URL-адресу вашого сайту GExtension (без index.php). Переконайтеся, що ви використовуєте GExtension версії 2.7.8 або новішої."
+            },
+            "labels": {
+                "excludedRewards": "Виключені винагороди",
+                "groupServerbundleUser": "Групи, Серверні групи, Користувачі",
+                "urlDescription": "URL-адреса вашого сайту GExtension без index.php. Приклад: https://mycommunity.com/gextension/",
+                "apiKeyDescription": "Скопіюйте ключ API з налаштувань GExtension.",
+                "furtherData": "Додаткові дані",
+                "basicData": "Основні дані",
+                "url": "GExtension URL-адреса",
+                "gexPacket": "Пакет GExtension"
+            }
+        }
+    },
+    "_forum": {
+        "locked": "Заблоковано",
+        "manageTopicCategories": "Керувати категоріями тем",
+        "manageTopics": "Керувати темами",
+        "addThread": "Додати тему",
+        "messages": {
+            "topicCreated": "Тему створено.",
+            "topicCategoryEdited": "Тему категорії відредаговано.",
+            "topicEdited": "Тему відредаговано.",
+            "topicCategoryCreated": "Тему категорії створено.",
+            "topicDeleteSuccess": "Тему успішно видалено.",
+            "updatedOrder": "Список форуму оновлено.",
+            "categoryDeleteSuccess": "Категорію успішно видалено.",
+            "editSuccess": "Успішно відредаговано.",
+            "deleteSuccess": "Успішно видалено."
+        },
+        "hideClosed": "Приховати закриті записи",
+        "rename": "Перейменувати",
+        "admin": "Адмін форуму",
+        "title": "Форум",
+        "selectTopicCategory": "Виберіть категорію теми",
+        "addCategory": "Додати категорію",
+        "addTopic": "Додати тему",
+        "editTopicCategory": "Редагувати категорію теми",
+        "topicAdminUser": "Адміністратори тем",
+        "deleteCategory": "Видалити категорію",
+        "deleteTopic": "Видалити тему",
+        "lock": "Блокувати",
+        "unlock": "Розблокувати",
+        "unlocked": "Розблоковано",
+        "deleteThread": "Видалити запис",
+        "topicAdmins": "Адміни теми: ",
+        "pin": "Закріпити",
+        "unpin": "Відкріпити",
+        "posts": "Пости",
+        "addTopicCategory": "Додати тему категорії",
+        "editTopic": "Редагувати тему",
+        "latestPosts": "Останні пости",
+        "latestThreads": "Останні записи",
+        "statistics": "Статистика форуму",
+        "editPost": "Дозволити редагування постів",
+        "editPostDescription": "Дозволити користувачам редагувати власні пости.",
+        "edited": "Відредаговано"
+    },
+    "_advert": {
+        "messages": {
+            "addSuccess": "Оголошення створене.",
+            "deleteSuccess": "Оголошення видалене.",
+            "editSuccess": "Оголошення оновлене.",
+            "updatedOrder": "Список оголошень оновлено."
+        },
+        "title": "Оголошення",
+        "formTitle": "Назва",
+        "add": "Додати оголошення",
+        "update": "Оновлення списку оголошень",
+        "reset": "Скинути список оголошень",
+        "formEnabled": "Увімкнути",
+        "addAdvertDialog": "Додати оголошення",
+        "editAdvertDialog": "Редагувати оголошення"
+    },
+    "_authorization": {
+        "discordBotToken": "Бот-токен",
+        "title": "Авторизація",
+        "redirectUrl": "Переадресація URL-адреси",
+        "messages": {
+            "editedConfig": "Конфігурацію відредаговано"
+        },
+        "discord": "Discord",
+        "discordOauthClientId": "ID клієнта"
+    },
+    "_creditHistory": {
+        "addTransaction": "Додати транзакцію",
+        "messages": {
+            "addedTransaction": "Транзакцію додано"
+        }
+    },
+    "_faq": {
+        "title": "FAQ",
+        "add": "Додати питання",
+        "messages": {
+            "deleteSuccess": "Питання з FAQ видалено.",
+            "updatedOrder": "Список FAQ оновлено.",
+            "editSuccess": "Питання FAQ оновлено.",
+            "addSuccess": "Створено питання FAQ.",
+            "contentEmpty": "Будь ласка, введіть контент"
+        },
+        "update": "Оновити список FAQ",
+        "reset": "Скинути список FAQ",
+        "addQuestionDialog": "Додати питання",
+        "editQuestionDialog": "Редагувати питання",
+        "formTitle": "Назва",
+        "formContent": "Вміст",
+        "html": "У цьому полі дозволено використовувати HTML."
+    },
+    "_ticket": {
+        "open": "Відкрити",
+        "closed": "Закрито",
+        "close": "Закрити",
+        "messages": {
+            "addedPost": "Допис створено.",
+            "toggleStatus": "Статус змінено."
+        },
+        "readMore": "Читати далі",
+        "showBan": "Показати бан",
+        "content": "Вміст",
+        "created": "Створено",
+        "tickets": "Запити",
+        "ticket": "Запит",
+        "showClosed": "Показати закрите",
+        "status": {
+            "open": "Відкрити",
+            "closed": "закрито"
+        },
+        "title": "Назва",
+        "addPost": "Додати пост",
+        "addTicket": "Створити запит",
+        "noTickets": "Ви ще не створили жодного запиту.",
+        "last_post": "Останній пост",
+        "lastUpdated": "Останнє оновлення"
+    },
+    "_team": {
+        "editTeam": "Редагування команди",
+        "teamGroupsSuccessfullyEdited": "Групи команд успішно відредаговано.",
+        "title": "Команда"
+    },
+    "_api": {
+        "labels": {
+            "createdKey": "Створено API-ключ",
+            "createKey": "Створити ключ"
+        },
+        "messages": {
+            "keyCreated": "Створено новий ключ:",
+            "keyRevokeSuccess": "Ключ успішно скасовано.",
+            "keyCreateSuccess": "Ключ успішно створено."
+        }
+    },
+    "_userLogEntry": {
+        "addLogEntry": "Додати запис у журнал"
+    },
+    "_serverDashboard": {
+        "noUsersFound": "Користувачів не знайдено.",
+        "selectAUser": "Виберіть користувача, щоб побачити деталі."
+    },
+    "ticket": "Запит"
 }
