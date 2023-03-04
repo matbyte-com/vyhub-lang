@@ -16,7 +16,10 @@
         "transaction": "Transaction",
         "item": "Item",
         "quantity": "Quantity",
-        "price": "Price"
+        "price": "Price",
+        "subtotalNoVat": "Subtotal (without VAT)",
+        "vat": "VAT",
+        "total": "Total"
     },
     "_membership": {
         "labels": {
