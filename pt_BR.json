@@ -24,7 +24,8 @@
             "registered_on": "Registrado em",
             "last_online": "Online pela última vez",
             "removeAdminTitle": "Remover administrador?",
-            "credits": "Créditos"
+            "credits": "Créditos",
+            "title": "{usr}"
         },
         "messages": {
             "removeAdminConfirmation": "Não se esqueça de remover o antigo administrador da instância na sua central de visão geral da instância.",
@@ -48,7 +49,10 @@
         "transaction": "Transação",
         "item": "Item",
         "quantity": "Quantidade",
-        "price": "Preço"
+        "price": "Preço",
+        "subtotalNoVat": "Subtotal (sem IVA)",
+        "vat": "IVA",
+        "total": "Total"
     },
     "_ban": {
         "labels": {
@@ -371,6 +375,16 @@
         "object_create": "Criado {classname} com identificação {id}: {params}",
         "object_edit": "Editado {classname} com identificação {id}: {key} = {value}.",
         "applied_packet_disabled": "Pacote Aplicado Desabilitado {applied_packet_id}.",
-        "applied_packet_extended": "Pacote Extendido Aplicado {applied_packet_id}."
+        "applied_packet_extended": "Pacote Extendido Aplicado {applied_packet_id}.",
+        "user_imported_from": "Usuários importados do {source}.",
+        "group_edit": "Grupo editado {groupName} {groupld}.",
+        "refund_finished": "Reembolso concluído. debit_id: {debit_id}, purchase_id: {purchase_id}.",
+        "applied_packet_not_extended": "Falha no pacote estendido aplicado {applied_packet_id}: {reason}.",
+        "group_add": "Grupo adicionado {groupName} {groupld}.",
+        "user_sync_failed": "Falha ao sincronizar usuário {user_id}.",
+        "group_deleted": "Grupo deletado {groupName} {groupld}.",
+        "payment_initiate": "Iniciado {gateway} pagamento. Ação: {action}, Mensagem: {message}, Código: {status_code}.",
+        "payment_refund": "Devolvido {gateway} Pagamento. Ação: {action}, Mensagem: {message}, Código: {status_code}.",
+        "payment_cancelled": "Pagamento cancelado. debit_id: {debit_id}."
     }
 }
