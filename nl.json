@@ -288,7 +288,10 @@
         "price": "Prijs",
         "invoiceDate": "Factuurdatum",
         "deliveryDate": "Leveringsdatum",
-        "quantity": "Hoeveelheid"
+        "quantity": "Hoeveelheid",
+        "subtotalNoVat": "Subtotaal (zonder btw)",
+        "total": "Totaal",
+        "vat": "BTW"
     },
     "_login": {
         "messages": {
@@ -363,7 +366,22 @@
         "editor": "Bewerker",
         "cmsPageTitle": "HTML Paginas",
         "enabled": "Inschakelen",
-        "htmlContent": "HTML inhoud"
+        "htmlContent": "HTML inhoud",
+        "reqProp": "Vereiste eigenschap",
+        "contentSanitizationWarning": "JavaScript mag alleen worden gebruikt door beheerders. Anders wordt het ontsmet.",
+        "deleteCmsPage": "Pagina verwijderen",
+        "link": "Link",
+        "html": "Html",
+        "rawHtml": "Ruwe HTML",
+        "title": "Navigatie",
+        "addNavLink": "Voeg navigatie link toe",
+        "editNavLink": "Bewerk navigatielink",
+        "location": "Locatie",
+        "cmsPage": "Html pagina",
+        "addCmsPage": "Pagina toevoegen",
+        "editCmsPage": "Pagina bewerken",
+        "deleteDefaultLink": "Kan de standaardlink niet verwijderen",
+        "bothHtmlInputsUsed": "Gebruik niet beide HTML-invoer"
     },
     "_legal": {
         "descriptionText": "In de meeste landen is het verplicht om in ieder geval de contactgegevens, gebruiksvoorwaarden en een privacybeleid van de website-exploitant te hebben. U vindt een voorbeeld van een privacybeleid in de documenten.",
@@ -371,5 +389,35 @@
             "editedLegal": "Juridisch aanpassen."
         },
         "showLegalReminder": "Stel juridische informatie in de instellingen in!"
+    },
+    "_log": {
+        "applied_packet_disabled": "Uitgeschakeld toegepast pakket {applied_packet_id}.",
+        "user_imported_from": "Gebruiker geïmporteerd uit {source}.",
+        "packet_applied": "Toegepast pakket {packet_title} ({packet_id}) voor gebruiker {user_id}. toegepast_pakket_id: {toegepast_pakket_id}.",
+        "payment_process": "Betalingsproces gemaakt. gateway: {gateway}, bericht: {message}, actie: {action}, detail: {detail}.",
+        "type": {
+            "system": "Systeem",
+            "user": "Gebruiker",
+            "ban": "verbieden",
+            "shop": "Winkel",
+            "packet": "Pakket",
+            "group": "Groep",
+            "news": "Nieuws",
+            "requirement": "Vereisten",
+            "design": "Ontwerp",
+            "warning": "Waarschuwing",
+            "discord": "Discord",
+            "server": "Server",
+            "faq": "FAQ"
+        },
+        "object_create": "{classname} gemaakt met id {id}: {params}",
+        "object_delete": "{classname} verwijderd met id {id}.",
+        "payment_event": "Betalingsgebeurtenis afhandelen. gateway: {gateway}, bericht: {message}, detail: {detail}.",
+        "payment_error": "Betalingsfout. gateway: {gateway}, bericht: {message}, actie: {action}, detail: {detail}, code: {status_code}.",
+        "debit_status_changed": "Gewijzigde debetstatus. debit_id: {debit_id}, status: {old_status} -> {new_status}.",
+        "purchase_status_changed": "Gewijzigde aankoopstatus. purchase_id: {purchase_id}, status: {old_status} -> {new_status}.",
+        "purchase_finished": "Aankoop voltooid. aankoop_id: {aankoop_id}.",
+        "group_add": "Groep {groupName} {groupId} toegevoegd.",
+        "group_edit": "Bewerkte groep {groupName} {groupId}."
     }
 }
