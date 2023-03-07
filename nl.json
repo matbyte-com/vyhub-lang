@@ -130,7 +130,8 @@
         "logoWidth": "Breedte logo",
         "messages": {
             "editedTheme": "Thema bewerkt."
-        }
+        },
+        "showInformationFabDescription": "Informatie fab rechtsonder"
     },
     "_settings": {
         "addRequirementSet": "Voeg benodigde groep toe",
@@ -381,7 +382,11 @@
         "addCmsPage": "Pagina toevoegen",
         "editCmsPage": "Pagina bewerken",
         "deleteDefaultLink": "Kan de standaardlink niet verwijderen",
-        "bothHtmlInputsUsed": "Gebruik niet beide HTML-invoer"
+        "bothHtmlInputsUsed": "Gebruik niet beide HTML-invoer",
+        "parentNavigationLink": "Bovenliggende navigatielink",
+        "noHtmlGiven": "Voer alstublieft wat html in!",
+        "navUpdate": "Voer alsjeblieft een html in!",
+        "navReset": "Navigatievolgorde resetten"
     },
     "_legal": {
         "descriptionText": "In de meeste landen is het verplicht om in ieder geval de contactgegevens, gebruiksvoorwaarden en een privacybeleid van de website-exploitant te hebben. U vindt een voorbeeld van een privacybeleid in de documenten.",
@@ -418,6 +423,88 @@
         "purchase_status_changed": "Gewijzigde aankoopstatus. purchase_id: {purchase_id}, status: {old_status} -> {new_status}.",
         "purchase_finished": "Aankoop voltooid. aankoop_id: {aankoop_id}.",
         "group_add": "Groep {groupName} {groupId} toegevoegd.",
-        "group_edit": "Bewerkte groep {groupName} {groupId}."
+        "group_edit": "Bewerkte groep {groupName} {groupId}.",
+        "payment_credits_fail": "Kredietbetaling mislukt. actie: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}, reden: {reason}.",
+        "ban_new_full": "Gebruiker {creatorId} heeft ban {banId} toegevoegd voor gebruiker {userId} in bundel {bundleId} van {createdOn} tot {endDate}. Reden: {reden}.",
+        "discord_no_permission_to_target_group": "Discord-bot kan geen doelgroep targeten.",
+        "legal_edit": "Bewerk juridisch",
+        "object_edit": "Bewerkte {classname} met id {id}: {key} = {value}.",
+        "applied_packet_upgraded": "Opgewaardeerd toegepast pakket {old_applied_packet_id} met {new_applied_packet_id}. {days} dagen toegevoegd.",
+        "edit": "Bewerkt {name}: {key} = {value}",
+        "purchase_revoke": "Aankoop geannuleerd. aankoop_id: {aankoop_id}.",
+        "purchase_unrevoke": "Aankoop onherroepelijk. aankoop_id: {aankoop_id}.",
+        "purchase_refund": "Aankoop terugbetaald. purchase_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
+        "payment_initiate": "Geïnitieerde {gateway}-betaling. actie: {action}, bericht: {message}, Code: {status_code}.",
+        "payment_refund": "{gateway} betaling terugbetaald. actie: {action}, bericht: {message}, Code: {status_code}.",
+        "payment_cancelled": "Geannuleerde betaling. debit_id: {debit_id}.",
+        "purchase_cancelled": "Geannuleerde betaling. debit_id: {debit_id}.",
+        "payment_credits_success": "Kredietbetaling geslaagd. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}.",
+        "nav_edit": "Bewerk navigatie links.",
+        "cms_deleted": "Cms html-pagina verwijderd.",
+        "cms_edit": "Cms html-pagina bewerkt",
+        "theme_edit": "Bewerkt thema.",
+        "ban_deleted": "Ban {banId} verwijderd.",
+        "ban_new": "Ban in bundel {bundleName} toegevoegd tot {endDate}. Reden: {reason}.",
+        "ban_protest": "Ban geprotesteerd door gebruiker",
+        "ban_edit_bundle": "Bundel gewijzigd naar {bundleName}.",
+        "ban_edit_reason": "Reden gewijzigd naar {reason}.",
+        "ban_edit_status": "Status gewijzigd naar {status}.",
+        "ban_edit_length": "Changed end-date naar {endDate}.",
+        "requirement_set_add": "Vereistenset {requirementSetName} {requirementSetId} toegevoegd.",
+        "requirement_set_edit": "Eisenset {requirementSetName} {requirementSetId} bewerkt.",
+        "requirement_add": "Vereiste {requirementId} toegevoegd.",
+        "config_edit": "Bewerkte algemene config.",
+        "applied_packet_extended": "Uitgebreid toegepast pakket {applied_packet_id}.",
+        "applied_packet_not_extended": "Kan toegepast pakket {applied_packet_id} niet uitbreiden: {reason}.",
+        "user_sync_failed": "Kan gebruiker {user_id} niet synchroniseren.",
+        "group_deleted": "Groep {groupName} {groupId} verwijderd.",
+        "refund_finished": "Voltooide terugbetaling. debit_id: {debit_id}, purchase_id: {purchase_id}."
+    },
+    "_address": {
+        "labels": {
+            "state": "staat / provincie",
+            "change": "Adress wijzigen",
+            "add": "Adress toevoegen",
+            "streetAndNumber": "Straat en nummer",
+            "addition": "Toevoeging",
+            "city": "Stad",
+            "zip_code": "Postcode",
+            "vat_number": "Btw nummer",
+            "selectAddress": "Selecteer adress"
+        },
+        "messages": {
+            "changeSuccess": "Bedrijfs adress successvol gewijzigd",
+            "addSuccess": "Nieuw adress sucessvoll toegevoegd",
+            "selectedSuccess": "Adres succesvol geselecteerd.",
+            "noAddressesYet": "U heeft nog geen adressen."
+        }
+    },
+    "_packet": {
+        "labels": {
+            "recurringDetail": "Er wordt een abonnement aangemaakt, met de interval die is opgegeven in het veld 'Actief voor'.",
+            "activeForDetail": "Hoe lang het pakket na activatie actief moet zijn. Laat dit veld leeg voor pakketten die na verloop van tijd niet uitgeschakeld mogen worden. Als de terugkerende optie is ingeschakeld, wordt deze waarde gebruikt als abonnementsinterval.",
+            "add": "Pakket toevoegen",
+            "edit": "Pakket bewerken",
+            "customPrice": "Aangepaste prijs",
+            "buyable": "Te koop",
+            "buyableDetail": "Kan gekocht worden in de winkel",
+            "expires": "Verloopt",
+            "limitedPayments": "Gelimiteerde betaling",
+            "abstract": "Abstract",
+            "abstractDetail": "Korte opsommingstekens die de belangrijkste kenmerken van het pakket beschrijven.",
+            "recurring": "Terrugkomend",
+            "buyableActive": "Te koop als de gebruiker dit pakket in een actieve staat heeft.",
+            "buyableInactive": "Te koop als de gebruiker dit pakket in een inactieve staat heeft.",
+            "activeFor": "Actief voor",
+            "notBuyable": "Niet te koop",
+            "currency": "Munteenheid",
+            "activeUntil": "Actief tot",
+            "activeSince": "Actief sinds"
+        }
+    },
+    "_forms": {
+        "labels": {
+            "iconDescription": "Beschikbare iconen"
+        }
     }
 }
