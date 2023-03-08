@@ -1,12 +1,12 @@
 {
     "_settings": {
         "contentEmpty": "Вміст порожній",
-        "serverAndServerbundle": "Сервер / Серверний блок",
+        "serverAndServerbundle": "Сервер / Серверна група",
         "showFaq": "Увімкнути сторінку FAQ",
         "addRequirementSet": "Додати набір параметрів",
         "editRequirementSet": "Редагувати набір параметрів",
         "addRequirement": "Додати параметр",
-        "formulaTypeError": "Перевірте, чи всі використані ID присутні",
+        "formulaTypeError": "Перевірити, чи всі застосовані ID наявні",
         "formulaSymbolOr": "Цей символ | для АБО (OR)",
         "formulaSymbolAnd": "Цей символ & для І (AND)",
         "imageUrl": "URL зображення",
@@ -16,10 +16,10 @@
         "formula": "Формула",
         "requirements": "Вимоги",
         "communityDescriptionDescr": "Цей опис буде показано в результатах тестування пошукових систем",
-        "addServerTooltip": "Спочатку додайте серверний блок",
+        "addServerTooltip": "Спочатку додайте серверну групу",
         "labels": {
-            "editBundle": "Редагувати серверний блок",
-            "addBundle": "Додати серверний блок",
+            "editBundle": "Редагувати серверну групу",
+            "addBundle": "Додати серверну групу",
             "addServer": "Додати сервер",
             "groupSettings": "Налаштування групи",
             "addGroup": "Додати групу",
@@ -84,37 +84,37 @@
         "ban_protest": "Користувач оскаржив бан",
         "group_add": "Додано групу {groupName} {groupId}.",
         "ban_edit_reason": "Змінено причину на {reason}.",
-        "applied_packet_extended": "Застосований пакет {applied_packet_id} розширено.",
+        "applied_packet_extended": "Застосований пакет {applied_packet_id} продовжено.",
         "payment_process": "Здійснено процес оплати. шлюз: {gateway}, повідомлення: {message}, дія: {action}, деталі: {detail}.",
         "purchase_status_changed": "Змінено статус покупки. покупка_id: {purchase_id}, статус: {old_status} -> {new_status}.",
         "purchase_finished": "Покупку завершено. покупка_id: {purchase_id}.",
         "config_edit": "Відредаговано загальну конфігурацію.",
         "membership_add": "Додано до групи {group_name} у пакет {serverbundle} до {until}.",
         "warning_delete": "Видалити попередження для користувача: {username}.",
-        "purchase_unrevoke": "Покупку не повернуто. покупка_id: {purchase_id}.",
+        "purchase_unrevoke": "Покупка не відкликана. покупка_id: {purchase_id}.",
         "group_deleted": "Видалено групу {groupName} {groupId}.",
         "object_create": "Створено {classname} з id {id}: {params}",
         "applied_packet_upgraded": "Оновлено застосований пакет {old_applied_packet_id} з {new_applied_packet_id}. Додано {days} днів.",
         "group_edit": "Групу {groupName} {groupId} відредаговано.",
         "applied_packet_disabled": "Застосований пакет {applied_packet_id} відключено.",
-        "applied_packet_not_extended": "Не вдалося розширити застосований пакет {applied_packet_id}: {reason}.",
+        "applied_packet_not_extended": "Не вдалося продовжити застосований пакет {applied_packet_id}: {reason}.",
         "user_imported_from": "Користувача імпортовано з {source}.",
-        "refund_finished": "Завершено повернення. дебет_id: {debit_id}, покупка_id: {purchase_id}.",
+        "refund_finished": "Відшкодування завершено. дебет_id: {debit_id}, покупка_id: {purchase_id}.",
         "user_sync_failed": "Не вдалося синхронізувати користувача {user_id}.",
-        "membership_ended": "Припинення членства: Група: {groupName}, Користувач: {username}.",
-        "purchase_refund": "Покупку повернуто. покупка_id: {purchase_id}, дебет_id: {debit_id}, повернення_дебету_id: {refund_debit_id}.",
+        "membership_ended": "Припиненно членство: Група: {groupName}, Користувач: {username}.",
+        "purchase_refund": "Покупку відшкодовано. покупка_id: {purchase_id}, дебет_id: {debit_id}, повернення_дебету_id: {refund_debit_id}.",
         "payment_credits_success": "Оплата кредиту успішна. дія: {action}, користувач_id: {user_id}, дебет_id: {debit_id}, кредити: {credits}.",
         "edit": "Відредаговано {name}: {key} = {value}",
         "object_edit": "Відредаговано {classname} з id {id}: {key} = {value}.",
         "debit_status_changed": "Змінено дебетовий статус. дебет_id: {debit_id}, статус: {old_status} -> {new_status}.",
         "purchase_cancelled": "Покупку скасовано. покупка_id: {purchase_id}.",
-        "purchase_revoke": "Покупку повернуто. покупка_id: {purchase_id}.",
+        "purchase_revoke": "Покупку відкликано. покупка_id: {purchase_id}.",
         "payment_error": "Помилка платежу. шлюз: {gateway}, повідомлення: {message}, дія: {action}, деталі: {detail}, код: {status_code}.",
-        "cms_edit": "Відредагована html-сторінка cms.",
+        "cms_edit": "Відредагована cms html-сторінка.",
         "ban_edit_length": "Дату завершення змінено на {endDate}.",
-        "nav_edit": "Відредаговані навігаційні лінки.",
+        "nav_edit": "Навігаційні лінки відредаговано .",
         "payment_credits_fail": "Не вдалося оплатити кредит. дія: {action}, користувач_id: {user_id}, дебет_id: {debit_id}, кредити: {credits}, причина: {reason}.",
-        "cms_deleted": "Видалено сторінку cms html.",
+        "cms_deleted": "Видалено cms html сторінку.",
         "ban_new": "Додано бан у пакет {bundleName} до {endDate}. Причина: {reason}.",
         "ban_new_full": "Користувач {creatorId} додав бан {banId} для користувача {userId} у пакеті {bundleId} з {createdOn} до {endDate}. Причина: {reason}.",
         "ban_edit_status": "Статус змінено на {статус}.",
@@ -122,10 +122,10 @@
         "news_add": "Додано новину {newsSubject} {newsId}.",
         "news_deleted": "Новину {newsSubject} {newsId} видалено.",
         "membership_deleted": "Видалено учасника: Група: {groupName}, Користувач: {username}.",
-        "membership_edit": "Відредаговане членство: Група: {groupName}, Користувач: {username}, Старий: {oldBegin} {oldEnd}, Новий: {newBegin} {newEnd}.",
+        "membership_edit": "Відредаговано членство: Група: {groupName}, Користувач: {username}, Старий: {oldBegin} {oldEnd}, Новий: {newBegin} {newEnd}.",
         "requirement_set_add": "Додано набір вимог {requirementSetName} {requirementSetId}.",
         "requirement_set_edit": "Набір вимог {requirementSetName} {requirementSetId} відредаговано.",
-        "news_edit": "Відредаговані новини {newsSubject} {newsId}.",
+        "news_edit": "Відредаговано новину {newsSubject} {newsId}.",
         "warning_toggle": "Встановити статус попередження користувача {username} на {newStatus}.",
         "payment_refund": "Повернуто платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}.",
         "payment_cancelled": "Платіж скасовано. дебет_id: {debit_id}.",
@@ -136,20 +136,24 @@
         "requirement_add": "Вимога {requirementId} додана.",
         "warning_add": "Додано попередження для користувача: {username}.",
         "object_delete": "Видалено {classname} з id {id}.",
-        "theme_edit": "Відредагована тема.",
+        "theme_edit": "Тема відредагована.",
         "ban_deleted": "Видалено бан {banId}.",
         "discord_no_permission_to_target_group": "Discord-бот не може визначити цільову групу.",
         "discord_no_permission": "Помилка дозволу Discord. Будь ласка, спробуйте видалити та перезавантажити бота на свій сервер.",
         "user_token_revoke": "Скасовано токен {token_id}.",
         "user_log_entry_add": "{message}",
-        "group_team_member_edited": "Групи - редагується членом команди.",
-        "user_admin_status_removed": "Статус адміністратора користувача {username} - {user_id} відредаговано: адмін = {status}.",
-        "user_token_create": "Створено токен {token_id} з діапазоном {scope} для серверного блоку {bundle_id}.",
+        "group_team_member_edited": "Групи редаговані членом команди.",
+        "user_admin_status_removed": "Адмін статус користувача {username} - {user_id} відредаговано: адмін = {status}.",
+        "user_token_create": "Створено токен {token_id} з діапазоном {scope} для серверної групи {bundle_id}.",
         "warning_config_edit": "Налаштування попереджень відредаговано.",
-        "reward_process_failed": "Не вдалося здійснити застосовану винагороду {type_reward} {id_applied_reward_id}: {error}.",
+        "reward_process_failed": "Не вдалося виконати застосовану винагороду {reward_type} {applied_reward_id}: {error}.",
         "reward_membership_lower_level": "Проігноровано винагороду УЧАСНИКА {applied_reward_id}, оскільки рівень користувача {user_id} ({user_level}) вищий за рівень групи {group_id} ({group_level}).",
         "discord_wrong_bot_token": "Бот Discord не може увійти в систему (неправильний токен бота)",
-        "reward_process_success": "Успішно виконано застосовану винагороду {type_reward} {applied_reward_id}."
+        "reward_process_success": "Успішно виконано застосовану винагороду {reward_type} {applied_reward_id}.",
+        "users_linked": "Пов'язано користувача {link_user_id} з {base_user_id}. Передано {credits} кредитів при об'єднанні кредитних рахунків.",
+        "discord_no_permission_for_server": "Discord-бот не може отримати гільдію {guild_id}.",
+        "social_config_edit": "Налаштування соціалізація (авторизація) відредаговано .",
+        "legal_edit": "Юридичну інформацію відредаговано."
     },
     "_invoice": {
         "invoice": "Рахунок",
@@ -158,7 +162,7 @@
         "transaction": "Транзакція",
         "quantity": "Кількість",
         "price": "Ціна",
-        "vatNumber": "Номер платника ПДВ",
+        "vatNumber": "Номер ПДВ (ІПН)",
         "item": "Предмет",
         "invoiceDate": "Дата рахунку",
         "subtotalNoVat": "Проміжний підсумок (без ПДВ)",
@@ -168,7 +172,7 @@
     "_dashboard": {
         "labels": {
             "userLog": "Лог користувача",
-            "groupMemberships": "Членство в групі",
+            "groupMemberships": "Члени групи",
             "credits": "Кредити",
             "last_online": "Останній раз онлайн",
             "membershipEndDescription": "Залишити порожнім на необмежений час",
@@ -212,27 +216,27 @@
     "_serverbundle": {
         "labels": {
             "createApiKey": "Створити новий ключ API",
-            "apiKeys": "Ключі API для серверного блоку"
+            "apiKeys": "Ключі API серверної групи"
         },
         "messages": {
-            "editSuccess": "Серверний блок успішно відредаговано.",
-            "createSuccess": "Серверний блок успішно створено.",
-            "deleteSuccess": "Серверний блок успішно видалено."
+            "editSuccess": "Серверну групу успішно відредаговано.",
+            "createSuccess": "Серверну групу успішно створено.",
+            "deleteSuccess": "Серверну групу успішно видалено."
         }
     },
     "_navigation": {
         "deleteDefaultLink": "Не вдається видалити основний лінк",
         "noHtmlGiven": "Будь ласка, введіть якийсь html!",
         "_location": {
-            "header": "Заголовок",
+            "header": "Верхній колонтитул",
             "footer": "Нижній колонтитул",
             "help": "Допомога"
         },
         "sublink": "Сублінк",
-        "rawHtml": "Raw HTML",
-        "navReset": "Скинути правила навігації",
-        "navUpdate": "Оновити правила навігації",
-        "reqProp": "Необхідна вимога",
+        "rawHtml": "Вихідний HTML",
+        "navReset": "Скинути порядок навігації",
+        "navUpdate": "Оновити порядок навігації",
+        "reqProp": "Необхідна опція",
         "parentNavigationLink": "Основний навігаційний лінк",
         "cmsPageTitle": "HTML-сторінки",
         "editor": "Редактор",
@@ -244,7 +248,7 @@
             "cmsDeleted": "Html-сторінку видалено.",
             "cmsAdded": "Додано html-сторінку.",
             "addedLink": "Створено навігаційний лінк.",
-            "updatedLinkOrder": "Оновлена навігація.",
+            "updatedLinkOrder": "Порядок навігації оновлено.",
             "removedLink": "Навігаційний лінк видалено.",
             "editedLink": "Навігаційний лінк відредаговано."
         },
@@ -323,12 +327,12 @@
             "checkout": "Оформити замовлення",
             "paymentId": "ID платежу",
             "addToCart": "Додати в кошик",
-            "total": "Разом",
+            "total": "Всього",
             "businessAddress": "Юридична адреса",
             "taxIncludedInPacketPriceDescription": "Замість того, щоб додавати податки до вказаної ціни пакета в кінці, вони включені в ціну.",
             "billingAddress": "Адреса для виставлення рахунку",
             "removeAllPackets": "Видалити всі пакети",
-            "checkoutCheckboxes": "Поставте галочку в чекбоксах",
+            "checkoutCheckboxes": "Встановіть прапорці для оформлення замовлення",
             "perMonth": "в місяць",
             "taxAllowUnknown": "Дозволити покупки з країн без податкового правила.",
             "cancelPurchase": "Скасувати покупку",
@@ -349,7 +353,10 @@
             "credits": "Кредити",
             "orderOverview": "Огляд замовлень",
             "cartTotal": "Всього в кошику",
-            "defaultCurrency": "Валюта за замовчуванням"
+            "defaultCurrency": "Валюта за замовчуванням",
+            "donationGoal": "Мета пожертви",
+            "enableDonationGoal": "Увімкнути мету пожертви",
+            "enableDonationGoalDescription": "Мета пожертви відображається на стартовій сторінці (Новини)"
         },
         "purchaseStatus": {
             "cancelled": "Скасовано",
@@ -365,7 +372,7 @@
     "_properties": {
         "ban_edit": "Дозволяє користувачеві редагувати бани у заданому пакеті",
         "ban_show": "Дозволяє користувачеві відображати бани у заданому пакеті",
-        "bundle_edit": "Додавати та редагувати блоки серверів"
+        "bundle_edit": "Додавати та редагувати серверні групи"
     },
     "_errors": {
         "unauthorized": "Ви повинні увійти в систему, щоб зробити це.",
@@ -434,7 +441,10 @@
     },
     "_legal": {
         "descriptionText": "У більшості країн обов'язковою умовою є наявність принаймні контактних даних оператора веб-сайту, умов використання та політики конфіденційності. Ви можете знайти приклад політики конфіденційності в документації.",
-        "showLegalReminder": "Будь ласка, вкажіть юридичну інформацію в налаштуваннях!"
+        "showLegalReminder": "Будь ласка, вкажіть юридичну інформацію в налаштуваннях!",
+        "messages": {
+            "editedLegal": "Юридичну інформацію відредаговано."
+        }
     },
     "_forms": {
         "labels": {
@@ -466,14 +476,14 @@
             "customPrice": "Спеціальна ціна",
             "buyable": "Можна купити",
             "expires": "Закінчується",
-            "limitedPayments": "Обмежені платежі",
+            "limitedPayments": "Платежі обмежені",
             "recurring": "Повторення",
-            "packetRelations": "Відношення пакетів",
+            "packetRelations": "Взаємозв'язки між пакетами",
             "editRewards": "Редагувати винагороди",
             "details": "Деталі пакету",
             "relationDisables": "Відключає вибраний пакет при покупці",
             "paymentMethods": "Способи оплати",
-            "relationRequires": "Потрібен обраний пакет для покупки",
+            "relationRequires": "Потрібно обрати пакет для покупки",
             "notBuyable": "Не можна купити",
             "currency": "Валюта",
             "relationNotCompatible": "Несумісний з обраним пакетом.",
@@ -496,7 +506,7 @@
             "customPriceDetail": "Дозвольте користувачеві визначити ціну. Введена ціна використовується як мінімальна ціна.",
             "limitPaymentMethodsDetail": "Якщо способи оплати обрані, то можна використовувати тільки ці способи. Якщо ні, можна використовувати всі способи.",
             "imageDetail": "HTTPS URL-адреса до зображення пакета.",
-            "editBundle": "Редагування серверного блоку"
+            "editBundle": "Редагувати серверну групу"
         },
         "messages": {
             "customPricePossible": "Ціна на цей пакет може бути індивідуальною.",
@@ -519,7 +529,7 @@
         },
         "labels": {
             "create": "Створити категорію пакетів",
-            "edit": "Редагування категорії пакетів",
+            "edit": "Редагувати категорію пакета",
             "delete": "Видалити категорію пакетів",
             "imageDetail": "HTTPS-URL до зображення категорії."
         }
@@ -528,7 +538,7 @@
         "labels": {
             "amountTotal": "Загальна сума",
             "details": "Деталі покупки",
-            "salesCount": "Кількість проданих товарів",
+            "salesCount": "Кількість продажів",
             "totalRevenue": "Загальний дохід",
             "confirm": "Підтвердити",
             "declineDebitText": "Скасувати покупку? Це не можна скасувати.",
@@ -551,7 +561,10 @@
             "monthlyRevenue": "Щомісячний дохід",
             "confirmDebitText": "Підтвердити покупку? Це не можна скасувати.",
             "revenueByCountry": "Дохід за країнами",
-            "reward": "Винагорода"
+            "reward": "Винагорода",
+            "decline": "Зниження",
+            "showApprovedDebits": "Показати підтверджені платежі",
+            "paymentGateway": "Платіжний шлюз"
         },
         "messages": {
             "refundInitSuccess": "Повернення коштів успішно ініційовано.",
@@ -566,7 +579,8 @@
             "deleteAppliedPacketSuccess": "Застосований пакет успішно видалено.",
             "deleteConfirm": "Ви впевнені, що хочете видалити цю покупку? Цю дію не можна скасувати. Пов'язані пакети не будуть видалені.",
             "cancelSubscriptionConfirm": "Ви впевнені, що хочете скасувати цю підписку?",
-            "confirmPurchaseSuccess": "Покупку успішно схвалено"
+            "confirmPurchaseSuccess": "Покупку успішно схвалено",
+            "unrevokeSuccess": "Покупку успішно скасовано."
         }
     },
     "_home": {
@@ -582,8 +596,9 @@
         "messageTypeNews": "Повідомлення",
         "messageTypePinned": "Повідомлення дня",
         "addNews": "Нове повідомлення",
-        "newsExhausted": "Це все. Ви все бачили.",
-        "editNews": "Редагувати повідомлення"
+        "newsExhausted": "Ось і все. ви бачили все, що треба.",
+        "editNews": "Редагувати повідомлення",
+        "messageSubject": "Тема"
     },
     "_requirement": {
         "addRequirement": "Вимоги",
@@ -594,8 +609,11 @@
             "GROUP_MEMBER": "Учасник групи",
             "PERMISSION_LEVEL": "Рівень дозволу",
             "DATE": "Дата",
-            "PERMISSION_LEVEL_SB": "Рівень дозволу (у серверному блоці)",
-            "PACKET": "Пакет"
+            "PERMISSION_LEVEL_SB": "Рівень дозволу (серверної групи)",
+            "PACKET": "Пакет",
+            "PROPERTY": "Опція",
+            "PROPERTY_SB": "Опція (Серверної групи)",
+            "USER_SELF": "Самостійний користувач"
         },
         "operators": {
             "ACTIVE": "Активно",
@@ -604,7 +622,13 @@
             "ONLY_ACTIVE": "Тільки неактивні",
             "EQ": "Рівно",
             "NEVER_ACTIVE": "Ніколи не було активним",
-            "ONLY_INACTIVE": "Тільки активні"
+            "ONLY_INACTIVE": "Тільки активні",
+            "LEQ": "Менше або рівно",
+            "GEQ": "Більше або рівно",
+            "GT": "Більше",
+            "LT": "Менше",
+            "HAVE": "Маємо",
+            "NHAVE": "Не маємо"
         },
         "date": "Дата",
         "messages": {
@@ -614,26 +638,26 @@
             "addedRequirement": "Додана вимога",
             "editedRequirement": "Набір вимог відредаговано",
             "addedSet": "Додано набір вимог",
-            "editedFormula": "Відкоригована формула"
+            "editedFormula": "Формула відкоригована"
         },
         "attributeName": "Назва атрибуту",
         "requirementType": "Тип",
         "permissionLevel": "Рівень дозволу",
-        "propertyName": "Назва об'єкту",
+        "propertyName": "Назва опції",
         "attributeValue": "Значення атрибуту"
     },
     "_gateway": {
         "labels": {
             "paysafecard": "Paysafecard",
             "paypal": "PayPal",
-            "create": "Створіть платіжний шлюз",
+            "create": "Створити платіжний шлюз",
             "edit": "Редагувати платіжний шлюз",
-            "acceptPending": "Прийміть відкладені платежі",
+            "acceptPending": "Прийняти відкладені платежі",
             "acceptPendingDescription": "Деякі способи оплати (наприклад, SEPA Direct Debit, SOFORT, ...) обробляються протягом декількох днів. Якщо ця опція увімкнена, покупки, оплачені цими методами, будуть завершені одразу після завершення процесу оформлення замовлення. Існує невелика ймовірність того, що після цього платіж не пройде.",
             "coupon": "Купон (підтвердження в ручному режимі)",
-            "doNotAcceptPending": "Не приймати відкладені платежі",
+            "doNotAcceptPending": "Не прийняти відкладені платежі",
             "clientCertDescription": "Клієнтський сертифікат і ключ використовуються як метод автентифікації для API paysafecard. Зверніться до служби підтримки paysafecard, щоб отримати його.",
-            "webhookURL": "URL-адреса вебхука",
+            "webhookURL": "URL-адреса веб-хука",
             "stripe": "Stripe"
         },
         "messages": {
@@ -663,22 +687,27 @@
             "_types": {
                 "command": "Виконайте команду на сервері (серверах)",
                 "script": "Виконайте скрипт на сервері (серверах)",
-                "credits": "Додати кредити на рахунок покупця"
+                "credits": "Додати кредити на рахунок покупця",
+                "membership": "Додати в групу"
             },
             "addAppliedReward": "Додати застосовану винагороду",
             "_events": {
                 "direct": "Виконувати безпосередньо",
-                "connect": "Виконувати під час з'єднання",
-                "disable": "Виконати, коли застосований пакет стає неактивним"
+                "connect": "Виконувати при підключенні",
+                "disable": "Виконати, коли застосований пакет стає неактивним",
+                "death": "Виконати після смерті",
+                "disconnect": "Виконувати при відключенні"
             },
             "onceFromAll": "Виконувати тільки на одному сервері",
             "reactivateOnExtend": "Виконати повторно, якщо пакет було продовжено (за умови оплати підписки)",
             "create": "Створити винагороду",
-            "edit": "Редагувати винагороду"
+            "edit": "Редагувати винагороду",
+            "checkForReplacements": "Ознайомтеся з документацією, щоб дізнатися про доступні типи винагород та можливі заміни рядків"
         },
         "status": {
             "EXECUTED": "Виконано",
-            "OPEN": "Відкрити"
+            "OPEN": "Відкрити",
+            "FAILED": "Не вийшло"
         },
         "messages": {
             "editSuccess": "Винагороду успішно відредаговано.",
@@ -721,9 +750,9 @@
         },
         "noNotification": "Немає сповіщень",
         "messages": {
-            "readSuccess": "Успішно переключено статус прочитаного"
+            "readSuccess": "Успішно змінено статус прочитаного"
         },
-        "timeAgo": "{time} тому.",
+        "timeAgo": "{time} тому",
         "notifications": "Сповіщення",
         "newNotifications": "Нові сповіщення",
         "markAllAsRead": "Позначте все як прочитане",
@@ -741,7 +770,7 @@
     "_pageTitle": {
         "shopCheckout": "Оформити замовлення",
         "settings": "Налаштування",
-        "legal": "Юридичні питання",
+        "legal": "Юридична інформація",
         "serverDashboard": "Серверна панель",
         "faq": "FAQ",
         "notifications": "Сповіщення",
@@ -756,7 +785,9 @@
         "team": "Команда",
         "notificationLink": "Повідомлення",
         "forum": "Форум",
-        "ticket": "Запит"
+        "ticket": "Запит",
+        "dashboard": "Панель",
+        "about": "Інформація"
     },
     "_warning": {
         "ttl": "Час до попередження (дні)",
@@ -774,20 +805,71 @@
         "banLength": "Тривалість автоматичного бану (хвилини)",
         "reason": "Причина",
         "showUserWarnings": "Показувати попередження користувача з ID: {id}",
-        "ttlPlaceholder": "Тривалість (у днях)"
+        "ttlPlaceholder": "Тривалість (у днях)",
+        "countTillBanDesc": "0 - НЕМАЄ автоматичних банів."
     },
     "_property": {
         "descriptions": {
             "ticket_show": "Переглянути запити",
             "ticket_edit": "Редагувати запити",
             "user_create": "Створити іноземного користувача (тільки API)",
-            "user_edit": "Редагувати інформацію про інших користувачів"
+            "user_edit": "Редагувати інформацію про інших користувачів",
+            "general_edit": "Керувати загальними налаштуваннями",
+            "nav_show": "Переглянути налаштування панелі навігації",
+            "gateway_edit": "Керувати платіжними шлюзами",
+            "applied_packet_show": "Переглянути застосовані пакети та винагороди.",
+            "shop_show": "Перегляд налаштувань магазину",
+            "packet_show": "Переглянути пакети та винагороди",
+            "authorization_show": "Показати параметри авторизації",
+            "faq_edit": "Редагувати FAQ в налаштуваннях",
+            "log_show": "Переглянути логи",
+            "account_edit": "Редагувати транзакції кредитних рахунків користувачів",
+            "group_edit": "Керувати групами",
+            "discount_edit": "Керувати знижками магазину",
+            "account_show": "Переглянути кредитні рахунки інших користувачів",
+            "ban_show": "Перегляд банів",
+            "ban_edit": "Керувати банами",
+            "ban_delete": "Видалити бани",
+            "ban_global": "Створити глобальні бани",
+            "server_edit": "Керувати серверами",
+            "server_show": "Переглянути налаштування сервера",
+            "bundle_edit": "Керувати серверними групами",
+            "theme_show": "Перегляд параметрів теми",
+            "theme_edit": "Редагувати параметри теми",
+            "warning_show": "Перегляд попереджень",
+            "warning_edit": "Керувати попередженнями",
+            "warning_delete": "Видалити попередження",
+            "address_show": "Дивитися адреси інших користувачів.",
+            "warning_config_show": "Показати конфігурацію попереджень у налаштуваннях",
+            "warning_config_edit": "Редагувати конфігурацію попереджень у Налаштуваннях",
+            "nav_edit": "Керувати панель навігації",
+            "news_edit": "Керувати новинами",
+            "requirement_show": "Переглянути набори вимог",
+            "requirement_edit": "Керувати наборами вимог",
+            "gateway_show": "Подивитися платіжні шлюзи",
+            "general_show": "Перегляд загальних налаштувань",
+            "user_log": "Показати та додати записи до журналу користувача",
+            "packet_edit": "Керувати пакетами магазину",
+            "purchase_show": "Перегляд покупок і статистики",
+            "purchase_edit": "Керувати покупками",
+            "applied_packet_edit": "Редагувати застосовані пакети та винагороди.",
+            "shop_edit": "Керувати налаштуваннями магазину",
+            "discount_show": "Переглянути знижки магазину",
+            "admin_menu": "Увімкнути меню адміна",
+            "apikey_edit": "Управляти ключами API",
+            "legal_edit": "Редагувати юридичний контент",
+            "authorization_edit": "Редагувати параметри авторизації",
+            "auth_request_confirm": "Підтвердити запити на авторизацію (тільки для ігрових серверів)",
+            "reserved_slot_use": "Використовувати зарезервовані слоти на сервері",
+            "advert_show": "Переглянути оголошення",
+            "advert_edit": "Керувати оголошеннями"
         },
         "categories": {
             "user": "Користувач",
             "bans_and_warnings": "Бани та попередження",
             "shop": "Магазин",
-            "other": "Інше"
+            "other": "Інше",
+            "general": "Головне"
         }
     },
     "_server": {
@@ -809,6 +891,9 @@
                 "createApp": "Створіть додаток Discord та увімкніть авторизацію в Discord.",
                 "addBot": "Додайте бота до вашого сервера Discord. Натисніть перезавантажити, якщо кнопка не працює.",
                 "readInstructions": "Прочитайте та дотримуйтесь подальших інструкцій з документації."
+            },
+            "MINECRAFT": {
+                "download": "Завантажте плагін vyhub-minecraft .jar і помістіть його в папку плагінів вашого сервера. Потім перезавантажте сервер."
             }
         },
         "labels": {
@@ -817,13 +902,18 @@
             "details": "Інформація про сервер",
             "edit": "Редагувати сервер",
             "hideReservedSlots": "Приховати зарезервовані слоти",
-            "discordApplicationIdNeeded": "Створіть додаток Discord.",
+            "discordApplicationIdNeeded": "Створити додаток Discord.",
             "setup": "Налаштувати сервер",
-            "numberOfReservedSlots": "Кількість зарезервованих слотів"
+            "numberOfReservedSlots": "Кількість зарезервованих слотів",
+            "guildIdDocs": "Знайти ID гільдії",
+            "discordEnterIdAsAddress": "В якості адреси сервера введіть id вашої гільдії. Введіть бажаний номер порту.",
+            "keepReservedSlotsFree": "Тримайте зарезервовані слоти вільними",
+            "addBot": "Додайте бота до своєї гільдії."
         },
         "type": {
             "DISCORD": "Discord",
-            "MINECRAFT": "Minecraft"
+            "MINECRAFT": "Minecraft",
+            "GMOD": "Garry's Mod"
         },
         "deleteBundleConfirmationText": "Це призведе до видалення об'єктів, пов'язаних з цим пакетом (наприклад, винагороди)"
     },
@@ -922,7 +1012,8 @@
         "reset": "Скинути список оголошень",
         "formEnabled": "Увімкнути",
         "addAdvertDialog": "Додати оголошення",
-        "editAdvertDialog": "Редагувати оголошення"
+        "editAdvertDialog": "Редагувати оголошення",
+        "formContent": "Вміст"
     },
     "_authorization": {
         "discordBotToken": "Бот-токен",
@@ -964,7 +1055,8 @@
         "close": "Закрити",
         "messages": {
             "addedPost": "Допис створено.",
-            "toggleStatus": "Статус змінено."
+            "toggleStatus": "Статус змінено.",
+            "addedThread": "Тему створено."
         },
         "readMore": "Читати далі",
         "showBan": "Показати бан",
@@ -977,12 +1069,14 @@
             "open": "Відкрити",
             "closed": "закрито"
         },
-        "title": "Назва",
+        "title": "Заголовок",
         "addPost": "Додати пост",
         "addTicket": "Створити запит",
         "noTickets": "Ви ще не створили жодного запиту.",
         "last_post": "Останній пост",
-        "lastUpdated": "Останнє оновлення"
+        "lastUpdated": "Останнє оновлення",
+        "banProtest": "Заборона протесту",
+        "creator": "Автор"
     },
     "_team": {
         "editTeam": "Редагування команди",
@@ -992,7 +1086,8 @@
     "_api": {
         "labels": {
             "createdKey": "Створено API-ключ",
-            "createKey": "Створити ключ"
+            "createKey": "Створити ключ",
+            "limitToServerbundle": "Обмеження серверної групи"
         },
         "messages": {
             "keyCreated": "Створено новий ключ:",
@@ -1007,5 +1102,167 @@
         "noUsersFound": "Користувачів не знайдено.",
         "selectAUser": "Виберіть користувача, щоб побачити деталі."
     },
-    "ticket": "Запит"
+    "ticket": "Запит",
+    "icon": "Іконка",
+    "id": "ID",
+    "edit": "Редагувати",
+    "personalSettings": "Персональні налаштування",
+    "author": "Автор",
+    "email": "E-Mail",
+    "discounts": "Знижки",
+    "recurring": "Повторення",
+    "generate": "Згенерувати",
+    "extraProperties": "Додаткові параметри",
+    "date": "Дата",
+    "revoked": "Анульовано",
+    "endsOn": "Закінчується",
+    "bundle": "Пакет",
+    "cancelled": "Скасовано",
+    "finished": "Закінчено",
+    "allGroups": "Всі групи",
+    "inactive": "Неактивно",
+    "imageURL": "URL-адреса зображення",
+    "legal": "Юридичні питання",
+    "country": "Країна",
+    "groups": "Групи",
+    "advancedProperties": "Розширені параметри",
+    "delete": "Видалити",
+    "disable": "Відключити",
+    "perYear": "За рік",
+    "type": "Тип",
+    "categories": "Категорії",
+    "tax": "Податок",
+    "description": "Опис",
+    "relations": "Зв'язки",
+    "user": "Користувач",
+    "select": "Вибрати",
+    "add": "Додати",
+    "name": "Ім'я",
+    "group": "Група",
+    "reset": "Перезавантажити",
+    "communityName": "Назва спільноти",
+    "sales": "Продажі",
+    "text": "Текст",
+    "info": "Інформація",
+    "connect": "Підключитись",
+    "or": "або",
+    "update": "Оновлення",
+    "revenue": "Прибуток",
+    "change": "Змінити",
+    "code": "Код",
+    "none": "Ні",
+    "unexpectedError": "Неочікувана помилка",
+    "requirementSet": "Набір вимог",
+    "automatic": "Автоматично",
+    "maxUsages": "Максимально можливе використання",
+    "perMonth": "За місяць",
+    "perDay": "За день",
+    "all": "Все",
+    "every": "Кожний",
+    "requirements": "Вимоги",
+    "subcategory": "Підкатегорія",
+    "servers": "Сервери",
+    "paymentGateways": "Платіжні шлюзи",
+    "paymentMethods": "Способи оплати",
+    "general": "Головне",
+    "purchases": "Покупки",
+    "language": "Мова",
+    "payment": "Платіж",
+    "refresh": "Оновити",
+    "payments": "Платежі",
+    "gateway": "Шлюз",
+    "open": "Відкрити",
+    "log": "Лог",
+    "apiKey": "Ключ API",
+    "search": "Пошук",
+    "amount": "Сума",
+    "invoice": "Рахунок",
+    "statistics": "Статистика",
+    "days": "Дні",
+    "oneTime": "Одноразово",
+    "serverbundle": "Серверна група",
+    "groupname": "Ім'я",
+    "enddate": "Закінчення",
+    "startdate": "Початок",
+    "example": "Приклад",
+    "value": "Значення",
+    "totals": "Всього",
+    "allProperties": "Всі параметри",
+    "username": "Ім'я користувача",
+    "navigation": "Навігація",
+    "rewards": "Винагороди",
+    "packets": "Пакети",
+    "dark_mode": "Темний режим",
+    "length": "Довжина",
+    "shop": "Магазин",
+    "percentage": "Відсотки",
+    "message": "Повідомлення",
+    "clientCert": "Сертифікат клієнта",
+    "clientKey": "Ключ клієнта",
+    "details": "Деталі",
+    "server": "Сервер",
+    "createdOn": "Створено",
+    "reason": "Причина",
+    "status": "Статус",
+    "dashboard": "Панель",
+    "not_available": "Недоступно",
+    "cancel": "Скасувати",
+    "create": "Створити",
+    "actions": "Дії",
+    "title": "Заголовок",
+    "import": "Імпорт",
+    "subtitle": "Субтитри",
+    "summary": "Підсумок",
+    "expired": "Прострочено",
+    "active": "Активно",
+    "areYouSure": "Ви впевнені?",
+    "color": "Колір",
+    "category": "Категорія",
+    "properties": "Параметри",
+    "packet": "Пакет",
+    "price": "Ціна",
+    "address": "Адреса",
+    "command": "Команда",
+    "script": "Скрипт",
+    "settingsSaveSuccess": "Налаштування успішно збережено.",
+    "port": "Порт",
+    "flags": "Флаги",
+    "disabled": "Відключено",
+    "start": "Старт",
+    "download": "Завантажити",
+    "report": "Звіт",
+    "ipAddress": "IP-адреса",
+    "continue": "Продовжити",
+    "apiKeys": "Ключі API",
+    "api": "API",
+    "unexpectedErrorOccurred": "Виникла непередбачувана помилка.",
+    "theme": "Тема",
+    "url": "URL",
+    "noDataAvailable": "Дані відсутні.",
+    "enabled": "Включено",
+    "htmlNoMatch": "Це не дійсна URL-адреса",
+    "begin": "Початок",
+    "here": "тут",
+    "end": "Кінець",
+    "submit": "Надіслати",
+    "serverStatus": "Статус сервера",
+    "save": "Зберегти",
+    "warnings": "Попередження",
+    "bans": "Бани",
+    "error": "Помилка",
+    "maxInputExceeded": "Перевищено максимальну довжину вхідних даних {length}",
+    "discord": "Discord",
+    "key": "Ключ",
+    "team": "Команда",
+    "help": "Допомога",
+    "redirect": "Переадресація",
+    "discount": "Знижка",
+    "confirm": "Підтвердити",
+    "faq": "FAQ",
+    "adverts": "Оголошення",
+    "map": "Мапа",
+    "setup": "Налаштування",
+    "instructions": "Інструкції",
+    "writeToConfirm": "Напишіть, щоб підтвердити:",
+    "enable": "Включити"
 }
