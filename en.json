@@ -554,6 +554,121 @@
             "payoutSuccess": "Payout successfully initiated."
         }
     },
+    "_features": {
+        "_shop": {
+            "title": "Shop",
+            "subtitle": "Sell ranks and ingame-items for real money.",
+            "_features": {
+                "title1": "Packets",
+                "headline1": "Unlimited packets",
+                "text1": "Packets are the foundation of each webstore. Create your own packets which you can sell on the website for real money. You can organise packets in different categories to provide your users a better experience. Packets can be single purchase or recurring payments.",
+                "title2": "Categories",
+                "headline2": "Unlimited categories",
+                "title3": "Rewards",
+                "headline3": "Unlimited rewards",
+                "text3": "Whenever a player buys a packet, different rewards can be executed. Rewards can be everything from ingame currency to item drops. You can execute any ingame command with the rewards. Furthermore, you can also give players ranks!",
+                "title4": "Statistics",
+                "headline4": "Statistics",
+                "text4:": "Monitor your sales with the integrated statistics. For example sales can be displayed by month or by country.",
+                "title5": "Discounts",
+                "headline5": "Discounts",
+                "text5": "You can provide your players with discounts. These discounts can apply for the whole store or only certain packets. This way you can award players for good performance.",
+                "title6": "Payment Gateways",
+                "headline6": "Payment gateways",
+                "text6": "VyHub supports multiple payment methods. You can accept PayPal, Paysafecard and Stripe payments. With Stripe a lot of local payment methods are covered. Furthermore users can use the built-in credit system for payments. There is also an option to accept custom coupon codes for a purchase which then need to be approved manually by an admin.",
+                "title7": "PacketUpgrades",
+                "headline7": "Packet upgrades"
+            }
+        },
+        "_cutomizability": {
+            "title": "Customizability",
+            "subtitle": "Customize VyHub for your needs.",
+            "_features": {
+                "title1": "Theme",
+                "headline1": "Change colors",
+                "text1": "You can easily change the theme of the website! This includes colors, a dark mode or a different background image.",
+                "title2": "DarkMode",
+                "headline2": "Dark mode",
+                "title3": "NavigationLinks",
+                "headline3": "Edit navigation links",
+                "title4": "Create custom pages",
+                "headline4": "Create custom pages",
+                "text4": "You can create custom pages with all html/javascript possibilities. You can show these sites in the navigation bar."
+            }
+        },
+        "_community": {
+            "title": "Community",
+            "subtitle": "Save time and effort managing your community.",
+            "_features": {
+                "title1": "Bans",
+                "headline1": "Bans",
+                "text1": "You can ban players from your gameservers with VyHub. Bans can be created for a set of gameservers or globally across all your servers. Users have the ability to create a ban-protest which then can be looked at by the admins.",
+                "title2": "Warnings",
+                "headline2": "Warnings",
+                "text2": "You can warn users, which are then automatically banned after a warning threshold is achieved.",
+                "title3": "Forum",
+                "headline3": "Forum",
+                "text3": "Your players can talk with each other using VyHub's forum. With the rights management it is even possible to create member only topics.",
+                "title4": "Ticket System",
+                "headline4": "Ticket system",
+                "text4": "For better managing your community and streamlining the support process VyHub offers you a ticket system. Players can create tickets which are then being resolved by team members..",
+                "title5": "Team Page",
+                "headline5": "Team page",
+                "text5": "Groups can be part of the team. A team page is created automatically, which allows players to connect to the right person.",
+                "title6": "Adverts",
+                "headline6": "Adverts",
+                "text6": "Adverts are small messages which can be announced periodically on the gameservers."
+            }
+        },
+        "_dashboard": {
+            "title": "Dashboard",
+            "subtitle": "All player information in one view.",
+            "_features": {
+                "title1": "Dashboard",
+                "headline1": "Player dashboard",
+                "text1": "You can see all the important information at a glance via the user dashboard. This includes all the connected accounts the user has. Furthermore, stats are displayed on the dashboard. By default playtime is recorded, but more stats are possible to show!",
+                "title2": "Server Dashboard",
+                "headline2": "Server dashboard",
+                "text2": "Have a look at all online players with the server dashboard. This dashboard allows you to access all important player and game related features out of one place.",
+                "title3": "playerStats",
+                "headline3": "Player stats",
+                "title4": "playerGroups",
+                "headline4": "Player groups"
+            }
+        },
+        "_groupsAndTeams": {
+            "title": "Groups and Teams",
+            "subtitle": "Manage groups and permissions easily.",
+            "_features": {
+                "title1": "Groups",
+                "headline1": "Create own groups",
+                "text1": "Groups are the basis of the permission system implemented in VyHub. Every player can be part of one or many groups. The groups can have different permissions. Groups can be also awarded following a purchase.",
+                "title2": "AwardPlayers",
+                "headline2": "Award players with groups",
+                "title3": "Permission System",
+                "headline3": "Full permission system",
+                "text3": "All functionality on the website is guarded by permissions. Every group you create can have different permissions. This makes it possible to create a hierarchy of groups. This can be fully adjusted to fit your needs for example to create groups for team members.",
+                "title4": "PermissionLevels",
+                "headline4": "Permission levels"}
+        },
+        "_furtherFeatures": {
+            "title": "Further Features",
+            "subtitle": "There is a lot more to discover.",
+            "_features": {
+                "title1": "SSL",
+                "headline1": "Free SSL certificate",
+                "title2": "Languages",
+                "headline2": "Multi language support",
+                "text2": "To better personalize VyHub and interact with your community, VyHub is translated in multiple languages. Currently three languages are fully supported, more languages are currently translated! Community owners like you, can help translating VyHub.",
+                "title3": "Full featured API",
+                "headline3": "Full featured API",
+                "text3": "VyHub comes with a full featured REST API. You can use this API to do everything (and more) you can also do with the frontend. Own plugins integrating the API are possible as well.",
+                "title4": "Use own domain",
+                "headline4": "Optional: Use own domain",
+                "text4": "VyHub comes with a complimentary vyhub.app sub-domain. If your prefer using your own domain, this is possible! The use of your own domain comes with no additional cost."
+            }
+        }
+    },
     "_newsletter": {
         "thankYou": "Thank you for registering!"
     },
