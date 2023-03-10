@@ -145,6 +145,7 @@
         "showTicket": "Enable Ticket System",
         "showTeam": "Enable Team Page",
         "showFaq": "Enable FAQ Page",
+        "showForum": "Enable Forum",
         "communityDescription": "Community Description",
         "communityDescriptionDescr": "This description will be shown in search engine test results",
         "language": "Language",
@@ -812,35 +813,6 @@
             "editedSettings": "Warning settings edited."
         }
     },
-    "_ticket": {
-        "tickets": "Tickets",
-        "ticket": "Ticket",
-        "creator": "Creator",
-        "content": "Content",
-        "created": "Created",
-        "last_post": "Last Post",
-        "lastUpdated": "Last Update",
-        "addTicket": "Create Ticket",
-        "noTickets": "You have not created any tickets yet.",
-        "title": "Title",
-        "addPost": "Add Post",
-        "readMore": "Read More",
-        "open": "Open",
-        "closed": "Closed",
-        "close": "Close",
-        "banProtest": "Ban protest",
-        "showClosed": "Show closed",
-        "showBan": "Show Ban",
-        "messages": {
-            "addedPost": "Post created.",
-            "toggleStatus": "Status toggled.",
-            "addedThread": "Thread created."
-        },
-        "status": {
-            "open": "open",
-            "closed": "closed"
-        }
-    },
     "_server": {
         "labels": {
             "unknownStatus": "Status Unknown",
@@ -981,7 +953,9 @@
         }
     },
     "_forum": {
-        "title": "Forum",
+        "title": "Title",
+        "forum": "Forum",
+        "ticket:": "Ticket",
         "manageTopicCategories": "Manage Topic Categories",
         "manageTopics": "Manage Topics",
         "selectTopicCategory": "Select a Topic Category",
@@ -999,6 +973,7 @@
         "deleteThread": "Delete Thread",
         "rename": "Rename",
         "renameThread": "Rename Thread",
+        "editThreadTitle": "Edit Thread Title",
         "admin": "Forum Admin",
         "topicAdmins": "Topic Admins: ",
         "hideClosed": "Hide Closed Threads",
@@ -1019,6 +994,26 @@
         "editPost": "Allow edit posts",
         "editPostDescription": "Allow users to edit their own posts.",
         "edited": "Edited",
+        "tickets": "Tickets",
+        "creator": "Creator",
+        "content": "Content",
+        "created": "Created",
+        "last_post": "Last Post",
+        "lastUpdated": "Last Update",
+        "addTicket": "Create Ticket",
+        "noTickets": "You have not created any tickets yet.",
+        "addPost": "Add Post",
+        "readMore": "Read More",
+        "open": "Open",
+        "closed": "Closed",
+        "close": "Close",
+        "banProtest": "Ban protest",
+        "showClosed": "Show closed",
+        "showBan": "Show Ban",
+        "status": {
+            "open": "open",
+            "closed": "closed"
+        },
         "messages": {
             "topicCategoryCreated": "Topic category created.",
             "topicCreated": "Topic created.",
@@ -1030,7 +1025,10 @@
             "editSuccess": "Successfully edited.",
             "deleteSuccess": "Successfully deleted.",
             "pinned": "Thread pinned.",
-            "unpinned": "Thread unpinned."
+            "unpinned": "Thread unpinned.",
+            "addedPost": "Post created.",
+            "toggleStatus": "Status toggled.",
+            "addedThread": "Thread created."
         }
     },
     "_advert": {
