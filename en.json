@@ -108,7 +108,6 @@
             "question6": "Where do I get help?",
             "answer6": "Please first read our <a href=\"https://docs.vyhub.net\">documentation</a> for technical questions. You can contact us by using the contact form below."
         },
-        "pageSubtitleMdAndUp": "The all-in-one management & monetization platform <br> for your gaming community",
         "pageSubtitle": "The all-in-one management & monetization platform {br}for your gaming community",
         "keyFeatures": "Key Features",
         "rightManagement": "Access Control",
@@ -668,6 +667,14 @@
                 "text4": "VyHub comes with a complimentary vyhub.app sub-domain. If your prefer using your own domain, this is possible! The use of your own domain comes with no additional cost."
             }
         }
+    },
+    "_partners": {
+        "title": "Partners",
+        "headline": "Ready to promote the best game server management system?",
+        "lifetimeCustomerValue": "Lifetime Customer Value",
+        "description1": "Your friends and followers will thank you when they try VyHub for the first time.{br} You'll also earn a 25% recurring commission.",
+        "description2": "Your Vyhub.net account already includes an affiliate link ready for sharing.",
+        "comingSoon": "Coming soon"
     },
     "_newsletter": {
         "thankYou": "Thank you for registering!"
