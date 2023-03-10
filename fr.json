@@ -774,32 +774,20 @@
         }
     },
     "_ticket": {
-        "tickets": "Billets",
         "ticket": "Billets",
-        "creator": "Créateur",
         "created": "Créé",
-        "last_post": "Dernier commentaire",
         "lastUpdated": "Dernière mise à jour",
-        "addTicket": "Créer un billet",
         "noTickets": "Vous n'avez pas encore créé de tickets.",
-        "title": "Titre",
         "addPost": "Ajouter un article",
-        "readMore": "Lire la suite",
         "open": "Ouvrir",
-        "content": "Contenu",
         "closed": "Fermé",
-        "close": "Fermer",
         "messages": {
             "addedPost": "Message créé.",
-            "toggleStatus": "Statut basculé.",
             "addedThread": "Fil créé."
         },
-        "showClosed": "Afficher les tickets fermés",
         "banProtest": "Contester son bannissement",
-        "showBan": "Voir bannissement",
         "status": {
-            "open": "ouvert",
-            "closed": "fermé"
+            "open": "ouvert"
         }
     },
     "_server": {

@@ -328,33 +328,21 @@
         "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}"
     },
     "_ticket": {
-        "tickets": "Tickets",
         "creator": "Ersteller",
-        "close": "Schließen",
         "ticket": "Ticket",
-        "content": "Inhalt",
         "created": "Erstellt",
-        "last_post": "Letzter Beitrag",
         "addTicket": "Ticket erstellen",
-        "noTickets": "Du hast noch keine Tickets erstellt.",
         "title": "Titel",
-        "readMore": "Mehr lesen",
         "open": "Offen",
-        "closed": "Geschlossen",
         "showClosed": "Geschlossene anzeigen",
-        "lastUpdated": "Letztes Update",
         "addPost": "Beitrag hinzufügen",
         "messages": {
-            "addedPost": "Beitrag erstellt.",
-            "toggleStatus": "Status geändert.",
-            "addedThread": "Thread erstellt."
+            "toggleStatus": "Status geändert."
         },
         "status": {
-            "open": "offen",
-            "closed": "geschlossen"
+            "open": "offen"
         },
-        "banProtest": "Ban Widerrufen",
-        "showBan": "Ban zeigen"
+        "banProtest": "Ban Widerrufen"
     },
     "_import": {
         "gextension": {

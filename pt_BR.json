@@ -711,33 +711,21 @@
         "news_new": "Atualizações criadas: {newsSubject}."
     },
     "_ticket": {
-        "closed": "Fechado",
         "tickets": "Bilhetes",
-        "ticket": "Bilhete",
         "creator": "Criador",
-        "content": "Conteúdo",
         "created": "Criado",
-        "last_post": "Último Post",
         "messages": {
             "toggleStatus": "Status alternado.",
-            "addedThread": "Tópico criado.",
             "addedPost": "Postagem criada."
         },
         "status": {
-            "open": "abrir",
             "closed": "fechado"
         },
-        "showClosed": "Mostrar fechado",
         "showBan": "Mostrar Proibição",
-        "lastUpdated": "Último Update",
         "addTicket": "Criar Ticket",
-        "noTickets": "Você não criou nenhum ticket ainda.",
         "title": "Título",
-        "addPost": "Adicionar Publicação",
         "readMore": "Ler Mais",
-        "open": "Abrir",
-        "close": "Fechar",
-        "banProtest": "Proibir protesto"
+        "close": "Fechar"
     },
     "help": "Ajuda",
     "mappings": "Mapeamentos",
