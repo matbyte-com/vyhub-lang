@@ -676,6 +676,23 @@
         "description2": "Your Vyhub.net account already includes an affiliate link ready for sharing.",
         "comingSoon": "Coming soon"
     },
+    "_games": {
+        "gmodDescription": "VyHub supports Garry's Mod, the famous physics sandbox.",
+        "minecraftDescription": "VyHub supports Minecraft, the most-played survival sandbox game. Currently this plugins requires Java >= 17 and Minecraft >= 1.13.",
+        "discordDescription": "VyHub supports Discord, the free voice, video and text chat app.",
+        "_features": {
+            "bans": "Bans and time-bans",
+            "warnings": "Warnings",
+            "gmodIngameDashboard": "Ingame Dashboard for bans and warnings",
+            "gmodPlayerSync": "Synchronize player groups (support for ULX, xAdmin, SAM, FAdmin, ServerGuard and more)",
+            "minecraftPlayerSync": "Synchronize player groups (support for LuckPerms)",
+            "discordPlayerSync": "Synchronize user roles",
+            "rewards": "Infinite possibilities with rewards (Custom Commands/Scripts, Ingame Money, Item drops...)",
+            "playtimeStatistic": "Playtime statistic for every player",
+            "periodicAdverts": "Periodic adverts",
+            "reservedSlots": "Reserved slots"
+        }
+    },
     "_newsletter": {
         "thankYou": "Thank you for registering!"
     },
