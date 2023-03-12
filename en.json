@@ -46,6 +46,20 @@
             "privacyPolicy": "Privacy Policy"
         }
     },
+    "_invoice": {
+        "invoice": "Invoice",
+        "invoiceDate": "Invoice Date",
+        "deliveryDate": "Delivery Date",
+        "vatNumber": "VAT Number",
+        "paymentMethod": "Payment Method",
+        "transaction": "Transaction",
+        "item": "Item",
+        "quantity": "Quantity",
+        "price": "Price",
+        "subtotalNoVat": "Subtotal (without VAT)",
+        "vat": "VAT",
+        "total": "Total"
+    },
     "log": {
         "labels": {
             "log": "Log"
