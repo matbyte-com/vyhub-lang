@@ -53,7 +53,12 @@
             "question6": "Wo bekomme ich Hilfe?",
             "question1": "Was macht VyHub anders im Vergleich zu unserer Konkurrenz?",
             "question2": "Wie viel kostet VyHub?",
-            "question4": "Kann ich meine eigene Domain nutzen?"
+            "question4": "Kann ich meine eigene Domain nutzen?",
+            "answer3": "Ja! Da wir keinen monatlichen Grundpreis verlangen, kannst du VyHub komplett gratis nutzen und testen.",
+            "answer4": "Ja, du kannst deine aktuelle Domain auch mit VyHub verwenden. Dazu brauchst du nur einen CNAME record setzen.",
+            "answer5": "Ja, du kannst einfach deine Daten <a href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">importieren.</a><br/><br/>",
+            "answer1": "VyHub ist mehr als ein einfacher Webshop. Es ist eine all-in-one Anwendung für das Verwalten deiner Gemeinschaft mit wichtigen Funktionen wie Banns und Verwarnungen.",
+            "answer2": "Das Installieren und Nutzen von VyHub ist komplett gratis. Wir berechnen nur eine kleine Gebühr von 5% auf die Verkäufe auf deiner Webseite."
         },
         "rightManagement": "Berechtigungskontrolle",
         "ourGoals": "Unsere Ziele",
@@ -74,11 +79,14 @@
             "andMore": {
                 "bulletPoint3": "Ticketsystem",
                 "bulletPoint1": "News Seite",
-                "bulletPoint4": "Teamseite"
+                "bulletPoint4": "Teamseite",
+                "description": "VyHub is voll mit weiteren kleinen und großen Funktionen, die für eine großartige Nutzererfahrung sorgen.",
+                "bulletPoint2": "Voll funktionale REST API"
             },
             "bansWarnings": {
                 "bulletPoint1": "Banne und verwarne Spieler innerhalb der Spiele oder über die Webseite",
-                "bulletPoint2": "Integration mit anderen Mods"
+                "bulletPoint2": "Integration mit anderen Mods",
+                "description": "Verwalte deine Gemeinschaft und setze deine Serverregeln mit unserem Bann- und Verwarnsystem durch."
             }
         },
         "bansWarnings": "Banns & Verwarnungen",
@@ -86,11 +94,14 @@
         "endcards": {
             "customizable": {
                 "bulletPoint3": "Nutze HTML für deine eigenen Unterseiten",
-                "bulletPoint4": "Nutze deine eigene (Sub)domain"
+                "bulletPoint4": "Nutze deine eigene (Sub)domain",
+                "bulletPoint2": "Passe das Hintergrundbild sowie das Farbschema an",
+                "bulletPoint5": "Voll funktionale REST API"
             },
             "simple": {
                 "bulletPoint2": "Direkter Kontakt zu den Entwicklern für Erweiterungen",
-                "bulletPoint3": "Einfach zu nutzende Webseite"
+                "bulletPoint3": "Einfach zu nutzende Webseite",
+                "bulletPoint1": "Sag auf wiedersehen zu all den nun unnützen Erweiterungen"
             },
             "hasslefree": {
                 "bulletPoint1": "Kein eigener Webserver benötigt",
@@ -100,14 +111,20 @@
             }
         },
         "faq": "Häufig gestellte Fragen",
-        "supportedGames": "Unterstütze Spiele / Integrationen"
+        "supportedGames": "Unterstütze Spiele / Integrationen",
+        "keyFeatures": "Schlüsselfunktionen",
+        "features": "Funktionen",
+        "hasslefree": "Problemlos",
+        "joinOurDiscord": "Tritt unserem Discord bei",
+        "customizable": "Anpassbar"
     },
     "_dashboard": {
         "yourInstances": "Deine Instanzen",
         "currentlyProvisioned": "Diese Instanz wird gerade erstellt",
         "instanceDeleted": "Diese Instanz ist gelöscht",
         "detailDialogTitle": "Details",
-        "createInstance": "Instanz erstellen"
+        "createInstance": "Instanz erstellen",
+        "visitInstance": "Besuchen"
     },
     "_instance": {
         "labels": {
@@ -140,17 +157,184 @@
             "PROVISIONED": "Bereit",
             "DELETED": "Gestoppt",
             "DELETE": "Lösche",
-            "UNPROVISIONED": "API-Server einrichten"
+            "UNPROVISIONED": "API-Server einrichten",
+            "REPROVISION": "Wende Änderungen am API Server an"
         },
         "statusHelp": "Kontaktiere den Support, wenn der Status sich nach 10 Minuten nicht ändert.",
         "deletedInstance": "Instanz erfolgreich gestoppt",
         "autoUpdateDescription": "Die Instanz wird zur gewählten Stunde automatisch aktualisiert",
         "autoUpdateActivated": "Automatisches update aktualisiert",
-        "removedAdmin": "Admin erfolgreich entfernt"
+        "removedAdmin": "Admin erfolgreich entfernt",
+        "owner": "Besitzer",
+        "addAdmin": "Admin hinzufügen",
+        "error": {
+            "user_not_admin": "Nutzer ist kein Admin",
+            "user_not_found": "Nutzer nicht gefunden"
+        },
+        "statusHelpProvisioned": "Deine Instanz ist bereit zum Nutzen. Wenn die Seite nicht lädt, leere deinen DNS Cache oder starte deinen Router neu. Wenn das Problem noch immer besteht, kontaktiere den Support.",
+        "setCNAMEDescription": "Erstelle einen CNAME DNS Eintrag bei deiner Domain mit diesem Ziel. Dieser Eintrag verbindet deine eigene Domain mit dieser VyHub Instanz.",
+        "statusHelpProvision": "Wenn der Status sich nicht innerhalb von 5 Minuten ändert, ist der CNAME Eintrag, welcher auf diese Instanz zeigt, wahrscheinlich nicht korrekt gesetzt. Schau in die Dokumentation oder kontaktiere uns, wenn du Hilfe brauchst.",
+        "newOwnerDialogDescription": "Gib den Namen der Instanz ein. Du verlierst den Zugriff auf die Instanz, nachdem sie zu einem anderen Nutzer transferiert worden ist.",
+        "admins": "Admins",
+        "messages": {
+            "removedAdmin": "Admin erfolgreich entfernt.",
+            "addedAdmin": "Admin erfolgreich hinzugefügt.",
+            "instanceReady": "Deine Instanz ist bereit!",
+            "doNotOpenBeforeReady": "Öffne die Seite nicht, bevor die Instanz bereit ist!"
+        },
+        "cnameCheckerTool": "CNAME-Überprüfung"
     },
     "log": {
         "labels": {
             "log": "Log"
         }
+    },
+    "_form": {
+        "contact": {
+            "message": "Nachricht",
+            "firstName": "Vorname",
+            "email": "Email",
+            "subject": "Betreff",
+            "lastName": "Nachname",
+            "acceptPrivacy": "Ich akzeptiere die Datenschutzerklärnug"
+        },
+        "login": {
+            "login": "Einloggen",
+            "continue": "Weiter",
+            "sendConfirmationCode": "Code senden",
+            "registrationRequired": "Registrierung benötigt",
+            "register": "Registrieren",
+            "email": "Email",
+            "emailConfirmation": "Email Bestätigungscode",
+            "username": "Nutzername",
+            "password": "Passwort",
+            "passwordConfirmation": "Passwortbestätigung",
+            "error": {
+                "password_no_match": "Überprüfe das Passwort bestätigen Feld",
+                "username_taken": "Nutzername ist schon vergeben",
+                "confirmation_code_no_match": "Überprüfe deinen Email Bestätigungscode",
+                "invalid_request": "Ungültiges Passwort",
+                "username_not_allowed": "Nutzername nicht erlaubt",
+                "email_taken": "Email ist schon vergeben. Bitte logge dich ein."
+            },
+            "forgotPassword": "Passwort vergessen"
+        },
+        "validation": {
+            "required": "Das Feld wird benötigt",
+            "usernameFormat": "Nutzername darf nur die folgenden Zeichen enthalten: a-z, 0-9,.,_,-",
+            "usernameLength": "Nutzername muss mindestens 3 Zeichen haben",
+            "passwordLength": "Passwort muss mindestens 8 Zeichen haben",
+            "emailInvalid": "Email muss gültig sein",
+            "passwordNoUppercase": "Passwort muss einen Großbuchstaben enthalten",
+            "passwordNoNumber": "Passwort muss eine Zahl enthalten",
+            "passwordNoSpecialCharacter": "Passwort muss ein besonderes Zeichen enthalten",
+            "passwordMatch": "Passwörter stimmen nicht überein",
+            "codeLength": "Code muss 5 Zeichen lang sein",
+            "formInvalid": "Formular ist ungültig"
+        }
+    },
+    "_log": {
+        "type": {
+            "group": "Gruppe",
+            "packet": "Paket",
+            "news": "News",
+            "warning": "Verwarnung",
+            "discord": "Discord",
+            "instance": "Instanz",
+            "server": "Server"
+        },
+        "timeAgo": "vor {time}"
+    },
+    "_address": {
+        "labels": {
+            "city": "Stadt",
+            "state": "Staat",
+            "selectAddress": "Adresse auswählen",
+            "vat_number": "Steueridentifikationsnummer"
+        }
+    },
+    "_errors": {
+        "domain_not_available": "Domain nicht verfügbar",
+        "wrong_giftcode": "Gutscheincode ist nicht gültig",
+        "country_not_allowed": "Käufe aus deinem Land sind nicht möglich.",
+        "cart_not_empty": "Dein Warenkorb muss leer sein, um dieses Paket hinzuzufügen.",
+        "packet_already_in_cart": "Das Paket ist schon in deinem Warenkorb.",
+        "cart_full": "Dein Warenkorb ist voll.",
+        "not_found": "Nicht gefunden.",
+        "unauthorized": "Du musst eingeloggt sein, um dies zu machen.",
+        "coupon": {
+            "not_found": "Dieser Code ist ungültig."
+        },
+        "wrong_currency": "Du kannst keine Pakete mit unterschiedlichen Währungen in deinem Warenkorb haben.",
+        "name_not_available": "Name nicht verfügbar",
+        "undefined": "Unerwarteter Fehler. Bitte kontaktiere den Support."
+    },
+    "_gateway": {
+        "labels": {
+            "paypal": "PayPal",
+            "stripe": "Stripe",
+            "create": "Erstelle eine Zahlungsmethode",
+            "edit": "Editiere eine Zahlungsmethode",
+            "paysafecard": "Paysafecard"
+        }
+    },
+    "_shop": {
+        "labels": {
+            "cancelPayment": "Zahlung abbrechen",
+            "cancelPurchase": "Kauf abbrechen",
+            "invoiceLogoURL": "Rechnungslogo URL",
+            "cart": "Warenkorb",
+            "tax": "Steuer",
+            "taxRules": "Steuerregeln",
+            "subtotal": "Zwischensumme",
+            "checkout": "Bezahlen",
+            "payment": "Bezahlung",
+            "paymentId": "Zahlungs ID",
+            "addToCart": "Zum Einkaufswagen hinzufügen",
+            "total": "Gesamt",
+            "credits": "Credits",
+            "purchaseNow": "Jetzt kaufen",
+            "businessAddress": "Firmenadresse",
+            "cartTotal": "Warenkorb gesamt",
+            "defaultCurrency": "Standardwährung",
+            "unfinishedPurchase": "Nicht abgeschlossener Kauf",
+            "billingAddress": "Rechnungsadresse",
+            "removeAllPackets": "Entferne alle Pakete",
+            "donationGoal": "Spendenziel",
+            "perMonth": "pro Monat",
+            "loginToBuy": "Einloggen um dieses Paket zu kaufen",
+            "taxAllowUnknown": "Erlaube Käufe aus Ländern ohne Steuerregel.",
+            "taxAllowUnknownDescription": "Wenn deaktiviert, sind Käufe aus Ländern ohne festgelegte expliziete Steuerregel nicht möglich."
+        }
+    },
+    "newInstance": {
+        "viewOrder": "Bestellung ansehen",
+        "title": "Erstelle eine neue Instanz",
+        "operationalTime": "Laufzeit",
+        "days": "Tage",
+        "prepaid": "Vorauszahlung",
+        "additionalPacket": "Erweiterungen",
+        "loginRegister": "Einloggen / Registrieren",
+        "payment": "Zahlung",
+        "recurring": "Wiederkehrend",
+        "creditCardButton": "Kredit- oder Debitkarte",
+        "currency": "EUR / monat",
+        "noAddons": "Keine Erweiterungen verfügbar",
+        "domain": "Domain",
+        "name": "Name der Instanz",
+        "customDomain": "Eigene Domain",
+        "customDomainDescription": "Du musst eine Domain besitzen und ein CNAME Eintrag in den DNS Einstellungen deines Registrars setzen. Lies die {docsLink} für mehr Informationen."
+    },
+    "resetPassword": {
+        "resetPassword": "Passwort zurücksetzen",
+        "backToLogin": "Zurück zum Einloggen",
+        "sendLink": "Link senden",
+        "sendLinkToEmail": "Wir werden einen Link zum Passwort zurücksetzen senden",
+        "emailSent": "Folge den Schritten in der Email, geschickt an {email} (wenn ein dazugehöriger Account existiert)",
+        "setPassword": "Passwort setzen",
+        "badToken": "Token ist abgelaufen oder ungültig. Bitte fordere einen neuen Token an.",
+        "passwordSet": "Erfolg! Du kannst nun dein zum {login_placeholder} nutzen.",
+        "login_placeholder": "einloggen",
+        "toLogin": "Zum Einloggen"
     }
 }
