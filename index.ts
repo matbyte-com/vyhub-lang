@@ -1,7 +1,10 @@
+import en from './en.json';
+
+// Load English eager, lazy-load other languages (to allow for fallback locale)
 export default {
   en: {
     name: 'English',
-    load: () => import('@/lang/en.json'),
+    messages: en,
   },
   de: {
     name: 'Deutsch',
