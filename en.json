@@ -343,7 +343,7 @@
             "removeFromCartSuccess": "Packet successfully removed from cart.",
             "clearCartSuccess": "Successfully removed all packets from cart.",
             "paymentCancelled": "This payment has been cancelled. You can try it again by visiting your shopping cart.",
-            "paymentSuccess": "The payment has been finished successfully. The purchased packets have been assigned to your account.",
+            "paymentSuccess": "The payment has been finished successfully.",
             "paymentProcessing": "The payment has been approved and will be finished soon. Please wait a few minutes on this page while your payment is being processed.",
             "paymentFailed": "An error occurred during the payment process. Please try to restart the process.",
             "paymentPending": "This payment is pending. Please complete it by visiting the shopping cart.",
@@ -355,7 +355,8 @@
             "includesVAT": "Includes {tax_rate}% VAT.",
             "selectBillingAddressFirst": "Please select a billing address first.",
             "selectEmailFirst": "Please update your email address first",
-            "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone."
+            "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone.",
+            "variablePricePaymentSuccess": "Payment method registered successfully for future use."
         },
         "purchaseStatus": {
             "open": "Open",
@@ -407,6 +408,8 @@
         "purchase_revoke": "Purchase revoked. purchase_id: {purchase_id}.",
         "purchase_unrevoke": "Purchase unrevoked. purchase_id: {purchase_id}.",
         "purchase_refund": "Purchase refunded. purchase_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
+        "autocharge_tx_created": "Created auto-charge transaction. Amount: {amount}, Debit: {debit_id}, Account: {account_id}, User: {user_id}",
+        "autocharge_wrong_account_currency": "Account {account_id} had wrong currency for autocharge. Account: {currency_account}, Purchase: {currency_purchase}",
         "payment_credits_success": "Credit payment successful. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}.",
         "payment_credits_fail": "Credit payment failed. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}, reason: {reason}."
     },
@@ -785,5 +788,26 @@
             "agreeToS": "I agree to the Terms of Service."
         }
     },
-    "docs": "Docs"
+    "docs": "Docs",
+    "account": "Account",
+    "_account": {
+        "labels": {
+            "balance": "Balance",
+            "autocharge_enabled": "Auto-Charge Enabled",
+            "autocharge_disabled": "Auto-Charge Disabled",
+            "autocharge": "Auto-Charge",
+            "enableAutocharge": "Enable Auto-Charge",
+            "nextCharge": "Next Charge",
+            "chargeOn": "on",
+            "chargeAccount": "Charge Account"
+        },
+        "messages": {
+            "autocharge": "When Auto-Charge is enabled, your negative account balance will be automatically charged from your stored payment method after the end of the month. A minimum of 5 EUR per charge applies.",
+            "noChargeScheduled": "There is currently no planned charge. Please check back at the beginning of the next month.",
+            "cancelConfirm": "Are you sure that you want to cancel the automatic account top up?"
+        }
+    },
+    "transactions": "Transactions",
+    "noEntries": "No Entries.",
+    "enable": "Enable"
 }
