@@ -809,5 +809,6 @@
     },
     "transactions": "Transactions",
     "noEntries": "No Entries.",
-    "enable": "Enable"
+    "enable": "Enable",
+    "users": "Users"
 }
