@@ -175,7 +175,8 @@
             "editBundle": "Serverbundel bewerken",
             "addServer": "Server toevoegen"
         },
-        "showTicket": "Ticketsysteem inschakelen"
+        "showTicket": "Ticketsysteem inschakelen",
+        "showForum": "Forum inschakelen"
     },
     "_group": {
         "mappings": {
@@ -458,7 +459,31 @@
         "applied_packet_not_extended": "Kan toegepast pakket {applied_packet_id} niet uitbreiden: {reason}.",
         "user_sync_failed": "Kan gebruiker {user_id} niet synchroniseren.",
         "group_deleted": "Groep {groupName} {groupId} verwijderd.",
-        "refund_finished": "Voltooide terugbetaling. debit_id: {debit_id}, purchase_id: {purchase_id}."
+        "refund_finished": "Voltooide terugbetaling. debit_id: {debit_id}, purchase_id: {purchase_id}.",
+        "membership_add": "Toegevoegd aan groep {group_name} in bundel {serverbundle} tot {until}.",
+        "membership_ended": "Lidmaatschap beëindigd: Groep: {groupName}, Gebruiker: {username}.",
+        "user_admin_status_removed": "Beheerstatus van gebruiker {username} - {user_id} bewerkt: admin = {status}.",
+        "user_token_create": "Token {token_id} gemaakt met bereik {scope} voor serverbundel {bundle_id}.",
+        "news_add": "Toegevoegd nieuws {newsSubject} {newsld}.",
+        "news_edit": "Nieuws bewerkt {newsSubject} {newsld}.",
+        "news_deleted": "Verwijderd nieuws bericht {newsSubject} {newsId}.",
+        "membership_deleted": "Lidmaatschap verwijderd: Groep: {groupName}, Gebruiker: {username}.",
+        "warning_toggle": "Stel de status van een waarschuwing van gebruiker {username} in op {newStatus}.",
+        "user_token_revoke": "Ingetrokken token {token_id}.",
+        "warning_config_edit": "Waarschuwingsconfiguratie aangepast.",
+        "users_linked": "Linkedin-gebruiker {link user_id} met {base user_id}. {credits} tegoed overgedragen tijdens het samenvoegen van tegoedrekeningen.",
+        "reward_membership_lower_level": "LIDMAATSCHAP-beloning {applied_reward_id} genegeerd omdat gebruikersniveau {user_id} ({user_level}) hoger is dan het niveau van groep {group_id} ({group_level}).",
+        "reward_process_success": "Succesvol uitgevoerd toegepaste beloning {reward_type} {applied_reward_id}.",
+        "user_log_entry_add": "{message}",
+        "reward_process_failed": "Kan toegepaste beloning {reward_type} {applied_reward_id} niet uitvoeren: {error}.",
+        "discord_wrong_bot_token": "Discord-bot kan niet inloggen (bot-token wrong)",
+        "discord_no_permission": "Discord toestemmingsfout. Probeer de bot te verwijderen en naar uw server te lezen.",
+        "social_config_edit": "Sociale (autorisatie) configuratie bewerkt.",
+        "membership_edit": "Bewerkt lidmaatschap: Groep: {groupName}, Gebruiker: {username}, Oud: {oldBegin} {oldEnd}, Nieuw: {newBegin} {newEnd}.",
+        "warning_delete": "Verwijder waarschuwing van gebruiker: {username}.",
+        "warning_add": "Waarschuwing toegevoegd voor gebruiker: {username}.",
+        "group_team_member_edited": "Groepen is teamlid bewerkt.",
+        "discord_no_permission_for_server": "Discord-bot kan gilde {guild_id} niet ophalen."
     },
     "_address": {
         "labels": {
@@ -499,12 +524,318 @@
             "notBuyable": "Niet te koop",
             "currency": "Munteenheid",
             "activeUntil": "Actief tot",
-            "activeSince": "Actief sinds"
+            "activeSince": "Actief sinds",
+            "customPriceDetail": "Laat de gebruiker de prijs bepalen. De hierboven ingevoerde prijs wordt als minimale prijs gehanteerd.",
+            "imageDetail": "Een HTTPS URL naar de pakket afbeelding",
+            "enabledDetail": "Indien uitgeschakeld, kan het pakket niet worden gekocht en worden alle toegewezen pakketten inactief.",
+            "paymentMethods": "Betalings methode",
+            "limitPaymentMethods": "Gelimiteerde betalings methode",
+            "limitPaymentMethodsDetail": "Als betaalmethoden zijn geselecteerd, kunnen alleen deze worden gebruikt. Zo niet, dan kunnen alle methoden worden gebruikt.",
+            "editRewards": "bewerk waardering",
+            "packetRelations": "Pakket relaties",
+            "details": "Pakket details",
+            "relationDisables": "Schakelt het geselecteerde pakket uit bij aankoop",
+            "relationRequires": "Vereist het geselecteerde pakket voor een aankoop",
+            "relationNotCompatible": "Niet compatibel met het geselecteerde pakket.",
+            "relationUpgrades": "Kan worden gebruikt om het geselecteerde pakket te upgraden.",
+            "editBundle": "Bewerk service bundel",
+            "deleteAppliedPacket": "Verwijder toegepast pakket",
+            "end": "Eind"
+        },
+        "messages": {
+            "deleteWarning": "Voorzichtigheid! Als u een pakket verwijdert, worden ook alle gerelateerde toegepaste pakketten, toegepaste beloningen en aankoopitems verwijderd. Misschien het pakket uitschakelen?",
+            "customPricePossible": "De prijs van dit pakket kan bewerkt worden.",
+            "sortOnlyWithCategory": "Pakketten kunnen alleen worden gesorteerd als er een categorie is geselecteerd.",
+            "addSuccess": "Pakket is succesvol gemaakt.",
+            "editSuccess": "Pakket succesvol bewerkt",
+            "deleteSuccess": "Pakket succesvol verwijderd."
+        },
+        "status": {
+            "ENABLED": "ingeschakeld"
         }
     },
     "_forms": {
         "labels": {
             "iconDescription": "Beschikbare iconen"
         }
+    },
+    "_reward": {
+        "messages": {
+            "createSuccess": "Beloning succesvol aangemaakt.",
+            "deleteAppliedRewardSuccess": "Toegepaste beloning succesvol verwijderda",
+            "editSuccess": "Beloning succesvol bewerkt.",
+            "deleteSuccess": "Beloning succesvol bewerkt.",
+            "createAppliedRewardSuccess": "Toegepaste beloning succesvol toegevoegd"
+        },
+        "labels": {
+            "checkForReplacements": "Controleer de documenten voor beschikbare soorten beloningen en stringvervangingen",
+            "addAppliedReward": "Voeg toegepaste beloning toe",
+            "_events": {
+                "direct": "Direct uitvoeren",
+                "connect": "Uitvoeren bij verbinden",
+                "spawn": "Uitvoeren op spawn",
+                "disconnect": "Uitvoeren bij verbreken",
+                "disable": "Uitvoeren wanneer het toegepaste pakket inactief wordt",
+                "death": "Uitvoeren bij overlijden"
+            },
+            "_types": {
+                "command": "Voer een opdracht uit op de server(s)",
+                "script": "Voer een opdracht uit op de server(s)",
+                "credits": "Voeg credits toe aan het kopersaccount",
+                "membership": "Groepslidmaatschap toevoegen"
+            },
+            "create": "Beloning maken",
+            "once": "Slechts één keer uitvoeren (per pakket)",
+            "onEvent": "Uitvoeren op evenement",
+            "edit": "Bewerk beloning",
+            "onceFromAll": "Alleen uitvoeren op één server",
+            "reactivateOnExtend": "Opnieuw uitvoeren als het pakket is verlengd (bij abonnementsbetaling)"
+        },
+        "status": {
+            "FAILED": "Mislukt",
+            "OPEN": "Open",
+            "EXECUTED": "Uitgevoerd"
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "confirmDebitText": "Bevestig aankoop? Dit kan niet ongedaan worden gemaakt.",
+            "revenueByCountry": "Inkomsten per land",
+            "revoke": "herroepen",
+            "refund": "Terug betaling",
+            "refunded": "Terug betaald",
+            "unrevoke": "Intrekken ongedaan maken",
+            "revoked": "Ingetrokken",
+            "myPurchases": "Mijn aankopen",
+            "allPurchases": "Alle aankopen",
+            "appliedPackets": "Toegepaste pakketten",
+            "amountNet": "Netto bedrag",
+            "amountTotal": "Totaal bedrag",
+            "details": "Aankoop details",
+            "salesCount": "Aantal verkopen",
+            "totalRevenue": "De totale omzet",
+            "monthlyRevenue": "maandelijkse omzet",
+            "creditsSpent": "Credits uitgegeven",
+            "editAppliedPacket": "Bewerk toegepast pakket",
+            "cancelSubscription": "Annuleer abonnement",
+            "addAppliedPacket": "Toegepast pakket toevoegen",
+            "confirmPurchases": "Bevestig aankopen",
+            "coupon": "Coupon",
+            "confirm": "Bevestigd",
+            "decline": "Afwijzen",
+            "declineDebitText": "Annuleer aankoop? Dit kan niet ongedaan worden gemaakt.",
+            "showApprovedDebits": "Toon goedgekeurde afschrijvingen",
+            "paymentGateway": "Betalings",
+            "reward": "beloning",
+            "addAppliedReward": "Voeg toegepaste beloning toe"
+        },
+        "messages": {
+            "refundConfirm": "Weet je zeker dat je deze aankoop wilt terugbetalen?",
+            "refundInitSuccess": "Terugbetaling succesvol gestart.",
+            "deleteSuccess": "Aankoop succesvol verwijderd.",
+            "revokeSuccess": "Aankoop succesvol herroepen.",
+            "refreshSuccess": "Betalingsgegevens succesvol vernieuwd.",
+            "unrevokeSuccess": "Aankoop succesvol ongedaan gemaakt.",
+            "editAppliedPacketSuccess": "Toegepast pakket succesvol bewerkt.",
+            "deleteAppliedPacketSuccess": "Toegepast pakket succesvol verwijderd.",
+            "createAppliedPacketSuccess": "Toegepast pakket is gemaakt.",
+            "deleteConfirm": "Weet u zeker dat u deze aankoop wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt. Gerelateerde toegepaste pakketten worden niet verwijderd.",
+            "cancelSubscriptionSuccess": "Abonnement succesvol opgezegd.",
+            "cancelSubscriptionConfirm": "Weet je zeker dat je dit abonnement wilt opzeggen?",
+            "confirmPurchaseSuccess": "Aankoop succesvol goedgekeurd",
+            "declinePurchaseSuccess": "Aankoop succesvol geannuleerd"
+        }
+    },
+    "_requirement": {
+        "messages": {
+            "deletedRequirement": "Vereiste verwijderd",
+            "addedSet": "Toegevoegd",
+            "editedSet": "Vereistenset toegevoegd",
+            "addedRequirement": "Vereiste toegevoegd",
+            "editedRequirement": "Bewerkte vereistenset",
+            "deletedSet": "Vereistenset verwijderd",
+            "editedFormula": "Bewerkte formule"
+        },
+        "types": {
+            "PROPERTY": "Eigendom",
+            "PROPERTY_SB": "Eigendom (in Serverbundel)",
+            "GROUP_MEMBER": "Groepslid",
+            "PERMISSION_LEVEL": "Toestemmingsniveau",
+            "PERMISSION_LEVEL_SB": "Toestemmingsniveau (in ServerBundel)",
+            "PACKET": "Pakket",
+            "DATE": "Datum"
+        },
+        "addRequirement": "Verijsten",
+        "requirementType": "Type",
+        "requirementOperator": "Exploitant",
+        "permissionLevel": "Bevoegdheids level",
+        "requirementSet": "Vereiste ingesteld",
+        "propertyName": "Eigendomsnaam",
+        "attributeName": "attribuut naam",
+        "attributeValue": "Attribuutwaarde",
+        "date": "Datum",
+        "operators": {
+            "NEQ": "Niet gelijk",
+            "LEQ": "Minder gelijk dan",
+            "LT": "Minder dan",
+            "GT": "Meer dan",
+            "ACTIVE": "Actief",
+            "INACTIVE": "Inactief",
+            "NEVER_ACTIVE": "Nooit actief",
+            "ONLY_ACTIVE": "Alleen inactief",
+            "ONLY_INACTIVE": "Alleen actief",
+            "HAVE": "Hebben",
+            "EQ": "Gelijk",
+            "NHAVE": "Niet hebben"
+        }
+    },
+    "_gateway": {
+        "labels": {
+            "acceptPendingDescription": "Bij sommige betaalmethodes (bv. SEPA Direct Debit, SOFORT, ...) duurt het enkele dagen voordat ze zijn voltooid. Als deze optie is ingeschakeld, worden aankopen die met deze methoden zijn betaald, direct na voltooiing van het afrekenproces voltooid. Er is een kleine kans dat de betaling achteraf mislukt.",
+            "create": "Betalingsgateway maken",
+            "clientCertDescription": "Een clientcertificaat en -sleutel worden gebruikt als authenticatiemethode voor de paysafecard API. Neem contact op met de paysafecard-ondersteuning om er een te krijgen.",
+            "edit": "Betalingsgateway bewerken",
+            "paysafecard": "Paysafecard",
+            "coupon": "Waardebon (handmatige bevestiging)",
+            "paypal": "PayPal",
+            "stripe": "Stripe",
+            "acceptPending": "Accepteer openstaande betalingen",
+            "doNotAcceptPending": "Accepteer geen lopende betalingen",
+            "webhookURL": "Webhook-URL"
+        },
+        "messages": {
+            "deleteWarning": "Voorzichtigheid! Het verwijderen van een betalingsgateway zorgt ervoor dat alle aankopen en betalingen waarbij de gateway is gebruikt, worden verwijderd! Deze actie kan niet ongedaan worden gemaakt. Misschien liever uitschakelen?",
+            "createSuccess": "Betalingsgateway succesvol aangemaakt.",
+            "deleteSuccess": "Betalingsgateway succesvol verwijderd.",
+            "editSuccess": "Betalingsgateway succesvol bewerkt.",
+            "formAttributeChangeExplanation": "De onderstaande attributen worden niet bewerkt als er geen waarde wordt opgegeven."
+        }
+    },
+    "_notification": {
+        "purchase_cancelled": "Uw aankoop van {amount} is geannuleerd!",
+        "coupon_purchase_new": "{username} heeft {gateway_name} codes ({amount_total} {currency_symbol}) ingediend die moeten worden goedgekeurd.",
+        "messages": {
+            "readSuccess": "De leesstatus is met succes gewijzigd"
+        },
+        "noNotification": "Geen meldingen.",
+        "timeAgo": "{time} geleden",
+        "markAllAsRead": "Markeer als gelezen",
+        "isLink": "Link",
+        "markRead": "Markeer als gelezen",
+        "markUnRead": "markeer als ongelezen ",
+        "hideReadNotifications": "Verberg leesmeldingen",
+        "browserNotifications": "Browsermeldingen",
+        "ticket_update": "Nieuw bericht in ticket: {title}",
+        "ban_new": "Je bent verbannen. Reden: {reden}",
+        "packet_applied": "Pakket {packet_title} is geactiveerd!",
+        "applied_packet_disabled": "Uw pakket {packet_title} is uitgeschakeld.",
+        "applied_packet_upgraded": "Uw pakket {old_packet_title} is geüpgraded met {new_packet_title}.",
+        "viewAll": "Zie alle.",
+        "notifications": "Meldingen",
+        "type": {
+            "general": "Algemeen",
+            "ban": "Verbod",
+            "news": "Nieuws",
+            "ticket": "Ticket",
+            "shop": "Winkel",
+            "warning": "Waarschuwing"
+        },
+        "news_new": "Nieuws gemaakt: {newsSubject}.",
+        "ticket_new": "{username} heeft een ticket gemaakt: {title}",
+        "purchase_finished_other": "{username} heeft een aankoop gedaan van {amount} via {gateway_name}.",
+        "purchase_finished": "Uw aankoop van {amount} is voltooid!",
+        "warning_new": "Er is een nieuwe waarschuwing aangemaakt. Reden: {reden}"
+    },
+    "_warning": {
+        "ttlDescription": "Tijd totdat de waarschuwing wordt gemarkeerd als verlopen",
+        "settingFormDesc": "Gebruikers worden automatisch verbannen wanneer ze het opgegeven aantal ACTIEVE waarschuwingen bereiken.",
+        "reason": "Reden",
+        "showUserWarnings": "Waarschuwingen tonen van gebruiker met ID: {id}",
+        "messages": {
+            "addedWarning": "Waarschuwing gemaakt.",
+            "deletedWarning": "Waarschuwing verwijderd."
+        },
+        "ttl": "Waarschuwing Tijd om te leven (dagen)",
+        "ttlPlaceholder": "Lengte (in dagen)",
+        "add": "Waarschuwing toevoegen",
+        "title": "Waarschuwingen",
+        "countTillBan": "Aantal waarschuwingen tot automatische ban",
+        "countTillBanDesc": "0 voor GEEN automatische bans.",
+        "banLength": "Duur van automatische ban (minuten)"
+    },
+    "_discount": {
+        "labels": {
+            "allPackets": "Bruikbaar voor alle pakketten",
+            "create": "Korting creëren",
+            "edit": "Korting creëren",
+            "delete": "Korting verwijderen",
+            "maxUsagesPerUser": "Maximaal gebruik per gebruiker"
+        },
+        "messages": {
+            "deleteSuccess": "Korting succesvol verwijderd.",
+            "editSuccess": "Korting succesvol bewerkt.",
+            "createSuccess": "Korting succesvol gemaakt."
+        }
+    },
+    "_packetCategory": {
+        "messages": {
+            "createSuccess": "Pakketcategorie succesvol aangemaakt.",
+            "editSuccess": "Pakketcategorie succesvol bewerkt.",
+            "deleteSuccess": "Pakketcategorie succesvol verwijderd."
+        }
+    },
+    "_pageTitle": {
+        "shopAdministration": "Winkel - administratie",
+        "log": "Logboek",
+        "warnings": "Waarschuwingen",
+        "legal": "Juridisch",
+        "ticket": "Ticket",
+        "dashboard": "Dashboard",
+        "settings": "Instellingen",
+        "bans": "Verboden",
+        "notifications": "Meldingen",
+        "about": "Over",
+        "shop": "Winkel",
+        "shopPacket": "Winkel - pakket",
+        "shopCategory": "Winkel - categorie",
+        "shopCart": "Winkelwagen",
+        "shopCheckout": "Uitchecken",
+        "team": "Team",
+        "notificationLink": "Meldingen",
+        "serverDashboard": "Server dashboard",
+        "faq": "FAQ",
+        "forum": "Forum"
+    },
+    "_home": {
+        "messages": {
+            "addSuccess": "Nieuws succesvol toegevoegd",
+            "editSuccess": "Nieuws succesvol bewerkt",
+            "deleteSuccess": "Nieuws succesvol verwijderd",
+            "messageEmpty": "Voer een bericht in"
+        },
+        "messageTypeNews": "Bericht",
+        "messageTypePinned": "Bericht van de dag",
+        "messageSubject": "Onderwerp",
+        "editNews": "Bewerk bericht",
+        "newsOfTheDay": "Nieuws van de dag",
+        "news": "Nieuws",
+        "newsExhausted": "Dat is het. Je hebt alles gezien",
+        "addNews": "Nieuw bericht",
+        "messageType": "Type"
+    },
+    "_taxRule": {
+        "labels": {
+            "edit": "Belastingregel bewerken",
+            "create": "Belastingregel maken"
+        },
+        "messages": {
+            "createSuccess": "Belastingregel is gemaakt.",
+            "deleteSuccess": "Belastingregel succesvol verwijderd.",
+            "allCountriesDetail": "Laat leeg om alle landen te targeten.",
+            "infoDetail": "Wordt getoond bij het afrekenen en op de factuur."
+        }
+    },
+    "_userLogEntry": {
+        "addLogEntry": "Logboekinvoer toevoegen"
     }
 }
