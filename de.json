@@ -96,7 +96,8 @@
                 "bulletPoint3": "Nutze HTML für deine eigenen Unterseiten",
                 "bulletPoint4": "Nutze deine eigene (Sub)domain",
                 "bulletPoint2": "Passe das Hintergrundbild sowie das Farbschema an",
-                "bulletPoint5": "Voll funktionale REST API"
+                "bulletPoint5": "Voll funktionale REST API",
+                "bulletPoint1": "Vollkommen anpassbar an deine Bedürfnisse"
             },
             "simple": {
                 "bulletPoint2": "Direkter Kontakt zu den Entwicklern für Erweiterungen",
@@ -339,7 +340,8 @@
             "removeFromCartSuccess": "Paket wurde erfolgreich aus dem Warenkorb entfernt.",
             "paymentCancelled": "Die Zahlung wurde abgebrochen. Du kannst es im Warenkorb erneut probieren.",
             "purchaseCancelledSuccess": "Der Kauf wurde abgebrochen.",
-            "paymentProcessing": "Die Zahlung wurde akzeptiert und wird in Kürze abgeschlossen. Bitte warte ein paar Minuten auf dieser Seite, während die Zahlung abgeschlossen wird."
+            "paymentProcessing": "Die Zahlung wurde akzeptiert und wird in Kürze abgeschlossen. Bitte warte ein paar Minuten auf dieser Seite, während die Zahlung abgeschlossen wird.",
+            "confirmCouponPayment": "Bitte gib dein {gateway_name} code ein. Die Zahlung wird dann manuell vom Team überprüft."
         },
         "purchaseStatus": {
             "cancelled": "Abgebrochen",
