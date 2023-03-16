@@ -156,8 +156,8 @@
             "newExpirationDate": "New expiration date",
             "noTimeLeft": "No time left",
             "upgradeVersion": "Upgrade Version",
-            "extendRuntime": "Extend Runtime",
             "frontendUrl": "Frontend URL",
+            "addons": "Addons",
             "cname": "CNAME",
             "apiUrl": "API URL",
             "activePackets": "Active Packets",
@@ -214,7 +214,6 @@
         "operationalTime": "Runtime",
         "days": "Days",
         "viewOrder": "View Order",
-        "additionalPacket": "Addons",
         "loginRegister": "Login / Register",
         "payment": "Payment",
         "recurring": "Recurring",
@@ -223,7 +222,6 @@
         "prepaidDescription": "Every time VyHub period ends you have to manually prepay for the next period.",
         "creditCardButton": "Credit- or Debitcard",
         "currency": "EUR / month",
-        "noAddons": "No Addons Available",
         "domain": "Domain",
         "name": "Name of instance",
         "domainDescription": "Domain for your instance. Leave empty if you don't have one.",
@@ -291,6 +289,11 @@
         "passwordSet": "Success! You can now use your new password to {login_placeholder}.",
         "login_placeholder": "login",
         "toLogin": "To Login"
+    },
+    "_addon": {
+        "addon": "Addon",
+        "addons": "Addons",
+        "newAddon": "New Addon"
     },
     "_shop": {
         "labels": {
