@@ -293,7 +293,11 @@
     "_addon": {
         "addon": "Addon",
         "addons": "Addons",
-        "newAddon": "New Addon"
+        "newAddon": "New Addon",
+        "noAddonsAvailable": "No addons available",
+        "messages": {
+            "addonApplied": "Addon successfully applied."
+        }
     },
     "_shop": {
         "labels": {
