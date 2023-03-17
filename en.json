@@ -291,12 +291,18 @@
         "toLogin": "To Login"
     },
     "_addon": {
-        "addon": "Addon",
-        "addons": "Addons",
-        "newAddon": "New Addon",
-        "noAddonsAvailable": "No addons available",
+        "addon": "Add-on",
+        "addons": "Add-ons",
+        "newAddon": "New Add-on",
+        "editAddon": "Edit Add-on",
+        "noAddonsAvailable": "No add-ons available",
+        "currentAddons": "Current Add-ons",
+        "cancelAddonDescription": "Are you sure you want to cancel the add-on? The add-on will be cancelled at the end of the current billing period.",
+        "expiresOn": "Expires On",
         "messages": {
-            "addonApplied": "Addon successfully applied."
+            "addonApplied": "Add-on successfully applied.",
+            "addonCancelled": "Add-on successfully cancelled.",
+            "addonEdited": "Add-on successfully edited."
         }
     },
     "_shop": {
@@ -817,5 +823,6 @@
     "transactions": "Transactions",
     "noEntries": "No Entries.",
     "enable": "Enable",
-    "users": "Users"
+    "users": "Users",
+    "actions": "Actions"
 }
