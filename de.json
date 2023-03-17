@@ -58,7 +58,8 @@
             "answer4": "Ja, du kannst deine aktuelle Domain auch mit VyHub verwenden. Dazu brauchst du nur einen CNAME record setzen.",
             "answer5": "Ja, du kannst einfach deine Daten <a href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">importieren.</a><br/><br/>",
             "answer1": "VyHub ist mehr als ein einfacher Webshop. Es ist eine all-in-one Anwendung für das Verwalten deiner Gemeinschaft mit wichtigen Funktionen wie Banns und Verwarnungen.",
-            "answer2": "Das Installieren und Nutzen von VyHub ist komplett gratis. Wir berechnen nur eine kleine Gebühr von 5% auf die Verkäufe auf deiner Webseite."
+            "answer2": "Das Installieren und Nutzen von VyHub ist komplett gratis. Wir berechnen nur eine kleine Gebühr von 5% auf die Verkäufe auf deiner Webseite.",
+            "answer6": "Bitte lies zunächst unsere <a href=\"https://docs.vyhub.net\">Dokumentation</a> für technische Fragen. Du kannst uns über das unten stehende Kontaktformular kontaktieren."
         },
         "rightManagement": "Berechtigungskontrolle",
         "ourGoals": "Unsere Ziele",
@@ -144,7 +145,8 @@
             "transferOwnership": "Eigentum übertragen",
             "stopInstance": "Instanz stoppen",
             "upgradeVersion": "Version updaten",
-            "newExpirationDate": "Neues Ablaufdatum"
+            "newExpirationDate": "Neues Ablaufdatum",
+            "addons": "Erweiterungen"
         },
         "instanceName": "Name der Instanz",
         "cnamePointingAt": "CNAME zeigt auf",
@@ -157,8 +159,8 @@
         "_status": {
             "PROVISION": "Frontend einrichten",
             "PROVISIONED": "Bereit",
-            "DELETED": "Gestoppt",
-            "DELETE": "Lösche",
+            "DELETED": "Angehalten",
+            "DELETE": "Anhalten",
             "UNPROVISIONED": "API-Server einrichten",
             "REPROVISION": "Wende Änderungen am API Server an"
         },
