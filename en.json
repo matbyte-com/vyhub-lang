@@ -1282,5 +1282,6 @@
     "map": "Map",
     "setup": "Setup",
     "instructions": "Instructions",
-    "writeToConfirm": "Write to confirm:"
+    "writeToConfirm": "Write to confirm:",
+    "add-on": "Add-On"
 }
