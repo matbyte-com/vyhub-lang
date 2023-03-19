@@ -711,21 +711,15 @@
         "news_new": "Atualizações criadas: {newsSubject}."
     },
     "_ticket": {
-        "tickets": "Bilhetes",
         "creator": "Criador",
-        "created": "Criado",
         "messages": {
-            "toggleStatus": "Status alternado.",
-            "addedPost": "Postagem criada."
+            "toggleStatus": "Status alternado."
         },
         "status": {
             "closed": "fechado"
         },
-        "showBan": "Mostrar Proibição",
         "addTicket": "Criar Ticket",
-        "title": "Título",
-        "readMore": "Ler Mais",
-        "close": "Fechar"
+        "readMore": "Ler Mais"
     },
     "help": "Ajuda",
     "mappings": "Mapeamentos",

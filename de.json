@@ -328,21 +328,13 @@
         "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}"
     },
     "_ticket": {
-        "creator": "Ersteller",
         "ticket": "Ticket",
-        "created": "Erstellt",
         "addTicket": "Ticket erstellen",
-        "title": "Titel",
         "open": "Offen",
-        "showClosed": "Geschlossene anzeigen",
         "addPost": "Beitrag hinzufügen",
-        "messages": {
-            "toggleStatus": "Status geändert."
-        },
         "status": {
             "open": "offen"
-        },
-        "banProtest": "Ban Widerrufen"
+        }
     },
     "_import": {
         "gextension": {

@@ -774,21 +774,13 @@
         }
     },
     "_ticket": {
-        "ticket": "Billets",
         "created": "Créé",
-        "lastUpdated": "Dernière mise à jour",
         "noTickets": "Vous n'avez pas encore créé de tickets.",
-        "addPost": "Ajouter un article",
         "open": "Ouvrir",
-        "closed": "Fermé",
         "messages": {
-            "addedPost": "Message créé.",
-            "addedThread": "Fil créé."
+            "addedPost": "Message créé."
         },
-        "banProtest": "Contester son bannissement",
-        "status": {
-            "open": "ouvert"
-        }
+        "banProtest": "Contester son bannissement"
     },
     "_server": {
         "labels": {
