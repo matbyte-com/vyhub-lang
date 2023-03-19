@@ -149,6 +149,20 @@
         "instanceDeleted": "This instance is deleted",
         "detailDialogTitle": "Details"
     },
+    "_newInstance": {
+        "title": "Create New Instance",
+        "description": "Get started with your own VyHub instance!{br}No payment information required!{br}{br}If questions arise, please read our {documentation}.",
+        "loginRegister": "Login / Register",
+        "recurringDescription": "VyHub is renewed automatically before period ends. Payment is made automatically. You can cancel up to 3 days before next month starts.",
+        "prepaidDescription": "Every time VyHub period ends you have to manually prepay for the next period.",
+        "creditCardButton": "Credit- or Debitcard",
+        "currency": "EUR / month",
+        "name": "Name of instance",
+        "domainDescription": "Domain for your instance. Leave empty if you don't have one.",
+        "customDomain": "Custom domain",
+        "customDomainDescription": "You need to own a domain and create a CNAME record in the DNS settings of your domain registrar. Read the {docsLink} for more information.",
+        "success": "It might take up to 10 minutes for your instance to be created.{br}Go to the {dashboard} to view the status."
+    },
     "_instance": {
         "labels": {
             "edit": "Edit Instance",
@@ -210,28 +224,6 @@
             "instanceExtended": "Instance successfully extended"
         },
         "cnameCheckerTool": "CNAME Check Tool"
-    },
-    "newInstance": {
-        "title": "Create new instance",
-        "operationalTime": "Runtime",
-        "days": "Days",
-        "viewOrder": "View Order",
-        "loginRegister": "Login / Register",
-        "payment": "Payment",
-        "recurring": "Recurring",
-        "prepaid": "Prepaid",
-        "recurringDescription": "VyHub is renewed automatically before period ends. Payment is made automatically. You can cancel up to 3 days before next month starts.",
-        "prepaidDescription": "Every time VyHub period ends you have to manually prepay for the next period.",
-        "creditCardButton": "Credit- or Debitcard",
-        "currency": "EUR / month",
-        "domain": "Domain",
-        "name": "Name of instance",
-        "domainDescription": "Domain for your instance. Leave empty if you don't have one.",
-        "confirmationDialog": "The instance will be accessible under the domain {domain}",
-        "giftcode": "Giftcode",
-        "giftcodeDescription": "Contact us to get your personal code!",
-        "customDomain": "Custom domain",
-        "customDomainDescription": "You need to own a domain and create a CNAME record in the DNS settings of your domain registrar. Read the {docsLink} for more information."
     },
     "_form": {
         "submit": "Submit",
@@ -800,7 +792,9 @@
         "messages": {
             "noWithdraw": "I require and expressly agree that Matbye UG already begins with the execution of the purchased service before the end of the withdrawal period. Furthermore, I am aware that I already lose the right of withdrawal to which I am entitled by law upon complete fulfillment of the contract by Matbyte UG.",
             "dataCorrect": "I herewith guarantee that the details specified (especially billing address) are true and complete.",
-            "agreeToS": "I agree to the Terms of Service."
+            "agreeToS": "I agree to the Terms of Service.",
+            "agreeTo": "I agree to the {tos}.",
+            "tos": "terms of service"
         }
     },
     "docs": "Docs",
@@ -826,5 +820,6 @@
     "noEntries": "No Entries.",
     "enable": "Enable",
     "users": "Users",
-    "actions": "Actions"
+    "actions": "Actions",
+    "congratulations": "Congratulations!"
 }
