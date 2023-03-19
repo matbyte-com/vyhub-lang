@@ -112,15 +112,15 @@
             "question1": "What makes VyHub special compared to our competitors?",
             "answer1": "VyHub is more than a simple webstore. It is an all-in-one community management offering important features like bans and warnings.",
             "question2": "How much does VyHub cost?",
-            "answer2": "Installing and using VyHub is free of charge. We only charge a small commission of 5% for all sales that occur through the webstore.",
+            "answer2": "Installing and using VyHub is free of charge. We only charge a small commission on your monthly revenue. So you only pay when you make money.",
             "question3": "Do you offer a free trial?",
             "answer3": "Yes! Since we do not charge a monthly price, you are able to use and test VyHub completely for free",
             "question4": "Can I use my own domain?",
             "answer4": "Yes, you can use your existing domain by creating a CNAME record that points to your VyHub instance.",
             "question5": "I am a GExtension user. Can I migrate my data to VyHub?",
-            "answer5": "Yes, you can easily <a href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">import</a> your data.<br/><br/>",
+            "answer5": "Yes, you can easily <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">import</a> your data.<br/><br/>",
             "question6": "Where do I get help?",
-            "answer6": "Please first read our <a href=\"https://docs.vyhub.net\">documentation</a> for technical questions. You can contact us by using the contact form below."
+            "answer6": "Please first read our <a target=\"_blank\" href=\"https://docs.vyhub.net\">documentation</a> for technical questions. You can contact us by using the contact form below."
         },
         "pageSubtitle": "The all-in-one management & monetization platform {br}for your gaming community",
         "keyFeatures": "Key Features",
@@ -712,6 +712,27 @@
             "periodicAdverts": "Periodic adverts",
             "reservedSlots": "Reserved slots"
         }
+    },
+    "_pricing": {
+        "hosted": "Hosted",
+        "noMonthlySubscription": "No monthly subscription",
+        "vyhubCloud": "VyHub Cloud",
+        "feature1": "Hosted website",
+        "feature2": "Customizable webshop",
+        "feature3": "Unlimited packets",
+        "feature4": "Subdomain included",
+        "feature5": "Custom domain possible",
+        "feature6": "Free SSL certificate",
+        "feature7": "Supports multiple gameservers",
+        "allFeatures": "All features",
+        "startNow": "Start now",
+        "smallCommission": "+ Small 3-7% <a style=\"color: inherit;\" target=\"_blank\" href=\"https://docs.vyhub.net/latest/account/fees\">commission</a> on your revenue",
+        "q1": "What does VyHub cost? Is it really free?",
+        "a1": "VyHub is free to use. You can use it as long as you want. We only charge a small commission on your monthly revenue. So you only pay when you make money. More details on the fees can be found in our <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/account/fees\">documentation</a>.",
+        "q2": "Is there a free trial?",
+        "a2": "Yes! Since we do not charge a monthly price, you are able to use and test VyHub completely for free.",
+        "q3": "Can I cancel anytime?",
+        "a3": "Since there is no subscription, you do not need to cancel anything."
     },
     "_newsletter": {
         "thankYou": "Thank you for registering!"
