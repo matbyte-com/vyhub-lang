@@ -184,6 +184,7 @@
         "newOwnerDialogDescription": "Type the name of the instance to confirm.\n You will loose access to the instance after it got transferred to a different user.",
         "extendInstance": "Extend Instance",
         "extendInstanceDescription": "The runtime of your instance can be extended 7 days before the end. If the instance is not extended in time, it will be stopped.",
+        "ownershipTransferSupport": "Please contact the support if you want to transfer the ownership of your instance to another user.",
         "_status": {
             "UNPROVISIONED": "Setting up API server",
             "PROVISION": "Setting up Frontend",
