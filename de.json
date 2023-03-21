@@ -38,7 +38,8 @@
         },
         "_company": {
             "partners": "Partner",
-            "affiliateProgramme": "Partnerprogramm"
+            "affiliateProgramme": "Partnerprogramm",
+            "affiliateProgram": "Partnerprogramm"
         },
         "_legal": {
             "about": "Über",
@@ -118,7 +119,8 @@
         "features": "Funktionen",
         "hasslefree": "Problemlos",
         "joinOurDiscord": "Tritt unserem Discord bei",
-        "customizable": "Anpassbar"
+        "customizable": "Anpassbar",
+        "pageSubtitle": "Die All-in-One-Management & Monetarisierungsplattform {br}für deine Gaming-Community"
     },
     "_dashboard": {
         "yourInstances": "Deine Instanzen",
@@ -185,7 +187,8 @@
             "addedAdmin": "Admin erfolgreich hinzugefügt.",
             "instanceReady": "Deine Instanz ist bereit!",
             "doNotOpenBeforeReady": "Öffne die Seite nicht, bevor die Instanz bereit ist!",
-            "noActivePackets": "Es gibt keine aktiven Abos für diese Instanz. Stelle sicher, dass du die Instanz vor Ende der Laufzeit verlängerst."
+            "noActivePackets": "Es gibt keine aktiven Abos für diese Instanz. Stelle sicher, dass du die Instanz vor Ende der Laufzeit verlängerst.",
+            "noResourcesAvailable": "Es sind derzeit keine Ressourcen für eine neue Instanz verfügbar. Bitte versuche es später noch einmal."
         },
         "cnameCheckerTool": "CNAME-Überprüfung"
     },
@@ -322,7 +325,8 @@
             "admin": "Shop Administration",
             "orderOverview": "Bestellübersicht",
             "applyCoupon": "Coupon einlösen",
-            "couponCode": "Coupon"
+            "couponCode": "Coupon",
+            "checkoutCheckboxes": "Checkout-Kontrollkästchen"
         },
         "messages": {
             "couponsEntered": "Dein coupon wurde erfolgreich gespeichert. Du kannst ihn noch ändern, solange er noch nicht akzeptiert worden ist.",
@@ -386,7 +390,8 @@
         "badToken": "Token ist abgelaufen oder ungültig. Bitte fordere einen neuen Token an.",
         "passwordSet": "Erfolg! Du kannst nun dein zum {login_placeholder} nutzen.",
         "login_placeholder": "einloggen",
-        "toLogin": "Zum Einloggen"
+        "toLogin": "Zum Einloggen",
+        "noTokenSpecified": "Kein Token angegeben. Bitte fordere ein neues Token an."
     },
     "_invoice": {
         "invoice": "Rechnung",
@@ -401,5 +406,10 @@
         "vat": "Mehrwertsteuer",
         "total": "Gesamt",
         "vatNumber": "Steueridentifikationsnummer"
+    },
+    "_newInstance": {
+        "description": "Starte mit deiner eigenen VyHub-Instanz!{br}Keine Zahlungsinformationen erforderlich!{br}{br}Wenn du Fragen Habens solltest, lies bitte unsere {Dokumentation}.",
+        "prepaidDescription": "Jedes Mal, wenn der VyHub-Zeitraum endet, musst du manuell für den nächsten Zeitraum vorausbezahlen.",
+        "recurringDescription": "VyHub wird vor Ablauf des Zeitraums automatisch verlängert. Die Zahlung erfolgt automatisch. Du kannst bis zu 3 Tage vor Beginn des nächsten Monats kündigen."
     }
 }
