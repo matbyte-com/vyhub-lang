@@ -223,7 +223,8 @@
             "doNotOpenBeforeReady": "Do not open this page before your instance is ready!",
             "instanceExtended": "Instance successfully extended"
         },
-        "cnameCheckerTool": "CNAME Check Tool"
+        "cnameCheckerTool": "CNAME Check Tool",
+        "revenueFee": "Revenue Fee"
     },
     "_form": {
         "submit": "Submit",
