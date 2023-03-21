@@ -57,10 +57,10 @@
             "question4": "Kann ich meine eigene Domain nutzen?",
             "answer3": "Ja! Da wir keinen monatlichen Grundpreis verlangen, kannst du VyHub komplett gratis nutzen und testen.",
             "answer4": "Ja, du kannst deine aktuelle Domain auch mit VyHub verwenden. Dazu brauchst du nur einen CNAME record setzen.",
-            "answer5": "Ja, du kannst einfach deine Daten <a href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">importieren.</a><br/><br/>",
+            "answer5": "Ja, du kannst einfach deine Daten <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">importieren.</a><br/><br/>",
             "answer1": "VyHub ist mehr als ein einfacher Webshop. Es ist eine all-in-one Anwendung für das Verwalten deiner Gemeinschaft mit wichtigen Funktionen wie Banns und Verwarnungen.",
-            "answer2": "Das Installieren und Nutzen von VyHub ist komplett gratis. Wir berechnen nur eine kleine Gebühr von 5% auf die Verkäufe auf deiner Webseite.",
-            "answer6": "Bitte lies zunächst unsere <a href=\"https://docs.vyhub.net\">Dokumentation</a> für technische Fragen. Du kannst uns über das unten stehende Kontaktformular kontaktieren."
+            "answer2": "Das Installieren und Nutzen von VyHub ist komplett gratis. Wir berechnen nur eine kleine Gebühr auf deinen monatlichen Umsatz. So bezahlst du nur, wenn du Geld verdienst.",
+            "answer6": "Bitte lies zunächst unsere <a target=\"_blank\" href=\"https://docs.vyhub.net\">Dokumentation</a> für technische Fragen. Du kannst uns über das unten stehende Kontaktformular kontaktieren."
         },
         "rightManagement": "Berechtigungskontrolle",
         "ourGoals": "Unsere Ziele",
@@ -188,9 +188,13 @@
             "instanceReady": "Deine Instanz ist bereit!",
             "doNotOpenBeforeReady": "Öffne die Seite nicht, bevor die Instanz bereit ist!",
             "noActivePackets": "Es gibt keine aktiven Abos für diese Instanz. Stelle sicher, dass du die Instanz vor Ende der Laufzeit verlängerst.",
-            "noResourcesAvailable": "Es sind derzeit keine Ressourcen für eine neue Instanz verfügbar. Bitte versuche es später noch einmal."
+            "noResourcesAvailable": "Es sind derzeit keine Ressourcen für eine neue Instanz verfügbar. Bitte versuche es später noch einmal.",
+            "instanceExtended": "Instanz wurde erfolgreich verlängert."
         },
-        "cnameCheckerTool": "CNAME-Überprüfung"
+        "cnameCheckerTool": "CNAME-Überprüfung",
+        "extendInstance": "Instanz verlängern",
+        "extendInstanceDescription": "Die Laufzeit kann 7 Tage vor Ende der Laufzeit verlängert werden. Wenn die Instanz nicht verlängert wird, wird sie gestoppt.",
+        "ownershipTransferSupport": "Bitte kontaktiere den Support, wenn du die Instanz an einen anderen Nutzer übertragen möchtest."
     },
     "log": {
         "labels": {
@@ -259,14 +263,38 @@
             "ban": "Bann",
             "shop": "Shop"
         },
-        "timeAgo": "vor {time}"
+        "timeAgo": "vor {time}",
+        "group_add": "Gruppe hinzugefügt {groupName} {groupId}.",
+        "payment_cancelled": "Zahlung abgebrochen. debit_id: {debit_id}.",
+        "purchase_revoke": "Kauf widerrufen. Kauf_id: {purchase_id}.",
+        "purchase_unrevoke": "Wiederrufener Kauf wieder angewendet. Kauf_id: {purchase_id}.",
+        "purchase_refund": "Kauf zurückerstattet. Kauf_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
+        "purchase_finished": "Kauf abgeschlossen. Zahlungs_id: {purchase_id}.",
+        "purchase_cancelled": "Kauf abgebrochen. Kauf_id: {purchase_id}.",
+        "object_edit": "{classname} mit id {id}: {key} = {value} editiert.",
+        "object_delete": "{classname} mit id {id} gelöscht.",
+        "object_create": "{classname} mit id {id}: {params} erstellt.",
+        "applied_packet_extended": "Laufzeit des angewendeten Pakets {applied_packet_id} verlängert.",
+        "applied_packet_not_extended": "Das Verlängern des Pakets {applied_packet_id}: {reason} ist fehlgeschlagen."
     },
     "_address": {
         "labels": {
             "city": "Stadt",
             "state": "Staat",
             "selectAddress": "Adresse auswählen",
-            "vat_number": "Steueridentifikationsnummer"
+            "vat_number": "Steueridentifikationsnummer",
+            "zip_code": "Postleitzahl",
+            "streetAndNumber": "Straße und Hausnummer",
+            "addition": "Zusatz",
+            "edit": "Adresse bearbeiten",
+            "change": "Adresse bearbeiten",
+            "add": "Adresse hinzufügen"
+        },
+        "messages": {
+            "changeSuccess": "Händleradresse erfolgreich bearbeitet.",
+            "addSuccess": "Neue Adresse erfolgreich erstellt.",
+            "selectedSuccess": "Adresse erfolgreich ausgewählt.",
+            "noAddressesYet": "Du hast aktuell noch keine Adressen."
         }
     },
     "_errors": {
@@ -283,7 +311,15 @@
         },
         "wrong_currency": "Du kannst keine Pakete mit unterschiedlichen Währungen in deinem Warenkorb haben.",
         "name_not_available": "Name nicht verfügbar",
-        "undefined": "Unerwarteter Fehler. Bitte kontaktiere den Support."
+        "undefined": "Unerwarteter Fehler. Bitte kontaktiere den Support.",
+        "packet_not_compatible": "Dieses Paket ist mit einem anderen Paket nicht kompatibel: {packet_title}.",
+        "no_server_available": "Keine Server für eine neue Instanz verfügbar. Bitte kontaktiere den Support.",
+        "packet_requires_other": "Dieses Paket benötigt ein anderes Paket: {packet_title}.",
+        "no_permissions": "Zugriffsfehler: {msg}",
+        "packet_not_purchasable": "Du kannst dieses Paket nicht kaufen.",
+        "too_many_instances": "Du kannst keine weiteren Instanzen erstellen. Bitte kontaktiere den Support um das Limit zu erhöhen.",
+        "missing_properties": "Du hast nicht all benötigten Rechte: {properties}",
+        "no_resources_available": "Aktuell gibt es nicht genügend verfügbare Rechenleistung."
     },
     "_gateway": {
         "labels": {
@@ -291,7 +327,14 @@
             "stripe": "Stripe",
             "create": "Erstelle eine Zahlungsmethode",
             "edit": "Editiere eine Zahlungsmethode",
-            "paysafecard": "Paysafecard"
+            "paysafecard": "Paysafecard",
+            "coupon": "Coupon {manuelle Bestätigung}",
+            "webhookURL": "Webhook URL"
+        },
+        "messages": {
+            "createSuccess": "Zahlungsmethode wurde erfolgreich erstellt.",
+            "deleteSuccess": "Zahlungsmethode erfolreich gelöscht.",
+            "editSuccess": "Zahlungsmethode erfolgreich editiert."
         }
     },
     "_shop": {
@@ -326,14 +369,15 @@
             "orderOverview": "Bestellübersicht",
             "applyCoupon": "Coupon einlösen",
             "couponCode": "Coupon",
-            "checkoutCheckboxes": "Checkout-Kontrollkästchen"
+            "checkoutCheckboxes": "Checkout-Kontrollkästchen",
+            "orderWithObligationToPay": "Zahlungspflichtig bestellen"
         },
         "messages": {
             "couponsEntered": "Dein coupon wurde erfolgreich gespeichert. Du kannst ihn noch ändern, solange er noch nicht akzeptiert worden ist.",
             "addToCartError": "Ein Fehler ist beim Hinzufügen des Paketes in deinen Warenkorb aufgetreten.",
             "clearCartSuccess": "Alle Pakete wurden aus dem Warenkorb entfernt.",
             "selectGateway": "Bitte wähle deine Zahlungsart.",
-            "paymentSuccess": "Die Zahlung wurde erfolgreich abgeschlossen. Die gekauften Pakete wurden deinem Benutzer zugeordnet.",
+            "paymentSuccess": "Die Zahlung wurde erfolgreich abgeschlossen.",
             "paymentPending": "Die Zahlung ist ausstehend. Bitte schließe sie in deinem Warenkorb ab.",
             "unfinishedPurchase": "Es gibt einen offenen Kauf, welcher noch nicht abgeschlossen ist.",
             "confirmCreditsPayment": "Bitte bestätige die Zahlung von {credits} credits.",
@@ -347,7 +391,15 @@
             "paymentCancelled": "Die Zahlung wurde abgebrochen. Du kannst es im Warenkorb erneut probieren.",
             "purchaseCancelledSuccess": "Der Kauf wurde abgebrochen.",
             "paymentProcessing": "Die Zahlung wurde akzeptiert und wird in Kürze abgeschlossen. Bitte warte ein paar Minuten auf dieser Seite, während die Zahlung abgeschlossen wird.",
-            "confirmCouponPayment": "Bitte gib dein {gateway_name} code ein. Die Zahlung wird dann manuell vom Team überprüft."
+            "confirmCouponPayment": "Bitte gib dein {gateway_name} code ein. Die Zahlung wird dann manuell vom Team überprüft.",
+            "includesVAT": "Enthält {tax_rate}% Umsatzsteuer.",
+            "cancelPurchaseConfirmation": "Laufende Zahlvorgänge werden abgebrochen. Dies kann nicht rückgängig gemacht werden.",
+            "couponApplySuccess": "Coupon erfolgreich eingelöst.",
+            "selectEmailFirst": "Bitte gebe zuerst eine Email Adresse an",
+            "couponRemoveSuccess": "Coupon erfolgreich entfernt.",
+            "couponNotApplied": "Der Coupon konnte auf kein Paket im Warenkorb angewendet werden.",
+            "selectBillingAddressFirst": "Bitte gebe zuerst eine Rechnungsadresse an.",
+            "variablePricePaymentSuccess": "Zahlungsmethode erfolgreich für zukünftige Nutzung erstellt."
         },
         "purchaseStatus": {
             "cancelled": "Abgebrochen",
@@ -356,7 +408,8 @@
             "refunded": "Zurückerstattet",
             "recurring": "Wiederkehrend",
             "enabled": "Aktiv",
-            "disabled": "Abgelaufen"
+            "disabled": "Abgelaufen",
+            "revoked": "Storniert"
         }
     },
     "newInstance": {
@@ -410,6 +463,248 @@
     "_newInstance": {
         "description": "Starte mit deiner eigenen VyHub-Instanz!{br}Keine Zahlungsinformationen erforderlich!{br}{br}Wenn du Fragen Habens solltest, lies bitte unsere {Dokumentation}.",
         "prepaidDescription": "Jedes Mal, wenn der VyHub-Zeitraum endet, musst du manuell für den nächsten Zeitraum vorausbezahlen.",
-        "recurringDescription": "VyHub wird vor Ablauf des Zeitraums automatisch verlängert. Die Zahlung erfolgt automatisch. Du kannst bis zu 3 Tage vor Beginn des nächsten Monats kündigen."
+        "recurringDescription": "VyHub wird vor Ablauf des Zeitraums automatisch verlängert. Die Zahlung erfolgt automatisch. Du kannst bis zu 3 Tage vor Beginn des nächsten Monats kündigen.",
+        "title": "Erstelle eine neue Instanz",
+        "loginRegister": "Einloggen / Registrieren",
+        "currency": "EUR / Monat",
+        "name": "Name der Instanz",
+        "domainDescription": "Domain für deine Instanz. Freilassen, wenn du keine eigene Domain hast.",
+        "customDomain": "Eigene Domain",
+        "customDomainDescription": "Du brauchst eine eigene Domain und musst einen CNAME Eintrag in den DNS Einstellungen deines Hosters setzen. Lies die {docsLink} für mehr Informationen.",
+        "creditCardButton": "Kredit- oder Kreditkarte",
+        "success": "Das Erstellen deiner Instanz kann bis zu 10 Minuten dauern.{br} Gehe zum {dashboard} um den Status zu sehen."
+    },
+    "_features": {
+        "_shop": {
+            "_features": {
+                "title5": "Rabatte",
+                "text6": "VyHub unterstützt mehrere Zahlungsmethoden. Du kannst PayPal, Paysafecard und Stripe Zahlungen akzeptieren. Mit Stripe werden viele lokale Zahlungsmethoden abgedeckt. Darüber hinaus können Benutzer das eingebaute Kreditsystem für Zahlungen verwenden. Es besteht auch die Möglichkeit, benutzerdefinierte Gutscheincodes für einen Kauf zu akzeptieren, die dann manuell von einem Administrator genehmigt werden müssen.",
+                "title4": "Statistiken",
+                "headline4": "Statistiken",
+                "text4:": "Überwache deine Verkäufe mit den integrierten Statistiken. Zum Beispiel kannst du die Verkäufe pro Monat oder Land filtern.",
+                "title2": "Kategorien",
+                "headline2": "Unbegrenzte Kategorien",
+                "headline5": "Rabatte",
+                "title6": "Zahlungsmethoden",
+                "headline6": "Zahlungsmethoden",
+                "headline1": "Unbegrenzte Pakete"
+            },
+            "title": "Shop"
+        },
+        "_cutomizability": {
+            "_features": {
+                "headline2": "Dunkler Modus",
+                "text1": "Du kannst das Aussehen deiner Webseite sehr einfach ändern. Das beinhaltet Farben, ein Dunkelmodus oder ein anderes Hintergrundbild.",
+                "title2": "DunkelModus",
+                "title1": "Theme",
+                "headline1": "Ändere das Aussehen"
+            },
+            "subtitle": "Passe VyHub deinen Bedürfnissen an.",
+            "title": "Anpassbarkeit"
+        }
+    },
+    "_games": {
+        "_features": {
+            "gmodIngameDashboard": "Ingame-Dashboard für Sperren und Warnungen",
+            "bans": "Banns und zeitliche-Banns",
+            "gmodPlayerSync": "Spielergruppen synchronisieren (Unterstützung für ULX, xAdmin, SAM, FAdmin, ServerGuard und mehr)",
+            "minecraftPlayerSync": "Spielergruppen synchronisieren (Unterstützung für LuckPerms)",
+            "playtimeStatistic": "Spielzeitstatistik für jeden Spieler",
+            "discordPlayerSync": "Benutzerrollen synchronisieren",
+            "periodicAdverts": "Regelmäßige Nachrichten",
+            "reservedSlots": "Reservierte Slots",
+            "warnings": "Verwarnungen"
+        },
+        "minecraftDescription": "VyHub unterstützt Minecraft, das meistgespielte überlebens-Sandbox-Spiel. Derzeit erfordert dieses Plugin Java >= 17 und Minecraft >= 1.13.",
+        "discordDescription": "VyHub unterstützt Discord, die kostenlose Sprach-, Video- und Text-Chat-App.",
+        "gmodDescription": "VyHub unterstützt Garry's Mod, der bekannte Physikbaukasten."
+    },
+    "amount": "Betrag",
+    "country": "Land",
+    "_payInstance": {
+        "labels": {
+            "title": "Instanz bezahlen"
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "unrevoke": "Unwiederrufen",
+            "decline": "Ablehnen",
+            "confirm": "Bestätigen",
+            "allPurchases": "Alle Käufe",
+            "myPurchases": "Meine Käufe",
+            "appliedPackets": "Angewandte Pakete",
+            "revoke": "Widerrufen",
+            "creditsSpent": "Credits ausgegeben",
+            "details": "Kaufdetails",
+            "salesCount": "Anzahl an Käufen",
+            "totalRevenue": "Gesamter Umsatz",
+            "monthlyRevenue": "Monatlicher Umsatz",
+            "revoked": "Widerrufen",
+            "refund": "Erstatten",
+            "refunded": "Erstattet",
+            "amountNet": "Netto-Betrag",
+            "amountTotal": "Gesamtbetrag",
+            "confirmDebitText": "Kauf bestätigen? Dies kann nicht rückgängig gemacht werden.",
+            "confirmPurchases": "Käufe bestätigen",
+            "editAppliedPacket": "Angewandtes Paket editieren",
+            "cancelSubscription": "Abonnement kündigen",
+            "addAppliedPacket": "Angewandtes Paket hinzufügen",
+            "declineDebitText": "Kauf abbrechen? Dies kann nicht rückgängig gemacht werden.",
+            "revenueByCountry": "Umsatz nach Land",
+            "paymentGateway": "Zahlungsmethode",
+            "coupon": "Coupon"
+        },
+        "messages": {
+            "refundInitSuccess": "Erstattung erfolgreich gestartet.",
+            "refreshSuccess": "Zahlungsdetails erfolgreich geupdated.",
+            "revokeSuccess": "Kauf erfolgreich zurückgezogen.",
+            "unrevokeSuccess": "Kauf erfolgreich wieder angewandt.",
+            "editAppliedPacketSuccess": "Angewandtes Paket erfolgreich bearbeitet.",
+            "deleteAppliedPacketSuccess": "Angewandtes Paket erfolgreich gelöscht.",
+            "createAppliedPacketSuccess": "Angewandtes Paket erfolgreich erstellt.",
+            "refundConfirm": "Bist du dir sicher, dass du den Kauf zurückerstatten möchtest?",
+            "cancelSubscriptionConfirm": "Bist du dir sicher, dass du das Abo kündigen möchtest?",
+            "confirmPurchaseSuccess": "Kauf erfolgreich bestätigt",
+            "declinePurchaseSuccess": "Kauf erfolgreich abgebrochen"
+        }
+    },
+    "extend": "Verlängern",
+    "next": "Nächster Schritt",
+    "unexpectedError": "Unerwarter Fehler",
+    "login": "Login",
+    "confirm": "Confirm",
+    "_partners": {
+        "title": "Partner",
+        "headline": "Bist du bereit, dass Beste Spielserververwaltungssystem zu bewerben?",
+        "lifetimeCustomerValue": "Lebenslanger Kundenwert",
+        "comingSoon": "Erscheint bald",
+        "description2": "Dein Vyhub.net Nutzerkonto enthält bereits einen Partnerlink zum Teilen"
+    },
+    "back": "Zurück",
+    "shop": "Shop",
+    "actions": "Aktionen",
+    "_pricing": {
+        "vyhubCloud": "VyHub Cloud",
+        "feature1": "Gehostete Webseite",
+        "feature2": "Anpassbarer Webshop",
+        "feature3": "Unbegrenzte Pakete",
+        "feature4": "Subdomain enthalten",
+        "feature5": "Eigene Domain möglich",
+        "feature6": "Kostenloses SSL-Zertifikat",
+        "allFeatures": "Alle kostenlose Funktionen",
+        "hosted": "Gehosted",
+        "feature7": "Unterstützt mehrere Gameserver"
+    },
+    "register": "Registrieren",
+    "date": "Datum",
+    "gateway": "Gateway",
+    "invoice": "Rechnung",
+    "firstName": "Vorname",
+    "purchases": "Käufe",
+    "lastName": "Nachname",
+    "subject": "Überschrift",
+    "settings": "Einstellungen",
+    "documentation": "Dokumentation",
+    "congratulations": "Glückwunsch!",
+    "contact": "Kontakt",
+    "_cart": {
+        "labels": {
+            "add": "Zum Warenkorb hinzufügen"
+        }
+    },
+    "_affiliate": {
+        "payouts": "Auszahlungen",
+        "payout": "Auszahlung",
+        "payoutNow": "Jetzt Auszahlen",
+        "totalReferrals": "Anzahl an Werbungen",
+        "registeredUsers": "Registrierte Nutzer",
+        "amount": "Betrag",
+        "paypalEmail": "Paypal E-Mail",
+        "processedOn": "Bearbeitet am",
+        "transactionId": "Transaktionsadresse",
+        "messages": {
+            "linkCopied": "Link in die Zwischenablage kopiert.",
+            "payoutSuccess": "Zahlung erfolgreich intiiert."
+        },
+        "status": {
+            "rejected": "Abgelehnt",
+            "finished": "Abgeschlossen",
+            "created": "Erstellt",
+            "pending": "Ausstehend"
+        },
+        "yourAffiliateLink": "Dein Partnerlink",
+        "currentBalance": "Aktuelles Guthaben",
+        "pendingBalance": "Ausstehendes Guthaben",
+        "totalPaid": "Auszahlung Gesamt"
+    },
+    "message": "Nachricht",
+    "acceptPrivacy": "Ich akzeptiere die Datenschutzerklärung",
+    "submit": "Absenden",
+    "create": "Erstellen",
+    "areYouSure": "Bist du dir sicher?",
+    "username": "Nutzername",
+    "email": "Email",
+    "password": "Passwort",
+    "activeUntil": "Aktiv bi",
+    "price": "Preis",
+    "summary": "Zusammenfassung",
+    "description": "Beschreibung",
+    "instance": "Instanz",
+    "search": "Suchen",
+    "owner": "Besitzer",
+    "admins": "Admins",
+    "admin": "Admin",
+    "status": "Status",
+    "error": "Fehler",
+    "version": "Version",
+    "support": "Support",
+    "close": "Schließen",
+    "dashboard": "Dashboard",
+    "packets": "Pakete",
+    "packet": "Paket",
+    "edit": "Bearbeiten",
+    "contactUs": "Kontaktiere uns",
+    "user": "Nutzer",
+    "continue": "Weiter",
+    "every": "Jede",
+    "cart": "Warenkorb",
+    "id": "ID",
+    "instances": "Instanzen",
+    "transactions": "Transaktionen",
+    "noEntries": "Keine Einträge.",
+    "enable": "Aktivieren",
+    "users": "Nutzer",
+    "_addon": {
+        "addon": "Erweiterung",
+        "messages": {
+            "addonEdited": "Erweiterung erfolgreich bearbeitet.",
+            "addonApplied": "Erweiterung erfolgreich hinzugefügt.",
+            "addonCancelled": "Erweiterung erfolgreich gekündigt."
+        },
+        "addons": "Erweiterungen",
+        "newAddon": "Neue Erweiterung",
+        "editAddon": "Erweiterung bearbeiten",
+        "noAddonsAvailable": "Keine Erweiterungen verfügbar",
+        "currentAddons": "Aktuelle Erweiterungen",
+        "cancelAddonDescription": "Bist du dir sicher, dass du die Erweiterung deaktivieren möchtest? Die Erweiterung wird zum Ende der aktuellen Laufzeit gekündigt und deaktiviert.",
+        "expiresOn": "Läuft ab"
+    },
+    "delete": "Löschen",
+    "_account": {
+        "labels": {
+            "chargeAccount": "Account aufladen"
+        }
+    },
+    "domain": "Domain",
+    "add": "Hinzufügen",
+    "cancel": "Abbrechen",
+    "select": "Auswählen",
+    "name": "Name",
+    "_support": {
+        "messages": {
+            "needHelp": "Du brauchst Hilfe? Erstelle ein Ticket.",
+            "requestSendSuccess": "Ticket erfolgreich abgeschickt. Du solltest zeitnah eine Bestätigungsmail erhalten."
+        }
     }
 }
