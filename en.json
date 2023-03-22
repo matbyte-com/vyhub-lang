@@ -195,10 +195,12 @@
         "autoUpdateTime": "Time of auto update (UTC)",
         "autoUpdateDescription": "Instance is automatically updated at given UTC hour",
         "autoUpdateActivated": "Automatic update activated",
-        "newOwnerDialogDescription": "Type the name of the instance to confirm.\n You will loose access to the instance after it got transferred to a different user.",
         "extendInstance": "Extend Instance",
         "extendInstanceDescription": "The runtime of your instance can be extended 7 days before the end. If the instance is not extended in time, it will be stopped.",
         "ownershipTransferSupport": "Please contact the support if you want to transfer the ownership of your instance to another user.",
+        "automaticExtension": "Automatic Extension",
+        "setUpAutocharge": "Set up autocharge",
+        "connectOneServer": "Connect one gameserver",
         "_status": {
             "UNPROVISIONED": "Setting up API server",
             "PROVISION": "Setting up Frontend",
@@ -727,13 +729,15 @@
         "feature7": "Supports multiple gameservers",
         "allFeatures": "All features",
         "startNow": "Start now",
-        "smallCommission": "+ Small 3-7% <a style=\"color: inherit;\" target=\"_blank\" href=\"https://docs.vyhub.net/latest/account/fees\">commission</a> on your revenue",
+        "smallCommission": "Small 3-7% <a style=\"color: inherit;\" target=\"_blank\" href=\"https://docs.vyhub.net/latest/account/fees\">commission</a> on your revenue",
         "q1": "What does VyHub cost? Is it really free?",
         "a1": "VyHub is free to use. You can use it as long as you want. We only charge a small commission on your monthly revenue. So you only pay when you make money. More details on the fees can be found in our <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/account/fees\">documentation</a>.",
         "q2": "Is there a free trial?",
         "a2": "Yes! Since we do not charge a monthly price, you are able to use and test VyHub completely for free.",
         "q3": "Can I cancel anytime?",
-        "a3": "Since there is no subscription, you do not need to cancel anything."
+        "a3": "Since there is no subscription, you do not need to cancel anything.",
+        "q4": "Are there any discounts for major communities?",
+        "a4": "Please contact our sales-team at <a href=\"mailto:info@vyhub.net\">info@vyhub.net</a> with a short description of your community and your requirements. We will get back to you as soon as possible."
     },
     "_newsletter": {
         "thankYou": "Thank you for registering!"
