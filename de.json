@@ -194,7 +194,9 @@
         "cnameCheckerTool": "CNAME-Überprüfung",
         "extendInstance": "Instanz verlängern",
         "extendInstanceDescription": "Die Laufzeit kann 7 Tage vor Ende der Laufzeit verlängert werden. Wenn die Instanz nicht verlängert wird, wird sie gestoppt.",
-        "ownershipTransferSupport": "Bitte kontaktiere den Support, wenn du die Instanz an einen anderen Nutzer übertragen möchtest."
+        "ownershipTransferSupport": "Bitte kontaktiere den Support, wenn du die Instanz an einen anderen Nutzer übertragen möchtest.",
+        "connectOneServer": "Verbinde einen Spielserver",
+        "automaticExtension": "Automatische Verlängerung"
     },
     "log": {
         "labels": {
@@ -275,7 +277,8 @@
         "object_delete": "{classname} mit id {id} gelöscht.",
         "object_create": "{classname} mit id {id}: {params} erstellt.",
         "applied_packet_extended": "Laufzeit des angewendeten Pakets {applied_packet_id} verlängert.",
-        "applied_packet_not_extended": "Das Verlängern des Pakets {applied_packet_id}: {reason} ist fehlgeschlagen."
+        "applied_packet_not_extended": "Das Verlängern des Pakets {applied_packet_id}: {reason} ist fehlgeschlagen.",
+        "edit": "Editiert {name}: {key} = {value}"
     },
     "_address": {
         "labels": {
@@ -399,7 +402,9 @@
             "couponRemoveSuccess": "Coupon erfolgreich entfernt.",
             "couponNotApplied": "Der Coupon konnte auf kein Paket im Warenkorb angewendet werden.",
             "selectBillingAddressFirst": "Bitte gebe zuerst eine Rechnungsadresse an.",
-            "variablePricePaymentSuccess": "Zahlungsmethode erfolgreich für zukünftige Nutzung erstellt."
+            "variablePricePaymentSuccess": "Zahlungsmethode erfolgreich für zukünftige Nutzung erstellt.",
+            "startingPaymentFailed": "stop",
+            "paymentFailed": "Ein Fehler ist während des Zahlvorgangs aufgetreten. Bitte starte den Kauf erneut."
         },
         "purchaseStatus": {
             "cancelled": "Abgebrochen",
@@ -497,10 +502,29 @@
                 "text1": "Du kannst das Aussehen deiner Webseite sehr einfach ändern. Das beinhaltet Farben, ein Dunkelmodus oder ein anderes Hintergrundbild.",
                 "title2": "DunkelModus",
                 "title1": "Theme",
-                "headline1": "Ändere das Aussehen"
+                "headline1": "Ändere das Aussehen",
+                "headline4": "Erstelle eigene Seiten",
+                "title4": "Erstelle eigene Seiten",
+                "headline3": "Bearbeite die Navigationsleiste",
+                "text4": "Du kannst eigene Seite mit allen Html und Javascript Möglichkeiten erstellen. Du kannst diese Seiten in der Navigationsleiste anzeigen.",
+                "title3": "NavigationsLinks"
             },
             "subtitle": "Passe VyHub deinen Bedürfnissen an.",
             "title": "Anpassbarkeit"
+        },
+        "_community": {
+            "subtitle": "Spare Zeit und Aufwand beim verwalten deiner Community.",
+            "_features": {
+                "title1": "Banns",
+                "title3": "Forum",
+                "headline2": "Verwarnungen",
+                "title2": "Verwarnungen",
+                "headline1": "Banns",
+                "text2": "Du kannst Nutzer verwarnen, welche auch nach einer bestimmten Anzahl von Verwarnungen automatisch gebannt werden.",
+                "headline3": "Forum",
+                "text3": "Deine Spieler können sich in unserem Forum austauschen. Weiterhin ist es möglich, Teameigene Bereiche zu erstellen."
+            },
+            "title": "Community"
         }
     },
     "_games": {
