@@ -328,7 +328,6 @@
         "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}"
     },
     "_ticket": {
-        "addTicket": "Ticket erstellen",
         "addPost": "Beitrag hinzufügen"
     },
     "_import": {

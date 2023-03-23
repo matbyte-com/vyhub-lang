@@ -711,9 +711,6 @@
         "news_new": "Atualizações criadas: {newsSubject}."
     },
     "_ticket": {
-        "messages": {
-            "toggleStatus": "Status alternado."
-        },
         "addTicket": "Criar Ticket"
     },
     "help": "Ajuda",

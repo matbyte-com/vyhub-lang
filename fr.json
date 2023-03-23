@@ -774,7 +774,6 @@
         }
     },
     "_ticket": {
-        "noTickets": "Vous n'avez pas encore créé de tickets.",
         "messages": {
             "addedPost": "Message créé."
         }
