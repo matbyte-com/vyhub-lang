@@ -774,13 +774,10 @@
         }
     },
     "_ticket": {
-        "created": "Créé",
         "noTickets": "Vous n'avez pas encore créé de tickets.",
-        "open": "Ouvrir",
         "messages": {
             "addedPost": "Message créé."
-        },
-        "banProtest": "Contester son bannissement"
+        }
     },
     "_server": {
         "labels": {

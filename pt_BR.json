@@ -711,15 +711,10 @@
         "news_new": "Atualizações criadas: {newsSubject}."
     },
     "_ticket": {
-        "creator": "Criador",
         "messages": {
             "toggleStatus": "Status alternado."
         },
-        "status": {
-            "closed": "fechado"
-        },
-        "addTicket": "Criar Ticket",
-        "readMore": "Ler Mais"
+        "addTicket": "Criar Ticket"
     },
     "help": "Ajuda",
     "mappings": "Mapeamentos",

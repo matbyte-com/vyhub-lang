@@ -328,13 +328,8 @@
         "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}"
     },
     "_ticket": {
-        "ticket": "Ticket",
         "addTicket": "Ticket erstellen",
-        "open": "Offen",
-        "addPost": "Beitrag hinzufügen",
-        "status": {
-            "open": "offen"
-        }
+        "addPost": "Beitrag hinzufügen"
     },
     "_import": {
         "gextension": {
