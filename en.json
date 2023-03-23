@@ -291,22 +291,26 @@
             "authRequestDescription": "Execute the following command on a {type} server to login:"
         },
         "type": {
-            "CENTRAL": {
-                "name": "VyHub Central",
-                "info": "The platform to manage and monetize your gameservers."
-            },
-            "STEAM": {
-                "name": "Steam",
-                "info": "The famous gaming platform."
-            },
-            "DISCORD": {
-                "name": "Discord",
-                "info": "Your place to talk and hang out."
-            },
-            "MINECRAFT": {
-                "name": "Minecraft",
-                "info": "Build your own world."
-            }
+          "CENTRAL": {
+            "name": "VyHub Central",
+            "info": "The platform to manage and monetize your gameservers."
+          },
+          "STEAM": {
+            "name": "Steam",
+            "info": "The famous gaming platform."
+          },
+          "DISCORD": {
+            "name": "Discord",
+            "info": "Your place to talk and hang out."
+          },
+          "MINECRAFT": {
+            "name": "Minecraft",
+            "info": "Build your own world."
+          },
+          "TEAMSPEAK3": {
+            "name": "Teamspeak 3",
+            "info": "Voicechat for gamers."
+          }
         }
     },
     "_legal": {
