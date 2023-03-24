@@ -375,7 +375,11 @@
             "warning": "Warning",
             "discord": "Discord",
             "server": "Server",
-            "faq": "FAQ"
+            "faq": "FAQ",
+            "advert": "Advert",
+            "navigation": "Navigation",
+            "forum": "Forum",
+            "teamspeak3": "Teamspeak 3"
         },
         "edit": "Edited {name}: {key} = {value}",
         "object_edit": "Edited {classname} with id {id}: {key} = {value}.",
@@ -861,6 +865,10 @@
                 "createApp": "Create a Discord application and enable Discord authorization.",
                 "readInstructions": "Read and follow the further instructions in the docs.",
                 "addBot": "Add the Bot to your Discord server. Click reload if the button is not working."
+            },
+            "TEAMSPEAK3": {
+                "headline": "The TS3 bot should already be connected to your Teamspeak server.",
+                "botNotConnected": "The bot is not connected? Enable the display of query bots first. Every time you change the server settings, the bot tries to reconnect. You may find error messages in the log."
             }
         },
         "deleteBundleConfirmationText": "This will delete objects referenced to this bundle (e.g. rewards)"
