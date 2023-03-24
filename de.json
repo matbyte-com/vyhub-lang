@@ -327,9 +327,6 @@
         "add": "Verwarnung hinzufügen",
         "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}"
     },
-    "_ticket": {
-        "addPost": "Beitrag hinzufügen"
-    },
     "_import": {
         "gextension": {
             "labels": {

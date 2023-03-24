@@ -710,9 +710,6 @@
         "coupon_purchase_new": "{username} submetido {gateway_name} códigos ({amount_total} {currency_symbol}) que precisam ser aprovados.",
         "news_new": "Atualizações criadas: {newsSubject}."
     },
-    "_ticket": {
-        "addTicket": "Criar Ticket"
-    },
     "help": "Ajuda",
     "mappings": "Mapeamentos",
     "_warning": {

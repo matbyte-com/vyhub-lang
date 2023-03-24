@@ -773,11 +773,6 @@
             "editedSettings": "Paramètres d'avertissement modifiés."
         }
     },
-    "_ticket": {
-        "messages": {
-            "addedPost": "Message créé."
-        }
-    },
     "_server": {
         "labels": {
             "unknownStatus": "Statut inconnu",
