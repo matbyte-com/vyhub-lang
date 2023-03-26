@@ -199,7 +199,7 @@
         "extendInstanceDescription": "The runtime of your instance can be extended 7 days before the end. If the instance is not extended in time, it will be stopped.",
         "ownershipTransferSupport": "Please contact the support if you want to transfer the ownership of your instance to another user.",
         "automaticExtension": "Automatic Extension",
-        "setUpAutocharge": "Set up autocharge",
+        "setUpAutocharge": "Set up Auto-Charge",
         "connectOneServer": "Connect one gameserver",
         "_status": {
             "UNPROVISIONED": "Setting up API server",
@@ -671,7 +671,8 @@
                 "headline3": "Full permission system",
                 "text3": "All functionality on the website is guarded by permissions. Every group you create can have different permissions. This makes it possible to create a hierarchy of groups. This can be fully adjusted to fit your needs for example to create groups for team members.",
                 "title4": "PermissionLevels",
-                "headline4": "Permission levels"}
+                "headline4": "Permission levels"
+            }
         },
         "_furtherFeatures": {
             "title": "Further Features",
