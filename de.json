@@ -196,7 +196,8 @@
         "extendInstanceDescription": "Die Laufzeit kann 7 Tage vor Ende der Laufzeit verlängert werden. Wenn die Instanz nicht verlängert wird, wird sie gestoppt.",
         "ownershipTransferSupport": "Bitte kontaktiere den Support, wenn du die Instanz an einen anderen Nutzer übertragen möchtest.",
         "connectOneServer": "Verbinde einen Spielserver",
-        "automaticExtension": "Automatische Verlängerung"
+        "automaticExtension": "Automatische Verlängerung",
+        "setUpAutocharge": "Automatische Zahlungen aktivieren"
     },
     "log": {
         "labels": {
