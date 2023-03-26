@@ -217,7 +217,8 @@
             "enableDonationGoal": "Enable donation goal",
             "enableDonationGoalDescription": "Donation goal component displayed on startpage (News)",
             "cancelPayment": "Cancel Payment",
-            "cancelPurchase": "Cancel Purchase"
+            "cancelPurchase": "Cancel Purchase",
+            "changeTargetUser": "Buy for a friend"
         },
         "messages": {
             "confirmCreditsPayment": "Please confirm the payment of {credits} credits.",
@@ -249,7 +250,8 @@
             "includesVAT": "Includes {tax_rate}% VAT.",
             "selectBillingAddressFirst": "Please select a billing address first.",
             "selectEmailFirst": "Please update your email address first",
-            "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone."
+            "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone.",
+            "targetUserChanged": "The target user has been changed"
         },
         "purchaseStatus": {
             "open": "Open",
