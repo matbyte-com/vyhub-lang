@@ -179,7 +179,8 @@
             "advancedSettings": "Advanced Settings",
             "stopInstance": "Stop Instance",
             "resumeInstance": "Resume Instance",
-            "transferOwnership": "Transfer Ownership"
+            "transferOwnership": "Transfer Ownership",
+            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Agree with Terms of Service and Upgrade to Version 1.4"
         },
         "instanceName": "Name of Instance",
         "cnamePointingAt": "CNAME pointing at",
