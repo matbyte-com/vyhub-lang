@@ -146,7 +146,7 @@
         "visitInstance": "Visit",
         "createInstance": "Create Instance",
         "currentlyProvisioned": "This instance is currently getting created",
-        "instanceDeleted": "This instance is deleted",
+        "instanceDeleted": "This instance is stopped",
         "detailDialogTitle": "Details"
     },
     "_newInstance": {
