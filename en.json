@@ -18,6 +18,7 @@
         "docs": "Docs",
         "admin": "Admin",
         "profile": "Profile",
+        "affiliate": "Affiliate",
         "purchases": "Purchases"
     },
     "_footer": {
@@ -699,7 +700,8 @@
         "lifetimeCustomerValue": "Lifetime Customer Value",
         "description1": "Your friends and followers will thank you when they try VyHub for the first time.{br} You'll also earn a 25% recurring commission.",
         "description2": "Your Vyhub.net account already includes an affiliate link ready for sharing.",
-        "comingSoon": "Coming soon"
+        "comingSoon": "Coming soon",
+        "grabAffiliateLink": "Grab your Affiliate link"
     },
     "_games": {
         "gmodDescription": "VyHub supports Garry's Mod, the famous physics sandbox.",
