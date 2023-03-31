@@ -563,10 +563,10 @@
         "payouts": "Payouts",
         "payout": "Payout",
         "payoutNow": "Payout Now",
-        "amount": "Amount",
-        "paypalEmail": "PayPal E-Mail",
         "processedOn": "Processed On",
+        "recipient": "Recipient",
         "transactionId": "Transaction ID",
+        "iban": "IBAN",
         "status": {
             "created": "Created",
             "pending": "Pending",
@@ -707,13 +707,14 @@
         "gmodDescription": "VyHub supports Garry's Mod, the famous physics sandbox.",
         "minecraftDescription": "VyHub supports Minecraft, the most-played survival sandbox game. Currently this plugins requires Java >= 17 and Minecraft >= 1.13.",
         "discordDescription": "VyHub supports Discord, the free voice, video and text chat app.",
+        "teamspeakDescription": "VyHub supports TeamSpeak, the voice chat where you are in full control.",
         "_features": {
             "bans": "Bans and time-bans",
             "warnings": "Warnings",
             "gmodIngameDashboard": "Ingame Dashboard for bans and warnings",
             "gmodPlayerSync": "Synchronize player groups (support for ULX, xAdmin, SAM, FAdmin, ServerGuard and more)",
             "minecraftPlayerSync": "Synchronize player groups (support for LuckPerms)",
-            "discordPlayerSync": "Synchronize user roles",
+            "playerSync": "Synchronize user roles",
             "rewards": "Infinite possibilities with rewards (Custom Commands/Scripts, Ingame Money, Item drops...)",
             "playtimeStatistic": "Playtime statistic for every player",
             "periodicAdverts": "Periodic adverts",
@@ -733,7 +734,7 @@
         "feature7": "Supports multiple gameservers",
         "allFeatures": "All features",
         "startNow": "Start now",
-        "smallCommission": "Small 3-7% <a style=\"color: inherit;\" target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">commission</a> on your revenue",
+        "smallCommission": "Small 3-6% <a style=\"color: inherit;\" target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">commission</a> on your revenue",
         "q1": "What does VyHub cost? Is it really free?",
         "a1": "VyHub is free to use. You can use it as long as you want. We only charge a small commission on your monthly revenue. So you only pay when you make money. More details on the fees can be found in our <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">documentation</a>.",
         "q2": "Is there a free trial?",
@@ -853,5 +854,6 @@
     "enable": "Enable",
     "users": "Users",
     "actions": "Actions",
-    "congratulations": "Congratulations!"
+    "congratulations": "Congratulations!",
+    "created": "Created"
 }
