@@ -566,6 +566,8 @@
         "processedOn": "Processed On",
         "recipient": "Recipient",
         "transactionId": "Transaction ID",
+        "currentBalanceDescription": "Balance available for payout.",
+        "pendingBalanceDescription": "Unpaid fees by the user (may take up to 4 weeks to be processed).",
         "iban": "IBAN",
         "status": {
             "created": "Created",
@@ -700,7 +702,6 @@
         "lifetimeCustomerValue": "Lifetime Customer Value",
         "description1": "Your friends and followers will thank you when they try VyHub for the first time.{br} You'll also earn a 25% recurring commission.",
         "description2": "Your Vyhub.net account already includes an affiliate link ready for sharing.",
-        "comingSoon": "Coming soon",
         "grabAffiliateLink": "Grab your Affiliate link"
     },
     "_games": {
@@ -722,7 +723,7 @@
         }
     },
     "_pricing": {
-        "hosted": "Hosted",
+        "hosted": "Self Hosted",
         "noMonthlySubscription": "No monthly subscription",
         "vyhubCloud": "VyHub Cloud",
         "feature1": "Hosted website",
@@ -730,11 +731,22 @@
         "feature3": "Unlimited packets",
         "feature4": "Subdomain included",
         "feature5": "Custom domain possible",
-        "feature6": "Free SSL certificate",
-        "feature7": "Supports multiple gameservers",
+        "feature6": "Updates included",
+        "feature7": "Free SSL certificate",
+        "feature8": "Supports multiple gameservers",
+        "shFeature1": "Only self-hosted system on the market",
+        "shFeature2": "Self-hosted front- and backend",
+        "shFeature3": "All VyHub features",
+        "shFeature4": "Premium extensions included",
+        "shFeature5": "Updates included",
+        "shFeature6": "Full database access",
         "allFeatures": "All features",
         "startNow": "Start now",
-        "smallCommission": "Small 3-6% <a style=\"color: inherit;\" target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">commission</a> on your revenue",
+        "revenue/Month": "revenue / month",
+        "fact1": "You only pay when you make money with VyHub",
+        "fact2": "The more you earn, the more you save on fees",
+        "fact3": "Special conditions available for big communities",
+        "smallCommission": "Small commission on your revenue",
         "q1": "What does VyHub cost? Is it really free?",
         "a1": "VyHub is free to use. You can use it as long as you want. We only charge a small commission on your monthly revenue. So you only pay when you make money. More details on the fees can be found in our <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">documentation</a>.",
         "q2": "Is there a free trial?",
@@ -742,7 +754,10 @@
         "q3": "Can I cancel anytime?",
         "a3": "Since there is no subscription, you do not need to cancel anything.",
         "q4": "Are there any discounts for major communities?",
-        "a4": "Please contact our sales-team at <a href=\"mailto:info@vyhub.net\">info@vyhub.net</a> with a short description of your community and your requirements. We will get back to you as soon as possible."
+        "a4": "Please contact our sales-team at <a href=\"mailto:info@vyhub.net\">info@vyhub.net</a> with a short description of your community and your requirements. We will get back to you as soon as possible.",
+        "addons": {
+            "communication": "Communication Addon"
+        }
     },
     "_newsletter": {
         "thankYou": "Thank you for registering!"
@@ -855,5 +870,6 @@
     "users": "Users",
     "actions": "Actions",
     "congratulations": "Congratulations!",
-    "created": "Created"
+    "created": "Created",
+    "comingSoon": "Coming soon"
 }
