@@ -1,1 +1,875 @@
-{}
+{
+    "_header": {
+        "labels": {
+            "register": "Registreer",
+            "logout": "Uitloggen",
+            "login": "Login"
+        },
+        "start": "Start",
+        "games": "Spelen",
+        "features": "Functies",
+        "pricing": "Prijzen",
+        "partners": "Partners",
+        "demo": "Demo",
+        "dashboard": "Dashboard",
+        "contact": "Contact",
+        "faq": "FAQ",
+        "docs": "Docs",
+        "admin": "Beheer",
+        "profile": "Profiel",
+        "affiliate": "Affiliate",
+        "purchases": "Aankopen",
+        "blog": "Blog"
+    },
+    "_footer": {
+        "about": "Over VyHub",
+        "help": "Krijg hulp",
+        "legal": "Juridisch",
+        "_about": {
+            "features": "Functies",
+            "supportedGames": "Ondersteunde spellen",
+            "pricing": "Prijzen",
+            "blog": "Blog",
+            "demo": "Demo"
+        },
+        "_help": {
+            "support": "Support",
+            "docs": "Documentatie"
+        },
+        "_company": {
+            "partners": "Partners",
+            "affiliateProgram": "Affiliate programma"
+        },
+        "_legal": {
+            "about": "Over",
+            "privacyPolicy": "Privacybeleid",
+            "termsOfService": "Servicevoorwaarden"
+        },
+        "company": "Bedrijf"
+    },
+    "_invoice": {
+        "invoice": "Factuur",
+        "invoiceDate": "Rekening datum",
+        "deliveryDate": "Bezorg datum",
+        "vatNumber": "BTW. nummer",
+        "paymentMethod": "Betalings methode",
+        "item": "Ite",
+        "quantity": "Hoeveelheid",
+        "subtotalNoVat": "Subtotaal (zonder BTW)",
+        "vat": "BTW",
+        "total": "Totaal",
+        "price": "Prijs",
+        "transaction": "Transactie"
+    },
+    "log": {
+        "labels": {
+            "log": "Logboek"
+        }
+    },
+    "_home": {
+        "sections": {
+            "shop": {
+                "bulletPoint1": "Creëer je eigen producten en beloningen",
+                "bulletPoint3": "Automatische betalingsverwerking (PayPal, Stripe, Paysafecard)",
+                "bulletPoint4": "Voorwaardelijke aanbiedingen, kortingscodes en meer",
+                "bulletPoint5": "    ",
+                "description": "Maak je eigen website en verdien geld met je gameserver met ons geavanceerde maar gebruiksvriendelijke winkelsysteem.",
+                "bulletPoint2": "Naadloze integratie met andere mods."
+            },
+            "bansWarnings": {
+                "bulletPoint1": "Ban en waarschuw spelers in de game of via het web paneel",
+                "bulletPoint2": "Integratie met andere mods",
+                "description": "Beheer je community en handhaaf je serverregels met ons geavanceerde ban- en waarschuwingssysteem."
+            },
+            "andMore": {
+                "bulletPoint1": "Nieuws pagina",
+                "bulletPoint3": "Ticket systeem",
+                "description": "VyHub zit vol met kleine en grote extra functies die bijdragen aan een geweldige gebruikerservaring.",
+                "bulletPoint2": "Volledig functionele REST API",
+                "bulletPoint4": "Team pagina"
+            }
+        },
+        "endcards": {
+            "simple": {
+                "bulletPoint1": "Zeg maar dag tegen allerlei nu onnodige plug-ins",
+                "bulletPoint2": "Direct contact met de ontwikkelaars voor verbeteringen",
+                "bulletPoint3": "Eenvoudig te gebruiken web paneel"
+            },
+            "customizable": {
+                "bulletPoint3": "Upload html om uw eigen subpagina's te maken",
+                "bulletPoint4": "Gebruik je eigen (sub) domein",
+                "bulletPoint5": "Volledig functionele REST API",
+                "bulletPoint2": "Pas de achtergrondafbeelding en het kleurenschema aan",
+                "bulletPoint1": "Volledig aanpasbaar en aanpasbaar aan uw behoeften"
+            },
+            "hasslefree": {
+                "bulletPoint1": "Geen eigen webruimte nodig",
+                "bulletPoint2": "Autmatische updates",
+                "bulletPoint3": "Geen verborgen kosten",
+                "bulletPoint4": "Snelle installatie"
+            }
+        },
+        "_faq": {
+            "question2": "Hoeveel kost VyHub?",
+            "question3": "Biedt u een gratis proefperiode aan?",
+            "answer3": "Ja! Omdat we geen maandelijkse prijs rekenen, kun je VyHub volledig gratis gebruiken en testen",
+            "question4": "Kan ik mijn eigen domein gebruiken?",
+            "answer4": "Ja, u kunt uw bestaande domein gebruiken door een CNAME-record te maken dat verwijst naar uw VyHub-instantie.",
+            "question5": "Ik ben een GExtension-gebruiker. Kan ik mijn gegevens migreren naar VyHub?",
+            "question1": "Wat maakt VyHub speciaal in vergelijking met onze concurrenten?",
+            "answer1": "VyHub is meer dan een simpele webwinkel. Het is een alles-in-één communitybeheer met belangrijke functies zoals verboden en waarschuwingen.",
+            "answer2": "Het installeren en gebruiken van VyHub is gratis. Wij rekenen slechts een kleine commissie over uw maandelijkse inkomsten. Je betaalt dus alleen als je geld verdient.",
+            "answer5": "Ja, u kunt eenvoudig uw gegevens <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">import</a>.<br/><br/ >",
+            "question6": "Waar krijg ik hulp?",
+            "answer6": "Lees eerst onze <a target=\"_blank\" href=\"https://docs.vyhub.net\">documentation</a> voor technische vragen. U kunt contact met ons opnemen via onderstaand contactformulier."
+        },
+        "pageSubtitle": "Het alles-in-één beheer- en inkomstenplatform {br}voor je gamingcommunity",
+        "keyFeatures": "Sleutel functies",
+        "rightManagement": "Toegangscontrole",
+        "bansWarnings": "Verboden en waarschuwingen",
+        "ourGoals": "Onze doelen",
+        "supportedGames": "Ondersteunde games / integraties",
+        "features": "Functies",
+        "ourAmbitions": "Onze ambitie",
+        "shop": "Winkel",
+        "joinOurDiscord": "Word lid van onze Discord",
+        "faq": "Veel Gestelde Vragen",
+        "viewAllFeatures": "Bekijk alle functies",
+        "simple": "Simpel",
+        "customizable": "Aanpasbaar",
+        "hasslefree": "Probleemloos",
+        "andMore": "En nog veel meer...",
+        "discordIntegration": "Discord intergratie"
+    },
+    "_dashboard": {
+        "title": "Dashboard",
+        "yourInstances": "Jouw instanties",
+        "visitInstance": "Bezoek",
+        "createInstance": "Maak instantie",
+        "instanceDeleted": "Deze instantie is gestopt",
+        "detailDialogTitle": "Details",
+        "currentlyProvisioned": "Deze instantie wordt momenteel gemaakt"
+    },
+    "_newInstance": {
+        "loginRegister": "Login/ registreer",
+        "recurringDescription": "VyHub wordt automatisch verlengd voordat de periode afloopt. De betaling wordt automatisch uitgevoerd. Je kunt tot 3 dagen voor het begin van de volgende maand opzeggen.",
+        "currency": "EUR/ maand",
+        "name": "Naam van instantie",
+        "customDomain": "Aangepaste domein naam",
+        "success": "Het kan tot 10 minuten duren voordat uw instantie is gemaakt.{br}Ga naar het {dashboard} om de status te bekijken.",
+        "prepaidDescription": "Elke keer dat de VyHub-periode afloopt, moet je handmatig vooruitbetalen voor de volgende periode.",
+        "creditCardButton": "Creditcard of Betaalpas",
+        "customDomainDescription": "U moet een domein bezitten en een CNAME-record maken in de DNS-instellingen van uw domeinregistreerder. Lees de {docsLink} voor meer informatie.",
+        "title": "Maak een nieuwe instantie",
+        "description": "Ga aan de slag met uw eigen VyHub-instantie!{br}Geen betalingsinformatie vereist!{br}{br}Als u vragen heeft, lees dan onze {documentation}.",
+        "domainDescription": "Domein voor uw instantie. Laat leeg als je er geen hebt."
+    },
+    "_instance": {
+        "labels": {
+            "edit": "Bewerk instantie",
+            "daysLeft": "Dagen over",
+            "newExpirationDate": "Nieuwe verloop datum",
+            "noTimeLeft": "Geen tijd over",
+            "upgradeVersion": "Upgrade-versie",
+            "frontendUrl": "Frontend-URL",
+            "cname": "CName",
+            "apiUrl": "API URL",
+            "activePackets": "Actieve pakketten",
+            "addAdmin": "Beheerder toevoegen",
+            "stopInstance": "Instantie stoppen",
+            "resumeInstance": "Instantie hervatten",
+            "transferOwnership": "Eigendom overdragen",
+            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Ga akkoord met de servicevoorwaarden en upgrade naar versie 1.4",
+            "addons": "Addons",
+            "advancedSettings": "Geavanceerde instellingen"
+        },
+        "instanceName": "Naam van instantie",
+        "cnamePointingAt": "CNAME wijst naar",
+        "statusHelp": "Neem contact op met de ondersteuning als de status na 10 minuten niet verandert.",
+        "editInstance": "Instantie bewerken",
+        "editedInstance": "Instantie succesvol bewerkt",
+        "deletedInstance": "Instantie succesvol verwijderd",
+        "version": "Versie",
+        "autoUpdateTime": "Tijdstip van automatische update (UTC)",
+        "autoUpdateActivated": "Automatische update geactiveerd",
+        "extendInstance": "Exemplaar uitbreiden",
+        "automaticExtension": "Automatische verlenging",
+        "setUpAutocharge": "Stel Automatisch opladen in",
+        "connectOneServer": "Verbind een gameserver",
+        "_status": {
+            "UNPROVISIONED": "API-server opzetten",
+            "PROVISION": "Frontend opzetten",
+            "PROVISIONED": "Klaar",
+            "REPROVISION": "Wijzigingen toepassen op de API-server",
+            "DELETED": "Gestopt",
+            "DELETE": "Stoppen"
+        },
+        "admins": "Beheers",
+        "owner": "Eigenaar",
+        "error": {
+            "user_not_admin": "Gebruiker niet beheerder",
+            "user_not_found": "Gebruiker niet gevonden"
+        },
+        "messages": {
+            "addedAdmin": "Beheerder succesvol toegevoegd.",
+            "noResourcesAvailable": "Er zijn momenteel geen bronnen beschikbaar voor een nieuwe instantie. Probeer het later opnieuw.",
+            "instanceReady": "Uw instantie is klaar!",
+            "instanceExtended": "Exemplaar succesvol verlengd",
+            "removedAdmin": "Beheerder succesvol verwijderd.",
+            "noActivePackets": "Er zijn geen actieve abonnementen voor deze instantie. Zorg ervoor dat u uw instantie verlengt voor het einde van de runtime.",
+            "doNotOpenBeforeReady": "Open deze pagina niet voordat uw instantie gereed is!"
+        },
+        "cnameCheckerTool": "CNAME-controletool",
+        "revenueFee": "Inkomstenvergoeding",
+        "statusHelpProvisioned": "Uw instantie is nu klaar voor gebruik. Als de site niet laadt, probeer dan je DNS-cache leeg te maken of start je router opnieuw op. Als dit het probleem niet oplost, neem dan contact op met de ondersteuning.",
+        "setCNAMEDescription": "Maak een CNAME DNS-record voor uw aangepaste domein met dit doel. Dit verwijst uw aangepaste domein naar deze VyHub-instantie.",
+        "statusHelpProvision": "Als deze status niet binnen 5 minuten verandert, is de CNAME-record voor uw aangepaste domein waarschijnlijk niet correct ingesteld. Raadpleeg de documentatie of neem contact op met ondersteuning als u hulp nodig heeft.",
+        "autoUpdate": "Installeer automatisch niet-afbrekende patchupdates",
+        "autoUpdateDescription": "De instantie wordt automatisch bijgewerkt op een bepaald UTC-uur",
+        "extendInstanceDescription": "De looptijd van uw instantie kan 7 dagen voor het einde worden verlengd. Als de instantie niet op tijd wordt verlengd, wordt deze gestopt.",
+        "ownershipTransferSupport": "Neem contact op met ons support team als u het eigendom van uw instantie aan een andere gebruiker wilt overdragen.",
+        "addAdmin": "Beheer toevoegen"
+    },
+    "_form": {
+        "submit": "Indienen",
+        "login": {
+            "login": "Login",
+            "register": "Registreer",
+            "email": "Email",
+            "emailConfirmation": "Email code",
+            "password": "Wachtwoord",
+            "continue": "Doorgaan",
+            "sendConfirmationCode": "Code verzenden",
+            "registrationRequired": "Registratie vereist",
+            "forgotPassword": "Wachtwoord vergeten",
+            "error": {
+                "confirmation_code_no_match": "Controleer de e-mailbevestigingscode",
+                "username_taken": "Gebruikersnaam is al bezet",
+                "username_not_allowed": "Gebruikersnaam niet toegestaan",
+                "email_taken": "Deze Email is al in gebruik. Log alsjeblieft in.",
+                "invalid_request": "ongeldig wachtwoord",
+                "captcha_low": "Gelieve captcha in te vullen",
+                "password_no_match": "Controleer het wachtwoordbevestigingsveld"
+            },
+            "username": "Gebruikersnaam",
+            "passwordConfirmation": "Wachtwoordbevestiging"
+        },
+        "contact": {
+            "firstName": "Voornaam",
+            "email": "Email",
+            "subject": "Onderwerp",
+            "message": "Bericht",
+            "acceptPrivacy": "Accepteer privacybeleid",
+            "lastName": "Achternaam"
+        },
+        "validation": {
+            "usernameFormat": "Gebruikersnaam mag alleen deze tekens bevatten: a-z, 0-9, ., _, -",
+            "usernameLength": "De gebruikersnaam moet minimaal 3 tekens lang zijn",
+            "passwordNoUppercase": "Wachtwoord moet minimaal één hoofdletter bevatten",
+            "passwordNoNumber": "Het wachtwoord moet minstens een nummer bevatten",
+            "passwordMatch": "Wachtwoord komt niet overeen",
+            "codeLength": "Code moet lengte 5 hebben",
+            "emailInvalid": "Email moet geldig zijn",
+            "formInvalid": "Formulier is ongeldig",
+            "required": "Dit veld is verplicht",
+            "passwordLength": "Wachtwoord moet minimaal 8 tekens lang zijn",
+            "passwordNoSpecialCharacter": "Wachtwoord moet minimaal één speciaal teken bevatten"
+        }
+    },
+    "resetPassword": {
+        "sendLinkToEmail": "We sturen een link voor het opnieuw instellen van het wachtwoord naar",
+        "sendLink": "Stuur link",
+        "resetPassword": "Reset wachtwoord",
+        "setPassword": "Stel een wachtwoord in",
+        "badToken": "Token verlopen of ongeldig. Vraag een nieuw token aan.",
+        "passwordSet": "Succes! U kunt nu uw nieuwe wachtwoord gebruiken voor {login_placeholder}.",
+        "login_placeholder": "login",
+        "toLogin": "Inloggen",
+        "backToLogin": "Terug naar Inloggen",
+        "emailSent": "Volg de stappen in de e-mail die naar {email} is gestuurd (als er een account bestaat)",
+        "noTokenSpecified": "Geen token gespecificeerd. Vraag een nieuw token aan."
+    },
+    "_addon": {
+        "addon": "Add-on",
+        "addons": "Add-ons",
+        "newAddon": "Nieuwe add-on",
+        "editAddon": "Bewerk add-on",
+        "noAddonsAvailable": "Geen add-ons beschikbaar",
+        "currentAddons": "Huidige add-ons",
+        "expiresOn": "Verloopt op",
+        "messages": {
+            "addonApplied": "Add-on succesvol toegepast.",
+            "addonCancelled": "Add-on succesvol geannuleerd.",
+            "addonEdited": "Add-on succesvol bewerkt."
+        },
+        "cancelAddonDescription": "Weet je zeker dat je de add-on wilt annuleren? De add-on wordt geannuleerd aan het einde van de huidige factureringsperiode."
+    },
+    "_shop": {
+        "labels": {
+            "cart": "Winkel wagen",
+            "invoiceLogoURLDetails": "URL naar een logo dat op de factuur wordt weergegeven.",
+            "applyCoupon": "Bon gebruiken",
+            "couponCode": "coupon code",
+            "tax": "Belasting",
+            "payment": "Betaling",
+            "paymentId": "Betalings ID",
+            "addToCart": "Voeg toe aan winkelkar",
+            "total": "Totaal",
+            "businessAddress": "Bedrijfs adress",
+            "purchaseNow": "Koop nu",
+            "orderOverview": "Bestel Overzicht",
+            "cartTotal": "Winkelwagen totaal",
+            "billingAddress": "Facturatie adres",
+            "removeAllPackets": "Verwijder alle pakketten",
+            "perMonth": "Per maand",
+            "taxAllowUnknown": "Sta aankopen toe uit landen zonder belastingregel.",
+            "cancelPayment": "Betaling annuleren",
+            "subtotal": "Subtotaal",
+            "checkout": "Afrekenen",
+            "credits": "Credits",
+            "defaultCurrency": "Standaardvaluta",
+            "invoiceLogoURL": "Factuurlogo-URL",
+            "admin": "Winkel administratie",
+            "taxRules": "Fiscale regels",
+            "orderWithObligationToPay": "Bestelling met betalingsverplichting",
+            "unfinishedPurchase": "Onvoltooide aankoop",
+            "loginToBuy": "Log in om dit pakket te kopen",
+            "taxAllowUnknownDescription": "Indien uitgeschakeld, zijn aankopen uit landen die geen expliciete belastingregel hebben geconfigureerd, niet mogelijk.",
+            "checkoutCheckboxes": "Afrekenen selectievakjes",
+            "cancelPurchase": "Aankoop annuleren"
+        },
+        "messages": {
+            "confirmCouponPayment": "Voer uw {gateway_name}-code in. De betaling wordt vervolgens handmatig goedgekeurd door een teamlid.",
+            "couponsEditSuccess": "Coupon succesvol bewerkt.",
+            "addToCartError": "Er is een fout opgetreden bij het toevoegen van het pakket aan uw winkelwagen.",
+            "addToCartSuccess": "Pakket succesvol toegevoegd aan winkelwagen.",
+            "cartEmpty": "Uw winkelwagen is leeg.",
+            "mustAgree": "U moet akkoord gaan om door te gaan!",
+            "selectGateway": "Selecteer uw betaalmethode.",
+            "noOngoingPurchase": "Er is momenteel geen lopende aankoop. Begin met afrekenen in de winkelwagen.",
+            "clearCartSuccess": "Alle pakketten met succes uit de winkelwagen verwijderd.",
+            "paymentSuccess": "De betaling is succesvol afgerond.",
+            "paymentFailed": "Er is een fout opgetreden tijdens het betalingsproces. Probeer het proces opnieuw te starten.",
+            "paymentPending": "Deze betaling is in behandeling. Vul het in door naar de winkelwagen te gaan.",
+            "purchaseCancelledSuccess": "De aankoop is geannuleerd.",
+            "couponApplySuccess": "Coupon succesvol toegepast.",
+            "couponRemoveSuccess": "Coupon succesvol verwijderd.",
+            "couponNotApplied": "Coupon kan niet worden toegepast op een pakket in uw winkelwagen.",
+            "includesVAT": "Inclusief {tax_rate}% BTW.",
+            "selectEmailFirst": "Werk eerst uw e-mailadres bij",
+            "variablePricePaymentSuccess": "Betaalmethode succesvol geregistreerd voor toekomstig gebruik.",
+            "confirmCreditsPayment": "Bevestig de betaling van {credits} credits.",
+            "paymentActionFailed": "Er is een fout opgetreden bij het omleiden naar de betalingspagina. Probeer het opnieuw of gebruik een andere betaalmethode! Foutmelding: {message}",
+            "noAddressSpecified": "Adres nog niet opgegeven.",
+            "paymentCancelled": "Deze betaling is geannuleerd. U kunt het opnieuw proberen door naar uw winkelwagen te gaan.",
+            "cancelPurchaseConfirmation": "Gestarte betalingen worden geannuleerd. Alle ingevoerde coupons zijn verloren. Het annuleren van een aankoop kan niet ongedaan worden gemaakt.",
+            "couponsEntered": "Uw coupon is succesvol toegevoegd. U kunt uw kortingsbon bewerken totdat uw aankoop is goedgekeurd.",
+            "notEnoughCredits": "U heeft niet genoeg tegoed om deze aankoop te betalen. Kies een andere betaalmethode of koop meer credits.",
+            "startingPaymentFailed": "Er is een fout opgetreden bij het initiëren van de betaling. Probeer het opnieuw of gebruik een andere betaalmethode!",
+            "removeFromCartSuccess": "Pakket verwijderd uit winkelwagen.",
+            "paymentProcessing": "De betaling is goedgekeurd en wordt binnenkort afgerond. Wacht een paar minuten op deze pagina terwijl uw betaling wordt verwerkt.",
+            "unfinishedPurchase": "Er is een lopende aankoop die nog niet is afgerond.",
+            "selectBillingAddressFirst": "Selecteer eerst een factuuradres."
+        },
+        "purchaseStatus": {
+            "cancelled": "Geannuleerd",
+            "finished": "Afgerond",
+            "recurring": "Terugkerend",
+            "revoked": "Teruggetrokken",
+            "disabled": "Verlopen",
+            "open": "Open",
+            "enabled": "Actief",
+            "refunded": "Teruggestort"
+        }
+    },
+    "_log": {
+        "type": {
+            "system": "Systeem",
+            "user": "Gebruiker",
+            "ban": "Verbod",
+            "shop": "Winkel",
+            "packet": "Pakket",
+            "group": "Groep",
+            "news": "Nieuws",
+            "requirement": "Verijsten",
+            "design": "Ontwerp",
+            "warning": "Waarschuwing",
+            "discord": "Discord",
+            "server": "Server",
+            "instance": "Instantie"
+        },
+        "edit": "Bewerkt {name}: {key} = {value}",
+        "object_edit": "Bewerkte {classname} met id {id}: {key} = {value}.",
+        "object_create": "{classname} gemaakt met id {id}: {params}",
+        "applied_packet_extended": "Uitgebreid toegepast pakket {applied_packet_id}.",
+        "applied_packet_not_extended": "Kan toegepast pakket {applied_packet_id} niet uitbreiden: {reason}.",
+        "group_add": "Groep {groupName} {groupId} toegevoegd.",
+        "refund_finished": "Voltooide terugbetaling. debit_id: {debit_id}, purchase_id: {purchase_id}.",
+        "payment_refund": "{gateway} betaling terugbetaald. actie: {action}, bericht: {message}, Code: {status_code}.",
+        "payment_cancelled": "Geannuleerde betaling. debit_id: {debit_id}.",
+        "payment_event": "Betalingsgebeurtenis afhandelen. gateway: {gateway}, bericht: {message}, detail: {detail}.",
+        "payment_error": "Betalingsfout. gateway: {gateway}, bericht: {message}, actie: {action}, detail: {detail}, code: {status_code}.",
+        "debit_status_changed": "Gewijzigde debetstatus. debit_id: {debit_id}, status: {old_status} -> {new_status}.",
+        "purchase_finished": "Aankoop voltooid. aankoop_id: {purchase_id}.",
+        "purchase_cancelled": "Aankoop geannuleerd. aankoop_id: {purchase_id}.",
+        "purchase_revoke": "Aankoop ingetrokken. aankoop_id: {purchase_id}.",
+        "purchase_unrevoke": "Aankoop onherroepelijk. aankoop_id: {purchase_id}.",
+        "autocharge_wrong_account_currency": "Account {account_id} had verkeerde valuta voor automatisch opladen. Rekening: {currency_account}, Aankoop: {currency_purchase}",
+        "payment_initiate": "Geïnitieerde {gateway}-betaling. actie: {action}, bericht: {message}, Code: {status_code}.",
+        "packet_applied": "Toegepast pakket {packet_title} ({packet_id}) voor gebruiker {user_id}. toegepast_pakket_id: {applied_pakket_id}.",
+        "purchase_refund": "Aankoop terugbetaald. purchase_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
+        "payment_credits_fail": "Kredietbetaling mislukt. actie: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}, reden: {reason}.",
+        "timeAgo": "{time} geleden",
+        "object_delete": "{classname} verwijderd met id {id}.",
+        "payment_process": "Betalingsproces gemaakt. gateway: {gateway}, bericht: {message}, actie: {action}, detail: {detail}.",
+        "purchase_status_changed": "Gewijzigde aankoopstatus. purchase_id: {purchase_id}, status: {old_status} -> {new_status}.",
+        "autocharge_tx_created": "Auto-charge transactie gemaakt. Bedrag: {amount}, Debet: {debit_id}, Rekening: {account_id}, Gebruiker: {user_id}",
+        "payment_credits_success": "Kredietbetaling geslaagd. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}."
+    },
+    "_address": {
+        "labels": {
+            "add": "Adres toevoegen",
+            "edit": "verander adres",
+            "change": "Adres wijzigen",
+            "streetAndNumber": "Straat en nummer",
+            "city": "Stad",
+            "addition": "Toevoeging",
+            "state": "Provintie",
+            "zip_code": "Post code",
+            "vat_number": "BTW Nummer",
+            "selectAddress": "Selecteer adress"
+        },
+        "messages": {
+            "changeSuccess": "Bedrijfs adress succesvol gewijzigd.",
+            "addSuccess": "Nieuw adres succesvol toegevoegd.",
+            "selectedSuccess": "Adres succesvol geselecteerd.",
+            "noAddressesYet": "U heeft nog geen adressen."
+        }
+    },
+    "_errors": {
+        "name_not_available": "Naam niet beschikbaar",
+        "wrong_giftcode": "Cadeaucode is niet geldig",
+        "undefined": "Onverwachte fout. Neem dan contact op met de ondersteuning.",
+        "country_not_allowed": "Aankopen uit uw land zijn niet toegestaan.",
+        "cart_not_empty": "Uw winkelwagen moet leeg zijn om dit pakket toe te voegen.",
+        "packet_requires_other": "Dit pakket vereist een ander pakket: {packet_title}.",
+        "packet_not_compatible": "Dit pakket is niet compatibel met een ander pakket: {packet_title}.",
+        "packet_already_in_cart": "Dit pakket zit al in je winkelwagen.",
+        "packet_not_purchasable": "U kunt dit pakket niet kopen.",
+        "cart_full": "Je winkelwagen is vol.",
+        "not_found": "Niet gevonden.",
+        "no_resources_available": "Er zijn onvoldoende computerbronnen beschikbaar.",
+        "missing_properties": "U heeft niet alle vereiste eigenschappen: {properties}",
+        "no_permissions": "Toestemmingsfout: {msg}",
+        "unauthorized": "U moet hiervoor ingelogd zijn.",
+        "coupon": {
+            "not_found": "Deze code is ongeldig."
+        },
+        "packet_relation_violated": "Dit pakket schendt een pakketrelatie met een ander pakket: {relation_type} {packet_title}.",
+        "too_many_instances": "U kunt niet meer instanties maken. Neem contact op met de support om uw limiet te verhogen.",
+        "wrong_currency": "U kunt geen pakketten met verschillende valuta in uw winkelwagen hebben.",
+        "domain_not_available": "Domein niet beschikbaar",
+        "no_server_available": "Geen server beschikbaar voor een nieuwe instantie. Neem dan contact op met de ondersteuning."
+    },
+    "_gateway": {
+        "labels": {
+            "paypal": "PayPal",
+            "stripe": "Stripe",
+            "create": "Betalingsgateway maken",
+            "edit": "Betalingsgateway bewerken",
+            "paysafecard": "Paysafecard",
+            "coupon": "Waardebon (handmatige bevestiging)",
+            "webhookURL": "Webhook-URL"
+        },
+        "messages": {
+            "deleteSuccess": "Betalingsgateway succesvol verwijderd.",
+            "editSuccess": "Betalingsgateway succesvol bewerkt.",
+            "createSuccess": "Betalingsgateway succesvol aangemaakt.",
+            "formAttributeChangeExplanation": "De onderstaande attributen worden niet bewerkt als er geen waarde wordt opgegeven."
+        }
+    },
+    "_payInstance": {
+        "labels": {
+            "title": "Instantie betalen"
+        }
+    },
+    "_cart": {
+        "labels": {
+            "add": "Voeg toe aan winkelwagen"
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "myPurchases": "Mijn aankopen",
+            "allPurchases": "Alle aankopen",
+            "appliedPackets": "Toegevoegde pakketten",
+            "unrevoke": "Intrekken ongedaan maken",
+            "revoke": "Herroepen",
+            "revoked": "Ingetrokken",
+            "refund": "Terugbetaling",
+            "refunded": "Terugbetaald",
+            "amountNet": "Netto bedrag",
+            "amountTotal": "Totaalbedrag",
+            "salesCount": "Aantal verkopen",
+            "totalRevenue": "De totale omzet",
+            "monthlyRevenue": "maandelijkse omzet",
+            "creditsSpent": "Credits uitgegeven",
+            "revenueByCountry": "Inkomsten per land",
+            "editAppliedPacket": "Bewerk toegepast pakket",
+            "cancelSubscription": "Annuleer abonnement",
+            "addAppliedPacket": "Toegepast pakket toevoegen",
+            "confirmPurchases": "Bevestig aankopen",
+            "coupon": "Coupon",
+            "confirm": "Bevestig",
+            "decline": "Afwijzen",
+            "confirmDebitText": "Bevestig aankoop? Dit kan niet ongedaan worden gemaakt.",
+            "declineDebitText": "Aankoop annuleren? Dit kan niet ongedaan worden gemaakt.",
+            "showApprovedDebits": "Toon goedgekeurde afschrijvingen",
+            "paymentGateway": "Betalingspoort",
+            "addAppliedReward": "Voeg toegepaste beloning toe",
+            "reward": "Beloning",
+            "details": "Aankoopdetails"
+        },
+        "messages": {
+            "refundInitSuccess": "Terugbetaling succesvol gestart.",
+            "revokeSuccess": "Aankoop succesvol herroepen.",
+            "refreshSuccess": "Betalingsgegevens succesvol vernieuwd.",
+            "unrevokeSuccess": "Aankoop succesvol ongedaan gemaakt.",
+            "editAppliedPacketSuccess": "Toegepast pakket succesvol bewerkt.",
+            "createAppliedPacketSuccess": "Toegepast pakket is gemaakt.",
+            "refundConfirm": "Weet je zeker dat je deze aankoop wilt terugbetalen?",
+            "confirmPurchaseSuccess": "Aankoop succesvol goedgekeurd",
+            "deleteAppliedPacketSuccess": "Toegepast pakket succesvol verwijderd.",
+            "declinePurchaseSuccess": "Aankoop succesvol geannuleerd",
+            "cancelSubscriptionSuccess": "Abonnement succesvol opgezegd.",
+            "cancelSubscriptionConfirm": "Weet je zeker dat je dit abonnement wilt opzeggen?"
+        }
+    },
+    "_support": {
+        "messages": {
+            "needHelp": "Hulp nodig? Maak een support verzoek aan.",
+            "requestSendSuccess": "Support verzoek succesvol verzonden. U ontvangt spoedig een bevestigingmail."
+        }
+    },
+    "_affiliate": {
+        "affiliateResources": "Affiliate bronnen",
+        "affiliateDashboard": "Affiliate dashboard",
+        "currentBalance": "Huidig saldo",
+        "pendingBalance": "Saldo in afwachting",
+        "totalPaid": "Totaal betaald",
+        "totalReferrals": "Totaal aantal verwijzingen",
+        "payouts": "Uitbetalingen",
+        "payout": "Uitbetaling",
+        "payoutNow": "Nu uitbetalen",
+        "processedOn": "Verwerkt op",
+        "recipient": "Ontvanger",
+        "transactionId": "Transactie ID",
+        "currentBalanceDescription": "Saldo beschikbaar voor uitbetaling.",
+        "iban": "IBAN",
+        "status": {
+            "created": "Gemaakt",
+            "pending": "in behandeling",
+            "rejected": "Afgewezen",
+            "finished": "Afgerond"
+        },
+        "messages": {
+            "linkCopied": "Link gekopieerd naar klembord.",
+            "payoutSuccess": "Uitbetaling succesvol gestart."
+        },
+        "pendingBalanceDescription": "Onbetaalde kosten door de gebruiker (kan tot 4 weken duren om te worden verwerkt).",
+        "yourAffiliateLink": "Uw affiliate link",
+        "registeredUsers": "Geregistreerde gebruikers"
+    },
+    "_features": {
+        "_shop": {
+            "title": "Winkel",
+            "subtitle": "Verkoop rangen en ingame-items voor echt geld.",
+            "_features": {
+                "title1": "Pakketten",
+                "headline1": "Onbeperkte pakketten",
+                "headline2": "Onbeperkte categorieën",
+                "title2": "Categorieën",
+                "title3": "Beloningen",
+                "title4": "Statistieken",
+                "headline4": "Statistieken",
+                "title5": "Korting",
+                "headline5": "Korting",
+                "text4:": "Volg uw verkopen met de geïntegreerde statistieken. De verkopen kunnen bijvoorbeeld per maand of per land worden weergegeven.",
+                "headline6": "Betalings poort",
+                "title7": "Packet-upgrades",
+                "headline7": "Packet-upgrades",
+                "headline3": "Onbeperkte beloningen",
+                "text3": "Telkens wanneer een speler een pakket koopt, kunnen verschillende beloningen worden uitgevoerd. Beloningen kunnen van alles zijn, van ingame-valuta tot itemdrops. Je kunt elk ingame commando uitvoeren met de beloningen. Bovendien kun je spelers ook rangen geven!",
+                "title6": "Betalings poort",
+                "text1": "Pakketten vormen de basis van elke webwinkel. Maak je eigen pakketten die je voor echt geld op de website kunt verkopen. U kunt pakketten in verschillende categorieën ordenen om uw gebruikers een betere ervaring te bieden. Pakketten kunnen eenmalige aankopen of terugkerende betalingen zijn.",
+                "text5": "Je kunt je spelers kortingen geven. Deze kortingen kunnen gelden voor de hele winkel of alleen voor bepaalde pakketten. Op deze manier kun je spelers belonen voor goede prestaties.",
+                "text6": "VyHub ondersteunt meerdere betaalmethoden. U kunt betalingen met PayPal, Paysafecard en Stripe accepteren. Met Stripe zijn veel lokale betaalmethoden gedekt. Verder kunnen gebruikers het ingebouwde kredietsysteem gebruiken voor betalingen. Er is ook een optie om aangepaste couponcodes voor een aankoop te accepteren, die vervolgens handmatig door een beheerder moeten worden goedgekeurd."
+            }
+        },
+        "_cutomizability": {
+            "title": "Aanpasbaarheid",
+            "subtitle": "Pas VyHub aan uw behoeften aan.",
+            "_features": {
+                "headline1": "Verander kleuren",
+                "title2": "Donkere modus",
+                "headline2": "Donkere modus",
+                "title3": "Navigatie links",
+                "headline3": "Bewerk Navigatie links",
+                "title4": "Maak aangepaste pagina's",
+                "headline4": "Maak aangepaste pagina's",
+                "text1": "U kunt het thema van de website eenvoudig wijzigen! Denk hierbij aan kleuren, een donkere modus of een andere achtergrondafbeelding.",
+                "text4": "U kunt aangepaste pagina's maken met alle html/javascript mogelijkheden. U kunt deze sites weergeven in de navigatiebalk.",
+                "title1": "Thema"
+            }
+        },
+        "_community": {
+            "title": "Community",
+            "subtitle": "Bespaar tijd en moeite bij het beheren van uw community.",
+            "_features": {
+                "title1": "Verboden",
+                "headline1": "Verboden",
+                "title2": "Waarschuwingen",
+                "headline2": "Waarschuwingen",
+                "title3": "Forum",
+                "headline3": "Forum",
+                "text3": "Je spelers kunnen met elkaar praten via het VyHub-forum. Met het rechtenbeheer is het zelfs mogelijk om alleen onderwerpen voor leden aan te maken.",
+                "title4": "Ticket systeem",
+                "headline4": "Ticket systeem",
+                "title5": "Teampagina",
+                "title6": "Advertenties",
+                "headline6": "Advertenties",
+                "text1": "Je kunt spelers van je gameservers verbannen met VyHub. Bans kunnen worden gemaakt voor een set gameservers of wereldwijd voor al je servers. Gebruikers hebben de mogelijkheid om een ban-protest aan te maken dat vervolgens door de admins kan worden bekeken.",
+                "text2": "U kunt gebruikers waarschuwen, die vervolgens automatisch worden verbannen nadat een waarschuwingsdrempel is bereikt.",
+                "text6": "Advertenties zijn kleine berichten die periodiek op de gameservers kunnen worden aangekondigd.",
+                "text4": "Voor een beter beheer van uw community en het stroomlijnen van het ondersteuningsproces biedt VyHub u een ticketsysteem. Spelers kunnen tickets aanmaken die vervolgens door teamleden worden opgelost.",
+                "headline5": "Teampagina",
+                "text5": "Groepen kunnen deel uitmaken van het team. Er wordt automatisch een teampagina aangemaakt, waardoor spelers met de juiste persoon in contact kunnen komen."
+            }
+        },
+        "_dashboard": {
+            "title": "Dashboard",
+            "subtitle": "Alle spelersinformatie in één oogopslag.",
+            "_features": {
+                "title1": "Dashboard",
+                "headline1": "Speler dashboard",
+                "title2": "Serverdashboard",
+                "headline2": "Serverdashboard",
+                "text2": "Bekijk alle online spelers met het serverdashboard. Met dit dashboard heb je vanaf één plek toegang tot alle belangrijke speler- en gamegerelateerde functies.",
+                "title3": "spelerstatistieken",
+                "headline4": "Groepen spelers",
+                "title4": "Groepen spelers",
+                "text1": "Via het gebruikersdashboard ziet u in één oogopslag alle belangrijke informatie. Dit omvat alle verbonden accounts die de gebruiker heeft. Verder worden statistieken weergegeven op het dashboard. Standaard wordt de speeltijd geregistreerd, maar het is mogelijk om meer statistieken te laten zien!",
+                "headline3": "spelerstatistieken"
+            }
+        },
+        "_groupsAndTeams": {
+            "title": "Groepen en Teams",
+            "_features": {
+                "title1": "Groepen",
+                "headline1": "Creëer eigen groepen",
+                "headline2": "Bekroonde spelers met groepen",
+                "title3": "Toestemmingssysteem",
+                "headline3": "Volledig toestemmingssysteem",
+                "title4": "Toestemmingsniveaus",
+                "headline4": "Toestemmingsniveaus",
+                "title2": "Bekroonde spelers",
+                "text1": "Groepen vormen de basis van het toestemmingssysteem dat in VyHub is geïmplementeerd. Elke speler kan deel uitmaken van een of meerdere groepen. De groepen kunnen verschillende machtigingen hebben. Groepen kunnen ook worden toegekend na aankoop.",
+                "text3": "Alle functionaliteit op de website wordt bewaakt door toestemmingen. Elke groep die u maakt, kan verschillende machtigingen hebben. Dit maakt het mogelijk om een hiërarchie van groepen te creëren. Dit kan volledig worden aangepast aan uw behoeften, bijvoorbeeld om groepen voor teamleden te maken."
+            },
+            "subtitle": "Beheer eenvoudig groepen en machtigingen."
+        },
+        "_furtherFeatures": {
+            "title": "Verdere functies",
+            "_features": {
+                "title1": "SSL",
+                "headline1": "Gratis SSL certificaat",
+                "title2": "Talen",
+                "title3": "Volledig functionele API",
+                "headline3": "Volledig functionele API",
+                "title4": "Eigen domein gebruiken",
+                "headline4": "Optioneel: Gebruik eigen domein",
+                "text3": "VyHub wordt geleverd met een volledig functionele REST API. Je kunt deze API gebruiken om alles (en meer) te doen wat je ook met de frontend kunt doen. Eigen plug-ins die de API integreren zijn ook mogelijk.",
+                "headline2": "Ondersteuning voor meerdere talen",
+                "text2": "Om VyHub beter te personaliseren en met uw gemeenschap te communiceren, is VyHub in meerdere talen vertaald. Momenteel worden drie talen volledig ondersteund, meer talen zijn momenteel vertaald! Community-eigenaren zoals jij kunnen helpen bij het vertalen van VyHub.",
+                "text4": "VyHub wordt geleverd met een gratis subdomein vyhub.app. Gebruik je liever je eigen domein, dan kan dat! Het gebruik van uw eigen domein brengt geen extra kosten met zich mee."
+            },
+            "subtitle": "Er valt nog veel meer te ontdekken."
+        }
+    },
+    "_partners": {
+        "title": "Partners",
+        "headline": "Klaar om het beste gameserverbeheersysteem te promoten?",
+        "lifetimeCustomerValue": "Levenslange klantwaarde",
+        "description1": "Je vrienden en volgers zullen je dankbaar zijn als ze VyHub voor het eerst proberen.{br} Je verdient ook een terugkerende commissie van 25%.",
+        "description2": "Uw Vyhub.net-account bevat al een affiliate-link die klaar is om te delen.",
+        "grabAffiliateLink": "Grijp uw Affiliate-link"
+    },
+    "_games": {
+        "discordDescription": "VyHub ondersteunt Discord, de gratis spraak-, video- en tekstchat-app.",
+        "_features": {
+            "bans": "Verboden en tijdverboden",
+            "gmodPlayerSync": "Spelergroepen synchroniseren (ondersteuning voor ULX, xAdmin, SAM, FAdmin, ServerGuard en meer)",
+            "minecraftPlayerSync": "Synchroniseer spelersgroepen (ondersteuning voor LuckPerms)",
+            "playerSync": "Synchroniseer gebruikersrollen",
+            "playtimeStatistic": "Speeltijdstatistieken voor elke speler",
+            "periodicAdverts": "Periodieke advertenties",
+            "reservedSlots": "Gereserveerde plaatsen",
+            "rewards": "Oneindige mogelijkheden met beloningen (aangepaste commando's/scripts, ingame geld, itemdrops...)",
+            "warnings": "Waarschuwingen",
+            "gmodIngameDashboard": "Ingame Dashboard voor bans en waarschuwingen"
+        },
+        "minecraftDescription": "VyHub ondersteunt Minecraft, de meest gespeelde survival-sandboxgame. Momenteel vereist deze plug-in Java >= 17 en Minecraft >= 1.13.",
+        "teamspeakDescription": "VyHub ondersteunt TeamSpeak, de voicechat waarbij jij de volledige controle hebt.",
+        "gmodDescription": "VyHub ondersteunt Garry's Mod, de beroemde natuurkundige sandbox."
+    },
+    "_pricing": {
+        "vyhubCloud": "VyHub Cloud",
+        "feature1": "Gehoste website",
+        "feature3": "Onbeperkte pakketten",
+        "feature4": "Subdomein inbegrepen",
+        "feature5": "Eigen domein mogelijk",
+        "feature6": "Updates inbegrepen",
+        "feature7": "Gratis SSL certificaat",
+        "feature8": "Ondersteunt meerdere gameservers",
+        "shFeature1": "Het enige zelfgehoste systeem op de markt",
+        "shFeature2": "Zelf gehoste front- en backend",
+        "shFeature3": "Alle VyHub-functies",
+        "shFeature4": "Premium-extensies inbegrepen",
+        "shFeature5": "Updates inbegrepen",
+        "shFeature6": "Volledige toegang tot de database",
+        "allFeatures": "Alle functies",
+        "startNow": "Start nu",
+        "fact1": "Je betaalt alleen als je geld verdient met VyHub",
+        "fact3": "Speciale voorwaarden beschikbaar voor grote communities",
+        "smallCommission": "Kleine commissie over uw omzet",
+        "q2": "Is er een gratis proefversie?",
+        "a2": "Ja! Omdat we geen maandelijkse prijs rekenen, kun je VyHub volledig gratis gebruiken en testen.",
+        "a3": "Aangezien er geen abonnement is, hoeft u niets op te zeggen.",
+        "addons": {
+            "communication": "Communicatie-add-on"
+        },
+        "revenue/Month": "omzet/ maand",
+        "fact2": "Hoe meer u verdient, hoe meer u bespaart op kosten",
+        "q1": "Wat kost VyHub? Is het echt gratis?",
+        "q3": "Kan ik op elk moment annuleren?",
+        "q4": "Zijn er kortingen voor grote gemeenschappen?",
+        "a4": "Neem contact op met ons verkoopteam via <a href=\"mailto:info@vyhub.net\">info@vyhub.net</a> met een korte beschrijving van uw community en uw vereisten. We nemen zo snel mogelijk contact met u op.",
+        "hosted": "Zelf gehost",
+        "noMonthlySubscription": "Geen maandabonnement",
+        "feature2": "Klantgerichte webwinkel",
+        "a1": "VyHub is gratis te gebruiken. Je kunt het zo lang gebruiken als je wilt. Wij rekenen slechts een kleine commissie over uw maandelijkse inkomsten. Je betaalt dus alleen als je geld verdient. Meer informatie over de kosten vindt u in onze <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">documentation</a>."
+    },
+    "loginRegister": "Login/ registreer",
+    "username": "Gebruikersnaam",
+    "email": "Email",
+    "activeUntil": "Actief tot",
+    "areYouSure": "Weet je het zeker?",
+    "delete": "Verwijder",
+    "shop": "Winkel",
+    "contact": "Contact",
+    "register": "Registreer",
+    "gateway": "Poort",
+    "amount": "Hoeveelheid",
+    "invoice": "Factuur",
+    "payments": "Betalingen",
+    "success": "Succes",
+    "firstName": "Voornaam",
+    "purchases": "Aankopen",
+    "lastName": "Achternaam",
+    "subject": "Onderwerp",
+    "giftCodes": "Geschenk code",
+    "authorizeApplication": "Applicatie autoriseren",
+    "message": "Bericht",
+    "submit": "Verstuur",
+    "acceptPrivacy": "Accepteer Privacy beleid",
+    "settings": "Instellingen",
+    "create": "Creëren",
+    "back": "Terug",
+    "extend": "Verlengen",
+    "next": "Volgende stap",
+    "unexpectedError": "Onverwachte fout",
+    "confirm": "Bevestig",
+    "country": "Land",
+    "add": "Toevoegen",
+    "cancel": "Annuleren",
+    "select": "Selecteren",
+    "name": "Naam",
+    "summary": "Samenvatting",
+    "price": "Prijs",
+    "domain": "Domein",
+    "details": "Details",
+    "instance": "Instantie",
+    "search": "Zoek",
+    "owner": "Eigenaar",
+    "admins": "Beheer",
+    "admin": "Beheer",
+    "status": "Status",
+    "error": "Fout",
+    "version": "Versie",
+    "dashboard": "Dashboard",
+    "documentation": "Documentatie",
+    "edit": "Bewerk",
+    "contactUs": "Contact ons",
+    "support": "Support",
+    "close": "Sluiten",
+    "packet": "Pakket",
+    "user": "Gebruiker",
+    "continue": "Volgende",
+    "every": "Elk",
+    "cart": "Winkelwagen",
+    "shopAdministration": "Winkel administratie",
+    "checkout": "Afrekenen",
+    "toggle": "switch",
+    "addVersion": "Versie toevoegen",
+    "revenue": "Omzet",
+    "partners": "Partners",
+    "_legal": {
+        "messages": {
+            "dataCorrect": "Hierbij garandeer ik dat de opgegeven gegevens (met name het factuuradres) waar en volledig zijn.",
+            "agreeToS": "Ik ga akkoord met de Algemene Voorwaarden.",
+            "agreeTo": "Ik ga akkoord met de {tos}.",
+            "tos": "Servicevoorwaarden",
+            "noWithdraw": "Ik eis en ga er uitdrukkelijk mee akkoord dat Matbye UG al begint met de uitvoering van de gekochte dienst vóór het einde van de herroepingstermijn. Bovendien ben ik me ervan bewust dat ik het herroepingsrecht waar ik wettelijk recht op heb al verlies bij volledige uitvoering van het contract door Matbyte UG."
+        }
+    },
+    "account": "Account",
+    "_account": {
+        "labels": {
+            "balance": "Evenwicht",
+            "autocharge_enabled": "Automatisch opladen ingeschakeld",
+            "autocharge": "Automatisch opladen",
+            "enableAutocharge": "Schakel automatisch opladen in",
+            "nextCharge": "Volgende lading",
+            "chargeOn": "Aan",
+            "autocharge_disabled": "Automatisch opladen uitgeschakeld",
+            "chargeAccount": "Account in rekening brengen"
+        },
+        "messages": {
+            "cancelConfirm": "Weet u zeker dat u de automatische opwaardering wilt annuleren?",
+            "autocharge": "Wanneer Automatisch opladen is ingeschakeld, wordt uw negatieve accountsaldo na het einde van de maand automatisch in rekening gebracht via uw opgeslagen betaalmethode. Er geldt een minimum van 5 EUR per lading.",
+            "noChargeScheduled": "Er is momenteel geen geplande afschrijving. Controleer het opnieuw aan het begin van de volgende maand."
+        }
+    },
+    "enable": "Inschakelen",
+    "users": "Gebruikers",
+    "actions": "Acties",
+    "congratulations": "Gefeliciteerd!",
+    "created": "Gemaakt",
+    "comingSoon": "Binnenkort beschikbaar",
+    "login": "Login",
+    "docs": "Docs",
+    "transactions": "Transacties",
+    "noEntries": "Geen toegang.",
+    "_newsletter": {
+        "thankYou": "Bedankt voor je registratie"
+    },
+    "password": "Wachtwoord",
+    "date": "Datum",
+    "subscribe": "Volger",
+    "description": "Beschrijving",
+    "instances": "Instanties",
+    "packets": "Pakketen",
+    "id": "ID",
+    "availableInstances": "Beschikbare exemplaren",
+    "save": "Opslaan"
+}
