@@ -1302,5 +1302,6 @@
     "setup": "Setup",
     "instructions": "Instructions",
     "writeToConfirm": "Write to confirm:",
-    "add-on": "Add-On"
+    "add-on": "Add-On",
+    "password": "Password"
 }
