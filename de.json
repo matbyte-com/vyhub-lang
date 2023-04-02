@@ -18,7 +18,8 @@
         "faq": "FAQ",
         "docs": "Doku",
         "admin": "Admin",
-        "profile": "Profil"
+        "profile": "Profil",
+        "affiliate": "Partner"
     },
     "_footer": {
         "_about": {
@@ -125,7 +126,7 @@
     "_dashboard": {
         "yourInstances": "Deine Instanzen",
         "currentlyProvisioned": "Diese Instanz wird gerade erstellt",
-        "instanceDeleted": "Diese Instanz ist gelöscht",
+        "instanceDeleted": "Diese Instanz ist gestoppt",
         "detailDialogTitle": "Details",
         "createInstance": "Instanz erstellen",
         "visitInstance": "Besuchen",
@@ -148,7 +149,8 @@
             "stopInstance": "Instanz stoppen",
             "upgradeVersion": "Version updaten",
             "newExpirationDate": "Neues Ablaufdatum",
-            "addons": "Erweiterungen"
+            "addons": "Erweiterungen",
+            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Ich stimme den AGB zu und führe ein Upgrade auf Version 1.4 durch"
         },
         "instanceName": "Name der Instanz",
         "cnamePointingAt": "CNAME zeigt auf",
@@ -189,7 +191,7 @@
             "doNotOpenBeforeReady": "Öffne die Seite nicht, bevor die Instanz bereit ist!",
             "noActivePackets": "Es gibt keine aktiven Abos für diese Instanz. Stelle sicher, dass du die Instanz vor Ende der Laufzeit verlängerst.",
             "noResourcesAvailable": "Es sind derzeit keine Ressourcen für eine neue Instanz verfügbar. Bitte versuche es später noch einmal.",
-            "instanceExtended": "Instanz wurde erfolgreich verlängert."
+            "instanceExtended": "Instanz wurde erfolgreich verlängert"
         },
         "cnameCheckerTool": "CNAME-Überprüfung",
         "extendInstance": "Instanz verlängern",
@@ -197,7 +199,8 @@
         "ownershipTransferSupport": "Bitte kontaktiere den Support, wenn du die Instanz an einen anderen Nutzer übertragen möchtest.",
         "connectOneServer": "Verbinde einen Spielserver",
         "automaticExtension": "Automatische Verlängerung",
-        "setUpAutocharge": "Automatische Zahlungen aktivieren"
+        "setUpAutocharge": "Automatische Zahlungen aktivieren",
+        "revenueFee": "Einnahmegebühr"
     },
     "log": {
         "labels": {
@@ -279,7 +282,20 @@
         "object_create": "{classname} mit id {id}: {params} erstellt.",
         "applied_packet_extended": "Laufzeit des angewendeten Pakets {applied_packet_id} verlängert.",
         "applied_packet_not_extended": "Das Verlängern des Pakets {applied_packet_id}: {reason} ist fehlgeschlagen.",
-        "edit": "Editiert {name}: {key} = {value}"
+        "edit": "Editiert {name}: {key} = {value}",
+        "payment_initiate": "Initiierte {Gateway}-Zahlung. Aktion: {action}, Nachricht: {message}, Code: {status_code}.",
+        "payment_process": "Abwicklung des Zahlungsereignisses. Gateway: {Gateway}, Nachricht: {Nachricht}, Detail: {Detail}.",
+        "refund_finished": "Rückerstattung abgeschlossen. debit_id: {debit_id}, kauf_id: {purchase_id}.",
+        "payment_refund": "{Gateway}-Zahlung zurückerstattet. Aktion: {action}, Nachricht: {message}, Code: {status_code}.",
+        "payment_error": "Zahlungsfehler. Gateway: {gateway}, Nachricht: {message}, Aktion: {action}, Detail: {detail}, Code: {status_code}.",
+        "debit_status_changed": "Abbuchungsstatus geändert. debit_id: {debit_id}, Status: {alter_Status} -> {neuer_Status}.",
+        "autocharge_wrong_account_currency": "Das Konto {account_id} hatte die falsche Währung für die automatische Belastung. Konto: {currency_account}, Kauf: {currency_purchase}",
+        "payment_credits_fail": "Kreditzahlung fehlgeschlagen. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}, reason: {reason}.",
+        "payment_credits_success": "Kreditauszahlung erfolgreich. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}.",
+        "packet_applied": "Angewendetes Paket {packet_title} ({packet_id}) für Benutzer {user_id}. angewandte_paket_id: {angewendete_paket_id}.",
+        "payment_event": "Abwicklung des Zahlungsereignisses. Gateway: {Gateway}, Nachricht: {Nachricht}, Detail: {Detail}.",
+        "purchase_status_changed": "Kaufstatus geändert. Kauf_ID: {Kauf_ID}, Status: {alter_Status} -> {neuer_Status}.",
+        "autocharge_tx_created": "Automatische Belastungstransaktion erstellt. Betrag: {amount}, Lastschrift: {debit_id}, Konto: {account_id}, Benutzer: {user_id}"
     },
     "_address": {
         "labels": {
@@ -323,7 +339,8 @@
         "packet_not_purchasable": "Du kannst dieses Paket nicht kaufen.",
         "too_many_instances": "Du kannst keine weiteren Instanzen erstellen. Bitte kontaktiere den Support um das Limit zu erhöhen.",
         "missing_properties": "Du hast nicht all benötigten Rechte: {properties}",
-        "no_resources_available": "Aktuell gibt es nicht genügend verfügbare Rechenleistung."
+        "no_resources_available": "Aktuell gibt es nicht genügend verfügbare Rechenleistung.",
+        "packet_relation_violated": "Dieses Paket verletzt eine Paketbeziehung mit einem anderen Paket: {relation_type} {packet_title}."
     },
     "_gateway": {
         "labels": {
@@ -338,7 +355,8 @@
         "messages": {
             "createSuccess": "Zahlungsmethode wurde erfolgreich erstellt.",
             "deleteSuccess": "Zahlungsmethode erfolreich gelöscht.",
-            "editSuccess": "Zahlungsmethode erfolgreich editiert."
+            "editSuccess": "Zahlungsmethode erfolgreich editiert.",
+            "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird."
         }
     },
     "_shop": {
@@ -404,8 +422,10 @@
             "couponNotApplied": "Der Coupon konnte auf kein Paket im Warenkorb angewendet werden.",
             "selectBillingAddressFirst": "Bitte gebe zuerst eine Rechnungsadresse an.",
             "variablePricePaymentSuccess": "Zahlungsmethode erfolgreich für zukünftige Nutzung erstellt.",
-            "startingPaymentFailed": "stop",
-            "paymentFailed": "Ein Fehler ist während des Zahlvorgangs aufgetreten. Bitte starte den Kauf erneut."
+            "startingPaymentFailed": "Es gab einen Fehler beim Starten der Zahlung. Bitte versuche es erneut oder nutze eine andere Zahlungsmethode!",
+            "paymentFailed": "Ein Fehler ist während des Zahlvorgangs aufgetreten. Bitte starte den Kauf erneut.",
+            "paymentActionFailed": "Beim Weiterleiten auf die Zahlungsseite ist ein Fehler aufgetreten. Bitte versuchen es erneut oder verwende eine andere Zahlungsmethode! Fehlermeldung: {message}",
+            "noOngoingPurchase": "Derzeit gibt es keinen laufenden Zahlungsvorgang. Bitte starte diesen im Warenkorb."
         },
         "purchaseStatus": {
             "cancelled": "Abgebrochen",
@@ -467,8 +487,8 @@
         "vatNumber": "Steueridentifikationsnummer"
     },
     "_newInstance": {
-        "description": "Starte mit deiner eigenen VyHub-Instanz!{br}Keine Zahlungsinformationen erforderlich!{br}{br}Wenn du Fragen Habens solltest, lies bitte unsere {Dokumentation}.",
-        "prepaidDescription": "Jedes Mal, wenn der VyHub-Zeitraum endet, musst du manuell für den nächsten Zeitraum vorausbezahlen.",
+        "description": "Starte mit deiner eigenen VyHub-Instanz!{br}Keine Zahlungsinformationen erforderlich!{br}{br}Wenn du Fragen haben solltest, lies bitte unsere {documentation}.",
+        "prepaidDescription": "Jedes Mal, wenn der Zeitraum endet, musst du manuell für den nächsten Zeitraum vorausbezahlen.",
         "recurringDescription": "VyHub wird vor Ablauf des Zeitraums automatisch verlängert. Die Zahlung erfolgt automatisch. Du kannst bis zu 3 Tage vor Beginn des nächsten Monats kündigen.",
         "title": "Erstelle eine neue Instanz",
         "loginRegister": "Einloggen / Registrieren",
@@ -493,9 +513,18 @@
                 "headline5": "Rabatte",
                 "title6": "Zahlungsmethoden",
                 "headline6": "Zahlungsmethoden",
-                "headline1": "Unbegrenzte Pakete"
+                "headline1": "Unbegrenzte Pakete",
+                "title1": "Pakete",
+                "title3": "Prämien",
+                "text1": "Pakete sind die Grundlage jedes Webshops. Erstelle deine eigenen Pakete, die du auf der Website für echtes Geld verkaufen kannst. Du kannst Pakete in verschiedenen Kategorien organisieren, um deinen Spielern ein besseres Erlebnis zu bieten. Pakete können Einzelkäufe oder wiederkehrende Zahlungen sein.",
+                "text3": "Immer wenn ein Spieler ein Paket kauft, können verschiedene Prämien ausgeführt werden. Prämien können alles sein, von Ingame-Währung bis hin zu Item-Drops. Mit den Prämien kannst du jeden Ingame-Befehl ausführen. Außerdem kannst du Spielern auch Ränge geben!",
+                "title7": "PaketErweiterungen",
+                "text5": "Du kannst deinen Spielern Rabatte gewähren. Diese Rabatte können für den gesamten Shop oder nur für bestimmte Pakete gelten. Auf diese Weise kannst du Spieler für gute Leistungen belohnen.",
+                "headline7": "Paket Erweiterungen",
+                "headline3": "Unbegrenzte Prämien"
             },
-            "title": "Shop"
+            "title": "Shop",
+            "subtitle": "Verkaufe Ränge und Ingame-Gegenstände für echtes Geld."
         },
         "_cutomizability": {
             "_features": {
@@ -523,9 +552,68 @@
                 "headline1": "Banns",
                 "text2": "Du kannst Nutzer verwarnen, welche auch nach einer bestimmten Anzahl von Verwarnungen automatisch gebannt werden.",
                 "headline3": "Forum",
-                "text3": "Deine Spieler können sich in unserem Forum austauschen. Weiterhin ist es möglich, Teameigene Bereiche zu erstellen."
+                "text3": "Deine Spieler können sich in unserem Forum austauschen. Weiterhin ist es möglich, Teameigene Bereiche zu erstellen.",
+                "headline4": "Ticket system",
+                "text1": "Mit VyHub kannst du Spieler von deinen Gameservern verbannen. Banns können für eine Reihe von Gameservern oder global für alle deine Server erstellt werden. Benutzer haben die Möglichkeit, einen Bann-Protest zu erstellen, der dann von den Admins eingesehen werden kann.",
+                "text5": "Gruppen können Teil des Teams sein. Es wird automatisch eine Teamseite erstellt, die es den Spielern ermöglicht, die richtige Person zu finden.",
+                "text4": "Um deine Community besser zu verwalten und den Supportprozess zu vereinfachen, bietet VyHub ein Ticketsystem. Spieler können Tickets erstellen, die dann von Teammitgliedern gelöst werden.",
+                "title6": "Anzeigen",
+                "title4": "Ticket-System",
+                "title5": "Teamseite",
+                "headline5": "Teamseite",
+                "headline6": "Anzeigen",
+                "text6": "Wiederkehrende Anzeigen sind kleine Nachrichten, die periodisch auf den Gameservern angekündigt werden können."
             },
             "title": "Community"
+        },
+        "_furtherFeatures": {
+            "_features": {
+                "title1": "SSL",
+                "headline2": "Mehrsprachige Unterstützung",
+                "headline3": "Voll funktionsfähige API",
+                "text3": "VyHub kommt mit einer voll funktionsfähigen REST-API. Du kannst diese API verwenden, um alles (und mehr) zu tun, was du auch mit dem Frontend machen könntest. Auch eigene Plugins, die die API integrieren, sind möglich.",
+                "text4": "VyHub komm mit einer kostenlosen Subdomain vyhub.app. Wenn du lieber deine eigene Adresse verwenden, ist dies möglich! Die Nutzung einer eigenen Domain gratis.",
+                "title3": "Voll funktionsfähige API",
+                "title4": "Eigene Webseitenadresse verwenden",
+                "headline4": "Optional: Verwende eine eigene Webseitenadresse",
+                "headline1": "Gratis SSL Zertifikat",
+                "title2": "Sprachen",
+                "text2": "Um VyHub besser zu personalisieren und mit deiner Community zu interagieren, ist VyHub in mehrere Sprachen übersetzt. Derzeit werden drei Sprachen vollständig unterstützt, weitere Sprachen werden derzeit übersetzt! VyHub Nutzer wie du können bei der Übersetzung helfen."
+            },
+            "subtitle": "Es gibt noch viel mehr zu entdecken.",
+            "title": "Weitere Funktionen"
+        },
+        "_dashboard": {
+            "_features": {
+                "title2": "Server-Dashboard",
+                "headline1": "Spieler-Dashboard",
+                "title3": "SpielerStatistiken",
+                "title1": "Dashboard",
+                "text1": "Über das Spieler-Dashboard kannst du alle wichtigen Informationen auf einen Blick sehen. Dies schließt alle verbundenen Konten des Spielers ein. Außerdem werden Statistiken auf dem Dashboard angezeigt. Standardmäßig wird die Spielzeit aufgezeichnet, es können jedoch noch weitere Statistiken angezeigt werden!",
+                "headline3": "Spielerstatistiken",
+                "headline2": "Server-Dashboard",
+                "text2": "Sieh dir alle Online-Spieler mit dem Server-Dashboard an. Über dieses Dashboard kannst du von einem Ort aus auf alle wichtigen spieler- und spielbezogenen Funktionen zugreifen.",
+                "title4": "Spielergruppen",
+                "headline4": "Spielergruppen"
+            },
+            "title": "Dashboard",
+            "subtitle": "Alle Spielerinformationen auf einen Blick."
+        },
+        "_groupsAndTeams": {
+            "_features": {
+                "headline2": "Belohne Spieler mit Gruppen",
+                "title1": "Gruppen",
+                "headline1": "Erstelle eigene Gruppen",
+                "title3": "Berechtigungssystem",
+                "headline3": "Berechtigungssystem",
+                "text1": "Gruppen sind die Grundlage des in VyHub implementierten Berechtigungssystems. Jeder Spieler kann einer oder mehreren Gruppen angehören. Die Gruppen können unterschiedliche Berechtigungen haben. Gruppen können auch nach einem Kauf vergeben werden.",
+                "title2": "BelohneSpieler",
+                "text3": "Alle Funktionen auf der Website werden durch Berechtigungen geschützt. Jede Gruppe, die du erstellst, kann unterschiedliche Berechtigungen haben. Dadurch ist es möglich, eine Hierarchie von Gruppen zu erstellen. Dies kann vollständig an deine Anforderungen angepasst werden, um beispielsweise Gruppen für Teammitglieder zu erstellen.",
+                "title4": "Berechtigungsstufen",
+                "headline4": "Berechtigungsstufen"
+            },
+            "subtitle": "Du kannst Gruppen und Berechtigungen einfach verwalten.",
+            "title": "Gruppen und Teams"
         }
     },
     "_games": {
@@ -538,11 +626,14 @@
             "discordPlayerSync": "Benutzerrollen synchronisieren",
             "periodicAdverts": "Regelmäßige Nachrichten",
             "reservedSlots": "Reservierte Slots",
-            "warnings": "Verwarnungen"
+            "warnings": "Verwarnungen",
+            "rewards": "Unendliche Möglichkeiten mit Prämien (benutzerdefinierte Befehle/Skripte, Ingame-Geld, Item-Drops...)",
+            "playerSync": "Benutzerrollen synchronisieren"
         },
         "minecraftDescription": "VyHub unterstützt Minecraft, das meistgespielte überlebens-Sandbox-Spiel. Derzeit erfordert dieses Plugin Java >= 17 und Minecraft >= 1.13.",
         "discordDescription": "VyHub unterstützt Discord, die kostenlose Sprach-, Video- und Text-Chat-App.",
-        "gmodDescription": "VyHub unterstützt Garry's Mod, der bekannte Physikbaukasten."
+        "gmodDescription": "VyHub unterstützt Garry's Mod, der bekannte Physikbaukasten.",
+        "teamspeakDescription": "VyHub unterstützt TeamSpeak, den Voice-Chat, bei dem du die volle Kontrolle hast."
     },
     "amount": "Betrag",
     "country": "Land",
@@ -578,7 +669,10 @@
             "declineDebitText": "Kauf abbrechen? Dies kann nicht rückgängig gemacht werden.",
             "revenueByCountry": "Umsatz nach Land",
             "paymentGateway": "Zahlungsmethode",
-            "coupon": "Coupon"
+            "coupon": "Coupon",
+            "showApprovedDebits": "Genehmigte Abbuchungen anzeigen",
+            "addAppliedReward": "Angewendete Prämie hinzufügen",
+            "reward": "Prämie"
         },
         "messages": {
             "refundInitSuccess": "Erstattung erfolgreich gestartet.",
@@ -591,7 +685,8 @@
             "refundConfirm": "Bist du dir sicher, dass du den Kauf zurückerstatten möchtest?",
             "cancelSubscriptionConfirm": "Bist du dir sicher, dass du das Abo kündigen möchtest?",
             "confirmPurchaseSuccess": "Kauf erfolgreich bestätigt",
-            "declinePurchaseSuccess": "Kauf erfolgreich abgebrochen"
+            "declinePurchaseSuccess": "Kauf erfolgreich abgebrochen",
+            "cancelSubscriptionSuccess": "Abonnement erfolgreich gekündigt."
         }
     },
     "extend": "Verlängern",
@@ -604,7 +699,9 @@
         "headline": "Bist du bereit, dass Beste Spielserververwaltungssystem zu bewerben?",
         "lifetimeCustomerValue": "Lebenslanger Kundenwert",
         "comingSoon": "Erscheint bald",
-        "description2": "Dein Vyhub.net Nutzerkonto enthält bereits einen Partnerlink zum Teilen"
+        "description2": "Dein Vyhub.net Nutzerkonto enthält bereits einen Partnerlink zum Teilen",
+        "description1": "Ihre Freunde und Follower werden es dir danken, wenn sie VyHub zum ersten Mal ausprobieren.{br} Du bekommst außerdem eine wiederkehrende Provision von 25 %.",
+        "grabAffiliateLink": "Hol deinen Affiliate-Link"
     },
     "back": "Zurück",
     "shop": "Shop",
@@ -616,10 +713,35 @@
         "feature3": "Unbegrenzte Pakete",
         "feature4": "Subdomain enthalten",
         "feature5": "Eigene Domain möglich",
-        "feature6": "Kostenloses SSL-Zertifikat",
+        "feature6": "Aktualisierungen enthalten",
         "allFeatures": "Alle kostenlose Funktionen",
-        "hosted": "Gehosted",
-        "feature7": "Unterstützt mehrere Gameserver"
+        "hosted": "Selbst gehostet",
+        "feature7": "Kostenloses SSL-Zertifikat",
+        "q2": "Gibt es eine kostenlose Testversion?",
+        "a2": "Ja! Da wir keinen monatlichen Preis berechnen, kannst du VyHub komplett kostenlos nutzen und testen.",
+        "startNow": "Starte jetzt",
+        "smallCommission": "Kleine Provision auf deinen Umsatz",
+        "a1": "VyHub kann kostenlos verwendet werden. Du kannst es so lange verwenden, wie du magst. Wir berechnen nur eine kleine Provision auf deinen monatlichen Umsatz. Du zahlst also nur, wenn du Geld verdienst. Weitere Einzelheiten zu den Gebühren findest du in unserer <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">Dokumentation</a>.",
+        "a3": "Da es kein Abonnement gibt, musst du nichts kündigen.",
+        "a4": "Bitte kontaktiere unser Vertriebsteam unter <a href=\"mailto:info@vyhub.net\">info@vyhub.net</a> mit einer kurzen Beschreibung deiner Community und deinen Anforderungen. Wir werden uns so schnell wie möglich bei dir melden.",
+        "noMonthlySubscription": "Kein monatliches Abonnement",
+        "q1": "Was kostet VyHub? Ist es wirklich kostenlos?",
+        "feature8": "Unterstützt mehrere Gameserver",
+        "shFeature1": "Einziges selbst gehostetes System auf dem Markt",
+        "shFeature2": "Selbst gehostetes Front- und Backend",
+        "shFeature3": "Alle VyHub-Funktionen",
+        "shFeature4": "Premium-Erweiterungen enthalten",
+        "shFeature6": "Vollständiger Datenbankzugriff",
+        "shFeature5": "Aktualisierungen enthalten",
+        "revenue/Month": "Umsatz / Monat",
+        "fact1": "Du zahlst nur, wenn du mit VyHub Geld verdienst",
+        "fact2": "Je mehr du verdienst, desto mehr sparst du an Gebühren",
+        "fact3": "Sonderkonditionen für große Spieleserver verfügbar",
+        "q3": "Kann ich jederzeit kündigen?",
+        "q4": "Gibt es Rabatte für größere Spieleserver?",
+        "addons": {
+            "communication": "Kommunikations-Addon"
+        }
     },
     "register": "Registrieren",
     "date": "Datum",
@@ -661,7 +783,13 @@
         "yourAffiliateLink": "Dein Partnerlink",
         "currentBalance": "Aktuelles Guthaben",
         "pendingBalance": "Ausstehendes Guthaben",
-        "totalPaid": "Auszahlung Gesamt"
+        "totalPaid": "Auszahlung Gesamt",
+        "affiliateResources": "Affiliate-Ressourcen",
+        "recipient": "Empfänger",
+        "iban": "IBAN",
+        "currentBalanceDescription": "Zur Auszahlung verfügbares Guthaben.",
+        "pendingBalanceDescription": "Unbezahlte Gebühren der Nutzer (Bearbeitung kann bis zu 4 Wochen dauern).",
+        "affiliateDashboard": "Partner Dashboard"
     },
     "message": "Nachricht",
     "acceptPrivacy": "Ich akzeptiere die Datenschutzerklärung",
@@ -671,7 +799,7 @@
     "username": "Nutzername",
     "email": "Email",
     "password": "Passwort",
-    "activeUntil": "Aktiv bi",
+    "activeUntil": "Aktiv bis",
     "price": "Preis",
     "summary": "Zusammenfassung",
     "description": "Beschreibung",
@@ -718,7 +846,19 @@
     "delete": "Löschen",
     "_account": {
         "labels": {
-            "chargeAccount": "Account aufladen"
+            "chargeAccount": "Account aufladen",
+            "chargeOn": "am",
+            "balance": "Kontostand",
+            "autocharge_enabled": "Automatisches Aufladen aktiviert",
+            "autocharge_disabled": "Automatisches Aufladen deaktiviert",
+            "autocharge": "Automatisches Aufladen",
+            "enableAutocharge": "Automatisches Aufladen aktivieren",
+            "nextCharge": "Nächste Zahlung"
+        },
+        "messages": {
+            "autocharge": "Wenn Auto-Charge aktiviert ist, wird dein negativer Kontostand nach Monatsende automatisch von deiner hinterlegten Zahlungsmethode abgebucht. Es gilt ein Mindestbetrag von 5 EUR pro Zahlung.",
+            "noChargeScheduled": "Derzeit ist keine Zahlung geplant. Bitte schaue zu Beginn des nächsten Monats noch einmal vorbei.",
+            "cancelConfirm": "Sind Sie sicher, dass Sie die automatische Kontoaufladung abbrechen möchten?"
         }
     },
     "domain": "Domain",
@@ -731,5 +871,36 @@
             "needHelp": "Du brauchst Hilfe? Erstelle ein Ticket.",
             "requestSendSuccess": "Ticket erfolgreich abgeschickt. Du solltest zeitnah eine Bestätigungsmail erhalten."
         }
-    }
+    },
+    "payments": "Zahlungen",
+    "success": "Erfolg",
+    "loginRegister": "Anmelden / Registrieren",
+    "subscribe": "Abonnieren",
+    "_legal": {
+        "messages": {
+            "dataCorrect": "Hiermit versichere ich, dass die angegebenen Daten (insbesondere Rechnungsadresse) wahrheitsgemäß und vollständig sind.",
+            "agreeToS": "Ich stimme den Nutzungsbedingungen zu.",
+            "noWithdraw": "Ich fordere und stimme ausdrücklich zu, dass die Matbye UG bereits vor Ablauf der Widerrufsfrist mit der Ausführung der erworbenen Leistung beginnt. Ferner ist mir bekannt, dass ich das mir gesetzlich zustehende Widerrufsrecht bereits mit vollständiger Vertragserfüllung durch die Matbyte UG verliere.",
+            "agreeTo": "Ich stimme den {tos} zu.",
+            "tos": "Nutzungsbedingungen"
+        }
+    },
+    "revenue": "Umsatz",
+    "partners": "Partner",
+    "docs": "Dokumente",
+    "shopAdministration": "Shop-Verwaltung",
+    "checkout": "Kasse",
+    "toggle": "Umschalten",
+    "addVersion": "Version hinzufügen",
+    "availableInstances": "Verfügbare Instanzen",
+    "save": "Speichern",
+    "created": "Erstellt",
+    "_newsletter": {
+        "thankYou": "Danke für die Registrierung!"
+    },
+    "giftCodes": "Geschenkcodes",
+    "authorizeApplication": "Applikation autorisieren",
+    "details": "Einzelheiten",
+    "account": "Konto",
+    "comingSoon": "Demnächst"
 }
