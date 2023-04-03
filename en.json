@@ -568,6 +568,7 @@
         "transactionId": "Transaction ID",
         "currentBalanceDescription": "Balance available for payout.",
         "pendingBalanceDescription": "Unpaid fees by the user (may take up to 4 weeks to be processed).",
+        "minimumPayout5€": "Minimum Payout 5 €",
         "iban": "IBAN",
         "status": {
             "created": "Created",
