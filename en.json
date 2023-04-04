@@ -719,7 +719,7 @@
             "createSuccess": "Payment gateway successfully created.",
             "deleteSuccess": "Payment gateway successfully deleted.",
             "editSuccess": "Payment gateway successfully edited.",
-            "formAttributeChangeExplanation": "The attributes below will not be edited if no value is given and are write-only, meaning your input will not be shown again."
+            "formAttributeChangeExplanation": "The attributes below will not be edited if no value is given."
         }
     },
     "_taxRule": {
@@ -972,7 +972,8 @@
         }
     },
     "_forum": {
-        "title": "Forum",
+        "title": "Title",
+        "forum": "Forum",
         "ticket:": "Ticket",
         "manageTopicCategories": "Manage Topic Categories",
         "manageTopics": "Manage Topics",
@@ -1131,7 +1132,8 @@
             "faq_edit": "Edit FAQ in settings",
             "reserved_slot_use": "Use reserved slots on a server",
             "advert_show": "View adverts",
-            "advert_edit": "Manage adverts"
+            "advert_edit": "Manage adverts",
+            "forum_edit": "Manage forum"
         }
     },
     "update": "Update",
@@ -1207,6 +1209,7 @@
     "user": "User",
     "creator": "Creator",
     "select": "Select",
+    "selectAll": "Select All",
     "add": "Add",
     "name": "Name",
     "percentage": "Percentage",
