@@ -659,7 +659,7 @@
             },
             "CENTRAL": {
                 "name": "VyHub Central",
-                "info": "Die Plattform zur Verwaltung von Gameservern"
+                "info": "Die Plattform zum Verwalten und Monetarisieren von Gameservern."
             },
             "TEAMSPEAK3": {
                 "info": "Voice-Chat für Gamer.",
@@ -799,7 +799,7 @@
             "PERMISSION_LEVEL_SB": "Berechtigungswert (in Serverbundle)",
             "PROPERTY_SB": "Berechtigung (in Serverbundle)",
             "USER_ATTRIBUTE": "Nutzer Attribut",
-            "PACKET": "Packet"
+            "PACKET": "Paket"
         },
         "messages": {
             "addedSet": "Berechtigungsset hinzugefügt",
@@ -852,7 +852,7 @@
         "faq": "FAQ",
         "about": "Über",
         "dashboard": "Dashboard",
-        "shopAdministration": "Shop - Administration",
+        "shopAdministration": "Shop - Verwaltung",
         "legal": "Rechtliches",
         "warnings": "Verwarnungen",
         "forum": "Forum"
@@ -1092,7 +1092,7 @@
         "add": "Frage hinzufügen",
         "formTitle": "Titel",
         "formContent": "Inhalt",
-        "html": "HTML ist in diesem Feld erlaubt"
+        "html": "HTML ist in diesem Feld erlaubt."
     },
     "unexpectedError": "Unerwarteter Fehler",
     "automatic": "Automatisch",
