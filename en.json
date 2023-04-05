@@ -115,7 +115,7 @@
             "question2": "How much does VyHub cost?",
             "answer2": "Installing and using VyHub is free of charge. We only charge a small commission on your monthly revenue. So you only pay when you make money.",
             "question3": "Do you offer a free trial?",
-            "answer3": "Yes! Since we do not charge a monthly price, you are able to use and test VyHub completely for free",
+            "answer3": "Yes! Since we do not charge a monthly price, you are able to use and test VyHub completely for free.",
             "question4": "Can I use my own domain?",
             "answer4": "Yes, you can use your existing domain by creating a CNAME record that points to your VyHub instance.",
             "question5": "I am a GExtension user. Can I migrate my data to VyHub?",
