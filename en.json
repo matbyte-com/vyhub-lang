@@ -124,6 +124,7 @@
             "answer6": "Please first read our <a target=\"_blank\" href=\"https://docs.vyhub.net\">documentation</a> for technical questions. You can contact us by using the contact form below."
         },
         "pageSubtitle": "The all-in-one management & monetization platform {br}for your gaming community",
+        "announcement": "VyHub is now free! Checkout our pricing.",
         "keyFeatures": "Key Features",
         "rightManagement": "Access Control",
         "bansWarnings": "Bans & Warnings",
@@ -759,7 +760,7 @@
         "q4": "Are there any discounts for major communities?",
         "a4": "Please contact our sales-team at <a href=\"mailto:info@vyhub.net\">info@vyhub.net</a> with a short description of your community and your requirements. We will get back to you as soon as possible.",
         "addons": {
-            "communication": "Communication Addon"
+            "communication": "Communication Add-on"
         }
     },
     "_newsletter": {
