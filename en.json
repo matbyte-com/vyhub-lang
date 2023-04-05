@@ -972,7 +972,6 @@
         }
     },
     "_forum": {
-        "title": "Title",
         "forum": "Forum",
         "ticket:": "Ticket",
         "manageTopicCategories": "Manage Topic Categories",
