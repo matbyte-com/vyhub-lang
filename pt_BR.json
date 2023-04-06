@@ -1,1 +1,336 @@
-{}
+{
+    "_header": {
+        "labels": {
+            "logout": "Sair",
+            "register": "Inscreva-se"
+        },
+        "start": "Começar",
+        "features": "Características",
+        "games": "Jogos",
+        "pricing": "Preços",
+        "partners": "Parceiros",
+        "blog": "Blog",
+        "dashboard": "Painel",
+        "contact": "Contato",
+        "faq": "FAQ",
+        "docs": "Docs",
+        "admin": "Admin",
+        "profile": "Perfil",
+        "affiliate": "Afiliado",
+        "purchases": "Compras",
+        "demo": "Demo"
+    },
+    "_footer": {
+        "about": "Sobre VyHub",
+        "help": "Conseguindo ajuda",
+        "company": "Companhia",
+        "_about": {
+            "features": "Características",
+            "pricing": "Preços",
+            "blog": "Blog",
+            "demo": "Demo",
+            "supportedGames": "Jogos Suportados"
+        },
+        "_help": {
+            "support": "Suporte",
+            "docs": "Documentação"
+        },
+        "_company": {
+            "partners": "Parceiros",
+            "affiliateProgram": "Programa de Afiliados"
+        },
+        "_legal": {
+            "about": "Sobre",
+            "termsOfService": "Termos de Serviço",
+            "privacyPolicy": "Política de Privacidade"
+        },
+        "legal": "Jurídico"
+    },
+    "_invoice": {
+        "invoice": "Fatura",
+        "deliveryDate": "Data de Entrega",
+        "vatNumber": "Número IVA",
+        "paymentMethod": "Método de Pagamento",
+        "transaction": "Transação",
+        "item": "Item",
+        "quantity": "Quantidade",
+        "price": "Preço",
+        "subtotalNoVat": "Subtotal (Sem IVA)",
+        "vat": "IVA",
+        "total": "Total",
+        "invoiceDate": "Data de Fatura"
+    },
+    "log": {
+        "labels": {
+            "log": "Registro"
+        }
+    },
+    "_home": {
+        "sections": {
+            "shop": {
+                "bulletPoint1": "Crie seus próprios produtos e recompensas",
+                "bulletPoint2": "Integração perfeita com outros mods",
+                "bulletPoint3": "Processamento automático de pagamentos (PayPal, Stripe, Paysafecard)",
+                "bulletPoint5": "Estatísticas de vendas ricas",
+                "description": "Crie seu próprio site e monetize seu servidor de jogo com nosso sistema de loja avançado, mas fácil de usar.",
+                "bulletPoint4": "Ofertas condicionais, códigos de desconto e muito mais"
+            },
+            "bansWarnings": {
+                "bulletPoint1": "Banir e avisar os jogadores no jogo ou através do painel da web",
+                "bulletPoint2": "Integração com outros mods",
+                "description": "Gerencie sua comunidade e imponha suas regras de servidor com nosso sofisticado sistema de banimento e advertência."
+            },
+            "andMore": {
+                "description": "VyHub está repleto de pequenos e grandes recursos adicionais que contribuem para uma ótima experiência do usuário.",
+                "bulletPoint1": "Página de notícias",
+                "bulletPoint3": "Sistema de Tickets",
+                "bulletPoint4": "Página da Equipe"
+            }
+        },
+        "endcards": {
+            "simple": {
+                "bulletPoint1": "Diga adeus a todos os tipos de plugins desnecessários",
+                "bulletPoint2": "Contato direto com os desenvolvedores para melhorias",
+                "bulletPoint3": "Painel da Web fácil de usar"
+            },
+            "customizable": {
+                "bulletPoint1": "Totalmente ajustável e personalizável para suas necessidades",
+                "bulletPoint2": "Personalize a imagem de fundo e o esquema de cores",
+                "bulletPoint4": "Use seu próprio (sub)domínio",
+                "bulletPoint3": "Upload html para criar suas próprias subpáginas"
+            },
+            "hasslefree": {
+                "bulletPoint1": "Nenhum espaço web próprio necessário",
+                "bulletPoint3": "Sem custos ocultos",
+                "bulletPoint4": "Configuração rápida",
+                "bulletPoint2": "Atualizações Automáticas"
+            }
+        },
+        "_faq": {
+            "question2": "Quanto custa o VyHub?",
+            "answer2": "A instalação e utilização do VyHub é gratuita. Cobramos apenas uma pequena comissão sobre sua receita mensal. Então você só paga quando ganha dinheiro.",
+            "question3": "Você oferece uma avaliação gratuita?",
+            "answer3": "Sim! Como não cobramos mensalidade, você pode usar e testar o VyHub totalmente de graça",
+            "question4": "Posso usar meu próprio domínio?",
+            "question5": "Eu sou um usuário do GExtension. Posso migrar meus dados para o VyHub?",
+            "question6": "Onde consigo ajuda?",
+            "question1": "O que torna VyHub especial em comparação com nossos concorrentes?",
+            "answer1": "VyHub é mais do que uma simples loja virtual. É um gerenciamento de comunidade completo que oferece recursos importantes, como proibições e avisos.",
+            "answer4": "Sim, você pode usar seu domínio existente criando um registro CNAME que aponte para sua instância VyHub.",
+            "answer5": "Sim, você pode facilmente <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">importar</a> seus dados.<br/><br/>",
+            "answer6": "Por favor, primeiro leia nossa <a target=\"_blank\" href=\"https://docs.vyhub.net\"> documentação</a>para questões técnicas. Você pode entrar em contato conosco usando o formulário de contato abaixo."
+        },
+        "pageSubtitle": "A plataforma completa de gerenciamento e monetização {br} para sua comunidade de jogos",
+        "keyFeatures": "Características principais",
+        "rightManagement": "Controle de Acesso",
+        "bansWarnings": "Proibições e Advertências",
+        "ourGoals": "Nossos Objetivos",
+        "andMore": "E muito mais...",
+        "supportedGames": "Jogos / Integrações Suportados",
+        "ourAmbitions": "Nossa Ambição",
+        "features": "Características",
+        "shop": "Comprar",
+        "discordIntegration": "Integração com Discord",
+        "joinOurDiscord": "Junte-se ao nosso Discord",
+        "faq": "Perguntas Frequentes",
+        "viewAllFeatures": "Ver todos os recursos",
+        "simple": "Simples",
+        "customizable": "Customizável",
+        "hasslefree": "Sem complicações"
+    },
+    "_dashboard": {
+        "title": "Painel",
+        "yourInstances": "Suas instâncias",
+        "visitInstance": "Visite",
+        "createInstance": "Criar Instância",
+        "currentlyProvisioned": "Esta instância está sendo criada no momento",
+        "instanceDeleted": "Esta instância está parada",
+        "detailDialogTitle": "Detalhes"
+    },
+    "_newInstance": {
+        "title": "Criar Nova Instância",
+        "loginRegister": "Entrar / Registrar",
+        "recurringDescription": "VyHub é renovado automaticamente antes do final do período. O pagamento é feito automaticamente. Você pode cancelar até 3 dias antes do início do próximo mês.",
+        "prepaidDescription": "Toda vez que o período do VyHub termina, você deve pagar manualmente e antecipadamente pelo próximo período.",
+        "creditCardButton": "Cartão de Crédito ou Débito",
+        "name": "Nome da instância",
+        "domainDescription": "Domínio para sua instância. Deixe em branco se você não tiver um.",
+        "customDomain": "Domínio personalizado",
+        "success": "Pode levar até 10 minutos para que sua instância seja criada.{br}Vá para o {painel} para visualizar o status.",
+        "description": "Comece com sua própria instância do VyHub!{br}Não são necessárias informações de pagamento!{br}{br}Se surgirem dúvidas, leia nossa {documentação}.",
+        "currency": "EUR / Mês",
+        "customDomainDescription": "Você precisa possuir um domínio e criar um registro CNAME nas configurações de DNS do seu registrador de domínio. Leia o {docsLink} para mais informações."
+    },
+    "_instance": {
+        "labels": {
+            "edit": "Editar Instância",
+            "daysLeft": "dias restantes",
+            "newExpirationDate": "Nova data de expiração",
+            "noTimeLeft": "Não há mais tempo",
+            "upgradeVersion": "Versão Atualizada",
+            "frontendUrl": "FrontEnd URL",
+            "addons": "Complementos",
+            "cname": "CNAME",
+            "apiUrl": "API URL",
+            "activePackets": "Pacotes Ativos",
+            "addAdmin": "Adicionar Administrador",
+            "stopInstance": "Parar Instância",
+            "resumeInstance": "Retomar Instância",
+            "transferOwnership": "Transferir Propriedade",
+            "advancedSettings": "Configurações Avançadas",
+            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Concorde com os Termos de Serviço e Atualize para a versão 1.4"
+        },
+        "cnamePointingAt": "CNAME apontando para",
+        "statusHelp": "Entre em contato com o suporte se o status não mudar após 10 minutos.",
+        "statusHelpProvisioned": "Sua instância está pronta para uso agora. Se o site não carregar, tente limpar o cache DNS ou reinicie o roteador. Se isso não resolver o problema, entre em contato com o suporte.",
+        "editInstance": "Editar Instância",
+        "editedInstance": "Instância editada com sucesso",
+        "deletedInstance": "Instância excluída com sucesso",
+        "version": "Versão",
+        "autoUpdate": "Instala automaticamente atualizações de patch inquebráveis",
+        "autoUpdateDescription": "A instância é atualizada automaticamente em determinada hora UTC",
+        "autoUpdateActivated": "Atualização automática ativada",
+        "extendInstance": "Estender Instância",
+        "ownershipTransferSupport": "Entre em contato com o suporte se quiser transferir a propriedade de sua instância para outro usuário.",
+        "automaticExtension": "Extensão Automática",
+        "setUpAutocharge": "Configurar o Carregamento Automático",
+        "connectOneServer": "Conecte um servidor de jogo",
+        "_status": {
+            "PROVISION": "Configurando Front-end",
+            "PROVISIONED": "Pronto",
+            "REPROVISION": "Aplicando alterações ao servidor de API",
+            "DELETE": "Parando",
+            "UNPROVISIONED": "Configurando o servidor de API",
+            "DELETED": "Parou"
+        },
+        "admins": "Administradores",
+        "owner": "Proprietário",
+        "error": {
+            "user_not_admin": "Usuário não administrador",
+            "user_not_found": "Usuário não encontrado"
+        },
+        "messages": {
+            "removedAdmin": "Administrador removido com sucesso.",
+            "noResourcesAvailable": "No momento, não há recursos disponíveis para uma nova instância. Por favor, tente novamente mais tarde.",
+            "instanceReady": "Sua instância está pronta!",
+            "doNotOpenBeforeReady": "Não abra esta página antes que sua instância esteja pronta!",
+            "instanceExtended": "Instância estendida com sucesso",
+            "addedAdmin": "Administrador adicionado com sucesso.",
+            "noActivePackets": "Não há assinaturas ativas para esta instância. Certifique-se de estender sua instância antes do final do tempo de execução."
+        },
+        "cnameCheckerTool": "Ferramenta de verificação de CNAME",
+        "revenueFee": "Taxa de Receita",
+        "instanceName": "Nome da Instância",
+        "setCNAMEDescription": "Crie um registro DNS CNAME para seu domínio personalizado com este destino. Isso aponta seu domínio personalizado para esta instância do VyHub.",
+        "addAdmin": "Adicionar Administrador",
+        "statusHelpProvision": "Se esse status não mudar em 5 minutos, o registro CNAME para seu domínio personalizado provavelmente não foi definido corretamente. Verifique a documentação ou entre em contato com o suporte se precisar de ajuda.",
+        "autoUpdateTime": "Hora da atualização automática (UTC)",
+        "extendInstanceDescription": "O tempo de execução de sua instância pode ser estendido 7 dias antes do final. Se a instância não for estendida no tempo, ela será interrompida."
+    },
+    "_form": {
+        "login": {
+            "login": "Login",
+            "register": "Registre-se",
+            "email": "E-mail",
+            "emailConfirmation": "Código de E-mail",
+            "username": "Nome de usuário",
+            "password": "Senha",
+            "continue": "Continuar",
+            "sendConfirmationCode": "Enviar Código",
+            "registrationRequired": "Registro Requerido",
+            "forgotPassword": "Esqueceu sua senha",
+            "error": {
+                "password_no_match": "Verifique o campo de confirmação da senha",
+                "username_taken": "O nome de usuário já está em uso",
+                "username_not_allowed": "Nome de usuario não permitido",
+                "email_taken": "O e-mail já está em uso. Por favor entre.",
+                "invalid_request": "Senha Inválida",
+                "captcha_low": "Por favor, complete o Captcha",
+                "confirmation_code_no_match": "Verifique o código de confirmação no e-mail"
+            },
+            "passwordConfirmation": "Confirmação de Senha"
+        },
+        "contact": {
+            "firstName": "Primeiro Nome",
+            "lastName": "Sobrenome",
+            "email": "E-mail",
+            "subject": "Assunto",
+            "message": "Mensagem",
+            "acceptPrivacy": "Aceitar Política de Privacidade"
+        },
+        "validation": {
+            "required": "Este campo é obrigatório",
+            "usernameFormat": "O nome de usuário deve ter apenas estes caracteres: a-z, 0-9, ., _, -",
+            "passwordLength": "A senha deve conter pelo menos 8 caracteres",
+            "passwordNoUppercase": "A senha deve conter pelo menos uma letra maiúscula",
+            "passwordNoNumber": "A senha deve conter pelo menos um número",
+            "passwordMatch": "Senha não corresponde",
+            "emailInvalid": "E-mail deve ser válido",
+            "formInvalid": "O formulário é inválido",
+            "usernameLength": "O nome de usuário deve ter pelo menos 3 caracteres",
+            "passwordNoSpecialCharacter": "A senha deve conter pelo menos um caractere especial",
+            "codeLength": "O código deve ter comprimento 5"
+        },
+        "submit": "Enviar"
+    },
+    "resetPassword": {
+        "resetPassword": "Redefinir Senha",
+        "backToLogin": "Volte ao Login",
+        "sendLink": "Enviar link",
+        "emailSent": "Siga as etapas no e-mail enviado para {email} (se houver uma conta)",
+        "setPassword": "Configurar Senha",
+        "noTokenSpecified": "Nenhum token especificado. Solicite um novo token.",
+        "passwordSet": "Sucesso! Agora você pode usar sua nova senha para {login_placeholder}.",
+        "login_placeholder": "Login",
+        "toLogin": "Entrar",
+        "sendLinkToEmail": "Enviaremos um link de redefinição de senha para",
+        "badToken": "Token expirado ou inválido. Solicite um novo token."
+    },
+    "_addon": {
+        "addon": "Adicionar",
+        "addons": "Complementos",
+        "newAddon": "Novo Complemento",
+        "editAddon": "Editar Complemento",
+        "noAddonsAvailable": "Sem complementos disponíveis",
+        "currentAddons": "Complementos atuais",
+        "expiresOn": "Expira em",
+        "messages": {
+            "addonApplied": "Complemento aplicado com sucesso.",
+            "addonCancelled": "Suplemento cancelado com sucesso.",
+            "addonEdited": "Complemento editado com sucesso."
+        },
+        "cancelAddonDescription": "Tem certeza de que deseja cancelar o complemento? O complemento será cancelado no final do período de cobrança atual."
+    },
+    "_shop": {
+        "labels": {
+            "cart": "Carrinho",
+            "invoiceLogoURL": "URL do logotipo da fatura",
+            "invoiceLogoURLDetails": "URL para um logotipo exibido na fatura.",
+            "admin": "Administração da Loja",
+            "applyCoupon": "Aplicar Cupom",
+            "couponCode": "Código do Cupom",
+            "tax": "Imposto",
+            "taxRules": "Regras Fiscais",
+            "checkout": "Check-Out",
+            "payment": "Pagamento",
+            "paymentId": "ID de Pagamento",
+            "addToCart": "Adicionar ao carrinho",
+            "total": "Total",
+            "businessAddress": "Endereço profissional",
+            "credits": "Créditos",
+            "orderWithObligationToPay": "Pedido com obrigação de pagamento",
+            "orderOverview": "Visão geral do pedido",
+            "cartTotal": "Total do Carrinho",
+            "defaultCurrency": "Moeda Padrão",
+            "unfinishedPurchase": "Compra Inacabada",
+            "removeAllPackets": "Remova todos os pacotes",
+            "perMonth": "por mês",
+            "checkoutCheckboxes": "Caixas de seleção de check-out",
+            "billingAddress": "Endereço de Cobrança",
+            "subtotal": "Subtotal",
+            "purchaseNow": "Compre agora",
+            "loginToBuy": "Faça login para comprar este pacote",
+            "taxAllowUnknown": "Permitir compras de países sem regra fiscal."
+        }
+    }
+}
