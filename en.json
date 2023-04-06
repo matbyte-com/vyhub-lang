@@ -553,6 +553,8 @@
         }
     },
     "_affiliate": {
+        "overlayDescription": "This dashboard is for the users of the affiliate program. You are searching your account dashboard?",
+        "lookHere": "Look here.",
         "affiliateResources": "Affiliate Resources",
         "affiliateDashboard": "Affiliate Dashboard",
         "yourAffiliateLink": "Your Affiliate Link",
@@ -875,5 +877,9 @@
     "actions": "Actions",
     "congratulations": "Congratulations!",
     "created": "Created",
-    "comingSoon": "Coming soon"
+    "comingSoon": "Coming soon",
+    "end": "End",
+    "disabled": "Disabled",
+    "copy": "Copy",
+    "enter": "Enter"
 }
