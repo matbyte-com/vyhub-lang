@@ -35,7 +35,8 @@
         "legal": "Rechtliches",
         "_help": {
             "support": "Support",
-            "docs": "Dokumentation"
+            "docs": "Dokumentation",
+            "status": "Statusseite"
         },
         "_company": {
             "partners": "Partner",
@@ -121,7 +122,9 @@
         "hasslefree": "Problemlos",
         "joinOurDiscord": "Tritt unserem Discord bei",
         "customizable": "Anpassbar",
-        "pageSubtitle": "Die All-in-One-Management & Monetarisierungsplattform {br}für deine Gaming-Community"
+        "pageSubtitle": "Die All-in-One-Management & Monetarisierungsplattform {br}für deine Gaming-Community",
+        "contactFormSubtitle": "Hast du Fragen zu Funktionen, Zahlungen oder anderen Dingen? Sende uns eine Nachricht.",
+        "announcement": "VyHub ist nun gratis! Schau dir unsere neue Preisseite an."
     },
     "_dashboard": {
         "yourInstances": "Deine Instanzen",
@@ -521,7 +524,8 @@
                 "title7": "PaketErweiterungen",
                 "text5": "Du kannst deinen Spielern Rabatte gewähren. Diese Rabatte können für den gesamten Shop oder nur für bestimmte Pakete gelten. Auf diese Weise kannst du Spieler für gute Leistungen belohnen.",
                 "headline7": "Paket Erweiterungen",
-                "headline3": "Unbegrenzte Prämien"
+                "headline3": "Unbegrenzte Prämien",
+                "text4": "Überwache deine Verkäufe mit den integrierten Statistiken. Beispielsweise können Verkäufe nach Monat oder nach Land angezeigt werden."
             },
             "title": "Shop",
             "subtitle": "Verkaufe Ränge und Ingame-Gegenstände für echtes Geld."
@@ -699,7 +703,7 @@
         "headline": "Bist du bereit, dass Beste Spielserververwaltungssystem zu bewerben?",
         "lifetimeCustomerValue": "Lebenslanger Kundenwert",
         "comingSoon": "Erscheint bald",
-        "description2": "Dein Vyhub.net Nutzerkonto enthält bereits einen Partnerlink zum Teilen",
+        "description2": "Dein VyHub.net Nutzerkonto enthält bereits einen Partnerlink zum Teilen",
         "description1": "Ihre Freunde und Follower werden es dir danken, wenn sie VyHub zum ersten Mal ausprobieren.{br} Du bekommst außerdem eine wiederkehrende Provision von 25 %.",
         "grabAffiliateLink": "Hol deinen Affiliate-Link"
     },
@@ -740,8 +744,10 @@
         "q3": "Kann ich jederzeit kündigen?",
         "q4": "Gibt es Rabatte für größere Spieleserver?",
         "addons": {
-            "communication": "Kommunikations-Addon"
-        }
+            "communication": "Kommunikations Add-on"
+        },
+        "commission": "Kommission",
+        "formulaForFeeCalculation": "Formel zur Berechnung der Gebühren"
     },
     "register": "Registrieren",
     "date": "Datum",
@@ -789,7 +795,10 @@
         "iban": "IBAN",
         "currentBalanceDescription": "Zur Auszahlung verfügbares Guthaben.",
         "pendingBalanceDescription": "Unbezahlte Gebühren der Nutzer (Bearbeitung kann bis zu 4 Wochen dauern).",
-        "affiliateDashboard": "Partner Dashboard"
+        "affiliateDashboard": "Partner Dashboard",
+        "overlayDescription": "Dieses Dashboard ist für die Benutzer des Partnerprogramms. Suchst du dein VyHub Konto?",
+        "lookHere": "Schau hier.",
+        "minimumPayout5€": "Minimale Auszahlung von 5€"
     },
     "message": "Nachricht",
     "acceptPrivacy": "Ich akzeptiere die Datenschutzerklärung",
@@ -883,7 +892,14 @@
             "noWithdraw": "Ich fordere und stimme ausdrücklich zu, dass die Matbye UG bereits vor Ablauf der Widerrufsfrist mit der Ausführung der erworbenen Leistung beginnt. Ferner ist mir bekannt, dass ich das mir gesetzlich zustehende Widerrufsrecht bereits mit vollständiger Vertragserfüllung durch die Matbyte UG verliere.",
             "agreeTo": "Ich stimme den {tos} zu.",
             "tos": "Nutzungsbedingungen"
-        }
+        },
+        "cookieTitle": "🍪 Datenschutzeinstellungen",
+        "cookieDescription": "Wir verwenden Cookies 🍪, um dein Surferlebnis auf unserer Website zu verbessern, unseren Website-Traffic zu analysieren und zu verstehen, woher unsere Besucher kommen. Weitere Informationen dazu findest du in unserer {privacyPolicy}.",
+        "privacyPolicyPage": "Datenschutzerklärung",
+        "necessaryCookies": "Notwendige Cookies",
+        "preferences": "Einstellungen",
+        "acceptSelected": "Ausgewählte akzeptieren",
+        "cookiePreferenceDescription": "Hier kannst du deine Cookie-Einstellungen manuell anpassen."
     },
     "revenue": "Umsatz",
     "partners": "Partner",
@@ -902,5 +918,19 @@
     "authorizeApplication": "Applikation autorisieren",
     "details": "Einzelheiten",
     "account": "Konto",
-    "comingSoon": "Demnächst"
+    "comingSoon": "Demnächst",
+    "_statistic": {
+        "instanceStatistics": "Instanzstatistiken",
+        "interval": {
+            "DAILY": "Täglich",
+            "WEEKLY": "Wöchentlich",
+            "MONTHLY": "Monatlich",
+            "YEARLY": "Jährlich"
+        }
+    },
+    "accept": "Akzeptieren",
+    "copy": "Kopieren",
+    "enter": "Eintreten",
+    "disabled": "Deaktivieren",
+    "end": "Beenden"
 }
