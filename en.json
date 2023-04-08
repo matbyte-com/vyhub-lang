@@ -768,6 +768,15 @@
     "_newsletter": {
         "thankYou": "Thank you for registering!"
     },
+    "_statistic": {
+        "instanceStatistics": "Instance Statistics",
+        "interval": {
+            "DAILY": "Daily",
+            "WEEKLY": "Weekly",
+            "MONTHLY": "Monthly",
+            "YEARLY": "Yearly"
+        }
+    },
     "loginRegister": "Login / Register",
     "username": "Username",
     "email": "E-Mail",
