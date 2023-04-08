@@ -131,7 +131,9 @@
         "messages": {
             "editedTheme": "Thema bewerkt."
         },
-        "showInformationFabDescription": "Informatie fab rechtsonder"
+        "showInformationFabDescription": "Informatie fab rechtsonder",
+        "faviconURL": "Favicon-URL",
+        "secondaryColor": "Secundaire kleur"
     },
     "_settings": {
         "addRequirementSet": "Voeg benodigde groep toe",
@@ -234,7 +236,8 @@
             "enableDonationGoalDescription": "Donatiedoelcomponent weergegeven op startpagina (Nieuws)",
             "cancelPayment": "Annuleer betaling",
             "cancelPurchase": "Annuleer aankoop",
-            "couponCode": "coupon code"
+            "couponCode": "coupon code",
+            "changeTargetUser": "Koop voor een vriend"
         },
         "messages": {
             "notEnoughCredits": "U heeft niet genoeg tegoed om deze aankoop te betalen. Kies een andere betaalmethode of koop meer credits.",
@@ -266,7 +269,8 @@
             "couponNotApplied": "Coupon kan niet worden toegepast op een pakket in uw winkelwagen.",
             "includesVAT": "Inclusief {tax_rate}% btw.",
             "selectBillingAddressFirst": "Selecteer eerst een factuuradres.",
-            "selectEmailFirst": "Werk eerst uw e-mailadres bij"
+            "selectEmailFirst": "Werk eerst uw e-mailadres bij",
+            "targetUserChanged": "De beoogde gebruiker is gewijzigd"
         },
         "purchaseStatus": {
             "open": "Open",
@@ -341,6 +345,10 @@
             "MINECRAFT": {
                 "name": "Minecraft",
                 "info": "Bouw je eigen netwerk."
+            },
+            "TEAMSPEAK3": {
+                "info": "Voicechat voor gamers.",
+                "name": "Teamspeak 3"
             }
         },
         "labels": {
@@ -414,7 +422,11 @@
             "warning": "Waarschuwing",
             "discord": "Discord",
             "server": "Server",
-            "faq": "FAQ"
+            "faq": "FAQ",
+            "advert": "Advertentie",
+            "forum": "Forum",
+            "teamspeak3": "Teamspeak 3",
+            "navigation": "Navigation"
         },
         "object_create": "{classname} gemaakt met id {id}: {params}",
         "object_delete": "{classname} verwijderd met id {id}.",
@@ -483,7 +495,12 @@
         "warning_delete": "Verwijder waarschuwing van gebruiker: {username}.",
         "warning_add": "Waarschuwing toegevoegd voor gebruiker: {username}.",
         "group_team_member_edited": "Groepen is teamlid bewerkt.",
-        "discord_no_permission_for_server": "Discord-bot kan gilde {guild_id} niet ophalen."
+        "discord_no_permission_for_server": "Discord-bot kan gilde {guild_id} niet ophalen.",
+        "teamspeak_general_login_error": "Teamspeak algemene botfout.",
+        "teamspeak_wrong_credentials": "Teamspeak-bot kan niet inloggen. Inloggegevens verkeerd.",
+        "teamspeak_connection_refused": "Teamspeak-bot kan geen verbinding maken. IP of poort verkeerd.",
+        "requirement_set_deleted": "Eisenset verwijderd {requirementSetName} {requirementSetId}.",
+        "applied_packet_edit_status": "Status van toegepast pakket {id} gewijzigd in {status}."
     },
     "_address": {
         "labels": {
@@ -551,7 +568,8 @@
             "deleteSuccess": "Pakket succesvol verwijderd."
         },
         "status": {
-            "ENABLED": "ingeschakeld"
+            "ENABLED": "ingeschakeld",
+            "DISABLED": "uitgeschakeld"
         }
     },
     "_forms": {
@@ -663,7 +681,9 @@
             "PERMISSION_LEVEL": "Toestemmingsniveau",
             "PERMISSION_LEVEL_SB": "Toestemmingsniveau (in ServerBundel)",
             "PACKET": "Pakket",
-            "DATE": "Datum"
+            "DATE": "Datum",
+            "USER_SELF": "Gebruiker zelf",
+            "USER_ATTRIBUTE": "Gebruikerskenmerk"
         },
         "addRequirement": "Verijsten",
         "requirementType": "Type",
@@ -686,7 +706,8 @@
             "ONLY_INACTIVE": "Alleen actief",
             "HAVE": "Hebben",
             "EQ": "Gelijk",
-            "NHAVE": "Niet hebben"
+            "NHAVE": "Niet hebben",
+            "GEQ": "Groter gelijk dan"
         }
     },
     "_gateway": {
@@ -744,7 +765,8 @@
         "ticket_new": "{username} heeft een ticket gemaakt: {title}",
         "purchase_finished_other": "{username} heeft een aankoop gedaan van {amount} via {gateway_name}.",
         "purchase_finished": "Uw aankoop van {amount} is voltooid!",
-        "warning_new": "Er is een nieuwe waarschuwing aangemaakt. Reden: {reden}"
+        "warning_new": "Er is een nieuwe waarschuwing aangemaakt. Reden: {reden}",
+        "newNotifications": "Nieuwe meldingen"
     },
     "_warning": {
         "ttlDescription": "Tijd totdat de waarschuwing wordt gemarkeerd als verlopen",
@@ -753,7 +775,9 @@
         "showUserWarnings": "Waarschuwingen tonen van gebruiker met ID: {id}",
         "messages": {
             "addedWarning": "Waarschuwing gemaakt.",
-            "deletedWarning": "Waarschuwing verwijderd."
+            "deletedWarning": "Waarschuwing verwijderd.",
+            "toggledWarning": "Waarschuwingsstatus omgeschakeld.",
+            "editedSettings": "Waarschuwingsinstellingen aangepast."
         },
         "ttl": "Waarschuwing Tijd om te leven (dagen)",
         "ttlPlaceholder": "Lengte (in dagen)",
@@ -782,6 +806,12 @@
             "createSuccess": "Pakketcategorie succesvol aangemaakt.",
             "editSuccess": "Pakketcategorie succesvol bewerkt.",
             "deleteSuccess": "Pakketcategorie succesvol verwijderd."
+        },
+        "labels": {
+            "edit": "Pakketcategorie bewerken",
+            "delete": "Pakketcategorie verwijderen",
+            "imageDetail": "Een HTTPS-URL naar de categorieafbeelding.",
+            "create": "Pakketcategorie maken"
         }
     },
     "_pageTitle": {
@@ -837,5 +867,440 @@
     },
     "_userLogEntry": {
         "addLogEntry": "Logboekinvoer toevoegen"
-    }
+    },
+    "_forum": {
+        "addTicket": "Ticket maken",
+        "noTickets": "U heeft nog geen tickets aangemaakt.",
+        "addPost": "Bericht toevoegen",
+        "readMore": "Lees meer",
+        "open": "Open",
+        "threads": "Threads",
+        "closed": "Gesloten",
+        "close": "Sluiten",
+        "showClosed": "Toon gesloten",
+        "showBan": "Verbod tonen",
+        "messages": {
+            "topicCreated": "Onderwerp gemaakt.",
+            "topicCategoryEdited": "Onderwerpcategorie aangepast.",
+            "topicEdited": "Onderwerp bewerkt.",
+            "topicDeleteSuccess": "Onderwerp succesvol verwijderd.",
+            "updatedOrder": "Forumvolgorde bijgewerkt.",
+            "editSuccess": "Succesvol bewerkt",
+            "deleteSuccess": "Succesvol verwijderd",
+            "addedPost": "Bericht gemaakt.",
+            "pinned": "Thread vastgepind",
+            "unpinned": "Thread losgemaakt",
+            "toggleStatus": "Status omgeschakeld.",
+            "addedThread": "Thread gemaakt",
+            "topicCategoryCreated": "Onderwerpcategorie gemaakt.",
+            "categoryDeleteSuccess": "Categorie succesvol verwijderd."
+        },
+        "status": {
+            "open": "open",
+            "closed": "sluiten"
+        },
+        "threadPinned": "Thread vastgepind",
+        "numberOfThreads": "Thread telling ",
+        "editThreadTitle": "Onderwerptitel bewerken",
+        "admin": "Forumbeheerder",
+        "editPost": "Berichten bewerken toestaan",
+        "edited": "Bewerkt",
+        "tickets": "Tickets",
+        "creator": "Maker",
+        "content": "Inhoud",
+        "created": "Gemaakt",
+        "last_post": "Laatste post",
+        "unlocked": "Ontgrendeld",
+        "addTopic": "Voeg onderwerp toe",
+        "locked": "Vergrendeld",
+        "by": "door",
+        "banProtest": "Protest verbieden",
+        "unlock": "Ontgrendelen",
+        "topicAdmins": "Onderwerpbeheerders: ",
+        "editPostDescription": "Gebruikers toestaan hun eigen berichten te bewerken.",
+        "lastUpdated": "Laatste update",
+        "threadLocked": "Thread vergrendeld",
+        "deleteThread": "Thread verwijderen",
+        "title": "Titel",
+        "forum": "Forum",
+        "ticket:": "Ticket",
+        "manageTopicCategories": "Onderwerpcategorieën beheren",
+        "manageTopics": "Onderwerpen beheren",
+        "selectTopicCategory": "Selecteer een onderwerpcategorie",
+        "addCategory": "Catogorie toevoegen",
+        "editTopicCategory": "Onderwerpcategorie bewerken",
+        "topicAdminUser": "Onderwerpbeheerders",
+        "deleteCategory": "Categorie verwijderen",
+        "deleteTopic": "Onderwerp verwijderen",
+        "lock": "Versleutelen",
+        "rename": "Hernoemen",
+        "renameThread": "Discussie hernoemen",
+        "hideClosed": "Onderwerpbeheerders:",
+        "numberOfPosts": "Aantal berichten ",
+        "pin": "pin",
+        "unpin": "vastmaken",
+        "posts": "Berichten",
+        "addTopicCategory": "Onderwerpcategorie toevoegen",
+        "editTopic": "Onderwerp bewerken",
+        "latestPosts": "Laatste berichten",
+        "statistics": "Forumstatistieken",
+        "addThread": "Thread toevoegen",
+        "latestThreads": "Laatste threads"
+    },
+    "apiKey": "API sleutel",
+    "finished": "Afgerond",
+    "_advert": {
+        "reset": "Advertentievolgorde resetten",
+        "formTitle": "Titel",
+        "formContent": "Inhoud",
+        "addAdvertDialog": "Advertentie toevoegen",
+        "editAdvertDialog": "Advertentie bewerken",
+        "messages": {
+            "addSuccess": "Advertentie gemaakt",
+            "editSuccess": "Advertentie bijgewerkt.",
+            "deleteSuccess": "Advertentie verwijderd",
+            "updatedOrder": "Advertentievolgorde bijgewerkt."
+        },
+        "title": "Advertenties",
+        "update": "Advertentievolgorde bijwerken",
+        "add": "Advertentie toevoegen",
+        "formEnabled": "inschakelen"
+    },
+    "cancelled": "geannuleerd",
+    "_property": {
+        "categories": {
+            "general": "Agemeen",
+            "bans_and_warnings": "Verboden en waarschuwingen",
+            "other": "Andere",
+            "user": "Gebruiker",
+            "shop": "Winkel"
+        },
+        "descriptions": {
+            "user_create": "Een buitenlandse gebruiker aanmaken (alleen API)",
+            "user_edit": "Gegevens van andere gebruikers bewerken",
+            "user_morph": "Toestaan om op te treden als een andere gebruiker. Alleen ondersteund voor sommige eindpunten.",
+            "user_attribute_definition_edit": "Definities van gebruikersattributen bewerken.",
+            "server_show": "Serverinstellingen bekijken",
+            "bundle_edit": "Serverbundels beheren",
+            "theme_show": "Thema-instellingen bekijken",
+            "theme_edit": "Thema-instellingen bewerken",
+            "ban_show": "Verboden bekijken",
+            "ban_edit": "Verboden beheren",
+            "gateway_edit": "Betalingsgateways beheren",
+            "purchase_edit": "Aankopen beheren",
+            "applied_packet_show": "Bekijk toegepaste pakketten en beloningen.",
+            "discount_show": "Bekijk winkel kortingen",
+            "discount_edit": "Winkelkortingen beheren",
+            "account_show": "Kredietrekeningen van andere gebruikers bekijken",
+            "authorization_edit": "Autorisatie-instellingen bewerken",
+            "advert_show": "Advertenties bekijken",
+            "advert_edit": "Advertenties beheren",
+            "admin_menu": "Beheerdersmenu inschakelen",
+            "group_edit": "Groepen beheren",
+            "nav_show": "Instellingen navigatiebalk bekijken",
+            "warning_config_edit": "Waarschuwingsconfiguratie bewerken in Instellingen",
+            "news_edit": "Nieuws beheren",
+            "nav_edit": "Beheer navigatiebalk",
+            "requirement_edit": "Beheer van eisenreeksen",
+            "requirement_show": "Vereistenreeksen bekijken",
+            "general_edit": "Algemene instellingen beheren",
+            "shop_edit": "Winkelinstellingen beheren",
+            "reserved_slot_use": "Gebruik gereserveerde slots op een server",
+            "shop_show": "Winkelinstellingen bekijken",
+            "server_edit": "Servers beheren",
+            "ban_global": "Wereldwijde verboden creëren",
+            "warning_edit": "Waarschuwingen beheren",
+            "warning_delete": "Waarschuwingen verwijderen",
+            "address_show": "Adressen van andere gebruikers bekijken.",
+            "general_show": "Algemene instellingen bekijken",
+            "log_show": "Logboeken bekijken",
+            "user_log": "Vermeldingen tonen en toevoegen aan gebruikerslogboek",
+            "packet_edit": "Beheer van winkelpakketten",
+            "ticket_edit": "Kaartjes bewerken",
+            "apikey_edit": "API-sleutels beheren",
+            "ticket_show": "Bekijk tickets",
+            "authorization_show": "Toon autorisatie-instellingen",
+            "faq_edit": "Bewerk veelgestelde vragen in instellingen",
+            "legal_edit": "Juridische inhoud bewerken",
+            "auth_request_confirm": "Bevestig authentificatieverzoeken (alleen voor gameservers)",
+            "user_attribute_edit": "Gegevens over gebruikersattributen bewerken.",
+            "user_ignore_target_level": "Hiermee kan een gebruiker ongeacht zijn niveau worden bewerkt en kunnen eventuele groepslidmaatschappen worden toegevoegd.",
+            "ban_delete": "Verboden verwijderen",
+            "warning_show": "Waarschuwingen bekijken",
+            "gateway_show": "Betalingsgateways bekijken",
+            "applied_packet_edit": "Toegepaste pakketten en beloningen bewerken.",
+            "warning_config_show": "Toon Waarschuwingsconfiguratie in Instellingen",
+            "packet_show": "Bekijk pakketten en beloningen",
+            "purchase_show": "Bekijk aankopen en statistieken",
+            "account_edit": "Kredietrekeningtransacties van gebruikers bewerken"
+        }
+    },
+    "revenue": "Omzet",
+    "requirementSet": "Eisenpakket",
+    "sales": "Verkoop",
+    "change": "Wijzig",
+    "code": "Code",
+    "none": "geen",
+    "unexpectedError": "Onverwachte fout",
+    "automatic": "Automatisch",
+    "subcategory": "Subcategorie",
+    "servers": "Servers",
+    "paymentGateways": "Betaling Gateways",
+    "paymentMethods": "Betaal methodes",
+    "revoked": "Terug getrokken",
+    "purchases": "Aankopen",
+    "language": "Taal",
+    "payment": "Betaling",
+    "refresh": "Vernieuwen",
+    "gateway": "Poort",
+    "log": "Logboek",
+    "search": "Zoekopdracht",
+    "amount": "Hoeveelheid",
+    "statistics": "Statistieken",
+    "days": "Dagen",
+    "oneTime": "Een keer",
+    "serverbundle": "Server bundel",
+    "groupname": "Naam",
+    "startdate": "Begin",
+    "enddate": "Einde",
+    "example": "Voorbeeld",
+    "imageURL": "Foto URL",
+    "groups": "Groepen",
+    "value": "Waarde",
+    "description": "beschrijving",
+    "totals": "Totalen",
+    "navigation": "Navigatie",
+    "email": "E-mail",
+    "extraProperties": "extra eigenschappen",
+    "packets": "Pakketten",
+    "length": "Lengte",
+    "shop": "Winkel",
+    "relations": "Relaties",
+    "user": "Gebruiker",
+    "creator": "Makers",
+    "select": "Selecteer",
+    "add": "Toevoegen",
+    "name": "Naam",
+    "percentage": "Percentage",
+    "info": "Informatie",
+    "dashboard": "Dashboard",
+    "message": "Berricht",
+    "date": "Datum",
+    "advancedProperties": "Geavanceerde eigenschappen",
+    "clientCert": "Cliënt Certificaat (Client Certificate)",
+    "clientKey": "Cliënt sleutel (Client Key)",
+    "endsOn": "Eindigd op",
+    "createdOn": "Gemaakt op",
+    "reason": "Reden",
+    "country": "Land",
+    "allGroups": "Alle groepen",
+    "allProperties": "Alle eigenschappen",
+    "username": "Gebruikers naam",
+    "status": "Status",
+    "text": "Tekst",
+    "link_account": "Link account",
+    "id": "ID",
+    "edit": "Bewerk",
+    "cancel": "Annuleer",
+    "create": "Maak",
+    "bundle": "Bundel",
+    "title": "Titel",
+    "import": "Importeer",
+    "subtitle": "Subtitel",
+    "summary": "Samenvatting",
+    "expired": "Verlopen",
+    "active": "Actief",
+    "inactive": "In actief",
+    "areYouSure": "Weet je het zeker?",
+    "delete": "Verwijder",
+    "color": "Kleur",
+    "price": "Prijs",
+    "command": "Command",
+    "script": "Script",
+    "port": "Poort",
+    "download": "Download",
+    "report": "Report",
+    "noDataAvailable": "Geen data beschikbaar",
+    "enabled": "Ingeschakeld",
+    "htmlNoMatch": "Dit is geen geldige URL",
+    "begin": "Begin",
+    "dark_mode": "Donkere modus",
+    "server": "Server",
+    "ticket": "Ticket",
+    "details": "Details",
+    "actions": "Acties",
+    "add-on": "Add-on",
+    "payments": "Betalingen",
+    "address": "Adress",
+    "start": "Start",
+    "_server": {
+        "instructions": {
+            "DISCORD": {
+                "readInstructions": "Lees en volg de verdere instructies in de documenten.",
+                "addBot": "Voeg de Bot toe aan je Discord-server. Klik op opnieuw laden als de knop niet werkt.",
+                "createApp": "Maak een Discord-applicatie en schakel Discord-autorisatie in."
+            },
+            "COMMON": {
+                "runCommands": "Genereer de benodigde commando's door op de knop te klikken en voer ze uit in de serverconsole van uw server.",
+                "wait": "Wacht maximaal een minuut totdat VyHub is geïnitialiseerd. Er verschijnt een bericht in de serverconsole als de verbinding is gelukt."
+            },
+            "GMOD": {
+                "serverConsoleHint": "Belangrijk: de serverconsole is NIET de console in het spel (wanneer je op F10 drukt).",
+                "download": "Download de vyhub-gmod-add-on, pak deze uit en plaats deze in de add-on-map van uw server. Start vervolgens uw server opnieuw op."
+            },
+            "TEAMSPEAK3": {
+                "headline": "De TS3-bot zou al verbonden moeten zijn met uw Teamspeak-server.",
+                "botNotConnected": "De bot is niet verbonden? Schakel eerst de weergave van query-bots in. Telkens wanneer u de serverinstellingen wijzigt, probeert de bot opnieuw verbinding te maken. Mogelijk vindt u foutmeldingen in het logboek."
+            },
+            "MINECRAFT": {
+                "download": "Download de vyhub-minecraft-plug-in .jar en plaats deze in de map met plug-ins van uw server. Start vervolgens uw server opnieuw op."
+            }
+        },
+        "labels": {
+            "unknownStatus": "Status onbekend",
+            "create": "Server aanmaken",
+            "edit": "Server bewerken",
+            "numberOfReservedSlots": "Aantal gereserveerde slots",
+            "hideReservedSlots": "Verberg gereserveerde sloten",
+            "addBot": "Voeg een bot toe aan je gilde.",
+            "discordApplicationIdNeeded": "Maak een Discord-applicatie.",
+            "guildIdDocs": "Gilde-ID vinden",
+            "setup": "Server instellen",
+            "details": "Server details",
+            "discordEnterIdAsAddress": "Voer uw guilds-id in als serveradres. Voer uw favoriete nummer in als poort.",
+            "keepReservedSlotsFree": "Houd gereserveerde slots vrij"
+        },
+        "messages": {
+            "createSuccess": "Server succesvol gemaakt.",
+            "editSuccess": "Server succesvol bewerkt.",
+            "deleteSuccess": "Server succesvol verwijderd."
+        },
+        "type": {
+            "DISCORD": "Discord",
+            "GMOD": "Garry's Mod",
+            "MINECRAFT": "Minecraft"
+        },
+        "deleteBundleConfirmationText": "Hiermee worden objecten verwijderd die naar deze bundel verwijzen (bijv. beloningen)"
+    },
+    "_api": {
+        "labels": {
+            "createKey": "Maak sleutel",
+            "createdKey": "Maak een API sleutel",
+            "limitToServerbundle": "Beperk tot serverbundel"
+        },
+        "messages": {
+            "keyCreated": "Nieuwe sleutel gemaakt:",
+            "keyCreateSuccess": "Sleutel succesvol aangemaakt.",
+            "keyRevokeSuccess": "Sleutel succesvol ingetrokken."
+        }
+    },
+    "_import": {
+        "gextension": {
+            "labels": {
+                "excludedRewards": "Uitgesloten beloningen",
+                "basicData": "Basis data",
+                "packetTranslations": "Pakketvertalingen",
+                "url": "GExtension URL",
+                "furtherData": "Further Data",
+                "groupServerbundleUser": "Groepen, Serverbundels, Gebruikers",
+                "gexPacket": "GExtension Pakket",
+                "apiKeyDescription": "URL naar uw GExtension-site zonder index.php. Voorbeeld: https://mycommunity.com/gextension/",
+                "urlDescription": "URL naar uw GExtension-site zonder index.php. Voorbeeld: https://mycommunity.com/gextension/"
+            },
+            "messages": {
+                "import2Description": "U kunt nu de onderstaande aanvullende objecten importeren. De volgorde is niet relevant.",
+                "import1Description": "VyHub is nu klaar om de eerste objecten te importeren: Groepen, Serverbundels en Gebruikers. Zorg ervoor dat u het importproces in deze volgorde start.",
+                "packetsDataDescription": "Selecteer welk VyHub-pakket moet worden gegeven aan eigenaren van GExtension-pakketten. Het is ook mogelijk om bepaalde beloningen uit te sluiten. Als er geen GEExtension-pakketten kunnen worden geselecteerd, zorg er dan voor dat uw URL en API-sleutel correct zijn. Start daarna de pakketimport.",
+                "basicDataDescription": "Voer de URL naar uw GExtension-site in (zonder index.php). Zorg ervoor dat u GExtension versie 2.7.8 of nieuwer gebruikt."
+            }
+        },
+        "messages": {
+            "description": "In deze sectie kunt u gegevens uit andere systemen importeren."
+        }
+    },
+    "perMonth": "Per maand",
+    "_team": {
+        "teamGroupsSuccessfullyEdited": "Team groepen succesvol bewerkt.",
+        "title": "Team",
+        "editTeam": "Bewerk team"
+    },
+    "rewards": "Beloningen",
+    "_faq": {
+        "formTitle": "Titel",
+        "formContent": "Inhoud",
+        "html": "HTML is toegestaan in dit veld.",
+        "editQuestionDialog": "Vraag bewerken",
+        "title": "FAQ",
+        "add": "Vraag toevoegen",
+        "update": "Update FAQ volgorde",
+        "reset": "Veelgestelde vragen resetten",
+        "addQuestionDialog": "Vraag toevoegen",
+        "messages": {
+            "addSuccess": "FAQ-vraag aangemaakt.",
+            "editSuccess": "FAQ bijgewerkt",
+            "deleteSuccess": "FAQ vvragen verwijderd",
+            "updatedOrder": "FAQ  volgorde bijgewerkt.",
+            "contentEmpty": "Alsjeblieft voeg inhoud toe."
+        }
+    },
+    "properties": "Eigenschappen",
+    "icon": "Icoon",
+    "category": "Categorie",
+    "packet": "Pakket",
+    "settingsSaveSuccess": "Settings successvol opgeslagen",
+    "flags": "Vlaggen",
+    "disabled": "Gehandicapt",
+    "discounts": "Kortingen",
+    "every": "Elke",
+    "environment": "Omgeving",
+    "perYear": "Per Jaar",
+    "type": "Type",
+    "categories": "Categorieën",
+    "tax": "BTW",
+    "all": "Alle",
+    "requirements": "Vereisten",
+    "general": "Algemeen",
+    "_creditHistory": {
+        "messages": {
+            "addedTransaction": "Transactie toegevoegd"
+        },
+        "addTransaction": "Transactie toevoegen"
+    },
+    "_authorization": {
+        "discord": "Discord",
+        "discordOauthClientId": "Klant ID (client ID)",
+        "discordBotToken": "Bot Token",
+        "messages": {
+            "editedConfig": "Configuratie aangepast"
+        },
+        "redirectUrl": "Omleidings-URL",
+        "title": "Authorisatie",
+        "discordOauthClientSecret": "Klant geheim (Client secret)"
+    },
+    "_serverDashboard": {
+        "noUsersFound": "Geen gebruikers gevonden.",
+        "selectAUser": "Selecteer een gebruiker om details te zien."
+    },
+    "recurring": "Terugkomend",
+    "open": "open",
+    "invoice": "Rekening",
+    "_server_exception": {
+        "begin_smaller_end": "De begindatum moet na de einddatum vallen"
+    },
+    "_personalSettings": {
+        "title": "Persoonlijke instellingen",
+        "email": "Email",
+        "emailNotifications": "Email meldingen",
+        "enableEmailNotifications": "Schakel e-mailmeldingen in",
+        "noEmailSpecified": "Er is nog geen e-mailadres opgegeven",
+        "messages": {
+            "emailUpdated": "E-mail succesvol bijgewerkt",
+            "emailNotificationSettingsToggled": "Meldingsinstellingen succesvol bijgewerkt"
+        }
+    },
+    "update": "Update",
+    "maxUsages": "Maximaal gebruik",
+    "perDay": "Per dag",
+    "generate": "Genereer",
+    "not_available": "Niet beschikbaar"
 }
