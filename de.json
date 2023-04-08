@@ -60,7 +60,8 @@
         "backgroundImageURL": "URL zum Hintergrundbild",
         "logoURL": "URL zum Logo",
         "faviconURL": "URL zum Favicon",
-        "headerColor": "Farbe der Kopf- und Fußzeile"
+        "headerColor": "Farbe der Kopf- und Fußzeile",
+        "secondaryColor": "Sekundäre Farbe"
     },
     "_ban": {
         "labels": {
@@ -141,7 +142,8 @@
             "taxIncludedInPacketPriceDescription": "Anstatt Steuern auf den angegebenen Paketpreis aufzuschlagen, sind sie im Preis inbegriffen.",
             "financeReport": "Finanzbericht",
             "downloadInvoices": "Rechnungen herunterladen",
-            "net": "net"
+            "net": "net",
+            "changeTargetUser": "Für einen Freund kaufen"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -173,7 +175,8 @@
             "selectEmailFirst": "Bitte aktualisiere zuerst deine E-Mail-Adresse",
             "cancelPurchaseConfirmation": "Angefangene Zahlungen werden abgebrochen. Alle eingegebenen Gutscheine gehen verloren. Die Stornierung eines Kaufs kann nicht rückgängig gemacht werden.",
             "paymentPending": "Diese Zahlung steht noch aus. Bitte vervollständige sie im Warenkorb.",
-            "paymentFailed": "Während des Zahlungsvorgangs ist ein Fehler aufgetreten. Bitte versuche, die Zahlung neu zu starten."
+            "paymentFailed": "Während des Zahlungsvorgangs ist ein Fehler aufgetreten. Bitte versuche, die Zahlung neu zu starten.",
+            "targetUserChanged": "Der Zielbenutzer wurde geändert"
         },
         "purchaseStatus": {
             "open": "Offen",
@@ -393,6 +396,10 @@
             },
             "MINECRAFT": {
                 "download": "Laden Sie das vyhub-minecraft-Plugin .jar herunter und legen Sie es in den Plugins-Ordner Ihres Servers. Starten Sie dann Ihren Server neu."
+            },
+            "TEAMSPEAK3": {
+                "headline": "Der TS3-Bot sollte bereits mit Ihrem Teamspeak-Server verbunden sein.",
+                "botNotConnected": "Der Bot ist nicht verbunden? Aktivieren Sie zuerst die Anzeige von Abfrage-Bots. Jedes Mal, wenn Sie die Servereinstellungen ändern, versucht der Bot, sich erneut zu verbinden. Möglicherweise finden Sie Fehlermeldungen im Protokoll."
             }
         }
     },
@@ -633,7 +640,8 @@
         "showFaq": "FAQ aktivieren",
         "communityDescription": "Community Beschreibung",
         "communityDescriptionDescr": "Diese Beschreibung wird in Suchmaschinen angezeigt",
-        "addServerTooltip": "Erstelle zuerst ein Serverbundle"
+        "addServerTooltip": "Erstelle zuerst ein Serverbundle",
+        "showForum": "Forum aktivieren"
     },
     "_user": {
         "type": {
@@ -652,6 +660,10 @@
             "CENTRAL": {
                 "name": "VyHub Central",
                 "info": "Die Plattform zur Verwaltung von Gameservern"
+            },
+            "TEAMSPEAK3": {
+                "info": "Voice-Chat für Gamer.",
+                "name": "Teamspeak 3"
             }
         },
         "labels": {
@@ -673,7 +685,11 @@
             "news": "Neuigkeiten",
             "requirement": "Anforderung",
             "design": "Design",
-            "warning": "Verwarnung"
+            "warning": "Verwarnung",
+            "advert": "Inserat",
+            "navigation": "Navigation",
+            "forum": "Forum",
+            "teamspeak3": "Teamspeak 3"
         },
         "config_edit": "Allgemeine Konfiguration editiert.",
         "ban_edit_status": "Status zu {status} geändert.",
@@ -747,7 +763,11 @@
         "reward_process_success": "Erfolgreich ausgeführte Belohnung {reward_type} {applied_reward_id}.",
         "reward_membership_lower_level": "MEMBERSHIP-Belohnung ignoriert {applied_reward_id} weil Benutzer {user_id} Level ({user_level}) ist höher als das Gruppenniveau {group_id} ({group_level}).",
         "user_admin_status_removed": "Admin-Status des Benutzers {username} - {user_id} editiert: Admin = {status}.",
-        "users_linked": "Benutzer {link_user_id} mit {base_user_id} verknüpft. {credits} Credits wurden beim Zusammenführen übertragen."
+        "users_linked": "Benutzer {link_user_id} mit {base_user_id} verknüpft. {credits} Credits wurden beim Zusammenführen übertragen.",
+        "teamspeak_wrong_credentials": "Teamspeak-Bot kann sich nicht anmelden. Anmeldeinformationen falsch.",
+        "teamspeak_connection_refused": "Teamspeak-Bot kann keine Verbindung herstellen. IP oder Port falsch.",
+        "teamspeak_general_login_error": "Allgemeiner Teamspeak-Bot-Fehler.",
+        "applied_packet_edit_status": "Status des angewendeten Pakets {id} auf {status} geändert."
     },
     "port": "Port",
     "disabled": "Deaktiviert",
@@ -1204,11 +1224,45 @@
         "deleteThread": "Thread löschen",
         "rename": "Umbenennen",
         "renameThread": "Thema umbenennen",
-        "title": "Forum",
+        "title": "Titel",
         "manageTopicCategories": "Themenkategorien verwalten",
         "addTopic": "Thema hinzufügen",
         "editTopicCategory": "Themenkategorie bearbeiten",
         "topicAdminUser": "Themen-Admins",
-        "deleteTopic": "Thema löschen"
+        "deleteTopic": "Thema löschen",
+        "forum": "Forum",
+        "ticket:": "Ticket",
+        "admin": "Forum-Admin",
+        "topicAdmins": "Themen-Admins: ",
+        "hideClosed": "Geschlossene Threads ausblenden",
+        "threadLocked": "Thread gesperrt",
+        "editThreadTitle": "Threadtitel bearbeiten",
+        "numberOfPosts": "Beitragsanzahl: ",
+        "pin": "anpinnen",
+        "numberOfThreads": "Fadenzahl: ",
+        "threadPinned": "Thread gepinnt",
+        "editTopic": "Thema bearbeiten",
+        "latestPosts": "Neueste Beiträge",
+        "latestThreads": "Neueste Themen",
+        "statistics": "Forenstatistik",
+        "threads": "Themen",
+        "by": "von",
+        "editPost": "Beiträge bearbeiten zulassen",
+        "posts": "Beiträge",
+        "addTopicCategory": "Themenkategorie hinzufügen"
+    },
+    "_invoice": {
+        "invoiceDate": "Rechnungsdatum",
+        "vatNumber": "Umsatzsteuer-Identifikationsnummer",
+        "paymentMethod": "Bezahlverfahren",
+        "transaction": "Transaktion",
+        "quantity": "Menge",
+        "price": "Preis",
+        "vat": "MwSt",
+        "total": "Gesamt",
+        "item": "Artikel",
+        "subtotalNoVat": "Zwischensumme (ohne MwSt.)",
+        "invoice": "Rechnung",
+        "deliveryDate": "Liefertermin"
     }
 }
