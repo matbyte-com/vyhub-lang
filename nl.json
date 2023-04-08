@@ -34,7 +34,8 @@
         },
         "_help": {
             "support": "Support",
-            "docs": "Documentatie"
+            "docs": "Documentatie",
+            "status": "Status pagina"
         },
         "_company": {
             "partners": "Partners",
@@ -112,7 +113,7 @@
         "_faq": {
             "question2": "Hoeveel kost VyHub?",
             "question3": "Biedt u een gratis proefperiode aan?",
-            "answer3": "Ja! Omdat we geen maandelijkse prijs rekenen, kun je VyHub volledig gratis gebruiken en testen",
+            "answer3": "Ja! Omdat we geen maandelijkse prijs rekenen, kun je VyHub volledig gratis gebruiken en testen.",
             "question4": "Kan ik mijn eigen domein gebruiken?",
             "answer4": "Ja, u kunt uw bestaande domein gebruiken door een CNAME-record te maken dat verwijst naar uw VyHub-instantie.",
             "question5": "Ik ben een GExtension-gebruiker. Kan ik mijn gegevens migreren naar VyHub?",
@@ -139,7 +140,9 @@
         "customizable": "Aanpasbaar",
         "hasslefree": "Probleemloos",
         "andMore": "En nog veel meer...",
-        "discordIntegration": "Discord intergratie"
+        "discordIntegration": "Discord intergratie",
+        "announcement": "VyHub is nu gratis! Bekijk onze prijzen.",
+        "contactFormSubtitle": "Heb je vragen over de functionaliteiten, betaling of iets anders? Stuur ons een bericht."
     },
     "_dashboard": {
         "title": "Dashboard",
@@ -578,7 +581,10 @@
         },
         "pendingBalanceDescription": "Onbetaalde kosten door de gebruiker (kan tot 4 weken duren om te worden verwerkt).",
         "yourAffiliateLink": "Uw affiliate link",
-        "registeredUsers": "Geregistreerde gebruikers"
+        "registeredUsers": "Geregistreerde gebruikers",
+        "minimumPayout5€": "Minimale uitbetaling 5 €",
+        "overlayDescription": "Dit dashboard is voor de gebruikers van het affiliate programma. Je zoekt op uw accountdashboard?",
+        "lookHere": "Kijk hier."
     },
     "_features": {
         "_shop": {
@@ -603,7 +609,8 @@
                 "title6": "Betalings poort",
                 "text1": "Pakketten vormen de basis van elke webwinkel. Maak je eigen pakketten die je voor echt geld op de website kunt verkopen. U kunt pakketten in verschillende categorieën ordenen om uw gebruikers een betere ervaring te bieden. Pakketten kunnen eenmalige aankopen of terugkerende betalingen zijn.",
                 "text5": "Je kunt je spelers kortingen geven. Deze kortingen kunnen gelden voor de hele winkel of alleen voor bepaalde pakketten. Op deze manier kun je spelers belonen voor goede prestaties.",
-                "text6": "VyHub ondersteunt meerdere betaalmethoden. U kunt betalingen met PayPal, Paysafecard en Stripe accepteren. Met Stripe zijn veel lokale betaalmethoden gedekt. Verder kunnen gebruikers het ingebouwde kredietsysteem gebruiken voor betalingen. Er is ook een optie om aangepaste couponcodes voor een aankoop te accepteren, die vervolgens handmatig door een beheerder moeten worden goedgekeurd."
+                "text6": "VyHub ondersteunt meerdere betaalmethoden. U kunt betalingen met PayPal, Paysafecard en Stripe accepteren. Met Stripe zijn veel lokale betaalmethoden gedekt. Verder kunnen gebruikers het ingebouwde kredietsysteem gebruiken voor betalingen. Er is ook een optie om aangepaste couponcodes voor een aankoop te accepteren, die vervolgens handmatig door een beheerder moeten worden goedgekeurd.",
+                "text4": "Volg jouw verkopen met de geïntegreerde statistieken. De verkopen kunnen bijvoorbeeld per maand of per land worden weergegeven."
             }
         },
         "_cutomizability": {
@@ -701,7 +708,7 @@
         "headline": "Klaar om het beste gameserverbeheersysteem te promoten?",
         "lifetimeCustomerValue": "Levenslange klantwaarde",
         "description1": "Je vrienden en volgers zullen je dankbaar zijn als ze VyHub voor het eerst proberen.{br} Je verdient ook een terugkerende commissie van 25%.",
-        "description2": "Uw Vyhub.net-account bevat al een affiliate-link die klaar is om te delen.",
+        "description2": "Jouw Vyhub.net-account bevat al een affiliate-link die klaar is om te delen.",
         "grabAffiliateLink": "Grijp uw Affiliate-link"
     },
     "_games": {
@@ -757,7 +764,9 @@
         "hosted": "Zelf gehost",
         "noMonthlySubscription": "Geen maandabonnement",
         "feature2": "Klantgerichte webwinkel",
-        "a1": "VyHub is gratis te gebruiken. Je kunt het zo lang gebruiken als je wilt. Wij rekenen slechts een kleine commissie over uw maandelijkse inkomsten. Je betaalt dus alleen als je geld verdient. Meer informatie over de kosten vindt u in onze <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">documentation</a>."
+        "a1": "VyHub is gratis te gebruiken. Je kunt het zo lang gebruiken als je wilt. Wij rekenen slechts een kleine commissie over uw maandelijkse inkomsten. Je betaalt dus alleen als je geld verdient. Meer informatie over de kosten vindt u in onze <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">documentation</a>.",
+        "commission": "Commisie",
+        "formulaForFeeCalculation": "Formule voor vergoedingsberekening"
     },
     "loginRegister": "Login/ registreer",
     "username": "Gebruikersnaam",
@@ -830,7 +839,14 @@
             "agreeTo": "Ik ga akkoord met de {tos}.",
             "tos": "Servicevoorwaarden",
             "noWithdraw": "Ik eis en ga er uitdrukkelijk mee akkoord dat Matbye UG al begint met de uitvoering van de gekochte dienst vóór het einde van de herroepingstermijn. Bovendien ben ik me ervan bewust dat ik het herroepingsrecht waar ik wettelijk recht op heb al verlies bij volledige uitvoering van het contract door Matbyte UG."
-        }
+        },
+        "cookieTitle": "🍪Privacy instellingen",
+        "cookieDescription": "We gebruiken cookies 🍪 om uw browse-ervaring op onze website te verbeteren, om ons websiteverkeer te analyseren en om te begrijpen waar onze bezoekers vandaan komen. U kunt er meer over lezen in ons {privacyPolicy}.",
+        "privacyPolicyPage": "pagina met privacybeleid",
+        "necessaryCookies": "Noodzakelijke cookies",
+        "cookiePreferenceDescription": "U kunt uw cookievoorkeuren hier handmatig aanpassen.",
+        "acceptSelected": "Accepteer geselecteerd",
+        "preferences": "Voorkeuren"
     },
     "account": "Account",
     "_account": {
@@ -871,5 +887,18 @@
     "packets": "Pakketen",
     "id": "ID",
     "availableInstances": "Beschikbare exemplaren",
-    "save": "Opslaan"
+    "save": "Opslaan",
+    "_statistic": {
+        "interval": {
+            "MONTHLY": "Maandelijks",
+            "DAILY": "Dagelijks",
+            "WEEKLY": "Wekelijks",
+            "YEARLY": "Jaarlijks"
+        },
+        "instanceStatistics": "Instantiestatistieken"
+    },
+    "accept": "Accepteer",
+    "end": "Einde",
+    "disabled": "Gehandicapt",
+    "copy": "Kopiëren"
 }
