@@ -35,7 +35,8 @@
         },
         "_help": {
             "support": "Support",
-            "docs": "Documentation"
+            "docs": "Documentation",
+            "status": "Status-page"
         },
         "_company": {
             "partners": "Partners",
@@ -140,7 +141,8 @@
         "viewAllFeatures": "View all features",
         "simple": "Simple",
         "customizable": "Customizable",
-        "hasslefree": "Hasslefree"
+        "hasslefree": "Hasslefree",
+        "contactFormSubtitle": "Have you got questions regarding the functionalities, payment or anything else? Drop us a message."
     },
     "_dashboard": {
         "title": "Dashboard",
@@ -803,6 +805,7 @@
     "message": "Message",
     "submit": "Submit",
     "acceptPrivacy": "Accept Privacy Policy",
+    "accept": "Accept",
     "settings": "Settings",
     "create": "Create",
     "back": "Back",
@@ -858,7 +861,15 @@
             "agreeToS": "I agree to the Terms of Service.",
             "agreeTo": "I agree to the {tos}.",
             "tos": "terms of service"
-        }
+        },
+        "cookieTitle": "🍪 Privacy Settings",
+        "cookieDescription": "We use cookies \uD83C\uDF6A to improve your browsing experience on our website, to analyze our website traffic, and to understand where our visitors are coming from. You can read more about it on our {privacyPolicy}.",
+        "privacyPolicyPage": "privacy policy page",
+        "necessaryCookies": "Necessary Cookies",
+        "cookiePreferenceDescription": "You can manually adjust your cookie preferences here.",
+        "acceptSelected": "Accept Selected",
+        "preferences": "Preferences"
+
     },
     "docs": "Docs",
     "account": "Account",
