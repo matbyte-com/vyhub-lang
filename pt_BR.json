@@ -2,7 +2,8 @@
     "_header": {
         "labels": {
             "logout": "Sair",
-            "register": "Inscreva-se"
+            "register": "Inscreva-se",
+            "login": "Login"
         },
         "start": "Começar",
         "features": "Características",
@@ -33,7 +34,8 @@
         },
         "_help": {
             "support": "Suporte",
-            "docs": "Documentação"
+            "docs": "Documentação",
+            "status": "Página de Status"
         },
         "_company": {
             "partners": "Parceiros",
@@ -84,7 +86,8 @@
                 "description": "VyHub está repleto de pequenos e grandes recursos adicionais que contribuem para uma ótima experiência do usuário.",
                 "bulletPoint1": "Página de notícias",
                 "bulletPoint3": "Sistema de Tickets",
-                "bulletPoint4": "Página da Equipe"
+                "bulletPoint4": "Página da Equipe",
+                "bulletPoint2": "API REST com todos os recursos"
             }
         },
         "endcards": {
@@ -97,7 +100,8 @@
                 "bulletPoint1": "Totalmente ajustável e personalizável para suas necessidades",
                 "bulletPoint2": "Personalize a imagem de fundo e o esquema de cores",
                 "bulletPoint4": "Use seu próprio (sub)domínio",
-                "bulletPoint3": "Upload html para criar suas próprias subpáginas"
+                "bulletPoint3": "Upload html para criar suas próprias subpáginas",
+                "bulletPoint5": "API REST com todos os recursos"
             },
             "hasslefree": {
                 "bulletPoint1": "Nenhum espaço web próprio necessário",
@@ -110,7 +114,7 @@
             "question2": "Quanto custa o VyHub?",
             "answer2": "A instalação e utilização do VyHub é gratuita. Cobramos apenas uma pequena comissão sobre sua receita mensal. Então você só paga quando ganha dinheiro.",
             "question3": "Você oferece uma avaliação gratuita?",
-            "answer3": "Sim! Como não cobramos mensalidade, você pode usar e testar o VyHub totalmente de graça",
+            "answer3": "Sim! Como não cobramos mensalidade, você pode usar e testar o VyHub totalmente de graça.",
             "question4": "Posso usar meu próprio domínio?",
             "question5": "Eu sou um usuário do GExtension. Posso migrar meus dados para o VyHub?",
             "question6": "Onde consigo ajuda?",
@@ -136,7 +140,9 @@
         "viewAllFeatures": "Ver todos os recursos",
         "simple": "Simples",
         "customizable": "Customizável",
-        "hasslefree": "Sem complicações"
+        "hasslefree": "Sem complicações",
+        "contactFormSubtitle": "Você tem dúvidas sobre as funcionalidades, pagamento ou qualquer outra coisa? Envie-nos uma mensagem.",
+        "announcement": "VyHub agora é gratuito! Confira nossos preços."
     },
     "_dashboard": {
         "title": "Painel",
@@ -330,7 +336,392 @@
             "subtotal": "Subtotal",
             "purchaseNow": "Compre agora",
             "loginToBuy": "Faça login para comprar este pacote",
-            "taxAllowUnknown": "Permitir compras de países sem regra fiscal."
+            "taxAllowUnknown": "Permitir compras de países sem regra fiscal.",
+            "taxAllowUnknownDescription": "Se desabilitado, compras de países que não possuem uma regra tributária explícita configurada, não serão possíveis.",
+            "cancelPayment": "Cancelar Pagamento",
+            "cancelPurchase": "Cancelar Compras"
+        },
+        "messages": {
+            "confirmCouponPayment": "Digite seu código {gateway_name}. O pagamento é aprovado manualmente por um membro da equipe.",
+            "notEnoughCredits": "Você não tem créditos suficientes para pagar esta compra. Por favor, escolha um método de pagamento diferente ou compre mais créditos.",
+            "startingPaymentFailed": "Ocorreu um erro ao iniciar o pagamento. Por favor, tente novamente ou use outro método de pagamento!",
+            "removeFromCartSuccess": "Pacote removido com sucesso do carrinho.",
+            "paymentCancelled": "Este pagamento foi cancelado. Você pode tentar novamente visitando seu carrinho de compras.",
+            "paymentPending": "Este pagamento está pendente. Por favor, complete-o visitando o carrinho de compras.",
+            "selectBillingAddressFirst": "Por favor, selecione primeiro um endereço de cobrança.",
+            "cancelPurchaseConfirmation": "Os pagamentos iniciados estão cancelados. Todos os cupons inseridos foram perdidos. O cancelamento de uma compra não pode ser desfeito.",
+            "confirmCreditsPayment": "Por favor, confirme o pagamento de {credits} créditos.",
+            "couponsEntered": "Seu cupom foi adicionado com sucesso. Você pode editar seu cupom até que sua compra seja aprovada.",
+            "couponsEditSuccess": "Cupom editado com sucesso.",
+            "addToCartError": "Ocorreu um erro ao adicionar o pacote ao carrinho.",
+            "addToCartSuccess": "Pacote adicionado com sucesso ao carrinho.",
+            "cartEmpty": "Seu carrinho está vazio.",
+            "mustAgree": "Você deve concordar para continuar!",
+            "paymentActionFailed": "Ocorreu um erro ao redirecioná-lo para a página de pagamento. Por favor, tente novamente ou use outro método de pagamento! Mensagem de erro: {message}",
+            "selectGateway": "Por favor, selecione o seu método de pagamento.",
+            "noOngoingPurchase": "No momento não há nenhuma compra em andamento. Por favor, inicie o checkout no carrinho.",
+            "noAddressSpecified": "Endereço ainda não especificado.",
+            "clearCartSuccess": "Todos os pacotes do carrinho foram removidos com sucesso.",
+            "paymentSuccess": "O pagamento foi finalizado com sucesso.",
+            "paymentProcessing": "O pagamento foi aprovado e será finalizado em breve. Aguarde alguns minutos nesta página enquanto seu pagamento é processado.",
+            "paymentFailed": "Ocorreu um erro durante o processo de pagamento. Por favor, tente reiniciar o processo.",
+            "unfinishedPurchase": "Há uma compra em andamento que ainda não foi concluída.",
+            "purchaseCancelledSuccess": "A compra foi cancelada.",
+            "couponApplySuccess": "Cupom aplicado com sucesso.",
+            "couponRemoveSuccess": "Cupom removido com sucesso.",
+            "couponNotApplied": "O cupom não pôde ser aplicado a nenhum pacote em seu carrinho.",
+            "includesVAT": "Inclui {tax_rate}% de IVA.",
+            "selectEmailFirst": "Atualize seu endereço de e-mail primeiro",
+            "variablePricePaymentSuccess": "Forma de pagamento cadastrada com sucesso para uso futuro."
+        },
+        "purchaseStatus": {
+            "finished": "Finalizado",
+            "open": "Aberto",
+            "cancelled": "Cancelado",
+            "refunded": "Reembolsado",
+            "revoked": "Revogado",
+            "recurring": "Recorrente",
+            "enabled": "Ativo",
+            "disabled": "Expirado"
+        }
+    },
+    "_log": {
+        "type": {
+            "news": "Novidades",
+            "instance": "Instância",
+            "server": "Servidor",
+            "requirement": "Requerimento",
+            "design": "Design",
+            "warning": "Aviso",
+            "discord": "Discord",
+            "system": "Sistema",
+            "user": "Usuário",
+            "ban": "Banimento",
+            "shop": "Loja",
+            "packet": "Pacote",
+            "group": "Grupo"
+        },
+        "edit": "Editado {name}: {key} = {value}",
+        "object_edit": "Editado {classname} com identificação {id}: {key} = {value}.",
+        "applied_packet_not_extended": "Falha ao estender o pacote aplicado {applied_packet_id}: {reason}.",
+        "payment_refund": "Pagamento {gateway} reembolsado. ação: {action}, mensagem: {message}, Código: {status_code}.",
+        "payment_event": "Manejando evento de pagamento. porta de entrada: {gateway}, mensagem: {message}, detalhe: {detail}.",
+        "payment_error": "Erro de pagamento. porta de entrada: {gateway}, mensagem: {message}, ação: {action}, detalhes: {detail}, código: {status_code}.",
+        "autocharge_wrong_account_currency": "A conta {account_id} tinha a moeda errada para cobrança automática. Conta: {currency_account}, Compra: {currency_purchase}",
+        "purchase_refund": "Compra reembolsada. purchase_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
+        "purchase_revoke": "Compra revogada. purchase_id: {purchase_id}.",
+        "timeAgo": "{time} atrás",
+        "object_delete": "Excluído {classname} com identificação {id}.",
+        "object_create": "Criado {classname} com identificação {id}: {params}",
+        "applied_packet_extended": "Pacote aplicado estendido {applied_packet_id}.",
+        "group_add": "Adicionado grupo {groupName} {groupId}.",
+        "refund_finished": "Reembolso finalizado. debit_id: {debit_id}, purchase_id: {purchase_id}.",
+        "payment_initiate": "Pagamento {gateway} iniciado. ação: {action}, mensagem: {message}, Código: {status_code}.",
+        "payment_cancelled": "Pagamento cancelado. debit_id: {debit_id}.",
+        "packet_applied": "Pacote aplicado {packet_title} ({packet_id}) para usuário {user_id}. applied_packet_id: {applied_packet_id}.",
+        "payment_process": "Feito o processo de pagamento. Porta de entrada: {gateway}, mensagem: {message}, ação: {action}, detalhe: {detail}.",
+        "debit_status_changed": "Estado de débito alterado. debit_id: {debit_id}, status: {old_status} -> {new_status}.",
+        "purchase_status_changed": "Status de compra alterado. purchase_id: {purchase_id}, status: {old_status} -> {new_status}.",
+        "purchase_finished": "Compra finalizada. purchase_id: {purchase_id}.",
+        "purchase_cancelled": "Compra cancelada. purchase_id: {purchase_id}.",
+        "purchase_unrevoke": "Compra não revogada. purchase_id: {purchase_id}.",
+        "autocharge_tx_created": "Transação de cobrança automática criada. Valor: {amount}, Débito: {debit_id}, Conta: {account_id}, Usuário: {user_id}",
+        "payment_credits_success": "Pagamento de crédito bem-sucedido. ação: {action}, user_id: {user_id}, debit_id: {debit_id}, créditos: {credits}.",
+        "payment_credits_fail": "Falha no pagamento do crédito. ação: {action}, user_id: {user_id}, debit_id: {debit_id}, créditos: {credits}, motivo: {reason}."
+    },
+    "_address": {
+        "messages": {
+            "changeSuccess": "Endereço comercial alterado com sucesso.",
+            "addSuccess": "Novo endereço adicionado com sucesso.",
+            "selectedSuccess": "Endereço selecionado com sucesso.",
+            "noAddressesYet": "Você ainda não tem nenhum endereço."
+        },
+        "labels": {
+            "add": "Adicionar Endereço",
+            "edit": "Editar Endereço",
+            "change": "Alterar Endereço",
+            "streetAndNumber": "Rua e Número",
+            "addition": "Adição",
+            "city": "Cidade",
+            "state": "Estado",
+            "zip_code": "Código Postal",
+            "vat_number": "Número IVA",
+            "selectAddress": "Selecionar endereço"
+        }
+    },
+    "_errors": {
+        "undefined": "Erro inesperado. Por favor, entre em contato com o suporte.",
+        "no_server_available": "Nenhum servidor disponível para uma nova instância. Por favor, entre em contato com o suporte.",
+        "packet_requires_other": "Este pacote requer um outro pacote: {packet_title}.",
+        "packet_relation_violated": "Este pacote viola uma relação de pacote com outro pacote: {relation_type} {packet_title}.",
+        "missing_properties": "Você não possui todas as propriedades necessárias: {properties}",
+        "name_not_available": "Nome não disponível",
+        "domain_not_available": "Domínio não disponível",
+        "wrong_giftcode": "O código de presente não é válido",
+        "country_not_allowed": "Compras de seu país não são permitidas.",
+        "cart_not_empty": "Seu carrinho deve estar vazio para adicionar este pacote.",
+        "packet_not_compatible": "Este pacote não é compatível com outro pacote: {packet_title}.",
+        "packet_already_in_cart": "Este pacote já está em seu carrinho.",
+        "packet_not_purchasable": "Você não pode comprar este pacote.",
+        "cart_full": "Seu carrinho está cheio.",
+        "not_found": "Não encontrado.",
+        "no_resources_available": "Não há recursos computacionais suficientes disponíveis.",
+        "too_many_instances": "Você não pode criar mais instâncias. Por favor, entre em contato com o suporte para aumentar seu limite.",
+        "no_permissions": "Erro de permissão: {msg}",
+        "unauthorized": "Você deve estar logado para fazer isso.",
+        "wrong_currency": "Você não pode ter pacotes com moedas diferentes em seu carrinho.",
+        "coupon": {
+            "not_found": "Este código é inválido."
+        }
+    },
+    "_gateway": {
+        "labels": {
+            "paysafecard": "Paysafecard",
+            "paypal": "PayPal",
+            "stripe": "Stripe",
+            "create": "Criar Gateway de Pagamento",
+            "edit": "Editar Gateway de Pagamento",
+            "coupon": "Cupom (confirmação manual)",
+            "webhookURL": "URL do Webhook"
+        },
+        "messages": {
+            "deleteSuccess": "Gateway de pagamento excluído com sucesso.",
+            "createSuccess": "Gateway de pagamento criado com sucesso.",
+            "editSuccess": "Gateway de pagamento editado com sucesso.",
+            "formAttributeChangeExplanation": "Os atributos abaixo não serão editados se nenhum valor for fornecido."
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "appliedPackets": "Pacotes Aplicados",
+            "monthlyRevenue": "Receita Mensal",
+            "addAppliedPacket": "Adicionar Pacote Aplicado",
+            "confirmPurchases": "Confirmar Compras",
+            "addAppliedReward": "Adicionar recompensa aplicada",
+            "myPurchases": "Minhas Compras",
+            "allPurchases": "Todas as Compras",
+            "revoke": "Revogar",
+            "revoked": "Revogado",
+            "unrevoke": "Não revogado",
+            "refund": "Reembolso",
+            "refunded": "Reembolsado",
+            "amountNet": "Valor Líquido",
+            "amountTotal": "Montante Total",
+            "details": "Detalhes da Compra",
+            "salesCount": "Contagens de Vendas",
+            "totalRevenue": "Rendimento Total",
+            "creditsSpent": "Créditos Gastos",
+            "revenueByCountry": "Receita por País",
+            "editAppliedPacket": "Editar Pacote Aplicado",
+            "cancelSubscription": "Cancelar Inscrição",
+            "coupon": "Cupom",
+            "confirm": "Confirmar",
+            "decline": "Rejeitar",
+            "confirmDebitText": "Confirmar compra? Isso não pode ser desfeito.",
+            "declineDebitText": "Cancelar compra? Isso não pode ser desfeito.",
+            "showApprovedDebits": "Mostrar débitos aprovados",
+            "paymentGateway": "Gateway de Pagamento",
+            "reward": "Recompensa"
+        },
+        "messages": {
+            "refreshSuccess": "Dados de pagamento atualizados com sucesso.",
+            "cancelSubscriptionConfirm": "Tem certeza de que deseja cancelar esta assinatura?",
+            "cancelSubscriptionSuccess": "Inscrição cancelada com sucesso.",
+            "refundInitSuccess": "Reembolso iniciado com sucesso.",
+            "revokeSuccess": "Compra revogada com sucesso.",
+            "unrevokeSuccess": "Compra não revogada com sucesso.",
+            "editAppliedPacketSuccess": "Pacote aplicado editado com sucesso.",
+            "deleteAppliedPacketSuccess": "Pacote aplicado excluído com sucesso.",
+            "createAppliedPacketSuccess": "Pacote aplicado criado com sucesso.",
+            "refundConfirm": "Tem certeza de que deseja reembolsar esta compra?",
+            "confirmPurchaseSuccess": "Compra aprovada com sucesso",
+            "declinePurchaseSuccess": "Compra cancelada com sucesso"
+        }
+    },
+    "_support": {
+        "messages": {
+            "requestSendSuccess": "Solicitação de suporte enviada com sucesso. Você deve receber um e-mail de confirmação em breve.",
+            "needHelp": "Preciso de ajuda? Crie uma solicitação de suporte."
+        }
+    },
+    "_affiliate": {
+        "transactionId": "ID da Transação",
+        "pendingBalanceDescription": "Taxas não pagas pelo usuário (podem levar até 4 semanas para serem processadas).",
+        "status": {
+            "finished": "Concluído",
+            "created": "Criado",
+            "pending": "Pendente",
+            "rejected": "Rejeitado"
+        },
+        "messages": {
+            "linkCopied": "Link copiado para a área de transferência.",
+            "payoutSuccess": "Pagamento iniciado com sucesso."
+        },
+        "overlayDescription": "Este painel é para os usuários do programa de afiliados. Você está pesquisando no painel da sua conta?",
+        "lookHere": "Olhe aqui.",
+        "affiliateResources": "Recursos de Afiliados",
+        "affiliateDashboard": "Painel de Afiliados",
+        "yourAffiliateLink": "Seu link de afiliado",
+        "currentBalance": "Saldo Atual",
+        "pendingBalance": "Balanço Pendente",
+        "totalPaid": "Total Pago",
+        "totalReferrals": "Referências Totais",
+        "registeredUsers": "Usuários Registrados",
+        "payouts": "Pagamentos",
+        "payout": "Pagamento",
+        "payoutNow": "Pagamento Agora",
+        "processedOn": "Processado em",
+        "recipient": "Recebedor",
+        "currentBalanceDescription": "Saldo disponível para pagamento.",
+        "minimumPayout5€": "Pagamento Mínimo 5 €",
+        "iban": "IBAN"
+    },
+    "_features": {
+        "_community": {
+            "_features": {
+                "text4": "Para melhor gerenciar sua comunidade e agilizar o processo de suporte, o VyHub oferece um sistema de tickets. Os jogadores podem criar tickets que estão sendo resolvidos pelos membros da equipe.",
+                "text1": "Você pode banir jogadores de seus servidores de jogos com VyHub. As proibições podem ser criadas para um conjunto de servidores de jogos ou globalmente em todos os seus servidores. Os usuários têm a capacidade de criar um protesto de proibição que pode ser visto pelos administradores.",
+                "text2": "Você pode avisar os usuários, que são banidos automaticamente depois que um limite de aviso é atingido.",
+                "text3": "Seus jogadores podem conversar entre si usando o fórum do VyHub. Com o gerenciamento de direitos é até possível criar tópicos apenas para membros.",
+                "title1": "Proibições",
+                "headline1": "Proibições",
+                "title2": "Avisos",
+                "headline2": "Avisos",
+                "title3": "Fórum",
+                "headline3": "Fórum",
+                "title4": "Sistema de Bilhetes",
+                "headline4": "Sistema de Bilhetes",
+                "title5": "Página da Equipe",
+                "headline5": "Página da Equipe",
+                "text5": "Grupos podem fazer parte da equipe. Uma página de equipe é criada automaticamente, o que permite que os jogadores se conectem à pessoa certa.",
+                "title6": "Anúncios",
+                "headline6": "Anúncios",
+                "text6": "Anúncios são pequenas mensagens que podem ser anunciadas periodicamente nos servidores do jogo."
+            },
+            "title": "Comunidade",
+            "subtitle": "Economize tempo e esforço gerenciando sua comunidade."
+        },
+        "_shop": {
+            "_features": {
+                "text1": "Os pacotes são a base de cada loja virtual. Crie seus próprios pacotes que você pode vender no site com dinheiro real. Você pode organizar pacotes em diferentes categorias para oferecer uma melhor experiência aos seus usuários. Os pacotes podem ser de compra única ou pagamentos recorrentes.",
+                "text3": "Sempre que um jogador compra um pacote, diferentes recompensas podem ser executadas. As recompensas podem ser tudo, desde a moeda do jogo até a itens dropados. Você pode executar qualquer comando no jogo com as recompensas. Além disso, você também pode atribuir classificações aos jogadores!",
+                "text6": "VyHub suporta vários métodos de pagamento. Você pode aceitar pagamentos PayPal, Paysafecard e Stripe. Com o Stripe, muitos métodos de pagamento locais são cobertos. Além disso, os usuários podem usar o sistema de crédito embutido para pagamentos. Também existe a opção de aceitar códigos de cupom personalizados para uma compra que precisa ser aprovada manualmente por um administrador.",
+                "title1": "Pacotes",
+                "headline1": "Pacotes Ilimitados",
+                "title2": "Categorias",
+                "headline2": "Categorias Ilimitadas",
+                "title3": "Recompensas",
+                "headline3": "Recompensas Ilimitadas",
+                "title4": "Estatisticas",
+                "headline4": "Estatisticas",
+                "text4": "Monitore suas vendas com as estatísticas integradas. Por exemplo, as vendas podem ser exibidas por mês ou por país.",
+                "title5": "Descontos",
+                "headline5": "Descontos",
+                "text5": "Você pode fornecer descontos aos seus jogadores. Esses descontos podem ser aplicados em toda a loja ou apenas em determinados pacotes. Desta forma, você pode premiar os jogadores pelo bom desempenho.",
+                "title6": "Gateways de Pagamento",
+                "headline6": "Gateways de Pagamento",
+                "title7": "Atualizações de Pacotes",
+                "headline7": "Atualizações de Pacotes"
+            },
+            "title": "Loja",
+            "subtitle": "Venda classificações e itens do jogo por dinheiro real."
+        },
+        "_dashboard": {
+            "_features": {
+                "text1": "Você pode ver todas as informações importantes rapidamente através do painel do usuário. Isso inclui todas as contas conectadas que o usuário possui. Além disso, as estatísticas são exibidas no painel. Por padrão, o tempo de reprodução é registrado, mas é possível mostrar mais estatísticas!",
+                "title1": "Painel",
+                "headline1": "Painel do jogador",
+                "title2": "Painel do Servidor",
+                "headline2": "Painel do Servidor",
+                "text2": "Dê uma olhada em todos os jogadores online com o painel do servidor. Este painel permite que você acesse todos os recursos importantes relacionados ao jogador e ao jogo em um só lugar.",
+                "title3": "Estatísticas do Jogador",
+                "headline3": "Estatísticas do Jogador",
+                "title4": "Grupos de Jogadores",
+                "headline4": "Grupos de Jogadores"
+            },
+            "title": "Painel",
+            "subtitle": "Todas as informações do jogador em uma exibição."
+        },
+        "_groupsAndTeams": {
+            "_features": {
+                "text1": "Os grupos são a base do sistema de permissão implementado no VyHub. Cada jogador pode fazer parte de um ou vários grupos. Os grupos podem ter permissões diferentes. Os grupos também podem ser premiados após uma compra.",
+                "text3": "Todas as funcionalidades do site são protegidas por permissões. Cada grupo que você cria pode ter permissões diferentes. Isso torna possível criar uma hierarquia de grupos. Isso pode ser totalmente ajustado para atender às suas necessidades, por exemplo, para criar grupos para membros da equipe.",
+                "title1": "Grupos",
+                "headline1": "Crie grupos próprios",
+                "title2": "Jogadores Premiados",
+                "headline2": "Premiar jogadores com grupos",
+                "title3": "Sistema de Permissão",
+                "headline3": "Sistema de permissão total",
+                "title4": "Níveis de Permissão",
+                "headline4": "Níveis de Permissão"
+            },
+            "title": "Grupos e Equipes",
+            "subtitle": "Gerencie grupos e permissões facilmente."
+        },
+        "_furtherFeatures": {
+            "_features": {
+                "text2": "Para personalizar melhor o VyHub e interagir com sua comunidade, o VyHub é traduzido em vários idiomas. Atualmente, três idiomas são totalmente suportados, mais idiomas estão traduzidos no momento! Proprietários de comunidades como você podem ajudar a traduzir o VyHub.",
+                "headline1": "Certificado SSL gratuito",
+                "text4": "O VyHub vem com um subdomínio gratuito vyhub.app. Se preferir usar seu próprio domínio, isso é possível! A utilização do seu próprio domínio não tem qualquer custo adicional.",
+                "title2": "Idiomas",
+                "title3": "API cheia de recursos",
+                "title1": "SSL",
+                "headline2": "Suporte a vários idiomas",
+                "headline3": "API cheia de recursos",
+                "text3": "O VyHub vem com uma API REST completa. Você pode usar esta API para fazer tudo (e mais) que também pode fazer com o frontend. Plugins próprios que integram a API também são possíveis.",
+                "headline4": "Opcional: Use domínio próprio",
+                "title4": "Use domínio próprio"
+            },
+            "title": "Recursos Adicionais",
+            "subtitle": "Há muito mais para descobrir."
+        },
+        "_cutomizability": {
+            "_features": {
+                "headline3": "Editar Links de Navegação",
+                "title1": "Tema",
+                "headline1": "Alterar cores",
+                "text1": "Você pode facilmente alterar o tema do site! Isso inclui cores, um modo escuro ou uma imagem de fundo diferente.",
+                "headline2": "Modo Escuro",
+                "title2": "ModoEscuro",
+                "title3": "Links de Navegação",
+                "title4": "Crie páginas personalizadas",
+                "headline4": "Crie páginas personalizadas",
+                "text4": "Você pode criar páginas personalizadas com todas as possibilidades de html/javascript. Você pode mostrar esses sites na barra de navegação."
+            },
+            "title": "Personalização",
+            "subtitle": "Personalize o VyHub para suas necessidades."
+        }
+    },
+    "_games": {
+        "_features": {
+            "gmodPlayerSync": "Sincronize grupos de jogadores (suporte para ULX, xAdmin, SAM, FAdmin, ServerGuard e mais)",
+            "bans": "Proibições e Tempo de Proibições",
+            "warnings": "Avisos",
+            "gmodIngameDashboard": "Painel do jogo para proibições e avisos",
+            "minecraftPlayerSync": "Sincronizar grupos de jogadores (suporte para LuckPerms)",
+            "playerSync": "Sincronizar funções de usuário"
+        },
+        "gmodDescription": "VyHub suporta Garry's Mod, o famoso sandbox físico.",
+        "discordDescription": "VyHub oferece suporte ao Discord, o aplicativo gratuito de bate-papo por voz, vídeo e texto.",
+        "minecraftDescription": "VyHub suporta Minecraft, o jogo sandbox de sobrevivência mais jogado. Atualmente, esses plug-ins requerem Java >= 17 e Minecraft >= 1.13.",
+        "teamspeakDescription": "VyHub suporta TeamSpeak, o chat de voz onde você está no controle total."
+    },
+    "_partners": {
+        "title": "Parceiros",
+        "headline": "Pronto para promover o melhor sistema de gerenciamento de servidores de jogos?",
+        "lifetimeCustomerValue": "Valor Vitalício do Cliente",
+        "description1": "Seus amigos e seguidores vão agradecer quando experimentarem o VyHub pela primeira vez.{br} Você também ganhará uma comissão recorrente de 25%.",
+        "description2": "Sua conta VyHub.net já inclui um link de afiliado pronto para compartilhamento.",
+        "grabAffiliateLink": "Pegue seu link de afiliado"
+    },
+    "_payInstance": {
+        "labels": {
+            "title": "Instância de Pagamento"
+        }
+    },
+    "_cart": {
+        "labels": {
+            "add": "Adicionar ao Carrinho"
         }
     }
 }
