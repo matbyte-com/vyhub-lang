@@ -147,6 +147,7 @@
     "_dashboard": {
         "title": "Dashboard",
         "yourInstances": "Your Instances",
+        "yourAdminInstances": "Your Admin Instances",
         "visitInstance": "Visit",
         "createInstance": "Create Instance",
         "currentlyProvisioned": "This instance is currently getting created",
