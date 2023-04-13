@@ -34,7 +34,7 @@
     },
     "_header": {
         "labels": {
-            "login": "Entrar",
+            "login": "Login",
             "register": "Cadastre-se",
             "logout": "Encerrar a sessão",
             "close": "Fechar"
@@ -108,7 +108,8 @@
             "editedTheme": "Tema editado."
         },
         "showInformationFabDescription": "Informação fab no canto inferior direito",
-        "showInformationFab": "Mostrar informação fab"
+        "showInformationFab": "Mostrar informação fab",
+        "secondaryColor": "Cor Secundária"
     },
     "_settings": {
         "multigroupDescription": "Usuários podem ser membros de múltiplos grupos por vez em esse pacote.",
@@ -152,7 +153,8 @@
         "communityDescription": "Descrição da Comunidade",
         "language": "Idioma",
         "languageNewDescriptionText": "Nos ajude a traduzir para o seu idioma",
-        "addServerTooltip": "Adicionar o Pacote de Servidor primeiro"
+        "addServerTooltip": "Adicionar o Pacote de Servidor primeiro",
+        "showForum": "Ativar Fórum"
     },
     "_properties": {
         "ban_show": "Permite ao usuário a mostrar proibições em um pacote específico",
@@ -210,7 +212,8 @@
             "loginToBuy": "Entre para comprar esse pacote",
             "checkoutCheckboxes": "Finalizar caixas de seleção",
             "taxAllowUnknown": "Permitir compras de países sem regras fiscais.",
-            "taxAllowUnknownDescription": "Se desativado, compras originárias de países que não possuem uma regra de impostos explícita configurada, não serão possíveis."
+            "taxAllowUnknownDescription": "Se desativado, compras originárias de países que não possuem uma regra de impostos explícita configurada, não serão possíveis.",
+            "changeTargetUser": "Compre para um amigo"
         },
         "messages": {
             "notEnoughCredits": "Você não tem créditos suficientes para pagar essa compra. Por favor escolha um método de pagamento diferente ou compre mais créditos.",
@@ -242,7 +245,8 @@
             "includesVAT": "Incluem {tarifa_impostos}% IVA.",
             "selectBillingAddressFirst": "Por favor, selecione um endereço de cobrança primeiro.",
             "selectEmailFirst": "Por favor, primeiro atualize o endereço de e-mail",
-            "cancelPurchaseConfirmation": "Os pagamentos iniciados foram cancelados. Todos os cupons utilizados foram perdidos. O cancelamento da compra não pode ser desfeito."
+            "cancelPurchaseConfirmation": "Os pagamentos iniciados foram cancelados. Todos os cupons utilizados foram perdidos. O cancelamento da compra não pode ser desfeito.",
+            "targetUserChanged": "O usuário alvo foi alterado"
         },
         "purchaseStatus": {
             "open": "Aberto",
@@ -305,6 +309,10 @@
             "MINECRAFT": {
                 "name": "Minecraft",
                 "info": "Construa o seu próprio mundo."
+            },
+            "TEAMSPEAK3": {
+                "name": "Teamspeak 3",
+                "info": "Bate-papo por voz para jogadores."
             }
         }
     },
@@ -370,7 +378,11 @@
             "server": "Servidor",
             "faq": "FAQ",
             "system": "Sistema",
-            "ban": "Banimento"
+            "ban": "Banimento",
+            "teamspeak3": "Teamspeak 3",
+            "advert": "Advertir",
+            "navigation": "Navegação",
+            "forum": "Fórum"
         },
         "edit": "Editado {name}: {key} = {value}",
         "object_delete": "Deletado {classname} com identificação {id}.",
@@ -444,7 +456,11 @@
         "membership_ended": "Incrição encerrada: Grupo: {groupName}, Usuário: {username}.",
         "reward_process_failed": "Não foi possível executar a recompensa aplicada {reward_type} {applied_reawrd_id}: {error}.",
         "reward_process_success": "Recompensa aplicada executada com sucesso {reward_type} {applie_reward_id}.",
-        "legal_edit": "Jurídico editado."
+        "legal_edit": "Jurídico editado.",
+        "teamspeak_general_login_error": "Erro geral de bot do Teamspeak.",
+        "teamspeak_connection_refused": "O bot do Teamspeak não consegue se conectar. IP ou Porta errada.",
+        "teamspeak_wrong_credentials": "O bot do Teamspeak não consegue fazer login. Credenciais erradas.",
+        "applied_packet_edit_status": "Status editado do pacote aplicado {id} para {status}."
     },
     "log": "Registro",
     "apiKey": "Chave API",
@@ -769,9 +785,12 @@
             "editSuccess": "Editado com sucesso.",
             "deleteSuccess": "Excluído com sucesso.",
             "pinned": "Tópico fixado.",
-            "unpinned": "Tópico desafixado."
+            "unpinned": "Tópico desafixado.",
+            "addedPost": "Postagem criada.",
+            "toggleStatus": "Status alternado.",
+            "addedThread": "Tópico criado."
         },
-        "title": "Fórum",
+        "title": "Título",
         "manageTopicCategories": "Gerenciar Categorias de Tópicos",
         "manageTopics": "Gerenciar Tópicos",
         "selectTopicCategory": "Selecione uma Categoria de Tópico",
@@ -806,7 +825,30 @@
         "hideClosed": "Ocultar Tópicos Fechados",
         "threadLocked": "Tópico Bloqueado",
         "threadPinned": "Tópico Fixado",
-        "numberOfThreads": "Contagem de Tópicos: "
+        "numberOfThreads": "Contagem de Tópicos: ",
+        "last_post": "Última Publicação",
+        "lastUpdated": "Última Atualização",
+        "showClosed": "Mostrar fechado",
+        "forum": "Fórum",
+        "ticket:": "Ticket",
+        "editThreadTitle": "Editar Título do Tópico",
+        "tickets": "Tickets",
+        "creator": "Criador",
+        "content": "Conteúdo",
+        "created": "Criado",
+        "addTicket": "Criar Ticket",
+        "noTickets": "Você ainda não criou nenhum ticket.",
+        "addPost": "Adicionar Publicação",
+        "readMore": "Ler Mais",
+        "open": "Aberto",
+        "closed": "Fechado",
+        "close": "Fechar",
+        "banProtest": "Proibir protesto",
+        "showBan": "Mostrar proibição",
+        "status": {
+            "open": "aberto",
+            "closed": "fechado"
+        }
     },
     "_faq": {
         "messages": {
@@ -1089,6 +1131,10 @@
             },
             "MINECRAFT": {
                 "download": "Baixe o plug-in .jar do vyhub-minecraft e coloque-o na pasta de plug-ins do seu servidor. Em seguida, reinicie seu servidor."
+            },
+            "TEAMSPEAK3": {
+                "botNotConnected": "O bot não está conectado? Ative a exibição de bots de consulta primeiro. Toda vez que você altera as configurações do servidor, o bot tenta se reconectar. Você pode encontrar mensagens de erro no log.",
+                "headline": "O bot TS3 já deve estar conectado ao seu servidor Teamspeak."
             }
         },
         "deleteBundleConfirmationText": "Isso excluirá os objetos referenciados a este pacote (por exemplo, recompensas)"
@@ -1255,5 +1301,6 @@
     "requirements": "Requerimentos",
     "subcategory": "Subcategoria",
     "servers": "Servidores",
-    "paymentGateways": "Gateways de Pagamento"
+    "paymentGateways": "Gateways de Pagamento",
+    "add-on": "Adicionar"
 }
