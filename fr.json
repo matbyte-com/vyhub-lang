@@ -1,1 +1,10 @@
-{}
+{
+    "_header": {
+        "features": "Caractéristiques",
+        "games": "Jeux",
+        "pricing": "Tarifs",
+        "partners": "Partenaires",
+        "blog": "Blog",
+        "demo": "Démo"
+    }
+}
