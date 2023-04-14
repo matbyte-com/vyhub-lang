@@ -40,7 +40,8 @@
         "backgroundImageURL": "URL de l'image d'arrière-plan",
         "logoURL": "URL du logo",
         "faviconURL": "URL du favicon",
-        "headerColor": "Couleur de l'en-tête et bas de page"
+        "headerColor": "Couleur de l'en-tête et bas de page",
+        "secondaryColor": "Couleur secondaire"
     },
     "_settings": {
         "multigroup": "Plusieurs groupes",
@@ -84,7 +85,8 @@
         "communityDescriptionDescr": "Cette description sera affichée dans les résultats des moteurs de recherche",
         "communityDescription": "Description de la communauté",
         "showFaq": "Activer la page FAQ",
-        "addServerTooltip": "Veuillez premièrement ajouter un groupe de serveurs"
+        "addServerTooltip": "Veuillez premièrement ajouter un groupe de serveurs",
+        "showForum": "Activer le forum"
     },
     "_home": {
         "messages": {
@@ -165,7 +167,8 @@
             "downloadInvoices": "Télécharger les factures",
             "taxIncludedInPacketPrice": "Taxe incluse dans le prix",
             "taxIncludedInPacketPriceDescription": "Au lieu d'ajouter des taxes au prix du paquet spécifié, elles sont incluses dans le prix.",
-            "net": "net"
+            "net": "net",
+            "changeTargetUser": "Acheter pour un ami"
         },
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} crédits.",
@@ -197,7 +200,8 @@
             "selectBillingAddressFirst": "Veuillez d'abord sélectionner une adresse de facturation.",
             "paymentSuccess": "Le paiement a été terminé avec succès. Les paquets achetés ont été attribués à votre compte.",
             "paymentProcessing": "Le paiement a été confirmé et va être finalisé sous peu. Merci d'attendre quelques minutes sur cette page le temps que le paiement soit traité.",
-            "paymentFailed": "Une erreur s'est produite lors du processus de paiement. Veuillez réessayer."
+            "paymentFailed": "Une erreur s'est produite lors du processus de paiement. Veuillez réessayer.",
+            "targetUserChanged": "L'utilisateur cible a été modifié"
         },
         "purchaseStatus": {
             "open": "Ouvrir",
@@ -295,7 +299,7 @@
         "type": {
             "CENTRAL": {
                 "name": "Centrale VyHub",
-                "info": "Obtenez une URL de tableau de bord personnelle."
+                "info": "La plateforme pour gérer et monétiser vos serveurs de jeux."
             },
             "STEAM": {
                 "name": "Steam",
@@ -308,6 +312,10 @@
             "MINECRAFT": {
                 "info": "Construisez votre propre monde.",
                 "name": "Minecraft"
+            },
+            "TEAMSPEAK3": {
+                "info": "Chat vocal pour les gamers.",
+                "name": "TeamSpeak 3"
             }
         }
     },
@@ -324,7 +332,10 @@
             "addedLink": "Lien de navigation créé.",
             "updatedLinkOrder": "Ordre de navigation mis à jour.",
             "removedLink": "Lien de navigation supprimé.",
-            "editedLink": "Lien de navigation modifié."
+            "editedLink": "Lien de navigation modifié.",
+            "cmsEdited": "Page HTML modifiée.",
+            "cmsDeleted": "Page HTML supprimée.",
+            "cmsAdded": "Page HTML ajoutée."
         },
         "linkTitle": "Titre",
         "enabled": "Activé",
@@ -334,7 +345,27 @@
         "editNavLink": "Modifier le lien de navigation",
         "noHtmlGiven": "S'il vous plaît entrez un peu de HTML !",
         "bothHtmlInputsUsed": "Ne pas utiliser les deux entrées HTML",
-        "deleteDefaultLink": "Impossible de supprimer le lien par défaut"
+        "deleteDefaultLink": "Impossible de supprimer le lien par défaut",
+        "parentNavigationLink": "Lien de navigation parent",
+        "navUpdate": "Mettre à jour l'ordre de navigation",
+        "_location": {
+            "footer": "Bas de page",
+            "help": "Aide",
+            "header": "Entête"
+        },
+        "cmsPage": "Page HTML",
+        "addCmsPage": "Ajouté une page",
+        "html": "HTML",
+        "sublink": "Sous-lien",
+        "deleteCmsPage": "Supprimé la page",
+        "rawHtml": "HTML brut",
+        "editor": "Editeur",
+        "cmsPageTitle": "Pages HTML",
+        "navReset": "Reset l'ordre de navigation",
+        "location": "Localisation",
+        "editCmsPage": "Modifié la page",
+        "contentSanitizationWarning": "JavaScript ne peut être utilisé que par les administrateurs. Sinon, il va être désinfecté.",
+        "reqProp": "Propriété requise"
     },
     "_log": {
         "type": {
@@ -350,7 +381,11 @@
             "discord": "Discord",
             "server": "Serveur",
             "ban": "Bannissement",
-            "faq": "FAQ"
+            "faq": "FAQ",
+            "advert": "Annonce",
+            "navigation": "Navigation",
+            "forum": "Forum",
+            "teamspeak3": "TeamSpeak 3"
         },
         "object_edit": "Modifié {classname} avec l'id {id} : {key} = {value}.",
         "object_delete": "Supprimé {classname} avec l'id {id}.",
@@ -388,7 +423,7 @@
         "config_edit": "Configuration générale modifiée.",
         "membership_deleted": "Adhésion supprimée : Groupe : {groupName}, Utilisateur : {username}.",
         "membership_ended": "Adhésion terminée : Groupe : {groupName}, Utilisateur : {username}.",
-        "warning_toggle": "Basculer l'état d'avertissement sur Désactivé : {newStatus}, Utilisateur : {username}.",
+        "warning_toggle": "Définissez le statut d'un avertissement de l'utilisateur {username} sur {newStatus}.",
         "warning_delete": "Supprimer l'avertissement de l'utilisateur : {username}.",
         "legal_edit": "Légal édité.",
         "user_log_entry_add": "{message}",
@@ -424,7 +459,11 @@
         "ban_protest": "Bannissement contesté par l'utilisateur",
         "users_linked": "Utilisateur lié {link_user_id} avec {base_user_id}. Crédits {credits} transférés lors de la fusion des comptes de crédit.",
         "applied_packet_disabled": "Paquet appliqué désactivé {applied_packet_id}.",
-        "applied_packet_upgraded": "Paquet appliqué {old_applied_packet_id} amélioré avec{new_applied_packet_id}. Ajouté pour {days} jours."
+        "applied_packet_upgraded": "Paquet appliqué {old_applied_packet_id} amélioré avec{new_applied_packet_id}. Ajouté pour {days} jours.",
+        "teamspeak_wrong_credentials": "Le bot Teamspeak ne peut pas se connecter. Identifiants erronés.",
+        "applied_packet_edit_status": "Statut modifié du paquet appliqué {id} à {status}.",
+        "teamspeak_general_login_error": "Erreur générale du bot Teamspeak.",
+        "teamspeak_connection_refused": "Le bot Teamspeak ne peut pas se connecter. IP ou port incorrect."
     },
     "_address": {
         "labels": {
@@ -658,7 +697,8 @@
             "stripe": "Stripe",
             "acceptPending": "Accepter les paiements en attente",
             "doNotAcceptPending": "Ne pas accepter les paiements en attente",
-            "acceptPendingDescription": "Certains modes de paiement (par exemple, prélèvement SEPA, SOFORT, ...) prennent plusieurs jours avant d'être effectués. Si cette option est activée, les achats payés avec ces méthodes sont terminés directement après avoir terminé le processus de paiement. Il y a une petite chance que le paiement échoue par la suite."
+            "acceptPendingDescription": "Certains modes de paiement (par exemple, prélèvement SEPA, SOFORT, ...) prennent plusieurs jours avant d'être effectués. Si cette option est activée, les achats payés avec ces méthodes sont terminés directement après avoir terminé le processus de paiement. Il y a une petite chance que le paiement échoue par la suite.",
+            "clientCertDescription": "Un certificat client et une clé sont utilisés comme méthode d'authentification pour l'API paysafecard. Contactez le support paysafecard pour en obtenir un."
         },
         "messages": {
             "createSuccess": "Passerelle de paiement créée avec succès.",
@@ -752,7 +792,8 @@
         "log": "Log",
         "notifications": "Notifications",
         "serverDashboard": "Tableau de bord du serveur",
-        "faq": "FAQ"
+        "faq": "FAQ",
+        "forum": "Forum"
     },
     "_warning": {
         "title": "Avertissements",
@@ -815,6 +856,10 @@
             },
             "MINECRAFT": {
                 "download": "Téléchargez le plugin vyhub-minecraft et placez-le dans le dossier plugins de votre serveur. Puis, redémarrez le serveur."
+            },
+            "TEAMSPEAK3": {
+                "headline": "Le bot TS3 devrait déjà être connecté à votre serveur Teamspeak.",
+                "botNotConnected": "Le bot n'est pas connecté ? Activez d'abord l'affichage des bots de requête. Chaque fois que vous modifiez les paramètres du serveur, le bot essaie de se reconnecter. Vous pouvez trouver des messages d'erreur dans les logs."
             }
         }
     },
@@ -1157,8 +1202,105 @@
     "confirm": "Confirmer",
     "faq": "FAQ",
     "adverts": "Annonces",
-    "map": "Map",
+    "map": "Carte",
     "setup": "Installation",
     "instructions": "Consignes",
-    "discount": "Remise"
+    "discount": "Remise",
+    "add-on": "Add-On",
+    "_forum": {
+        "content": "Contenu",
+        "forum": "Forum",
+        "selectTopicCategory": "Sélectionnez une catégorie de sujet",
+        "ticket:": "Billets",
+        "unlocked": "Dévérouillé",
+        "noTickets": "Vous n'avez pas encore créé de tickets.",
+        "messages": {
+            "pinned": "Fil épinglé.",
+            "addedPost": "Post créé.",
+            "editSuccess": "Edité avec succès.",
+            "deleteSuccess": "Supprimé avec succès.",
+            "unpinned": "Fil désépinglé.",
+            "topicCreated": "Sujet créé.",
+            "topicCategoryEdited": "Catégorie de sujet modifiée.",
+            "topicEdited": "Sujet édité.",
+            "categoryDeleteSuccess": "Catégorie supprimée avec succès.",
+            "updatedOrder": "Ordre du forum mis a jour.",
+            "toggleStatus": "Statut basculé.",
+            "addedThread": "Fil créé.",
+            "topicCategoryCreated": "Catégorie de sujet créée.",
+            "topicDeleteSuccess": "Sujet supprimée avec succès."
+        },
+        "threadLocked": "Fil verrouillé",
+        "manageTopicCategories": "Gérer les catégories de sujets",
+        "manageTopics": "Gérer les sujets",
+        "addThread": "Ajouter un fil",
+        "addCategory": "Ajouter une catégorie",
+        "addTopic": "Ajouter un sujet",
+        "editTopicCategory": "Modifier la catégorie de sujet",
+        "topicAdminUser": "Administrateurs de sujet",
+        "deleteCategory": "Supprimer la catégorie",
+        "deleteTopic": "Supprimer le sujet",
+        "pin": "Epinglé",
+        "unpin": "Désépinglé",
+        "posts": "Posts",
+        "addTopicCategory": "Ajouter une catégorie de sujet",
+        "editTopic": "Modifier le sujet",
+        "latestPosts": "Derniers messages",
+        "latestThreads": "Derniers Fils",
+        "statistics": "Statistiques du forum",
+        "threads": "Fils",
+        "by": "par",
+        "editPost": "Autoriser la modification des publications",
+        "editPostDescription": "Autoriser les utilisateurs à modifier leurs propres messages.",
+        "edited": "Édité",
+        "creator": "Créateur",
+        "created": "Créé",
+        "last_post": "Dernier Post",
+        "lastUpdated": "Dernière mise à jour",
+        "addTicket": "Créer un ticket",
+        "addPost": "Ajouter un post",
+        "readMore": "Lire plus",
+        "open": "Ouvrir",
+        "close": "Fermer",
+        "closed": "Fermé",
+        "banProtest": "Protestation de ban",
+        "showClosed": "Afficher fermé",
+        "showBan": "Voir les bannissements",
+        "status": {
+            "open": "Ouvrir",
+            "closed": "fermé"
+        },
+        "tickets": "Billets",
+        "lock": "Vérouiller",
+        "unlock": "Dévérouiller",
+        "locked": "Vérouillé",
+        "rename": "Renommer",
+        "renameThread": "Renommer le fil",
+        "editThreadTitle": "Modifier le titre du fil",
+        "admin": "Administrateurs du forum",
+        "topicAdmins": "Administrateurs du sujet : ",
+        "hideClosed": "Masquer les discussions fermées",
+        "numberOfThreads": "Nombre de fils : ",
+        "numberOfPosts": "Nombre de Posts : ",
+        "title": "Titre",
+        "deleteThread": "Supprimer le fil",
+        "threadPinned": "Discussion épinglée"
+    },
+    "_invoice": {
+        "invoice": "Facture",
+        "invoiceDate": "Date de facturation",
+        "deliveryDate": "Date de livraison",
+        "vatNumber": "Numéro de TVA",
+        "transaction": "Transaction",
+        "paymentMethod": "Méthodes de paiments",
+        "item": "Article",
+        "quantity": "Quantité",
+        "price": "Prix",
+        "subtotalNoVat": "Sous-Total (Sans TVA)",
+        "vat": "TVA",
+        "total": "Total"
+    },
+    "clientKey": "Clé de Client",
+    "clientCert": "Certificat client",
+    "writeToConfirm": "Écrivez pour confirmer :"
 }
