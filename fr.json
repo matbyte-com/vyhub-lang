@@ -5,6 +5,382 @@
         "pricing": "Tarifs",
         "partners": "Partenaires",
         "blog": "Blog",
-        "demo": "Démo"
-    }
+        "demo": "Démo",
+        "labels": {
+            "login": "Connexion",
+            "register": "S'inscrire",
+            "logout": "Se déconnecter"
+        },
+        "start": "Démarrer",
+        "dashboard": "Tableau de bord",
+        "faq": "FAQ",
+        "admin": "Administrateurs",
+        "purchases": "Achats"
+    },
+    "_form": {
+        "contact": {
+            "email": "Email",
+            "subject": "Sujet",
+            "message": "Message"
+        },
+        "submit": "Soumettre",
+        "login": {
+            "login": "Connexion",
+            "register": "S'inscrire",
+            "email": "Email",
+            "username": "Nom d'utilisateur",
+            "continue": "Continuer"
+        }
+    },
+    "_log": {
+        "object_delete": "Supprimé {classname} avec l'id {id}.",
+        "type": {
+            "system": "Systeme",
+            "user": "Utilisateur",
+            "ban": "Bannissement",
+            "shop": "Boutique",
+            "packet": "Paquet",
+            "group": "Groupe",
+            "news": "Actualités",
+            "requirement": "Exigence",
+            "design": "Style",
+            "warning": "Avertissement",
+            "discord": "Discord",
+            "server": "Serveur"
+        },
+        "timeAgo": "il y a {time}",
+        "edit": "{name} modifié : {key} = {value}",
+        "object_edit": "Modifié {classname} avec l'id {id} : {key} = {value}.",
+        "object_create": "Créé {classname} avec l'identifiant {id} : {params}",
+        "applied_packet_extended": "Paquet appliqué étendu {applied_packet_id}.",
+        "applied_packet_not_extended": "Échec de l'extension du paquet appliqué {applied_packet_id} : {reason}.",
+        "group_add": "Groupe ajouté {groupName} {groupId}.",
+        "refund_finished": "Remboursement terminé. débit _id : {debit _id}, achat _id : {purchase _id}.",
+        "payment_initiate": "Paiement {gateway} lancé. action : {action}, message : {message}, code : {status_code}.",
+        "payment_refund": "Paiement {gateway} remboursé. action : {action}, message : {message}, code : {status_code}.",
+        "payment_cancelled": "Paiement annulé. debit_id : {debit_id}.",
+        "packet_applied": "Paquet appliqué {packet_title} ({packet_id}) pour l'utilisateur {user_id}. Applied_packet_id : {applied_packet_id}.",
+        "payment_event": "Traitement de l'événement de paiement. passerelle : {passerelle}, message : {message}, détail : {détail}.",
+        "payment_process": "Processus de paiement effectué. passerelle : {passerelle}, message : {message}, action : {action}, détails : {détail}.",
+        "payment_error": "Erreur de paiement. passerelle : {gateway}, message : {message}, action : {action}, détails : {detail}, code : {status_code}.",
+        "debit_status_changed": "Statut de débit modifié. debit_id : {debit_id}, état : {old_status} -> {new_status}.",
+        "purchase_status_changed": "Statut d'achat modifié. acheteur_id : {purchase_id}, statut : {old_status} -> {new_status}.",
+        "purchase_finished": "Achat terminé. id_achat : {id_achat}.",
+        "purchase_cancelled": "Achat annulé. id_achat : {id_achat}.",
+        "purchase_revoke": "Achat annulé. id_achat : {id_achat}.",
+        "purchase_unrevoke": "Achat non révoqué. id_achat : {id_achat}.",
+        "purchase_refund": "Achat remboursé. id_achat : {purchase_id}, id_débit : {debit_id}, id_remboursement_debit : {refund_debit_id}.",
+        "payment_credits_success": "Paiement du crédit réussi. action : {action}, user_id : {user_id}, debit_id : {debit_id}, crédits : {credits}.",
+        "payment_credits_fail": "Le paiement du crédit a échoué. action : {action}, user_id : {user_id}, debit_id : {debit_id}, crédits : {credits}, raison : {reason}."
+    },
+    "_address": {
+        "labels": {
+            "city": "Ville",
+            "add": "Ajoutez l'adresse",
+            "change": "Changement d'adresse",
+            "streetAndNumber": "Rue et numéro",
+            "addition": "Addition",
+            "state": "État",
+            "zip_code": "Code postal",
+            "vat_number": "Numéro de TVA",
+            "selectAddress": "Sélectionnez l'adresse"
+        },
+        "messages": {
+            "changeSuccess": "L'adresse de l'entreprise a été modifiée avec succès.",
+            "addSuccess": "Nouvelle adresse ajoutée avec succès.",
+            "selectedSuccess": "Adresse sélectionnée avec succès.",
+            "noAddressesYet": "Vous n'avez pas encore d'adresse."
+        }
+    },
+    "_features": {
+        "_shop": {
+            "title": "Boutique",
+            "_features": {
+                "title4": "Statistiques",
+                "title1": "Paquets",
+                "title2": "Catégories",
+                "title3": "Récompenses",
+                "headline4": "Statistiques",
+                "title5": "Réductions",
+                "headline5": "Réductions",
+                "title6": "Passerelles de paiement"
+            }
+        },
+        "_groupsAndTeams": {
+            "_features": {
+                "title1": "Groupes"
+            }
+        },
+        "_cutomizability": {
+            "_features": {
+                "title1": "Thème"
+            }
+        },
+        "_community": {
+            "_features": {
+                "title1": "Bannissements",
+                "headline1": "Bannissements",
+                "title2": "Avertissements",
+                "headline2": "Avertissements",
+                "title6": "Annonces",
+                "headline6": "Annonces"
+            }
+        },
+        "_dashboard": {
+            "title": "Tableau de bord",
+            "_features": {
+                "title1": "Tableau de bord",
+                "title2": "Tableau de bord du serveur"
+            }
+        }
+    },
+    "_footer": {
+        "legal": "Légal",
+        "_help": {
+            "docs": "Documentation"
+        },
+        "_legal": {
+            "about": "à propos"
+        }
+    },
+    "_invoice": {
+        "invoice": "Facturer",
+        "vatNumber": "Numéro de TVA",
+        "price": "Prix",
+        "total": "Total"
+    },
+    "log": {
+        "labels": {
+            "log": "Log"
+        }
+    },
+    "_home": {
+        "shop": "Boutique"
+    },
+    "_dashboard": {
+        "title": "Tableau de bord",
+        "detailDialogTitle": "Détails"
+    },
+    "_shop": {
+        "labels": {
+            "cart": "Panier",
+            "invoiceLogoURL": "URL du logo",
+            "invoiceLogoURLDetails": "URL vers un logo affiché sur la facture.",
+            "admin": "Administration de la boutique",
+            "applyCoupon": "Appliquer un coupon",
+            "couponCode": "Code du coupon",
+            "tax": "Impôt",
+            "taxRules": "Règles fiscales",
+            "subtotal": "Sous-total",
+            "checkout": "Vérifier",
+            "payment": "Paiement",
+            "paymentId": "ID de paiement",
+            "addToCart": "Ajouter au panier",
+            "total": "Total",
+            "businessAddress": "Adresse d'affaires",
+            "credits": "Crédits",
+            "purchaseNow": "Acheter maintenant",
+            "orderOverview": "Aperçu de la commande",
+            "cartTotal": "Total du panier",
+            "defaultCurrency": "Devise par défaut",
+            "unfinishedPurchase": "Achat inachevé",
+            "billingAddress": "Adresse de facturation",
+            "removeAllPackets": "Supprimer tous les paquets",
+            "perMonth": "par mois",
+            "loginToBuy": "Connectez-vous pour acheter ce pack",
+            "checkoutCheckboxes": "Cases à cocher",
+            "taxAllowUnknown": "Autoriser les achats en provenance de pays sans règle fiscale.",
+            "taxAllowUnknownDescription": "Si cette option est désactivée, les achats provenant de pays qui n'ont pas de règle fiscale explicite configurée ne sont pas possibles.",
+            "cancelPayment": "Annuler le paiement",
+            "cancelPurchase": "Annuler l'achat"
+        },
+        "messages": {
+            "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} crédits.",
+            "confirmCouponPayment": "Veuillez saisir votre code {gateway_name}. Le paiement est ensuite approuvé manuellement par un membre de l'équipe.",
+            "couponsEntered": "Votre coupon a été ajouté avec succès. Vous pouvez modifier votre coupon jusqu'à ce que votre achat soit approuvé.",
+            "couponsEditSuccess": "Coupon édité avec succès.",
+            "notEnoughCredits": "Vous n'avez pas assez de crédits pour payer cet achat. Veuillez choisir un autre mode de paiement ou acheter plus de crédits.",
+            "addToCartError": "Une erreur s'est produite lors de l'ajout du paquet à votre panier.",
+            "addToCartSuccess": "Paquet ajouté avec succès au panier.",
+            "cartEmpty": "Votre panier est vide.",
+            "mustAgree": "Vous devez accepter pour continuer !",
+            "startingPaymentFailed": "Une erreur s'est produite lors du paiement. Veuillez réessayer ou utiliser un autre mode de paiement !",
+            "paymentActionFailed": "Une erreur s'est produite lors de la redirection vers la page de paiement. Veuillez réessayer ou utiliser un autre mode de paiement ! Message d'erreur : {message}",
+            "selectGateway": "Veuillez sélectionner votre méthode de paiement.",
+            "noOngoingPurchase": "Il n'y a actuellement aucun achat en cours. Veuillez commencer le paiement dans le panier.",
+            "noAddressSpecified": "Adresse pas encore spécifiée.",
+            "removeFromCartSuccess": "Le paquet a bien été supprimé du panier.",
+            "clearCartSuccess": "Suppression réussie de tous les paquets du panier.",
+            "paymentCancelled": "Ce paiement a été annulé. Vous pouvez réessayer en visitant votre panier.",
+            "paymentProcessing": "Le paiement a été confirmé et va être finalisé sous peu. Merci d'attendre quelques minutes sur cette page le temps que le paiement soit traité.",
+            "paymentFailed": "Une erreur s'est produite lors du processus de paiement. Veuillez réessayer.",
+            "paymentPending": "Ce paiement est en attente. Veuillez le compléter en visitant le panier.",
+            "unfinishedPurchase": "Il y a un achat en cours qui n'est pas encore terminé.",
+            "purchaseCancelledSuccess": "L'achat a été annulé.",
+            "couponApplySuccess": "Coupon appliqué avec succès.",
+            "couponRemoveSuccess": "Coupon supprimé avec succès.",
+            "couponNotApplied": "Le coupon n'a pu être appliqué à aucun paquet de votre panier.",
+            "includesVAT": "Comprend {tax_rate}% de TVA.",
+            "selectBillingAddressFirst": "Veuillez d'abord sélectionner une adresse de facturation.",
+            "selectEmailFirst": "Veuillez d'abord mettre à jour votre adresse e-mail",
+            "cancelPurchaseConfirmation": "Les paiements commencés sont annulés. Tous les coupons saisis sont perdus. L'annulation d'un achat ne peut pas être annulée."
+        },
+        "purchaseStatus": {
+            "open": "Ouvrir",
+            "cancelled": "Annulé",
+            "finished": "Achevé",
+            "refunded": "Remboursé",
+            "revoked": "Révoqué",
+            "recurring": "Récurrent",
+            "enabled": "Actif",
+            "disabled": "Expiré"
+        }
+    },
+    "_errors": {
+        "country_not_allowed": "Les achats depuis votre pays ne sont pas autorisés.",
+        "cart_not_empty": "Votre panier doit être vide pour ajouter ce paquet.",
+        "packet_requires_other": "Ce paquet nécessite un autre paquet : {packet_title}.",
+        "packet_not_compatible": "Ce paquet n'est pas compatible avec un autre paquet : {packet_title}.",
+        "packet_relation_violated": "Ce paquet viole une relation de paquet avec un autre paquet : {relation_type} {packet_title}.",
+        "packet_already_in_cart": "Ce paquet est déjà dans votre panier.",
+        "packet_not_purchasable": "Vous ne pouvez pas acheter ce paquet.",
+        "cart_full": "Votre panier est plein.",
+        "not_found": "Pas trouvé.",
+        "missing_properties": "Vous n'avez pas toutes les propriétés requises : {properties}",
+        "no_permissions": "Erreur d'autorisation : {msg}",
+        "unauthorized": "Vous devez être connecté pour faire cela.",
+        "wrong_currency": "Vous ne pouvez pas avoir de paquets avec des devises différentes dans votre panier.",
+        "coupon": {
+            "not_found": "Ce code est invalide."
+        }
+    },
+    "_gateway": {
+        "labels": {
+            "paypal": "PayPal",
+            "stripe": "Stripe",
+            "create": "Créer une passerelle de paiement",
+            "edit": "Modifier la passerelle de paiement",
+            "paysafecard": "Paysafecard",
+            "coupon": "Coupon (confirmation manuelle)",
+            "webhookURL": "URL du webhook"
+        },
+        "messages": {
+            "createSuccess": "Passerelle de paiement créée avec succès.",
+            "deleteSuccess": "Passerelle de paiement supprimée avec succès.",
+            "editSuccess": "Passerelle de paiement modifiée avec succès.",
+            "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée."
+        }
+    },
+    "_cart": {
+        "labels": {
+            "add": "Ajouter au panier"
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "myPurchases": "Mes achats",
+            "allPurchases": "Tous les achats",
+            "appliedPackets": "Paquets appliqués",
+            "revoke": "Révoquer",
+            "revoked": "Révoqué",
+            "unrevoke": "Annuler la révocation",
+            "refund": "Rembourser",
+            "refunded": "Remboursé",
+            "amountNet": "Montant net",
+            "amountTotal": "Montant total",
+            "details": "Détails d'achat",
+            "salesCount": "Nombre de ventes",
+            "totalRevenue": "Revenu total",
+            "monthlyRevenue": "Revenu mensuel",
+            "creditsSpent": "Crédits dépensés",
+            "revenueByCountry": "Chiffre d'affaires par pays",
+            "editAppliedPacket": "Modifier le paquet appliqué",
+            "cancelSubscription": "Annuler l'abonnement",
+            "addAppliedPacket": "Ajouter un paquet appliqué",
+            "confirmPurchases": "Confirmer les achats",
+            "coupon": "Coupon",
+            "confirm": "Confirmer",
+            "decline": "Refuser",
+            "confirmDebitText": "Confirmer l'achat ? Cela ne peut pas être annulé.",
+            "declineDebitText": "Annuler l'achat ? Cela ne peut pas être annulé.",
+            "showApprovedDebits": "Afficher les débits approuvés",
+            "paymentGateway": "Passerelle de paiement",
+            "addAppliedReward": "Ajouter une récompense appliquée",
+            "reward": "Récompense"
+        },
+        "messages": {
+            "cancelSubscriptionSuccess": "Abonnement annulé avec succès.",
+            "refundInitSuccess": "Remboursement fait avec succès.",
+            "revokeSuccess": "Achat révoqué avec succès.",
+            "refreshSuccess": "Les données de paiement ont été actualisées avec succès.",
+            "unrevokeSuccess": "Achat réussi non révoqué.",
+            "editAppliedPacketSuccess": "Le paquet appliqué a été modifié avec succès.",
+            "deleteAppliedPacketSuccess": "Paquet appliqué supprimé avec succès.",
+            "createAppliedPacketSuccess": "Paquet appliqué créé avec succès.",
+            "refundConfirm": "Êtes-vous sûr de vouloir rembourser cet achat ?",
+            "cancelSubscriptionConfirm": "Êtes-vous sûr de vouloir annuler cet abonnement ?",
+            "confirmPurchaseSuccess": "Achat approuvé avec succès",
+            "declinePurchaseSuccess": "Achat annulé avec succès"
+        }
+    },
+    "_affiliate": {
+        "status": {
+            "finished": "Achevé"
+        }
+    },
+    "_games": {
+        "_features": {
+            "warnings": "Avertissements"
+        }
+    },
+    "username": "Nom d'utilisateur",
+    "email": "Email",
+    "areYouSure": "Es-tu sûr ?",
+    "delete": "Supprimer",
+    "shop": "Boutique",
+    "register": "S'inscrire",
+    "date": "Date",
+    "gateway": "passerelle",
+    "amount": "Montant",
+    "invoice": "Facturer",
+    "payments": "Paiements",
+    "purchases": "Achats",
+    "subject": "Sujet",
+    "message": "Message",
+    "submit": "Soumettre",
+    "settings": "Réglages",
+    "create": "Créer",
+    "unexpectedError": "Erreur inattendue",
+    "login": "Connexion",
+    "confirm": "Confirmer",
+    "country": "Pays",
+    "add": "Ajouter",
+    "cancel": "Annuler",
+    "select": "Sélectionner",
+    "name": "Nom",
+    "summary": "Résumé",
+    "description": "Description",
+    "price": "Prix",
+    "details": "Détails",
+    "search": "Recherche",
+    "admin": "Administrateurs",
+    "status": "Statut",
+    "error": "Erreur",
+    "dashboard": "Tableau de bord",
+    "documentation": "Documentation",
+    "edit": "Modifier",
+    "packets": "Paquets",
+    "packet": "Paquet",
+    "continue": "Continuer",
+    "every": "Tous",
+    "cart": "Panier",
+    "id": "ID",
+    "shopAdministration": "Administration de la boutique",
+    "checkout": "Vérifier",
+    "save": "Enregistrer",
+    "revenue": "Revenu",
+    "enable": "Activé",
+    "actions": "Actions",
+    "end": "Finir",
+    "disabled": "Désactivé"
 }
