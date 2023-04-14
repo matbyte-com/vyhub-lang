@@ -7,7 +7,8 @@
         },
         "_legal": {
             "privacyPolicy": "Політика конфіденційності",
-            "termsOfService": "Умови використання"
+            "termsOfService": "Умови використання",
+            "about": "Інформація"
         },
         "about": "Про VyHub",
         "help": "Отримати допомогу",
@@ -36,7 +37,8 @@
         "quantity": "Кількість",
         "price": "Ціна",
         "vat": "ПДВ",
-        "total": "Всього"
+        "total": "Всього",
+        "item": "Предмет"
     },
     "_home": {
         "sections": {
@@ -199,5 +201,349 @@
         "labels": {
             "log": "Лог"
         }
-    }
+    },
+    "unexpectedError": "Неочікувана помилка",
+    "country": "Країна",
+    "add": "Додати",
+    "cancel": "Скасувати",
+    "price": "Ціна",
+    "details": "Деталі",
+    "status": "Статус",
+    "error": "Помилка",
+    "close": "Закрити",
+    "packets": "Пакети",
+    "packet": "Пакет",
+    "id": "ID",
+    "continue": "Продовжити",
+    "every": "Кожний",
+    "_form": {
+        "login": {
+            "login": "Вхід",
+            "register": "Зареєструватися",
+            "email": "Email",
+            "username": "Ім'я користувача",
+            "continue": "Продовжити"
+        },
+        "contact": {
+            "email": "Email",
+            "subject": "Тема",
+            "message": "Повідомлення"
+        },
+        "submit": "Надіслати"
+    },
+    "_shop": {
+        "labels": {
+            "cart": "Кошик",
+            "invoiceLogoURL": "URL логотипу рахунку",
+            "invoiceLogoURLDetails": "URL логотипу, який відображається в рахунку.",
+            "admin": "Управління магазином",
+            "applyCoupon": "Застосувати купон",
+            "couponCode": "Код купона",
+            "tax": "Податок",
+            "taxRules": "Правила оподаткування",
+            "subtotal": "Проміжний підсумок",
+            "checkout": "Оформити замовлення",
+            "payment": "Оплата",
+            "paymentId": "ID платежу",
+            "addToCart": "Додати в кошик",
+            "total": "Всього",
+            "businessAddress": "Юридична адреса",
+            "credits": "Кредити",
+            "purchaseNow": "Купити зараз",
+            "orderOverview": "Огляд замовлень",
+            "cartTotal": "Всього в кошику",
+            "defaultCurrency": "Валюта за замовчуванням",
+            "unfinishedPurchase": "Незавершена покупка",
+            "billingAddress": "Адреса для виставлення рахунку",
+            "removeAllPackets": "Видалити всі пакети",
+            "perMonth": "в місяць",
+            "loginToBuy": "Увійдіть, щоб придбати цей пакет",
+            "checkoutCheckboxes": "Встановіть прапорці для оформлення замовлення",
+            "taxAllowUnknown": "Дозволити покупки з країн без податкового правила.",
+            "taxAllowUnknownDescription": "Якщо цю функцію вимкнено, покупки з країн, для яких не налаштовано чітке податкове правило, будуть неможливими.",
+            "cancelPayment": "Скасувати платіж",
+            "cancelPurchase": "Скасувати покупку"
+        },
+        "messages": {
+            "confirmCreditsPayment": "Будь ласка, підтвердіть сплату {credits} кредитів.",
+            "confirmCouponPayment": "Будь ласка, введіть код {gateway_name}. Після цього платіж буде вручну схвалений членом команди.",
+            "couponsEntered": "Ваш купон успішно додано. Ви можете редагувати свій купон, поки ваша покупка не буде підтверджена.",
+            "couponsEditSuccess": "Купон успішно відредаговано.",
+            "notEnoughCredits": "У вас недостатньо кредитів для оплати цієї покупки. Будь ласка, оберіть інший спосіб оплати або придбайте більше кредитів.",
+            "addToCartError": "Виникла помилка при додаванні пакета до кошика.",
+            "addToCartSuccess": "Пакет успішно додано до кошика.",
+            "cartEmpty": "Ваш кошик порожній.",
+            "mustAgree": "Ви повинні погодитися, щоб продовжити!",
+            "startingPaymentFailed": "Під час ініціювання платежу виникла помилка. Будь ласка, спробуйте ще раз або скористайтеся іншим способом оплати!",
+            "paymentActionFailed": "Виникла помилка при перенаправленні на сторінку оплати. Будь ласка, спробуйте ще раз або скористайтеся іншим способом оплати! Повідомлення про помилку: {message}",
+            "selectGateway": "Будь ласка, оберіть спосіб оплати.",
+            "noOngoingPurchase": "Наразі немає поточної покупки. Будь ласка, почніть оформлення замовлення в кошику.",
+            "noAddressSpecified": "Адреса ще не вказана.",
+            "removeFromCartSuccess": "Пакет успішно видалено з кошика.",
+            "clearCartSuccess": "Успішно видалено всі пакети з кошика.",
+            "paymentCancelled": "Цей платіж було скасовано. Ви можете спробувати ще раз, зайшовши до кошика.",
+            "paymentProcessing": "Платіж був схвалений і буде завершений найближчим часом. Будь ласка, зачекайте кілька хвилин на цій сторінці, поки ваш платіж обробляється.",
+            "paymentFailed": "Під час оплати виникла помилка. Будь ласка, спробуйте перезапустити процес.",
+            "paymentPending": "Цей платіж очікує на розгляд. Будь ласка, завершіть його, відвідавши кошик.",
+            "unfinishedPurchase": "Наразі триває купівля, яка ще не завершена.",
+            "purchaseCancelledSuccess": "Покупка скасована.",
+            "couponApplySuccess": "Купон успішно використано.",
+            "couponRemoveSuccess": "Купон успішно видалено.",
+            "couponNotApplied": "Купон не може бути застосований до жодного пакету у вашому кошику.",
+            "includesVAT": "Включає {tax_rate}% ПДВ.",
+            "selectBillingAddressFirst": "Будь ласка, спочатку оберіть адресу для виставлення рахунку.",
+            "selectEmailFirst": "Будь ласка, спочатку оновіть свою електронну адресу",
+            "cancelPurchaseConfirmation": "Розпочаті платежі скасовуються. Всі введені купони втрачаються. Скасування покупки не може бути відмінено."
+        },
+        "purchaseStatus": {
+            "cancelled": "Скасовано",
+            "finished": "Завершено",
+            "refunded": "Відшкодовано",
+            "recurring": "Повторення",
+            "enabled": "Активно",
+            "disabled": "Прострочено",
+            "revoked": "Відкликано",
+            "open": "Відкрити"
+        }
+    },
+    "_log": {
+        "type": {
+            "system": "Система",
+            "user": "Користувач",
+            "ban": "Бан",
+            "shop": "Магазин",
+            "group": "Група",
+            "news": "Новини",
+            "requirement": "Вимоги",
+            "design": "Дизайн",
+            "warning": "Попередження",
+            "discord": "Discord",
+            "server": "Сервер",
+            "packet": "Пакет"
+        },
+        "edit": "Відредаговано {name}: {key} = {value}",
+        "object_edit": "Відредаговано {classname} з id {id}: {key} = {value}.",
+        "object_delete": "Видалено {classname} з id {id}.",
+        "object_create": "Створено {classname} з id {id}: {params}",
+        "applied_packet_extended": "Застосований пакет {applied_packet_id} продовжено.",
+        "applied_packet_not_extended": "Не вдалося продовжити застосований пакет {applied_packet_id}: {reason}.",
+        "group_add": "Додано групу {groupName} {groupId}.",
+        "refund_finished": "Відшкодування завершено. дебет_id: {debit_id}, покупка_id: {purchase_id}.",
+        "payment_initiate": "Ініційовано платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}.",
+        "payment_refund": "Повернуто платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}.",
+        "payment_cancelled": "Платіж скасовано. дебет_id: {debit_id}.",
+        "packet_applied": "Застосовано пакет {packet_title} ({packet_id}) для користувача {user_id}. застосовано_пакет_id: {applied_packet_id}.",
+        "payment_event": "Обробка платіжної операції. шлюз: {gateway}, повідомлення: {message}, деталі: {detail}.",
+        "payment_process": "Здійснено процес оплати. шлюз: {gateway}, повідомлення: {message}, дія: {action}, деталі: {detail}.",
+        "payment_error": "Помилка платежу. шлюз: {gateway}, повідомлення: {message}, дія: {action}, деталі: {detail}, код: {status_code}.",
+        "debit_status_changed": "Змінено дебетовий статус. дебет_id: {debit_id}, статус: {old_status} -> {new_status}.",
+        "purchase_status_changed": "Змінено статус покупки. покупка_id: {purchase_id}, статус: {old_status} -> {new_status}.",
+        "purchase_finished": "Покупку завершено. покупка_id: {purchase_id}.",
+        "purchase_cancelled": "Покупку скасовано. покупка_id: {purchase_id}.",
+        "purchase_revoke": "Покупку відкликано. покупка_id: {purchase_id}.",
+        "purchase_unrevoke": "Покупка не відкликана. покупка_id: {purchase_id}.",
+        "purchase_refund": "Покупку відшкодовано. покупка_id: {purchase_id}, дебет_id: {debit_id}, повернення_дебету_id: {refund_debit_id}.",
+        "timeAgo": "{time} тому",
+        "payment_credits_success": "Оплата кредиту успішна. дія: {action}, користувач_id: {user_id}, дебет_id: {debit_id}, кредити: {credits}.",
+        "payment_credits_fail": "Не вдалося оплатити кредит. дія: {action}, користувач_id: {user_id}, дебет_id: {debit_id}, кредити: {credits}, причина: {reason}."
+    },
+    "_address": {
+        "labels": {
+            "city": "Місто",
+            "state": "Штат",
+            "zip_code": "Поштовий код",
+            "vat_number": "Номер платника ПДВ",
+            "selectAddress": "Виберіть адресу",
+            "add": "Додати адресу",
+            "change": "Змінити адресу",
+            "streetAndNumber": "Вулиця та номер будинку",
+            "addition": "Доповнення"
+        },
+        "messages": {
+            "changeSuccess": "Юридична адреса була успішно змінена.",
+            "addSuccess": "Нова адреса успішно додана.",
+            "selectedSuccess": "Адреса успішно обрана.",
+            "noAddressesYet": "Ви ще не маєте жодної адреси."
+        }
+    },
+    "_errors": {
+        "packet_requires_other": "Цьому пакету потрібен інший пакет: {packet_title}.",
+        "packet_not_compatible": "Цей пакет не сумісний з іншими пакетами: {packet_title}.",
+        "packet_relation_violated": "Цей пакет порушує зв'язок пакета з іншим пакетом: {relation_type} {packet_title}.",
+        "packet_already_in_cart": "Цей пакет вже у вашому кошику.",
+        "packet_not_purchasable": "Ви не можете придбати цей пакет.",
+        "cart_full": "Ваш кошик заповнений.",
+        "missing_properties": "Ви не маєте всіх необхідних параметрів: {properties}",
+        "no_permissions": "Помилка доступу: {msg}",
+        "unauthorized": "Ви повинні увійти в систему, щоб зробити це.",
+        "wrong_currency": "У вашому кошику не може бути пакетів з різними валютами.",
+        "coupon": {
+            "not_found": "Цей код неправильний."
+        },
+        "country_not_allowed": "Покупки з вашої країни заборонені.",
+        "cart_not_empty": "Щоб додати цей пакет, ваш кошик має бути порожнім.",
+        "not_found": "Не знайдено."
+    },
+    "_gateway": {
+        "labels": {
+            "paypal": "PayPal",
+            "stripe": "Stripe",
+            "create": "Створити платіжний шлюз",
+            "edit": "Редагувати платіжний шлюз",
+            "paysafecard": "Paysafecard",
+            "coupon": "Купон (підтвердження в ручному режимі)",
+            "webhookURL": "URL-адреса веб-хука"
+        },
+        "messages": {
+            "createSuccess": "Платіжний шлюз успішно створено.",
+            "deleteSuccess": "Платіжний шлюз успішно видалено.",
+            "editSuccess": "Платіжний шлюз успішно відредаговано.",
+            "formAttributeChangeExplanation": "Атрибути вказані нижче не будуть редагуватися, якщо не вказано жодного значення."
+        }
+    },
+    "_cart": {
+        "labels": {
+            "add": "Додати в кошик"
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "myPurchases": "Мої покупки",
+            "allPurchases": "Всі покупки",
+            "appliedPackets": "Застосовані пакети",
+            "revoke": "Відкликати",
+            "revoked": "Відкликано",
+            "unrevoke": "Скасувати відкликання",
+            "refund": "Повернення коштів",
+            "refunded": "Відшкодовано",
+            "amountNet": "Сума нетто",
+            "amountTotal": "Загальна сума",
+            "details": "Деталі покупки",
+            "salesCount": "Кількість продажів",
+            "totalRevenue": "Загальний дохід",
+            "monthlyRevenue": "Щомісячний дохід",
+            "creditsSpent": "Витрачені кредити",
+            "revenueByCountry": "Дохід за країнами",
+            "editAppliedPacket": "Редагування застосованого пакету",
+            "cancelSubscription": "Скасувати підписку",
+            "addAppliedPacket": "Додати застосований пакет",
+            "confirmPurchases": "Підтвердити покупку",
+            "coupon": "Купон",
+            "confirm": "Підтвердити",
+            "decline": "Зниження",
+            "confirmDebitText": "Підтвердити покупку? Це не можна скасувати.",
+            "declineDebitText": "Скасувати покупку? Це не можна скасувати.",
+            "showApprovedDebits": "Показати підтверджені платежі",
+            "paymentGateway": "Платіжний шлюз",
+            "addAppliedReward": "Додати застосовану винагороду",
+            "reward": "Винагорода"
+        },
+        "messages": {
+            "cancelSubscriptionSuccess": "Підписку успішно скасовано.",
+            "refundInitSuccess": "Повернення коштів успішно ініційовано.",
+            "editAppliedPacketSuccess": "Застосований пакет успішно відредаговано.",
+            "deleteAppliedPacketSuccess": "Застосований пакет успішно видалено.",
+            "cancelSubscriptionConfirm": "Ви впевнені, що хочете скасувати цю підписку?",
+            "confirmPurchaseSuccess": "Покупку успішно схвалено",
+            "declinePurchaseSuccess": "Покупку успішно скасовано",
+            "revokeSuccess": "Покупку успішно скасовано.",
+            "refreshSuccess": "Платіжні дані успішно оновлено.",
+            "unrevokeSuccess": "Покупку успішно скасовано.",
+            "createAppliedPacketSuccess": "Застосований пакет успішно створено.",
+            "refundConfirm": "Ви впевнені, що хочете повернути кошти за цю покупку?"
+        }
+    },
+    "_affiliate": {
+        "status": {
+            "finished": "Завершено",
+            "created": "Створено"
+        }
+    },
+    "_features": {
+        "_shop": {
+            "title": "Магазин",
+            "_features": {
+                "title1": "Пакети",
+                "title2": "Категорії",
+                "title3": "Винагороди",
+                "title4": "Статистика",
+                "headline4": "Статистика",
+                "title5": "Знижки",
+                "headline5": "Знижки",
+                "title6": "Платіжні шлюзи"
+            }
+        },
+        "_cutomizability": {
+            "_features": {
+                "title1": "Тема"
+            }
+        },
+        "_community": {
+            "_features": {
+                "title1": "Бани",
+                "headline1": "Бани",
+                "title2": "Попередження",
+                "headline2": "Попередження",
+                "title3": "Форум",
+                "headline3": "Форум",
+                "title6": "Оголошення",
+                "headline6": "Оголошення"
+            }
+        },
+        "_dashboard": {
+            "title": "Панель",
+            "_features": {
+                "title2": "Серверна панель",
+                "title1": "Панель"
+            }
+        },
+        "_groupsAndTeams": {
+            "_features": {
+                "title1": "Групи"
+            }
+        }
+    },
+    "areYouSure": "Ви впевнені?",
+    "delete": "Видалити",
+    "shop": "Магазин",
+    "register": "Зареєструватися",
+    "date": "Дата",
+    "gateway": "Шлюз",
+    "amount": "Сума",
+    "invoice": "Рахунок",
+    "payments": "Платежі",
+    "purchases": "Покупки",
+    "subject": "Тема",
+    "message": "Повідомлення",
+    "submit": "Надіслати",
+    "settings": "Налаштування",
+    "create": "Створити",
+    "login": "Вхід",
+    "confirm": "Підтвердити",
+    "select": "Вибрати",
+    "name": "Ім'я",
+    "summary": "Підсумок",
+    "description": "Опис",
+    "search": "Пошук",
+    "admin": "Адмін",
+    "dashboard": "Панель",
+    "documentation": "Документація",
+    "edit": "Редагувати",
+    "cart": "Кошик",
+    "_games": {
+        "_features": {
+            "warnings": "Попередження"
+        }
+    },
+    "username": "Ім'я користувача",
+    "email": "E-Mail",
+    "enable": "Увімкнути",
+    "actions": "Дії",
+    "created": "Створено",
+    "end": "Кінець",
+    "disabled": "Відключено",
+    "shopAdministration": "Управління магазином",
+    "checkout": "Оформити замовлення",
+    "save": "Зберегти",
+    "revenue": "Прибуток"
 }
