@@ -15,13 +15,20 @@
         "dashboard": "Tableau de bord",
         "faq": "FAQ",
         "admin": "Administrateurs",
-        "purchases": "Achats"
+        "purchases": "Achats",
+        "contact": "Contact",
+        "docs": "Documentation",
+        "profile": "Profil",
+        "affiliate": "Affilier"
     },
     "_form": {
         "contact": {
             "email": "Email",
             "subject": "Sujet",
-            "message": "Message"
+            "message": "Message",
+            "lastName": "Nom de famille",
+            "acceptPrivacy": "Accepter la politique de confidentialité",
+            "firstName": "Prénom"
         },
         "submit": "Soumettre",
         "login": {
@@ -29,7 +36,33 @@
             "register": "S'inscrire",
             "email": "Email",
             "username": "Nom d'utilisateur",
-            "continue": "Continuer"
+            "continue": "Continuer",
+            "emailConfirmation": "Courriel",
+            "password": "Mot de passe",
+            "passwordConfirmation": "Confirmation du mot de passe",
+            "registrationRequired": "Enregistrement requis",
+            "forgotPassword": "Mot de passe oublié",
+            "error": {
+                "username_taken": "Nom d'utilisateur déjà pris",
+                "invalid_request": "Mot de passe incorrect",
+                "captcha_low": "Veuillez compléter le captcha",
+                "password_no_match": "Vérifier le champ de confirmation du mot de passe",
+                "confirmation_code_no_match": "Vérifiez le code de confirmation par e-mail",
+                "username_not_allowed": "Identifiant interdit",
+                "email_taken": "Cet email est déjà pris. Veuillez vous connecter."
+            },
+            "sendConfirmationCode": "Envoyer le code"
+        },
+        "validation": {
+            "required": "Ce champ est obligatoire",
+            "usernameLength": "Le nom d'utilisateur doit comporter au moins 3 caractères",
+            "passwordNoUppercase": "Le mot de passe doit contenir au moins une lettre majuscule",
+            "passwordMatch": "Le mot de passe ne correspond pas",
+            "passwordLength": "Mot de passe doit être d'au moins 8 caractères",
+            "usernameFormat": "Le nom d'utilisateur ne doit contenir que ces caractères : a-z, 0-9, ., _, -",
+            "passwordNoNumber": "le mot de passe doit contenir au moins un chiffre",
+            "passwordNoSpecialCharacter": "Le mot de passe doit contenir au moins un caractère spécial",
+            "codeLength": "Le code doit être de longueur 5"
         }
     },
     "_log": {
@@ -135,19 +168,45 @@
         }
     },
     "_footer": {
-        "legal": "Légal",
+        "legal": "Mentions légales",
         "_help": {
-            "docs": "Documentation"
+            "docs": "Documentation",
+            "support": "Support",
+            "status": "Page d'état"
         },
         "_legal": {
-            "about": "à propos"
+            "about": "à propos",
+            "termsOfService": "Conditions d'utilisation",
+            "privacyPolicy": "Politique de Confidentialité"
+        },
+        "about": "À propos de VyHub",
+        "help": "Obtenir de l'aide",
+        "company": "Entreprise",
+        "_about": {
+            "supportedGames": "Jeux pris en charge",
+            "pricing": "Tarifs",
+            "blog": "Blog",
+            "demo": "Démo",
+            "features": "Caractéristiques"
+        },
+        "_company": {
+            "partners": "Partenaires",
+            "affiliateProgram": "Programme d'affiliation"
         }
     },
     "_invoice": {
         "invoice": "Facturer",
         "vatNumber": "Numéro de TVA",
         "price": "Prix",
-        "total": "Total"
+        "total": "Total",
+        "invoiceDate": "Date de facturation",
+        "deliveryDate": "La date de livraison",
+        "paymentMethod": "Mode de paiement",
+        "transaction": "Transaction",
+        "item": "Article",
+        "quantity": "Quantité",
+        "subtotalNoVat": "Sous-total (hors TVA)",
+        "vat": "TVA"
     },
     "log": {
         "labels": {
@@ -155,11 +214,91 @@
         }
     },
     "_home": {
-        "shop": "Boutique"
+        "shop": "Boutique",
+        "sections": {
+            "shop": {
+                "bulletPoint1": "Créez vos propres produits et récompenses",
+                "bulletPoint2": "Intégration transparente avec d'autres mods",
+                "bulletPoint3": "Traitement automatique des paiements (PayPal, Stripe, Paysafecard)",
+                "bulletPoint4": "Offres conditionnelles, codes de réduction et plus",
+                "bulletPoint5": "Statistiques de vente",
+                "description": "Créez votre propre boutique en ligne et monétisez votre serveur de jeu avec notre système de boutique avancé mais facile à utiliser."
+            },
+            "bansWarnings": {
+                "bulletPoint2": "Intégration avec d'autres mods",
+                "description": "Gérez votre communauté et appliquez les règles de votre serveur grâce à notre système sophistiqué d'interdiction et d'avertissement.",
+                "bulletPoint1": "Bannir et avertir les joueurs dans le jeu ou via le panneau Web"
+            },
+            "andMore": {
+                "description": "VyHub regorge de petites et grandes fonctionnalités supplémentaires qui contribuent à une expérience exceptionnelle.",
+                "bulletPoint1": "Actualités",
+                "bulletPoint3": "Système de tickets",
+                "bulletPoint4": "Page de l'équipe",
+                "bulletPoint2": "."
+            }
+        },
+        "endcards": {
+            "simple": {
+                "bulletPoint2": "Contact direct avec les développeurs pour les améliorations",
+                "bulletPoint3": "Panneau Web facile à utiliser",
+                "bulletPoint1": "Dites adieu à toutes sortes de plugins désormais inutiles"
+            },
+            "customizable": {
+                "bulletPoint2": "Personnaliser l'image d'arrière-plan et le jeu de couleurs",
+                "bulletPoint4": "Utilisez votre propre (sous)domaine",
+                "bulletPoint5": ".",
+                "bulletPoint3": "Téléchargez du code HTML pour créer vos propres sous-pages",
+                "bulletPoint1": "Entièrement réglable et personnalisable selon vos besoins"
+            },
+            "hasslefree": {
+                "bulletPoint1": "Aucun espace Web nécessaire",
+                "bulletPoint4": "Configuration rapide",
+                "bulletPoint3": "Pas de frais cachés",
+                "bulletPoint2": "Mises à jour automatiques"
+            }
+        },
+        "_faq": {
+            "question1": "Qu'est-ce qui rend VyHub spécial par rapport à nos concurrents ?",
+            "question3": "Proposez-vous un essai gratuit ?",
+            "answer3": "Oui ! Comme nous ne facturons pas de prix mensuel, vous pouvez utiliser et tester VyHub entièrement gratuitement.",
+            "question4": "Puis-je utiliser mon propre domaine ?",
+            "answer4": "Oui, vous pouvez utiliser votre domaine existant en créant un enregistrement CNAME qui pointe vers votre instance VyHub.",
+            "question6": "Où puis-je obtenir de l'aide ?",
+            "answer1": "VyHub est plus qu'une simple boutique en ligne. Il s'agit d'une gestion de communauté tout-en-un offrant des fonctionnalités importantes telles que les bannissements et les avertissements.",
+            "answer2": "L'installation et l'utilisation de VyHub sont gratuites. Nous ne facturons qu'une petite commission sur vos revenus mensuels. Vous ne payez donc que lorsque vous gagnez de l'argent.",
+            "question5": "Je suis un utilisateur de GExtension. Puis-je migrer mes données vers VyHub ?",
+            "question2": "Combien coûte VyHub ?",
+            "answer5": "Oui, vous pouvez facilement <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/guide/import/gextension/\">importer</a> vos données.<br/><br/ >",
+            "answer6": "Veuillez d'abord lire notre <a target=\"_blank\" href=\"https://docs.vyhub.net\">documentation</a> pour les questions techniques. Vous pouvez nous contacter en utilisant le formulaire de contact ci-dessous."
+        },
+        "announcement": "VyHub est désormais gratuit ! Consultez nos tarifs.",
+        "keyFeatures": "Principales caractéristiques",
+        "bansWarnings": "Bannissements et avertissements",
+        "ourGoals": "Nos buts",
+        "andMore": "Et beaucoup plus...",
+        "ourAmbitions": "Notre ambition",
+        "features": "Caractéristiques",
+        "discordIntegration": "Intégration Discord",
+        "faq": "Questions fréquemment posées",
+        "viewAllFeatures": "Afficher toutes les fonctionnalités",
+        "simple": "Simple",
+        "customizable": "Personnalisable",
+        "hasslefree": "Sans tracas",
+        "pageSubtitle": "La plate-forme de gestion et de monétisation tout-en-un {br}pour votre communauté de joueurs",
+        "joinOurDiscord": "Rejoignez notre Discord",
+        "rightManagement": "Contrôle d'accès",
+        "supportedGames": "Jeux pris en charge / Intégrations",
+        "contactFormSubtitle": "Avez-vous des questions concernant les fonctionnalités, le paiement ou autre chose ? Envoyez-nous un message."
     },
     "_dashboard": {
         "title": "Tableau de bord",
-        "detailDialogTitle": "Détails"
+        "detailDialogTitle": "Détails",
+        "yourInstances": "Vos instances",
+        "yourAdminInstances": "Vos instances d'administration",
+        "visitInstance": "Visiter",
+        "createInstance": "Créer une instance",
+        "currentlyProvisioned": "Cette instance est en cours de création",
+        "instanceDeleted": "Cette instance est arrêtée"
     },
     "_shop": {
         "labels": {
@@ -382,5 +521,85 @@
     "enable": "Activé",
     "actions": "Actions",
     "end": "Finir",
-    "disabled": "Désactivé"
+    "disabled": "Désactivé",
+    "_newInstance": {
+        "title": "Créer une nouvelle instance",
+        "instanceNameAndDomain": "Nom et domaine",
+        "creditCardButton": "Carte de crédit ou Carte de débit",
+        "currency": "EUR / mois",
+        "name": "Nom de l'instance",
+        "customDomain": "Domaine personnalisé",
+        "success": "La création de votre instance peut prendre jusqu'à 10 minutes.{br}Accédez au {tableau de bord} pour afficher l'état.",
+        "smallCommission": "Petite <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>commission</a> sur vos revenus",
+        "description": "Commencez avec votre propre instance VyHub !{br}Aucune information de paiement requise !{br}{br}Si vous avez des questions, veuillez lire notre {documentation}.",
+        "customDomainDescription": "Vous devez posséder un domaine et créer un enregistrement CNAME dans les paramètres DNS de votre bureau d'enregistrement de domaine. Lisez le {docsLink} pour plus d'informations.",
+        "loginRegister": "S'identifier / S'enregistrer",
+        "noInstancesAvailable": "Il n'y a actuellement aucune instance disponible. Veuillez réessayer plus tard."
+    },
+    "_instance": {
+        "labels": {
+            "edit": "Modifier l'instance",
+            "daysLeft": "Jours restants",
+            "noTimeLeft": "Il ne reste plus de temps",
+            "upgradeVersion": "Version de mise à niveau",
+            "frontendUrl": ".",
+            "cname": "CNAME",
+            "apiUrl": "API URL",
+            "activePackets": "Paquets actifs",
+            "advancedSettings": "Réglages avancés",
+            "stopInstance": "Arrêter l'instance",
+            "transferOwnership": "Transfert de propriétaire",
+            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Acceptez les conditions d'utilisation et passez à la version 1.4",
+            "addons": "Addons",
+            "resumeInstance": "Reprendre l'instance",
+            "newExpirationDate": "Nouvelle date de péremption",
+            "addAdmin": "Ajouter un administrateur"
+        },
+        "cnamePointingAt": "CNAME pointant vers",
+        "statusHelpProvisioned": "Votre instance est prête à être utilisée maintenant. Si le site ne se charge pas, essayez de vider votre cache DNS ou de redémarrer votre routeur. Si cela ne résout pas le problème, contactez le support.",
+        "editInstance": "Modifier l'instance",
+        "version": "Version",
+        "autoUpdate": "Installer automatiquement les mises à jour de correctifs sans rupture",
+        "autoUpdateTime": "Heure de la mise à jour automatique (UTC)",
+        "extendInstance": "Étendre l'instance",
+        "ownershipTransferSupport": "Veuillez contacter le support si vous souhaitez transférer la propriété de votre instance à un autre utilisateur.",
+        "automaticExtension": "Extension automatique",
+        "setUpAutocharge": "Configurer la recharge automatique",
+        "connectOneServer": "Connectez un serveur de jeu",
+        "_status": {
+            "UNPROVISIONED": "Configuration du serveur API",
+            "PROVISION": "Mise en place de l'interface",
+            "PROVISIONED": "Prêt",
+            "DELETE": "Arrêt",
+            "DELETED": "Arrêté",
+            "REPROVISION": "Application des modifications au serveur d'API"
+        },
+        "admins": "Administrateurs",
+        "owner": "Propriétaire",
+        "error": {
+            "user_not_admin": "Utilisateur n'est pas un administrateur",
+            "user_not_found": "Utilisateur introuvable"
+        },
+        "messages": {
+            "removedAdmin": "Administrateur supprimé avec succès.",
+            "addedAdmin": "Admin ajouté avec succès.",
+            "instanceExtended": "Extension de l'instance réussie",
+            "noResourcesAvailable": "Il n'y a actuellement aucune ressource disponible pour une nouvelle instance. Veuillez réessayer plus tard.",
+            "instanceReady": "Votre instance est prête !",
+            "doNotOpenBeforeReady": "N'ouvrez pas cette page avant que votre instance ne soit prête !",
+            "noActivePackets": "Il n'y a aucun abonnement actif pour cette instance. Assurez-vous d'étendre votre instance avant la fin de l'exécution."
+        },
+        "cnameCheckerTool": "Outil de vérification CNAME",
+        "revenueFee": "Frais de revenu",
+        "statusHelpProvision": "Si cet état ne change pas dans les 5 minutes, l'enregistrement CNAME de votre domaine personnalisé n'est probablement pas défini correctement. Consultez la documentation ou contactez le support si vous avez besoin d'aide.",
+        "editedInstance": "Instance modifiée avec succès",
+        "deletedInstance": "Instance supprimée avec succès",
+        "extendInstanceDescription": "Le runtime de votre instance peut être prolongé de 7 jours avant la fin. Si l'instance n'est pas prolongée dans le temps, elle sera arrêtée.",
+        "addAdmin": "Ajouter un administrateur",
+        "instanceName": "Nom de l'instance",
+        "setCNAMEDescription": "Créez un enregistrement DNS CNAME pour votre domaine personnalisé avec cette cible. Cela pointe votre domaine personnalisé vers cette instance VyHub.",
+        "statusHelp": "Contactez l'assistance si l'état ne change pas après 10 minutes.",
+        "autoUpdateDescription": "L'instance est automatiquement mise à jour à l'heure UTC",
+        "autoUpdateActivated": "Mise à jour automatique activée"
+    }
 }
