@@ -151,7 +151,8 @@
         "createInstance": "Criar Instância",
         "currentlyProvisioned": "Esta instância está sendo criada no momento",
         "instanceDeleted": "Esta instância está parada",
-        "detailDialogTitle": "Detalhes"
+        "detailDialogTitle": "Detalhes",
+        "yourAdminInstances": "Suas Instâncias de Administrador"
     },
     "_newInstance": {
         "title": "Criar Nova Instância",
@@ -165,7 +166,10 @@
         "success": "Pode levar até 10 minutos para que sua instância seja criada.{br}Vá para o {painel} para visualizar o status.",
         "description": "Comece com sua própria instância do VyHub!{br}Não são necessárias informações de pagamento!{br}{br}Se surgirem dúvidas, leia nossa {documentação}.",
         "currency": "EUR / Mês",
-        "customDomainDescription": "Você precisa possuir um domínio e criar um registro CNAME nas configurações de DNS do seu registrador de domínio. Leia o {docsLink} para mais informações."
+        "customDomainDescription": "Você precisa possuir um domínio e criar um registro CNAME nas configurações de DNS do seu registrador de domínio. Leia o {docsLink} para mais informações.",
+        "instanceNameAndDomain": "Nome e Domínio",
+        "noInstancesAvailable": "No momento, não há instâncias disponíveis. Por favor, tente novamente mais tarde.",
+        "smallCommission": "Pequena <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>comissão</a> sobre sua receita"
     },
     "_instance": {
         "labels": {
@@ -699,9 +703,13 @@
             "warnings": "Avisos",
             "gmodIngameDashboard": "Painel do jogo para proibições e avisos",
             "minecraftPlayerSync": "Sincronizar grupos de jogadores (suporte para LuckPerms)",
-            "playerSync": "Sincronizar funções de usuário"
+            "playerSync": "Sincronizar funções de usuário",
+            "rewards": "Possibilidades infinitas com recompensas (Comandos/Scripts personalizados, dinheiro do jogo, drops de itens...)",
+            "playtimeStatistic": "Estatísticas de tempo de jogo para cada jogador",
+            "periodicAdverts": "Anúncios periódicos",
+            "reservedSlots": "Vagas reservadas"
         },
-        "gmodDescription": "VyHub suporta Garry's Mod, o famoso sandbox físico.",
+        "gmodDescription": "VyHub suporta Garry's Mod, o famoso jogo de sandbox.",
         "discordDescription": "VyHub oferece suporte ao Discord, o aplicativo gratuito de bate-papo por voz, vídeo e texto.",
         "minecraftDescription": "VyHub suporta Minecraft, o jogo sandbox de sobrevivência mais jogado. Atualmente, esses plug-ins requerem Java >= 17 e Minecraft >= 1.13.",
         "teamspeakDescription": "VyHub suporta TeamSpeak, o chat de voz onde você está no controle total."
@@ -775,5 +783,126 @@
     "created": "Criado",
     "settings": "Configurações",
     "end": "Fim",
-    "disabled": "Desabilitado"
+    "disabled": "Desabilitado",
+    "extend": "Estender",
+    "back": "Voltar",
+    "next": "Próximo Passo",
+    "_pricing": {
+        "shFeature5": "Atualizações incluídas",
+        "shFeature6": "Acesso total ao banco de dados",
+        "allFeatures": "Todos os recursos",
+        "startNow": "Comece agora",
+        "revenue/Month": "receita / mês",
+        "fact1": "Você só paga quando ganha dinheiro com o VyHub",
+        "fact2": "Quanto mais você ganha, mais você economiza em taxas",
+        "fact3": "Condições especiais disponíveis para grandes comunidades",
+        "smallCommission": "Pequena comissão sobre sua receita",
+        "q1": "Quanto custa o VyHub? É realmente grátis?",
+        "q2": "Existe um teste gratuito?",
+        "a2": "Sim! Como não cobramos mensalidade, você pode usar e testar o VyHub totalmente de graça.",
+        "q3": "Posso cancelar a qualquer momento?",
+        "a3": "Como não há assinatura, você não precisa cancelar nada.",
+        "q4": "Existem descontos para as principais comunidades?",
+        "addons": {
+            "communication": "Complemento de Comunicação"
+        },
+        "formulaForFeeCalculation": "Fórmula para cálculo de honorários",
+        "a1": "O uso do VyHub é gratuito. Você pode usá-lo o tempo que quiser. Cobramos apenas uma pequena comissão sobre sua receita mensal. Então você só paga quando ganha dinheiro. Mais detalhes sobre as taxas podem ser encontrados em nossa <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">documentação</a>.",
+        "a4": "Entre em contato com nossa equipe de vendas em <a href=\"mailto:info@vyhub.net\">info@vyhub.net</a> com uma breve descrição de sua comunidade e seus requisitos. Nós entraremos em contato com você o mais breve possível.",
+        "hosted": "Auto-Hospedado",
+        "noMonthlySubscription": "Sem assinatura mensal",
+        "vyhubCloud": "Nuvem do VyHub",
+        "commission": "Comissão",
+        "feature1": "Site hospedado",
+        "feature2": "Loja virtual personalizável",
+        "feature3": "Pacotes Ilimitados",
+        "feature4": "Subdomínio incluído",
+        "feature5": "Domínio personalizado é possível",
+        "feature6": "Atualizações incluídas",
+        "feature7": "Certificado SSL gratuito",
+        "feature8": "Suporta vários servidores de jogos",
+        "shFeature1": "Único sistema auto-hospedado do mercado",
+        "shFeature2": "Front-end e back-end auto-hospedados",
+        "shFeature3": "Todos os recursos do VyHub",
+        "shFeature4": "Extensões premium incluídas"
+    },
+    "_newsletter": {
+        "thankYou": "Obrigado por se registrar!"
+    },
+    "_statistic": {
+        "instanceStatistics": "Estatísticas da Instância",
+        "interval": {
+            "DAILY": "Diariamente",
+            "WEEKLY": "Semanalmente",
+            "MONTHLY": "Mensalmente",
+            "YEARLY": "Anualmente"
+        }
+    },
+    "loginRegister": "Entrar / Registrar",
+    "password": "Senha",
+    "activeUntil": "Ativo até",
+    "contact": "Contato",
+    "subscribe": "Inscreva-se",
+    "success": "Sucesso",
+    "firstName": "Primeiro Nome",
+    "lastName": "Sobrenome",
+    "giftCodes": "Códigos de Presente",
+    "authorizeApplication": "Autorizar Aplicativo",
+    "acceptPrivacy": "Aceitar Política de Privacidade",
+    "accept": "Aceite",
+    "domain": "Domínio",
+    "instances": "Instâncias",
+    "instance": "Instância",
+    "owner": "Proprietário",
+    "admins": "Administradores",
+    "contactUs": "Entre em contato conosco",
+    "support": "Suporte",
+    "user": "usuário",
+    "toggle": "Alternar",
+    "addVersion": "Adicionar Versão",
+    "availableInstances": "Instâncias Disponíveis",
+    "partners": "Parceiros",
+    "_legal": {
+        "messages": {
+            "noWithdraw": "Eu exijo e concordo expressamente que Matbye UG já começa com a execução do serviço adquirido antes do final do período de rescisão. Além disso, estou ciente de que já perco o direito de rescisão a que tenho direito por lei mediante o cumprimento integral do contrato pela Matbyte UG.",
+            "dataCorrect": "Eu garanto que os detalhes especificados (especialmente o endereço de cobrança) são verdadeiros e completos.",
+            "agreeToS": "Eu concordo com os Termos de Serviço.",
+            "agreeTo": "Eu concordo com os {tos}.",
+            "tos": "termos de serviço"
+        },
+        "cookieTitle": "🍪 Configurações de privacidade",
+        "cookieDescription": "Utilizamos cookies 🍪 para melhorar sua experiência de navegação em nosso site, para analisar o tráfego de nosso site e para entender de onde vêm nossos visitantes. Você pode ler mais sobre isso em nossa {privacyPolicy}.",
+        "privacyPolicyPage": "Página de Política de Privacidade",
+        "necessaryCookies": "Cookies Necessários",
+        "cookiePreferenceDescription": "Você pode ajustar manualmente suas preferências de cookies aqui.",
+        "acceptSelected": "Aceitar Selecionado",
+        "preferences": "Preferências"
+    },
+    "docs": "Documentos",
+    "account": "Conta",
+    "_account": {
+        "labels": {
+            "autocharge_enabled": "Carregamento Automático Ativado",
+            "autocharge": "Carregamento Automático",
+            "enableAutocharge": "Ativar Carregamento Automático",
+            "nextCharge": "Próxima Cobrança",
+            "chargeOn": "on",
+            "balance": "Equilíbrio",
+            "autocharge_disabled": "Carregamento Automático Desativado",
+            "chargeAccount": "Conta de Crédito"
+        },
+        "messages": {
+            "cancelConfirm": "Tem certeza de que deseja cancelar a recarga automática da conta?",
+            "autocharge": "Quando a cobrança automática está ativada, o saldo negativo da sua conta será cobrado automaticamente do seu método de pagamento armazenado após o final do mês. Aplica-se um mínimo de EUR 5 por carga.",
+            "noChargeScheduled": "Atualmente não há cobrança planejada. Por favor, volte no início do próximo mês."
+        }
+    },
+    "version": "Versão",
+    "noEntries": "Sem entradas.",
+    "users": "Usuários",
+    "congratulations": "Parabéns!",
+    "comingSoon": "Em breve",
+    "transactions": "Transações",
+    "copy": "Cópia",
+    "enter": "Entrar"
 }
