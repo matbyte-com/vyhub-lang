@@ -133,7 +133,8 @@
         "detailDialogTitle": "Details",
         "createInstance": "Instanz erstellen",
         "visitInstance": "Besuchen",
-        "title": "Dashboard"
+        "title": "Dashboard",
+        "yourAdminInstances": "Instanzen, auf denen du Admin bist"
     },
     "_instance": {
         "labels": {
@@ -501,7 +502,10 @@
         "customDomain": "Eigene Domain",
         "customDomainDescription": "Du brauchst eine eigene Domain und musst einen CNAME Eintrag in den DNS Einstellungen deines Hosters setzen. Lies die {docsLink} für mehr Informationen.",
         "creditCardButton": "Kredit- oder Kreditkarte",
-        "success": "Das Erstellen deiner Instanz kann bis zu 10 Minuten dauern.{br} Gehe zum {dashboard} um den Status zu sehen."
+        "success": "Das Erstellen deiner Instanz kann bis zu 10 Minuten dauern.{br} Gehe zum {dashboard} um den Status zu sehen.",
+        "smallCommission": "Kleine <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>Kommission</a> auf deinen Umsatz",
+        "noInstancesAvailable": "Aktuell sind keine Instanzen verfügbar. Bitte versuche es später erneut.",
+        "instanceNameAndDomain": "Name und Domain"
     },
     "_features": {
         "_shop": {
