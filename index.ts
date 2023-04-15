@@ -14,4 +14,8 @@ export default {
     name: 'Nederlands',
     load: () => import('@/lang/nl.json'),
   },
+  pt: {
+    name: 'Português',
+    load: () => import('@/lang/pt_BR.json'),
+  },
 };
