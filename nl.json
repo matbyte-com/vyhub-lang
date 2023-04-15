@@ -151,7 +151,8 @@
         "createInstance": "Maak instantie",
         "instanceDeleted": "Deze instantie is gestopt",
         "detailDialogTitle": "Details",
-        "currentlyProvisioned": "Deze instantie wordt momenteel gemaakt"
+        "currentlyProvisioned": "Deze instantie wordt momenteel gemaakt",
+        "yourAdminInstances": "Jouw beheers adress"
     },
     "_newInstance": {
         "loginRegister": "Login/ registreer",
@@ -165,7 +166,10 @@
         "customDomainDescription": "U moet een domein bezitten en een CNAME-record maken in de DNS-instellingen van uw domeinregistreerder. Lees de {docsLink} voor meer informatie.",
         "title": "Maak een nieuwe instantie",
         "description": "Ga aan de slag met uw eigen VyHub-instantie!{br}Geen betalingsinformatie vereist!{br}{br}Als u vragen heeft, lees dan onze {documentation}.",
-        "domainDescription": "Domein voor uw instantie. Laat leeg als je er geen hebt."
+        "domainDescription": "Domein voor uw instantie. Laat leeg als je er geen hebt.",
+        "instanceNameAndDomain": "Naam en domein",
+        "noInstancesAvailable": "Er zijn momenteel geen exemplaren beschikbaar. Probeer het later opnieuw.",
+        "smallCommission": "Klein<a href='https://docs.vyhub.net/latest/central/account' target='_blank'> Commissie </a>op uw omzet"
     },
     "_instance": {
         "labels": {
