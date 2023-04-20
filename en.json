@@ -610,6 +610,7 @@
             "monthlyRevenue": "Monthly Revenue",
             "creditsSpent": "Credits Spent",
             "revenueByCountry": "Revenue by Country",
+            "revenueByCategory": "Revenue by Category",
             "editAppliedPacket": "Edit Applied Packet",
             "cancelSubscription": "Cancel Subscription",
             "addAppliedPacket": "Add Applied Packet",
