@@ -1307,5 +1307,6 @@
     "instructions": "Instructions",
     "writeToConfirm": "Write to confirm:",
     "add-on": "Add-On",
-    "password": "Password"
+    "password": "Password",
+    "chat": "Chat"
 }
