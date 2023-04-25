@@ -216,6 +216,7 @@
             "taxAllowUnknown": "Allow purchases from countries without tax rule.",
             "taxAllowUnknownDescription": "If disabled, purchases from countries that do not have an explicit tax rule configured, are not possible.",
             "enableTopDonators": "Enable top donators",
+            "topDonatorsLimit": "Number of donators to display",
             "enableTopDonatorsDescription": "Top donators component displayed on startpage (News)",
             "topDonatorDisplayTitle": "Top donators display title",
             "donationGoalDisplayTitle": "Donation goal display title",
