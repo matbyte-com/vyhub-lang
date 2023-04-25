@@ -147,6 +147,7 @@
         "showTeam": "Enable Team Page",
         "showFaq": "Enable FAQ Page",
         "showForum": "Enable Forum",
+        "showChat": "Enable Chat",
         "communityDescription": "Community Description",
         "communityDescriptionDescr": "This description will be shown in search engine test results",
         "language": "Language",
@@ -1043,7 +1044,7 @@
             "topicCategoryEdited": "Topic category edited.",
             "topicEdited": "Topic edited.",
             "categoryDeleteSuccess": "Category successfully deleted.",
-            "topicDeleteSuccess": "Topic successful deleted.",
+            "topicDeleteSuccess": "Topic successfully deleted.",
             "updatedOrder": "Forum order updated.",
             "editSuccess": "Successfully edited.",
             "deleteSuccess": "Successfully deleted.",
@@ -1138,6 +1139,13 @@
             "advert_show": "View adverts",
             "advert_edit": "Manage adverts",
             "forum_edit": "Manage forum"
+        }
+    },
+    "_chat": {
+        "loginRequired": "Login required to use the chat",
+        "reconnect": "Reconnect",
+        "messages": {
+            "messageDeleted": "Message successfully deleted."
         }
     },
     "update": "Update",
