@@ -149,7 +149,7 @@
         "showForum": "Enable Forum",
         "showChat": "Enable Chat",
         "communityDescription": "Community Description",
-        "communityDescriptionDescr": "This description will be shown in search engine test results",
+        "communityDescriptionDescr": "This will be shown in search engine test results and when sharing in social media",
         "language": "Language",
         "languageNewDescriptionText": "Help us translate to your language",
         "addServerTooltip": "Add a serverbundle first",
