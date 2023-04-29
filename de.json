@@ -218,7 +218,7 @@
             "email": "Email",
             "subject": "Betreff",
             "lastName": "Nachname",
-            "acceptPrivacy": "Ich akzeptiere die Datenschutzerklärnug"
+            "acceptPrivacy": "Ich akzeptiere die Datenschutzerklärung"
         },
         "login": {
             "login": "Einloggen",
