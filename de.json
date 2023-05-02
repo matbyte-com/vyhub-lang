@@ -2,7 +2,7 @@
     "_header": {
         "purchases": "Käufe",
         "labels": {
-            "login": "Login",
+            "login": "Einloggen",
             "register": "Registrieren",
             "logout": "Ausloggen"
         },
