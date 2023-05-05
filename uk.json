@@ -719,7 +719,8 @@
         },
         "discordDescription": "VyHub підтримує Discord, безкоштовний додаток для голосового, відео та текстового чату.",
         "teamspeakDescription": "VyHub підтримує TeamSpeak, голосовий чат, де ви повністю контролюєте процес.",
-        "minecraftDescription": "VyHub підтримує Minecraft, найпопулярнішу гру-пісочницю на виживання. Наразі для роботи плагіна потрібна Java >= 17 та Minecraft >= 1.13."
+        "minecraftDescription": "VyHub підтримує Minecraft, найпопулярнішу гру-пісочницю на виживання. Наразі для роботи плагіна потрібна Java >= 17 та Minecraft >= 1.13.",
+        "gmodDescription": "VyHub підтримує Garry's Mod, знамениту фізичну пісочницю."
     },
     "username": "Ім'я користувача",
     "email": "E-Mail",
@@ -867,5 +868,7 @@
     "toggle": "Переключити",
     "addVersion": "Додати версію",
     "availableInstances": "Доступні екземпляри",
-    "partners": "Партнери"
+    "partners": "Партнери",
+    "congratulations": "Вітаємо!",
+    "comingSoon": "Незабаром"
 }
