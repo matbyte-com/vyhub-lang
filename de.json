@@ -700,8 +700,7 @@
             "advert": "Inserat",
             "navigation": "Navigation",
             "forum": "Forum",
-            "teamspeak3": "Teamspeak 3",
-            "other": "Anderes"
+            "teamspeak3": "Teamspeak 3"
         },
         "config_edit": "Allgemeine Konfiguration editiert.",
         "ban_edit_status": "Status zu {status} geändert.",
@@ -1090,7 +1089,6 @@
     },
     "paymentGateways": "Zahlungsmethoden",
     "_faq": {
-        "update": "Reihenfolge bearbeiten",
         "reset": "Reihenfolge zurücksetzen",
         "addQuestionDialog": "Frage hinzufügen",
         "editQuestionDialog": "Frage bearbeiten",
@@ -1098,8 +1096,7 @@
             "contentEmpty": "Bitte gib einen Inhalt ein",
             "addSuccess": "Frage erstellt.",
             "editSuccess": "Frage bearbeitet.",
-            "deleteSuccess": "Frage gelöscht.",
-            "updatedOrder": "Reihenfolge geändert."
+            "deleteSuccess": "Frage gelöscht."
         },
         "title": "FAQ",
         "add": "Frage hinzufügen",
@@ -1194,13 +1191,10 @@
         "messages": {
             "deleteSuccess": "Anzeige gelöscht.",
             "editSuccess": "Anzeige aktualisiert.",
-            "updatedOrder": "Anzeigen Reihenfolge aktualisiert.",
             "addSuccess": "Anzeige erstellt."
         },
         "add": "Anzeige hinzufügen",
-        "update": "Anzeigenreihenfolge aktualisieren",
         "formEnabled": "berechtigen",
-        "reset": "Anzeigenreihenfolge zurücksetzen",
         "formTitle": "Titel",
         "formContent": "Inhalt",
         "addAdvertDialog": "Anzeige hinzufügen",
@@ -1250,7 +1244,6 @@
         "deleteThread": "Thread löschen",
         "rename": "Umbenennen",
         "renameThread": "Thema umbenennen",
-        "title": "Titel",
         "manageTopicCategories": "Themenkategorien verwalten",
         "addTopic": "Thema hinzufügen",
         "editTopicCategory": "Themenkategorie bearbeiten",
@@ -1318,7 +1311,6 @@
     "password": "Passwort",
     "chat": "Chat",
     "global": "Global",
-    "filter": "Filter",
     "_chat": {
         "messages": {
             "messageDeleted": "Nachricht erfolgreich gelöscht."
@@ -1328,6 +1320,5 @@
     },
     "selectAll": "Alle wählen",
     "writeToConfirm": "Schreibe zur Bestätigung:",
-    "add-on": "Erweiterung",
-    "labels": "Label"
+    "add-on": "Erweiterung"
 }

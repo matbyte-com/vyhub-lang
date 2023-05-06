@@ -921,7 +921,6 @@
         "lastUpdated": "Laatste update",
         "threadLocked": "Thread vergrendeld",
         "deleteThread": "Thread verwijderen",
-        "title": "Titel",
         "forum": "Forum",
         "ticket:": "Ticket",
         "manageTopicCategories": "Onderwerpcategorieën beheren",
@@ -950,7 +949,6 @@
     "apiKey": "API sleutel",
     "finished": "Afgerond",
     "_advert": {
-        "reset": "Advertentievolgorde resetten",
         "formTitle": "Titel",
         "formContent": "Inhoud",
         "addAdvertDialog": "Advertentie toevoegen",
@@ -958,11 +956,9 @@
         "messages": {
             "addSuccess": "Advertentie gemaakt",
             "editSuccess": "Advertentie bijgewerkt.",
-            "deleteSuccess": "Advertentie verwijderd",
-            "updatedOrder": "Advertentievolgorde bijgewerkt."
+            "deleteSuccess": "Advertentie verwijderd"
         },
         "title": "Advertenties",
-        "update": "Advertentievolgorde bijwerken",
         "add": "Advertentie toevoegen",
         "formEnabled": "inschakelen"
     },
@@ -1232,14 +1228,12 @@
         "editQuestionDialog": "Vraag bewerken",
         "title": "FAQ",
         "add": "Vraag toevoegen",
-        "update": "Update FAQ volgorde",
         "reset": "Veelgestelde vragen resetten",
         "addQuestionDialog": "Vraag toevoegen",
         "messages": {
             "addSuccess": "FAQ-vraag aangemaakt.",
             "editSuccess": "FAQ bijgewerkt",
             "deleteSuccess": "FAQ vvragen verwijderd",
-            "updatedOrder": "FAQ  volgorde bijgewerkt.",
             "contentEmpty": "Alsjeblieft voeg inhoud toe."
         }
     },

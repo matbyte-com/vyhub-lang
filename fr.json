@@ -1090,10 +1090,8 @@
     },
     "_faq": {
         "formTitle": "Titre",
-        "update": "Modifier l'ordre de la FAQ",
         "add": "Ajouter une question",
         "editQuestionDialog": "Modifier une question",
-        "reset": "Réinitialiser l'ordre de la FAQ",
         "messages": {
             "updatedOrder": "Ordre FAQ modifié.",
             "addSuccess": "Question FAQ créée.",
@@ -1108,15 +1106,12 @@
     },
     "_advert": {
         "add": "Ajouter une annonce",
-        "update": "Modifier l'ordre des annonces",
         "messages": {
             "deleteSuccess": "Annonce supprimée.",
-            "updatedOrder": "L'ordre des annonces a été modifié.",
             "editSuccess": "Annonce modifiée.",
             "addSuccess": "Annonce créée."
         },
         "title": "Annonces",
-        "reset": "Réinitialiser l'ordre des annonces",
         "formTitle": "Titre",
         "formContent": "Contenu",
         "formEnabled": "Activer",
@@ -1282,7 +1277,6 @@
         "hideClosed": "Masquer les discussions fermées",
         "numberOfThreads": "Nombre de fils : ",
         "numberOfPosts": "Nombre de Posts : ",
-        "title": "Titre",
         "deleteThread": "Supprimer le fil",
         "threadPinned": "Discussion épinglée"
     },

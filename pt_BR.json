@@ -790,7 +790,6 @@
             "toggleStatus": "Status alternado.",
             "addedThread": "Tópico criado."
         },
-        "title": "Título",
         "manageTopicCategories": "Gerenciar Categorias de Tópicos",
         "manageTopics": "Gerenciar Tópicos",
         "selectTopicCategory": "Selecione uma Categoria de Tópico",
@@ -853,7 +852,6 @@
     "_faq": {
         "messages": {
             "editSuccess": "Pergunta de FAQ atualizada.",
-            "updatedOrder": "Pedido de perguntas frequentes atualizado.",
             "contentEmpty": "Por favor, insira um conteúdo",
             "addSuccess": "Pergunta de FAQ criada.",
             "deleteSuccess": "Pergunta de FAQ excluída."
@@ -863,9 +861,7 @@
         "formTitle": "Título",
         "formContent": "Conteúdo",
         "add": "Adicionar pergunta",
-        "update": "Atualizar pedido de perguntas frequentes",
         "title": "Perguntas Frequentes",
-        "reset": "Redefinir pedido de perguntas frequentes",
         "html": "HTML é permitido neste campo."
     },
     "_property": {
@@ -938,17 +934,14 @@
     },
     "color": "Cor",
     "_advert": {
-        "update": "Atualizar pedido de anúncios",
         "messages": {
             "editSuccess": "Anúncio atualizado.",
             "addSuccess": "Anúncio criado.",
-            "deleteSuccess": "Anúncio excluído.",
-            "updatedOrder": "Ordem do anúncio atualizada."
+            "deleteSuccess": "Anúncio excluído."
         },
         "formTitle": "Título",
         "title": "Anúncios",
         "add": "Adicionar anúncio",
-        "reset": "Redefinir ordem de anúncios",
         "formContent": "Conteúdo",
         "formEnabled": "Habilitar",
         "addAdvertDialog": "Adicionar anúncio",

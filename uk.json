@@ -985,7 +985,6 @@
         "hideClosed": "Приховати закриті гілки",
         "rename": "Перейменувати",
         "admin": "Адмін форуму",
-        "title": "Заголовок",
         "selectTopicCategory": "Виберіть категорію теми",
         "addCategory": "Додати категорію",
         "addTopic": "Додати тему",
@@ -1044,13 +1043,11 @@
         "messages": {
             "addSuccess": "Оголошення створене.",
             "deleteSuccess": "Оголошення видалене.",
-            "editSuccess": "Оголошення оновлене.",
-            "updatedOrder": "Список оголошень оновлено."
+            "editSuccess": "Оголошення оновлене."
         },
         "title": "Оголошення",
         "formTitle": "Назва",
         "add": "Додати оголошення",
-        "update": "Оновити список оголошень",
         "reset": "Скинути список оголошень",
         "formEnabled": "Увімкнути",
         "addAdvertDialog": "Додати оголошення",
@@ -1079,12 +1076,10 @@
         "add": "Додати питання",
         "messages": {
             "deleteSuccess": "Питання з FAQ видалено.",
-            "updatedOrder": "Список FAQ оновлено.",
             "editSuccess": "Питання FAQ оновлено.",
             "addSuccess": "Створено питання FAQ.",
             "contentEmpty": "Будь ласка, введіть контент"
         },
-        "update": "Оновити список FAQ",
         "reset": "Скинути список FAQ",
         "addQuestionDialog": "Додати питання",
         "editQuestionDialog": "Редагувати питання",
