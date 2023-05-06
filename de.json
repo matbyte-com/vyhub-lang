@@ -84,7 +84,10 @@
             "banEdited": "Ban bearbeitet",
             "banToggled": "Ban status geändert",
             "banAdded": "Ban erstellt"
-        }
+        },
+        "externalProtestUrl": "Externe Ban-Aufhebungs-Antrags URL",
+        "externalProtestUrlDescription": "Lasse das Feld für das VyHub-Ticketsystem leer oder geben Sie den Link ein, um auf eine externe Website umzuleiten.",
+        "vyhubTicketSystem": "VyHub Ticketsystem"
     },
     "_serverbundle": {
         "messages": {
@@ -143,7 +146,12 @@
             "financeReport": "Finanzbericht",
             "downloadInvoices": "Rechnungen herunterladen",
             "net": "net",
-            "changeTargetUser": "Für einen Freund kaufen"
+            "changeTargetUser": "Für einen Freund kaufen",
+            "enableTopDonators": "Aktiviere Top-Spender",
+            "enableTopDonatorsDescription": "Top-Spender-Widget wird auf der Startseite angezeigt (News)",
+            "topDonatorsLimit": "Anzahl der anzuzeigenden Spender",
+            "topDonatorDisplayTitle": "Top-Spender Widget Titel",
+            "donationGoalDisplayTitle": "Anzeigentitel des Spendenziels"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -268,7 +276,7 @@
             "acceptPendingDescription": "Einige Zahlungsarten (z. B. SEPA-Lastschrift, SOFORT, ...) benötigen mehrere Tage, bis sie abgeschlossen sind. Wenn diese Option aktiviert ist, werden mit diesen Methoden bezahlte Einkäufe direkt nach Abschluss des Bestellvorgangs abgeschlossen. Es besteht eine geringe Chance, dass die Zahlung danach fehlschlägt."
         },
         "messages": {
-            "formAttributeChangeExplanation": "Die unten stehenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird.",
+            "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird, und sind write-only, was bedeutet, dass die Eingabe nicht erneut angezeigt wird.",
             "createSuccess": "Zahlungsmethode erfolgreich erstellt.",
             "deleteSuccess": "Zahlungsmethode erfolgreich gelöscht.",
             "editSuccess": "Zahlungsmethode erfolgreich editiert.",
@@ -477,7 +485,8 @@
             "abstract": "Abstrakt",
             "packetRelations": "Paketbeziehungen",
             "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv sein soll. Lass dieses Feld für Pakete frei, die nach einiger Zeit nicht deaktiviert werden sollen. Wenn die wiederkehrende Option aktiviert ist, wird dieser Wert als Abonnementintervall verwendet.",
-            "editRewards": "Prämien bearbeiten"
+            "editRewards": "Prämien bearbeiten",
+            "titleInImage": "Über dem Bild angezeigter Titel (optional)"
         },
         "messages": {
             "sortOnlyWithCategory": "Pakete können nur sortiert werden, wenn eine Kategorie ausgewählt ist.",
@@ -579,7 +588,8 @@
             "revenueByCountry": "Umsatz nach Land",
             "editAppliedPacket": "Angewendetes Paket bearbeiten",
             "addAppliedPacket": "Angewendetes Paket hinzufügen",
-            "decline": "Ablehnen"
+            "decline": "Ablehnen",
+            "revenueByCategory": "Umsatz nach Kategorie"
         },
         "messages": {
             "cancelSubscriptionSuccess": "Abonnement erfolgreich gekündigt.",
@@ -639,9 +649,10 @@
         "formula": "Form",
         "showFaq": "FAQ aktivieren",
         "communityDescription": "Community Beschreibung",
-        "communityDescriptionDescr": "Diese Beschreibung wird in Suchmaschinen angezeigt",
+        "communityDescriptionDescr": "Dies wird in den Ergebnissen von Suchmaschinentests und beim Teilen in sozialen Medien angezeigt",
         "addServerTooltip": "Erstelle zuerst ein Serverbundle",
-        "showForum": "Forum aktivieren"
+        "showForum": "Forum aktivieren",
+        "showChat": "Chat aktivieren"
     },
     "_user": {
         "type": {
@@ -689,46 +700,31 @@
             "advert": "Inserat",
             "navigation": "Navigation",
             "forum": "Forum",
-            "teamspeak3": "Teamspeak 3"
+            "teamspeak3": "Teamspeak 3",
+            "other": "Anderes"
         },
-        "ban_edit_status": "Status zu {status} geändert.",
         "requirement_set_add": "Anforderungssatz {requirementSetName} {requirementSetId} hinzugefügt.",
-        "requirement_add": "Anforderung {requirementId} hinzugefügt.",
         "news_deleted": "Nachricht gelöscht {newsSubject} {newsId}.",
-        "user_log_entry_add": "{message}",
         "social_config_edit": "Konfiguration der sozialen Autorisierung bearbeitet.",
-        "discord_no_permission_to_target_group": "Der Discord-Bot kann Zielgruppe nicht ändern.",
         "requirement_set_deleted": "Anforderungssatz gelöscht {requirementSetName} {requirementSetId}.",
-        "discord_no_permission": "Discord-Berechtigungsfehler. Bitte versuchen Sie, den Bot erneut zur Gilde hinzuzufügen.",
         "payment_error": "Zahlungsfehler. gateway: {gateway}, message: {message}, action: {action}, detail: {detail}, code: {status_code}.",
-        "debit_status_changed": "Zahlungsstatus geändert: debit_id: {debit_id}, status: {old_status} -> {new_status}.",
         "purchase_finished": "Kauf mit id {purchase_id} abgeschlossen.",
-        "payment_event": "Behandle Zahlungs-Ereignis: gateway: {gateway}, message: {message}, detail: {detail}.",
         "object_edit": "{classname} mit id {id} wurde bearbeitet: {key} = {value}.",
-        "object_create": "{classname} mit id {id} wurde erstellt: {params}",
         "applied_packet_not_extended": "Konnte angewandtes Paket mit id {applied_packet_id} nicht verlängern: {reason}.",
-        "payment_cancelled": "Zahlung abgebrochen. debit_id: {debit_id}.",
         "payment_refund": "{gateway} Zahlung rückerstatett. action: {action}, message: {message}, Code: {status_code}.",
-        "group_edit": "Gruppe {groupName} mit id {groupId} bearbeitet.",
         "group_deleted": "Gruppe {groupName} mit id {groupId} gelöscht.",
-        "purchase_revoke": "Kauf mit id {purchase_id} widerrufen.",
         "ban_new": "Ban im Bundle {bundleName} bis {endDate} erstellt. Grund: {reason}.",
-        "nav_edit": "Navigationseinstellungen bearbeitet.",
         "ban_deleted": "Ban mit ID {banID} gelöscht.",
-        "purchase_refund": "Kauf zurückerstattet. purchase_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
         "theme_edit": "Design bearbeitet.",
-        "applied_packet_upgraded": "Verbessertes angewendetes Paket {old_applied_packet_id} mit {new_applied_packet_id}. Hinzugefügt {days} Tage.",
         "membership_edit": "Bearbeitete Mitgliedschaft: Gruppe: {groupName}, Benutzer: {username}, Alt: {oldBegin} {oldEnd}, Neu: {newBegin} {newEnd}.",
-        "warning_delete": "Lösche Verwarnung von: {username}.",
         "user_token_create": "Token erstellt {token_id} mit Umfang {scope} für Serverbundle {bundle_id}.",
-        "ban_new_full": "Benutzer {creatorId} Bann hinzugefügt {banId} für Benutzer {userId} in bundle {bundleId} von {createdOn} bis um {endDate}. Grund: {reason}.",
         "ban_edit_bundle": "Bundle geändert, zu {bundleName}.",
-        "membership_deleted": "Gelöschte Mitgliedschaft: Gruppe: {groupName}, Benutzer: {username}.",
         "warning_toggle": "Status einer Verwarnung von {username} auf {newStatus} gesetzt.",
-        "reward_process_success": "Erfolgreich ausgeführte Belohnung {reward_type} {applied_reward_id}.",
         "user_admin_status_removed": "Admin-Status des Benutzers {username} - {user_id} editiert: Admin = {status}.",
-        "teamspeak_wrong_credentials": "Teamspeak-Bot kann sich nicht anmelden. Anmeldeinformationen falsch.",
-        "teamspeak_general_login_error": "Allgemeiner Teamspeak-Bot-Fehler."
+        "teamspeak_general_login_error": "Allgemeiner Teamspeak-Bot-Fehler.",
+        "labels": {
+            "level": "Log Ebene"
+        }
     },
     "port": "Port",
     "disabled": "Deaktiviert",
@@ -1026,7 +1022,8 @@
             "authorization_edit": "Berechtigungseinstellungen bearbeiten",
             "auth_request_confirm": "Authentifizierungsanfragen bestätigen (nur für Gameserver)",
             "faq_edit": "FAQ in den Einstellungen bearbeiten",
-            "reserved_slot_use": "Verwenden Sie reservierte Slots auf einem Server"
+            "reserved_slot_use": "Verwenden Sie reservierte Slots auf einem Server",
+            "forum_edit": "Forum bearbeiten"
         },
         "categories": {
             "general": "Allgemein",
@@ -1175,7 +1172,20 @@
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
         "messages": {
-            "categoryDeleteSuccess": "Kategorie erfolgreich gelöscht."
+            "categoryDeleteSuccess": "Kategorie erfolgreich gelöscht.",
+            "topicCategoryCreated": "Themenkategorie erstellt.",
+            "topicDeleteSuccess": "Thema erfolgreich gelöscht.",
+            "updatedOrder": "Reihenfolge aktualisiert.",
+            "editSuccess": "Erfolgreich bearbeitet.",
+            "pinned": "Thread gepinnt.",
+            "toggleStatus": "Status geändert.",
+            "topicCreated": "Thema erstellt.",
+            "topicCategoryEdited": "Themenkategorie bearbeitet.",
+            "topicEdited": "Thema bearbeitet.",
+            "deleteSuccess": "Erfolgerich gelöscht.",
+            "unpinned": "Thread losgelöst.",
+            "addedPost": "Post erstellt.",
+            "addedThread": "Thread erstellt."
         },
         "lock": "Sperren",
         "selectTopicCategory": "Wählen Sie eine Themenkategorie aus",
@@ -1197,9 +1207,9 @@
         "hideClosed": "Geschlossene Threads ausblenden",
         "threadLocked": "Thread gesperrt",
         "editThreadTitle": "Threadtitel bearbeiten",
-        "numberOfPosts": "Beitragsanzahl: ",
+        "numberOfPosts": "Beitragsanzahl",
         "pin": "anpinnen",
-        "numberOfThreads": "Fadenzahl: ",
+        "numberOfThreads": "Fadenzahl",
         "threadPinned": "Thread gepinnt",
         "editTopic": "Thema bearbeiten",
         "latestPosts": "Neueste Beiträge",
@@ -1209,7 +1219,30 @@
         "by": "von",
         "editPost": "Beiträge bearbeiten zulassen",
         "posts": "Beiträge",
-        "addTopicCategory": "Themenkategorie hinzufügen"
+        "addTopicCategory": "Themenkategorie hinzufügen",
+        "editPostDescription": "Benutzern erlauben, die eigenen Beiträge zu bearbeiten.",
+        "edited": "Bearbeitet",
+        "tickets": "Tickets",
+        "closed": "Geschlossen",
+        "showBan": "Ban anzeigen",
+        "status": {
+            "open": "offen",
+            "closed": "geschlossen"
+        },
+        "content": "Inhalt",
+        "lastUpdated": "Letztes Update",
+        "addTicket": "Ticket erstellen",
+        "close": "Schließen",
+        "noTickets": "Du hast noch keine Tickets erstellt.",
+        "banProtest": "Entbannungsantrag",
+        "creator": "Ersteller",
+        "readMore": "Mehr lesen",
+        "open": "Öffnen",
+        "showClosed": "Geschlossene Anzeigen",
+        "addPost": "Post hinzufügen",
+        "unpin": "Lösen",
+        "created": "Erstellt",
+        "last_post": "Letzter Post"
     },
     "_invoice": {
         "invoiceDate": "Rechnungsdatum",
@@ -1224,5 +1257,20 @@
         "subtotalNoVat": "Zwischensumme (ohne MwSt.)",
         "invoice": "Rechnung",
         "deliveryDate": "Liefertermin"
-    }
+    },
+    "password": "Passwort",
+    "chat": "Chat",
+    "global": "Global",
+    "filter": "Filter",
+    "_chat": {
+        "messages": {
+            "messageDeleted": "Nachricht erfolgreich gelöscht."
+        },
+        "loginRequired": "Anmeldung erforderlich, um den Chat zu nutzen",
+        "reconnect": "Verbinden"
+    },
+    "selectAll": "Alle wählen",
+    "writeToConfirm": "Schreibe zur Bestätigung:",
+    "add-on": "Erweiterung",
+    "labels": "Label"
 }
