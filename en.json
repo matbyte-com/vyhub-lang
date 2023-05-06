@@ -431,6 +431,7 @@
             "buyableDetail": "Can be purchased in the shop",
             "enabledDetail": "If disabled, the packet cannot be purchased and all assigned packets become inactive.",
             "notBuyable": "Not Buyable",
+            "titleInImage": "Title displayed over image (optional)",
             "currency": "Currency",
             "abstract": "Abstract",
             "expires": "Expires",
