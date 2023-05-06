@@ -55,6 +55,9 @@
         }
     },
     "_ban": {
+        "externalProtestUrl": "External ban protest URL",
+        "externalProtestUrlDescription": "Leave empty for VyHub ticket system or enter link to redirect to external site.",
+        "vyhubTicketSystem": "VyHub Ticket System",
         "labels": {
             "title": "Bans",
             "add": "Add Ban",
@@ -1248,5 +1251,6 @@
     "writeToConfirm": "Write to confirm:",
     "add-on": "Add-On",
     "password": "Password",
-    "chat": "Chat"
+    "chat": "Chat",
+    "global": "Global"
 }
