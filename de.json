@@ -703,25 +703,15 @@
             "teamspeak3": "Teamspeak 3",
             "other": "Anderes"
         },
-        "requirement_set_add": "Anforderungssatz {requirementSetName} {requirementSetId} hinzugefügt.",
         "news_deleted": "Nachricht gelöscht {newsSubject} {newsId}.",
-        "social_config_edit": "Konfiguration der sozialen Autorisierung bearbeitet.",
         "requirement_set_deleted": "Anforderungssatz gelöscht {requirementSetName} {requirementSetId}.",
-        "payment_error": "Zahlungsfehler. gateway: {gateway}, message: {message}, action: {action}, detail: {detail}, code: {status_code}.",
         "purchase_finished": "Kauf mit id {purchase_id} abgeschlossen.",
-        "object_edit": "{classname} mit id {id} wurde bearbeitet: {key} = {value}.",
         "applied_packet_not_extended": "Konnte angewandtes Paket mit id {applied_packet_id} nicht verlängern: {reason}.",
-        "payment_refund": "{gateway} Zahlung rückerstatett. action: {action}, message: {message}, Code: {status_code}.",
         "group_deleted": "Gruppe {groupName} mit id {groupId} gelöscht.",
-        "ban_new": "Ban im Bundle {bundleName} bis {endDate} erstellt. Grund: {reason}.",
         "ban_deleted": "Ban mit ID {banID} gelöscht.",
-        "theme_edit": "Design bearbeitet.",
         "membership_edit": "Bearbeitete Mitgliedschaft: Gruppe: {groupName}, Benutzer: {username}, Alt: {oldBegin} {oldEnd}, Neu: {newBegin} {newEnd}.",
-        "user_token_create": "Token erstellt {token_id} mit Umfang {scope} für Serverbundle {bundle_id}.",
         "ban_edit_bundle": "Bundle geändert, zu {bundleName}.",
-        "warning_toggle": "Status einer Verwarnung von {username} auf {newStatus} gesetzt.",
         "user_admin_status_removed": "Admin-Status des Benutzers {username} - {user_id} editiert: Admin = {status}.",
-        "teamspeak_general_login_error": "Allgemeiner Teamspeak-Bot-Fehler.",
         "labels": {
             "level": "Log Ebene"
         }
