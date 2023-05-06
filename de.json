@@ -703,15 +703,10 @@
             "teamspeak3": "Teamspeak 3",
             "other": "Anderes"
         },
-        "news_deleted": "Nachricht gelöscht {newsSubject} {newsId}.",
         "requirement_set_deleted": "Anforderungssatz gelöscht {requirementSetName} {requirementSetId}.",
-        "purchase_finished": "Kauf mit id {purchase_id} abgeschlossen.",
         "applied_packet_not_extended": "Konnte angewandtes Paket mit id {applied_packet_id} nicht verlängern: {reason}.",
-        "group_deleted": "Gruppe {groupName} mit id {groupId} gelöscht.",
         "ban_deleted": "Ban mit ID {banID} gelöscht.",
-        "membership_edit": "Bearbeitete Mitgliedschaft: Gruppe: {groupName}, Benutzer: {username}, Alt: {oldBegin} {oldEnd}, Neu: {newBegin} {newEnd}.",
         "ban_edit_bundle": "Bundle geändert, zu {bundleName}.",
-        "user_admin_status_removed": "Admin-Status des Benutzers {username} - {user_id} editiert: Admin = {status}.",
         "labels": {
             "level": "Log Ebene"
         }
@@ -1246,7 +1241,8 @@
         "item": "Artikel",
         "subtotalNoVat": "Zwischensumme (ohne MwSt.)",
         "invoice": "Rechnung",
-        "deliveryDate": "Liefertermin"
+        "deliveryDate": "Liefertermin",
+        "refund": "Rückerstattung"
     },
     "password": "Passwort",
     "chat": "Chat",
