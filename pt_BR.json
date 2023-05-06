@@ -384,15 +384,25 @@
             "navigation": "Navegação",
             "forum": "Fórum"
         },
+        "object_edit": "Editado {classname} com identificação {id}: {key} = {value}.",
         "group_edit": "Grupo editado {groupName} {groupld}.",
+        "user_sync_failed": "Falha ao sincronizar usuário {user_id}.",
         "payment_cancelled": "Pagamento cancelado. debit_id: {debit_id}.",
+        "users_linked": "Usuário vinculado {link_user_id} com {base_user_id}. Créditos {credits} transferidos durante a fusão de contas de crédito.",
         "payment_process": "Feito o processamento do pagamento. plataforma: {gateway}, mensagem: {message}, ação: {action}, detalhe: {detail}.",
+        "cms_deleted": "Página cms html deletada.",
         "ban_new": "Banimento adicionado em um pacote {bundleName} até {endDate}. Razão: {reason}.",
+        "ban_new_full": "Usuário {creatorId} adicionou banimento {banId} para usuário {userId} em pacote {bundleId} de {createdOn} até {endDate}. Razão: {reason}.",
         "requirement_set_edit": "Conjunto de requisitos editado {requirementSetName} {requirementSetId}.",
+        "membership_edit": "Inscrição Editada: Grupo: {groupName}, Usuário: {username}, Antigo: {oldBegin} {oldEnd}, Novo: {newBegin} {newEnd}.",
         "warning_add": "Adicionado aviso para o usuário: {username}.",
+        "user_log_entry_add": "{message}",
         "social_config_edit": "Social (configuração) configuração editada.",
+        "packet_applied": "Pacote aplicado {packet_title} ({packet_id}) para usuário {user_id}. applied_packet_id: {applied_packet_id}.",
         "nav_edit": "Links de navegação editados.",
-        "reward_process_success": "Recompensa aplicada executada com sucesso {reward_type} {applie_reward_id}."
+        "membership_add": "Adicionado ao grupo {group_name} no pacote {serverbundle} até {until}.",
+        "reward_process_success": "Recompensa aplicada executada com sucesso {reward_type} {applie_reward_id}.",
+        "teamspeak_wrong_credentials": "O bot do Teamspeak não consegue fazer login. Credenciais erradas."
     },
     "log": "Registro",
     "apiKey": "Chave API",
@@ -784,6 +794,7 @@
     "_faq": {
         "messages": {
             "editSuccess": "Pergunta de FAQ atualizada.",
+            "updatedOrder": "Pedido de perguntas frequentes atualizado.",
             "contentEmpty": "Por favor, insira um conteúdo",
             "addSuccess": "Pergunta de FAQ criada.",
             "deleteSuccess": "Pergunta de FAQ excluída."
@@ -793,7 +804,9 @@
         "formTitle": "Título",
         "formContent": "Conteúdo",
         "add": "Adicionar pergunta",
+        "update": "Atualizar pedido de perguntas frequentes",
         "title": "Perguntas Frequentes",
+        "reset": "Redefinir pedido de perguntas frequentes",
         "html": "HTML é permitido neste campo."
     },
     "_property": {
@@ -866,14 +879,17 @@
     },
     "color": "Cor",
     "_advert": {
+        "update": "Atualizar pedido de anúncios",
         "messages": {
             "editSuccess": "Anúncio atualizado.",
             "addSuccess": "Anúncio criado.",
-            "deleteSuccess": "Anúncio excluído."
+            "deleteSuccess": "Anúncio excluído.",
+            "updatedOrder": "Ordem do anúncio atualizada."
         },
         "formTitle": "Título",
         "title": "Anúncios",
         "add": "Adicionar anúncio",
+        "reset": "Redefinir ordem de anúncios",
         "formContent": "Conteúdo",
         "formEnabled": "Habilitar",
         "addAdvertDialog": "Adicionar anúncio",
