@@ -703,9 +703,7 @@
             "teamspeak3": "Teamspeak 3",
             "other": "Anderes"
         },
-        "requirement_set_deleted": "Anforderungssatz gelöscht {requirementSetName} {requirementSetId}.",
         "applied_packet_not_extended": "Konnte angewandtes Paket mit id {applied_packet_id} nicht verlängern: {reason}.",
-        "ban_deleted": "Ban mit ID {banID} gelöscht.",
         "ban_edit_bundle": "Bundle geändert, zu {bundleName}.",
         "labels": {
             "level": "Log Ebene"
@@ -1020,7 +1018,6 @@
     },
     "paymentGateways": "Zahlungsmethoden",
     "_faq": {
-        "update": "Reihenfolge bearbeiten",
         "reset": "Reihenfolge zurücksetzen",
         "addQuestionDialog": "Frage hinzufügen",
         "editQuestionDialog": "Frage bearbeiten",
@@ -1028,8 +1025,7 @@
             "contentEmpty": "Bitte gib einen Inhalt ein",
             "addSuccess": "Frage erstellt.",
             "editSuccess": "Frage bearbeitet.",
-            "deleteSuccess": "Frage gelöscht.",
-            "updatedOrder": "Reihenfolge geändert."
+            "deleteSuccess": "Frage gelöscht."
         },
         "title": "FAQ",
         "add": "Frage hinzufügen",
@@ -1124,13 +1120,10 @@
         "messages": {
             "deleteSuccess": "Anzeige gelöscht.",
             "editSuccess": "Anzeige aktualisiert.",
-            "updatedOrder": "Anzeigen Reihenfolge aktualisiert.",
             "addSuccess": "Anzeige erstellt."
         },
         "add": "Anzeige hinzufügen",
-        "update": "Anzeigenreihenfolge aktualisieren",
         "formEnabled": "berechtigen",
-        "reset": "Anzeigenreihenfolge zurücksetzen",
         "formTitle": "Titel",
         "formContent": "Inhalt",
         "addAdvertDialog": "Anzeige hinzufügen",

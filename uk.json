@@ -82,23 +82,14 @@
             "discord": "Discord",
             "faq": "FAQ"
         },
-        "applied_packet_extended": "Застосований пакет {applied_packet_id} продовжено.",
         "config_edit": "Відредаговано загальну конфігурацію.",
-        "group_deleted": "Видалено групу {groupName} {groupId}.",
         "applied_packet_disabled": "Застосований пакет {applied_packet_id} відключено.",
-        "user_sync_failed": "Не вдалося синхронізувати користувача {user_id}.",
         "edit": "Відредаговано {name}: {key} = {value}",
-        "purchase_revoke": "Покупку відкликано. покупка_id: {purchase_id}.",
         "nav_edit": "Навігаційні лінки відредаговано .",
-        "ban_new_full": "Користувач {creatorId} додав бан {banId} для користувача {userId} у пакеті {bundleId} з {createdOn} до {endDate}. Причина: {reason}.",
         "news_deleted": "Новину {newsSubject} {newsId} видалено.",
-        "requirement_set_edit": "Набір вимог {requirementSetName} {requirementSetId} відредаговано.",
         "payment_cancelled": "Платіж скасовано. дебет_id: {debit_id}.",
-        "ban_edit_bundle": "Змінено назву пакета на {bundleName}.",
         "theme_edit": "Тема відредагована.",
-        "user_token_revoke": "Скасовано токен {token_id}.",
         "user_token_create": "Створено токен {token_id} з діапазоном {scope} для серверної групи {bundle_id}.",
-        "discord_wrong_bot_token": "Бот Discord не може увійти в систему (неправильний токен бота)",
         "social_config_edit": "Авторизацію через соціальні мережі відредаговано."
     },
     "_invoice": {
@@ -988,13 +979,11 @@
         "messages": {
             "addSuccess": "Оголошення створене.",
             "deleteSuccess": "Оголошення видалене.",
-            "editSuccess": "Оголошення оновлене.",
-            "updatedOrder": "Список оголошень оновлено."
+            "editSuccess": "Оголошення оновлене."
         },
         "title": "Оголошення",
         "formTitle": "Назва",
         "add": "Додати оголошення",
-        "update": "Оновити список оголошень",
         "reset": "Скинути список оголошень",
         "formEnabled": "Увімкнути",
         "addAdvertDialog": "Додати оголошення",
@@ -1023,12 +1012,10 @@
         "add": "Додати питання",
         "messages": {
             "deleteSuccess": "Питання з FAQ видалено.",
-            "updatedOrder": "Список FAQ оновлено.",
             "editSuccess": "Питання FAQ оновлено.",
             "addSuccess": "Створено питання FAQ.",
             "contentEmpty": "Будь ласка, введіть контент"
         },
-        "update": "Оновити список FAQ",
         "reset": "Скинути список FAQ",
         "addQuestionDialog": "Додати питання",
         "editQuestionDialog": "Редагувати питання",

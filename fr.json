@@ -387,25 +387,15 @@
             "forum": "Forum",
             "teamspeak3": "TeamSpeak 3"
         },
-        "group_add": "Groupe ajouté {groupName} {groupId}.",
         "group_deleted": "Groupe supprimé {groupName} {groupId}.",
-        "debit_status_changed": "Statut de débit modifié. debit_id : {debit_id}, état : {old_status} -> {new_status}.",
         "purchase_unrevoke": "Achat non révoqué. id_achat : {id_achat}.",
-        "cms_deleted": "Page html supprimée.",
         "ban_edit_reason": "Raison changée en {reason}.",
-        "requirement_set_add": "Ajout de l'ensemble d'exigences {requirementSetName} {requirementSetId}.",
         "news_edit": "Actualités modifiées {newsSubject} {newsId}.",
-        "membership_ended": "Adhésion terminée : Groupe : {groupName}, Utilisateur : {username}.",
         "user_log_entry_add": "{message}",
-        "warning_config_edit": "Configuration d'avertissement modifiée.",
         "group_team_member_edited": "Les groupes sont modifiés par les membres de l'équipe.",
-        "social_config_edit": "Configuration sociale (autorisation) modifiée.",
         "edit": "{name} modifié : {key} = {value}",
-        "payment_refund": "Paiement {gateway} remboursé. action : {action}, message : {message}, code : {status_code}.",
         "membership_add": "Ajouté au groupe {group_name} dans le groupe de serveur {serverbundle} jusqu'au {until}.",
-        "discord_wrong_bot_token": "Le bot Discord ne peut pas se connecter (jeton de bot erroné)",
-        "applied_packet_disabled": "Paquet appliqué désactivé {applied_packet_id}.",
-        "teamspeak_general_login_error": "Erreur générale du bot Teamspeak."
+        "applied_packet_disabled": "Paquet appliqué désactivé {applied_packet_id}."
     },
     "_address": {
         "labels": {
@@ -1032,10 +1022,8 @@
     },
     "_faq": {
         "formTitle": "Titre",
-        "update": "Modifier l'ordre de la FAQ",
         "add": "Ajouter une question",
         "editQuestionDialog": "Modifier une question",
-        "reset": "Réinitialiser l'ordre de la FAQ",
         "messages": {
             "updatedOrder": "Ordre FAQ modifié.",
             "addSuccess": "Question FAQ créée.",
@@ -1050,15 +1038,12 @@
     },
     "_advert": {
         "add": "Ajouter une annonce",
-        "update": "Modifier l'ordre des annonces",
         "messages": {
             "deleteSuccess": "Annonce supprimée.",
-            "updatedOrder": "L'ordre des annonces a été modifié.",
             "editSuccess": "Annonce modifiée.",
             "addSuccess": "Annonce créée."
         },
         "title": "Annonces",
-        "reset": "Réinitialiser l'ordre des annonces",
         "formTitle": "Titre",
         "formContent": "Contenu",
         "formEnabled": "Activer",

@@ -405,7 +405,6 @@
         "showLegalReminder": "Stel juridische informatie in de instellingen in!"
     },
     "_log": {
-        "payment_process": "Betalingsproces gemaakt. gateway: {gateway}, bericht: {message}, actie: {action}, detail: {detail}.",
         "type": {
             "system": "Systeem",
             "user": "Gebruiker",
@@ -425,23 +424,14 @@
             "teamspeak3": "Teamspeak 3",
             "navigation": "Navigation"
         },
-        "payment_error": "Betalingsfout. gateway: {gateway}, bericht: {message}, actie: {action}, detail: {detail}, code: {status_code}.",
         "group_add": "Groep {groupName} {groupId} toegevoegd.",
-        "discord_no_permission_to_target_group": "Discord-bot kan geen doelgroep targeten.",
         "edit": "Bewerkt {name}: {key} = {value}",
-        "payment_initiate": "Geïnitieerde {gateway}-betaling. actie: {action}, bericht: {message}, Code: {status_code}.",
         "payment_credits_success": "Kredietbetaling geslaagd. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}.",
-        "theme_edit": "Bewerkt thema.",
         "ban_edit_bundle": "Bundel gewijzigd naar {bundleName}.",
-        "requirement_set_add": "Vereistenset {requirementSetName} {requirementSetId} toegevoegd.",
         "applied_packet_extended": "Uitgebreid toegepast pakket {applied_packet_id}.",
-        "refund_finished": "Voltooide terugbetaling. debit_id: {debit_id}, purchase_id: {purchase_id}.",
         "user_token_create": "Token {token_id} gemaakt met bereik {scope} voor serverbundel {bundle_id}.",
-        "membership_deleted": "Lidmaatschap verwijderd: Groep: {groupName}, Gebruiker: {username}.",
         "users_linked": "Linkedin-gebruiker {link user_id} met {base user_id}. {credits} tegoed overgedragen tijdens het samenvoegen van tegoedrekeningen.",
-        "reward_process_failed": "Kan toegepaste beloning {reward_type} {applied_reward_id} niet uitvoeren: {error}.",
         "membership_edit": "Bewerkt lidmaatschap: Groep: {groupName}, Gebruiker: {username}, Oud: {oldBegin} {oldEnd}, Nieuw: {newBegin} {newEnd}.",
-        "discord_no_permission_for_server": "Discord-bot kan gilde {guild_id} niet ophalen.",
         "requirement_set_deleted": "Eisenset verwijderd {requirementSetName} {requirementSetId}."
     },
     "_address": {
@@ -891,7 +881,6 @@
     "apiKey": "API sleutel",
     "finished": "Afgerond",
     "_advert": {
-        "reset": "Advertentievolgorde resetten",
         "formTitle": "Titel",
         "formContent": "Inhoud",
         "addAdvertDialog": "Advertentie toevoegen",
@@ -899,11 +888,9 @@
         "messages": {
             "addSuccess": "Advertentie gemaakt",
             "editSuccess": "Advertentie bijgewerkt.",
-            "deleteSuccess": "Advertentie verwijderd",
-            "updatedOrder": "Advertentievolgorde bijgewerkt."
+            "deleteSuccess": "Advertentie verwijderd"
         },
         "title": "Advertenties",
-        "update": "Advertentievolgorde bijwerken",
         "add": "Advertentie toevoegen",
         "formEnabled": "inschakelen"
     },
@@ -1173,14 +1160,12 @@
         "editQuestionDialog": "Vraag bewerken",
         "title": "FAQ",
         "add": "Vraag toevoegen",
-        "update": "Update FAQ volgorde",
         "reset": "Veelgestelde vragen resetten",
         "addQuestionDialog": "Vraag toevoegen",
         "messages": {
             "addSuccess": "FAQ-vraag aangemaakt.",
             "editSuccess": "FAQ bijgewerkt",
             "deleteSuccess": "FAQ vvragen verwijderd",
-            "updatedOrder": "FAQ  volgorde bijgewerkt.",
             "contentEmpty": "Alsjeblieft voeg inhoud toe."
         }
     },
