@@ -9,6 +9,7 @@
     },
     "_invoice": {
         "invoice": "Invoice",
+        "refund": "Refund",
         "invoiceDate": "Invoice Date",
         "deliveryDate": "Delivery Date",
         "vatNumber": "VAT Number",
