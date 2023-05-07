@@ -571,7 +571,7 @@
             "refunded": "Erstattet",
             "amountNet": "Nettobetrag",
             "amountTotal": "Gesamtbetrag",
-            "monthlyRevenue": "Monatliche Einnahmen",
+            "monthlyRevenue": "Monatl. Einnahmen",
             "creditsSpent": "Ausgegebene Credits",
             "cancelSubscription": "Abonnement kündigen",
             "confirmPurchases": "Käufe bestätigen",
@@ -1089,7 +1089,6 @@
     },
     "paymentGateways": "Zahlungsmethoden",
     "_faq": {
-        "reset": "Reihenfolge zurücksetzen",
         "addQuestionDialog": "Frage hinzufügen",
         "editQuestionDialog": "Frage bearbeiten",
         "messages": {
