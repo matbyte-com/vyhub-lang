@@ -328,6 +328,10 @@
           "TEAMSPEAK3": {
             "name": "Teamspeak 3",
             "info": "Voicechat for gamers."
+          },
+          "FIVEM": {
+            "name": "FiveM",
+            "info": "GTA 5 Multiplayer."
           }
         }
     },
