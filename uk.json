@@ -1048,7 +1048,6 @@
         "title": "Оголошення",
         "formTitle": "Назва",
         "add": "Додати оголошення",
-        "reset": "Скинути список оголошень",
         "formEnabled": "Увімкнути",
         "addAdvertDialog": "Додати оголошення",
         "editAdvertDialog": "Редагувати оголошення",
@@ -1080,7 +1079,6 @@
             "addSuccess": "Створено питання FAQ.",
             "contentEmpty": "Будь ласка, введіть контент"
         },
-        "reset": "Скинути список FAQ",
         "addQuestionDialog": "Додати питання",
         "editQuestionDialog": "Редагувати питання",
         "formTitle": "Заголовок",

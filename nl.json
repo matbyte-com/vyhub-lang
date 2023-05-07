@@ -1228,7 +1228,6 @@
         "editQuestionDialog": "Vraag bewerken",
         "title": "FAQ",
         "add": "Vraag toevoegen",
-        "reset": "Veelgestelde vragen resetten",
         "addQuestionDialog": "Vraag toevoegen",
         "messages": {
             "addSuccess": "FAQ-vraag aangemaakt.",

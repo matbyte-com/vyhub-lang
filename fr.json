@@ -1093,7 +1093,6 @@
         "add": "Ajouter une question",
         "editQuestionDialog": "Modifier une question",
         "messages": {
-            "updatedOrder": "Ordre FAQ modifié.",
             "addSuccess": "Question FAQ créée.",
             "editSuccess": "Question FAQ modifiée.",
             "deleteSuccess": "Question FAQ supprimée.",
