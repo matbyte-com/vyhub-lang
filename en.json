@@ -365,7 +365,6 @@
         "htmlContent": "HTML Content",
         "link": "Link",
         "html": "Html",
-        "rawHtml": "Raw HTML",
         "title": "Navigation",
         "parentNavigationLink": "Parent Navigation Link",
         "addNavLink": "Add Navigation Link",
@@ -1328,5 +1327,6 @@
     "add-on": "Add-On",
     "password": "Password",
     "chat": "Chat",
-    "global": "Global"
+    "global": "Global",
+    "rawHtml": "Raw HTML"
 }
