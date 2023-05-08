@@ -249,7 +249,6 @@
         "editor": "Texteditor",
         "cmsPageTitle": "HTML Seiten",
         "html": "HTML",
-        "rawHtml": "Rohes HTML",
         "parentNavigationLink": "Übergeordneter Navigationslink",
         "navUpdate": "Navigationsreihenfolge aktualisieren",
         "navReset": "Navigationsreihenfolge zurücksetzen",
