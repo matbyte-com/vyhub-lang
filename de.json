@@ -85,8 +85,8 @@
             "banToggled": "Ban status geändert",
             "banAdded": "Ban erstellt"
         },
-        "externalProtestUrl": "Externe Ban-Aufhebungs-Antrags URL",
-        "externalProtestUrlDescription": "Lasse das Feld für das VyHub-Ticketsystem leer oder geben Sie den Link ein, um auf eine externe Website umzuleiten.",
+        "externalProtestUrl": "Externe Entbannungsantrag URL",
+        "externalProtestUrlDescription": "Lasse das Feld leer, um das VyHub Ticketsystem für Entbannungsanträge zu verwenden. Alternativ kann eine externe URL angegeben werden, auf die weitergeleitet wird.",
         "vyhubTicketSystem": "VyHub Ticketsystem"
     },
     "_serverbundle": {
@@ -246,7 +246,7 @@
             "help": "Hilfe"
         },
         "sublink": "Sublink",
-        "editor": "Bearbeiter",
+        "editor": "Texteditor",
         "cmsPageTitle": "HTML Seiten",
         "html": "HTML",
         "rawHtml": "Rohes HTML",
@@ -259,7 +259,7 @@
         "addCmsPage": "Seite hinzufügen",
         "editCmsPage": "Seite bearbeiten",
         "deleteCmsPage": "Seite löschen",
-        "contentSanitizationWarning": "JavaScript darf nur von Admins verwendet werden. Sonst wird saniert."
+        "contentSanitizationWarning": "JavaScript darf nur von Admins verwendet werden. Sonst wird dieses entfernt."
     },
     "_gateway": {
         "labels": {
@@ -395,7 +395,7 @@
                 "readInstructions": "Lesen und befolgen Sie die weiteren Anweisungen in den Dokumenten."
             },
             "COMMON": {
-                "runCommands": "Generieren Sie die erforderlichen Befehle, indem Sie auf die Schaltfläche klicken, und führen Sie sie in der Serverkonsole Ihres Servers aus.",
+                "runCommands": "Generiere die erforderlichen Befehle, indem du auf die Schaltfläche klickst. Führe diese anschließend in der Serverkonsole deines Servers aus.",
                 "wait": "Warten Sie bis zu einer Minute, bis VyHub initialisiert ist. Bei erfolgreicher Verbindung erscheint eine Meldung in der Serverkonsole."
             },
             "GMOD": {
@@ -679,7 +679,7 @@
         },
         "labels": {
             "newUsers": "Neue Nutzer",
-            "authRequestDescription": "Führen Sie den folgenden Befehl auf einem {type}-Server aus, um sich anzumelden:"
+            "authRequestDescription": "Führe den folgenden Befehl auf einem {type}-Server aus, um sich anzumelden:"
         }
     },
     "_log": {
@@ -998,7 +998,7 @@
             "editedLegal": "Rechtliches bearbeitet."
         },
         "descriptionText": "In den meisten Ländern ist es zwingend erforderlich, zumindest die Kontaktdaten, Nutzungsbedingungen und eine Datenschutzerklärung des Website-Betreibers anzugeben. Eine beispielhafte Datenschutzerklärung findest du in den Dokumenten.",
-        "showLegalReminder": "Bitte setze die AGB in den Einstellungen!"
+        "showLegalReminder": "Bitte setze ein Impressum in den Einstellungen!"
     },
     "_forms": {
         "labels": {
