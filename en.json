@@ -581,6 +581,10 @@
             "onceFromAll": "Only execute on one server",
             "reactivateOnExtend": "Execute again if packet has been extended (on subscription payment)",
             "addAppliedReward": "Add applied reward",
+            "syncAppliedRewards": "Sync rewards",
+            "amountOfAppliedRewardsToPatch": "Amount of applied rewards to patch: {amount}",
+            "packetSyncLimit": "Limit (optional)",
+            "packetSyncLimitDescription": "Rewards are added to all packets from the limit up to now.",
             "_events": {
                 "direct": "Execute directly",
                 "connect": "Execute on connect",
@@ -1321,6 +1325,7 @@
     "discount": "Discount",
     "confirm": "Confirm",
     "faq": "FAQ",
+    "back": "Back",
     "adverts": "Adverts",
     "map": "Map",
     "setup": "Setup",
