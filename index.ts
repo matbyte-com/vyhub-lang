@@ -18,4 +18,8 @@ export default {
     name: 'Português',
     load: () => import('@/lang/pt_BR.json'),
   },
+  uk: {
+    name: 'Українська',
+    load: () => import('@/lang/uk.json'),
+  },
 };
