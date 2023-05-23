@@ -1351,4 +1351,5 @@
     "chat": "Chat",
     "global": "Global",
     "rawHtml": "Raw HTML"
+    "required": "Required"
 }
