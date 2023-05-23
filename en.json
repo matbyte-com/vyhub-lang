@@ -385,6 +385,9 @@
         "contentSanitizationWarning": "JavaScript is only allowed to be used by Admins. Otherwise it is going to be sanitized."
     },
     "_log": {
+        "labels": {
+            "level": "Level"
+        },
         "type": {
             "system": "System",
             "user": "User",
@@ -1112,6 +1115,7 @@
             "ban_edit": "Manage bans",
             "ban_delete": "Delete bans",
             "ban_global": "Create global bans",
+            "ban_log_show": "View ban log",
             "ban_config_edit": "Edit ban config in settings",
             "ban_comment_show": "View ban comments",
             "ban_comment_edit": "Create/delete ban comments",
@@ -1133,7 +1137,7 @@
             "general_show": "View general settings",
             "general_edit": "Manage general settings",
             "log_show": "View logs",
-            "user_log": "Show and add entries to user log",
+            "user_log_show": "View user log",
             "packet_show": "View packets and rewards",
             "packet_edit": "Manage shop packets",
             "purchase_show": "View purchases and statistics",
@@ -1315,9 +1319,12 @@
     "save": "Save",
     "warnings": "Warnings",
     "bans": "Bans",
+    "labels": "Labels",
+    "filter": "Filter",
     "enable": "Enable",
     "disable": "Disable",
     "error": "Error",
+    "logs": "Logs",
     "maxInputExceeded": "Maximum input length of {length} exceeded",
     "discord": "Discord",
     "key": "Key",
