@@ -151,7 +151,7 @@
             "enableTopDonatorsDescription": "Top-Spender-Widget wird auf der Startseite angezeigt (News)",
             "topDonatorsLimit": "Anzahl der anzuzeigenden Spender",
             "topDonatorDisplayTitle": "Top-Spender Widget Titel",
-            "donationGoalDisplayTitle": "Anzeigentitel des Spendenziels"
+            "donationGoalDisplayTitle": "Anzeigetitel des Spendenziels"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -579,7 +579,7 @@
             "declineDebitText": "Kauf stornieren? Dies kann nicht rückgängig gemacht werden.",
             "reward": "Belohnung",
             "details": "Einzelheiten zum Kauf",
-            "salesCount": "Verkaufszählung",
+            "salesCount": "Anzahl an Verkäufen",
             "appliedPackets": "Angewandte Pakete",
             "paymentGateway": "Zahlungs-Gateways",
             "showApprovedDebits": "Genehmigte Abbuchungen anzeigen",
@@ -1284,7 +1284,7 @@
         "creator": "Ersteller",
         "readMore": "Mehr lesen",
         "open": "Öffnen",
-        "showClosed": "Geschlossene Anzeigen",
+        "showClosed": "Geschlossene Elemente anzeigen",
         "addPost": "Post hinzufügen",
         "unpin": "Lösen",
         "created": "Erstellt",
