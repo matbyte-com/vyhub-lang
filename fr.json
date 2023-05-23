@@ -1146,7 +1146,6 @@
             "gateway_show": "Voir les passerelles de paiement",
             "gateway_edit": "Gérer les passerelles de paiement",
             "general_show": "Afficher les paramètres généraux",
-            "user_log": "Voir et ajouter des entrées au logs de l'utilisateur",
             "user_attribute_edit": "Modifier les données d'attribut utilisateur.",
             "bundle_edit": "Gérer les serveurs groupés",
             "ban_edit": "Gérer les bannissements",

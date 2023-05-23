@@ -1009,7 +1009,6 @@
             "address_show": "Adressen van andere gebruikers bekijken.",
             "general_show": "Algemene instellingen bekijken",
             "log_show": "Logboeken bekijken",
-            "user_log": "Vermeldingen tonen en toevoegen aan gebruikerslogboek",
             "packet_edit": "Beheer van winkelpakketten",
             "ticket_edit": "Kaartjes bewerken",
             "apikey_edit": "API-sleutels beheren",
