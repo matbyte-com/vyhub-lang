@@ -587,6 +587,7 @@
             "syncAppliedRewards": "Sync rewards",
             "amountOfAppliedRewardsToPatch": "Amount of applied rewards to patch: {amount}",
             "packetSyncLimitDescription": "Rewards are added to all packets with begin dates in the range given. Begin and end are optional.",
+            "templates": "Templates",
             "_events": {
                 "direct": "Execute directly",
                 "connect": "Execute on connect",
