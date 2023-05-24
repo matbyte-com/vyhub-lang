@@ -639,6 +639,13 @@
             "cancelSubscription": "Cancel Subscription",
             "addAppliedPacket": "Add Applied Packet",
             "confirmPurchases": "Confirm Purchases",
+            "activeSubscriptions": "Active Subscriptions",
+            "averagePurchaseAmount": "Average Purchase",
+            "range": "Range",
+            "notAffectedByRangeSelector": "Statistic not affected by range selector",
+            "allTime": "All Time",
+            "thisYear": "This Year",
+            "thisMonth": "This Month",
             "coupon": "Coupon",
             "confirm": "Confirm",
             "decline": "Decline",
@@ -1203,6 +1210,7 @@
     "general": "General",
     "revoked": "Revoked",
     "purchases": "Purchases",
+    "overview": "Overview",
     "language": "Language",
     "payment": "Payment",
     "refresh": "Refresh",
@@ -1353,5 +1361,7 @@
     "chat": "Chat",
     "global": "Global",
     "rawHtml": "Raw HTML",
-    "required": "Required"
+    "required": "Required",
+    "time": "Time",
+    "rawHtml": "Raw HTML"
 }
