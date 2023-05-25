@@ -183,7 +183,7 @@
             "addAdmin": "Add Admin",
             "advancedSettings": "Advanced Settings",
             "stopInstance": "Stop Instance",
-            "resumeInstance": "Resume Instance",
+            "resumeInstance": "Start Instance",
             "transferOwnership": "Transfer Ownership",
             "agreeWithTermsOfServiceAndUpgradeToVersion14": "Agree with Terms of Service and Upgrade to Version 1.4"
         },
