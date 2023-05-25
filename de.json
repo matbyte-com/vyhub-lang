@@ -542,7 +542,11 @@
             },
             "addAppliedReward": "Angewendete Prämie hinzufügen",
             "reactivateOnExtend": "Erneut ausführen, wenn das Paket verlängert wurde (bei Abonnementzahlung)",
-            "checkForReplacements": "Überprüfen Sie die Dokumentation auf verfügbare Belohnungstypen und String-Ersetzungen"
+            "checkForReplacements": "Überprüfen Sie die Dokumentation auf verfügbare Belohnungstypen und String-Ersetzungen",
+            "syncAppliedRewards": "Belohnungen synchronisieren",
+            "amountOfAppliedRewardsToPatch": "Anzahl der angewendeten Belohnungen zum updaten: {amount}",
+            "packetSyncLimitDescription": "Prämien werden allen Paketen hinzugefügt, deren Startdatum im angegebenen Bereich liegt. Anfang und Ende sind optional.",
+            "templates": "Vorlagen"
         },
         "messages": {
             "createSuccess": "Belohnung erfolgreich erstellt.",
@@ -588,7 +592,15 @@
             "editAppliedPacket": "Angewendetes Paket bearbeiten",
             "addAppliedPacket": "Angewendetes Paket hinzufügen",
             "decline": "Ablehnen",
-            "revenueByCategory": "Umsatz nach Kategorie"
+            "revenueByCategory": "Umsatz nach Kategorie",
+            "numberOfPurchases": "Anzahl von Käufen",
+            "activeSubscriptions": "Aktive Abonnements",
+            "averagePurchaseAmount": "Durchschnittlicher Kauf",
+            "range": "Bereich",
+            "notAffectedByRangeSelector": "Statistik wird von der Bereichsauswahl nicht beeinflusst",
+            "allTime": "Immer",
+            "thisYear": "Dieses Jahr",
+            "thisMonth": "Dieser Monat"
         },
         "messages": {
             "cancelSubscriptionSuccess": "Abonnement erfolgreich gekündigt.",
@@ -636,7 +648,9 @@
             "addGroup": "Gruppe Hinzufügen",
             "editGroup": "Gruppe bearbeiten",
             "editBundle": "Servrebundle bearbeiten",
-            "addServer": "Server hinzufügen"
+            "addServer": "Server hinzufügen",
+            "updateOrder": "Reihenfolge Aktualisieren",
+            "resetOrder": "Reihenfolge zurücksetzen"
         },
         "imageUrl": "Bild URL",
         "contentEmpty": "Leerer Inhalt",
@@ -651,7 +665,12 @@
         "communityDescriptionDescr": "Dies wird in den Ergebnissen von Suchmaschinentests und beim Teilen in sozialen Medien angezeigt",
         "addServerTooltip": "Erstelle zuerst ein Serverbundle",
         "showForum": "Forum aktivieren",
-        "showChat": "Chat aktivieren"
+        "showChat": "Chat aktivieren",
+        "shopOnly": "Nur Shop Modus",
+        "shopOnlyDescription": "Nur Shop und Startseite anzeigen, alle anderen Seiten ausblenden. Andere Seiten und Funktionen können einzeln wieder angeschalten werden.",
+        "messages": {
+            "orderUpdated": "Reihenfolge aktualisiert"
+        }
     },
     "_user": {
         "type": {
@@ -674,6 +693,10 @@
             "TEAMSPEAK3": {
                 "info": "Voice-Chat für Gamer.",
                 "name": "Teamspeak 3"
+            },
+            "FIVEM": {
+                "name": "FiveM",
+                "info": "GTA 5 Multiplayer."
             }
         },
         "labels": {
@@ -777,7 +800,10 @@
         "teamspeak_wrong_credentials": "Teamspeak-Bot kann sich nicht anmelden. Anmeldeinformationen falsch.",
         "teamspeak_connection_refused": "Teamspeak-Bot kann keine Verbindung herstellen. IP oder Port falsch.",
         "teamspeak_general_login_error": "Allgemeiner Teamspeak-Bot-Fehler.",
-        "applied_packet_edit_status": "Status des angewendeten Pakets {id} auf {status} geändert."
+        "applied_packet_edit_status": "Status des angewendeten Pakets {id} auf {status} geändert.",
+        "labels": {
+            "level": "Level"
+        }
     },
     "port": "Port",
     "disabled": "Deaktiviert",
@@ -1075,7 +1101,16 @@
             "auth_request_confirm": "Authentifizierungsanfragen bestätigen (nur für Gameserver)",
             "faq_edit": "FAQ in den Einstellungen bearbeiten",
             "reserved_slot_use": "Verwenden Sie reservierte Slots auf einem Server",
-            "forum_edit": "Forum bearbeiten"
+            "forum_edit": "Forum bearbeiten",
+            "user_log_show": "Nutzerprotokoll anzeigen",
+            "ban_log_show": "Bannprotokoll ansehen",
+            "ban_comment_edit": "Bannkommentare erstellen und löschen",
+            "ban_comment_delete": "Bannkommentare anderer Benutzer löschen",
+            "user_comment_show": "Benutzerkommentare anzeigen",
+            "user_comment_edit": "Benutzerkommentare erstellen/löschen",
+            "user_comment_delete": "Benutzerkommentare anderer Benutzer löschen",
+            "ban_config_edit": "Bearbeiten der Bannkonfiguration in den Einstellungen",
+            "ban_comment_show": "Bannkommentare anzeigen"
         },
         "categories": {
             "general": "Allgemein",
@@ -1317,5 +1352,16 @@
     },
     "selectAll": "Alle wählen",
     "writeToConfirm": "Schreibe zur Bestätigung:",
-    "add-on": "Erweiterung"
+    "add-on": "Erweiterung",
+    "overview": "Überblick",
+    "total": "Gesamt",
+    "comments": "Kommentare",
+    "labels": "Label",
+    "filter": "Filter",
+    "back": "Zurück",
+    "comment": "Kommentar",
+    "logs": "Logs",
+    "rawHtml": "Reines HTML",
+    "required": "Erforderlich",
+    "time": "Zeit"
 }
