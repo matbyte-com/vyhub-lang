@@ -386,6 +386,10 @@
         "uploadFile": "Upload File"
     },
     "_log": {
+        "messages": {
+            "limitReached": "Log limit reached. Some older logs may not be displayed.",
+            "limitReachedFilter": "Log limit reached. Some older logs may not be displayed. Use a smaller time range or a more specific filter."
+        },
         "labels": {
             "level": "Level"
         },
