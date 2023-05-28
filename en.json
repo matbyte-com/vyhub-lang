@@ -248,6 +248,15 @@
             "sendConfirmationCode": "Send Code",
             "registrationRequired": "Registration Required",
             "forgotPassword": "Forgot Password",
+            "howDidYouHearAboutUs": "How did you hear about us?",
+            "howDidYouHearAboutUsOptions": {
+                "searchEngine": "Search Engine (Google, Bing, ...)",
+                "socialMedia": "Social Media",
+                "otherCommunity": "Other Community",
+                "friends": "Friends",
+                "youtube": "Youtube",
+                "other": "Other"
+            },
             "error": {
                 "password_no_match": "Check Password Confirmation Field",
                 "confirmation_code_no_match": "Check Email Confirmation Code",
