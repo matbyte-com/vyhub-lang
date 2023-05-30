@@ -148,7 +148,7 @@
             "activePackets": "Aktive Pakete",
             "addAdmin": "Admin hinzufügen",
             "advancedSettings": "Erweiterte Einstellungen",
-            "resumeInstance": "Instanz fortsetzen",
+            "resumeInstance": "Instanz starten",
             "transferOwnership": "Eigentum übertragen",
             "stopInstance": "Instanz stoppen",
             "upgradeVersion": "Version updaten",
@@ -240,7 +240,16 @@
                 "email_taken": "Email ist schon vergeben. Bitte logge dich ein.",
                 "captcha_low": "Bitte fülle das Captcha aus"
             },
-            "forgotPassword": "Passwort vergessen"
+            "forgotPassword": "Passwort vergessen",
+            "howDidYouHearAboutUs": "Wie bist du auf uns aufmerksam geworden?",
+            "howDidYouHearAboutUsOptions": {
+                "searchEngine": "Suchmaschine (Google, Bing, ...)",
+                "socialMedia": "Soziale Medien",
+                "otherCommunity": "Andere Community",
+                "friends": "Freunde",
+                "youtube": "Youtube",
+                "other": "Andere"
+            }
         },
         "validation": {
             "required": "Das Feld wird benötigt",
@@ -707,9 +716,9 @@
         "headline": "Bist du bereit, dass Beste Spielserververwaltungssystem zu bewerben?",
         "lifetimeCustomerValue": "Lebenslanger Kundenwert",
         "comingSoon": "Erscheint bald",
-        "description2": "Dein VyHub.net Nutzerkonto enthält bereits einen Partnerlink zum Teilen",
+        "description2": "Dein VyHub.net Nutzerkonto enthält bereits einen Link zum Teilen",
         "description1": "Deine Freunde und Follower werden es dir danken, wenn sie VyHub zum ersten Mal ausprobieren.{br} Du bekommst außerdem eine wiederkehrende Provision von 25%.",
-        "grabAffiliateLink": "Hol deinen Affiliate-Link"
+        "grabAffiliateLink": "Hol deinen Link"
     },
     "back": "Zurück",
     "shop": "Shop",
