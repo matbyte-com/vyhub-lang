@@ -311,30 +311,30 @@
             "authRequestDescription": "Execute the following command on a {type} server to login:"
         },
         "type": {
-          "CENTRAL": {
-            "name": "VyHub Central",
-            "info": "The platform to manage and monetize your gameservers."
-          },
-          "STEAM": {
-            "name": "Steam",
-            "info": "The famous gaming platform."
-          },
-          "DISCORD": {
-            "name": "Discord",
-            "info": "Your place to talk and hang out."
-          },
-          "MINECRAFT": {
-            "name": "Minecraft",
-            "info": "Build your own world."
-          },
-          "TEAMSPEAK3": {
-            "name": "Teamspeak 3",
-            "info": "Voicechat for gamers."
-          },
-          "FIVEM": {
-            "name": "FiveM",
-            "info": "GTA 5 Multiplayer."
-          }
+            "CENTRAL": {
+                "name": "VyHub Central",
+                "info": "The platform to manage and monetize your gameservers."
+            },
+            "STEAM": {
+                "name": "Steam",
+                "info": "The famous gaming platform."
+            },
+            "DISCORD": {
+                "name": "Discord",
+                "info": "Your place to talk and hang out."
+            },
+            "MINECRAFT": {
+                "name": "Minecraft",
+                "info": "Build your own world."
+            },
+            "TEAMSPEAK3": {
+                "name": "Teamspeak 3",
+                "info": "Voicechat for gamers."
+            },
+            "FIVEM": {
+                "name": "FiveM",
+                "info": "GTA 5 Multiplayer."
+            }
         }
     },
     "_legal": {
@@ -485,7 +485,7 @@
         "discord_no_permission_to_target_group": "Discord bot can't target group.",
         "discord_wrong_bot_token": "Discord bot can't login (bot token wrong)",
         "discord_no_permission": "Discord permission error. Please try to remove and readd the bot to your server.",
-        "teamspeak_general_login_error" : "Teamspeak general bot error.",
+        "teamspeak_general_login_error": "Teamspeak general bot error.",
         "teamspeak_connection_refused": "Teamspeak bot can't connect. IP or Port wrong.",
         "teamspeak_wrong_credentials": "Teamspeak bot can't login. Credentials wrong.",
         "social_config_edit": "Social (authorization) config edited."
@@ -645,7 +645,7 @@
             "cancelSubscription": "Cancel Subscription",
             "addAppliedPacket": "Add Applied Packet",
             "confirmPurchases": "Confirm Purchases",
-            "activeSubscriptions": "Active Subscriptions",
+            "activeSubscriptions": "Active Subs",
             "averagePurchaseAmount": "Average Purchase",
             "range": "Range",
             "notAffectedByRangeSelector": "Statistic not affected by range selector",
