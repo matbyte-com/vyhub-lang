@@ -62,11 +62,6 @@
         "vat": "VAT",
         "total": "Total"
     },
-    "log": {
-        "labels": {
-            "log": "Log"
-        }
-    },
     "_home": {
         "sections": {
             "shop": {
@@ -349,6 +344,8 @@
             "taxAllowUnknown": "Allow purchases from countries without tax rule.",
             "taxAllowUnknownDescription": "If disabled, purchases from countries that do not have an explicit tax rule configured, are not possible.",
             "cancelPayment": "Cancel Payment",
+            "financeReport": "Finance Report",
+            "downloadInvoices": "Download Invoices",
             "cancelPurchase": "Cancel Purchase"
         },
         "messages": {
@@ -396,48 +393,12 @@
         }
     },
     "_log": {
-        "type": {
-            "system": "System",
-            "user": "User",
-            "ban": "Ban",
-            "shop": "Shop",
-            "packet": "Packet",
-            "group": "Group",
-            "news": "News",
-            "requirement": "Requirement",
-            "design": "Design",
-            "warning": "Warning",
-            "discord": "Discord",
-            "instance": "Instance",
-            "server": "Server"
+        "labels": {
+           "level": "Level"
         },
-        "timeAgo": "{time} ago",
-        "edit": "Edited {name}: {key} = {value}",
-        "object_edit": "Edited {classname} with id {id}: {key} = {value}.",
-        "object_delete": "Deleted {classname} with id {id}.",
-        "object_create": "Created {classname} with id {id}: {params}",
-        "applied_packet_extended": "Extended applied packet {applied_packet_id}.",
-        "applied_packet_not_extended": "Failed to extended applied packet {applied_packet_id}: {reason}.",
-        "group_add": "Added group {groupName} {groupId}.",
-        "refund_finished": "Finished refund. debit_id: {debit_id}, purchase_id: {purchase_id}.",
-        "payment_initiate": "Initiated {gateway} payment. action: {action}, message: {message}, Code: {status_code}.",
-        "payment_refund": "Refunded {gateway} payment. action: {action}, message: {message}, Code: {status_code}.",
-        "payment_cancelled": "Cancelled payment. debit_id: {debit_id}.",
-        "packet_applied": "Applied packet {packet_title} ({packet_id}) for user {user_id}. applied_packet_id: {applied_packet_id}.",
-        "payment_event": "Handling payment event. gateway: {gateway}, message: {message}, detail: {detail}.",
-        "payment_process": "Made payment process. gateway: {gateway}, message: {message}, action: {action}, detail: {detail}.",
-        "payment_error": "Payment error. gateway: {gateway}, message: {message}, action: {action}, detail: {detail}, code: {status_code}.",
-        "debit_status_changed": "Changed debit status. debit_id: {debit_id}, status: {old_status} -> {new_status}.",
-        "purchase_status_changed": "Changed purchase status. purchase_id: {purchase_id}, status: {old_status} -> {new_status}.",
-        "purchase_finished": "Purchase finished. purchase_id: {purchase_id}.",
-        "purchase_cancelled": "Purchase cancelled. purchase_id: {purchase_id}.",
-        "purchase_revoke": "Purchase revoked. purchase_id: {purchase_id}.",
-        "purchase_unrevoke": "Purchase unrevoked. purchase_id: {purchase_id}.",
-        "purchase_refund": "Purchase refunded. purchase_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
-        "autocharge_tx_created": "Created auto-charge transaction. Amount: {amount}, Debit: {debit_id}, Account: {account_id}, User: {user_id}",
-        "autocharge_wrong_account_currency": "Account {account_id} had wrong currency for autocharge. Account: {currency_account}, Purchase: {currency_purchase}",
-        "payment_credits_success": "Credit payment successful. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}.",
-        "payment_credits_fail": "Credit payment failed. action: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}, reason: {reason}."
+        "messages": {
+            "limitReachedFilter": "Reached log limit, use filters."
+        }
     },
     "_address": {
         "labels": {
@@ -797,6 +758,8 @@
     "areYouSure": "Are you sure?",
     "delete": "Delete",
     "shop": "Shop",
+    "user": "User",
+    "labels": "Labels",
     "contact": "Contact",
     "register": "Register",
     "date": "Date",
@@ -810,6 +773,8 @@
     "purchases": "Purchases",
     "lastName": "Last Name",
     "subject": "Subject",
+    "filter": "Filter",
+    "reset": "Reset",
     "giftCodes": "Gift Codes",
     "authorizeApplication": "Authorize Application",
     "message": "Message",
@@ -851,7 +816,8 @@
     "close": "Close",
     "packets": "Packets",
     "packet": "Packet",
-    "user": "user",
+    "log": "Log",
+    "category": "Category",
     "continue": "Continue",
     "every": "Every",
     "cart": "Cart",
@@ -909,6 +875,7 @@
     "created": "Created",
     "comingSoon": "Coming soon",
     "end": "End",
+    "start": "Start",
     "disabled": "Disabled",
     "copy": "Copy",
     "enter": "Enter"
