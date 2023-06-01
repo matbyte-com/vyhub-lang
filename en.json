@@ -883,7 +883,9 @@
             "discordApplicationIdNeeded": "Create Discord application.",
             "guildIdDocs": "Find guild ID",
             "setup": "Setup Server",
-            "details": "Server Details"
+            "details": "Server Details",
+            "queryPortDescription": "Query port of your TS3 server. The standard port is 10022.",
+            "sshQueryPort": "SSH Query Port"
         },
         "messages": {
             "createSuccess": "Server successfully created.",
