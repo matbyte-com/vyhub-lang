@@ -367,6 +367,7 @@
         "htmlContent": "HTML Content",
         "link": "Link",
         "html": "Html",
+        "rawHtml": "Raw Html",
         "title": "Navigation",
         "parentNavigationLink": "Parent Navigation Link",
         "addNavLink": "Add Navigation Link",
