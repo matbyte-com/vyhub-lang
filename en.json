@@ -620,7 +620,10 @@
                 "text5": "Groups can be part of the team. A team page is created automatically, which allows players to connect to the right person.",
                 "title6": "Adverts",
                 "headline6": "Adverts",
-                "text6": "Adverts are small messages which can be announced periodically on the gameservers."
+                "text6": "Adverts are small messages which can be announced periodically on the gameservers.",
+                "title7": "News",
+                "headline7": "News",
+                "text7": "News can be created and displayed on the main page. This way you can keep your players up to date. Furthermore, the news page gives an overview over all your servers, new players and shop goals."
             }
         },
         "_dashboard": {
@@ -870,6 +873,7 @@
     "noEntries": "No Entries.",
     "enable": "Enable",
     "users": "Users",
+    "versions": "Versions",
     "actions": "Actions",
     "congratulations": "Congratulations!",
     "created": "Created",
