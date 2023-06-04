@@ -589,7 +589,7 @@
                 "headline2": "Mehrsprachige Unterstützung",
                 "headline3": "Voll funktionsfähige API",
                 "text3": "VyHub kommt mit einer voll funktionsfähigen REST-API. Du kannst diese API verwenden, um alles (und mehr) zu tun, was du auch mit dem Frontend machen könntest. Auch eigene Plugins, die die API integrieren, sind möglich.",
-                "text4": "VyHub kommt mit einer kostenlosen Subdomain vyhub.app. Wenn du lieber deine eigene Adresse verwenden, ist dies möglich! Die Nutzung einer eigenen Domain gratis.",
+                "text4": "VyHub kommt mit einer kostenlosen Subdomain vyhub.app. Wenn du lieber deine eigene Adresse verwenden möchtest, ist dies kostenlos möglich!",
                 "title3": "Voll funktionsfähige API",
                 "title4": "Eigene Webseitenadresse verwenden",
                 "headline4": "Optional: Verwende eine eigene Webseitenadresse",
@@ -635,7 +635,7 @@
     },
     "_games": {
         "_features": {
-            "gmodIngameDashboard": "Ingame-Dashboard für Sperren und Warnungen",
+            "gmodIngameDashboard": "Ingame-Dashboard für Banns und Verwarnungen",
             "bans": "Banns und zeitliche-Banns",
             "gmodPlayerSync": "Spielergruppen synchronisieren (Unterstützung für ULX, xAdmin, SAM, FAdmin, ServerGuard und mehr)",
             "minecraftPlayerSync": "Spielergruppen synchronisieren (Unterstützung für LuckPerms)",
