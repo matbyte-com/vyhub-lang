@@ -558,6 +558,7 @@
         }
     },
     "_features": {
+        "allFeatures": "All Features",
         "_shop": {
             "title": "Shop",
             "subtitle": "Sell ranks and ingame-items for real money.",
@@ -674,6 +675,50 @@
                 "headline4": "Optional: Use own domain",
                 "text4": "VyHub comes with a complimentary vyhub.app sub-domain. If your prefer using your own domain, this is possible! The use of your own domain comes with no additional cost."
             }
+        }
+    },
+    "_shopFeatures": {
+        "title": "Shop Features",
+        "allShopFeatures": "All shop features",
+        "packets":  {
+            "description": "VyHub gives you the opportunity to sell packages on your gameserver. Packages can be organised in categories and subcategories. It is possible to create package upgrade paths and packages with conditional availability. It can be used to sell packages only to players who have a certain rank, even a certain playtime, or another package which can or must be upgraded.",
+            "bp1": "Unlimited packages",
+            "bp2": "Unlimited categories",
+            "bp3": "Unlimited subcategories",
+            "bp4": "Buy for friend",
+            "bp5": "Packet upgrades",
+            "bp6": "Conditional packages"
+        },
+        "rewards": {
+            "description": "Whenever a player buys a package through VyHub, they will automatically receive the assigned rewards. A reward can be any ingame command or group membership.",
+            "bp1": "Automatic reward processing after purchase",
+            "bp2": "Reward presets which can be used as is",
+            "bp3": "Multiple rewards per package",
+            "bp4": "VIP Ranks",
+            "bp5": "In-game Items",
+            "bp6": "Access to reserved slots"
+        },
+        "discounts": {
+            "description": "VyHub offers a wide range of discount options for your store. Conditional discounts for specific players are possible. For example you can give a discount to players who have a certain rank or a certain playtime.",
+            "bp1": "Percentage discounts",
+            "bp2": "Specify maximum discount usages",
+            "bp3": "Maximum discount usages per user",
+            "bp4": "Discounts for specific players",
+            "bp5": "Conditional discounts"
+        },
+        "statistics": {
+            "description": "VyHub offers a wide range of statistics to help you keep track of your sales. You can see how many packages you have sold, what the average purchase amount is or how much money you made by category. Many more statistics are available in your dashboard. All statistics are displayed in a clear and easy to understand way.",
+            "bp1": "Comprehensive purchase statistics",
+            "bp2": "Total revenue",
+            "bp3": "Average purchase amount",
+            "bp4": "Sales by category"
+        },
+        "payments": {
+            "description": "VyHub offers seamless payment processing for your gaming community. With support for over 20 payment methods, through PayPal, Stripe, and Paysafecard, we give your users the flexibility to choose their preferred option. Getting started is easy. Simply register an account with one of the payment gateways, such as PayPal, Stripe, or Paysafecard. All payments are processed by you. That means no further delay or payout fees from our side. You have got access to the money instantly.",
+            "bp1": "Over 20 payment methods",
+            "bp2": "Only a Paypal / Stripe / Paysafecard Account is required",
+            "bp3": "No payout delays",
+            "bp4": "No payout fees"
         }
     },
     "_partners": {
@@ -882,5 +927,9 @@
     "start": "Start",
     "disabled": "Disabled",
     "copy": "Copy",
-    "enter": "Enter"
+    "enter": "Enter",
+    "rewards": "Rewards",
+    "discounts": "Discounts",
+    "statistics": "Statistics",
+    "andMuchMore": "And much more..."
 }
