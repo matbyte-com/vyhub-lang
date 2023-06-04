@@ -206,11 +206,7 @@
         "setUpAutocharge": "Automatische Zahlungen aktivieren",
         "revenueFee": "Einnahmegebühr"
     },
-    "log": {
-        "labels": {
-            "log": "Log"
-        }
-    },
+    "log": "Log",
     "_form": {
         "contact": {
             "message": "Nachricht",
@@ -308,7 +304,13 @@
         "packet_applied": "Angewendetes Paket {packet_title} ({packet_id}) für Benutzer {user_id}. angewandte_paket_id: {angewendete_paket_id}.",
         "payment_event": "Abwicklung des Zahlungsereignisses. Gateway: {Gateway}, Nachricht: {Nachricht}, Detail: {Detail}.",
         "purchase_status_changed": "Kaufstatus geändert. Kauf_ID: {Kauf_ID}, Status: {alter_Status} -> {neuer_Status}.",
-        "autocharge_tx_created": "Automatische Belastungstransaktion erstellt. Betrag: {amount}, Lastschrift: {debit_id}, Konto: {account_id}, Benutzer: {user_id}"
+        "autocharge_tx_created": "Automatische Belastungstransaktion erstellt. Betrag: {amount}, Lastschrift: {debit_id}, Konto: {account_id}, Benutzer: {user_id}",
+        "labels": {
+            "level": "Level"
+        },
+        "messages": {
+            "limitReachedFilter": "Protokolllimit erreicht, Filter verwenden."
+        }
     },
     "_address": {
         "labels": {
@@ -405,7 +407,9 @@
             "applyCoupon": "Coupon einlösen",
             "couponCode": "Coupon",
             "checkoutCheckboxes": "Checkout-Kontrollkästchen",
-            "orderWithObligationToPay": "Zahlungspflichtig bestellen"
+            "orderWithObligationToPay": "Zahlungspflichtig bestellen",
+            "financeReport": "Finanzbericht",
+            "downloadInvoices": "Herunterladen von Rechnungen"
         },
         "messages": {
             "couponsEntered": "Dein coupon wurde erfolgreich gespeichert. Du kannst ihn noch ändern, solange er noch nicht akzeptiert worden ist.",
@@ -579,7 +583,10 @@
                 "title5": "Teamseite",
                 "headline5": "Teamseite",
                 "headline6": "Anzeigen",
-                "text6": "Wiederkehrende Anzeigen sind kleine Nachrichten, die periodisch auf den Gameservern angekündigt werden können."
+                "text6": "Wiederkehrende Anzeigen sind kleine Nachrichten, die periodisch auf den Gameservern angekündigt werden können.",
+                "title7": "Neuigkeiten",
+                "headline7": "Neuigkeiten",
+                "text7": "Auf der Hauptseite können Nachrichten erstellt und angezeigt werden. So kannst du deine Spieler auf dem Laufenden halten. Darüber hinaus gibt die News-Seite einen Überblick über alle Ihre Server, neuen Spieler und Shop-Ziele."
             },
             "title": "Community"
         },
@@ -631,7 +638,8 @@
             },
             "subtitle": "Du kannst Gruppen und Berechtigungen einfach verwalten.",
             "title": "Gruppen und Teams"
-        }
+        },
+        "allFeatures": "Alle Funktionen"
     },
     "_games": {
         "_features": {
@@ -945,5 +953,59 @@
     "copy": "Kopieren",
     "enter": "Eintreten",
     "disabled": "Deaktivieren",
-    "end": "Beenden"
+    "end": "Beenden",
+    "labels": "Label",
+    "category": "Kategorie",
+    "start": "Start",
+    "filter": "Filter",
+    "_shopFeatures": {
+        "title": "Shop Funktionen",
+        "allShopFeatures": "Alle Shopfunktionen",
+        "packets": {
+            "description": "VyHub bietet die Möglichkeit, Pakete auf deinem Gameserver zu verkaufen. Pakete können in Kategorien und Unterkategorien organisiert werden. Es ist möglich, Paket-Upgrade-Pfade und Pakete mit spezieller Verfügbarkeit zu erstellen. Das kann verwendet werden, um Pakete nur an Spieler zu verkaufen, die einen bestimmten Rang, eine bestimmte Spielzeit, oder ein bestimmtes Paket besitzen.",
+            "bp1": "Unbegrenzte Pakete",
+            "bp2": "Unbegrenzte Kategorien",
+            "bp3": "Unbegrenzte Unterkategorien",
+            "bp4": "Für einen Freund kaufen",
+            "bp6": "Bedingte Pakete",
+            "bp5": "Paket-Upgrades"
+        },
+        "rewards": {
+            "description": "Immer wenn ein Spieler ein Paket über VyHub kauft, erhält er automatisch die zugewiesenen Belohnungen. Eine Belohnung kann ein beliebiges Ingame-Kommando oder eine Gruppenmitgliedschaft sein.",
+            "bp1": "Automatische Prämienabwicklung nach dem Kauf",
+            "bp2": "Prämienborlagen, welche verwendet werden können",
+            "bp3": "Mehrere Prämien pro Paket",
+            "bp4": "VIP-Ränge",
+            "bp5": "Gegenstände im Spiel",
+            "bp6": "Zugriff auf reservierte Slots"
+        },
+        "discounts": {
+            "description": "VyHub bietet eine große Auswahl an Rabattoptionen für den Shop. Spielerabhängige Rabatte sind möglich. Beispielsweise kannst du Spielern einen Rabatt gewähren, die einen bestimmten Rang oder eine bestimmte Spielzeit haben.",
+            "bp1": "Prozentuale Rabatte",
+            "bp2": "Maximale Nutzung des Rabattes",
+            "bp3": "Maximale Nutzung des Rabattes pro Spieler",
+            "bp4": "Rabatte für bestimmte Spieler",
+            "bp5": "Bedingte Rabatte"
+        },
+        "statistics": {
+            "description": "VyHub bietet eine breite Palette an Statistiken, die dir helfen, den Überblick über deine Verkäufe zu behalten. Du kannst nach Kategorien sortieren, wie viele Pakete du verkauft hast, wie hoch der durchschnittliche Kaufbetrag ist oder wie viel Geld du verdient hast. Viele weitere Statistiken stehen im Dashboard zur Verfügung. Alle Statistiken werden übersichtlich und leicht verständlich dargestellt.",
+            "bp1": "Umfangreiche Verkaufsstatistiken",
+            "bp2": "Gesamtumsatz",
+            "bp4": "Verkäufe nach Kategorie",
+            "bp3": "Durchschnittlicher Kaufbetrag"
+        },
+        "payments": {
+            "description": "VyHub bietet eine nahtlose Zahlungsabwicklung für deine Gaming-Community. Mit der Unterstützung von über 20 Zahlungsmethoden über PayPal, Stripe und Paysafecard geben wir deinen Spielern die Flexibilität, die bevorzugte Zahlmethode zu wählen. Du musst einfach ein Konto bei einem der Zahlungsgateways wie PayPal, Stripe oder Paysafecard erstellen. Alle Zahlungen werden über diese abgewickelt. Das bedeutet, dass von unserer Seite keine weiteren Verzögerungen der Auszahlung oder Auszahlungsgebühren anfallen. Du hast sofort Zugriff auf das Geld.",
+            "bp1": "Über 20 Zahlungsmethoden",
+            "bp2": "Es ist lediglich ein Paypal-/Stripe-/Paysafecard-Konto erforderlich",
+            "bp3": "Keine Auszahlungsverzögerungen",
+            "bp4": "Keine Auszahlungsgebühren"
+        }
+    },
+    "reset": "Zurücksetzen",
+    "versions": "Versionen",
+    "rewards": "Prämien",
+    "discounts": "Rabatte",
+    "statistics": "Statistiken",
+    "andMuchMore": "Und viel mehr..."
 }
