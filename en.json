@@ -19,7 +19,8 @@
         "admin": "Admin",
         "profile": "Profile",
         "affiliate": "Affiliate",
-        "purchases": "Purchases"
+        "purchases": "Purchases",
+        "customers": "Customers"
     },
     "_footer": {
         "about": "About VyHub",
@@ -85,6 +86,9 @@
                 "bulletPoint4": "Team page"
             }
         },
+        "_communities": {
+            "description": "Hundreds of communities are trusting VyHub. Become one of them!"
+        },
         "endcards": {
             "simple": {
                 "bulletPoint1": "Say goodbye to all kinds of now unnecessary plugins",
@@ -128,6 +132,7 @@
         "andMore": "And much more...",
         "supportedGames": "Supported Games / Integrations",
         "ourAmbitions": "Our Ambition",
+        "ourCommunities": "Our Communities",
         "features": "Features",
         "shop": "Shop",
         "discordIntegration": "Discord Integration",
@@ -931,5 +936,6 @@
     "rewards": "Rewards",
     "discounts": "Discounts",
     "statistics": "Statistics",
-    "andMuchMore": "And much more..."
+    "andMuchMore": "And much more...",
+    "paymentProcessing": "Payment Processing"
 }
