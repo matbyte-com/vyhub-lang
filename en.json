@@ -175,6 +175,8 @@
         }
     },
     "_group": {
+        "maxBanLengthInDays": "Max Ban Length (in days)",
+        "maxBanLengthInDaysDescription": "Leave empty for infinitive bans",
         "mappings": {
             "name": "Name of the group/rank/role on the server"
         },
