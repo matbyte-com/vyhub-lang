@@ -692,8 +692,10 @@
             "bp2": "Unlimited categories",
             "bp3": "Unlimited subcategories",
             "bp4": "Buy for friend",
-            "bp5": "Packet upgrades",
-            "bp6": "Conditional packages"
+            "bp5": "Packets with custom price",
+            "bp6": "Buy packets with credits",
+            "bp7": "Packet upgrades",
+            "bp8": "Conditional packages"
         },
         "rewards": {
             "description": "Whenever a player buys a package through VyHub, they will automatically receive the assigned rewards. A reward can be any ingame command or group membership.",
@@ -723,8 +725,9 @@
             "description": "VyHub offers seamless payment processing for your gaming community. With support for over 20 payment methods, through PayPal, Stripe, and Paysafecard, we give your users the flexibility to choose their preferred option. Getting started is easy. Simply register an account with one of the payment gateways, such as PayPal, Stripe, or Paysafecard. All payments are processed by you. That means no further delay or payout fees from our side. You have got access to the money instantly.",
             "bp1": "Over 20 payment methods",
             "bp2": "Only a Paypal / Stripe / Paysafecard Account is required",
-            "bp3": "No payout delays",
-            "bp4": "No payout fees"
+            "bp3": "Accept any gift-card like methods by manual processing",
+            "bp4": "No payout delays",
+            "bp5": "No payout fees"
         }
     },
     "_partners": {
@@ -750,7 +753,8 @@
             "rewards": "Infinite possibilities with rewards (Custom Commands/Scripts, Ingame Money, Item drops...)",
             "playtimeStatistic": "Playtime statistic for every player",
             "periodicAdverts": "Periodic adverts",
-            "reservedSlots": "Reserved slots"
+            "reservedSlots": "Reserved slots",
+            "discordNotifications": "Customizable ban/warning/purchase notifications in text channels"
         }
     },
     "_pricing": {
