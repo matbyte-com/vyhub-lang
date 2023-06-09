@@ -384,7 +384,8 @@
             "selectBillingAddressFirst": "Please select a billing address first.",
             "selectEmailFirst": "Please update your email address first",
             "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone.",
-            "variablePricePaymentSuccess": "Payment method registered successfully for future use."
+            "variablePricePaymentSuccess": "Payment method registered successfully for future use.",
+            "notEnoughLiquidityForAddons": "You need a positive VyHub Balance or enabled Auto-Charge to activate Add-ons."
         },
         "purchaseStatus": {
             "open": "Open",
