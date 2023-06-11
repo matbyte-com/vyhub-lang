@@ -258,7 +258,9 @@
         "addCmsPage": "Seite hinzufügen",
         "editCmsPage": "Seite bearbeiten",
         "deleteCmsPage": "Seite löschen",
-        "contentSanitizationWarning": "JavaScript darf nur von Admins verwendet werden. Sonst wird dieses entfernt."
+        "contentSanitizationWarning": "JavaScript darf nur von Admins verwendet werden. Sonst wird dieses entfernt.",
+        "rawHtml": "Reines HTML",
+        "uploadFile": "Datei hochladen"
     },
     "_gateway": {
         "labels": {
@@ -379,7 +381,9 @@
             "discordApplicationIdNeeded": "Discord-Anwendung erstellen.",
             "guildIdDocs": "Gilden-ID finden.",
             "details": "Serverdetails",
-            "setup": "Server Aufsetzen"
+            "setup": "Server Aufsetzen",
+            "queryPortDescription": "SSH Query Port des TS3-Servers. Der Standardport ist 10022.",
+            "sshQueryPort": "SSH Query Port"
         },
         "type": {
             "GMOD": "Garry's Mod",
@@ -802,7 +806,12 @@
         "teamspeak_general_login_error": "Allgemeiner Teamspeak-Bot-Fehler.",
         "applied_packet_edit_status": "Status des angewendeten Pakets {id} auf {status} geändert.",
         "labels": {
-            "level": "Level"
+            "level": "Level",
+            "downloadOldLogs": "Alte Logs herunterladen"
+        },
+        "messages": {
+            "limitReached": "Maximale Loganzahl erreicht. Einige ältere Logs werden möglicherweise nicht angezeigt.",
+            "limitReachedFilter": "Maximale Anzahl an Loggs erreicht. Einige ältere Logs werden möglicherweise nicht angezeigt. Verwende einen kleineren Zeitbereich oder einen spezifischeren Filter."
         }
     },
     "port": "Port",
@@ -1011,7 +1020,9 @@
         "mappings": {
             "name": "Name der Gruppe/Rolle/Rang auf dem Server"
         },
-        "isTeam": "Ist Team"
+        "isTeam": "Ist Team",
+        "maxBanLengthInDays": "Maximale Ban Länge (in Tagen)",
+        "maxBanLengthInDaysDescription": "Für unbegrenzte Bans leer lassen"
     },
     "_properties": {
         "ban_show": "Erlaubt Nutzer Bans in bestimmten Serverbundle anzuschauen",
