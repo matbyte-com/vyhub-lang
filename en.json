@@ -917,7 +917,9 @@
             "DISCORD": {
                 "createApp": "Create a Discord application and enable Discord authorization.",
                 "readInstructions": "Read and follow the further instructions in the docs.",
-                "addBot": "Add the Bot to your Discord server. Click reload if the button is not working."
+                "addBot": "Add the Bot to your Discord server. Click reload if the button is not working.",
+                "restartBot": "[Optional] You are experiencing issues like the bot has not been started? Please check the logs for helpful error-messages. You can restart the bot manually here.",
+                "restart": "Restart"
             },
             "TEAMSPEAK3": {
                 "headline": "The TS3 bot should already be connected to your Teamspeak server.",
