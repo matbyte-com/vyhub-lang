@@ -1374,5 +1374,6 @@
     "global": "Global",
     "rawHtml": "Raw HTML",
     "required": "Required",
-    "time": "Time"
+    "time": "Time",
+    "show": "Show"
 }
