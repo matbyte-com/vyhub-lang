@@ -354,7 +354,8 @@
             "editedLink": "Navigation link edited.",
             "cmsAdded": "Html page added.",
             "cmsEdited": "Html page edited.",
-            "cmsDeleted": "Html page deleted."
+            "cmsDeleted": "Html page deleted.",
+            "invalidFileType": "Invalid file type."
         },
         "_location": {
             "header": "Header",
