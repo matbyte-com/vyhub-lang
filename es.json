@@ -71,7 +71,6 @@
         }
     },
     "_theme": {
-        "showInformationFab": "Mostrar fabulosa información",
         "primaryColor": "Color primario",
         "successColor": "Color de éxito",
         "errorColor": "Color de error",
