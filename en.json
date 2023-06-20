@@ -99,8 +99,6 @@
         }
     },
     "_theme": {
-        "showInformationFab": "Show information fab",
-        "showInformationFabDescription": "Information fab at bottom right",
         "headerColor": "Header and Footer Color",
         "primaryColor": "Primary Color",
         "secondaryColor": "Secondary Color",
@@ -159,6 +157,8 @@
         "language": "Language",
         "languageNewDescriptionText": "Help us translate to your language",
         "addServerTooltip": "Add a serverbundle first",
+        "showFirstSteps": "Enable tutorial (first-steps)",
+        "showFirstStepsDescription": "First steps tutorial in bottom right. (Admins only)",
         "labels": {
             "title": "Settings",
             "groupSettings": "Groupsettings",
@@ -1098,6 +1098,23 @@
         "messages": {
             "messageDeleted": "Message successfully deleted."
         }
+    },
+    "_firstSteps": {
+        "firstSteps": "First Steps",
+        "welcome": "Welcome",
+        "connectGameserver": "Connect your gameserver",
+        "login": "Login with VyHub Central to become admin",
+        "setCommunityName": "Set your community name",
+        "setLanguageAndFeatures": "Set language and features",
+        "createBundle": "Create a serverbundle",
+        "createServer": "Create your server",
+        "syncGroups": "Synchronize groups between VyHub and your server",
+        "createGroup": "Create a group with a group Mapping",
+        "setupShop": "Set up your shop",
+        "createCategory": "Create a packet-category",
+        "createReward": "Create a reward",
+        "createPacket": "Create a packet",
+        "addPmGateway": "Set up your payment methods"
     },
     "update": "Update",
     "recurring": "Recurring",
