@@ -75,30 +75,18 @@
     },
     "_log": {
         "type": {
-            "shop": "Магазин",
             "design": "Дизайн",
-            "discord": "Discord",
             "teamspeak3": "Teamspeak 3"
         },
-        "ban_edit_reason": "Змінено причину на {reason}.",
         "purchase_finished": "Покупку завершено. покупка_id: {purchase_id}.",
-        "purchase_unrevoke": "Покупка не відкликана. покупка_id: {purchase_id}.",
         "group_edit": "Групу {groupName} {groupId} відредаговано.",
-        "refund_finished": "Відшкодування завершено. дебет_id: {debit_id}, покупка_id: {purchase_id}.",
         "payment_credits_success": "Оплата кредиту успішна. дія: {action}, користувач_id: {user_id}, дебет_id: {debit_id}, кредити: {credits}.",
-        "purchase_cancelled": "Покупку скасовано. покупка_id: {purchase_id}.",
         "ban_edit_length": "Дату завершення змінено на {endDate}.",
-        "ban_new": "Додано бан у пакет {bundleName} до {endDate}. Причина: {reason}.",
         "news_add": "Додано новину {newsSubject} {newsId}.",
-        "requirement_set_add": "Додано набір вимог {requirementSetName} {requirementSetId}.",
         "payment_refund": "Повернуто платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}.",
-        "payment_event": "Обробка платіжної операції. шлюз: {gateway}, повідомлення: {message}, деталі: {detail}.",
         "object_delete": "Видалено {classname} з id {id}.",
-        "discord_no_permission": "Помилка дозволу Discord. Будь ласка, спробуйте видалити та перезавантажити бота на свій сервер.",
         "user_admin_status_removed": "Адмін статус користувача {username} - {user_id} відредаговано: адмін = {status}.",
-        "reward_membership_lower_level": "Проігноровано винагороду УЧАСНИКА {applied_reward_id}, оскільки рівень користувача {user_id} ({user_level}) вищий за рівень групи {group_id} ({group_level}).",
-        "discord_no_permission_for_server": "Discord-бот не може отримати гільдію {guild_id}.",
-        "applied_packet_edit_status": "Відредаговано статус застосованого пакета {id} на {status}."
+        "discord_no_permission_for_server": "Discord-бот не може отримати гільдію {guild_id}."
     },
     "_invoice": {
         "invoice": "Рахунок",

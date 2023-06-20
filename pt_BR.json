@@ -107,7 +107,6 @@
         "messages": {
             "editedTheme": "Tema editado."
         },
-        "showInformationFab": "Mostrar informação fab",
         "secondaryColor": "Cor Secundária"
     },
     "_settings": {
@@ -364,30 +363,18 @@
     },
     "_log": {
         "type": {
-            "group": "Grupo",
             "warning": "Aviso",
-            "system": "Sistema",
             "navigation": "Navegação"
         },
-        "object_create": "Criado {classname} com identificação {id}: {params}",
         "user_imported_from": "Usuários importados do {source}.",
-        "group_add": "Grupo adicionado {groupName} {groupld}.",
         "payment_refund": "Devolvido {gateway} Pagamento. Ação: {action}, Mensagem: {message}, Código: {status_code}.",
-        "payment_credits_fail": "Pagamento de crédito falhou. Ação: {action}, user_id: {user_id}, debit_id: {debit_id}, créditos: {credits}, razão: {reason}.",
         "purchase_finished": "Compra finalizada. purchase_id: {purchase_id}.",
-        "payment_credits_success": "Pagamento de crédito bem sucedido. Ação: {action}, user_id: {user_id}, debit_id: {debit_id}, credits: {credits}.",
         "ban_deleted": "Banimento deletado {banId}.",
-        "requirement_set_add": "Conjunto de requisitos adicionado {requirementSetName} {requirementSetId}.",
         "ban_edit_length": "Data do término alterada para {endDate}.",
-        "news_add": "Atualizações adicionadas {newsSubject} {newsId}.",
         "warning_config_edit": "Configuração de aviso editada.",
-        "reward_membership_lower_level": "Recompensa da associação ignorada {applied_reward_id} porque usuário {user_id} nível ({user_level}) é maior do que o nível do grupo {group_id} ({group_level}).",
         "discord_no_permission": "Permissão de Discord com erro. Por favor tente remover e adicionar o bot ao seu servidor novamente.",
-        "discord_wrong_bot_token": "Bot do Discord não pode fazer login {símbolo do bot errado}",
         "purchase_unrevoke": "Compra não revogada. purchase_id: {purchase_id}.",
-        "config_edit": "Configuração geral ediatada.",
-        "reward_process_failed": "Não foi possível executar a recompensa aplicada {reward_type} {applied_reawrd_id}: {error}.",
-        "teamspeak_connection_refused": "O bot do Teamspeak não consegue se conectar. IP ou Porta errada."
+        "reward_process_failed": "Não foi possível executar a recompensa aplicada {reward_type} {applied_reawrd_id}: {error}."
     },
     "log": "Registro",
     "apiKey": "Chave API",

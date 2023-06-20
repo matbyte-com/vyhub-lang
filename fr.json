@@ -35,7 +35,6 @@
         "messages": {
             "editedTheme": "Thème édité."
         },
-        "showInformationFabDescription": "Info fab en bas à droite",
         "backgroundImageURL": "URL de l'image d'arrière-plan",
         "logoURL": "URL du logo",
         "faviconURL": "URL du favicon",
@@ -367,30 +366,18 @@
     },
     "_log": {
         "type": {
-            "packet": "Paquet",
             "design": "Style",
-            "ban": "Bannissement",
             "forum": "Forum"
         },
-        "applied_packet_extended": "Paquet appliqué étendu {applied_packet_id}.",
         "user_sync_failed": "Échec de la synchronisation de l'utilisateur {user_id}.",
-        "payment_error": "Erreur de paiement. passerelle : {gateway}, message : {message}, action : {action}, détails : {detail}, code : {status_code}.",
         "purchase_revoke": "Achat annulé. id_achat : {id_achat}.",
-        "nav_edit": "Liens de navigation modifiés.",
         "ban_deleted": "Bannissement {banId} supprimé.",
-        "ban_edit_length": "Date de fin changée en {endDate}.",
         "news_add": "Actualités ajoutées {newsSubject} {newsId}.",
-        "membership_deleted": "Adhésion supprimée : Groupe : {groupName}, Utilisateur : {username}.",
         "legal_edit": "Légal édité.",
-        "user_token_revoke": "Jeton révoqué {token_id}.",
         "reward_membership_lower_level": "Récompense d'adhésion {applied_reward_id} ignorée car le niveau de l'utilisateur {user_id} ({user_level}) est supérieur au niveau du groupe {group_id} ({group_level}).",
-        "discord_no_permission_to_target_group": "Le bot Discord ne peut pas cibler le groupe.",
         "refund_finished": "Remboursement terminé. débit _id : {debit _id}, achat _id : {purchase _id}.",
-        "applied_packet_not_extended": "Échec de l'extension du paquet appliqué {applied_packet_id} : {reason}.",
         "ban_new": "Ajout du bannissement dans le groupe de serveur {bundleName} jusqu'au {endDate}. Raison : {raison}.",
-        "membership_edit": "Adhésion modifiée : Groupe : {groupName}, Utilisateur : {username}, Ancien : {oldBegin} {oldEnd}, Nouveau : {newBegin} {newEnd}.",
-        "users_linked": "Utilisateur lié {link_user_id} avec {base_user_id}. Crédits {credits} transférés lors de la fusion des comptes de crédit.",
-        "applied_packet_edit_status": "Statut modifié du paquet appliqué {id} à {status}."
+        "users_linked": "Utilisateur lié {link_user_id} avec {base_user_id}. Crédits {credits} transférés lors de la fusion des comptes de crédit."
     },
     "_address": {
         "labels": {

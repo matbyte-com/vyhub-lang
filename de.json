@@ -708,30 +708,18 @@
     },
     "_log": {
         "type": {
-            "group": "Gruppe",
             "shop": "Shop",
-            "design": "Design",
             "forum": "Forum"
         },
-        "ban_edit_length": "Enddatum in {endDate} geändert.",
         "news_edit": "Nachricht bearbeitet {newsSubject} {newsId}.",
-        "discord_wrong_bot_token": "Discord-Bot kann sich nicht anmelden (Bot-Token falsch)",
         "group_team_member_edited": "Gruppe ist Teammitglied bearbeitet.",
-        "payment_process": "Zahlungsfortschritt. gateway: {gateway}, message: {message}, action: {action}, detail: {detail}.",
         "purchase_status_changed": "Kaufstatus geändert. purchase_id: {purchase_id}, status: {old_status} -> {new_status}.",
-        "edit": "{name} bearbeitet: {key} = {value}",
         "applied_packet_extended": "Angewandtes Paket wurde mit id {applied_packet_id} wurde verlängert.",
-        "payment_initiate": "{gateway} Zahlung initialisiert. action: {action}, message: {message}, Code: {status_code}.",
         "user_sync_failed": "Fehler beim synchronisieren von Nutzer {user_id}.",
-        "purchase_unrevoke": "Widerruf von Kauf mit id {purchase_id} rückgängig gemacht.",
         "cms_edit": "CMS HTML Seite bearbeitet.",
-        "cms_deleted": "CMS HTML Seite gelöscht.",
         "ban_edit_reason": "Grund geändert zu {reason}.",
-        "warning_add": "Verwarnung Hinzugefügt für: {username}.",
         "ban_protest": "Bann durch Benutzer protestiert",
-        "membership_ended": "Mitgliedschaft Beendet: Gruppe: {groupName}, Benutzer: {username}.",
         "reward_membership_lower_level": "MEMBERSHIP-Belohnung ignoriert {applied_reward_id} weil Benutzer {user_id} Level ({user_level}) ist höher als das Gruppenniveau {group_id} ({group_level}).",
-        "teamspeak_connection_refused": "Teamspeak-Bot kann keine Verbindung herstellen. IP oder Port falsch.",
         "labels": {
             "level": "Level",
             "downloadOldLogs": "Alte Logs herunterladen"
