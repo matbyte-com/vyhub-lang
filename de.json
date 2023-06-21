@@ -579,7 +579,7 @@
             "refunded": "Erstattet",
             "amountNet": "Nettobetrag",
             "amountTotal": "Gesamtbetrag",
-            "monthlyRevenue": "Monatl. Einnahmen",
+            "monthlyRevenue": "Mon. Einnahmen",
             "creditsSpent": "Ausgegebene Credits",
             "cancelSubscription": "Abonnement kündigen",
             "confirmPurchases": "Käufe bestätigen",
@@ -599,8 +599,8 @@
             "decline": "Ablehnen",
             "revenueByCategory": "Umsatz nach Kategorie",
             "numberOfPurchases": "Anzahl von Käufen",
-            "activeSubscriptions": "Aktive Abonnements",
-            "averagePurchaseAmount": "Durchschnittlicher Kauf",
+            "activeSubscriptions": "Aktive Abos",
+            "averagePurchaseAmount": "Mittlerer Betrag",
             "range": "Bereich",
             "notAffectedByRangeSelector": "Statistik wird von der Bereichsauswahl nicht beeinflusst",
             "allTime": "Immer",
@@ -713,13 +713,8 @@
         "userLinkDescription": "Das Verknüpfen der Nutzer geschieht auf magische Art und Weise. Aber pass auf, dieser Zauber kann nicht rückgängig gemacht werden!"
     },
     "_log": {
-        "type": {
-            "forum": "Forum"
-        },
         "group_team_member_edited": "Gruppe ist Teammitglied bearbeitet.",
-        "applied_packet_extended": "Angewandtes Paket wurde mit id {applied_packet_id} wurde verlängert.",
         "cms_edit": "CMS HTML Seite bearbeitet.",
-        "ban_protest": "Bann durch Benutzer protestiert",
         "labels": {
             "level": "Level",
             "downloadOldLogs": "Alte Logs herunterladen"
