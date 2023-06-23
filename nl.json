@@ -403,18 +403,12 @@
     },
     "_log": {
         "type": {
-            "shop": "Winkel",
             "server": "Server"
         },
-        "payment_event": "Betalingsgebeurtenis afhandelen. gateway: {gateway}, bericht: {message}, detail: {detail}.",
         "ban_new_full": "Gebruiker {creatorId} heeft ban {banId} toegevoegd voor gebruiker {userId} in bundel {bundleId} van {createdOn} tot {endDate}. Reden: {reden}.",
-        "purchase_refund": "Aankoop terugbetaald. purchase_id: {purchase_id}, debit_id: {debit_id}, refund_debit_id: {refund_debit_id}.",
         "cms_edit": "Cms html-pagina bewerkt",
-        "ban_edit_length": "Changed end-date naar {endDate}.",
         "group_deleted": "Groep {groupName} {groupId} verwijderd.",
-        "news_deleted": "Verwijderd nieuws bericht {newsSubject} {newsId}.",
-        "user_log_entry_add": "{message}",
-        "group_team_member_edited": "Groepen is teamlid bewerkt."
+        "user_log_entry_add": "{message}"
     },
     "_address": {
         "labels": {

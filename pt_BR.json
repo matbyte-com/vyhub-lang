@@ -363,18 +363,12 @@
     },
     "_log": {
         "type": {
-            "warning": "Aviso",
             "navigation": "Navegação"
         },
-        "user_imported_from": "Usuários importados do {source}.",
         "payment_refund": "Devolvido {gateway} Pagamento. Ação: {action}, Mensagem: {message}, Código: {status_code}.",
-        "purchase_finished": "Compra finalizada. purchase_id: {purchase_id}.",
         "ban_deleted": "Banimento deletado {banId}.",
-        "ban_edit_length": "Data do término alterada para {endDate}.",
         "warning_config_edit": "Configuração de aviso editada.",
-        "discord_no_permission": "Permissão de Discord com erro. Por favor tente remover e adicionar o bot ao seu servidor novamente.",
-        "purchase_unrevoke": "Compra não revogada. purchase_id: {purchase_id}.",
-        "reward_process_failed": "Não foi possível executar a recompensa aplicada {reward_type} {applied_reawrd_id}: {error}."
+        "purchase_unrevoke": "Compra não revogada. purchase_id: {purchase_id}."
     },
     "log": "Registro",
     "apiKey": "Chave API",

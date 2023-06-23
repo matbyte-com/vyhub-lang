@@ -75,18 +75,12 @@
     },
     "_log": {
         "type": {
-            "design": "Дизайн",
             "teamspeak3": "Teamspeak 3"
         },
-        "purchase_finished": "Покупку завершено. покупка_id: {purchase_id}.",
         "group_edit": "Групу {groupName} {groupId} відредаговано.",
-        "payment_credits_success": "Оплата кредиту успішна. дія: {action}, користувач_id: {user_id}, дебет_id: {debit_id}, кредити: {credits}.",
         "ban_edit_length": "Дату завершення змінено на {endDate}.",
-        "news_add": "Додано новину {newsSubject} {newsId}.",
         "payment_refund": "Повернуто платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}.",
-        "object_delete": "Видалено {classname} з id {id}.",
-        "user_admin_status_removed": "Адмін статус користувача {username} - {user_id} відредаговано: адмін = {status}.",
-        "discord_no_permission_for_server": "Discord-бот не може отримати гільдію {guild_id}."
+        "user_admin_status_removed": "Адмін статус користувача {username} - {user_id} відредаговано: адмін = {status}."
     },
     "_invoice": {
         "invoice": "Рахунок",

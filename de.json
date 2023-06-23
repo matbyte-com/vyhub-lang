@@ -713,7 +713,6 @@
         "userLinkDescription": "Das Verknüpfen der Nutzer geschieht auf magische Art und Weise. Aber pass auf, dieser Zauber kann nicht rückgängig gemacht werden!"
     },
     "_log": {
-        "group_team_member_edited": "Gruppe ist Teammitglied bearbeitet.",
         "cms_edit": "CMS HTML Seite bearbeitet.",
         "labels": {
             "level": "Level",

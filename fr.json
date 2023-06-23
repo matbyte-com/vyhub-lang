@@ -366,18 +366,12 @@
     },
     "_log": {
         "type": {
-            "design": "Style",
             "forum": "Forum"
         },
-        "user_sync_failed": "Échec de la synchronisation de l'utilisateur {user_id}.",
         "purchase_revoke": "Achat annulé. id_achat : {id_achat}.",
-        "ban_deleted": "Bannissement {banId} supprimé.",
         "news_add": "Actualités ajoutées {newsSubject} {newsId}.",
-        "legal_edit": "Légal édité.",
         "reward_membership_lower_level": "Récompense d'adhésion {applied_reward_id} ignorée car le niveau de l'utilisateur {user_id} ({user_level}) est supérieur au niveau du groupe {group_id} ({group_level}).",
-        "refund_finished": "Remboursement terminé. débit _id : {debit _id}, achat _id : {purchase _id}.",
-        "ban_new": "Ajout du bannissement dans le groupe de serveur {bundleName} jusqu'au {endDate}. Raison : {raison}.",
-        "users_linked": "Utilisateur lié {link_user_id} avec {base_user_id}. Crédits {credits} transférés lors de la fusion des comptes de crédit."
+        "ban_new": "Ajout du bannissement dans le groupe de serveur {bundleName} jusqu'au {endDate}. Raison : {raison}."
     },
     "_address": {
         "labels": {
