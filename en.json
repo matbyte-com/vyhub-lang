@@ -39,6 +39,8 @@
             "title": "{usr}",
             "linkedAccounts": "Linked Accounts",
             "linkNewAccount": "link new Account",
+            "unlinkAccount": "Unlink Account",
+            "unlinkAccountWarning": "Deleting a user link will unlink the accounts. Admin-Status, Bans, Warnings, Purchases, Applied-Packets and Credits are affected by this and might not be handled the way you expect it. Check them afterwards to make sure everything is alright.",
             "activeProperties": "Active Properties",
             "groupMemberships": "Group Memberships",
             "bansAndWarnings": "Bans and Warnings",
@@ -1116,6 +1118,12 @@
         "createReward": "Create a reward",
         "createPacket": "Create a packet",
         "addPmGateway": "Set up your payment methods"
+    },
+    "_messages": {
+        "addSuccess": "Object successfully added.",
+        "createSuccess": "Object successfully created.",
+        "deleteSuccess": "Object successfully deleted.",
+        "editSuccess": "Object successfully edited."
     },
     "update": "Update",
     "recurring": "Recurring",
