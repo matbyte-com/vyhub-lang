@@ -74,13 +74,8 @@
         "secondaryColor": "Додатковий колір"
     },
     "_log": {
-        "type": {
-            "teamspeak3": "Teamspeak 3"
-        },
         "group_edit": "Групу {groupName} {groupId} відредаговано.",
-        "ban_edit_length": "Дату завершення змінено на {endDate}.",
-        "payment_refund": "Повернуто платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}.",
-        "user_admin_status_removed": "Адмін статус користувача {username} - {user_id} відредаговано: адмін = {status}."
+        "payment_refund": "Повернуто платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}."
     },
     "_invoice": {
         "invoice": "Рахунок",

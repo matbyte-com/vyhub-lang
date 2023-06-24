@@ -402,13 +402,8 @@
         "showLegalReminder": "Stel juridische informatie in de instellingen in!"
     },
     "_log": {
-        "type": {
-            "server": "Server"
-        },
         "ban_new_full": "Gebruiker {creatorId} heeft ban {banId} toegevoegd voor gebruiker {userId} in bundel {bundleId} van {createdOn} tot {endDate}. Reden: {reden}.",
-        "cms_edit": "Cms html-pagina bewerkt",
-        "group_deleted": "Groep {groupName} {groupId} verwijderd.",
-        "user_log_entry_add": "{message}"
+        "group_deleted": "Groep {groupName} {groupId} verwijderd."
     },
     "_address": {
         "labels": {

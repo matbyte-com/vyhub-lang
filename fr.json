@@ -365,13 +365,8 @@
         "reqProp": "Propriété requise"
     },
     "_log": {
-        "type": {
-            "forum": "Forum"
-        },
         "purchase_revoke": "Achat annulé. id_achat : {id_achat}.",
-        "news_add": "Actualités ajoutées {newsSubject} {newsId}.",
-        "reward_membership_lower_level": "Récompense d'adhésion {applied_reward_id} ignorée car le niveau de l'utilisateur {user_id} ({user_level}) est supérieur au niveau du groupe {group_id} ({group_level}).",
-        "ban_new": "Ajout du bannissement dans le groupe de serveur {bundleName} jusqu'au {endDate}. Raison : {raison}."
+        "reward_membership_lower_level": "Récompense d'adhésion {applied_reward_id} ignorée car le niveau de l'utilisateur {user_id} ({user_level}) est supérieur au niveau du groupe {group_id} ({group_level})."
     },
     "_address": {
         "labels": {

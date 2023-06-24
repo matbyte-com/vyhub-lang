@@ -362,13 +362,8 @@
         "contentSanitizationWarning": "O uso do JavaScript somente é autorizado ser utilizado por Administradores. Caso contrário ele será desinfetado."
     },
     "_log": {
-        "type": {
-            "navigation": "Navegação"
-        },
         "payment_refund": "Devolvido {gateway} Pagamento. Ação: {action}, Mensagem: {message}, Código: {status_code}.",
-        "ban_deleted": "Banimento deletado {banId}.",
-        "warning_config_edit": "Configuração de aviso editada.",
-        "purchase_unrevoke": "Compra não revogada. purchase_id: {purchase_id}."
+        "warning_config_edit": "Configuração de aviso editada."
     },
     "log": "Registro",
     "apiKey": "Chave API",
