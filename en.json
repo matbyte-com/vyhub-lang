@@ -161,6 +161,7 @@
         "addServerTooltip": "Add a serverbundle first",
         "showFirstSteps": "Enable tutorial (first-steps)",
         "showFirstStepsDescription": "First steps tutorial in bottom right. (Admins only)",
+        "googleAnalyticsTagDescription": "[Optional] for your Google Analytics use",
         "labels": {
             "title": "Settings",
             "groupSettings": "Groupsettings",
