@@ -834,7 +834,7 @@
                 "botNotConnected": "The bot is not connected? Enable the display of query bots first. Every time you change the server settings, the bot tries to reconnect. You may find error messages in the log."
             }
         },
-        "deleteBundleConfirmationText": "This will delete objects referenced to this bundle (e.g. rewards)"
+        "deleteServerbundleConfirmationText": "Deleting a serverbundle will also delete all depending objects (rewards, servers, bans, warnings, ...). This action cannot be undone."
     },
     "_server_exception": {
         "begin_smaller_end": "Begin Date has to be after End Date"
