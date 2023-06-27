@@ -389,7 +389,6 @@
             "DISCORD": "Discord",
             "MINECRAFT": "Minecraft"
         },
-        "deleteBundleConfirmationText": "Dadurch werden Objekte gelöscht, die auf dieses Serverbundle verweisen (z. B. Belohnungen)",
         "instructions": {
             "DISCORD": {
                 "addBot": "Füge den Bot zu deinem Discord-Server hinzu. Klicken Sie auf Neu laden, wenn die Schaltfläche nicht funktioniert.",

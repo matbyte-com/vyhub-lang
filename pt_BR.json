@@ -362,7 +362,6 @@
         "contentSanitizationWarning": "O uso do JavaScript somente é autorizado ser utilizado por Administradores. Caso contrário ele será desinfetado."
     },
     "_log": {
-        "payment_refund": "Devolvido {gateway} Pagamento. Ação: {action}, Mensagem: {message}, Código: {status_code}.",
         "warning_config_edit": "Configuração de aviso editada."
     },
     "log": "Registro",
@@ -1031,8 +1030,7 @@
                 "botNotConnected": "O bot não está conectado? Ative a exibição de bots de consulta primeiro. Toda vez que você altera as configurações do servidor, o bot tenta se reconectar. Você pode encontrar mensagens de erro no log.",
                 "headline": "O bot TS3 já deve estar conectado ao seu servidor Teamspeak."
             }
-        },
-        "deleteBundleConfirmationText": "Isso excluirá os objetos referenciados a este pacote (por exemplo, recompensas)"
+        }
     },
     "_server_exception": {
         "begin_smaller_end": "A data de início deve ser posterior à data de término"

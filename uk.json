@@ -74,7 +74,6 @@
         "secondaryColor": "Додатковий колір"
     },
     "_log": {
-        "group_edit": "Групу {groupName} {groupId} відредаговано.",
         "payment_refund": "Повернуто платіж {gateway}. дія: {action}, повідомлення: {message}, Код: {status_code}."
     },
     "_invoice": {
@@ -865,8 +864,7 @@
             "DISCORD": "Discord",
             "MINECRAFT": "Minecraft",
             "GMOD": "Garry's Mod"
-        },
-        "deleteBundleConfirmationText": "Це призведе до видалення об'єктів, пов'язаних з цим пакетом (наприклад, винагороди)"
+        }
     },
     "_server_exception": {
         "begin_smaller_end": "Дата початку має бути після дати закінчення"

@@ -402,7 +402,6 @@
         "showLegalReminder": "Stel juridische informatie in de instellingen in!"
     },
     "_log": {
-        "ban_new_full": "Gebruiker {creatorId} heeft ban {banId} toegevoegd voor gebruiker {userId} in bundel {bundleId} van {createdOn} tot {endDate}. Reden: {reden}.",
         "group_deleted": "Groep {groupName} {groupId} verwijderd."
     },
     "_address": {
@@ -1077,8 +1076,7 @@
             "DISCORD": "Discord",
             "GMOD": "Garry's Mod",
             "MINECRAFT": "Minecraft"
-        },
-        "deleteBundleConfirmationText": "Hiermee worden objecten verwijderd die naar deze bundel verwijzen (bijv. beloningen)"
+        }
     },
     "_api": {
         "labels": {
