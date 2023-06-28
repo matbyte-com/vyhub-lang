@@ -89,9 +89,7 @@
     "_home": {
         "messages": {
             "messageEmpty": "Veuillez entrer un message",
-            "editSuccess": "Actualités éditées avec succès",
-            "deleteSuccess": "Actualités supprimées avec succès",
-            "addSuccess": "Actualités ajoutées avec succès"
+            "deleteSuccess": "Actualités supprimées avec succès"
         },
         "newsOfTheDay": "Actualités du jour",
         "news": "Actualités",
@@ -238,9 +236,7 @@
             "apiKeys": "Clés API Offre groupée de serveurs"
         },
         "messages": {
-            "createSuccess": "Le groupe de serveurs a bien été créé.",
-            "deleteSuccess": "Le groupe de serveurs a bien été supprimé.",
-            "editSuccess": "Le groupe de serveurs a été modifié avec succès."
+            "deleteSuccess": "Le groupe de serveurs a bien été supprimé."
         }
     },
     "_login": {
@@ -364,9 +360,6 @@
         "contentSanitizationWarning": "JavaScript ne peut être utilisé que par les administrateurs. Sinon, il va être désinfecté.",
         "reqProp": "Propriété requise"
     },
-    "_log": {
-        "reward_membership_lower_level": "Récompense d'adhésion {applied_reward_id} ignorée car le niveau de l'utilisateur {user_id} ({user_level}) est supérieur au niveau du groupe {group_id} ({group_level})."
-    },
     "_address": {
         "labels": {
             "addition": "Addition",
@@ -380,9 +373,7 @@
             "selectAddress": "Sélectionnez l'adresse"
         },
         "messages": {
-            "changeSuccess": "L'adresse de l'entreprise a été modifiée avec succès.",
             "addSuccess": "Nouvelle adresse ajoutée avec succès.",
-            "selectedSuccess": "Adresse sélectionnée avec succès.",
             "noAddressesYet": "Vous n'avez pas encore d'adresse."
         }
     },
@@ -431,9 +422,7 @@
         },
         "messages": {
             "sortOnlyWithCategory": "Les paquets ne peuvent être triés que si une catégorie est sélectionnée.",
-            "addSuccess": "Paquet créé avec succès.",
             "editSuccess": "Paquet édité avec succès.",
-            "deleteSuccess": "Paquet supprimé avec succès.",
             "deleteWarning": "Attention ! Supprimer un paquet, supprime également tous les paquets liés déjà appliqués, les récompenses, les items achetés. Ne voulez-vous pas plutôt désactiver le paquet ?",
             "customPricePossible": "Le prix de ce paquet peut être personnalisé."
         },
@@ -450,9 +439,7 @@
             "imageDetail": "Une URL HTTPS vers l'image de catégorie."
         },
         "messages": {
-            "createSuccess": "Catégorie de paquet créée avec succès.",
-            "editSuccess": "La catégorie de paquet a été modifiée avec succès.",
-            "deleteSuccess": "Catégorie de paquets supprimée avec succès."
+            "editSuccess": "La catégorie de paquet a été modifiée avec succès."
         }
     },
     "_reward": {
@@ -486,9 +473,7 @@
             "FAILED": "raté"
         },
         "messages": {
-            "createSuccess": "Récompense créée avec succès.",
             "editSuccess": "Récompense modifiée avec succès.",
-            "deleteSuccess": "Récompense supprimée avec succès.",
             "createAppliedRewardSuccess": "Récompense appliquée ajoutée avec succès",
             "deleteAppliedRewardSuccess": "Récompense appliquée supprimée avec succès"
         }
@@ -538,8 +523,7 @@
             "declinePurchaseSuccess": "Achat annulé avec succès",
             "confirmPurchaseSuccess": "Achat approuvé avec succès",
             "cancelSubscriptionConfirm": "Êtes-vous sûr de vouloir annuler cet abonnement ?",
-            "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet achat ? Cette action ne peut pas être annulée. Les paquets liés déjà appliqués ne seront pas supprimés.",
-            "deleteSuccess": "Achat supprimé avec succès."
+            "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet achat ? Cette action ne peut pas être annulée. Les paquets liés déjà appliqués ne seront pas supprimés."
         }
     },
     "_requirement": {
@@ -603,9 +587,7 @@
             "clientCertDescription": "Un certificat client et une clé sont utilisés comme méthode d'authentification pour l'API paysafecard. Contactez le support paysafecard pour en obtenir un."
         },
         "messages": {
-            "createSuccess": "Passerelle de paiement créée avec succès.",
             "deleteSuccess": "Passerelle de paiement supprimée avec succès.",
-            "editSuccess": "Passerelle de paiement modifiée avec succès.",
             "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée.",
             "deleteWarning": "Attention ! Supprimer une passerelle de paiement provoque la suppression de tous les achats et paiements utilisés par la passerelle de paiement. Cette action ne peut pas être annulée. Ne voulez-vous pas plutôt la désactiver ?"
         }
@@ -616,7 +598,6 @@
             "create": "Créer une règle fiscale"
         },
         "messages": {
-            "createSuccess": "Règle fiscale créée avec succès.",
             "deleteSuccess": "Règle fiscale supprimée avec succès.",
             "allCountriesDetail": "Laissez vide pour cibler tous les pays.",
             "infoDetail": "Seront affichés lors du paiement et sur la facture."
@@ -631,9 +612,7 @@
             "maxUsagesPerUser": "Utilisation maximale par utilisateur"
         },
         "messages": {
-            "deleteSuccess": "Remise supprimée avec succès.",
-            "editSuccess": "Remise éditée avec succès.",
-            "createSuccess": "Remise créée avec succès."
+            "editSuccess": "Remise éditée avec succès."
         }
     },
     "_userLogEntry": {
@@ -732,9 +711,7 @@
             "details": "Détails du serveur"
         },
         "messages": {
-            "createSuccess": "Serveur créé avec succès.",
-            "editSuccess": "Serveur modifié avec succès.",
-            "deleteSuccess": "Serveur supprimé avec succès."
+            "editSuccess": "Serveur modifié avec succès."
         },
         "type": {
             "DISCORD": "Discord",
@@ -994,9 +971,7 @@
         "add": "Ajouter une question",
         "editQuestionDialog": "Modifier une question",
         "messages": {
-            "addSuccess": "Question FAQ créée.",
             "editSuccess": "Question FAQ modifiée.",
-            "deleteSuccess": "Question FAQ supprimée.",
             "contentEmpty": "Veuillez saisir du contenu"
         },
         "addQuestionDialog": "Ajouter une question",
@@ -1007,9 +982,7 @@
     "_advert": {
         "add": "Ajouter une annonce",
         "messages": {
-            "deleteSuccess": "Annonce supprimée.",
-            "editSuccess": "Annonce modifiée.",
-            "addSuccess": "Annonce créée."
+            "editSuccess": "Annonce modifiée."
         },
         "title": "Annonces",
         "formTitle": "Titre",
@@ -1111,7 +1084,6 @@
         "messages": {
             "pinned": "Fil épinglé.",
             "addedPost": "Post créé.",
-            "editSuccess": "Edité avec succès.",
             "deleteSuccess": "Supprimé avec succès.",
             "unpinned": "Fil désépinglé.",
             "topicCreated": "Sujet créé.",

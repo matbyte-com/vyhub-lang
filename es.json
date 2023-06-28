@@ -59,9 +59,7 @@
             "createApiKey": "Crear nueva clave API"
         },
         "messages": {
-            "editSuccess": "Serverbundle editado con éxito.",
-            "deleteSuccess": "Serverbundle eliminado con éxito.",
-            "createSuccess": "Serverbundle creado con éxito."
+            "deleteSuccess": "Serverbundle eliminado con éxito."
         }
     },
     "_login": {

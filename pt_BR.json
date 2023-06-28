@@ -79,9 +79,7 @@
     },
     "_serverbundle": {
         "messages": {
-            "editSuccess": "Pacote do servidor alterado com sucesso.",
-            "createSuccess": "Pacote do servidor criado com sucesso.",
-            "deleteSuccess": "Pacote do servidor excluído com sucesso."
+            "createSuccess": "Pacote do servidor criado com sucesso."
         },
         "labels": {
             "apiKeys": "Chaves API do pacote do servidor",
@@ -361,9 +359,6 @@
         "deleteDefaultLink": "Não pode excluir o link padrão",
         "contentSanitizationWarning": "O uso do JavaScript somente é autorizado ser utilizado por Administradores. Caso contrário ele será desinfetado."
     },
-    "_log": {
-        "warning_config_edit": "Configuração de aviso editada."
-    },
     "log": "Registro",
     "apiKey": "Chave API",
     "cancelled": "Cancelado",
@@ -390,9 +385,7 @@
     "enabled": "Habilitado",
     "_address": {
         "messages": {
-            "selectedSuccess": "Endereço selecionado com sucesso.",
             "addSuccess": "Novo endereço adicionado com sucesso.",
-            "changeSuccess": "Endereço comercial alterado com sucesso.",
             "noAddressesYet": "Você não possui um endereço ainda."
         },
         "labels": {
@@ -447,11 +440,8 @@
         },
         "messages": {
             "sortOnlyWithCategory": "Os pacotes só podem ser classificados se uma categoria for selecionada.",
-            "deleteSuccess": "Pacote deletado com sucesso.",
             "deleteWarning": "Cuidado! Excluir um pacote também exclui todos os pacotes aplicados relacionados, recompensas aplicadas e itens de compra. Talvez desabilitar o pacote?",
-            "addSuccess": "Pacote criado com sucesso.",
-            "customPricePossible": "O preço desse pacote pode ser personalizado.",
-            "editSuccess": "Pacote editado com sucesso."
+            "customPricePossible": "O preço desse pacote pode ser personalizado."
         },
         "status": {
             "ENABLED": "Habilitado",
@@ -490,9 +480,7 @@
         },
         "messages": {
             "deleteAppliedRewardSuccess": "Recompensa aplicada excluída com sucesso",
-            "createSuccess": "Recompensa criada com sucesso.",
             "editSuccess": "Recompensa editada com sucesso.",
-            "deleteSuccess": "Recompensa excluída com sucesso.",
             "createAppliedRewardSuccess": "Recompensa aplicada adicionada com sucesso"
         }
     },
@@ -539,7 +527,6 @@
         "messages": {
             "cancelSubscriptionSuccess": "Inscrição cancelada com sucesso.",
             "refundInitSuccess": "Reembolso iniciado com sucesso.",
-            "deleteSuccess": "Compra excluída com sucesso.",
             "unrevokeSuccess": "Compra não revogada com sucesso.",
             "editAppliedPacketSuccess": "Pacote aplicado editado com sucesso.",
             "deleteAppliedPacketSuccess": "Pacote aplicado excluído com sucesso.",
@@ -555,9 +542,7 @@
     },
     "_home": {
         "messages": {
-            "addSuccess": "Atualizações adicionadas com sucesso",
             "editSuccess": "Atualizações editadas com sucesso",
-            "deleteSuccess": "Atualizações deletadas com sucesso",
             "messageEmpty": "Por favor, digite uma mensagem"
         },
         "news": "Atualizações",
@@ -586,9 +571,7 @@
         },
         "messages": {
             "deleteWarning": "Cuidado! A exclusão de um gateway de pagamento causa a exclusão de todas as compras e pagamentos em que o gateway foi usado! Esta ação não pode ser desfeita. Talvez desativá-lo em vez disso?",
-            "createSuccess": "Gateway de pagamento criado com sucesso.",
             "deleteSuccess": "Gateway de pagamento excluído com sucesso.",
-            "editSuccess": "Gateway de pagamento editado com sucesso.",
             "formAttributeChangeExplanation": "Os atributos abaixo não serão editados se nenhum valor for fornecido."
         }
     },
@@ -684,7 +667,6 @@
             "topicEdited": "Tópico editado.",
             "categoryDeleteSuccess": "Categoria excluída com sucesso.",
             "topicDeleteSuccess": "Tópico excluído com sucesso.",
-            "editSuccess": "Editado com sucesso.",
             "deleteSuccess": "Excluído com sucesso.",
             "pinned": "Tópico fixado.",
             "unpinned": "Tópico desafixado.",
@@ -753,9 +735,7 @@
     },
     "_faq": {
         "messages": {
-            "editSuccess": "Pergunta de FAQ atualizada.",
             "contentEmpty": "Por favor, insira um conteúdo",
-            "addSuccess": "Pergunta de FAQ criada.",
             "deleteSuccess": "Pergunta de FAQ excluída."
         },
         "addQuestionDialog": "Adicionar pergunta",
@@ -836,9 +816,7 @@
     "color": "Cor",
     "_advert": {
         "messages": {
-            "editSuccess": "Anúncio atualizado.",
-            "addSuccess": "Anúncio criado.",
-            "deleteSuccess": "Anúncio excluído."
+            "addSuccess": "Anúncio criado."
         },
         "formTitle": "Título",
         "title": "Anúncios",
@@ -882,9 +860,7 @@
             "imageDetail": "Um HTTPS URL para imagem da categoria."
         },
         "messages": {
-            "createSuccess": "Categoria do pacote criada com sucesso.",
-            "editSuccess": "Categoria do pacote editada com sucesso.",
-            "deleteSuccess": "Categoria de pacote excluída com sucesso."
+            "editSuccess": "Categoria do pacote editada com sucesso."
         }
     },
     "_requirement": {
@@ -939,7 +915,6 @@
             "create": "Criar Regra do Imposto"
         },
         "messages": {
-            "createSuccess": "Regra do Imposto criada com sucesso.",
             "deleteSuccess": "Regra de imposto excluída com sucesso.",
             "allCountriesDetail": "Deixe em branco para segmentar todos os países.",
             "infoDetail": "Será mostrado durante o check-out e na fatura."
@@ -954,9 +929,7 @@
             "edit": "Editar Desconto"
         },
         "messages": {
-            "deleteSuccess": "Desconto excluído com sucesso.",
-            "editSuccess": "Desconto editado com sucesso.",
-            "createSuccess": "Desconto criado com sucesso."
+            "editSuccess": "Desconto editado com sucesso."
         }
     },
     "_userLogEntry": {
@@ -1000,9 +973,7 @@
             "details": "Detalhes do Servidor"
         },
         "messages": {
-            "createSuccess": "Servidor criado com sucesso.",
-            "editSuccess": "Servidor editado com sucesso.",
-            "deleteSuccess": "Servidor deletado com sucesso."
+            "editSuccess": "Servidor editado com sucesso."
         },
         "type": {
             "DISCORD": "Discord",

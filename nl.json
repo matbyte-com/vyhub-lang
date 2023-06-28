@@ -107,9 +107,7 @@
             "createApiKey": "Creëer nieuwe API sleutel"
         },
         "messages": {
-            "createSuccess": "Serverbundel succesvol gemaakt.",
-            "editSuccess": "Serverbundel succesvol gemaakt.",
-            "deleteSuccess": "Serverbundel succesvol verwijderd."
+            "editSuccess": "Serverbundel succesvol gemaakt."
         }
     },
     "_theme": {
@@ -401,9 +399,6 @@
         },
         "showLegalReminder": "Stel juridische informatie in de instellingen in!"
     },
-    "_log": {
-        "group_deleted": "Groep {groupName} {groupId} verwijderd."
-    },
     "_address": {
         "labels": {
             "state": "staat / provincie",
@@ -417,9 +412,7 @@
             "selectAddress": "Selecteer adress"
         },
         "messages": {
-            "changeSuccess": "Bedrijfs adress successvol gewijzigd",
             "addSuccess": "Nieuw adress sucessvoll toegevoegd",
-            "selectedSuccess": "Adres succesvol geselecteerd.",
             "noAddressesYet": "U heeft nog geen adressen."
         }
     },
@@ -465,9 +458,7 @@
             "deleteWarning": "Voorzichtigheid! Als u een pakket verwijdert, worden ook alle gerelateerde toegepaste pakketten, toegepaste beloningen en aankoopitems verwijderd. Misschien het pakket uitschakelen?",
             "customPricePossible": "De prijs van dit pakket kan bewerkt worden.",
             "sortOnlyWithCategory": "Pakketten kunnen alleen worden gesorteerd als er een categorie is geselecteerd.",
-            "addSuccess": "Pakket is succesvol gemaakt.",
-            "editSuccess": "Pakket succesvol bewerkt",
-            "deleteSuccess": "Pakket succesvol verwijderd."
+            "editSuccess": "Pakket succesvol bewerkt"
         },
         "status": {
             "ENABLED": "ingeschakeld",
@@ -481,9 +472,7 @@
     },
     "_reward": {
         "messages": {
-            "createSuccess": "Beloning succesvol aangemaakt.",
             "deleteAppliedRewardSuccess": "Toegepaste beloning succesvol verwijderda",
-            "editSuccess": "Beloning succesvol bewerkt.",
             "deleteSuccess": "Beloning succesvol bewerkt.",
             "createAppliedRewardSuccess": "Toegepaste beloning succesvol toegevoegd"
         },
@@ -552,7 +541,6 @@
         "messages": {
             "refundConfirm": "Weet je zeker dat je deze aankoop wilt terugbetalen?",
             "refundInitSuccess": "Terugbetaling succesvol gestart.",
-            "deleteSuccess": "Aankoop succesvol verwijderd.",
             "revokeSuccess": "Aankoop succesvol herroepen.",
             "refreshSuccess": "Betalingsgegevens succesvol vernieuwd.",
             "unrevokeSuccess": "Aankoop succesvol ongedaan gemaakt.",
@@ -628,9 +616,7 @@
         },
         "messages": {
             "deleteWarning": "Voorzichtigheid! Het verwijderen van een betalingsgateway zorgt ervoor dat alle aankopen en betalingen waarbij de gateway is gebruikt, worden verwijderd! Deze actie kan niet ongedaan worden gemaakt. Misschien liever uitschakelen?",
-            "createSuccess": "Betalingsgateway succesvol aangemaakt.",
             "deleteSuccess": "Betalingsgateway succesvol verwijderd.",
-            "editSuccess": "Betalingsgateway succesvol bewerkt.",
             "formAttributeChangeExplanation": "De onderstaande attributen worden niet bewerkt als er geen waarde wordt opgegeven."
         }
     },
@@ -698,15 +684,12 @@
             "maxUsagesPerUser": "Maximaal gebruik per gebruiker"
         },
         "messages": {
-            "deleteSuccess": "Korting succesvol verwijderd.",
-            "editSuccess": "Korting succesvol bewerkt.",
-            "createSuccess": "Korting succesvol gemaakt."
+            "editSuccess": "Korting succesvol bewerkt."
         }
     },
     "_packetCategory": {
         "messages": {
             "createSuccess": "Pakketcategorie succesvol aangemaakt.",
-            "editSuccess": "Pakketcategorie succesvol bewerkt.",
             "deleteSuccess": "Pakketcategorie succesvol verwijderd."
         },
         "labels": {
@@ -740,9 +723,7 @@
     },
     "_home": {
         "messages": {
-            "addSuccess": "Nieuws succesvol toegevoegd",
             "editSuccess": "Nieuws succesvol bewerkt",
-            "deleteSuccess": "Nieuws succesvol verwijderd",
             "messageEmpty": "Voer een bericht in"
         },
         "messageTypeNews": "Bericht",
@@ -761,7 +742,6 @@
             "create": "Belastingregel maken"
         },
         "messages": {
-            "createSuccess": "Belastingregel is gemaakt.",
             "deleteSuccess": "Belastingregel succesvol verwijderd.",
             "allCountriesDetail": "Laat leeg om alle landen te targeten.",
             "infoDetail": "Wordt getoond bij het afrekenen en op de factuur."
@@ -787,7 +767,6 @@
             "topicEdited": "Onderwerp bewerkt.",
             "topicDeleteSuccess": "Onderwerp succesvol verwijderd.",
             "updatedOrder": "Forumvolgorde bijgewerkt.",
-            "editSuccess": "Succesvol bewerkt",
             "deleteSuccess": "Succesvol verwijderd",
             "addedPost": "Bericht gemaakt.",
             "pinned": "Thread vastgepind",
@@ -856,9 +835,7 @@
         "addAdvertDialog": "Advertentie toevoegen",
         "editAdvertDialog": "Advertentie bewerken",
         "messages": {
-            "addSuccess": "Advertentie gemaakt",
-            "editSuccess": "Advertentie bijgewerkt.",
-            "deleteSuccess": "Advertentie verwijderd"
+            "editSuccess": "Advertentie bijgewerkt."
         },
         "title": "Advertenties",
         "add": "Advertentie toevoegen",
@@ -1068,9 +1045,7 @@
             "keepReservedSlotsFree": "Houd gereserveerde slots vrij"
         },
         "messages": {
-            "createSuccess": "Server succesvol gemaakt.",
-            "editSuccess": "Server succesvol bewerkt.",
-            "deleteSuccess": "Server succesvol verwijderd."
+            "editSuccess": "Server succesvol bewerkt."
         },
         "type": {
             "DISCORD": "Discord",
@@ -1130,9 +1105,7 @@
         "add": "Vraag toevoegen",
         "addQuestionDialog": "Vraag toevoegen",
         "messages": {
-            "addSuccess": "FAQ-vraag aangemaakt.",
             "editSuccess": "FAQ bijgewerkt",
-            "deleteSuccess": "FAQ vvragen verwijderd",
             "contentEmpty": "Alsjeblieft voeg inhoud toe."
         }
     },

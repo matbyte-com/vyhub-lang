@@ -89,9 +89,7 @@
     },
     "_serverbundle": {
         "messages": {
-            "createSuccess": "Serverbundle erfolgreich erstellt.",
-            "editSuccess": "Serverbundle erfolgreich bearbeitet.",
-            "deleteSuccess": "Serverbundle erfolgreich gelöscht."
+            "editSuccess": "Serverbundle erfolgreich bearbeitet."
         },
         "labels": {
             "createApiKey": "Neuen API Schlüssel erstellen",
@@ -277,9 +275,7 @@
         },
         "messages": {
             "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird, und sind write-only, was bedeutet, dass die Eingabe nicht erneut angezeigt wird.",
-            "createSuccess": "Zahlungsmethode erfolgreich erstellt.",
             "deleteSuccess": "Zahlungsmethode erfolgreich gelöscht.",
-            "editSuccess": "Zahlungsmethode erfolgreich editiert.",
             "deleteWarning": "Vorsicht! Das Löschen eines Zahlungsgateways bewirkt das Löschen aller Käufe und Zahlungen, bei denen das Gateway verwendet wurde! Diese Aktion kann nicht rückgängig gemacht werden. Vielleicht stattdessen deaktivieren?"
         }
     },
@@ -364,9 +360,7 @@
     },
     "_server": {
         "messages": {
-            "createSuccess": "Server erfolgreich erstellt.",
-            "editSuccess": "Server erfolgreich bearbeitet.",
-            "deleteSuccess": "Server erfolgreich gelöscht."
+            "editSuccess": "Server erfolgreich bearbeitet."
         },
         "labels": {
             "unknownStatus": "Status Unbekannt",
@@ -446,9 +440,7 @@
             "vat_number": "Umsatzsteuer-Identifikationsnummer hinzufügen"
         },
         "messages": {
-            "selectedSuccess": "Adresse erfolgreich ausgewählt.",
             "changeSuccess": "Geschäftsadresse erfolgreich geändert.",
-            "addSuccess": "Neue Adresse erfolgreich hinzugefügt.",
             "noAddressesYet": "Du hast noch keine Adressen."
         }
     },
@@ -493,9 +485,7 @@
         },
         "messages": {
             "sortOnlyWithCategory": "Pakete können nur sortiert werden, wenn eine Kategorie ausgewählt ist.",
-            "addSuccess": "Paket erfolgreich erstellt.",
             "editSuccess": "Paket erfolgreich bearbeitet.",
-            "deleteSuccess": "Paket erfolgreich gelöscht.",
             "customPricePossible": "Der Preis für dieses Paket kann angepasst werden.",
             "deleteWarning": "Vorsicht! Das Löschen eines Pakets löscht auch alle zugehörigen angewendeten Pakete, angewendeten Prämien und Kaufgegenstände. Vielleicht das Paket stattdessen deaktivieren?"
         },
@@ -509,9 +499,7 @@
     "_home": {
         "messages": {
             "messageEmpty": "Bitte gib eine Nachricht ein",
-            "deleteSuccess": "Nachrichten erfolgreich gelöscht",
-            "addSuccess": "Nachricht erfolgreich hinzugefügt",
-            "editSuccess": "Nachricht erfolgreich bearbeitet"
+            "addSuccess": "Nachricht erfolgreich hinzugefügt"
         },
         "messageTypePinned": "Nachricht des Tages",
         "addNews": "Neue Nachricht",
@@ -553,9 +541,7 @@
             "templates": "Vorlagen"
         },
         "messages": {
-            "createSuccess": "Belohnung erfolgreich erstellt.",
             "editSuccess": "Belohnung erfolgreich bearbeitet.",
-            "deleteSuccess": "Belohnung erfolgreich gelöscht.",
             "deleteAppliedRewardSuccess": "Angewendete Prämie erfolgreich gelöscht",
             "createAppliedRewardSuccess": "Angewendete Prämie erfolgreich hinzugefügt"
         },
@@ -611,7 +597,6 @@
             "refundInitSuccess": "Rückerstattung erfolgreich eingeleitet.",
             "revokeSuccess": "Kauf erfolgreich widerrufen.",
             "refreshSuccess": "Die Zahlungsdaten wurden erfolgreich aktualisiert.",
-            "deleteSuccess": "Kauf erfolgreich gelöscht.",
             "editAppliedPacketSuccess": "Angewendetes Paket erfolgreich bearbeitet.",
             "deleteAppliedPacketSuccess": "Angewandtes Paket erfolgreich gelöscht.",
             "unrevokeSuccess": "Kauf erfolgreich widerrufen.",
@@ -779,9 +764,7 @@
             "maxUsagesPerUser": "Maximale Nutzung pro Benutzer"
         },
         "messages": {
-            "deleteSuccess": "Rabatt erfolgreich gelöscht.",
-            "editSuccess": "Rabatt erfolgreich bearbeitet.",
-            "createSuccess": "Rabatt erfolgreich erstellt."
+            "editSuccess": "Rabatt erfolgreich bearbeitet."
         }
     },
     "_userLogEntry": {
@@ -956,9 +939,7 @@
             "edit": "Paketkategorie bearbeiten"
         },
         "messages": {
-            "createSuccess": "Paketkategorie erfolgreich erstellt.",
-            "deleteSuccess": "Paketkategorie erfolgreich gelöscht.",
-            "editSuccess": "Paketkategorie erfolgreich bearbeitet."
+            "deleteSuccess": "Paketkategorie erfolgreich gelöscht."
         }
     },
     "_property": {
@@ -1044,9 +1025,7 @@
         "editQuestionDialog": "Frage bearbeiten",
         "messages": {
             "contentEmpty": "Bitte gib einen Inhalt ein",
-            "addSuccess": "Frage erstellt.",
-            "editSuccess": "Frage bearbeitet.",
-            "deleteSuccess": "Frage gelöscht."
+            "editSuccess": "Frage bearbeitet."
         },
         "title": "FAQ",
         "add": "Frage hinzufügen",
@@ -1070,7 +1049,6 @@
             "create": "Steuerregel erstellen"
         },
         "messages": {
-            "createSuccess": "Steuerregel erfolgreich erstellt.",
             "deleteSuccess": "Steuerregel erfolgreich gelöscht.",
             "allCountriesDetail": "Leer lassen, um alle Länder zu erfassen.",
             "infoDetail": "Wird während der Kaufabwicklung und auf der Rechnung angezeigt."
@@ -1139,9 +1117,7 @@
     "_advert": {
         "title": "Ankündigungen",
         "messages": {
-            "deleteSuccess": "Anzeige gelöscht.",
-            "editSuccess": "Anzeige aktualisiert.",
-            "addSuccess": "Anzeige erstellt."
+            "editSuccess": "Anzeige aktualisiert."
         },
         "add": "Anzeige hinzufügen",
         "formEnabled": "berechtigen",
@@ -1175,13 +1151,11 @@
             "topicCategoryCreated": "Themenkategorie erstellt.",
             "topicDeleteSuccess": "Thema erfolgreich gelöscht.",
             "updatedOrder": "Reihenfolge aktualisiert.",
-            "editSuccess": "Erfolgreich bearbeitet.",
             "pinned": "Thread gepinnt.",
             "toggleStatus": "Status geändert.",
             "topicCreated": "Thema erstellt.",
             "topicCategoryEdited": "Themenkategorie bearbeitet.",
             "topicEdited": "Thema bearbeitet.",
-            "deleteSuccess": "Erfolgerich gelöscht.",
             "unpinned": "Thread losgelöst.",
             "addedPost": "Post erstellt.",
             "addedThread": "Thread erstellt."
