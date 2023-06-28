@@ -87,11 +87,6 @@
         "labels": {
             "apiKeys": "Serverbundle API Keys",
             "createApiKey": "Create new API key"
-        },
-        "messages": {
-            "createSuccess": "Serverbundle successfully created.",
-            "editSuccess": "Serverbundle successfully edited.",
-            "deleteSuccess": "Serverbundle successfully deleted."
         }
     },
     "_login": {
@@ -419,12 +414,6 @@
             "zip_code": "Zip Code",
             "vat_number": "VAT Number",
             "selectAddress": "Select address"
-        },
-        "messages": {
-            "changeSuccess": "Business address changed successfully.",
-            "addSuccess": "New address added successfully.",
-            "selectedSuccess": "Address successfully selected.",
-            "noAddressesYet": "You do not have any addresses yet."
         }
     },
     "_packet": {
@@ -468,10 +457,7 @@
         },
         "messages": {
             "sortOnlyWithCategory": "Packets can only be sorted if a category is selected.",
-            "addSuccess": "Packet successfully created.",
             "customPricePossible": "The price for this packet can be customized.",
-            "editSuccess": "Packet successfully edited.",
-            "deleteSuccess": "Packet successfully deleted.",
             "deleteWarning": "Caution! Deleting a packet also deletes all related applied packets, applied rewards and purchase items. Maybe disable the packet instead?"
         },
         "status": {
@@ -485,11 +471,6 @@
             "edit": "Edit Packet Category",
             "delete": "Delete Packet Category",
             "imageDetail": "An HTTPS URL to the category image."
-        },
-        "messages": {
-            "createSuccess": "Packet category successfully created.",
-            "editSuccess": "Packet category successfully edited.",
-            "deleteSuccess": "Packet category successfully deleted."
         }
     },
     "_reward": {
@@ -527,9 +508,6 @@
             "FAILED": "Failed"
         },
         "messages": {
-            "createSuccess": "Reward successfully created.",
-            "editSuccess": "Reward successfully edited.",
-            "deleteSuccess": "Reward successfully deleted.",
             "createAppliedRewardSuccess": "Applied reward successfully added",
             "deleteAppliedRewardSuccess": "Applied reward successfully deleted"
         }
@@ -578,7 +556,6 @@
         "messages": {
             "cancelSubscriptionSuccess": "Subscription successfully cancelled.",
             "refundInitSuccess": "Refund successfully initiated.",
-            "deleteSuccess": "Purchase successfully deleted.",
             "revokeSuccess": "Purchase successfully revoked.",
             "refreshSuccess": "Payment data successfully refreshed.",
             "unrevokeSuccess": "Purchase successfully unrevoked.",
@@ -603,9 +580,6 @@
         "messageSubject": "Subject",
         "editNews": "Edit Message",
         "messages": {
-            "addSuccess": "News successfully added",
-            "editSuccess": "News edited successfully",
-            "deleteSuccess": "News deleted successfully",
             "messageEmpty": "Please enter a message"
         }
     },
@@ -671,9 +645,6 @@
         },
         "messages": {
             "deleteWarning": "Caution! Deleting a payment gateway causes the deletion of all purchases and payments where the gateway has been used! This action can't be undone. Maybe disable it instead?",
-            "createSuccess": "Payment gateway successfully created.",
-            "deleteSuccess": "Payment gateway successfully deleted.",
-            "editSuccess": "Payment gateway successfully edited.",
             "formAttributeChangeExplanation": "The attributes below will not be edited if no value is given and are write-only, meaning your input will not be shown again."
         }
     },
@@ -683,8 +654,6 @@
             "create": "Create Tax Rule"
         },
         "messages": {
-            "createSuccess": "Tax rule successfully created.",
-            "deleteSuccess": "Tax rule successfully deleted.",
             "allCountriesDetail": "Leave blank to target all countries.",
             "infoDetail": "Will be shown during checkout and on the invoice."
         }
@@ -696,11 +665,6 @@
             "allPackets": "Usable for all packets",
             "delete": "Delete Discount",
             "maxUsagesPerUser": "Maximum usages per user"
-        },
-        "messages": {
-            "deleteSuccess": "Discount successful deleted.",
-            "editSuccess": "Discount successful edited.",
-            "createSuccess": "Discount successful created."
         }
     },
     "_userLogEntry": {
@@ -799,11 +763,6 @@
             "details": "Server Details",
             "queryPortDescription": "Query port of your TS3 server. The standard port is 10022.",
             "sshQueryPort": "SSH Query Port"
-        },
-        "messages": {
-            "createSuccess": "Server successfully created.",
-            "editSuccess": "Server successfully edited.",
-            "deleteSuccess": "Server successfully deleted."
         },
         "type": {
             "DISCORD": "Discord",
@@ -921,9 +880,6 @@
         "formContent": "Content",
         "html": "HTML is allowed in this field.",
         "messages": {
-            "addSuccess": "FAQ question created.",
-            "editSuccess": "FAQ question updated.",
-            "deleteSuccess": "FAQ question deleted.",
             "contentEmpty": "Please enter a content"
         }
     },
@@ -996,8 +952,6 @@
             "categoryDeleteSuccess": "Category successfully deleted.",
             "topicDeleteSuccess": "Topic successfully deleted.",
             "updatedOrder": "Forum order updated.",
-            "editSuccess": "Successfully edited.",
-            "deleteSuccess": "Successfully deleted.",
             "pinned": "Thread pinned.",
             "unpinned": "Thread unpinned.",
             "addedPost": "Post created.",
@@ -1012,12 +966,7 @@
         "formContent": "Content",
         "formEnabled": "Enable",
         "addAdvertDialog": "Add advert",
-        "editAdvertDialog": "Edit advert",
-        "messages": {
-            "addSuccess": "Advert created.",
-            "deleteSuccess": "Advert deleted.",
-            "editSuccess": "Advert updated."
-        }
+        "editAdvertDialog": "Edit advert"
     },
     "_property": {
         "categories": {
@@ -1121,10 +1070,10 @@
         "addPmGateway": "Set up your payment methods"
     },
     "_messages": {
-        "addSuccess": "Object successfully added.",
-        "createSuccess": "Object successfully created.",
-        "deleteSuccess": "Object successfully deleted.",
-        "editSuccess": "Object successfully edited."
+        "addSuccess": "Successfully added.",
+        "createSuccess": "Successfully created.",
+        "deleteSuccess": "Successfully deleted.",
+        "editSuccess": "Successfully edited."
     },
     "update": "Update",
     "recurring": "Recurring",
