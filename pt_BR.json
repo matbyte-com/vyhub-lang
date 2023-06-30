@@ -6,9 +6,6 @@
             "add": "Adicionar inscrição ao grupo",
             "edit": "Editar inscrição do grupo",
             "showPastMemberships": "Mostrar inscrições antigas"
-        },
-        "messages": {
-            "membershipSuccessfullyAdded": "Inscrição adicionada com sucesso"
         }
     },
     "_dashboard": {
@@ -28,8 +25,7 @@
             "title": "{usr}"
         },
         "messages": {
-            "removeAdminConfirmation": "Não se esqueça de remover o antigo administrador da instância na sua central de visão geral da instância.",
-            "adminSuccessfullyRemoved": "Administrador removido com sucesso"
+            "removeAdminConfirmation": "Não se esqueça de remover o antigo administrador da instância na sua central de visão geral da instância."
         }
     },
     "_header": {
@@ -71,16 +67,11 @@
         },
         "messages": {
             "showingUserBans": "Mostrando proibições de usuário com ID",
-            "banAdded": "Banimento criado",
             "banDeleted": "Banimento deletado",
-            "banEdited": "Banimento editado",
             "banToggled": "Status do banimento alterado"
         }
     },
     "_serverbundle": {
-        "messages": {
-            "createSuccess": "Pacote do servidor criado com sucesso."
-        },
         "labels": {
             "apiKeys": "Chaves API do pacote do servidor",
             "createApiKey": "Criar nova chave API"
@@ -102,9 +93,6 @@
         "logoDescription": "Recarregar página se o logotipo não aparece corretamente",
         "logoWidth": "Amplitude do logotipo",
         "faviconURL": "Ícone do site URL",
-        "messages": {
-            "editedTheme": "Tema editado."
-        },
         "secondaryColor": "Cor Secundária"
     },
     "_settings": {
@@ -162,9 +150,7 @@
             "name": "Nome do grupo/classificação/papel no servidor"
         },
         "messages": {
-            "addedGroup": "Grupo Criado.",
-            "deletedGroup": "Grupo Excluído.",
-            "editedGroup": "Grupo Editado."
+            "deletedGroup": "Grupo Excluído."
         },
         "isTeam": "É Equipe",
         "isTeamDescription": "Membros do grupo serão mostrados na página de equipe"
@@ -217,10 +203,8 @@
             "confirmCreditsPayment": "Por favor conforme o pagamento de {créditos} créditos.",
             "confirmCouponPayment": "Por favor insira o seu código {gateway_name} . O pagamento será manualmente aprovado por um membro da equipe.",
             "couponsEntered": "Seu cupom foi adicionado com sucesso. Você pode editar o seu cupom até a sua compra ser aprovada.",
-            "couponsEditSuccess": "Cupom editado com sucesso.",
             "addToCartError": "Um erro ocorreu enquanto adicionava o pacote em seu carrinho.",
             "paymentPending": "O pagamento está pendente. Por favor, complete o pagamento visitando o carrinho de compras.",
-            "addToCartSuccess": "Pacote adicionado com sucesso ao seu carrinho.",
             "cartEmpty": "Seu carrinho está vazio.",
             "mustAgree": "Você deve concordar para continuar!",
             "startingPaymentFailed": "Ocorreu um erro enquanto iniciava o pagamento. Por favor, tente novamente ou utilize outro método de pagamento!",
@@ -229,7 +213,6 @@
             "paymentActionFailed": "Ocorreu um erro enquanto redirecionava para a página de pagamento. Por favor, tente novamente ou utilize outro método de pagamento! Mensagem de erro: {Mensagem}",
             "noAddressSpecified": "Endereço não especificado ainda.",
             "paymentProcessing": "O pagamento foi aprovado e será finalizado em breve. Por favor, aguarde alguns minutos nesta página enquanto o pagamento está sendo processado.",
-            "removeFromCartSuccess": "Pacote removido com sucesso do carrinho.",
             "clearCartSuccess": "Todos os pacotes removidos do carrinho com sucesso.",
             "paymentSuccess": "Este pagamento foi finalizado com sucesso. Os pacotes de compra foram atribuídos a sua conta.",
             "paymentFailed": "Um erro ocorreu durante o processo de pagamento. Por favor, tente reiniciar o processo.",
@@ -313,21 +296,14 @@
         }
     },
     "_legal": {
-        "messages": {
-            "editedLegal": "Direito editado."
-        },
         "showLegalReminder": "Por favor, insira as informações legais nas configurações!",
         "descriptionText": "Na maioria dos países é obrigatório ter, pelo menos, os detalhes de contato do operador do website, termos de uso e política de privacidade. Você pode encontrar um exemplo de política de privacidade na documentação."
     },
     "_navigation": {
         "messages": {
-            "addedLink": "Link de Navegação criado.",
             "updatedLinkOrder": "Ordem de Navegação foi atualizada.",
-            "removedLink": "Link de Navegação foi excluído.",
             "editedLink": "Link de Navegação foi editado.",
-            "cmsAdded": "Página HTML adicionada.",
-            "cmsDeleted": "Página HTML deletada.",
-            "cmsEdited": "Página de HTML editada."
+            "cmsDeleted": "Página HTML deletada."
         },
         "_location": {
             "header": "Cabeçalho",
@@ -385,7 +361,6 @@
     "enabled": "Habilitado",
     "_address": {
         "messages": {
-            "addSuccess": "Novo endereço adicionado com sucesso.",
             "noAddressesYet": "Você não possui um endereço ainda."
         },
         "labels": {
@@ -479,9 +454,7 @@
             "FAILED": "Falhou"
         },
         "messages": {
-            "deleteAppliedRewardSuccess": "Recompensa aplicada excluída com sucesso",
-            "editSuccess": "Recompensa editada com sucesso.",
-            "createAppliedRewardSuccess": "Recompensa aplicada adicionada com sucesso"
+            "editSuccess": "Recompensa editada com sucesso."
         }
     },
     "connect": "Conectar",
@@ -525,10 +498,8 @@
             "reward": "Recompensa"
         },
         "messages": {
-            "cancelSubscriptionSuccess": "Inscrição cancelada com sucesso.",
             "refundInitSuccess": "Reembolso iniciado com sucesso.",
             "unrevokeSuccess": "Compra não revogada com sucesso.",
-            "editAppliedPacketSuccess": "Pacote aplicado editado com sucesso.",
             "deleteAppliedPacketSuccess": "Pacote aplicado excluído com sucesso.",
             "revokeSuccess": "Compra revogada com sucesso.",
             "refreshSuccess": "Dados de pagamento atualizados com sucesso.",
@@ -536,8 +507,7 @@
             "cancelSubscriptionConfirm": "Tem certeza de que deseja cancelar esta assinatura?",
             "confirmPurchaseSuccess": "Compra aprovada com sucesso",
             "refundConfirm": "Tem certeza de que deseja reembolsar esta compra?",
-            "declinePurchaseSuccess": "Compra cancelada com sucesso",
-            "createAppliedPacketSuccess": "Pacote aplicado criado com sucesso."
+            "declinePurchaseSuccess": "Compra cancelada com sucesso"
         }
     },
     "_home": {
@@ -571,14 +541,10 @@
         },
         "messages": {
             "deleteWarning": "Cuidado! A exclusão de um gateway de pagamento causa a exclusão de todas as compras e pagamentos em que o gateway foi usado! Esta ação não pode ser desfeita. Talvez desativá-lo em vez disso?",
-            "deleteSuccess": "Gateway de pagamento excluído com sucesso.",
             "formAttributeChangeExplanation": "Os atributos abaixo não serão editados se nenhum valor for fornecido."
         }
     },
     "_notification": {
-        "messages": {
-            "readSuccess": "Status de leitura alternado com sucesso"
-        },
         "ban_new": "Você foi banido. Razão: {reason}",
         "applied_packet_upgraded": "Seu pacote {old_packet_title} foi atualizado com {new_packet_title}.",
         "noNotification": "Sem notificações",
@@ -626,9 +592,7 @@
         "reason": "Razão",
         "showUserWarnings": "Mostrando avisos de usuário com ID: {id}",
         "messages": {
-            "addedWarning": "Aviso criado.",
             "deletedWarning": "Aviso excluído.",
-            "toggledWarning": "Status de aviso alternado.",
             "editedSettings": "Configurações de aviso editadas."
         }
     },
@@ -660,19 +624,13 @@
         "topicAdminUser": "Administradores de Tópicos",
         "numberOfPosts": "Contagem de Publicações: ",
         "messages": {
-            "updatedOrder": "Ordem do fórum atualizada.",
             "topicCategoryCreated": "Categoria de tópico criada.",
-            "topicCreated": "Tópico criado.",
             "topicCategoryEdited": "Categoria do tópico editada.",
-            "topicEdited": "Tópico editado.",
             "categoryDeleteSuccess": "Categoria excluída com sucesso.",
-            "topicDeleteSuccess": "Tópico excluído com sucesso.",
             "deleteSuccess": "Excluído com sucesso.",
             "pinned": "Tópico fixado.",
             "unpinned": "Tópico desafixado.",
-            "addedPost": "Postagem criada.",
-            "toggleStatus": "Status alternado.",
-            "addedThread": "Tópico criado."
+            "toggleStatus": "Status alternado."
         },
         "manageTopicCategories": "Gerenciar Categorias de Tópicos",
         "manageTopics": "Gerenciar Tópicos",
@@ -735,8 +693,7 @@
     },
     "_faq": {
         "messages": {
-            "contentEmpty": "Por favor, insira um conteúdo",
-            "deleteSuccess": "Pergunta de FAQ excluída."
+            "contentEmpty": "Por favor, insira um conteúdo"
         },
         "addQuestionDialog": "Adicionar pergunta",
         "editQuestionDialog": "Editar pergunta",
@@ -815,9 +772,6 @@
     },
     "color": "Cor",
     "_advert": {
-        "messages": {
-            "addSuccess": "Anúncio criado."
-        },
         "formTitle": "Título",
         "title": "Anúncios",
         "add": "Adicionar anúncio",
@@ -830,7 +784,6 @@
     "enable": "Habilitar",
     "perYear": "Por ano",
     "delete": "Excluir",
-    "settingsSaveSuccess": "Configurações salvas com sucesso.",
     "port": "Porta",
     "legal": "Legal",
     "team": "Equipe",
@@ -858,9 +811,6 @@
             "edit": "Editar Pacote da Categoria",
             "delete": "Deletar Categoria do Pacote",
             "imageDetail": "Um HTTPS URL para imagem da categoria."
-        },
-        "messages": {
-            "editSuccess": "Categoria do pacote editada com sucesso."
         }
     },
     "_requirement": {
@@ -900,13 +850,9 @@
             "GEQ": "Melhor que Igual"
         },
         "messages": {
-            "addedSet": "Conjunto de Requisitos Adicionado",
             "editedSet": "Conjunto de Requisitos Editado",
-            "addedRequirement": "Requisito Adicionado",
             "editedRequirement": "Conjunto de Requisitos Editado",
-            "deletedSet": "Conjunto de Requisitos Excluídos",
-            "deletedRequirement": "Requisito Excluído",
-            "editedFormula": "Fórmula Editada"
+            "deletedRequirement": "Requisito Excluído"
         }
     },
     "_taxRule": {
@@ -915,7 +861,6 @@
             "create": "Criar Regra do Imposto"
         },
         "messages": {
-            "deleteSuccess": "Regra de imposto excluída com sucesso.",
             "allCountriesDetail": "Deixe em branco para segmentar todos os países.",
             "infoDetail": "Será mostrado durante o check-out e na fatura."
         }
@@ -927,9 +872,6 @@
             "maxUsagesPerUser": "Uso máximo por usuário",
             "create": "Criar Desconto",
             "edit": "Editar Desconto"
-        },
-        "messages": {
-            "editSuccess": "Desconto editado com sucesso."
         }
     },
     "_userLogEntry": {
@@ -972,9 +914,6 @@
             "setup": "Servidor de Configuração",
             "details": "Detalhes do Servidor"
         },
-        "messages": {
-            "editSuccess": "Servidor editado com sucesso."
-        },
         "type": {
             "DISCORD": "Discord",
             "GMOD": "Garry's Mod",
@@ -1014,7 +953,6 @@
         },
         "messages": {
             "keyCreated": "Criar nova chave:",
-            "keyCreateSuccess": "Chave criada com sucesso.",
             "keyRevokeSuccess": "Chave revogada com sucesso."
         }
     },
@@ -1025,14 +963,12 @@
         "enableEmailNotifications": "Ativar notificações por e-mail",
         "noEmailSpecified": "Nenhum e-mail especificado ainda",
         "messages": {
-            "emailUpdated": "E-mail atualizado com sucesso",
             "emailNotificationSettingsToggled": "Configurações de notificação atualizadas com sucesso"
         }
     },
     "_team": {
         "title": "Time",
-        "editTeam": "Editar Equipe",
-        "teamGroupsSuccessfullyEdited": "Grupos de equipe editados com sucesso."
+        "editTeam": "Editar Equipe"
     },
     "_authorization": {
         "title": "Autorização",
@@ -1040,20 +976,14 @@
         "discordOauthClientId": "ID Cliente",
         "discordOauthClientSecret": "Segredo do Cliente",
         "discordBotToken": "Símbolo do Bot",
-        "redirectUrl": "URL de Redirecionamento",
-        "messages": {
-            "editedConfig": "Configuração Editada"
-        }
+        "redirectUrl": "URL de Redirecionamento"
     },
     "_serverDashboard": {
         "noUsersFound": "Usuários não encontrados.",
         "selectAUser": "Selecione um usuário para ver os detalhes."
     },
     "_creditHistory": {
-        "addTransaction": "Adicionar Transação",
-        "messages": {
-            "addedTransaction": "Transação adicionada"
-        }
+        "addTransaction": "Adicionar Transação"
     },
     "payment": "Pagamento",
     "refresh": "Atualizar",

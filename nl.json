@@ -47,7 +47,6 @@
     },
     "_dashboard": {
         "messages": {
-            "adminSuccessfullyRemoved": "Beheerder is verwijderd",
             "removeAdminConfirmation": "Vergeet niet om de voormalige beheerder uit de instantie te verwijderen in uw centrale instantieoverzicht."
         },
         "labels": {
@@ -73,9 +72,6 @@
             "endMembership": "Eind lidmaatschap",
             "activeMemberships": "Actieve groepsleden",
             "showPastMemberships": "Oude groepsleden laten zien"
-        },
-        "messages": {
-            "membershipSuccessfullyAdded": "Groepslid successvol toegevoegd"
         }
     },
     "_ban": {
@@ -95,9 +91,7 @@
         },
         "messages": {
             "showingUserBans": "Verbanningen van gebruikers met ID weergeven: {id}",
-            "banAdded": "Verbod gemaakt",
             "banDeleted": "Verbod verwijderd",
-            "banEdited": "Verbod aangepast",
             "banToggled": "Status van verbod omgeschakeld"
         }
     },
@@ -105,9 +99,6 @@
         "labels": {
             "apiKeys": "Serverbundle API-sleutels",
             "createApiKey": "Creëer nieuwe API sleutel"
-        },
-        "messages": {
-            "editSuccess": "Serverbundel succesvol gemaakt."
         }
     },
     "_theme": {
@@ -125,9 +116,6 @@
         "showCommunityName": "Gemeenschapsnaam tonen",
         "logoDescription": "Laad de pagina opnieuw als het logo niet correct wordt weergegeven",
         "logoWidth": "Breedte logo",
-        "messages": {
-            "editedTheme": "Thema bewerkt."
-        },
         "faviconURL": "Favicon-URL",
         "secondaryColor": "Secundaire kleur"
     },
@@ -181,9 +169,7 @@
             "name": "Naam van de groep/rang/rol op de server"
         },
         "messages": {
-            "addedGroup": "Groep gemaakt.",
-            "deletedGroup": "Groep verwijderd.",
-            "editedGroup": "Groep bewerkt."
+            "deletedGroup": "Groep verwijderd."
         },
         "isTeam": "Is Team",
         "isTeamDescription": "Leden van de groep worden weergegeven op de teampagina"
@@ -242,19 +228,15 @@
             "confirmCouponPayment": "Voer uw {gateway_name}-code in. De betaling wordt vervolgens handmatig goedgekeurd door een teamlid.",
             "confirmCreditsPayment": "Bevestig de betaling van {credits} credits.",
             "couponsEntered": "Uw coupon is succesvol toegevoegd. U kunt uw kortingsbon bewerken totdat uw aankoop is goedgekeurd.",
-            "couponsEditSuccess": "Coupon succesvol bewerkt.",
             "addToCartError": "Er is een fout opgetreden bij het toevoegen van het pakket aan uw winkelwagen.",
-            "addToCartSuccess": "Pakket succesvol toegevoegd aan winkelwagen.",
             "cartEmpty": "Jouw winkelwagen is leeg.",
             "mustAgree": "Je moet accepteren om verder te gaan!",
             "startingPaymentFailed": "Er is een fout opgetreden bij het initiëren van de betaling. Probeer het opnieuw of gebruik een andere betaalmethode!",
             "selectGateway": "Selecteer uw betaalmethode.",
             "noAddressSpecified": "Adress is nog niet gespecificeerd.",
-            "removeFromCartSuccess": "Pakket verwijderd uit winkelwagen.",
             "cancelPurchaseConfirmation": "Gestarte betalingen worden geannuleerd. Alle ingevoerde coupons zijn verloren. Het annuleren van een aankoop kan niet ongedaan worden gemaakt.",
             "paymentPending": "Deze betaling is in behandeling. Vul het in door naar de winkelwagen te gaan.",
             "paymentProcessing": "De betaling is goedgekeurd en wordt binnenkort afgerond. Wacht een paar minuten op deze pagina terwijl uw betaling wordt verwerkt.",
-            "clearCartSuccess": "Alle pakketten met succes uit de winkelwagen verwijderd.",
             "paymentCancelled": "Deze betaling is geannuleerd. U kunt het opnieuw proberen door naar uw winkelwagen te gaan.",
             "paymentSuccess": "De betaling is succesvol afgerond. De gekochte pakketten zijn toegewezen aan uw account.",
             "paymentFailed": "Er is een fout opgetreden tijdens het betalingsproces. Probeer het proces opnieuw te starten.",
@@ -354,13 +336,9 @@
     },
     "_navigation": {
         "messages": {
-            "cmsAdded": "Html pagina toegevoegd",
             "addedLink": "Navigatielink gemaakt.",
-            "updatedLinkOrder": "Navigatievolgorde bijgewerkt.",
             "removedLink": "Navigatielink verwijderd.",
-            "editedLink": "Navigatie link bewerkt.",
-            "cmsEdited": "Html pagina bewerkt.",
-            "cmsDeleted": "Html pagina verwijderd"
+            "cmsEdited": "Html pagina bewerkt."
         },
         "_location": {
             "header": "Kopstuk",
@@ -394,9 +372,6 @@
     },
     "_legal": {
         "descriptionText": "In de meeste landen is het verplicht om in ieder geval de contactgegevens, gebruiksvoorwaarden en een privacybeleid van de website-exploitant te hebben. U vindt een voorbeeld van een privacybeleid in de documenten.",
-        "messages": {
-            "editedLegal": "Juridisch aanpassen."
-        },
         "showLegalReminder": "Stel juridische informatie in de instellingen in!"
     },
     "_address": {
@@ -412,7 +387,6 @@
             "selectAddress": "Selecteer adress"
         },
         "messages": {
-            "addSuccess": "Nieuw adress sucessvoll toegevoegd",
             "noAddressesYet": "U heeft nog geen adressen."
         }
     },
@@ -457,8 +431,7 @@
         "messages": {
             "deleteWarning": "Voorzichtigheid! Als u een pakket verwijdert, worden ook alle gerelateerde toegepaste pakketten, toegepaste beloningen en aankoopitems verwijderd. Misschien het pakket uitschakelen?",
             "customPricePossible": "De prijs van dit pakket kan bewerkt worden.",
-            "sortOnlyWithCategory": "Pakketten kunnen alleen worden gesorteerd als er een categorie is geselecteerd.",
-            "editSuccess": "Pakket succesvol bewerkt"
+            "sortOnlyWithCategory": "Pakketten kunnen alleen worden gesorteerd als er een categorie is geselecteerd."
         },
         "status": {
             "ENABLED": "ingeschakeld",
@@ -472,9 +445,7 @@
     },
     "_reward": {
         "messages": {
-            "deleteAppliedRewardSuccess": "Toegepaste beloning succesvol verwijderda",
-            "deleteSuccess": "Beloning succesvol bewerkt.",
-            "createAppliedRewardSuccess": "Toegepaste beloning succesvol toegevoegd"
+            "deleteSuccess": "Beloning succesvol bewerkt."
         },
         "labels": {
             "checkForReplacements": "Controleer de documenten voor beschikbare soorten beloningen en stringvervangingen",
@@ -544,11 +515,8 @@
             "revokeSuccess": "Aankoop succesvol herroepen.",
             "refreshSuccess": "Betalingsgegevens succesvol vernieuwd.",
             "unrevokeSuccess": "Aankoop succesvol ongedaan gemaakt.",
-            "editAppliedPacketSuccess": "Toegepast pakket succesvol bewerkt.",
             "deleteAppliedPacketSuccess": "Toegepast pakket succesvol verwijderd.",
-            "createAppliedPacketSuccess": "Toegepast pakket is gemaakt.",
             "deleteConfirm": "Weet u zeker dat u deze aankoop wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt. Gerelateerde toegepaste pakketten worden niet verwijderd.",
-            "cancelSubscriptionSuccess": "Abonnement succesvol opgezegd.",
             "cancelSubscriptionConfirm": "Weet je zeker dat je dit abonnement wilt opzeggen?",
             "confirmPurchaseSuccess": "Aankoop succesvol goedgekeurd",
             "declinePurchaseSuccess": "Aankoop succesvol geannuleerd"
@@ -556,13 +524,9 @@
     },
     "_requirement": {
         "messages": {
-            "deletedRequirement": "Vereiste verwijderd",
             "addedSet": "Toegevoegd",
-            "editedSet": "Vereistenset toegevoegd",
             "addedRequirement": "Vereiste toegevoegd",
-            "editedRequirement": "Bewerkte vereistenset",
-            "deletedSet": "Vereistenset verwijderd",
-            "editedFormula": "Bewerkte formule"
+            "deletedSet": "Vereistenset verwijderd"
         },
         "types": {
             "PROPERTY": "Eigendom",
@@ -616,16 +580,12 @@
         },
         "messages": {
             "deleteWarning": "Voorzichtigheid! Het verwijderen van een betalingsgateway zorgt ervoor dat alle aankopen en betalingen waarbij de gateway is gebruikt, worden verwijderd! Deze actie kan niet ongedaan worden gemaakt. Misschien liever uitschakelen?",
-            "deleteSuccess": "Betalingsgateway succesvol verwijderd.",
             "formAttributeChangeExplanation": "De onderstaande attributen worden niet bewerkt als er geen waarde wordt opgegeven."
         }
     },
     "_notification": {
         "purchase_cancelled": "Uw aankoop van {amount} is geannuleerd!",
         "coupon_purchase_new": "{username} heeft {gateway_name} codes ({amount_total} {currency_symbol}) ingediend die moeten worden goedgekeurd.",
-        "messages": {
-            "readSuccess": "De leesstatus is met succes gewijzigd"
-        },
         "noNotification": "Geen meldingen.",
         "timeAgo": "{time} geleden",
         "markAllAsRead": "Markeer als gelezen",
@@ -662,9 +622,7 @@
         "reason": "Reden",
         "showUserWarnings": "Waarschuwingen tonen van gebruiker met ID: {id}",
         "messages": {
-            "addedWarning": "Waarschuwing gemaakt.",
             "deletedWarning": "Waarschuwing verwijderd.",
-            "toggledWarning": "Waarschuwingsstatus omgeschakeld.",
             "editedSettings": "Waarschuwingsinstellingen aangepast."
         },
         "ttl": "Waarschuwing Tijd om te leven (dagen)",
@@ -682,15 +640,11 @@
             "edit": "Korting creëren",
             "delete": "Korting verwijderen",
             "maxUsagesPerUser": "Maximaal gebruik per gebruiker"
-        },
-        "messages": {
-            "editSuccess": "Korting succesvol bewerkt."
         }
     },
     "_packetCategory": {
         "messages": {
-            "createSuccess": "Pakketcategorie succesvol aangemaakt.",
-            "deleteSuccess": "Pakketcategorie succesvol verwijderd."
+            "createSuccess": "Pakketcategorie succesvol aangemaakt."
         },
         "labels": {
             "edit": "Pakketcategorie bewerken",
@@ -723,7 +677,6 @@
     },
     "_home": {
         "messages": {
-            "editSuccess": "Nieuws succesvol bewerkt",
             "messageEmpty": "Voer een bericht in"
         },
         "messageTypeNews": "Bericht",
@@ -742,7 +695,6 @@
             "create": "Belastingregel maken"
         },
         "messages": {
-            "deleteSuccess": "Belastingregel succesvol verwijderd.",
             "allCountriesDetail": "Laat leeg om alle landen te targeten.",
             "infoDetail": "Wordt getoond bij het afrekenen en op de factuur."
         }
@@ -762,18 +714,12 @@
         "showClosed": "Toon gesloten",
         "showBan": "Verbod tonen",
         "messages": {
-            "topicCreated": "Onderwerp gemaakt.",
             "topicCategoryEdited": "Onderwerpcategorie aangepast.",
-            "topicEdited": "Onderwerp bewerkt.",
             "topicDeleteSuccess": "Onderwerp succesvol verwijderd.",
-            "updatedOrder": "Forumvolgorde bijgewerkt.",
             "deleteSuccess": "Succesvol verwijderd",
-            "addedPost": "Bericht gemaakt.",
             "pinned": "Thread vastgepind",
             "unpinned": "Thread losgemaakt",
-            "toggleStatus": "Status omgeschakeld.",
             "addedThread": "Thread gemaakt",
-            "topicCategoryCreated": "Onderwerpcategorie gemaakt.",
             "categoryDeleteSuccess": "Categorie succesvol verwijderd."
         },
         "status": {
@@ -834,9 +780,6 @@
         "formContent": "Inhoud",
         "addAdvertDialog": "Advertentie toevoegen",
         "editAdvertDialog": "Advertentie bewerken",
-        "messages": {
-            "editSuccess": "Advertentie bijgewerkt."
-        },
         "title": "Advertenties",
         "add": "Advertentie toevoegen",
         "formEnabled": "inschakelen"
@@ -1044,9 +987,6 @@
             "discordEnterIdAsAddress": "Voer uw guilds-id in als serveradres. Voer uw favoriete nummer in als poort.",
             "keepReservedSlotsFree": "Houd gereserveerde slots vrij"
         },
-        "messages": {
-            "editSuccess": "Server succesvol bewerkt."
-        },
         "type": {
             "DISCORD": "Discord",
             "GMOD": "Garry's Mod",
@@ -1061,7 +1001,6 @@
         },
         "messages": {
             "keyCreated": "Nieuwe sleutel gemaakt:",
-            "keyCreateSuccess": "Sleutel succesvol aangemaakt.",
             "keyRevokeSuccess": "Sleutel succesvol ingetrokken."
         }
     },
@@ -1091,7 +1030,6 @@
     },
     "perMonth": "Per maand",
     "_team": {
-        "teamGroupsSuccessfullyEdited": "Team groepen succesvol bewerkt.",
         "title": "Team",
         "editTeam": "Bewerk team"
     },
@@ -1105,7 +1043,6 @@
         "add": "Vraag toevoegen",
         "addQuestionDialog": "Vraag toevoegen",
         "messages": {
-            "editSuccess": "FAQ bijgewerkt",
             "contentEmpty": "Alsjeblieft voeg inhoud toe."
         }
     },
@@ -1113,7 +1050,6 @@
     "icon": "Icoon",
     "category": "Categorie",
     "packet": "Pakket",
-    "settingsSaveSuccess": "Settings successvol opgeslagen",
     "flags": "Vlaggen",
     "disabled": "Gehandicapt",
     "discounts": "Kortingen",
@@ -1127,18 +1063,12 @@
     "requirements": "Vereisten",
     "general": "Algemeen",
     "_creditHistory": {
-        "messages": {
-            "addedTransaction": "Transactie toegevoegd"
-        },
         "addTransaction": "Transactie toevoegen"
     },
     "_authorization": {
         "discord": "Discord",
         "discordOauthClientId": "Klant ID (client ID)",
         "discordBotToken": "Bot Token",
-        "messages": {
-            "editedConfig": "Configuratie aangepast"
-        },
         "redirectUrl": "Omleidings-URL",
         "title": "Authorisatie",
         "discordOauthClientSecret": "Klant geheim (Client secret)"
@@ -1160,7 +1090,6 @@
         "enableEmailNotifications": "Schakel e-mailmeldingen in",
         "noEmailSpecified": "Er is nog geen e-mailadres opgegeven",
         "messages": {
-            "emailUpdated": "E-mail succesvol bijgewerkt",
             "emailNotificationSettingsToggled": "Meldingsinstellingen succesvol bijgewerkt"
         }
     },

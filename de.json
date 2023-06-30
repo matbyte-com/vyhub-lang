@@ -14,9 +14,6 @@
             "endMembership": "Mitgliedschaft beenden",
             "activeMemberships": "Aktive Mitgliedschaften",
             "showPastMemberships": "Inaktive Mitgliedschaften anzeigen"
-        },
-        "messages": {
-            "membershipSuccessfullyAdded": "Mitgliedschaft erfolgreich hinzugefügt"
         }
     },
     "_dashboard": {
@@ -36,7 +33,6 @@
             "last_online": "Zuletzt online"
         },
         "messages": {
-            "adminSuccessfullyRemoved": "Admin erfolgreich entfernt",
             "removeAdminConfirmation": "Vergiss nicht, den ehemaligen Admin auch von der Instanz in der zentralen Instanzübersicht zu entfernen."
         }
     },
@@ -52,9 +48,6 @@
         "backgroundColorDescription": "Farbe wird vom Hintergrundbild überschrieben",
         "darkmode": "Dunkler Modus",
         "communityNameDescription": "Zeigt Community Name im Header an",
-        "messages": {
-            "editedTheme": "Leitmotiv Bearbeitet."
-        },
         "backgroundImageURL": "URL zum Hintergrundbild",
         "logoURL": "URL zum Logo",
         "faviconURL": "URL zum Favicon",
@@ -78,9 +71,7 @@
         },
         "messages": {
             "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}",
-            "banDeleted": "Ban gelöscht",
             "banEdited": "Ban bearbeitet",
-            "banToggled": "Ban status geändert",
             "banAdded": "Ban erstellt"
         },
         "externalProtestUrl": "Externe Entbannungsantrag URL",
@@ -88,9 +79,6 @@
         "vyhubTicketSystem": "VyHub Ticketsystem"
     },
     "_serverbundle": {
-        "messages": {
-            "editSuccess": "Serverbundle erfolgreich bearbeitet."
-        },
         "labels": {
             "createApiKey": "Neuen API Schlüssel erstellen",
             "apiKeys": "Serverbundle API Schlüssel"
@@ -152,16 +140,13 @@
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
             "notEnoughCredits": "Du hast nicht genug Credits, um diesen Kauf zu bezahlen. Bitte wähle eine andere Zahlungsmethode oder kauf mehr Credits.",
-            "addToCartSuccess": "Paket erfolgreich in den Warenkorb hinzugefügt.",
             "removeFromCartSuccess": "Paket erfolgreich aus dem Warenkorb entfernt.",
             "confirmCreditsPayment": "Bitte bestätigen Sie die Zahlung von {credits} Credits.",
-            "couponsEditSuccess": "Coupon erfolgreich bearbeitet.",
             "addToCartError": "Beim Hinzufügen des Pakets zu deinem Warenkorb ist ein Fehler aufgetreten.",
             "cartEmpty": "Dein Warenkorb ist leer.",
             "mustAgree": "Du musst zustimmen, um fortzufahren!",
             "selectGateway": "Bitte wähle deine Zahlungsmethode.",
             "noAddressSpecified": "Adresse noch nicht angegeben.",
-            "clearCartSuccess": "Alle Pakete erfolgreich aus dem Warenkorb entfernt.",
             "couponApplySuccess": "Der Coupon wurde erfolgreich angewendet.",
             "couponRemoveSuccess": "Coupon erfolgreich entfernt.",
             "confirmCouponPayment": "Bitte gib deinen {gateway_name} Code ein. Die Zahlung wird dann manuell von einem Teammitglied genehmigt.",
@@ -220,13 +205,9 @@
         "enabled": "Aktiviert",
         "link": "Link",
         "messages": {
-            "addedLink": "Navigationslink erstellt.",
             "updatedLinkOrder": "Navigationsreihenfolge aktualisiert.",
-            "removedLink": "Navigationslink gelöscht.",
             "editedLink": "Navigationslink bearbeitet.",
-            "cmsDeleted": "HTML-Seite gelöscht.",
             "cmsAdded": "HTML-Seite hinzugefügt.",
-            "cmsEdited": "HTML-Seite bearbeitet.",
             "invalidFileType": "Ungültiger Dateityp."
         },
         "linkTitle": "Title",
@@ -275,7 +256,6 @@
         },
         "messages": {
             "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird, und sind write-only, was bedeutet, dass die Eingabe nicht erneut angezeigt wird.",
-            "deleteSuccess": "Zahlungsmethode erfolgreich gelöscht.",
             "deleteWarning": "Vorsicht! Das Löschen eines Zahlungsgateways bewirkt das Löschen aller Käufe und Zahlungen, bei denen das Gateway verwendet wurde! Diese Aktion kann nicht rückgängig gemacht werden. Vielleicht stattdessen deaktivieren?"
         }
     },
@@ -300,9 +280,6 @@
         },
         "packet_applied": "Paket {packet_title} wurde aktiviert!",
         "browserNotifications": "Browser-Benachrichtigungen",
-        "messages": {
-            "readSuccess": "Lesestatus erfolgreich geändert"
-        },
         "news_new": "Neuigkeit erstellt: {newsSubject}.",
         "ticket_new": "{username} hat ein Ticket erstellt: {title}",
         "ticket_update": "Neuer Beitrag im Ticket: {title}",
@@ -321,9 +298,7 @@
         "banLength": "Dauer des automatischen Banns (Minuten)",
         "reason": "Grund",
         "messages": {
-            "addedWarning": "Verwarnung erstellt.",
             "deletedWarning": "Verwarnung gelöscht.",
-            "toggledWarning": "Verwarnung Status geändert.",
             "editedSettings": "Verwarnungseinstellungen geändert."
         },
         "title": "Verwarnungen",
@@ -359,9 +334,6 @@
         }
     },
     "_server": {
-        "messages": {
-            "editSuccess": "Server erfolgreich bearbeitet."
-        },
         "labels": {
             "unknownStatus": "Status Unbekannt",
             "create": "Server erstellen",
@@ -413,7 +385,6 @@
         "title": "Persönliche Einstellungen",
         "email": "E-Mail",
         "messages": {
-            "emailUpdated": "E-Mail erfolgreich aktualisiert",
             "emailNotificationSettingsToggled": "Benachrichtigungseinstellungen erfolgreich aktualisiert"
         },
         "enableEmailNotifications": "E-Mail Benachrichtigungen aktivieren",
@@ -423,7 +394,6 @@
     "message": "Nachricht",
     "not_available": "Nicht verfügbar",
     "properties": "Eigenschaften",
-    "settingsSaveSuccess": "Einstellungen erfolgreich gespeichert.",
     "unexpectedErrorOccurred": "Es ist ein unerwarteter Fehler aufgetreten.",
     "refresh": "Aktualisieren",
     "example": "Beispiel",
@@ -440,7 +410,6 @@
             "vat_number": "Umsatzsteuer-Identifikationsnummer hinzufügen"
         },
         "messages": {
-            "changeSuccess": "Geschäftsadresse erfolgreich geändert.",
             "noAddressesYet": "Du hast noch keine Adressen."
         }
     },
@@ -485,7 +454,6 @@
         },
         "messages": {
             "sortOnlyWithCategory": "Pakete können nur sortiert werden, wenn eine Kategorie ausgewählt ist.",
-            "editSuccess": "Paket erfolgreich bearbeitet.",
             "customPricePossible": "Der Preis für dieses Paket kann angepasst werden.",
             "deleteWarning": "Vorsicht! Das Löschen eines Pakets löscht auch alle zugehörigen angewendeten Pakete, angewendeten Prämien und Kaufgegenstände. Vielleicht das Paket stattdessen deaktivieren?"
         },
@@ -498,8 +466,7 @@
     "length": "Länge",
     "_home": {
         "messages": {
-            "messageEmpty": "Bitte gib eine Nachricht ein",
-            "addSuccess": "Nachricht erfolgreich hinzugefügt"
+            "messageEmpty": "Bitte gib eine Nachricht ein"
         },
         "messageTypePinned": "Nachricht des Tages",
         "addNews": "Neue Nachricht",
@@ -541,9 +508,7 @@
             "templates": "Vorlagen"
         },
         "messages": {
-            "editSuccess": "Belohnung erfolgreich bearbeitet.",
-            "deleteAppliedRewardSuccess": "Angewendete Prämie erfolgreich gelöscht",
-            "createAppliedRewardSuccess": "Angewendete Prämie erfolgreich hinzugefügt"
+            "deleteAppliedRewardSuccess": "Angewendete Prämie erfolgreich gelöscht"
         },
         "status": {
             "OPEN": "Offen",
@@ -593,17 +558,14 @@
             "thisMonth": "Dieser Monat"
         },
         "messages": {
-            "cancelSubscriptionSuccess": "Abonnement erfolgreich gekündigt.",
             "refundInitSuccess": "Rückerstattung erfolgreich eingeleitet.",
             "revokeSuccess": "Kauf erfolgreich widerrufen.",
             "refreshSuccess": "Die Zahlungsdaten wurden erfolgreich aktualisiert.",
-            "editAppliedPacketSuccess": "Angewendetes Paket erfolgreich bearbeitet.",
             "deleteAppliedPacketSuccess": "Angewandtes Paket erfolgreich gelöscht.",
             "unrevokeSuccess": "Kauf erfolgreich widerrufen.",
             "cancelSubscriptionConfirm": "Möchten Sie dieses Abonnement wirklich kündigen?",
             "deleteConfirm": "Möchten Sie diesen Kauf wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden. Zugehörige angewendete Pakete werden nicht gelöscht.",
             "confirmPurchaseSuccess": "Kauf erfolgreich genehmigt",
-            "createAppliedPacketSuccess": "Angewandtes Paket erfolgreich erstellt.",
             "refundConfirm": "Sind Sie sicher, dass Sie diesen Kauf zurückerstatten möchten?",
             "declinePurchaseSuccess": "Kauf erfolgreich abgebrochen"
         }
@@ -657,9 +619,6 @@
         "showChat": "Chat aktivieren",
         "shopOnly": "Nur Shop Modus",
         "shopOnlyDescription": "Nur Shop und Startseite anzeigen, alle anderen Seiten ausblenden. Andere Seiten und Funktionen können einzeln wieder angeschalten werden.",
-        "messages": {
-            "orderUpdated": "Reihenfolge aktualisiert"
-        },
         "showFirstSteps": "Aktiviere die EInführung (Erste Schritt)",
         "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)"
     },
@@ -739,13 +698,9 @@
             "PACKET": "Paket"
         },
         "messages": {
-            "addedSet": "Berechtigungsset hinzugefügt",
             "addedRequirement": "Vorraussetzung hinzugefügt",
-            "editedSet": "Berechtigungsset bearbeitet",
             "editedRequirement": "Berechtigungsset bearbeitet",
-            "deletedSet": "Berechtigungsset gelöscht",
-            "deletedRequirement": "Vorraussetzung gelöscht",
-            "editedFormula": "Formel editiert"
+            "deletedRequirement": "Vorraussetzung gelöscht"
         },
         "requirementOperator": "Operator",
         "permissionLevel": "Brechtigungsstufe",
@@ -762,9 +717,6 @@
             "allPackets": "Verwendbar für alle Pakete",
             "delete": "Rabatt löschen",
             "maxUsagesPerUser": "Maximale Nutzung pro Benutzer"
-        },
-        "messages": {
-            "editSuccess": "Rabatt erfolgreich bearbeitet."
         }
     },
     "_userLogEntry": {
@@ -800,14 +752,12 @@
         },
         "messages": {
             "keyCreated": "Neuer Schlüssel erstellt:",
-            "keyCreateSuccess": "Schlüssel erfolgreich erstellt.",
             "keyRevokeSuccess": "Schlüssel erfolgreich widerrufen."
         }
     },
     "_team": {
         "title": "Team",
-        "editTeam": "Team bearbeiten",
-        "teamGroupsSuccessfullyEdited": "Team-Gruppen erfolgreich bearbeitet."
+        "editTeam": "Team bearbeiten"
     },
     "every": "Alle",
     "requirements": "Anforderungen",
@@ -903,9 +853,7 @@
     "_group": {
         "isTeamDescription": "Mitglieder der Gruppe werden auf der Team-Seite angezeigt",
         "messages": {
-            "editedGroup": "Gruppe bearbeitet.",
-            "addedGroup": "Gruppe erstellt.",
-            "deletedGroup": "Gruppe entfernt."
+            "addedGroup": "Gruppe erstellt."
         },
         "mappings": {
             "name": "Name der Gruppe/Rolle/Rang auf dem Server"
@@ -920,9 +868,6 @@
         "bundle_edit": "Hinzufügen und Bearbeiten von Serverbundles"
     },
     "_legal": {
-        "messages": {
-            "editedLegal": "Rechtliches bearbeitet."
-        },
         "descriptionText": "In den meisten Ländern ist es zwingend erforderlich, zumindest die Kontaktdaten, Nutzungsbedingungen und eine Datenschutzerklärung des Website-Betreibers anzugeben. Eine beispielhafte Datenschutzerklärung findest du in den Dokumenten.",
         "showLegalReminder": "Bitte setze ein Impressum in den Einstellungen!"
     },
@@ -937,9 +882,6 @@
             "delete": "Paketkategorie löschen",
             "imageDetail": "Eine HTTPS-URL zum Kategoriebild.",
             "edit": "Paketkategorie bearbeiten"
-        },
-        "messages": {
-            "deleteSuccess": "Paketkategorie erfolgreich gelöscht."
         }
     },
     "_property": {
@@ -1024,8 +966,7 @@
         "addQuestionDialog": "Frage hinzufügen",
         "editQuestionDialog": "Frage bearbeiten",
         "messages": {
-            "contentEmpty": "Bitte gib einen Inhalt ein",
-            "editSuccess": "Frage bearbeitet."
+            "contentEmpty": "Bitte gib einen Inhalt ein"
         },
         "title": "FAQ",
         "add": "Frage hinzufügen",
@@ -1049,7 +990,6 @@
             "create": "Steuerregel erstellen"
         },
         "messages": {
-            "deleteSuccess": "Steuerregel erfolgreich gelöscht.",
             "allCountriesDetail": "Leer lassen, um alle Länder zu erfassen.",
             "infoDetail": "Wird während der Kaufabwicklung und auf der Rechnung angezeigt."
         }
@@ -1061,10 +1001,7 @@
         "discordOauthClientId": "Client ID",
         "discordOauthClientSecret": "Client Secret",
         "discordBotToken": "Bot Token",
-        "redirectUrl": "Redirect URL",
-        "messages": {
-            "editedConfig": "Konfiguration bearbeitet"
-        }
+        "redirectUrl": "Redirect URL"
     },
     "_serverDashboard": {
         "selectAUser": "Wähle einen Nutzer, um Details zu sehen.",
@@ -1091,9 +1028,6 @@
         "begin_smaller_end": "Das Anfangsdatum muss nach dem Enddatum liegen."
     },
     "_creditHistory": {
-        "messages": {
-            "addedTransaction": "Transaktion hinzugefügt"
-        },
         "addTransaction": "Transaktion hinzufügen"
     },
     "sales": "Verkäufe",
@@ -1116,9 +1050,6 @@
     "update": "Aktualisieren",
     "_advert": {
         "title": "Ankündigungen",
-        "messages": {
-            "editSuccess": "Anzeige aktualisiert."
-        },
         "add": "Anzeige hinzufügen",
         "formEnabled": "berechtigen",
         "formTitle": "Titel",
@@ -1147,17 +1078,12 @@
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
         "messages": {
-            "categoryDeleteSuccess": "Kategorie erfolgreich gelöscht.",
             "topicCategoryCreated": "Themenkategorie erstellt.",
-            "topicDeleteSuccess": "Thema erfolgreich gelöscht.",
             "updatedOrder": "Reihenfolge aktualisiert.",
             "pinned": "Thread gepinnt.",
-            "toggleStatus": "Status geändert.",
             "topicCreated": "Thema erstellt.",
-            "topicCategoryEdited": "Themenkategorie bearbeitet.",
             "topicEdited": "Thema bearbeitet.",
             "unpinned": "Thread losgelöst.",
-            "addedPost": "Post erstellt.",
             "addedThread": "Thread erstellt."
         },
         "lock": "Sperren",
@@ -1236,9 +1162,6 @@
     "chat": "Chat",
     "global": "Global",
     "_chat": {
-        "messages": {
-            "messageDeleted": "Nachricht erfolgreich gelöscht."
-        },
         "loginRequired": "Anmeldung erforderlich, um den Chat zu nutzen",
         "reconnect": "Verbinden"
     },

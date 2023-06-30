@@ -16,8 +16,7 @@
             "credits": "Crédits"
         },
         "messages": {
-            "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale.",
-            "adminSuccessfullyRemoved": "Administrateur supprimé avec succès"
+            "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale."
         }
     },
     "_theme": {
@@ -32,9 +31,6 @@
         "showCommunityName": "Afficher le nom de la communauté",
         "logoDescription": "Recharger la page si le logo ne s'affiche pas correctement",
         "logoWidth": "Largeur du logo",
-        "messages": {
-            "editedTheme": "Thème édité."
-        },
         "backgroundImageURL": "URL de l'image d'arrière-plan",
         "logoURL": "URL du logo",
         "faviconURL": "URL du favicon",
@@ -88,8 +84,7 @@
     },
     "_home": {
         "messages": {
-            "messageEmpty": "Veuillez entrer un message",
-            "deleteSuccess": "Actualités supprimées avec succès"
+            "messageEmpty": "Veuillez entrer un message"
         },
         "newsOfTheDay": "Actualités du jour",
         "news": "Actualités",
@@ -104,9 +99,7 @@
     "_ban": {
         "messages": {
             "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}",
-            "banAdded": "Bannissement ajouté",
             "banDeleted": "Bannissement supprimé",
-            "banEdited": "Bannissement modifié",
             "banToggled": "Statut du bannissement changé"
         },
         "labels": {
@@ -169,9 +162,7 @@
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} crédits.",
             "couponsEntered": "Votre coupon a été ajouté avec succès. Vous pouvez modifier votre coupon jusqu'à ce que votre achat soit approuvé.",
-            "couponsEditSuccess": "Coupon édité avec succès.",
             "addToCartError": "Une erreur s'est produite lors de l'ajout du paquet à votre panier.",
-            "addToCartSuccess": "Paquet ajouté avec succès au panier.",
             "cartEmpty": "Votre panier est vide.",
             "mustAgree": "Vous devez accepter pour continuer !",
             "startingPaymentFailed": "Une erreur s'est produite lors du paiement. Veuillez réessayer ou utiliser un autre mode de paiement !",
@@ -187,7 +178,6 @@
             "couponNotApplied": "Le coupon n'a pu être appliqué à aucun paquet de votre panier.",
             "includesVAT": "Comprend {tax_rate}% de TVA.",
             "selectEmailFirst": "Veuillez d'abord mettre à jour votre adresse e-mail",
-            "removeFromCartSuccess": "Le paquet a bien été supprimé du panier.",
             "clearCartSuccess": "Suppression réussie de tous les paquets du panier.",
             "confirmCouponPayment": "Veuillez saisir votre code {gateway_name}. Le paiement est ensuite approuvé manuellement par un membre de l'équipe.",
             "notEnoughCredits": "Vous n'avez pas assez de crédits pour payer cet achat. Veuillez choisir un autre mode de paiement ou acheter plus de crédits.",
@@ -225,18 +215,12 @@
             "activeMemberships": "Adhésions actives",
             "endMembership": "Mettre fin à l'adhésion",
             "showPastMemberships": "Afficher les anciennes adhésions"
-        },
-        "messages": {
-            "membershipSuccessfullyAdded": "Adhésion ajoutée avec succès"
         }
     },
     "_serverbundle": {
         "labels": {
             "createApiKey": "Créer une nouvelle clé API",
             "apiKeys": "Clés API Offre groupée de serveurs"
-        },
-        "messages": {
-            "deleteSuccess": "Le groupe de serveurs a bien été supprimé."
         }
     },
     "_login": {
@@ -247,9 +231,7 @@
     },
     "_group": {
         "messages": {
-            "addedGroup": "Groupe créé.",
-            "deletedGroup": "Groupe supprimé.",
-            "editedGroup": "Groupe édité."
+            "deletedGroup": "Groupe supprimé."
         },
         "isTeam": "L'équipe",
         "isTeamDescription": "Les membres du groupe seront affichés sur la page de l'équipe",
@@ -314,22 +296,15 @@
         }
     },
     "_legal": {
-        "messages": {
-            "editedLegal": "Légal édité."
-        },
         "showLegalReminder": "Veuillez définir les informations légales dans les paramètres !",
         "descriptionText": "Dans la plupart des pays, il est obligatoire d'avoir au moins les coordonnées des opérateurs du site Web, les conditions d'utilisation et une politique de confidentialité. Vous pouvez trouver un exemple de politique de confidentialité dans la documentation."
     },
     "_navigation": {
         "title": "Navigation",
         "messages": {
-            "addedLink": "Lien de navigation créé.",
             "updatedLinkOrder": "Ordre de navigation mis à jour.",
-            "removedLink": "Lien de navigation supprimé.",
             "editedLink": "Lien de navigation modifié.",
-            "cmsEdited": "Page HTML modifiée.",
-            "cmsDeleted": "Page HTML supprimée.",
-            "cmsAdded": "Page HTML ajoutée."
+            "cmsDeleted": "Page HTML supprimée."
         },
         "linkTitle": "Titre",
         "enabled": "Activé",
@@ -373,7 +348,6 @@
             "selectAddress": "Sélectionnez l'adresse"
         },
         "messages": {
-            "addSuccess": "Nouvelle adresse ajoutée avec succès.",
             "noAddressesYet": "Vous n'avez pas encore d'adresse."
         }
     },
@@ -422,7 +396,6 @@
         },
         "messages": {
             "sortOnlyWithCategory": "Les paquets ne peuvent être triés que si une catégorie est sélectionnée.",
-            "editSuccess": "Paquet édité avec succès.",
             "deleteWarning": "Attention ! Supprimer un paquet, supprime également tous les paquets liés déjà appliqués, les récompenses, les items achetés. Ne voulez-vous pas plutôt désactiver le paquet ?",
             "customPricePossible": "Le prix de ce paquet peut être personnalisé."
         },
@@ -437,9 +410,6 @@
             "edit": "Modifier la catégorie de paquets",
             "delete": "Supprimer la catégorie de paquets",
             "imageDetail": "Une URL HTTPS vers l'image de catégorie."
-        },
-        "messages": {
-            "editSuccess": "La catégorie de paquet a été modifiée avec succès."
         }
     },
     "_reward": {
@@ -473,9 +443,7 @@
             "FAILED": "raté"
         },
         "messages": {
-            "editSuccess": "Récompense modifiée avec succès.",
-            "createAppliedRewardSuccess": "Récompense appliquée ajoutée avec succès",
-            "deleteAppliedRewardSuccess": "Récompense appliquée supprimée avec succès"
+            "createAppliedRewardSuccess": "Récompense appliquée ajoutée avec succès"
         }
     },
     "_purchases": {
@@ -511,14 +479,11 @@
             "reward": "Récompense"
         },
         "messages": {
-            "cancelSubscriptionSuccess": "Abonnement annulé avec succès.",
             "refundInitSuccess": "Remboursement fait avec succès.",
             "revokeSuccess": "Achat révoqué avec succès.",
             "refreshSuccess": "Les données de paiement ont été actualisées avec succès.",
             "unrevokeSuccess": "Achat réussi non révoqué.",
-            "editAppliedPacketSuccess": "Le paquet appliqué a été modifié avec succès.",
             "deleteAppliedPacketSuccess": "Paquet appliqué supprimé avec succès.",
-            "createAppliedPacketSuccess": "Paquet appliqué créé avec succès.",
             "refundConfirm": "Êtes-vous sûr de vouloir rembourser cet achat ?",
             "declinePurchaseSuccess": "Achat annulé avec succès",
             "confirmPurchaseSuccess": "Achat approuvé avec succès",
@@ -563,13 +528,9 @@
             "NHAVE": "Ne pas avoir"
         },
         "messages": {
-            "addedSet": "Ensemble d'exigences ajouté",
             "editedSet": "Ensemble d'exigences modifié",
-            "addedRequirement": "Exigence supplémentaire",
             "editedRequirement": "Ensemble d'exigences modifié",
-            "deletedSet": "Ensemble d'exigences supprimé",
-            "deletedRequirement": "Exigence supprimée",
-            "editedFormula": "Formule modifiée"
+            "deletedRequirement": "Exigence supprimée"
         }
     },
     "_gateway": {
@@ -587,7 +548,6 @@
             "clientCertDescription": "Un certificat client et une clé sont utilisés comme méthode d'authentification pour l'API paysafecard. Contactez le support paysafecard pour en obtenir un."
         },
         "messages": {
-            "deleteSuccess": "Passerelle de paiement supprimée avec succès.",
             "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée.",
             "deleteWarning": "Attention ! Supprimer une passerelle de paiement provoque la suppression de tous les achats et paiements utilisés par la passerelle de paiement. Cette action ne peut pas être annulée. Ne voulez-vous pas plutôt la désactiver ?"
         }
@@ -598,7 +558,6 @@
             "create": "Créer une règle fiscale"
         },
         "messages": {
-            "deleteSuccess": "Règle fiscale supprimée avec succès.",
             "allCountriesDetail": "Laissez vide pour cibler tous les pays.",
             "infoDetail": "Seront affichés lors du paiement et sur la facture."
         }
@@ -610,9 +569,6 @@
             "allPackets": "Utilisable pour tous les paquets",
             "delete": "Supprimer la remise",
             "maxUsagesPerUser": "Utilisation maximale par utilisateur"
-        },
-        "messages": {
-            "editSuccess": "Remise éditée avec succès."
         }
     },
     "_userLogEntry": {
@@ -635,9 +591,6 @@
             "ticket": "Billet",
             "shop": "Boutique",
             "warning": "Avertissement"
-        },
-        "messages": {
-            "readSuccess": "État de lecture basculé avec succès"
         },
         "news_new": "Actualités créées : {newsSubject}.",
         "ticket_new": "{username} a créé le ticket : {title}",
@@ -689,9 +642,7 @@
         "reason": "Raison",
         "showUserWarnings": "Affichage des avertissements de l'utilisateur avec l'ID : {id}",
         "messages": {
-            "addedWarning": "Avertissement créé.",
             "deletedWarning": "Avertissement supprimé.",
-            "toggledWarning": "Statut d'avertissement basculé.",
             "editedSettings": "Paramètres d'avertissement modifiés."
         }
     },
@@ -709,9 +660,6 @@
             "discordApplicationIdNeeded": "Créer une application Discord.",
             "setup": "Configurer le serveur",
             "details": "Détails du serveur"
-        },
-        "messages": {
-            "editSuccess": "Serveur modifié avec succès."
         },
         "type": {
             "DISCORD": "Discord",
@@ -752,7 +700,6 @@
         },
         "messages": {
             "keyCreated": "Nouvelle clé créée :",
-            "keyCreateSuccess": "Clé créée avec succès.",
             "keyRevokeSuccess": "Clé révoquée avec succès."
         }
     },
@@ -762,15 +709,13 @@
         "enableEmailNotifications": "Activer les notifications par e-mail",
         "noEmailSpecified": "Aucun e-mail spécifié pour le moment",
         "messages": {
-            "emailUpdated": "E-mail mis à jour avec succès",
             "emailNotificationSettingsToggled": "Paramètres de notification mis à jour avec succès"
         },
         "email": "Email"
     },
     "_team": {
         "title": "L'Équipe",
-        "editTeam": "Modifier l'équipe",
-        "teamGroupsSuccessfullyEdited": "Les groupes d'équipe ont bien été modifiés."
+        "editTeam": "Modifier l'équipe"
     },
     "_import": {
         "messages": {
@@ -799,9 +744,6 @@
     "_authorization": {
         "title": "Autorisation",
         "redirectUrl": "URL de redirection",
-        "messages": {
-            "editedConfig": "Configuration modifiée"
-        },
         "discord": "Discord",
         "discordOauthClientId": "ID du client",
         "discordOauthClientSecret": "Clé secrète du client",
@@ -901,7 +843,6 @@
     "price": "Prix",
     "address": "Adresse",
     "command": "Commande",
-    "settingsSaveSuccess": "Paramètres enregistrés avec succès.",
     "port": "Port",
     "flags": "Drapeaux",
     "disabled": "Désactivé",
@@ -971,7 +912,6 @@
         "add": "Ajouter une question",
         "editQuestionDialog": "Modifier une question",
         "messages": {
-            "editSuccess": "Question FAQ modifiée.",
             "contentEmpty": "Veuillez saisir du contenu"
         },
         "addQuestionDialog": "Ajouter une question",
@@ -981,9 +921,6 @@
     },
     "_advert": {
         "add": "Ajouter une annonce",
-        "messages": {
-            "editSuccess": "Annonce modifiée."
-        },
         "title": "Annonces",
         "formTitle": "Titre",
         "formContent": "Contenu",
@@ -1059,9 +996,6 @@
         }
     },
     "_creditHistory": {
-        "messages": {
-            "addedTransaction": "Transcription ajoutée"
-        },
         "addTransaction": "Ajouter une transcription"
     },
     "subcategory": "Sous-catégorie",
@@ -1083,18 +1017,12 @@
         "noTickets": "Vous n'avez pas encore créé de tickets.",
         "messages": {
             "pinned": "Fil épinglé.",
-            "addedPost": "Post créé.",
             "deleteSuccess": "Supprimé avec succès.",
             "unpinned": "Fil désépinglé.",
-            "topicCreated": "Sujet créé.",
             "topicCategoryEdited": "Catégorie de sujet modifiée.",
-            "topicEdited": "Sujet édité.",
             "categoryDeleteSuccess": "Catégorie supprimée avec succès.",
-            "updatedOrder": "Ordre du forum mis a jour.",
             "toggleStatus": "Statut basculé.",
-            "addedThread": "Fil créé.",
-            "topicCategoryCreated": "Catégorie de sujet créée.",
-            "topicDeleteSuccess": "Sujet supprimée avec succès."
+            "topicCategoryCreated": "Catégorie de sujet créée."
         },
         "threadLocked": "Fil verrouillé",
         "manageTopicCategories": "Gérer les catégories de sujets",

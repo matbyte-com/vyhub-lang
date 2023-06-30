@@ -13,9 +13,6 @@
             "edit": "Editar membresía de grupo",
             "activeMemberships": "Membresías activas",
             "endMembership": "Terminar membresía"
-        },
-        "messages": {
-            "membershipSuccessfullyAdded": "Membresía agregada con éxito"
         }
     },
     "_dashboard": {
@@ -32,7 +29,6 @@
             "removeAdminTitle": "¿Quitar administrador?"
         },
         "messages": {
-            "adminSuccessfullyRemoved": "Administrador eliminado con éxito",
             "removeAdminConfirmation": "No olvide eliminar al administrador anterior de la instancia en la descripción general de su instancia central."
         }
     },
@@ -57,9 +53,6 @@
         "labels": {
             "apiKeys": "Claves API del paquete de servidor",
             "createApiKey": "Crear nueva clave API"
-        },
-        "messages": {
-            "deleteSuccess": "Serverbundle eliminado con éxito."
         }
     },
     "_login": {
@@ -77,9 +70,6 @@
         "darkmode": "Modo oscuro",
         "communityNameDescription": "Muestra el nombre de la comunidad en el encabezado",
         "logoWidth": "Ancho del logotipo",
-        "messages": {
-            "editedTheme": "Tema editado."
-        },
         "backgroundColorDescription": "El color se sobrescribe con la imagen de fondo",
         "showCommunityName": "Mostrar nombre de la comunidad",
         "logoDescription": "Recargar página si el logotipo no se muestra correctamente"
@@ -126,9 +116,7 @@
     },
     "_group": {
         "messages": {
-            "addedGroup": "Grupo creado.",
-            "deletedGroup": "Grupo eliminado.",
-            "editedGroup": "Grupo editado."
+            "deletedGroup": "Grupo eliminado."
         },
         "isTeam": "es equipo",
         "mappings": {

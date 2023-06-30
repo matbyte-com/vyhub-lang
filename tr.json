@@ -38,10 +38,7 @@
         "warningColor": "Uyarı Rengi",
         "communityNameDescription": "Topluluk adını başlıkta görüntüler",
         "logoDescription": "Logo doğru görüntülenmiyorsa Sayfayı yeniden yükle",
-        "logoWidth": "Logo Genişliği",
-        "messages": {
-            "editedTheme": "Tema düzenlendi."
-        }
+        "logoWidth": "Logo Genişliği"
     },
     "_settings": {
         "imageUrl": "Resim URL'si",
@@ -71,9 +68,6 @@
             "edit": "Grup Üyeliğini Düzenle",
             "activeMemberships": "Aktif Üyelikler",
             "showPastMemberships": "Geçmiş üyelikleri göster"
-        },
-        "messages": {
-            "membershipSuccessfullyAdded": "Üyelik başarıyla eklendi"
         }
     },
     "_dashboard": {
@@ -95,7 +89,6 @@
             "membershipEndDescription": "Sınırsız süre boş bırakın"
         },
         "messages": {
-            "adminSuccessfullyRemoved": "Yönetici başarıyla kaldırıldı",
             "removeAdminConfirmation": "Merkezi örneğinize genel bakışınızda eski yöneticiyi örnekten kaldırmayı unutmayın."
         }
     },
@@ -115,10 +108,8 @@
             "bundleDescription": "Küresel yasak için boş bırakın"
         },
         "messages": {
-            "banToggled": "Yasak durumu değiştirildi",
             "banEdited": "Yasak düzenlendi",
             "showingUserBans": "Kimliği olan kullanıcının yasaklarını gösterme: {id}",
-            "banAdded": "Yasak oluşturuldu",
             "banDeleted": "Yasak silindi"
         },
         "externalProtestUrlDescription": "VyHub bilet sistemi için boş bırakın veya harici siteye yönlendirmek için bağlantı girin.",
