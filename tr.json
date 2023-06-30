@@ -1,1 +1,140 @@
-{}
+{
+    "_header": {
+        "labels": {
+            "logout": "Çıkış Yap",
+            "login": "Giriş Yap",
+            "register": "Kayıt Ol",
+            "close": "kapalı"
+        }
+    },
+    "_invoice": {
+        "invoice": "Fatura",
+        "invoiceDate": "Fatura Tarihi",
+        "deliveryDate": "Teslim Tarihi",
+        "vatNumber": "KDV Numarası",
+        "paymentMethod": "Ödeme yöntemi",
+        "item": "Eşya",
+        "vat": "KDV",
+        "total": "Toplam",
+        "subtotalNoVat": "Alt Toplam (KDV hariç)",
+        "refund": "Geri ödeme",
+        "transaction": "İşlem",
+        "quantity": "Miktar",
+        "price": "Fiyat"
+    },
+    "_theme": {
+        "successColor": "Renk Başarılı",
+        "errorColor": "Hata Rengi",
+        "logoURL": "Logo URL'si",
+        "faviconURL": "Favicon URL'si",
+        "headerColor": "Üstbilgi ve Altbilgi Rengi",
+        "darkmode": "Karanlık mod",
+        "backgroundImageURL": "Arka Plan Resmi URL'si",
+        "showCommunityName": "Topluluk Adını Göster",
+        "backgroundColor": "Arka Plan Rengi",
+        "backgroundColorDescription": "Rengin üzerine arka plan resmi yazılır",
+        "primaryColor": "Ana Renk",
+        "secondaryColor": "İkincil Renk",
+        "warningColor": "Uyarı Rengi",
+        "communityNameDescription": "Topluluk adını başlıkta görüntüler",
+        "logoDescription": "Logo doğru görüntülenmiyorsa Sayfayı yeniden yükle",
+        "logoWidth": "Logo Genişliği",
+        "messages": {
+            "editedTheme": "Tema düzenlendi."
+        }
+    },
+    "_settings": {
+        "imageUrl": "Resim URL'si",
+        "contentEmpty": "İçerik boş",
+        "httpPlaceholder": "https://myurl.com",
+        "addRequirement": "Gereksinim Ekle",
+        "permissionLevel": "İzin Düzeyi",
+        "membercount": "Üyeler",
+        "gameserver": "Oyun Sunucusu",
+        "backgroundColorDescription": "Arka plan resmi arka plan renginin üzerine yazar",
+        "logicFormula": "Mantıksal Formül",
+        "formulaTypeError": "Kullanılan tüm Kimliklerin mevcut olup olmadığını kontrol edin",
+        "defaultGroup": "Varsayılan Grup",
+        "multigroup": "Birden Çok Grup",
+        "totalUsers": "Toplam Kullanıcı Sayısı: ",
+        "addRequirementSet": "Gereksinim Kümesi Ekle",
+        "editRequirementSet": "Gereksinim Kümesini Düzenle",
+        "multigroupDescription": "Kullanıcılar bu pakette aynı anda birden fazla gruba üye olabilir.",
+        "formulaError": "Formül geçerli değil - ek bilgi için konsolu kontrol edin",
+        "editFormula": "Formülü Düzenle",
+        "formula": "Formül"
+    },
+    "_membership": {
+        "labels": {
+            "add": "Grup Üyeliği Ekle",
+            "endMembership": "Üyeliği Sonlandır",
+            "edit": "Grup Üyeliğini Düzenle",
+            "activeMemberships": "Aktif Üyelikler",
+            "showPastMemberships": "Geçmiş üyelikleri göster"
+        },
+        "messages": {
+            "membershipSuccessfullyAdded": "Üyelik başarıyla eklendi"
+        }
+    },
+    "_dashboard": {
+        "labels": {
+            "linkNewAccount": "yeni Hesabı Bağla",
+            "groupMemberships": "Grup Üyelikleri",
+            "bansAndWarnings": "Yasaklar ve Uyarılar",
+            "userLog": "Kullanıcı Günlüğü",
+            "admin": "Yönetici",
+            "activeProperties": "Aktif Özellikler",
+            "credits": "Krediler",
+            "removeAdminTitle": "Yönetici kaldırılsın mı?",
+            "unlinkAccount": "Hesabın Bağlantısını Kaldır",
+            "unlinkAccountWarning": "Bir kullanıcı bağlantısını silmek hesapların bağlantısını kaldıracaktır. Yönetici Durumu, Yasaklar, Uyarılar, Satın Alımlar, Uygulanan Paketler ve Krediler bundan etkilenir ve beklediğiniz şekilde ele alınmayabilir. Her şeyin yolunda olduğundan emin olmak için daha sonra kontrol edin.",
+            "title": "{usr}",
+            "linkedAccounts": "Bağlantılı Hesaplar",
+            "registered_on": "Üzerinde kayıtlı",
+            "last_online": "Son çevrimiçi",
+            "membershipEndDescription": "Sınırsız süre boş bırakın"
+        },
+        "messages": {
+            "adminSuccessfullyRemoved": "Yönetici başarıyla kaldırıldı",
+            "removeAdminConfirmation": "Merkezi örneğinize genel bakışınızda eski yöneticiyi örnekten kaldırmayı unutmayın."
+        }
+    },
+    "_ban": {
+        "labels": {
+            "title": "Yasaklar",
+            "details": "Banka Bilgileri",
+            "unban": "Yasağı Kaldır",
+            "edit": "Yasağı Düzenle",
+            "protestBan": "Protesto Yasağı",
+            "banProtests": "Protestolar",
+            "add": "Yasak Ekle",
+            "lengthInMinutes": "Uzunluk (dakika olarak)",
+            "reban": "Tekrardan Yasakla",
+            "unbanned": "Yasaklanmamış",
+            "infiniteBandDescription": "Ömür boyu yasak için boş bırakın",
+            "bundleDescription": "Küresel yasak için boş bırakın"
+        },
+        "messages": {
+            "banToggled": "Yasak durumu değiştirildi",
+            "banEdited": "Yasak düzenlendi",
+            "showingUserBans": "Kimliği olan kullanıcının yasaklarını gösterme: {id}",
+            "banAdded": "Yasak oluşturuldu",
+            "banDeleted": "Yasak silindi"
+        },
+        "externalProtestUrlDescription": "VyHub bilet sistemi için boş bırakın veya harici siteye yönlendirmek için bağlantı girin.",
+        "externalProtestUrl": "Dış yasaklama protesto URL'si",
+        "vyhubTicketSystem": "VyHub Bilet Sistemi"
+    },
+    "_serverbundle": {
+        "labels": {
+            "apiKeys": "Sunucu paketi API Anahtarları",
+            "createApiKey": "Yeni API anahtarı oluştur"
+        }
+    },
+    "_login": {
+        "messages": {
+            "loginSuccess": "Başarıyla giriş yapıldı.",
+            "loginError": "Oturum açarken hata oluştu."
+        }
+    }
+}
