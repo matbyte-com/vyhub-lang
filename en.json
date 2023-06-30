@@ -29,9 +29,6 @@
             "endMembership": "End Membership",
             "activeMemberships": "Active Memberships",
             "showPastMemberships": "Show past memberships"
-        },
-        "messages": {
-            "membershipSuccessfullyAdded": "Membership successfully added"
         }
     },
     "_dashboard": {
@@ -53,7 +50,6 @@
             "credits": "Credits"
         },
         "messages": {
-            "adminSuccessfullyRemoved": "Admin successfully removed",
             "removeAdminConfirmation": "Do not forget to remove the former admin from the instance in your central instance overview."
         }
     },
@@ -76,11 +72,7 @@
             "banProtests": "Protests"
         },
         "messages": {
-            "showingUserBans": "Showing bans of user with ID: {id}",
-            "banAdded": "Ban created",
-            "banDeleted": "Ban deleted",
-            "banEdited": "Ban edited",
-            "banToggled": "Ban status toggled"
+            "showingUserBans": "Showing bans of user with ID: {id}"
         }
     },
     "_serverbundle": {
@@ -111,10 +103,7 @@
         "communityNameDescription": "Displays community name in header",
         "logoDescription": "Reload Page if logo is not displayed correctly",
         "logoWidth": "Logo Width",
-        "faviconURL": "Favicon URL",
-        "messages": {
-            "editedTheme": "Theme edited."
-        }
+        "faviconURL": "Favicon URL"
     },
     "_settings": {
         "permissionLevel": "Permission Level",
@@ -167,9 +156,6 @@
             "addServer": "Add Server",
             "updateOrder": "Update Order",
             "resetOrder": "Reset Order"
-        },
-        "messages": {
-            "orderUpdated": "Order updated"
         }
     },
     "_group": {
@@ -177,11 +163,6 @@
         "maxBanLengthInDaysDescription": "Leave empty for infinitive bans",
         "mappings": {
             "name": "Name of the group/rank/role on the server"
-        },
-        "messages": {
-            "addedGroup": "Group created.",
-            "deletedGroup": "Group deleted.",
-            "editedGroup": "Group edited."
         },
         "isTeam": "Is Team",
         "isTeamDescription": "Members of group will be shown on the team page"
@@ -242,10 +223,8 @@
             "confirmCreditsPayment": "Please confirm the payment of {credits} credits.",
             "confirmCouponPayment": "Please enter your {gateway_name} code. The payment is then manually approved by a team member.",
             "couponsEntered": "Your coupon was successfully added. You can edit your coupon until your purchase got approved.",
-            "couponsEditSuccess": "Coupon successfully edited.",
             "notEnoughCredits": "You do not have enough credits to pay this purchase. Please choose a different payment method or buy more credits.",
             "addToCartError": "An error occurred while adding the packet to your cart.",
-            "addToCartSuccess": "Packet successfully added to cart.",
             "cartEmpty": "Your cart is empty.",
             "mustAgree": "You must agree to continue!",
             "startingPaymentFailed": "There was an error while initiating the payment. Please try again or use an other payment method!",
@@ -253,8 +232,6 @@
             "selectGateway": "Please select your payment method.",
             "noOngoingPurchase": "There is currently no ongoing purchase. Please start the checkout in the cart.",
             "noAddressSpecified": "Address not specified yet.",
-            "removeFromCartSuccess": "Packet successfully removed from cart.",
-            "clearCartSuccess": "Successfully removed all packets from cart.",
             "paymentCancelled": "This payment has been cancelled. You can try it again by visiting your shopping cart.",
             "paymentSuccess": "The payment has been finished successfully. The purchased packets have been assigned to your account.",
             "paymentFailed": "An error occurred during the payment process. Please try to restart the process.",
@@ -339,21 +316,11 @@
         }
     },
     "_legal": {
-        "messages": {
-            "editedLegal": "Legal edited."
-        },
         "descriptionText": "In most countries it is mandatory to have at least the website operators contact details, terms of use and a privacy policy. You can find an example privacy policy in the docs.",
         "showLegalReminder": "Please set legal information in the settings!"
     },
     "_navigation": {
         "messages": {
-            "addedLink": "Navigation link created.",
-            "updatedLinkOrder": "Navigation order updated.",
-            "removedLink": "Navigation link deleted.",
-            "editedLink": "Navigation link edited.",
-            "cmsAdded": "Html page added.",
-            "cmsEdited": "Html page edited.",
-            "cmsDeleted": "Html page deleted.",
             "invalidFileType": "Invalid file type."
         },
         "_location": {
@@ -506,10 +473,6 @@
             "OPEN": "Open",
             "EXECUTED": "Executed",
             "FAILED": "Failed"
-        },
-        "messages": {
-            "createAppliedRewardSuccess": "Applied reward successfully added",
-            "deleteAppliedRewardSuccess": "Applied reward successfully deleted"
         }
     },
     "_purchases": {
@@ -554,14 +517,10 @@
             "reward": "Reward"
         },
         "messages": {
-            "cancelSubscriptionSuccess": "Subscription successfully cancelled.",
             "refundInitSuccess": "Refund successfully initiated.",
             "revokeSuccess": "Purchase successfully revoked.",
             "refreshSuccess": "Payment data successfully refreshed.",
             "unrevokeSuccess": "Purchase successfully unrevoked.",
-            "editAppliedPacketSuccess": "Applied packet successfully edited.",
-            "deleteAppliedPacketSuccess": "Applied packet successfully deleted.",
-            "createAppliedPacketSuccess": "Applied packet successfully created.",
             "refundConfirm": "Are you sure that you want to refund this purchase?",
             "deleteConfirm": "Are you sure that you want to delete this purchase? This action can't be undone. Related applied packets will not be deleted.",
             "cancelSubscriptionConfirm": "Are you sure that you want to cancel this subscription?",
@@ -618,15 +577,6 @@
             "ONLY_INACTIVE": "Only Active",
             "HAVE": "Have",
             "NHAVE": "Have Not"
-        },
-        "messages": {
-            "addedSet": "Added Requirement Set",
-            "editedSet": "Edited Requirement Set",
-            "addedRequirement": "Added Requirement",
-            "editedRequirement": "Edited Requirement Set",
-            "deletedSet": "Deleted Requirement Set",
-            "deletedRequirement": "Deleted Requirement",
-            "editedFormula": "Edited Formula"
         }
     },
     "_gateway": {
@@ -690,9 +640,6 @@
             "shop": "Shop",
             "warning": "Warning"
         },
-        "messages": {
-            "readSuccess": "Successfully toggled read status"
-        },
         "news_new": "News created: {newsSubject}.",
         "ticket_new": "{username} created ticket: {title}",
         "ticket_update": "New post in ticket: {title}",
@@ -739,13 +686,7 @@
         "add": "Add Warning",
         "banLength": "Length of automatic ban (minutes)",
         "reason": "Reason",
-        "showUserWarnings": "Showing warnings of user with ID: {id}",
-        "messages": {
-            "addedWarning": "Warning created.",
-            "deletedWarning": "Warning deleted.",
-            "toggledWarning": "Warning status toggled.",
-            "editedSettings": "Warning settings edited."
-        }
+        "showUserWarnings": "Showing warnings of user with ID: {id}"
     },
     "_server": {
         "labels": {
@@ -805,9 +746,7 @@
             "limitToServerbundle": "Limit to Serverbundle"
         },
         "messages": {
-            "keyCreated": "Created new key:",
-            "keyCreateSuccess": "Key successfully created.",
-            "keyRevokeSuccess": "Key successfully revoked."
+            "keyCreated": "Created new key:"
         }
     },
     "_personalSettings": {
@@ -815,16 +754,11 @@
         "email": "Email",
         "emailNotifications": "Email Notifications",
         "enableEmailNotifications": "Enable email notifications",
-        "noEmailSpecified": "No email specified yet",
-        "messages": {
-            "emailUpdated": "Email successfully updated",
-            "emailNotificationSettingsToggled": "Notification Settings successfully updated"
-        }
+        "noEmailSpecified": "No email specified yet"
     },
     "_team": {
         "title": "Team",
-        "editTeam": "Edit Team",
-        "teamGroupsSuccessfullyEdited": "Team groups successfully edited."
+        "editTeam": "Edit Team"
     },
     "_import": {
         "messages": {
@@ -856,20 +790,14 @@
         "discordOauthClientId": "Client ID",
         "discordOauthClientSecret": "Client Secret",
         "discordBotToken": "Bot Token",
-        "redirectUrl": "Redirect URL",
-        "messages": {
-            "editedConfig": "Config edited"
-        }
+        "redirectUrl": "Redirect URL"
     },
     "_serverDashboard": {
         "noUsersFound": "No users found.",
         "selectAUser": "Select a user to see details."
     },
     "_creditHistory": {
-        "addTransaction": "Add Transaction",
-        "messages": {
-            "addedTransaction": "Transaction added"
-        }
+        "addTransaction": "Add Transaction"
     },
     "_faq": {
         "title": "FAQ",
@@ -945,18 +873,8 @@
             "closed": "closed"
         },
         "messages": {
-            "topicCategoryCreated": "Topic category created.",
-            "topicCreated": "Topic created.",
-            "topicCategoryEdited": "Topic category edited.",
-            "topicEdited": "Topic edited.",
-            "categoryDeleteSuccess": "Category successfully deleted.",
-            "topicDeleteSuccess": "Topic successfully deleted.",
-            "updatedOrder": "Forum order updated.",
             "pinned": "Thread pinned.",
-            "unpinned": "Thread unpinned.",
-            "addedPost": "Post created.",
-            "toggleStatus": "Status toggled.",
-            "addedThread": "Thread created."
+            "unpinned": "Thread unpinned."
         }
     },
     "_advert": {
@@ -1047,10 +965,7 @@
     },
     "_chat": {
         "loginRequired": "Login required to use the chat",
-        "reconnect": "Reconnect",
-        "messages": {
-            "messageDeleted": "Message successfully deleted."
-        }
+        "reconnect": "Reconnect"
     },
     "_firstSteps": {
         "firstSteps": "First Steps",
@@ -1073,7 +988,12 @@
         "addSuccess": "Successfully added.",
         "createSuccess": "Successfully created.",
         "deleteSuccess": "Successfully deleted.",
-        "editSuccess": "Successfully edited."
+        "removeSuccess": "Successfully removed.",
+        "cancelSuccess": "Successfully cancelled.",
+        "editSuccess": "Successfully edited.",
+        "updateSuccess": "Successfully updated.",
+        "updateOrderSuccess": "Successfully updated order.",
+        "toggleSuccess": "Successfully toggled."
     },
     "update": "Update",
     "recurring": "Recurring",
@@ -1195,7 +1115,6 @@
     "address": "Address",
     "command": "Command",
     "script": "Script",
-    "settingsSaveSuccess": "Settings successfully saved.",
     "port": "Port",
     "flags": "Flags",
     "disabled": "Disabled",
