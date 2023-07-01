@@ -742,6 +742,7 @@
         "gmodDescription": "VyHub supports Garry's Mod, the famous physics sandbox.",
         "minecraftDescription": "VyHub supports Minecraft, the most-played survival sandbox game. Currently this plugins requires Java >= 17 and Minecraft >= 1.13.",
         "discordDescription": "VyHub supports Discord, the free voice, video and text chat app.",
+        "supportedMods": "Supported Mods",
         "teamspeakDescription": "VyHub supports TeamSpeak, the voice chat where you are in full control.",
         "_features": {
             "bans": "Bans and time-bans",
