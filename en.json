@@ -146,6 +146,7 @@
         "showFirstSteps": "Enable tutorial (first-steps)",
         "showFirstStepsDescription": "First steps tutorial in bottom right. (Admins only)",
         "googleAnalyticsTagDescription": "[Optional] for your Google Analytics use",
+        "requirementSetTest": "Test requirement set against user",
         "labels": {
             "title": "Settings",
             "groupSettings": "Groupsettings",
@@ -1177,5 +1178,6 @@
     "rawHtml": "Raw HTML",
     "required": "Required",
     "time": "Time",
-    "show": "Show"
+    "show": "Show",
+    "test": "Test"
 }
