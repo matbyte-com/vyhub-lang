@@ -91,7 +91,6 @@
         },
         "messages": {
             "showingUserBans": "Verbanningen van gebruikers met ID weergeven: {id}",
-            "banDeleted": "Verbod verwijderd",
             "banToggled": "Status van verbod omgeschakeld"
         }
     },
@@ -167,9 +166,6 @@
     "_group": {
         "mappings": {
             "name": "Naam van de groep/rang/rol op de server"
-        },
-        "messages": {
-            "deletedGroup": "Groep verwijderd."
         },
         "isTeam": "Is Team",
         "isTeamDescription": "Leden van de groep worden weergegeven op de teampagina"
@@ -336,9 +332,7 @@
     },
     "_navigation": {
         "messages": {
-            "addedLink": "Navigatielink gemaakt.",
-            "removedLink": "Navigatielink verwijderd.",
-            "cmsEdited": "Html pagina bewerkt."
+            "removedLink": "Navigatielink verwijderd."
         },
         "_location": {
             "header": "Kopstuk",
@@ -385,9 +379,6 @@
             "zip_code": "Postcode",
             "vat_number": "Btw nummer",
             "selectAddress": "Selecteer adress"
-        },
-        "messages": {
-            "noAddressesYet": "U heeft nog geen adressen."
         }
     },
     "_packet": {
@@ -444,9 +435,6 @@
         }
     },
     "_reward": {
-        "messages": {
-            "deleteSuccess": "Beloning succesvol bewerkt."
-        },
         "labels": {
             "checkForReplacements": "Controleer de documenten voor beschikbare soorten beloningen en stringvervangingen",
             "addAppliedReward": "Voeg toegepaste beloning toe",
@@ -515,7 +503,6 @@
             "revokeSuccess": "Aankoop succesvol herroepen.",
             "refreshSuccess": "Betalingsgegevens succesvol vernieuwd.",
             "unrevokeSuccess": "Aankoop succesvol ongedaan gemaakt.",
-            "deleteAppliedPacketSuccess": "Toegepast pakket succesvol verwijderd.",
             "deleteConfirm": "Weet u zeker dat u deze aankoop wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt. Gerelateerde toegepaste pakketten worden niet verwijderd.",
             "cancelSubscriptionConfirm": "Weet je zeker dat je dit abonnement wilt opzeggen?",
             "confirmPurchaseSuccess": "Aankoop succesvol goedgekeurd",
@@ -524,9 +511,7 @@
     },
     "_requirement": {
         "messages": {
-            "addedSet": "Toegevoegd",
-            "addedRequirement": "Vereiste toegevoegd",
-            "deletedSet": "Vereistenset verwijderd"
+            "addedRequirement": "Vereiste toegevoegd"
         },
         "types": {
             "PROPERTY": "Eigendom",
@@ -622,7 +607,6 @@
         "reason": "Reden",
         "showUserWarnings": "Waarschuwingen tonen van gebruiker met ID: {id}",
         "messages": {
-            "deletedWarning": "Waarschuwing verwijderd.",
             "editedSettings": "Waarschuwingsinstellingen aangepast."
         },
         "ttl": "Waarschuwing Tijd om te leven (dagen)",
@@ -643,9 +627,6 @@
         }
     },
     "_packetCategory": {
-        "messages": {
-            "createSuccess": "Pakketcategorie succesvol aangemaakt."
-        },
         "labels": {
             "edit": "Pakketcategorie bewerken",
             "delete": "Pakketcategorie verwijderen",
@@ -714,12 +695,9 @@
         "showClosed": "Toon gesloten",
         "showBan": "Verbod tonen",
         "messages": {
-            "topicCategoryEdited": "Onderwerpcategorie aangepast.",
             "topicDeleteSuccess": "Onderwerp succesvol verwijderd.",
-            "deleteSuccess": "Succesvol verwijderd",
             "pinned": "Thread vastgepind",
             "unpinned": "Thread losgemaakt",
-            "addedThread": "Thread gemaakt",
             "categoryDeleteSuccess": "Categorie succesvol verwijderd."
         },
         "status": {
@@ -1000,8 +978,7 @@
             "limitToServerbundle": "Beperk tot serverbundel"
         },
         "messages": {
-            "keyCreated": "Nieuwe sleutel gemaakt:",
-            "keyRevokeSuccess": "Sleutel succesvol ingetrokken."
+            "keyCreated": "Nieuwe sleutel gemaakt:"
         }
     },
     "_import": {
@@ -1088,10 +1065,7 @@
         "email": "Email",
         "emailNotifications": "Email meldingen",
         "enableEmailNotifications": "Schakel e-mailmeldingen in",
-        "noEmailSpecified": "Er is nog geen e-mailadres opgegeven",
-        "messages": {
-            "emailNotificationSettingsToggled": "Meldingsinstellingen succesvol bijgewerkt"
-        }
+        "noEmailSpecified": "Er is nog geen e-mailadres opgegeven"
     },
     "update": "Update",
     "maxUsages": "Maximaal gebruik",

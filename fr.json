@@ -99,7 +99,6 @@
     "_ban": {
         "messages": {
             "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}",
-            "banDeleted": "Bannissement supprimé",
             "banToggled": "Statut du bannissement changé"
         },
         "labels": {
@@ -178,7 +177,6 @@
             "couponNotApplied": "Le coupon n'a pu être appliqué à aucun paquet de votre panier.",
             "includesVAT": "Comprend {tax_rate}% de TVA.",
             "selectEmailFirst": "Veuillez d'abord mettre à jour votre adresse e-mail",
-            "clearCartSuccess": "Suppression réussie de tous les paquets du panier.",
             "confirmCouponPayment": "Veuillez saisir votre code {gateway_name}. Le paiement est ensuite approuvé manuellement par un membre de l'équipe.",
             "notEnoughCredits": "Vous n'avez pas assez de crédits pour payer cet achat. Veuillez choisir un autre mode de paiement ou acheter plus de crédits.",
             "cancelPurchaseConfirmation": "Les paiements commencés sont annulés. Tous les coupons saisis sont perdus. L'annulation d'un achat ne peut pas être annulée.",
@@ -230,9 +228,6 @@
         }
     },
     "_group": {
-        "messages": {
-            "deletedGroup": "Groupe supprimé."
-        },
         "isTeam": "L'équipe",
         "isTeamDescription": "Les membres du groupe seront affichés sur la page de l'équipe",
         "mappings": {
@@ -302,9 +297,7 @@
     "_navigation": {
         "title": "Navigation",
         "messages": {
-            "updatedLinkOrder": "Ordre de navigation mis à jour.",
-            "editedLink": "Lien de navigation modifié.",
-            "cmsDeleted": "Page HTML supprimée."
+            "editedLink": "Lien de navigation modifié."
         },
         "linkTitle": "Titre",
         "enabled": "Activé",
@@ -346,9 +339,6 @@
             "zip_code": "Code postal",
             "vat_number": "Numéro de TVA",
             "selectAddress": "Sélectionnez l'adresse"
-        },
-        "messages": {
-            "noAddressesYet": "Vous n'avez pas encore d'adresse."
         }
     },
     "_forms": {
@@ -441,9 +431,6 @@
             "OPEN": "Ouvrir",
             "EXECUTED": "Executer",
             "FAILED": "raté"
-        },
-        "messages": {
-            "createAppliedRewardSuccess": "Récompense appliquée ajoutée avec succès"
         }
     },
     "_purchases": {
@@ -483,7 +470,6 @@
             "revokeSuccess": "Achat révoqué avec succès.",
             "refreshSuccess": "Les données de paiement ont été actualisées avec succès.",
             "unrevokeSuccess": "Achat réussi non révoqué.",
-            "deleteAppliedPacketSuccess": "Paquet appliqué supprimé avec succès.",
             "refundConfirm": "Êtes-vous sûr de vouloir rembourser cet achat ?",
             "declinePurchaseSuccess": "Achat annulé avec succès",
             "confirmPurchaseSuccess": "Achat approuvé avec succès",
@@ -528,9 +514,7 @@
             "NHAVE": "Ne pas avoir"
         },
         "messages": {
-            "editedSet": "Ensemble d'exigences modifié",
-            "editedRequirement": "Ensemble d'exigences modifié",
-            "deletedRequirement": "Exigence supprimée"
+            "editedRequirement": "Ensemble d'exigences modifié"
         }
     },
     "_gateway": {
@@ -642,7 +626,6 @@
         "reason": "Raison",
         "showUserWarnings": "Affichage des avertissements de l'utilisateur avec l'ID : {id}",
         "messages": {
-            "deletedWarning": "Avertissement supprimé.",
             "editedSettings": "Paramètres d'avertissement modifiés."
         }
     },
@@ -699,8 +682,7 @@
             "createdKey": "Clé API créée"
         },
         "messages": {
-            "keyCreated": "Nouvelle clé créée :",
-            "keyRevokeSuccess": "Clé révoquée avec succès."
+            "keyCreated": "Nouvelle clé créée :"
         }
     },
     "_personalSettings": {
@@ -708,9 +690,6 @@
         "emailNotifications": "Notifications par email",
         "enableEmailNotifications": "Activer les notifications par e-mail",
         "noEmailSpecified": "Aucun e-mail spécifié pour le moment",
-        "messages": {
-            "emailNotificationSettingsToggled": "Paramètres de notification mis à jour avec succès"
-        },
         "email": "Email"
     },
     "_team": {
@@ -1017,11 +996,8 @@
         "noTickets": "Vous n'avez pas encore créé de tickets.",
         "messages": {
             "pinned": "Fil épinglé.",
-            "deleteSuccess": "Supprimé avec succès.",
             "unpinned": "Fil désépinglé.",
-            "topicCategoryEdited": "Catégorie de sujet modifiée.",
             "categoryDeleteSuccess": "Catégorie supprimée avec succès.",
-            "toggleStatus": "Statut basculé.",
             "topicCategoryCreated": "Catégorie de sujet créée."
         },
         "threadLocked": "Fil verrouillé",

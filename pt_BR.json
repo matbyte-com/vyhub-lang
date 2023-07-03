@@ -67,7 +67,6 @@
         },
         "messages": {
             "showingUserBans": "Mostrando proibições de usuário com ID",
-            "banDeleted": "Banimento deletado",
             "banToggled": "Status do banimento alterado"
         }
     },
@@ -149,9 +148,6 @@
         "mappings": {
             "name": "Nome do grupo/classificação/papel no servidor"
         },
-        "messages": {
-            "deletedGroup": "Grupo Excluído."
-        },
         "isTeam": "É Equipe",
         "isTeamDescription": "Membros do grupo serão mostrados na página de equipe"
     },
@@ -213,7 +209,6 @@
             "paymentActionFailed": "Ocorreu um erro enquanto redirecionava para a página de pagamento. Por favor, tente novamente ou utilize outro método de pagamento! Mensagem de erro: {Mensagem}",
             "noAddressSpecified": "Endereço não especificado ainda.",
             "paymentProcessing": "O pagamento foi aprovado e será finalizado em breve. Por favor, aguarde alguns minutos nesta página enquanto o pagamento está sendo processado.",
-            "clearCartSuccess": "Todos os pacotes removidos do carrinho com sucesso.",
             "paymentSuccess": "Este pagamento foi finalizado com sucesso. Os pacotes de compra foram atribuídos a sua conta.",
             "paymentFailed": "Um erro ocorreu durante o processo de pagamento. Por favor, tente reiniciar o processo.",
             "unfinishedPurchase": "Existe uma compra em curso que ainda não foi concluída.",
@@ -301,9 +296,7 @@
     },
     "_navigation": {
         "messages": {
-            "updatedLinkOrder": "Ordem de Navegação foi atualizada.",
-            "editedLink": "Link de Navegação foi editado.",
-            "cmsDeleted": "Página HTML deletada."
+            "editedLink": "Link de Navegação foi editado."
         },
         "_location": {
             "header": "Cabeçalho",
@@ -360,9 +353,6 @@
     "end": "Fim",
     "enabled": "Habilitado",
     "_address": {
-        "messages": {
-            "noAddressesYet": "Você não possui um endereço ainda."
-        },
         "labels": {
             "add": "Adicionar Endereço",
             "addition": "Adição",
@@ -452,9 +442,6 @@
             "OPEN": "Abrir",
             "EXECUTED": "Executado",
             "FAILED": "Falhou"
-        },
-        "messages": {
-            "editSuccess": "Recompensa editada com sucesso."
         }
     },
     "connect": "Conectar",
@@ -500,7 +487,6 @@
         "messages": {
             "refundInitSuccess": "Reembolso iniciado com sucesso.",
             "unrevokeSuccess": "Compra não revogada com sucesso.",
-            "deleteAppliedPacketSuccess": "Pacote aplicado excluído com sucesso.",
             "revokeSuccess": "Compra revogada com sucesso.",
             "refreshSuccess": "Dados de pagamento atualizados com sucesso.",
             "deleteConfirm": "Tem certeza de que deseja excluir esta compra? Esta ação não pode ser desfeita. Os pacotes aplicados relacionados não serão excluídos.",
@@ -512,7 +498,6 @@
     },
     "_home": {
         "messages": {
-            "editSuccess": "Atualizações editadas com sucesso",
             "messageEmpty": "Por favor, digite uma mensagem"
         },
         "news": "Atualizações",
@@ -592,7 +577,6 @@
         "reason": "Razão",
         "showUserWarnings": "Mostrando avisos de usuário com ID: {id}",
         "messages": {
-            "deletedWarning": "Aviso excluído.",
             "editedSettings": "Configurações de aviso editadas."
         }
     },
@@ -624,13 +608,10 @@
         "topicAdminUser": "Administradores de Tópicos",
         "numberOfPosts": "Contagem de Publicações: ",
         "messages": {
-            "topicCategoryCreated": "Categoria de tópico criada.",
             "topicCategoryEdited": "Categoria do tópico editada.",
-            "categoryDeleteSuccess": "Categoria excluída com sucesso.",
             "deleteSuccess": "Excluído com sucesso.",
             "pinned": "Tópico fixado.",
-            "unpinned": "Tópico desafixado.",
-            "toggleStatus": "Status alternado."
+            "unpinned": "Tópico desafixado."
         },
         "manageTopicCategories": "Gerenciar Categorias de Tópicos",
         "manageTopics": "Gerenciar Tópicos",
@@ -850,9 +831,7 @@
             "GEQ": "Melhor que Igual"
         },
         "messages": {
-            "editedSet": "Conjunto de Requisitos Editado",
-            "editedRequirement": "Conjunto de Requisitos Editado",
-            "deletedRequirement": "Requisito Excluído"
+            "editedRequirement": "Conjunto de Requisitos Editado"
         }
     },
     "_taxRule": {
@@ -952,8 +931,7 @@
             "limitToServerbundle": "Limite para Grupo de Sevidor"
         },
         "messages": {
-            "keyCreated": "Criar nova chave:",
-            "keyRevokeSuccess": "Chave revogada com sucesso."
+            "keyCreated": "Criar nova chave:"
         }
     },
     "_personalSettings": {
@@ -961,10 +939,7 @@
         "email": "E-mail",
         "emailNotifications": "Notificação do E-mail",
         "enableEmailNotifications": "Ativar notificações por e-mail",
-        "noEmailSpecified": "Nenhum e-mail especificado ainda",
-        "messages": {
-            "emailNotificationSettingsToggled": "Configurações de notificação atualizadas com sucesso"
-        }
+        "noEmailSpecified": "Nenhum e-mail especificado ainda"
     },
     "_team": {
         "title": "Time",

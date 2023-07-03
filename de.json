@@ -71,7 +71,6 @@
         },
         "messages": {
             "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}",
-            "banEdited": "Ban bearbeitet",
             "banAdded": "Ban erstellt"
         },
         "externalProtestUrl": "Externe Entbannungsantrag URL",
@@ -140,7 +139,6 @@
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
             "notEnoughCredits": "Du hast nicht genug Credits, um diesen Kauf zu bezahlen. Bitte wähle eine andere Zahlungsmethode oder kauf mehr Credits.",
-            "removeFromCartSuccess": "Paket erfolgreich aus dem Warenkorb entfernt.",
             "confirmCreditsPayment": "Bitte bestätigen Sie die Zahlung von {credits} Credits.",
             "addToCartError": "Beim Hinzufügen des Pakets zu deinem Warenkorb ist ein Fehler aufgetreten.",
             "cartEmpty": "Dein Warenkorb ist leer.",
@@ -205,9 +203,7 @@
         "enabled": "Aktiviert",
         "link": "Link",
         "messages": {
-            "updatedLinkOrder": "Navigationsreihenfolge aktualisiert.",
             "editedLink": "Navigationslink bearbeitet.",
-            "cmsAdded": "HTML-Seite hinzugefügt.",
             "invalidFileType": "Ungültiger Dateityp."
         },
         "linkTitle": "Title",
@@ -298,7 +294,6 @@
         "banLength": "Dauer des automatischen Banns (Minuten)",
         "reason": "Grund",
         "messages": {
-            "deletedWarning": "Verwarnung gelöscht.",
             "editedSettings": "Verwarnungseinstellungen geändert."
         },
         "title": "Verwarnungen",
@@ -384,9 +379,6 @@
         "emailNotifications": "E-Mail Benachrichtigungen",
         "title": "Persönliche Einstellungen",
         "email": "E-Mail",
-        "messages": {
-            "emailNotificationSettingsToggled": "Benachrichtigungseinstellungen erfolgreich aktualisiert"
-        },
         "enableEmailNotifications": "E-Mail Benachrichtigungen aktivieren",
         "noEmailSpecified": "Noch keine E-Mail angegeben"
     },
@@ -408,9 +400,6 @@
             "add": "Adresse hinzufügen",
             "change": "Adresse bearbeiten",
             "vat_number": "Umsatzsteuer-Identifikationsnummer hinzufügen"
-        },
-        "messages": {
-            "noAddressesYet": "Du hast noch keine Adressen."
         }
     },
     "_packet": {
@@ -507,9 +496,6 @@
             "packetSyncLimitDescription": "Prämien werden allen Paketen hinzugefügt, deren Startdatum im angegebenen Bereich liegt. Anfang und Ende sind optional.",
             "templates": "Vorlagen"
         },
-        "messages": {
-            "deleteAppliedRewardSuccess": "Angewendete Prämie erfolgreich gelöscht"
-        },
         "status": {
             "OPEN": "Offen",
             "EXECUTED": "Ausgeführt",
@@ -561,7 +547,6 @@
             "refundInitSuccess": "Rückerstattung erfolgreich eingeleitet.",
             "revokeSuccess": "Kauf erfolgreich widerrufen.",
             "refreshSuccess": "Die Zahlungsdaten wurden erfolgreich aktualisiert.",
-            "deleteAppliedPacketSuccess": "Angewandtes Paket erfolgreich gelöscht.",
             "unrevokeSuccess": "Kauf erfolgreich widerrufen.",
             "cancelSubscriptionConfirm": "Möchten Sie dieses Abonnement wirklich kündigen?",
             "deleteConfirm": "Möchten Sie diesen Kauf wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden. Zugehörige angewendete Pakete werden nicht gelöscht.",
@@ -698,9 +683,7 @@
             "PACKET": "Paket"
         },
         "messages": {
-            "addedRequirement": "Vorraussetzung hinzugefügt",
-            "editedRequirement": "Berechtigungsset bearbeitet",
-            "deletedRequirement": "Vorraussetzung gelöscht"
+            "editedRequirement": "Berechtigungsset bearbeitet"
         },
         "requirementOperator": "Operator",
         "permissionLevel": "Brechtigungsstufe",
@@ -751,8 +734,7 @@
             "createdKey": "API-Schlüssel erstellt"
         },
         "messages": {
-            "keyCreated": "Neuer Schlüssel erstellt:",
-            "keyRevokeSuccess": "Schlüssel erfolgreich widerrufen."
+            "keyCreated": "Neuer Schlüssel erstellt:"
         }
     },
     "_team": {
@@ -852,9 +834,6 @@
     "here": "Hier",
     "_group": {
         "isTeamDescription": "Mitglieder der Gruppe werden auf der Team-Seite angezeigt",
-        "messages": {
-            "addedGroup": "Gruppe erstellt."
-        },
         "mappings": {
             "name": "Name der Gruppe/Rolle/Rang auf dem Server"
         },
@@ -1078,13 +1057,10 @@
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
         "messages": {
-            "topicCategoryCreated": "Themenkategorie erstellt.",
             "updatedOrder": "Reihenfolge aktualisiert.",
             "pinned": "Thread gepinnt.",
-            "topicCreated": "Thema erstellt.",
             "topicEdited": "Thema bearbeitet.",
-            "unpinned": "Thread losgelöst.",
-            "addedThread": "Thread erstellt."
+            "unpinned": "Thread losgelöst."
         },
         "lock": "Sperren",
         "selectTopicCategory": "Wählen Sie eine Themenkategorie aus",

@@ -115,9 +115,6 @@
         "serverAndServerbundle": "Servidor / Paquete de servidor"
     },
     "_group": {
-        "messages": {
-            "deletedGroup": "Grupo eliminado."
-        },
         "isTeam": "es equipo",
         "mappings": {
             "name": "Nombre del grupo/rango/rol en el servidor"
