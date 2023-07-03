@@ -91,7 +91,8 @@
         "showFirstStepsDescription": "Sağ altta ilk adımlar öğreticisi. (Yalnızca Yöneticiler)",
         "shopOnly": "Sadece Alışveriş Modu",
         "shopOnlyDescription": "Sadece mağazayı ve ana sayfayı göster, diğer tüm sayfaları gizle. Diğer sayfalar ve işlevler tek tek tekrar etkinleştirilebilir",
-        "googleAnalyticsTagDescription": "[İsteğe bağlı] Google Analytics kullanımınız için"
+        "googleAnalyticsTagDescription": "[İsteğe bağlı] Google Analytics kullanımınız için",
+        "requirementSetTest": "Kullanıcıya karşı test gereksinimi belirlendi"
     },
     "_membership": {
         "labels": {
@@ -1177,5 +1178,6 @@
     "name": "İsim",
     "advancedProperties": "Gelişmiş Özellikler",
     "cancel": "İptal et",
-    "setup": "Kurulum"
+    "setup": "Kurulum",
+    "test": "Test"
 }
