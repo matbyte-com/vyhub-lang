@@ -869,6 +869,8 @@
         "banProtest": "Ban protest",
         "showClosed": "Show closed",
         "showBan": "Show Ban",
+        "prohibitCreateThreads": "Prevent Thread Creation",
+        "prohibitCreateThreadsDescription": "Prevent users from creating new threads. This does not affect users with the 'Manage Forum' permission or Topic Admins.",
         "status": {
             "open": "open",
             "closed": "closed"
