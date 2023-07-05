@@ -90,8 +90,7 @@
             "banProtests": "Protest"
         },
         "messages": {
-            "showingUserBans": "Verbanningen van gebruikers met ID weergeven: {id}",
-            "banToggled": "Status van verbod omgeschakeld"
+            "showingUserBans": "Verbanningen van gebruikers met ID weergeven: {id}"
         }
     },
     "_serverbundle": {
@@ -331,9 +330,6 @@
         }
     },
     "_navigation": {
-        "messages": {
-            "removedLink": "Navigatielink verwijderd."
-        },
         "_location": {
             "header": "Kopstuk",
             "footer": "voetstuk",
@@ -510,9 +506,6 @@
         }
     },
     "_requirement": {
-        "messages": {
-            "addedRequirement": "Vereiste toegevoegd"
-        },
         "types": {
             "PROPERTY": "Eigendom",
             "PROPERTY_SB": "Eigendom (in Serverbundel)",
@@ -606,9 +599,6 @@
         "settingFormDesc": "Gebruikers worden automatisch verbannen wanneer ze het opgegeven aantal ACTIEVE waarschuwingen bereiken.",
         "reason": "Reden",
         "showUserWarnings": "Waarschuwingen tonen van gebruiker met ID: {id}",
-        "messages": {
-            "editedSettings": "Waarschuwingsinstellingen aangepast."
-        },
         "ttl": "Waarschuwing Tijd om te leven (dagen)",
         "ttlPlaceholder": "Lengte (in dagen)",
         "add": "Waarschuwing toevoegen",
@@ -695,10 +685,8 @@
         "showClosed": "Toon gesloten",
         "showBan": "Verbod tonen",
         "messages": {
-            "topicDeleteSuccess": "Onderwerp succesvol verwijderd.",
             "pinned": "Thread vastgepind",
-            "unpinned": "Thread losgemaakt",
-            "categoryDeleteSuccess": "Categorie succesvol verwijderd."
+            "unpinned": "Thread losgemaakt"
         },
         "status": {
             "open": "open",

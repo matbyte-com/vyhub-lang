@@ -70,8 +70,7 @@
             "protestBan": "Entbannungsantrag"
         },
         "messages": {
-            "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}",
-            "banAdded": "Ban erstellt"
+            "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}"
         },
         "externalProtestUrl": "Externe Entbannungsantrag URL",
         "externalProtestUrlDescription": "Lasse das Feld leer, um das VyHub Ticketsystem für Entbannungsanträge zu verwenden. Alternativ kann eine externe URL angegeben werden, auf die weitergeleitet wird.",
@@ -203,7 +202,6 @@
         "enabled": "Aktiviert",
         "link": "Link",
         "messages": {
-            "editedLink": "Navigationslink bearbeitet.",
             "invalidFileType": "Ungültiger Dateityp."
         },
         "linkTitle": "Title",
@@ -293,9 +291,6 @@
         "countTillBanDesc": "0 für KEINE automatischen Banns.",
         "banLength": "Dauer des automatischen Banns (Minuten)",
         "reason": "Grund",
-        "messages": {
-            "editedSettings": "Verwarnungseinstellungen geändert."
-        },
         "title": "Verwarnungen",
         "ttl": "Verwarndauer (tage)",
         "ttlDescription": "Zeit, bis die Verwarnung abläuft",
@@ -682,9 +677,6 @@
             "USER_ATTRIBUTE": "Nutzer Attribut",
             "PACKET": "Paket"
         },
-        "messages": {
-            "editedRequirement": "Berechtigungsset bearbeitet"
-        },
         "requirementOperator": "Operator",
         "permissionLevel": "Brechtigungsstufe",
         "requirementSet": "Anforderungsset",
@@ -1057,9 +1049,7 @@
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
         "messages": {
-            "updatedOrder": "Reihenfolge aktualisiert.",
             "pinned": "Thread gepinnt.",
-            "topicEdited": "Thema bearbeitet.",
             "unpinned": "Thread losgelöst."
         },
         "lock": "Sperren",

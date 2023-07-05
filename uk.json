@@ -104,8 +104,7 @@
     },
     "_ban": {
         "messages": {
-            "showingUserBans": "Показати бани користувача з ID: {id}",
-            "banAdded": "Бан створено"
+            "showingUserBans": "Показати бани користувача з ID: {id}"
         },
         "labels": {
             "protestBan": "Заявка на зняття бану",
@@ -148,9 +147,6 @@
         "html": "Html",
         "title": "Навігація",
         "bothHtmlInputsUsed": "Не використовуйте обидва HTML-входи",
-        "messages": {
-            "addedLink": "Створено навігаційний лінк."
-        },
         "addCmsPage": "Додати сторінку",
         "editCmsPage": "Редагувати сторінку",
         "location": "Розташування",
@@ -508,9 +504,6 @@
             "NHAVE": "Не маємо"
         },
         "date": "Дата",
-        "messages": {
-            "addedRequirement": "Додана вимога"
-        },
         "attributeName": "Назва атрибуту",
         "requirementType": "Тип",
         "permissionLevel": "Рівень дозволу",
@@ -646,9 +639,6 @@
     },
     "_warning": {
         "ttl": "Час до попередження (дні)",
-        "messages": {
-            "toggledWarning": "Статус попередження змінено."
-        },
         "ttlDescription": "Час до того, як попередження буде позначено як прострочене",
         "countTillBan": "Кількість попереджень до автоматичного бану",
         "title": "Попередження",
@@ -811,7 +801,6 @@
         "manageTopics": "Керувати темами",
         "addThread": "Додати гілку",
         "messages": {
-            "topicCategoryCreated": "Категорію теми створено.",
             "deleteSuccess": "Успішно видалено.",
             "pinned": "Гілка закріплена.",
             "unpinned": "Гілка відкріплена."

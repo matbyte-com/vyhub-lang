@@ -66,8 +66,7 @@
             "banProtests": "Contestações"
         },
         "messages": {
-            "showingUserBans": "Mostrando proibições de usuário com ID",
-            "banToggled": "Status do banimento alterado"
+            "showingUserBans": "Mostrando proibições de usuário com ID"
         }
     },
     "_serverbundle": {
@@ -295,9 +294,6 @@
         "descriptionText": "Na maioria dos países é obrigatório ter, pelo menos, os detalhes de contato do operador do website, termos de uso e política de privacidade. Você pode encontrar um exemplo de política de privacidade na documentação."
     },
     "_navigation": {
-        "messages": {
-            "editedLink": "Link de Navegação foi editado."
-        },
         "_location": {
             "header": "Cabeçalho",
             "footer": "Rodapé",
@@ -575,10 +571,7 @@
         "add": "Adicionar Aviso",
         "banLength": "Duração do banimento automático (minutos)",
         "reason": "Razão",
-        "showUserWarnings": "Mostrando avisos de usuário com ID: {id}",
-        "messages": {
-            "editedSettings": "Configurações de aviso editadas."
-        }
+        "showUserWarnings": "Mostrando avisos de usuário com ID: {id}"
     },
     "_import": {
         "gextension": {
@@ -608,7 +601,6 @@
         "topicAdminUser": "Administradores de Tópicos",
         "numberOfPosts": "Contagem de Publicações: ",
         "messages": {
-            "topicCategoryEdited": "Categoria do tópico editada.",
             "deleteSuccess": "Excluído com sucesso.",
             "pinned": "Tópico fixado.",
             "unpinned": "Tópico desafixado."
@@ -829,9 +821,6 @@
             "HAVE": "Ter",
             "LEQ": "Menos que Igual",
             "GEQ": "Melhor que Igual"
-        },
-        "messages": {
-            "editedRequirement": "Conjunto de Requisitos Editado"
         }
     },
     "_taxRule": {

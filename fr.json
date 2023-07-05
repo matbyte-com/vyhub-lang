@@ -98,8 +98,7 @@
     },
     "_ban": {
         "messages": {
-            "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}",
-            "banToggled": "Statut du bannissement changé"
+            "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}"
         },
         "labels": {
             "title": "Bannissements",
@@ -296,9 +295,6 @@
     },
     "_navigation": {
         "title": "Navigation",
-        "messages": {
-            "editedLink": "Lien de navigation modifié."
-        },
         "linkTitle": "Titre",
         "enabled": "Activé",
         "htmlContent": "Contenu HTML",
@@ -512,9 +508,6 @@
             "ONLY_INACTIVE": "Uniquement actif",
             "HAVE": "Avoir",
             "NHAVE": "Ne pas avoir"
-        },
-        "messages": {
-            "editedRequirement": "Ensemble d'exigences modifié"
         }
     },
     "_gateway": {
@@ -624,10 +617,7 @@
         "add": "Ajouter un avertissement",
         "banLength": "Durée du bannissement automatique (minutes)",
         "reason": "Raison",
-        "showUserWarnings": "Affichage des avertissements de l'utilisateur avec l'ID : {id}",
-        "messages": {
-            "editedSettings": "Paramètres d'avertissement modifiés."
-        }
+        "showUserWarnings": "Affichage des avertissements de l'utilisateur avec l'ID : {id}"
     },
     "_server": {
         "labels": {
@@ -997,7 +987,6 @@
         "messages": {
             "pinned": "Fil épinglé.",
             "unpinned": "Fil désépinglé.",
-            "categoryDeleteSuccess": "Catégorie supprimée avec succès.",
             "topicCategoryCreated": "Catégorie de sujet créée."
         },
         "threadLocked": "Fil verrouillé",
