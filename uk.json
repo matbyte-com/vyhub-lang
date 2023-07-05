@@ -801,7 +801,6 @@
         "manageTopics": "Керувати темами",
         "addThread": "Додати гілку",
         "messages": {
-            "deleteSuccess": "Успішно видалено.",
             "pinned": "Гілка закріплена.",
             "unpinned": "Гілка відкріплена."
         },

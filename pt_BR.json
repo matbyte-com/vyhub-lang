@@ -601,7 +601,6 @@
         "topicAdminUser": "Administradores de Tópicos",
         "numberOfPosts": "Contagem de Publicações: ",
         "messages": {
-            "deleteSuccess": "Excluído com sucesso.",
             "pinned": "Tópico fixado.",
             "unpinned": "Tópico desafixado."
         },

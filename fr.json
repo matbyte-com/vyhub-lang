@@ -986,8 +986,7 @@
         "noTickets": "Vous n'avez pas encore créé de tickets.",
         "messages": {
             "pinned": "Fil épinglé.",
-            "unpinned": "Fil désépinglé.",
-            "topicCategoryCreated": "Catégorie de sujet créée."
+            "unpinned": "Fil désépinglé."
         },
         "threadLocked": "Fil verrouillé",
         "manageTopicCategories": "Gérer les catégories de sujets",
