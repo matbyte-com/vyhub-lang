@@ -604,6 +604,9 @@
             "TEAMSPEAK3": {
                 "headline": "TS3 botu zaten Teamspeak sunucunuza bağlı olmalıdır.",
                 "botNotConnected": "Bot bağlı değil mi? Önce sorgu botlarının görüntülenmesini etkinleştirin. Sunucu ayarlarını her değiştirdiğinizde, bot yeniden bağlanmaya çalışır. Günlükte hata iletileri bulabilirsiniz."
+            },
+            "FIVEM": {
+                "download": "Vyhub-fivem eklentisini indirin ve sunucunuza ekleyin."
             }
         },
         "deleteServerbundleConfirmationText": "Bir sunucu paketini silmek, bağlı tüm nesneleri de silecektir (ödüller, sunucular, yasaklar, uyarılar, ...). Bu eylem geri alınamaz."
@@ -708,7 +711,9 @@
         "threads": "Konular",
         "edited": "Düzenlenmiş",
         "tickets": "Biletler",
-        "creator": "Yaratıcı"
+        "creator": "Yaratıcı",
+        "prohibitCreateThreads": "İş parçacığı Oluşturmayı Engelle",
+        "prohibitCreateThreadsDescription": "Kullanıcıların yeni iş parçacıkları oluşturmasını engelleyin. Bu, 'Forumu Yönet' iznine sahip kullanıcıları veya Konu Yöneticilerini etkilemez."
     },
     "_home": {
         "messageType": "Tür",
@@ -1179,5 +1184,7 @@
     "advancedProperties": "Gelişmiş Özellikler",
     "cancel": "İptal et",
     "setup": "Kurulum",
-    "test": "Test"
+    "test": "Test",
+    "documentation": "Dokümantasyon",
+    "unknown": "Bilinmeyen"
 }
