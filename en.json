@@ -183,6 +183,7 @@
             "admin": "Shop Administration",
             "applyCoupon": "Apply Coupon",
             "couponCode": "Coupon Code",
+            "discountCode": "Discount Code",
             "tax": "Tax",
             "net": "net",
             "taxRules": "Tax Rules",
