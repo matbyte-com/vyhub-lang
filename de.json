@@ -30,7 +30,9 @@
             "membershipEndDescription": "Leer lassen für unbegrenzte Dauer",
             "removeAdminTitle": "Admin entfernen?",
             "credits": "Credits",
-            "last_online": "Zuletzt online"
+            "last_online": "Zuletzt online",
+            "unlinkAccount": "Account trennen",
+            "unlinkAccountWarning": "Durch das Löschen einer Benutzerverknüpfung wird die Verknüpfung der Konten aufgehoben. Admin-Status, Sperren, Warnungen, Käufe, angewandte Pakete und Credits sind hiervon betroffen und werden möglicherweise anders behandelt, als du es erwartest. Überprüfe alles im Nachhinein!"
         },
         "messages": {
             "removeAdminConfirmation": "Vergiss nicht, den ehemaligen Admin auch von der Instanz in der zentralen Instanzübersicht zu entfernen."
@@ -133,7 +135,8 @@
             "enableTopDonatorsDescription": "Top-Spender-Widget wird auf der Startseite angezeigt (News)",
             "topDonatorsLimit": "Anzahl der anzuzeigenden Spender",
             "topDonatorDisplayTitle": "Top-Spender Widget Titel",
-            "donationGoalDisplayTitle": "Anzeigetitel des Spendenziels"
+            "donationGoalDisplayTitle": "Anzeigetitel des Spendenziels",
+            "discountCode": "Rabattcode"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -367,8 +370,12 @@
             "TEAMSPEAK3": {
                 "headline": "Der TS3-Bot sollte bereits mit Ihrem Teamspeak-Server verbunden sein.",
                 "botNotConnected": "Der Bot ist nicht verbunden? Aktivieren Sie zuerst die Anzeige von Abfrage-Bots. Jedes Mal, wenn Sie die Servereinstellungen ändern, versucht der Bot, sich erneut zu verbinden. Möglicherweise finden Sie Fehlermeldungen im Protokoll."
+            },
+            "FIVEM": {
+                "download": "Lade das Vyhub-Fivem-Plugin herunter und fügen es deinem Server hinzu."
             }
-        }
+        },
+        "deleteServerbundleConfirmationText": "Durch das Löschen eines Serverbundles werden auch alle abhängigen Objekte (Belohnungen, Server, Sperren, Warnungen usw.) gelöscht. Diese Aktion kann nicht rückgängig gemacht werden."
     },
     "_personalSettings": {
         "emailNotifications": "E-Mail Benachrichtigungen",
@@ -600,7 +607,9 @@
         "shopOnly": "Nur Shop Modus",
         "shopOnlyDescription": "Nur Shop und Startseite anzeigen, alle anderen Seiten ausblenden. Andere Seiten und Funktionen können einzeln wieder angeschalten werden.",
         "showFirstSteps": "Aktiviere die EInführung (Erste Schritt)",
-        "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)"
+        "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)",
+        "requirementSetTest": "Teste die Regeln für einen Nutzer",
+        "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics"
     },
     "_user": {
         "type": {
@@ -1107,7 +1116,9 @@
         "addPost": "Post hinzufügen",
         "unpin": "Lösen",
         "created": "Erstellt",
-        "last_post": "Letzter Post"
+        "last_post": "Letzter Post",
+        "prohibitCreateThreads": "Thread-Erstellung verhindern",
+        "prohibitCreateThreadsDescription": "Verhinder, dass Benutzer neue Threads erstellen. Dies betrifft nicht Benutzer mit der Berechtigung „Forum verwalten“ oder Themenadministratoren."
     },
     "_invoice": {
         "invoiceDate": "Rechnungsdatum",
@@ -1162,5 +1173,19 @@
         "addPmGateway": "Richte eine Zahlmethode ein",
         "setLanguageAndFeatures": "Wähle deine Sprache und die Funktionen die du nutzen möchtest"
     },
-    "show": "Anzeigen"
+    "show": "Anzeigen",
+    "test": "Test",
+    "documentation": "Dokumentation",
+    "unknown": "Unbekannt",
+    "_messages": {
+        "addSuccess": "Erfolgreich hinzugefügt.",
+        "removeSuccess": "Erfolgreich entfernt.",
+        "cancelSuccess": "Erfolgreich storniert.",
+        "editSuccess": "Erfolgreich bearbeitet.",
+        "updateSuccess": "Erfolgreich aktualisiert.",
+        "updateOrderSuccess": "Reihenfolge erfolgreich aktualisiert.",
+        "toggleSuccess": "Erfolgreich umgeschaltet.",
+        "createSuccess": "Erfolgreich erstellt.",
+        "deleteSuccess": "Erfolgreich gelöscht."
+    }
 }
