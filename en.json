@@ -103,7 +103,8 @@
         "communityNameDescription": "Displays community name in header",
         "logoDescription": "Reload Page if logo is not displayed correctly",
         "logoWidth": "Logo Width",
-        "faviconURL": "Favicon URL"
+        "faviconURL": "Favicon URL",
+        "customCss": "Custom CSS"
     },
     "_settings": {
         "permissionLevel": "Permission Level",
