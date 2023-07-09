@@ -293,7 +293,8 @@
             "applyCoupon": "Kupon Uygula",
             "addToCart": "Sepete ekle",
             "orderOverview": "Siparişe Genel Bakış",
-            "cartTotal": "Sepet Toplamı"
+            "cartTotal": "Sepet Toplamı",
+            "discountCode": "İndirim Kodu"
         },
         "messages": {
             "couponApplySuccess": "Kupon başarıyla uygulandı.",
