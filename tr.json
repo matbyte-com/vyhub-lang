@@ -38,7 +38,8 @@
         "warningColor": "Uyarı Rengi",
         "communityNameDescription": "Topluluk adını başlıkta görüntüler",
         "logoDescription": "Logo doğru görüntülenmiyorsa Sayfayı yeniden yükle",
-        "logoWidth": "Logo Genişliği"
+        "logoWidth": "Logo Genişliği",
+        "customCss": "Özel CSS"
     },
     "_settings": {
         "imageUrl": "Resim URL'si",
