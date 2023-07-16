@@ -457,6 +457,10 @@
             "amountOfAppliedRewardsToPatch": "Amount of applied rewards to patch: {amount}",
             "packetSyncLimitDescription": "Rewards are added to all packets with begin dates in the range given. Begin and end are optional.",
             "templates": "Templates",
+            "headers": "Headers",
+            "headerKey": "Header Key",
+            "headerValue": "Header Value",
+            "maxRetries": "Number of Retries",
             "_events": {
                 "direct": "Execute directly",
                 "connect": "Execute on connect",
@@ -469,7 +473,8 @@
                 "command": "Execute a command on the server(s)",
                 "script": "Execute a script on the server(s)",
                 "credits": "Add credits to the buyers account",
-                "membership": "Add group membership"
+                "membership": "Add group membership",
+                "http": "Send a HTTP request"
             }
         },
         "status": {
@@ -1188,5 +1193,6 @@
     "show": "Show",
     "test": "Test",
     "documentation": "Documentation",
-    "unknown": "Unknown"
+    "unknown": "Unknown",
+    "method": "Method"
 }
