@@ -424,7 +424,9 @@
             "imageDetail": "An HTTPS URL to the packet image.",
             "editBundle": "Edit Serverbundle",
             "deleteAppliedPacket": "Delete applied packet",
-            "end": "End"
+            "end": "End",
+            "recommendable": "Recommendable",
+            "recommendableDescription": "The packet may be recommended to users in the recommended for you sections."
         },
         "messages": {
             "sortOnlyWithCategory": "Packets can only be sorted if a category is selected.",
