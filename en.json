@@ -903,6 +903,7 @@
         "editAdvertDialog": "Edit advert"
     },
     "_property": {
+        "negatedProperties": "Negated Properties",
         "categories": {
             "general": "General",
             "bans_and_warnings": "Bans and Warnings",
@@ -976,7 +977,10 @@
             "reserved_slot_use": "Use reserved slots on a server",
             "advert_show": "View adverts",
             "advert_edit": "Manage adverts",
-            "forum_edit": "Manage forum"
+            "forum_edit": "Manage forum",
+            "forum_post": "Prevent users from posting in the forum",
+            "ticket_create": "Prevent users from creating tickets and ban-protests",
+            "shop_use": "Prevent users from using the shop"
         }
     },
     "_chat": {
