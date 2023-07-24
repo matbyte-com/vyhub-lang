@@ -46,8 +46,7 @@
             "registered_on": "Registered on",
             "last_online": "Last online",
             "membershipEndDescription": "Leave empty for unlimited duration",
-            "removeAdminTitle": "Remove admin?",
-            "credits": "Credits"
+            "removeAdminTitle": "Remove admin?"
         },
         "messages": {
             "removeAdminConfirmation": "Do not forget to remove the former admin from the instance in your central instance overview."
@@ -195,7 +194,6 @@
             "addToCart": "Add to cart",
             "total": "Total",
             "businessAddress": "Business Address",
-            "credits": "Credits",
             "purchaseNow": "Purchase Now",
             "orderOverview": "Order Overview",
             "cartTotal": "Cart Total",
@@ -224,10 +222,10 @@
             "recommended": "Recommended for you"
         },
         "messages": {
-            "confirmCreditsPayment": "Please confirm the payment of {credits} credits.",
+            "confirmCreditsPayment": "Please confirm the payment of {credits} {credits_display_title}.",
             "confirmCouponPayment": "Please enter your {gateway_name} code. The payment is then manually approved by a team member.",
             "couponsEntered": "Your coupon was successfully added. You can edit your coupon until your purchase got approved.",
-            "notEnoughCredits": "You do not have enough credits to pay this purchase. Please choose a different payment method or buy more credits.",
+            "notEnoughCredits": "You do not have enough {credits_display_name} to pay this purchase. Please choose a different payment method or buy more {credits_display_name}.",
             "addToCartError": "An error occurred while adding the packet to your cart.",
             "cartEmpty": "Your cart is empty.",
             "mustAgree": "You must agree to continue!",
@@ -475,7 +473,7 @@
             "_types": {
                 "command": "Execute a command on the server(s)",
                 "script": "Execute a script on the server(s)",
-                "credits": "Add credits to the buyers account",
+                "credits": "Add {credits_display_title} to the buyers account",
                 "membership": "Add group membership",
                 "http": "Send a HTTP request"
             }

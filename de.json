@@ -140,8 +140,8 @@
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
-            "notEnoughCredits": "Du hast nicht genug Credits, um diesen Kauf zu bezahlen. Bitte wähle eine andere Zahlungsmethode oder kauf mehr Credits.",
-            "confirmCreditsPayment": "Bitte bestätigen Sie die Zahlung von {credits} Credits.",
+            "notEnoughCredits": "Du hast nicht genug {credit_display_title}, um diesen Kauf zu bezahlen. Bitte wähle eine andere Zahlungsmethode oder kaufe mehr {credit_display_title}.",
+            "confirmCreditsPayment": "Bitte bestätigen Sie die Zahlung von {credits} {credit_display_title}.",
             "addToCartError": "Beim Hinzufügen des Pakets zu deinem Warenkorb ist ein Fehler aufgetreten.",
             "cartEmpty": "Dein Warenkorb ist leer.",
             "mustAgree": "Du musst zustimmen, um fortzufahren!",
