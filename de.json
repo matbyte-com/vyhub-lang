@@ -53,7 +53,8 @@
         "logoURL": "URL zum Logo",
         "faviconURL": "URL zum Favicon",
         "headerColor": "Farbe der Kopf- und Fußzeile",
-        "secondaryColor": "Sekundäre Farbe"
+        "secondaryColor": "Sekundäre Farbe",
+        "customCss": "Eigenes CSS"
     },
     "_ban": {
         "labels": {
@@ -134,7 +135,8 @@
             "topDonatorsLimit": "Anzahl der anzuzeigenden Spender",
             "topDonatorDisplayTitle": "Top-Spender Widget Titel",
             "donationGoalDisplayTitle": "Anzeigetitel des Spendenziels",
-            "discountCode": "Rabattcode"
+            "discountCode": "Rabattcode",
+            "recommended": "Für dich empfohlen"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -439,7 +441,9 @@
             "packetRelations": "Paketbeziehungen",
             "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv sein soll. Lass dieses Feld für Pakete frei, die nach einiger Zeit nicht deaktiviert werden sollen. Wenn die wiederkehrende Option aktiviert ist, wird dieser Wert als Abonnementintervall verwendet.",
             "editRewards": "Prämien bearbeiten",
-            "titleInImage": "Über dem Bild angezeigter Titel (optional)"
+            "titleInImage": "Über dem Bild angezeigter Titel (optional)",
+            "recommendable": "Empfehlbar",
+            "recommendableDescription": "Das Paket kann Benutzern in den für Sie empfohlenen Abschnitten empfohlen werden."
         },
         "messages": {
             "sortOnlyWithCategory": "Pakete können nur sortiert werden, wenn eine Kategorie ausgewählt ist.",
@@ -486,7 +490,8 @@
                 "command": "Ausführen eines Befehls auf dem Server",
                 "credits": "Credits zum Konto des Käufers hinzufügen",
                 "membership": "Gruppenmitgliedschaft hinzufügen",
-                "script": "Ausführen eines Skripts auf dem/den Server(n)"
+                "script": "Ausführen eines Skripts auf dem/den Server(n)",
+                "http": "Einen HTTP request senden"
             },
             "addAppliedReward": "Angewendete Prämie hinzufügen",
             "reactivateOnExtend": "Erneut ausführen, wenn das Paket verlängert wurde (bei Abonnementzahlung)",
@@ -494,7 +499,11 @@
             "syncAppliedRewards": "Belohnungen synchronisieren",
             "amountOfAppliedRewardsToPatch": "Anzahl der angewendeten Belohnungen zum updaten: {amount}",
             "packetSyncLimitDescription": "Prämien werden allen Paketen hinzugefügt, deren Startdatum im angegebenen Bereich liegt. Anfang und Ende sind optional.",
-            "templates": "Vorlagen"
+            "templates": "Vorlagen",
+            "headers": "Header",
+            "headerKey": "Header Key",
+            "maxRetries": "Anzahl der Wiederholungsversuche",
+            "headerValue": "Header Value"
         },
         "status": {
             "OPEN": "Offen",
@@ -929,7 +938,10 @@
             "user_comment_edit": "Benutzerkommentare erstellen/löschen",
             "user_comment_delete": "Benutzerkommentare anderer Benutzer löschen",
             "ban_config_edit": "Bearbeiten der Bannkonfiguration in den Einstellungen",
-            "ban_comment_show": "Bannkommentare anzeigen"
+            "ban_comment_show": "Bannkommentare anzeigen",
+            "ticket_create": "Verhindert, dass Nutzer Tickets und Bannanfechtungen erstellen",
+            "forum_post": "Verhindert, dass Benutzer im Forum posten",
+            "shop_use": "Verhindert, dass Nutzer den Shop benutzen"
         },
         "categories": {
             "general": "Allgemein",
@@ -937,7 +949,8 @@
             "other": "Andere",
             "user": "Benutzer",
             "shop": "Shop"
-        }
+        },
+        "negatedProperties": "Negierte Properties"
     },
     "paymentGateways": "Zahlungsmethoden",
     "_faq": {
@@ -1185,5 +1198,6 @@
         "toggleSuccess": "Erfolgreich umgeschaltet.",
         "createSuccess": "Erfolgreich erstellt.",
         "deleteSuccess": "Erfolgreich gelöscht."
-    }
+    },
+    "method": "Methode"
 }
