@@ -50,7 +50,6 @@
             "removeAdminConfirmation": "Vergeet niet om de voormalige beheerder uit de instantie te verwijderen in uw centrale instantieoverzicht."
         },
         "labels": {
-            "credits": "Credits",
             "linkedAccounts": "Gelinkte accounts",
             "linkNewAccount": "Verbind nieuw account",
             "activeProperties": "Actieve eigenschappen",
@@ -193,7 +192,6 @@
             "addToCart": "Voeg toe aan winkelwagen",
             "total": "Totaal",
             "businessAddress": "Bedrijfs adress",
-            "credits": "Credits",
             "purchaseNow": "Koop nu",
             "orderOverview": "Bestel Overzicht",
             "cartTotal": "Winkelmand totaal",

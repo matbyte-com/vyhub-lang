@@ -21,7 +21,6 @@
             "registered_on": "Registrado em",
             "last_online": "Online pela última vez",
             "removeAdminTitle": "Remover administrador?",
-            "credits": "Créditos",
             "title": "{usr}"
         },
         "messages": {
@@ -174,7 +173,6 @@
             "addToCart": "Adicionar ao carrinho",
             "total": "Total",
             "businessAddress": "Endereço Comercial",
-            "credits": "Créditos",
             "purchaseNow": "Comprar Agora",
             "orderOverview": "Tabela de Pedidos",
             "cartTotal": "Total do Carrinho",

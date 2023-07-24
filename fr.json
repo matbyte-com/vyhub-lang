@@ -12,8 +12,7 @@
             "membershipEndDescription": "Laisser vide pour une durée illimitée",
             "removeAdminTitle": "Supprimer l'administrateur ?",
             "title": "{usr}",
-            "last_online": "Dernière connexion",
-            "credits": "Crédits"
+            "last_online": "Dernière connexion"
         },
         "messages": {
             "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale."
@@ -133,7 +132,6 @@
             "addToCart": "Ajouter au panier",
             "total": "Total",
             "businessAddress": "Adresse d'affaires",
-            "credits": "Crédits",
             "orderOverview": "Aperçu de la commande",
             "cartTotal": "Total du panier",
             "defaultCurrency": "Devise par défaut",

@@ -148,8 +148,7 @@
             "checkout": "Verificar",
             "payment": "Pago",
             "paymentId": "ID de pago",
-            "addToCart": "Añadir a la cesta",
-            "credits": "Créditos"
+            "addToCart": "Añadir a la cesta"
         }
     }
 }

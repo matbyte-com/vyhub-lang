@@ -86,7 +86,6 @@
         "labels": {
             "userLog": "Лог користувача",
             "groupMemberships": "Члени групи",
-            "credits": "Кредити",
             "last_online": "Останній раз онлайн",
             "membershipEndDescription": "Залишити порожнім на необмежений час",
             "linkNewAccount": "Прив'язати новий акаунт",
@@ -239,7 +238,6 @@
             "taxIncludedInPacketPrice": "Податок включений у вартість пакета",
             "cart": "Кошик",
             "invoiceLogoURL": "URL логотипу рахунку",
-            "credits": "Кредити",
             "orderOverview": "Огляд замовлень",
             "cartTotal": "Всього в кошику",
             "defaultCurrency": "Валюта за замовчуванням",

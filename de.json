@@ -29,7 +29,6 @@
             "registered_on": "Registriert am",
             "membershipEndDescription": "Leer lassen für unbegrenzte Dauer",
             "removeAdminTitle": "Admin entfernen?",
-            "credits": "Credits",
             "last_online": "Zuletzt online",
             "unlinkAccount": "Account trennen",
             "unlinkAccountWarning": "Durch das Löschen einer Benutzerverknüpfung wird die Verknüpfung der Konten aufgehoben. Admin-Status, Sperren, Warnungen, Käufe, angewandte Pakete und Credits sind hiervon betroffen und werden möglicherweise anders behandelt, als du es erwartest. Überprüfe alles im Nachhinein!"
@@ -111,7 +110,6 @@
             "paymentId": "Zahlungs ID",
             "total": "Gesamt",
             "businessAddress": "Geschäftsadresse",
-            "credits": "Credits",
             "purchaseNow": "Jetzt Kaufen",
             "orderOverview": "Bestellübersicht",
             "cartTotal": "Gesamtpreis",
