@@ -12,7 +12,8 @@
             "membershipEndDescription": "Laisser vide pour une durée illimitée",
             "removeAdminTitle": "Supprimer l'administrateur ?",
             "title": "{usr}",
-            "last_online": "Dernière connexion"
+            "last_online": "Dernière connexion",
+            "unlinkAccountWarning": "La suppression d'un lien utilisateur dissociera les comptes. Le statut d'administrateur, les interdictions, les avertissements, les achats, les paquets appliqués et les crédits sont affectés par cela et peuvent ne pas être traités comme vous l'attendez. Vérifiez-les ensuite pour vous assurer que tout va bien."
         },
         "messages": {
             "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale."
@@ -284,6 +285,10 @@
             "TEAMSPEAK3": {
                 "info": "Chat vocal pour les gamers.",
                 "name": "TeamSpeak 3"
+            },
+            "FIVEM": {
+                "name": "FiveM",
+                "info": "GTA 5 Multiplayer."
             }
         }
     },
@@ -415,7 +420,7 @@
             "_types": {
                 "command": "Exécuter une commande sur le(s) serveur(s)",
                 "script": "Exécuter un script sur le(s) serveur(s)",
-                "credits": "Ajouter des crédits au compte des acheteurs",
+                "credits": "Ajouter des {credits_display_title} au compte des acheteurs",
                 "membership": "Ajouter une appartenance à un groupe"
             },
             "checkForReplacements": "Consultez la documentation pour connaître les récompenses disponibles et les \"strings\" de remplacement",
@@ -1053,7 +1058,8 @@
         "price": "Prix",
         "subtotalNoVat": "Sous-Total (Sans TVA)",
         "vat": "TVA",
-        "total": "Total"
+        "total": "Total",
+        "refund": "Remboursement"
     },
     "clientKey": "Clé de Client",
     "clientCert": "Certificat client",
