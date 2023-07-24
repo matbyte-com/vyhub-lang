@@ -225,7 +225,7 @@
             "confirmCreditsPayment": "Please confirm the payment of {credits} {credits_display_title}.",
             "confirmCouponPayment": "Please enter your {gateway_name} code. The payment is then manually approved by a team member.",
             "couponsEntered": "Your coupon was successfully added. You can edit your coupon until your purchase got approved.",
-            "notEnoughCredits": "You do not have enough {credits_display_name} to pay this purchase. Please choose a different payment method or buy more {credits_display_name}.",
+            "notEnoughCredits": "You do not have enough {credits_display_title} to pay this purchase. Please choose a different payment method or buy more {credits_display_title}.",
             "addToCartError": "An error occurred while adding the packet to your cart.",
             "cartEmpty": "Your cart is empty.",
             "mustAgree": "You must agree to continue!",
