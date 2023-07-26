@@ -943,5 +943,6 @@
     "discounts": "Discounts",
     "statistics": "Statistics",
     "andMuchMore": "And much more...",
-    "paymentProcessing": "Payment Processing"
+    "paymentProcessing": "Payment Processing",
+    "logout": "Logout"
 }
