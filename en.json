@@ -131,8 +131,6 @@
         "documentationLink": "Documentation",
         "serverAndServerbundle": "Server / Serverbundle",
         "requirements": "Requirements",
-        "shopOnly": "Shop Only Mode",
-        "shopOnlyDescription": "Only show shop and homepage, hide all other pages. Other pages and functions can be enabled individually again",
         "showTicket": "Enable Ticket System",
         "showTeam": "Enable Team Page",
         "showFaq": "Enable FAQ Page",
