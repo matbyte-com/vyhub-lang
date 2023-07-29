@@ -19,7 +19,8 @@
         "contact": "Contact",
         "docs": "Documentation",
         "profile": "Profil",
-        "affiliate": "Affilier"
+        "affiliate": "Affilier",
+        "customers": "Clients"
     },
     "_form": {
         "contact": {
@@ -206,7 +207,8 @@
         "item": "Article",
         "quantity": "Quantité",
         "subtotalNoVat": "Sous-total (hors TVA)",
-        "vat": "TVA"
+        "vat": "TVA",
+        "refund": "Remboursement"
     },
     "log": {
         "labels": {
@@ -601,5 +603,12 @@
         "statusHelp": "Contactez l'assistance si l'état ne change pas après 10 minutes.",
         "autoUpdateDescription": "L'instance est automatiquement mise à jour à l'heure UTC",
         "autoUpdateActivated": "Mise à jour automatique activée"
+    },
+    "_loginRegister": {
+        "noAccount": "Pas de compte ?",
+        "welcome": "Bienvenue !",
+        "alreadyHaveAccount": "Vous avez déjà un compte ?",
+        "welcomeBack": "Bon retour !",
+        "helpDescription": "Avez-vous besoin d'aide ? Vous pouvez nous joindre via les salons suivants."
     }
 }
