@@ -19,7 +19,8 @@
         "docs": "Doku",
         "admin": "Admin",
         "profile": "Profil",
-        "affiliate": "Partner"
+        "affiliate": "Partner",
+        "customers": "Communities"
     },
     "_footer": {
         "_about": {
@@ -124,7 +125,11 @@
         "customizable": "Anpassbar",
         "pageSubtitle": "Die All-in-One-Management & Monetarisierungsplattform {br}für deine Gaming-Community",
         "contactFormSubtitle": "Hast du Fragen zu Funktionen, Zahlungen oder anderen Dingen? Sende uns eine Nachricht.",
-        "announcement": "VyHub ist nun gratis! Schau dir unsere neue Preisseite an."
+        "announcement": "VyHub ist nun gratis! Schau dir unsere neue Preisseite an.",
+        "_communities": {
+            "description": "Hunderte von Communities vertrauen VyHub. Werde einer von ihnen!"
+        },
+        "ourCommunities": "Unsere Communities"
     },
     "_dashboard": {
         "yourInstances": "Deine Instanzen",
@@ -442,7 +447,8 @@
             "startingPaymentFailed": "Es gab einen Fehler beim Starten der Zahlung. Bitte versuche es erneut oder nutze eine andere Zahlungsmethode!",
             "paymentFailed": "Ein Fehler ist während des Zahlvorgangs aufgetreten. Bitte starte den Kauf erneut.",
             "paymentActionFailed": "Beim Weiterleiten auf die Zahlungsseite ist ein Fehler aufgetreten. Bitte versuchen es erneut oder verwende eine andere Zahlungsmethode! Fehlermeldung: {message}",
-            "noOngoingPurchase": "Derzeit gibt es keinen laufenden Zahlungsvorgang. Bitte starte diesen im Warenkorb."
+            "noOngoingPurchase": "Derzeit gibt es keinen laufenden Zahlungsvorgang. Bitte starte diesen im Warenkorb.",
+            "notEnoughLiquidityForAddons": "Du brauchst ein positives VyHub-Guthaben oder eine aktivierte automatische Aufladung, um Add-ons zu aktivieren."
         },
         "purchaseStatus": {
             "cancelled": "Abgebrochen",
@@ -501,7 +507,8 @@
         "subtotalNoVat": "Zwischensumme (ohne Mehrwertsteuer)",
         "vat": "Mehrwertsteuer",
         "total": "Gesamt",
-        "vatNumber": "Steueridentifikationsnummer"
+        "vatNumber": "Steueridentifikationsnummer",
+        "refund": "Rückerstattung"
     },
     "_newInstance": {
         "description": "Starte mit deiner eigenen VyHub-Instanz!{br}Keine Zahlungsinformationen erforderlich!{br}{br}Wenn du Fragen haben solltest, lies bitte unsere {documentation}.",
@@ -653,12 +660,14 @@
             "reservedSlots": "Reservierte Slots",
             "warnings": "Verwarnungen",
             "rewards": "Unendliche Möglichkeiten mit Prämien (benutzerdefinierte Befehle/Skripte, Ingame-Geld, Item-Drops...)",
-            "playerSync": "Benutzerrollen synchronisieren"
+            "playerSync": "Benutzerrollen synchronisieren",
+            "discordNotifications": "Anpassbare Verbots-/Warnungs-/Kaufbenachrichtigungen in Textkanälen"
         },
         "minecraftDescription": "VyHub unterstützt Minecraft, das meistgespielte überlebens-Sandbox-Spiel. Derzeit erfordert dieses Plugin Java >= 17 und Minecraft >= 1.13.",
         "discordDescription": "VyHub unterstützt Discord, die kostenlose Sprach-, Video- und Text-Chat-App.",
         "gmodDescription": "VyHub unterstützt Garry's Mod, der bekannte Physikbaukasten.",
-        "teamspeakDescription": "VyHub unterstützt TeamSpeak, den Voice-Chat, bei dem du die volle Kontrolle hast."
+        "teamspeakDescription": "VyHub unterstützt TeamSpeak, den Voice-Chat, bei dem du die volle Kontrolle hast.",
+        "supportedMods": "Unterstütze Mods"
     },
     "amount": "Betrag",
     "country": "Land",
@@ -967,8 +976,10 @@
             "bp2": "Unbegrenzte Kategorien",
             "bp3": "Unbegrenzte Unterkategorien",
             "bp4": "Für einen Freund kaufen",
-            "bp6": "Bedingte Pakete",
-            "bp5": "Paket-Upgrades"
+            "bp6": "Kaufe Pakete mit credits",
+            "bp5": "Pakete mit einstellbarem Preis",
+            "bp7": "Pakete mit Upgrades",
+            "bp8": "Bedingte Pakete"
         },
         "rewards": {
             "description": "Immer wenn ein Spieler ein Paket über VyHub kauft, erhält er automatisch die zugewiesenen Belohnungen. Eine Belohnung kann ein beliebiges Ingame-Kommando oder eine Gruppenmitgliedschaft sein.",
@@ -998,8 +1009,9 @@
             "description": "VyHub bietet eine nahtlose Zahlungsabwicklung für deine Gaming-Community. Mit der Unterstützung von über 20 Zahlungsmethoden über PayPal, Stripe und Paysafecard geben wir deinen Spielern die Flexibilität, die bevorzugte Zahlmethode zu wählen. Du musst einfach ein Konto bei einem der Zahlungsgateways wie PayPal, Stripe oder Paysafecard erstellen. Alle Zahlungen werden über diese abgewickelt. Das bedeutet, dass von unserer Seite keine weiteren Verzögerungen der Auszahlung oder Auszahlungsgebühren anfallen. Du hast sofort Zugriff auf das Geld.",
             "bp1": "Über 20 Zahlungsmethoden",
             "bp2": "Es ist lediglich ein Paypal-/Stripe-/Paysafecard-Konto erforderlich",
-            "bp3": "Keine Auszahlungsverzögerungen",
-            "bp4": "Keine Auszahlungsgebühren"
+            "bp3": "Akzeptiere alle Geschenkkarten-ähnlichen Methoden durch manuelle Verarbeitung",
+            "bp4": "Keine Auszahlungsverzögerungen",
+            "bp5": "Keine Auszahlungsgebühren"
         }
     },
     "reset": "Zurücksetzen",
@@ -1007,5 +1019,14 @@
     "rewards": "Prämien",
     "discounts": "Rabatte",
     "statistics": "Statistiken",
-    "andMuchMore": "Und viel mehr..."
+    "andMuchMore": "Und viel mehr...",
+    "_loginRegister": {
+        "alreadyHaveAccount": "Du hast schon ein Konto?",
+        "welcome": "Willkommen!",
+        "noAccount": "Du hast noch kein Konto?",
+        "welcomeBack": "Willkommen zurück!",
+        "helpDescription": "Brauchst du Hilfe? Du kannst uns über die folgenden Kanäle erreichen."
+    },
+    "paymentProcessing": "Zahlungsabwicklung",
+    "logout": "Ausloggen"
 }
