@@ -1,10 +1,11 @@
 {
     "ply": {
-        "banned": "Le joueur <green>%s</green> a été <red>banni pendant %s</red>. Raison : <green>%s</green>  ",
+        "banned": "Le joueur <green>%s</green> a été <red>banni pendant %s</red>. Raison : <green>%s</green>",
         "no_permissions": "Vous ne disposez pas de toutes les permissions requises.",
         "banned_self": "Vous êtes banni de ce serveur",
         "error_get": "Pourrait trouver un joueur. Veuillez réessayer.",
-        "group_changed": "Votre groupe a été changé par <g reen>%s</green>."
+        "group_changed": "Votre groupe a été changé par <green>%s</green>.",
+        "welcome": "Bienvenue sur le serveur, <green>%s</green>"
     },
     "warning": {
         "user_warned": "<red>%s</red> a été averti par <green>%s</green>. Raison : <green>%s</green>",
@@ -56,6 +57,7 @@
         "x_minutes": "%i Minutes",
         "unban_url": "URL de débannissement",
         "permanently": "Permanent",
-        "error_api": "Erreur lors de la communication avec l'API : %s"
+        "error_api": "Erreur lors de la communication avec l'API : %s",
+        "welcome": "Bienvenue"
     }
 }
