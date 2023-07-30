@@ -13,7 +13,8 @@
             "removeAdminTitle": "Supprimer l'administrateur ?",
             "title": "{usr}",
             "last_online": "Dernière connexion",
-            "unlinkAccountWarning": "La suppression d'un lien utilisateur dissociera les comptes. Le statut d'administrateur, les interdictions, les avertissements, les achats, les paquets appliqués et les crédits sont affectés par cela et peuvent ne pas être traités comme vous l'attendez. Vérifiez-les ensuite pour vous assurer que tout va bien."
+            "unlinkAccountWarning": "La suppression d'un lien utilisateur dissociera les comptes. Le statut d'administrateur, les interdictions, les avertissements, les achats, les paquets appliqués et les crédits sont affectés par cela et peuvent ne pas être traités comme vous l'attendez. Vérifiez-les ensuite pour vous assurer que tout va bien.",
+            "unlinkAccount": "Délier compte"
         },
         "messages": {
             "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale."
@@ -35,7 +36,8 @@
         "logoURL": "URL du logo",
         "faviconURL": "URL du favicon",
         "headerColor": "Couleur de l'en-tête et bas de page",
-        "secondaryColor": "Couleur secondaire"
+        "secondaryColor": "Couleur secondaire",
+        "customCss": "CSS personnalisé"
     },
     "_settings": {
         "multigroup": "Plusieurs groupes",
@@ -64,7 +66,7 @@
         "requirements": "Conditions",
         "showTeam": "Activer la page d'équipe",
         "language": "Langue",
-        "languageNewDescriptionText": "Aidez-nous à traduire dans votre langue",
+        "languageNewDescriptionText": "Aidez-nous à traduire votre langue",
         "labels": {
             "title": "Réglages",
             "groupSettings": "Paramètres de groupes",
@@ -72,15 +74,20 @@
             "addBundle": "Ajouter un groupe de serveurs",
             "editBundle": "Modifier le groupe de serveurs",
             "addServer": "Ajouter un serveur",
-            "editGroup": "Modifier le groupe"
+            "editGroup": "Modifier le groupe",
+            "updateOrder": "Mettre à jour l'ordre",
+            "resetOrder": "Réinitialiser l'ordre"
         },
         "formulaBeta": "Cette fonction est en phase bêta. Veuillez utiliser avec prudence.",
         "httpPlaceholder": "https://myurl.com",
-        "communityDescriptionDescr": "Cette description sera affichée dans les résultats des moteurs de recherche",
+        "communityDescriptionDescr": "Cela sera affiché dans les résultats des moteurs de recherche et lors du partage sur les réseaux sociaux",
         "communityDescription": "Description de la communauté",
         "showFaq": "Activer la page FAQ",
         "addServerTooltip": "Veuillez premièrement ajouter un groupe de serveurs",
-        "showForum": "Activer le forum"
+        "showForum": "Activer le forum",
+        "showChat": "Activer le tchat",
+        "showFirstSteps": "Activer le tutoriel (premier pas)",
+        "showAdvancedSettings": "Voir les options avancées"
     },
     "_home": {
         "messages": {
@@ -113,7 +120,10 @@
             "bundleDescription": "Laisser vide pour un bannissement global",
             "banProtests": "Contestations",
             "protestBan": "Contester le bannissement"
-        }
+        },
+        "externalProtestUrl": "Lien externe de protestation du bannissement",
+        "externalProtestUrlDescription": "Laisser vide pour le système de ticket VyHub ou ajouter un lien externe pour une redirection.",
+        "vyhubTicketSystem": "Système de ticket VyHub"
     },
     "_shop": {
         "labels": {
@@ -154,10 +164,14 @@
             "taxIncludedInPacketPrice": "Taxe incluse dans le prix",
             "taxIncludedInPacketPriceDescription": "Au lieu d'ajouter des taxes au prix du paquet spécifié, elles sont incluses dans le prix.",
             "net": "net",
-            "changeTargetUser": "Acheter pour un ami"
+            "changeTargetUser": "Acheter pour un ami",
+            "discountCode": "Code de réduction",
+            "recommended": "Recommandé pour vous",
+            "topDonatorsLimit": "Nombre de donateurs à affichés",
+            "enableTopDonators": "Activer les meilleurs donateurs"
         },
         "messages": {
-            "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} crédits.",
+            "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} {credits_display_title}.",
             "couponsEntered": "Votre coupon a été ajouté avec succès. Vous pouvez modifier votre coupon jusqu'à ce que votre achat soit approuvé.",
             "addToCartError": "Une erreur s'est produite lors de l'ajout du paquet à votre panier.",
             "cartEmpty": "Votre panier est vide.",
@@ -462,7 +476,8 @@
             "showApprovedDebits": "Afficher les débits approuvés",
             "paymentGateway": "Passerelle de paiement",
             "addAppliedReward": "Ajouter une récompense appliquée",
-            "reward": "Récompense"
+            "reward": "Récompense",
+            "thisMonth": "Ce mois-ci"
         },
         "messages": {
             "refundInitSuccess": "Remboursement fait avec succès.",
@@ -528,7 +543,7 @@
             "clientCertDescription": "Un certificat client et une clé sont utilisés comme méthode d'authentification pour l'API paysafecard. Contactez le support paysafecard pour en obtenir un."
         },
         "messages": {
-            "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée.",
+            "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée et sont en écriture seule, ce qui signifie que votre entrée ne sera plus affichée.",
             "deleteWarning": "Attention ! Supprimer une passerelle de paiement provoque la suppression de tous les achats et paiements utilisés par la passerelle de paiement. Cette action ne peut pas être annulée. Ne voulez-vous pas plutôt la désactiver ?"
         }
     },
@@ -654,7 +669,8 @@
             "DISCORD": {
                 "createApp": "Crée une application Discord et active l'authorization Discord.",
                 "readInstructions": "Lisez et suivez les instructions suivantes dans la documentation.",
-                "addBot": "Ajoutez le Bot à votre serveur Discord. Appuyez sur \"reload\" si le bouton ne fonctionne pas."
+                "addBot": "Ajoutez le Bot à votre serveur Discord. Appuyez sur \"reload\" si le bouton ne fonctionne pas.",
+                "restart": "Redémarrer"
             },
             "MINECRAFT": {
                 "download": "Téléchargez le plugin vyhub-minecraft et placez-le dans le dossier plugins de votre serveur. Puis, redémarrez le serveur."
@@ -964,7 +980,13 @@
             "discount_edit": "Gérer les réductions de la boutique",
             "account_show": "Afficher les crédit du comptes des autres utilisateurs",
             "auth_request_confirm": "Confirmer les demandes d'authentification (uniquement pour les serveurs de jeu)",
-            "account_edit": "Modifier les transactions de compte de crédit des utilisateurs"
+            "account_edit": "Modifier les transactions de compte de crédit des utilisateurs",
+            "user_comment_edit": "Créer/supprimer des commentaires d'utilisateurs",
+            "user_comment_delete": "Supprimer les commentaires des autres utilisateurs",
+            "ban_comment_show": "Voir les commentaires bannis",
+            "user_comment_show": "Afficher les commentaires des utilisateurs",
+            "ban_comment_edit": "Créer/supprimer les commentaires bannis",
+            "ban_comment_delete": "Supprimer les commentaires des utilisateurs bannis"
         }
     },
     "_creditHistory": {
@@ -1042,7 +1064,7 @@
         "topicAdmins": "Administrateurs du sujet : ",
         "hideClosed": "Masquer les discussions fermées",
         "numberOfThreads": "Nombre de fils : ",
-        "numberOfPosts": "Nombre de Posts : ",
+        "numberOfPosts": "Nombre de postes :",
         "deleteThread": "Supprimer le fil",
         "threadPinned": "Discussion épinglée"
     },
@@ -1063,5 +1085,10 @@
     },
     "clientKey": "Clé de Client",
     "clientCert": "Certificat client",
-    "writeToConfirm": "Écrivez pour confirmer :"
+    "writeToConfirm": "Écrivez pour confirmer :",
+    "comments": "Commentaires",
+    "unknown": "Inconnu",
+    "_messages": {
+        "cancelSuccess": "Annulé avec succès."
+    }
 }
