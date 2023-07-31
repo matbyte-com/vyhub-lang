@@ -615,8 +615,7 @@
         "showFirstSteps": "Aktiviere die Einführung (Erste Schritte)",
         "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)",
         "requirementSetTest": "Teste die Regeln für einen Nutzer",
-        "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics",
-        "showAdvancedSettings": "Erweiterte Einstellungen anzeigen"
+        "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics"
     },
     "_user": {
         "type": {

@@ -86,8 +86,7 @@
         "addServerTooltip": "Veuillez premièrement ajouter un groupe de serveurs",
         "showForum": "Activer le forum",
         "showChat": "Activer le tchat",
-        "showFirstSteps": "Activer le tutoriel (premier pas)",
-        "showAdvancedSettings": "Voir les options avancées"
+        "showFirstSteps": "Activer le tutoriel (premier pas)"
     },
     "_home": {
         "messages": {
