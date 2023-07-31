@@ -612,6 +612,8 @@
         "showForum": "Forum aktivieren",
         "showChat": "Chat aktivieren",
         "showFirstSteps": "Aktiviere die EInführung (Erste Schritt)",
+        "shopOnlyDescription": "Nur Shop und Startseite anzeigen, alle anderen Seiten ausblenden. Andere Seiten und Funktionen können einzeln wieder angeschalten werden.",
+        "showFirstSteps": "Aktiviere die EInführung (Erste Schritte)",
         "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)",
         "requirementSetTest": "Teste die Regeln für einen Nutzer",
         "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics"
@@ -1052,7 +1054,7 @@
     "clientKey": "Kundenschlüssel",
     "instructions": "Anweisungen",
     "adverts": "Anzeigen",
-    "setup": "Konfiguration",
+    "setup": "Setup",
     "requirementSet": "Anforderungssatz",
     "theme": "Style",
     "submit": "Absenden",
