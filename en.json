@@ -599,7 +599,8 @@
             "doNotAcceptPending": "Do not accept pending payments",
             "clientCertDescription": "A client certificate and key is used as authentication method for the paysafecard API. Contact the paysafecard support to get one.",
             "acceptPendingDescription": "Some payment methods (e.g. SEPA Direct Debit, SOFORT, ...) take several days until completed. If this option is enabled, purchases paid with these methods are finished directly after completing the checkout process. There is a small chance that the payment fails afterwards.",
-            "webhookURL": "Webhook URL"
+            "webhookURL": "Webhook URL",
+            "imageUrlDescription": "Optional. Default images are used, when no link is provided."
         },
         "messages": {
             "deleteWarning": "Caution! Deleting a payment gateway causes the deletion of all purchases and payments where the gateway has been used! This action can't be undone. Maybe disable it instead?",
