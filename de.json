@@ -4,7 +4,8 @@
         "banned_self": "Du wurdest vom Server gebannt",
         "group_changed": "Deine Gruppe wurde zu <green>%s</green> geändert.",
         "error_get": "Spieler konnte nicht gefunden werden. Bitte probiere es später erneut.",
-        "banned": "Spieler <green>%s</green> wurde <red>%s gebannt</red>. Grund: <green>%s</green>"
+        "banned": "Spieler <green>%s</green> wurde <red>%s gebannt</red>. Grund: <green>%s</green>",
+        "welcome": "Willkommen auf dem Server, <green>%s</green>"
     },
     "warning": {
         "toggled": "Status der Verwarnung wurde geändert.",
@@ -51,7 +52,8 @@
         "date": "Datum",
         "warn": "Verwarnung",
         "ban": "Bann",
-        "bans": "Banns"
+        "bans": "Banns",
+        "welcome": "Willkommen"
     },
     "dashboard": {
         "select_user": "Bitte wähle einen Spieler aus.",
