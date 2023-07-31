@@ -612,7 +612,7 @@
         "addServerTooltip": "Erstelle zuerst ein Serverbundle",
         "showForum": "Forum aktivieren",
         "showChat": "Chat aktivieren",
-        "showFirstSteps": "Aktiviere die EInführung (Erste Schritte)",
+        "showFirstSteps": "Aktiviere die Einführung (Erste Schritte)",
         "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)",
         "requirementSetTest": "Teste die Regeln für einen Nutzer",
         "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics",
