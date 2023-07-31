@@ -145,7 +145,7 @@
         "showFirstStepsDescription": "First steps tutorial in bottom right. (Admins only)",
         "googleAnalyticsTagDescription": "[Optional] for your Google Analytics use",
         "requirementSetTest": "Test requirement set against user",
-        "showAdvancedSettings": "Show Advanced Settings",
+        "advancedSettings": "Advanced Settings",
         "labels": {
             "title": "Settings",
             "groupSettings": "Groupsettings",

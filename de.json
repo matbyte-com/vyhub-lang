@@ -296,7 +296,7 @@
         "banLength": "Dauer des automatischen Banns (Minuten)",
         "reason": "Grund",
         "title": "Verwarnungen",
-        "ttl": "Verwarndauer (tage)",
+        "ttl": "Verwarndauer (Tage)",
         "ttlDescription": "Zeit, bis die Verwarnung abläuft",
         "countTillBan": "Anzahl der Verwarnungen bis zum automatischen Bann",
         "settingFormDesc": "Benutzer werden automatisch gesperrt, wenn sie die angegebene Anzahl von aktiven Warnungen erreichen.",
