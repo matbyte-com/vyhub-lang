@@ -249,7 +249,8 @@
             "clientCertDescription": "Als Authentifizierungsmethode für die paysafecard API wird ein Client-Zertifikat und -Schlüssel verwendet. Wenden Sie sich an den paysafecard-Support, um eine zu erhalten.",
             "acceptPending": "Akzeptieren Sie ausstehende Zahlungen",
             "doNotAcceptPending": "Akzeptieren Sie keine ausstehenden Zahlungen",
-            "acceptPendingDescription": "Einige Zahlungsarten (z. B. SEPA-Lastschrift, SOFORT, ...) benötigen mehrere Tage, bis sie abgeschlossen sind. Wenn diese Option aktiviert ist, werden mit diesen Methoden bezahlte Einkäufe direkt nach Abschluss des Bestellvorgangs abgeschlossen. Es besteht eine geringe Chance, dass die Zahlung danach fehlschlägt."
+            "acceptPendingDescription": "Einige Zahlungsarten (z. B. SEPA-Lastschrift, SOFORT, ...) benötigen mehrere Tage, bis sie abgeschlossen sind. Wenn diese Option aktiviert ist, werden mit diesen Methoden bezahlte Einkäufe direkt nach Abschluss des Bestellvorgangs abgeschlossen. Es besteht eine geringe Chance, dass die Zahlung danach fehlschlägt.",
+            "imageUrlDescription": "Optional. Wenn kein Link angegeben ist, werden Standardbilder verwendet."
         },
         "messages": {
             "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird, und sind write-only, was bedeutet, dass die Eingabe nicht erneut angezeigt wird.",
@@ -614,7 +615,8 @@
         "showFirstSteps": "Aktiviere die EInführung (Erste Schritte)",
         "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)",
         "requirementSetTest": "Teste die Regeln für einen Nutzer",
-        "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics"
+        "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics",
+        "showAdvancedSettings": "Erweiterte Einstellungen anzeigen"
     },
     "_user": {
         "type": {
