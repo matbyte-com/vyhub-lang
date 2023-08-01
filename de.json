@@ -125,7 +125,7 @@
             "removeAllPackets": "Entferne alle Pakete",
             "checkoutCheckboxes": "Kontrollkästchen Kasse",
             "taxIncludedInPacketPrice": "Steuern im Paketpreis enthalten",
-            "taxIncludedInPacketPriceDescription": "Anstatt Steuern auf den angegebenen Paketpreis aufzuschlagen, sind sie im Preis inbegriffen.",
+            "taxIncludedInPacketPriceDescription": "Anstatt Steuern auf den angegebenen Paketpreis aufzuschlagen, sind diese im Preis inbegriffen.",
             "financeReport": "Finanzbericht",
             "downloadInvoices": "Rechnungen herunterladen",
             "net": "net",
@@ -141,7 +141,7 @@
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
             "notEnoughCredits": "Du hast nicht genug {credit_display_title}, um diesen Kauf zu bezahlen. Bitte wähle eine andere Zahlungsmethode oder kaufe mehr {credit_display_title}.",
-            "confirmCreditsPayment": "Bitte bestätigen Sie die Zahlung von {credits} {credit_display_title}.",
+            "confirmCreditsPayment": "Bitte bestätige die Zahlung von {credits} {credit_display_title}.",
             "addToCartError": "Beim Hinzufügen des Pakets zu deinem Warenkorb ist ein Fehler aufgetreten.",
             "cartEmpty": "Dein Warenkorb ist leer.",
             "mustAgree": "Du musst zustimmen, um fortzufahren!",
@@ -212,7 +212,7 @@
         "title": "Navigation",
         "addNavLink": "Navigationslink hinzufügen",
         "editNavLink": "Navigationslink bearbeiten",
-        "noHtmlGiven": "Bitte geben Sie HTML ein!",
+        "noHtmlGiven": "Bitte gib HTML ein!",
         "deleteDefaultLink": "Standardlink kann nicht gelöscht werden",
         "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder",
         "_location": {
@@ -246,9 +246,9 @@
             "paysafecard": "Paysafecard",
             "create": "Zahlungsmethode Erstellen",
             "edit": "Zahlungsmethode Editieren",
-            "clientCertDescription": "Als Authentifizierungsmethode für die paysafecard API wird ein Client-Zertifikat und -Schlüssel verwendet. Wenden Sie sich an den paysafecard-Support, um eine zu erhalten.",
-            "acceptPending": "Akzeptieren Sie ausstehende Zahlungen",
-            "doNotAcceptPending": "Akzeptieren Sie keine ausstehenden Zahlungen",
+            "clientCertDescription": "Als Authentifizierungsmethode für die paysafecard API wird ein Client-Zertifikat und -Schlüssel verwendet. Wende dich an den paysafecard-Support, um diese zu erhalten.",
+            "acceptPending": "Akzeptiere ausstehende Zahlungen",
+            "doNotAcceptPending": "Akzeptiere keine ausstehenden Zahlungen",
             "acceptPendingDescription": "Einige Zahlungsarten (z. B. SEPA-Lastschrift, SOFORT, ...) benötigen mehrere Tage, bis sie abgeschlossen sind. Wenn diese Option aktiviert ist, werden mit diesen Methoden bezahlte Einkäufe direkt nach Abschluss des Bestellvorgangs abgeschlossen. Es besteht eine geringe Chance, dass die Zahlung danach fehlschlägt.",
             "imageUrlDescription": "Optional. Wenn kein Link angegeben ist, werden Standardbilder verwendet."
         },
@@ -319,8 +319,8 @@
             "messages": {
                 "import1Description": "VyHub ist nun bereit, die ersten Objekte zu importieren: Gruppen, Serverbundle und Benutzer. Achte darauf, den Importprozess in dieser Reihenfolge zu starten.",
                 "import2Description": "Du kannst nun die unten aufgeführten Objekte importieren. Die Reihenfolge ist nicht relevant.",
-                "packetsDataDescription": "Wählen Sie aus, welches VyHub-Paket an Eigentümer von GExtension-Paketen weitergegeben werden soll. Es ist auch möglich, einige Belohnungen auszuschließen. Wenn keine GExtension-Pakete aus wählbar sind, vergewissern Sie sich, dass Ihre URL und Ihr API-Schlüssel korrekt sind. Starten Sie anschließend den Paketimport.",
-                "basicDataDescription": "Fügen Sie die URL zu Ihrer GExtension-Site ein (ohne index.php). Stellen Sie sicher, dass Sie GExtension Version 2.7.8 oder neuer verwenden."
+                "packetsDataDescription": "Wählen aus, welches VyHub-Paket an Eigentümer des GExtension-Pakets weitergegeben werden soll. Es ist auch möglich, einige Belohnungen auszuschließen. Wenn keine GExtension-Pakete aus wählbar sind, vergewissere dich, dass die URL und der API-Schlüssel korrekt sind. Starten anschließend den Paketimport.",
+                "basicDataDescription": "Fügen die URL zu deiner GExtension-Seite ein (ohne index.php). Stellen sicher, dass du GExtension Version 2.7.8 oder neuer verwendest."
             }
         },
         "messages": {
@@ -351,26 +351,26 @@
         },
         "instructions": {
             "DISCORD": {
-                "addBot": "Füge den Bot zu deinem Discord-Server hinzu. Klicken Sie auf Neu laden, wenn die Schaltfläche nicht funktioniert.",
-                "createApp": "Erstellen Sie eine Discord-Anwendung und aktivieren Sie die Discord-Autorisierung.",
-                "readInstructions": "Lesen und befolgen Sie die weiteren Anweisungen in den Dokumenten.",
+                "addBot": "Füge den Bot zu deinem Discord-Server hinzu. Klicken auf Neu laden, wenn die Schaltfläche nicht funktioniert.",
+                "createApp": "Erstellen eine Discord-Anwendung und aktiviere die Discord-Autorisierung.",
+                "readInstructions": "Lese und befolge die weiteren Anweisungen in der Dokumentation.",
                 "restartBot": "[Optional] Du hast probleme, zum Beispiel wurde der Bot nicht gestartet? Bitte überprüfe die Logs auf hilfreiche Fehlermeldungen. Hier kannst du den Bot manuell neu starten.",
                 "restart": "Neu starten"
             },
             "COMMON": {
                 "runCommands": "Generiere die erforderlichen Befehle, indem du auf die Schaltfläche klickst. Führe diese anschließend in der Serverkonsole deines Servers aus.",
-                "wait": "Warten Sie bis zu einer Minute, bis VyHub initialisiert ist. Bei erfolgreicher Verbindung erscheint eine Meldung in der Serverkonsole."
+                "wait": "Warte bis zu einer Minute, bis VyHub initialisiert ist. Bei erfolgreicher Verbindung erscheint eine Meldung in der Serverkonsole."
             },
             "GMOD": {
-                "download": "Laden Sie das Addon vyhub-gmod herunter, entpacken Sie es und legen Sie es in den Addons-Ordner Ihres Servers. Starten Sie dann Ihren Server neu.",
+                "download": "Lade das Addon vyhub-gmod herunter, entpacken es und legen es in den Addons-Ordner deines Servers. Starte dann deinen Server neu.",
                 "serverConsoleHint": "Wichtig: Die Serverkonsole ist NICHT die Konsole im Spiel (beim Drücken von F10)."
             },
             "MINECRAFT": {
-                "download": "Laden Sie das vyhub-minecraft-Plugin .jar herunter und legen Sie es in den Plugins-Ordner Ihres Servers. Starten Sie dann Ihren Server neu."
+                "download": "Lade das vyhub-minecraft-Plugin .jar herunter und legen es in den Plugins-Ordner deines Servers. Starten dann deinen Server neu."
             },
             "TEAMSPEAK3": {
-                "headline": "Der TS3-Bot sollte bereits mit Ihrem Teamspeak-Server verbunden sein.",
-                "botNotConnected": "Der Bot ist nicht verbunden? Aktivieren Sie zuerst die Anzeige von Abfrage-Bots. Jedes Mal, wenn Sie die Servereinstellungen ändern, versucht der Bot, sich erneut zu verbinden. Möglicherweise finden Sie Fehlermeldungen im Protokoll."
+                "headline": "Der TS3-Bot sollte bereits mit deinem Teamspeak-Server verbunden sein.",
+                "botNotConnected": "Der Bot ist nicht verbunden? Aktiviere zuerst die Anzeige von Query-Bots. Jedes Mal, wenn du die Servereinstellungen änderst, versucht der Bot, sich erneut zu verbinden. Möglicherweise findest du auch Fehlermeldungen im Log."
             },
             "FIVEM": {
                 "download": "Lade das Vyhub-Fivem-Plugin herunter und fügen es deinem Server hinzu."
@@ -424,7 +424,7 @@
             "activeUntil": "Aktiv bis",
             "paymentMethods": "Zahlungsmethoden",
             "limitPaymentMethods": "Begrenzte Zahlungsmöglichkeiten",
-            "customPriceDetail": "Lassen Sie den Benutzer den Preis bestimmen. Der oben eingegebene Preis wird als Mindestpreis verwendet.",
+            "customPriceDetail": "Lasse den Benutzer den Preis bestimmen. Der oben eingegebene Preis wird als Mindestpreis verwendet.",
             "details": "Paket Details",
             "relationRequires": "Erfordert das ausgewählte Paket für einen Kauf",
             "relationNotCompatible": "Nicht kompatibel mit dem ausgewählten Paket.",
@@ -496,7 +496,7 @@
             },
             "addAppliedReward": "Angewendete Prämie hinzufügen",
             "reactivateOnExtend": "Erneut ausführen, wenn das Paket verlängert wurde (bei Abonnementzahlung)",
-            "checkForReplacements": "Überprüfen Sie die Dokumentation auf verfügbare Belohnungstypen und String-Ersetzungen",
+            "checkForReplacements": "Schau in die Dokumentation für verfügbare Prämientypen und String-Ersetzungen",
             "syncAppliedRewards": "Belohnungen synchronisieren",
             "amountOfAppliedRewardsToPatch": "Anzahl der angewendeten Belohnungen zum updaten: {amount}",
             "packetSyncLimitDescription": "Prämien werden allen Paketen hinzugefügt, deren Startdatum im angegebenen Bereich liegt. Anfang und Ende sind optional.",
@@ -558,10 +558,10 @@
             "revokeSuccess": "Kauf erfolgreich widerrufen.",
             "refreshSuccess": "Die Zahlungsdaten wurden erfolgreich aktualisiert.",
             "unrevokeSuccess": "Kauf erfolgreich widerrufen.",
-            "cancelSubscriptionConfirm": "Möchten Sie dieses Abonnement wirklich kündigen?",
-            "deleteConfirm": "Möchten Sie diesen Kauf wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden. Zugehörige angewendete Pakete werden nicht gelöscht.",
+            "cancelSubscriptionConfirm": "Möchtest du dieses Abonnement wirklich kündigen?",
+            "deleteConfirm": "Möchtest du diesen Kauf wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden. Zugehörige angewendete Pakete werden nicht gelöscht.",
             "confirmPurchaseSuccess": "Kauf erfolgreich genehmigt",
-            "refundConfirm": "Sind Sie sicher, dass Sie diesen Kauf zurückerstatten möchten?",
+            "refundConfirm": "Bist du sicher, dass du diesen Kauf zurückerstatten möchtest?",
             "declinePurchaseSuccess": "Kauf erfolgreich abgebrochen"
         }
     },
@@ -902,7 +902,7 @@
             "general_show": "Allgemeine Einstellungen anzeigen",
             "purchase_show": "Einkäufe und Statistiken anzeigen",
             "purchase_edit": "Einkäufe verwalten",
-            "applied_packet_show": "Sehen Sie sich angewendete Pakete und Belohnungen an.",
+            "applied_packet_show": "Schau dir angewendete Pakete und Belohnungen an.",
             "applied_packet_edit": "Bearbeitete Pakete und Prämien bearbeiten.",
             "shop_show": "Shop-Einstellungen ansehen",
             "account_show": "Guthaben Konten anderer Benutzer anzeigen",
@@ -911,7 +911,7 @@
             "advert_show": "Anzeigen ansehen",
             "advert_edit": "Anzeigen verwalten",
             "admin_menu": "Admin-Menü aktivieren",
-            "warning_config_edit": "Bearbeiten Sie die Warnkonfiguration in den Einstellungen",
+            "warning_config_edit": "Bearbeite die Verwarnungskonfiguration in den Einstellungen",
             "requirement_show": "Anforderungssätze anzeigen",
             "requirement_edit": "Anforderungssätze verwalten",
             "gateway_show": "Zahlungsgateways anzeigen",
@@ -927,7 +927,7 @@
             "authorization_edit": "Berechtigungseinstellungen bearbeiten",
             "auth_request_confirm": "Authentifizierungsanfragen bestätigen (nur für Gameserver)",
             "faq_edit": "FAQ in den Einstellungen bearbeiten",
-            "reserved_slot_use": "Verwenden Sie reservierte Slots auf einem Server",
+            "reserved_slot_use": "Verwende reservierte Slots auf einem Server",
             "forum_edit": "Forum bearbeiten",
             "user_log_show": "Nutzerprotokoll anzeigen",
             "ban_log_show": "Bannprotokoll ansehen",
@@ -1072,7 +1072,7 @@
             "unpinned": "Thread losgelöst."
         },
         "lock": "Sperren",
-        "selectTopicCategory": "Wählen Sie eine Themenkategorie aus",
+        "selectTopicCategory": "Wählen eine Themenkategorie aus",
         "unlock": "Freischalten",
         "locked": "Geschlossen",
         "unlocked": "Entsperrt",
@@ -1176,7 +1176,7 @@
         "createServer": "Erstelle deinen Server",
         "syncGroups": "Synchronisiere Gruppen zwischen VyHub und deinem Server",
         "setupShop": "Richte deinen Shop ein",
-        "createCategory": "Erstellen Sie eine Paketkategorie",
+        "createCategory": "Erstellen eine Paketkategorie",
         "createReward": "Erstelle eine Prämie",
         "createGroup": "Erstelle eine Gruppe mit einer Gruppenzuordnung",
         "createPacket": "Erstelle ein Paket",
