@@ -821,7 +821,7 @@
         "feature6": "Atualizações incluídas",
         "feature7": "Certificado SSL gratuito",
         "feature8": "Suporta vários servidores de jogos",
-        "shFeature1": "Único sistema auto-hospedado do mercado",
+        "shFeature1": "Configuração simples via Docker",
         "shFeature2": "Front-end e back-end auto-hospedados",
         "shFeature3": "Todos os recursos do VyHub",
         "shFeature4": "Extensões premium incluídas"
