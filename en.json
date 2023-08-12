@@ -191,6 +191,7 @@
             "payment": "Payment",
             "paymentId": "Payment ID",
             "addToCart": "Add to cart",
+            "addToCart17CharsMax": "Add to cart",
             "total": "Total",
             "businessAddress": "Business Address",
             "purchaseNow": "Purchase Now",
