@@ -553,6 +553,21 @@
             "messageEmpty": "Please enter a message"
         }
     },
+    "_component": {
+        "addComponent": "Add Component",
+        "components": "Components",
+        "_form": {
+            "height": "Height",
+            "limit": "Limit",
+            "headline": "Headline",
+            "discordWidget": "Discord Widget",
+            "inverted": "Inverted",
+            "btnText": "Button Text",
+            "question": "Question",
+            "answer": "Answer",
+            "maxColumnHeight": "Max Column Height"
+        }
+    },
     "_requirement": {
         "addRequirement": "Requirement",
         "requirementType": "Type",
@@ -1014,7 +1029,8 @@
         "editSuccess": "Successfully edited.",
         "updateSuccess": "Successfully updated.",
         "updateOrderSuccess": "Successfully updated order.",
-        "toggleSuccess": "Successfully toggled."
+        "toggleSuccess": "Successfully toggled.",
+        "copyClipboard": "Copied to clipboard."
     },
     "update": "Update",
     "recurring": "Recurring",
@@ -1197,6 +1213,7 @@
     "global": "Global",
     "rawHtml": "Raw HTML",
     "required": "Required",
+    "content": "Content",
     "time": "Time",
     "show": "Show",
     "test": "Test",
