@@ -469,8 +469,7 @@
         "messageSubject": "Thema",
         "editNews": "Nachricht bearbeiten",
         "newsOfTheDay": "Neuigkeiten des Tages",
-        "news": "Nachrichten",
-        "newsExhausted": "Das ist es. Du hast alles gesehen"
+        "news": "Nachrichten"
     },
     "_reward": {
         "labels": {
