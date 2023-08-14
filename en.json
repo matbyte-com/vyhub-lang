@@ -87,7 +87,9 @@
         }
     },
     "_theme": {
-        "headerColor": "Header and Footer Color",
+        "headerColor": "Header Color",
+        "lightHeaderColor": "Light Header Color",
+        "footerColor": "Footer Color",
         "primaryColor": "Primary Color",
         "secondaryColor": "Secondary Color",
         "successColor": "Success Color",
