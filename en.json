@@ -175,6 +175,7 @@
         "bundle_edit": "Add and Edit Serverbundles"
     },
     "_shop": {
+        "shopTitle": "Welcome to the shop",
         "labels": {
             "financeReport": "Finance Report",
             "downloadInvoices": "Download Invoices",
@@ -212,12 +213,13 @@
             "taxAllowUnknownDescription": "If disabled, purchases from countries that do not have an explicit tax rule configured, are not possible.",
             "enableTopDonators": "Enable top donators",
             "topDonatorsLimit": "Number of donators to display",
-            "enableTopDonatorsDescription": "Top donators component displayed on startpage (News)",
+            "enableLastDonators": "Enable last donations",
+            "widgetDescription": "Widget component displayed throughout the website (News, Shop, Home)",
             "topDonatorDisplayTitle": "Top donators display title",
             "donationGoalDisplayTitle": "Donation goal display title",
+            "lastDonatorsDisplayTitle": "Last donations display title",
             "donationGoal": "Donation goal",
             "enableDonationGoal": "Enable donation goal",
-            "enableDonationGoalDescription": "Donation goal component displayed on startpage (News)",
             "cancelPayment": "Cancel Payment",
             "cancelPurchase": "Cancel Purchase",
             "changeTargetUser": "Buy for a friend",
@@ -1069,6 +1071,8 @@
     "revoked": "Revoked",
     "purchases": "Purchases",
     "overview": "Overview",
+    "view": "View",
+    "viewMore": "View more",
     "language": "Language",
     "payment": "Payment",
     "refresh": "Refresh",
