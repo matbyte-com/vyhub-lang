@@ -241,11 +241,9 @@
             "defaultCurrency": "Валюта за замовчуванням",
             "donationGoal": "Мета пожертви",
             "enableDonationGoal": "Увімкнути мету пожертви",
-            "enableDonationGoalDescription": "Мета пожертви відображається на стартовій сторінці (Новини)",
             "changeTargetUser": "Купити для друга",
             "enableTopDonators": "Включити топ-донорів",
-            "topDonatorsLimit": "Кількість донорів для відображення",
-            "enableTopDonatorsDescription": "Компонент \"Найкращі донори\" відображається на стартовій сторінці (Новини)"
+            "topDonatorsLimit": "Кількість донорів для відображення"
         },
         "purchaseStatus": {
             "cancelled": "Скасовано",

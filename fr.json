@@ -152,7 +152,6 @@
             "taxAllowUnknown": "Autoriser les achats en provenance de pays sans règle fiscale.",
             "subtotal": "Sous-total",
             "enableDonationGoal": "Activer l'objectif de don",
-            "enableDonationGoalDescription": "Composant d'objectif de don affiché sur la page d'accueil (Actualités)",
             "cancelPayment": "Annuler le paiement",
             "cancelPurchase": "Annuler l'achat",
             "loginToBuy": "Connectez-vous pour acheter ce pack",

@@ -156,7 +156,6 @@
             "defaultCurrency": "Moeda Padrão",
             "taxIncludedInPacketPrice": "Impostos incluídos no valor do pacote",
             "taxIncludedInPacketPriceDescription": "Ao invés de adicionar impostos no preço do pacote especificado no topo, eles estão incluídos no valor.",
-            "enableDonationGoalDescription": "Componente de meta de doação exibido na página inicial (Novidades)",
             "financeReport": "Relatório Financeiro",
             "downloadInvoices": "Baixar Faturas",
             "cart": "Carrinho",

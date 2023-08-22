@@ -208,7 +208,6 @@
             "taxAllowUnknown": "Sta aankopen toe uit landen zonder belastingregel.",
             "taxAllowUnknownDescription": "Indien uitgeschakeld, zijn aankopen uit landen die geen expliciete belastingregel hebben geconfigureerd, niet mogelijk.",
             "enableDonationGoal": "Donatiedoel inschakelen",
-            "enableDonationGoalDescription": "Donatiedoelcomponent weergegeven op startpagina (Nieuws)",
             "cancelPayment": "Annuleer betaling",
             "cancelPurchase": "Annuleer aankoop",
             "couponCode": "coupon code",
