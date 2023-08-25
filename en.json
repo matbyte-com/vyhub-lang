@@ -850,6 +850,7 @@
         }
     },
     "_forum": {
+        "welcomeToForum": "Welcome to the forum",
         "forum": "Forum",
         "ticket:": "Ticket",
         "manageTopicCategories": "Manage Topic Categories",
