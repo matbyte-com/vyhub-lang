@@ -197,6 +197,7 @@
             "total": "Total",
             "businessAddress": "Business Address",
             "purchaseNow": "Purchase Now",
+            "payNow": "Pay Now",
             "orderOverview": "Order Overview",
             "cartTotal": "Cart Total",
             "defaultCurrency": "Default Currency",
