@@ -224,7 +224,9 @@
             "changeTargetUser": "Buy for a friend",
             "recommended": "Recommended for you",
             "creditsDisplayTitle": "Credits display title",
-            "creditsDisplayTitleDescription": "Rename payment credits to anything you like (gulden, diamonds, coins...)"
+            "creditsDisplayTitleDescription": "Rename payment credits to anything you like (gulden, diamonds, coins...)",
+            "pleaseWait": "Please Wait",
+            "redirectDescription": "You will be redirected to the payment provider."
         },
         "messages": {
             "confirmCreditsPayment": "Please confirm the payment of {credits} {credits_display_title}.",
