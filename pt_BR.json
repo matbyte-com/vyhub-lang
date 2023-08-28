@@ -167,7 +167,6 @@
             "tax": "Imposto",
             "net": "Rede",
             "subtotal": "Subtotal",
-            "checkout": "Check-out",
             "payment": "Pagamento",
             "addToCart": "Adicionar ao carrinho",
             "total": "Total",
@@ -859,8 +858,7 @@
         "shop": "Loja",
         "shopPacket": "Loja - Pacote",
         "shopCategory": "Loja - Categoria",
-        "shopCart": "Carrinho",
-        "shopCheckout": "Check-out"
+        "shopCart": "Carrinho"
     },
     "_server": {
         "labels": {

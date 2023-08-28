@@ -210,7 +210,6 @@
             "subtotal": "Проміжний підсумок",
             "applyCoupon": "Застосувати купон",
             "couponCode": "Код купона",
-            "checkout": "Оформити замовлення",
             "paymentId": "ID платежу",
             "addToCart": "Додати в кошик",
             "total": "Всього",
@@ -609,7 +608,6 @@
         "warning_new": "Створено нове попередження. Причина: [reason]"
     },
     "_pageTitle": {
-        "shopCheckout": "Оформити замовлення",
         "settings": "Налаштування",
         "legal": "Юридична інформація",
         "serverDashboard": "Серверна панель",

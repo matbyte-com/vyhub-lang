@@ -145,7 +145,6 @@
             "couponCode": "Código promocional",
             "tax": "Impuesto",
             "taxRules": "Reglas Tributarias",
-            "checkout": "Verificar",
             "payment": "Pago",
             "paymentId": "ID de pago",
             "addToCart": "Añadir a la cesta"
