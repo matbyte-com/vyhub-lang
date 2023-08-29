@@ -391,6 +391,9 @@
             "zip_code": "Zip Code",
             "vat_number": "VAT Number",
             "selectAddress": "Select address"
+        },
+        "messages": {
+            "noAddressesYet": "You have no addresses yet."
         }
     },
     "_packet": {
