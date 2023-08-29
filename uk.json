@@ -789,16 +789,13 @@
     "_forum": {
         "locked": "Заблоковано",
         "manageTopicCategories": "Керувати категоріями тем",
-        "manageTopics": "Керувати темами",
         "addThread": "Додати гілку",
         "messages": {
-            "pinned": "Гілка закріплена.",
             "unpinned": "Гілка відкріплена."
         },
         "hideClosed": "Приховати закриті гілки",
         "rename": "Перейменувати",
         "admin": "Адмін форуму",
-        "selectTopicCategory": "Виберіть категорію теми",
         "addCategory": "Додати категорію",
         "addTopic": "Додати тему",
         "editTopicCategory": "Редагувати категорію теми",
@@ -817,14 +814,12 @@
         "editTopic": "Редагувати тему",
         "latestPosts": "Останні пости",
         "latestThreads": "Останні гілки",
-        "statistics": "Статистика форуму",
         "editPost": "Дозволити редагування постів",
         "edited": "Відредаговано",
         "forum": "Форум",
         "addTicket": "Створити запит",
         "closed": "Закрито",
         "status": {
-            "closed": "закрито",
             "open": "відкрити"
         },
         "pinned": "закріплено",

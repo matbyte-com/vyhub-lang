@@ -651,7 +651,6 @@
         "noTickets": "Henüz bilet oluşturmadınız.",
         "showClosed": "Gösteri kapandı",
         "messages": {
-            "pinned": "Konu sabitlendi.",
             "unpinned": "Konu sabitlenmemiş."
         },
         "deleteThread": "İş Parçacığını Sil",
@@ -670,7 +669,6 @@
         "closed": "Kapalı",
         "showBan": "Yasağı Göster",
         "status": {
-            "open": "açık",
             "closed": "kapalı"
         },
         "addThread": "Konu Ekle",
@@ -678,7 +676,6 @@
         "unpin": "Bağlantıyı Kes",
         "pin": "Sabit",
         "editPost": "Gönderileri düzenlemeye izin ver",
-        "manageTopics": "Konuları Yönet",
         "addCategory": "Kategori Ekle",
         "deleteCategory": "Kategoriyi Sil",
         "admin": "Forum Yöneticisi",
@@ -695,11 +692,9 @@
         "addPost": "Gönderi Ekle",
         "forum": "Forum",
         "manageTopicCategories": "Konu Kategorilerini Yönetme",
-        "selectTopicCategory": "Bir Konu Kategorisi Seçin",
         "editTopic": "Konuyu Düzenle",
         "latestPosts": "Son Yazılar",
         "latestThreads": "Son Konular",
-        "statistics": "Forum İstatistikleri",
         "threads": "Konular",
         "edited": "Düzenlenmiş",
         "tickets": "Biletler",

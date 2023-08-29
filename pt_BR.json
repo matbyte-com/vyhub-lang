@@ -596,11 +596,9 @@
         "topicAdminUser": "Administradores de Tópicos",
         "numberOfPosts": "Contagem de Publicações: ",
         "messages": {
-            "pinned": "Tópico fixado.",
             "unpinned": "Tópico desafixado."
         },
         "manageTopicCategories": "Gerenciar Categorias de Tópicos",
-        "manageTopics": "Gerenciar Tópicos",
         "selectTopicCategory": "Selecione uma Categoria de Tópico",
         "addThread": "Adicionar Tópico",
         "addCategory": "Adicionar Categoria",
@@ -621,7 +619,6 @@
         "editTopic": "Editar Tópico",
         "latestPosts": "Últimos posts",
         "latestThreads": "Últimos Tópicos",
-        "statistics": "Estatísticas do Fórum",
         "threads": "Tópicos",
         "by": "por",
         "editPost": "Permitir editar postagens",
@@ -651,7 +648,6 @@
         "banProtest": "Proibir protesto",
         "showBan": "Mostrar proibição",
         "status": {
-            "open": "aberto",
             "closed": "fechado"
         }
     },

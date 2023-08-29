@@ -679,11 +679,9 @@
         "showClosed": "Toon gesloten",
         "showBan": "Verbod tonen",
         "messages": {
-            "pinned": "Thread vastgepind",
             "unpinned": "Thread losgemaakt"
         },
         "status": {
-            "open": "open",
             "closed": "sluiten"
         },
         "pinned": "Vastgepind",
@@ -709,7 +707,6 @@
         "forum": "Forum",
         "ticket:": "Ticket",
         "manageTopicCategories": "Onderwerpcategorieën beheren",
-        "manageTopics": "Onderwerpen beheren",
         "selectTopicCategory": "Selecteer een onderwerpcategorie",
         "addCategory": "Catogorie toevoegen",
         "editTopicCategory": "Onderwerpcategorie bewerken",
@@ -726,7 +723,6 @@
         "addTopicCategory": "Onderwerpcategorie toevoegen",
         "editTopic": "Onderwerp bewerken",
         "latestPosts": "Laatste berichten",
-        "statistics": "Forumstatistieken",
         "addThread": "Thread toevoegen",
         "latestThreads": "Laatste threads"
     },

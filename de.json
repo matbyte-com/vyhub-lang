@@ -1058,16 +1058,13 @@
     "enddate": "Ende",
     "flags": "Flaggen",
     "_forum": {
-        "manageTopics": "Themen verwalten",
         "addThread": "Neues Thema",
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
         "messages": {
-            "pinned": "Thread gepinnt.",
             "unpinned": "Thread losgelöst."
         },
         "lock": "Sperren",
-        "selectTopicCategory": "Wählen eine Themenkategorie aus",
         "unlock": "Freischalten",
         "locked": "Geschlossen",
         "unlocked": "Entsperrt",
@@ -1091,7 +1088,6 @@
         "editTopic": "Thema bearbeiten",
         "latestPosts": "Neueste Beiträge",
         "latestThreads": "Neueste Themen",
-        "statistics": "Forenstatistik",
         "threads": "Themen",
         "by": "von",
         "editPost": "Beiträge bearbeiten zulassen",
@@ -1102,7 +1098,6 @@
         "closed": "Geschlossen",
         "showBan": "Ban anzeigen",
         "status": {
-            "open": "offen",
             "closed": "geschlossen"
         },
         "content": "Inhalt",

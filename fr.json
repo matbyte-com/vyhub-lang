@@ -1000,17 +1000,14 @@
     "_forum": {
         "content": "Contenu",
         "forum": "Forum",
-        "selectTopicCategory": "Sélectionnez une catégorie de sujet",
         "ticket:": "Billets",
         "unlocked": "Dévérouillé",
         "noTickets": "Vous n'avez pas encore créé de tickets.",
         "messages": {
-            "pinned": "Fil épinglé.",
             "unpinned": "Fil désépinglé."
         },
         "threadLocked": "Fil verrouillé",
         "manageTopicCategories": "Gérer les catégories de sujets",
-        "manageTopics": "Gérer les sujets",
         "addThread": "Ajouter un fil",
         "addCategory": "Ajouter une catégorie",
         "addTopic": "Ajouter un sujet",
@@ -1025,7 +1022,6 @@
         "editTopic": "Modifier le sujet",
         "latestPosts": "Derniers messages",
         "latestThreads": "Derniers Fils",
-        "statistics": "Statistiques du forum",
         "threads": "Fils",
         "by": "par",
         "editPost": "Autoriser la modification des publications",
@@ -1044,7 +1040,6 @@
         "showClosed": "Afficher fermé",
         "showBan": "Voir les bannissements",
         "status": {
-            "open": "Ouvrir",
             "closed": "fermé"
         },
         "tickets": "Billets",
