@@ -874,8 +874,8 @@
         "admin": "Forum Admin",
         "topicAdmins": "Topic Admins: ",
         "hideClosed": "Hide Closed Threads",
-        "threadLocked": "Thread Locked",
-        "threadPinned": "Thread Pinned",
+        "threadLocked": "Locked",
+        "pinned": "Pinned",
         "numberOfThreads": "Thread Count",
         "numberOfPosts": "Post Count",
         "pin": "Pin",
@@ -910,16 +910,10 @@
         "showBan": "Show Ban",
         "prohibitCreateThreads": "Prevent Thread Creation",
         "prohibitCreateThreadsDescription": "Prevent users from creating new threads. This does not affect users with the 'Manage Forum' permission or Topic Admins.",
-        "availableLabels": "Available Labels",
         "labelTitle": "Label Title",
         "editThread": "Edit Thread",
-        "status": {
-            "open": "open",
-            "closed": "closed"
-        },
         "messages": {
-            "pinned": "Thread pinned.",
-            "unpinned": "Thread unpinned."
+            "tooManyLabels": "You can only add up to 4 labels."
         }
     },
     "_advert": {

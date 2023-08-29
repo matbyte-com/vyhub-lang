@@ -1058,7 +1058,7 @@
         "numberOfThreads": "Nombre de fils : ",
         "numberOfPosts": "Nombre de postes :",
         "deleteThread": "Supprimer le fil",
-        "threadPinned": "Discussion épinglée"
+        "pinned": "épinglée"
     },
     "_invoice": {
         "invoice": "Facture",

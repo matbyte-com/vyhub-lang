@@ -630,7 +630,7 @@
         "topicAdmins": "Administradores de tópicos: ",
         "hideClosed": "Ocultar Tópicos Fechados",
         "threadLocked": "Tópico Bloqueado",
-        "threadPinned": "Tópico Fixado",
+        "pinned": "Fixado",
         "numberOfThreads": "Contagem de Tópicos: ",
         "last_post": "Última Publicação",
         "lastUpdated": "Última Atualização",

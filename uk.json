@@ -827,7 +827,7 @@
             "closed": "закрито",
             "open": "відкрити"
         },
-        "threadPinned": "Гілку закріплено",
+        "pinned": "закріплено",
         "numberOfThreads": "Кількість гілок: ",
         "numberOfPosts": "Кількість постів: ",
         "threads": "Гілки",

@@ -686,7 +686,7 @@
             "open": "open",
             "closed": "sluiten"
         },
-        "threadPinned": "Thread vastgepind",
+        "pinned": "Vastgepind",
         "numberOfThreads": "Thread telling ",
         "admin": "Forumbeheerder",
         "editPost": "Berichten bewerken toestaan",
