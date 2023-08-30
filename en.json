@@ -175,7 +175,7 @@
         "bundle_edit": "Add and Edit Serverbundles"
     },
     "_shop": {
-        "shopTitle": "Welcome to the shop",
+        "shopTitle": "Welcome to the Shop",
         "labels": {
             "financeReport": "Finance Report",
             "downloadInvoices": "Download Invoices",
@@ -853,7 +853,7 @@
         }
     },
     "_forum": {
-        "welcomeToForum": "Welcome to the forum",
+        "welcomeToForum": "Welcome to the Forum",
         "forum": "Forum",
         "ticket:": "Ticket",
         "manageTopicCategories": "Manage Topic Categories",
