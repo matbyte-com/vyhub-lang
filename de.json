@@ -648,8 +648,7 @@
     },
     "_log": {
         "labels": {
-            "level": "Level",
-            "downloadOldLogs": "Alte Logs herunterladen"
+            "level": "Level"
         },
         "messages": {
             "limitReached": "Maximale Loganzahl erreicht. Einige ältere Logs werden möglicherweise nicht angezeigt.",
@@ -1061,9 +1060,6 @@
         "addThread": "Neues Thema",
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
-        "messages": {
-            "unpinned": "Thread losgelöst."
-        },
         "lock": "Sperren",
         "unlock": "Freischalten",
         "locked": "Geschlossen",
@@ -1097,9 +1093,6 @@
         "tickets": "Tickets",
         "closed": "Geschlossen",
         "showBan": "Ban anzeigen",
-        "status": {
-            "closed": "geschlossen"
-        },
         "content": "Inhalt",
         "lastUpdated": "Letztes Update",
         "addTicket": "Ticket erstellen",

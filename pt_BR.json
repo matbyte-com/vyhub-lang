@@ -595,11 +595,7 @@
     "_forum": {
         "topicAdminUser": "Administradores de Tópicos",
         "numberOfPosts": "Contagem de Publicações: ",
-        "messages": {
-            "unpinned": "Tópico desafixado."
-        },
         "manageTopicCategories": "Gerenciar Categorias de Tópicos",
-        "selectTopicCategory": "Selecione uma Categoria de Tópico",
         "addThread": "Adicionar Tópico",
         "addCategory": "Adicionar Categoria",
         "addTopic": "Adicionar Tópico",
@@ -646,10 +642,7 @@
         "closed": "Fechado",
         "close": "Fechar",
         "banProtest": "Proibir protesto",
-        "showBan": "Mostrar proibição",
-        "status": {
-            "closed": "fechado"
-        }
+        "showBan": "Mostrar proibição"
     },
     "_faq": {
         "messages": {

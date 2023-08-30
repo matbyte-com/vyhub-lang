@@ -678,9 +678,6 @@
         "close": "Sluiten",
         "showClosed": "Toon gesloten",
         "showBan": "Verbod tonen",
-        "messages": {
-            "unpinned": "Thread losgemaakt"
-        },
         "status": {
             "closed": "sluiten"
         },
@@ -707,7 +704,6 @@
         "forum": "Forum",
         "ticket:": "Ticket",
         "manageTopicCategories": "Onderwerpcategorieën beheren",
-        "selectTopicCategory": "Selecteer een onderwerpcategorie",
         "addCategory": "Catogorie toevoegen",
         "editTopicCategory": "Onderwerpcategorie bewerken",
         "topicAdminUser": "Onderwerpbeheerders",

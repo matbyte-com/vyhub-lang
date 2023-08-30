@@ -790,9 +790,6 @@
         "locked": "Заблоковано",
         "manageTopicCategories": "Керувати категоріями тем",
         "addThread": "Додати гілку",
-        "messages": {
-            "unpinned": "Гілка відкріплена."
-        },
         "hideClosed": "Приховати закриті гілки",
         "rename": "Перейменувати",
         "admin": "Адмін форуму",
@@ -819,9 +816,6 @@
         "forum": "Форум",
         "addTicket": "Створити запит",
         "closed": "Закрито",
-        "status": {
-            "open": "відкрити"
-        },
         "pinned": "закріплено",
         "numberOfThreads": "Кількість гілок: ",
         "numberOfPosts": "Кількість постів: ",

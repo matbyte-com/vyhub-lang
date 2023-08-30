@@ -1003,9 +1003,6 @@
         "ticket:": "Billets",
         "unlocked": "Dévérouillé",
         "noTickets": "Vous n'avez pas encore créé de tickets.",
-        "messages": {
-            "unpinned": "Fil désépinglé."
-        },
         "threadLocked": "Fil verrouillé",
         "manageTopicCategories": "Gérer les catégories de sujets",
         "addThread": "Ajouter un fil",
@@ -1039,9 +1036,6 @@
         "banProtest": "Protestation de ban",
         "showClosed": "Afficher fermé",
         "showBan": "Voir les bannissements",
-        "status": {
-            "closed": "fermé"
-        },
         "tickets": "Billets",
         "lock": "Vérouiller",
         "unlock": "Dévérouiller",

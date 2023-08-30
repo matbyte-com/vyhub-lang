@@ -650,9 +650,6 @@
         "unlock": "Kilidi aç",
         "noTickets": "Henüz bilet oluşturmadınız.",
         "showClosed": "Gösteri kapandı",
-        "messages": {
-            "unpinned": "Konu sabitlenmemiş."
-        },
         "deleteThread": "İş Parçacığını Sil",
         "threadLocked": "Konu Kilitli",
         "numberOfPosts": "Gönderi Sayısı",
@@ -668,9 +665,6 @@
         "open": "Açık",
         "closed": "Kapalı",
         "showBan": "Yasağı Göster",
-        "status": {
-            "closed": "kapalı"
-        },
         "addThread": "Konu Ekle",
         "numberOfThreads": "Konu Sayısı",
         "unpin": "Bağlantıyı Kes",
@@ -931,7 +925,6 @@
             "limitReached": "Günlük sınırına ulaşıldı. Bazı eski günlükler görüntülenmeyebilir."
         },
         "labels": {
-            "downloadOldLogs": "Eski günlükleri indir",
             "level": "Seviye"
         }
     },
