@@ -371,8 +371,7 @@
             "limitReachedFilter": "Log limit reached. Some older logs may not be displayed. Use a smaller time range or a more specific filter."
         },
         "labels": {
-            "level": "Level",
-            "downloadOldLogs": "Download old logs"
+            "level": "Level"
         }
     },
     "_forms": {
