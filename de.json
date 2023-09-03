@@ -19,7 +19,6 @@
     "_dashboard": {
         "labels": {
             "linkNewAccount": "Konto Verknüpfen",
-            "title": "{usr}",
             "linkedAccounts": "Verknüpfte Accounts",
             "activeProperties": "Aktive Eigenschaften",
             "groupMemberships": "Gruppenmitgliedschaften",

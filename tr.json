@@ -113,7 +113,6 @@
             "removeAdminTitle": "Yönetici kaldırılsın mı?",
             "unlinkAccount": "Hesabın Bağlantısını Kaldır",
             "unlinkAccountWarning": "Bir kullanıcı bağlantısını silmek hesapların bağlantısını kaldıracaktır. Yönetici Durumu, Yasaklar, Uyarılar, Satın Alımlar, Uygulanan Paketler ve Krediler bundan etkilenir ve beklediğiniz şekilde ele alınmayabilir. Her şeyin yolunda olduğundan emin olmak için daha sonra kontrol edin.",
-            "title": "{usr}",
             "linkedAccounts": "Bağlantılı Hesaplar",
             "registered_on": "Üzerinde kayıtlı",
             "last_online": "Son çevrimiçi",

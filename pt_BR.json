@@ -20,8 +20,7 @@
             "userLog": "Registro de Usuário",
             "registered_on": "Registrado em",
             "last_online": "Online pela última vez",
-            "removeAdminTitle": "Remover administrador?",
-            "title": "{usr}"
+            "removeAdminTitle": "Remover administrador?"
         },
         "messages": {
             "removeAdminConfirmation": "Não se esqueça de remover o antigo administrador da instância na sua central de visão geral da instância."

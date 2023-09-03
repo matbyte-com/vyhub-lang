@@ -17,7 +17,6 @@
     },
     "_dashboard": {
         "labels": {
-            "title": "{usr}",
             "linkedAccounts": "Дополнительные аккаунты"
         }
     }

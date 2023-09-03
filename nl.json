@@ -54,7 +54,6 @@
             "linkNewAccount": "Verbind nieuw account",
             "activeProperties": "Actieve eigenschappen",
             "groupMemberships": "Groeps lidmaatschap",
-            "title": "{usr}",
             "bansAndWarnings": "Verboden en waarschuwingen",
             "userLog": "Gebruikerslogboek",
             "registered_on": "Geregistreerd op",
@@ -678,9 +677,6 @@
         "close": "Sluiten",
         "showClosed": "Toon gesloten",
         "showBan": "Verbod tonen",
-        "status": {
-            "closed": "sluiten"
-        },
         "pinned": "Vastgepind",
         "numberOfThreads": "Thread telling ",
         "admin": "Forumbeheerder",

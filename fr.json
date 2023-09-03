@@ -11,7 +11,6 @@
             "admin": "Administrateurs",
             "membershipEndDescription": "Laisser vide pour une durée illimitée",
             "removeAdminTitle": "Supprimer l'administrateur ?",
-            "title": "{usr}",
             "last_online": "Dernière connexion",
             "unlinkAccountWarning": "La suppression d'un lien utilisateur dissociera les comptes. Le statut d'administrateur, les interdictions, les avertissements, les achats, les paquets appliqués et les crédits sont affectés par cela et peuvent ne pas être traités comme vous l'attendez. Vérifiez-les ensuite pour vous assurer que tout va bien.",
             "unlinkAccount": "Délier compte"
