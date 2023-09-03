@@ -257,7 +257,8 @@
             "selectBillingAddressFirst": "Please select a billing address first.",
             "selectEmailFirst": "Please update your email address first",
             "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone.",
-            "targetUserChanged": "The target user has been changed"
+            "targetUserChanged": "The target user has been changed",
+            "priceMustBeHigherThanMin": "The price must be higher than the minimum price."
         },
         "purchaseStatus": {
             "open": "Open",
