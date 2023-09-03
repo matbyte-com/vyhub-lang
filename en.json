@@ -33,7 +33,6 @@
     },
     "_dashboard": {
         "labels": {
-            "title": "{usr}",
             "linkedAccounts": "Linked Accounts",
             "linkNewAccount": "link new Account",
             "unlinkAccount": "Unlink Account",
