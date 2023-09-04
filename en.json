@@ -96,6 +96,7 @@
         "warningColor": "Warning Color",
         "backgroundColor": "Background Color",
         "backgroundColorDescription": "Color is overwritten by background image",
+        "enable_landingpage": "Enable Landingpage",
         "darkmode": "Darkmode",
         "backgroundImageURL": "Background Image URL",
         "logoURL": "Logo URL",
