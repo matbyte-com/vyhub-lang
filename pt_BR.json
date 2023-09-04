@@ -492,10 +492,8 @@
             "messageEmpty": "Por favor, digite uma mensagem"
         },
         "news": "Atualizações",
-        "messageType": "Tipo",
         "newsOfTheDay": "Atualizações do dia",
         "addNews": "Nova Mensagem",
-        "messageTypeNews": "Mensagem",
         "messageTypePinned": "Mensagem do dia",
         "messageSubject": "Assunto",
         "editNews": "Editar Mensagem"

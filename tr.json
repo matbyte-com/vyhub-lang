@@ -696,10 +696,8 @@
         "prohibitCreateThreadsDescription": "Kullanıcıların yeni iş parçacıkları oluşturmasını engelleyin. Bu, 'Forumu Yönet' iznine sahip kullanıcıları veya Konu Yöneticilerini etkilemez."
     },
     "_home": {
-        "messageType": "Tür",
         "messageSubject": "Konu",
         "editNews": "Mesajı Düzenle",
-        "messageTypeNews": "Mesaj",
         "messageTypePinned": "Günün Mesajı",
         "messages": {
             "messageEmpty": "Lütfen bir mesaj girin"

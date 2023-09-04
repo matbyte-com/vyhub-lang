@@ -94,10 +94,8 @@
         "newsOfTheDay": "Actualités du jour",
         "news": "Actualités",
         "addNews": "Nouveau message",
-        "messageType": "Taper",
         "messageSubject": "Sujet",
         "editNews": "Modifier le message",
-        "messageTypeNews": "Message",
         "messageTypePinned": "Le message du jour"
     },
     "_ban": {

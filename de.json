@@ -458,9 +458,7 @@
         "messages": {
             "messageEmpty": "Bitte gib eine Nachricht ein"
         },
-        "messageTypePinned": "Nachricht des Tages",
         "addNews": "Neue Nachricht",
-        "messageType": "Typ",
         "messageTypeNews": "Nachricht",
         "messageSubject": "Thema",
         "editNews": "Nachricht bearbeiten",

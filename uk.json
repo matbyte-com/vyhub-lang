@@ -457,9 +457,7 @@
         },
         "news": "Новини",
         "newsOfTheDay": "Новини дня",
-        "messageType": "Тип",
         "messageTypeNews": "Повідомлення",
-        "messageTypePinned": "Повідомлення дня",
         "addNews": "Нове повідомлення",
         "editNews": "Редагувати повідомлення",
         "messageSubject": "Тема"

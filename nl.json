@@ -644,14 +644,12 @@
         "messages": {
             "messageEmpty": "Voer een bericht in"
         },
-        "messageTypeNews": "Bericht",
         "messageTypePinned": "Bericht van de dag",
         "messageSubject": "Onderwerp",
         "editNews": "Bewerk bericht",
         "newsOfTheDay": "Nieuws van de dag",
         "news": "Nieuws",
-        "addNews": "Nieuw bericht",
-        "messageType": "Type"
+        "addNews": "Nieuw bericht"
     },
     "_taxRule": {
         "labels": {
