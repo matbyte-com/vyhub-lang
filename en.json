@@ -744,7 +744,8 @@
             "setup": "Setup Server",
             "details": "Server Details",
             "queryPortDescription": "Query port of your TS3 server. The standard port is 10022.",
-            "sshQueryPort": "SSH Query Port"
+            "sshQueryPort": "SSH Query Port",
+            "offline": "Offline"
         },
         "type": {
             "DISCORD": "Discord",
