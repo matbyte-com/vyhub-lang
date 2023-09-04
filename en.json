@@ -550,12 +550,9 @@
         }
     },
     "_home": {
-        "newsOfTheDay": "News of the day",
+        "newsOfTheDay": "News of the Day",
         "news": "News",
         "addNews": "New Message",
-        "messageType": "Type",
-        "messageTypeNews": "Message",
-        "messageTypePinned": "Message Of The Day",
         "invertTitleColor": "Invert Title Color",
         "messageSubject": "Subject",
         "editNews": "Edit Message",
@@ -569,6 +566,10 @@
         "currentPlayers": "Current Players",
         "whiteText": "White Text",
         "specifyServers": "Specify up to two servers in the settings",
+        "onlinePlayers": "Online Players",
+        "activePlayers": "Active Players",
+        "registeredPlayers": "Registered Players",
+        "hoursPlayed": "Hours Played",
         "_form": {
             "height": "Height",
             "limit": "Limit",
