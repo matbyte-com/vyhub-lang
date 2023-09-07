@@ -95,8 +95,7 @@
         "news": "Actualités",
         "addNews": "Nouveau message",
         "messageSubject": "Sujet",
-        "editNews": "Modifier le message",
-        "messageTypePinned": "Le message du jour"
+        "editNews": "Modifier le message"
     },
     "_ban": {
         "messages": {

@@ -698,7 +698,6 @@
     "_home": {
         "messageSubject": "Konu",
         "editNews": "Mesajı Düzenle",
-        "messageTypePinned": "Günün Mesajı",
         "messages": {
             "messageEmpty": "Lütfen bir mesaj girin"
         },
