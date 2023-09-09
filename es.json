@@ -3,7 +3,6 @@
         "labels": {
             "login": "Acceso",
             "logout": "Desconectarse",
-            "close": "Cerrar",
             "register": "Registro"
         }
     },
@@ -17,12 +16,9 @@
     },
     "_dashboard": {
         "labels": {
-            "linkedAccounts": "Cuentas Vinculadas",
             "linkNewAccount": "vincular nueva cuenta",
             "activeProperties": "Propiedades activas",
-            "bansAndWarnings": "Prohibiciones y Advertencias",
             "userLog": "Registro de usuario",
-            "admin": "Admin",
             "registered_on": "Registrado en:",
             "groupMemberships": "Membresías de grupo",
             "membershipEndDescription": "Dejar vacío por duración ilimitada",
@@ -76,13 +72,10 @@
     },
     "_settings": {
         "permissionLevel": "Nivel de permiso",
-        "membercount": "Miembros",
         "gameserver": "Servidor de juegos",
         "defaultGroup": "Grupo predeterminado",
         "multigroup": "Grupos Múltiples",
-        "totalUsers": "Usuarios totales: ",
         "backgroundColorDescription": "La imagen de fondo sobrescribe el color de fondo",
-        "imageUrl": "Imagen URL",
         "contentEmpty": "El contenido está vacío",
         "httpPlaceholder": "https://myurl.com",
         "addRequirementSet": "Agregar conjunto de requisitos",
@@ -91,7 +84,6 @@
         "logicFormula": "Fórmula lógica",
         "formulaTypeError": "Compruebe si todas las identificaciones utilizadas están presentes",
         "editFormula": "Editar fórmula",
-        "formula": "Fórmula",
         "formulaSymbolOr": "Este símbolo | para O",
         "formulaSymbolAnd": "Este símbolo & para Y",
         "formulaBeta": "Esta función está en fase beta. Úselo con precaución.",
@@ -100,7 +92,6 @@
         "showTicket": "Habilitar sistema de tickets",
         "language": "Idioma",
         "labels": {
-            "title": "Configuraciones",
             "groupSettings": "Ajustes de grupo",
             "addGroup": "Añadir grupo",
             "editGroup": "Editar grupo",
@@ -122,9 +113,7 @@
         "isTeamDescription": "Los miembros del grupo se mostrarán en la página del equipo"
     },
     "_properties": {
-        "ban_show": "Permite al usuario mostrar prohibiciones en un paquete específico",
-        "ban_edit": "Permite al usuario editar prohibiciones en un paquete específico",
-        "bundle_edit": "Agregar y editar paquetes de servidores"
+        "ban_edit": "Permite al usuario editar prohibiciones en un paquete específico"
     },
     "_user": {
         "type": {
@@ -141,7 +130,6 @@
             "invoiceLogoURL": "URL del logotipo de la factura",
             "invoiceLogoURLDetails": "URL de un logotipo que se muestra en la factura.",
             "admin": "Administración de la tienda",
-            "applyCoupon": "Aplicar cupón",
             "couponCode": "Código promocional",
             "tax": "Impuesto",
             "taxRules": "Reglas Tributarias",

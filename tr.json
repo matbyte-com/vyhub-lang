@@ -3,7 +3,6 @@
         "labels": {
             "logout": "Çıkış Yap",
             "login": "Giriş Yap",
-            "register": "Kayıt Ol",
             "close": "kapalı"
         }
     },
@@ -42,25 +41,21 @@
         "customCss": "Özel CSS"
     },
     "_settings": {
-        "imageUrl": "Resim URL'si",
         "contentEmpty": "İçerik boş",
         "httpPlaceholder": "https://myurl.com",
         "addRequirement": "Gereksinim Ekle",
         "permissionLevel": "İzin Düzeyi",
-        "membercount": "Üyeler",
         "gameserver": "Oyun Sunucusu",
         "backgroundColorDescription": "Arka plan resmi arka plan renginin üzerine yazar",
         "logicFormula": "Mantıksal Formül",
         "formulaTypeError": "Kullanılan tüm Kimliklerin mevcut olup olmadığını kontrol edin",
         "defaultGroup": "Varsayılan Grup",
         "multigroup": "Birden Çok Grup",
-        "totalUsers": "Toplam Kullanıcı Sayısı: ",
         "addRequirementSet": "Gereksinim Kümesi Ekle",
         "editRequirementSet": "Gereksinim Kümesini Düzenle",
         "multigroupDescription": "Kullanıcılar bu pakette aynı anda birden fazla gruba üye olabilir.",
         "formulaError": "Formül geçerli değil - ek bilgi için konsolu kontrol edin",
         "editFormula": "Formülü Düzenle",
-        "formula": "Formül",
         "formulaSymbolAnd": "Bu Sembol & için VE",
         "requirements": "Gereksinimler",
         "language": "Dil",
@@ -70,7 +65,6 @@
             "addBundle": "Sunucu paketi ekle",
             "editGroup": "Grubu Düzenle",
             "editBundle": "Sunucu paketini düzenle",
-            "title": "Ayarlar",
             "groupSettings": "Grup ayarları",
             "addGroup": "Grup Ekle",
             "addServer": "Sunucu Ekle",
@@ -106,14 +100,11 @@
         "labels": {
             "linkNewAccount": "yeni Hesabı Bağla",
             "groupMemberships": "Grup Üyelikleri",
-            "bansAndWarnings": "Yasaklar ve Uyarılar",
             "userLog": "Kullanıcı Günlüğü",
-            "admin": "Yönetici",
             "activeProperties": "Aktif Özellikler",
             "removeAdminTitle": "Yönetici kaldırılsın mı?",
             "unlinkAccount": "Hesabın Bağlantısını Kaldır",
             "unlinkAccountWarning": "Bir kullanıcı bağlantısını silmek hesapların bağlantısını kaldıracaktır. Yönetici Durumu, Yasaklar, Uyarılar, Satın Alımlar, Uygulanan Paketler ve Krediler bundan etkilenir ve beklediğiniz şekilde ele alınmayabilir. Her şeyin yolunda olduğundan emin olmak için daha sonra kontrol edin.",
-            "linkedAccounts": "Bağlantılı Hesaplar",
             "registered_on": "Üzerinde kayıtlı",
             "last_online": "Son çevrimiçi",
             "membershipEndDescription": "Sınırsız süre boş bırakın"
@@ -278,12 +269,10 @@
             "taxIncludedInPacketPrice": "Paket fiyatına vergi dahildir",
             "enableTopDonators": "En iyi bağışçıları etkinleştir",
             "donationGoal": "Bağış hedefi",
-            "cancelPayment": "Ödemeyi iptal Et",
             "cart": "Sepet",
             "invoiceLogoURL": "Fatura logosu URL'si",
             "invoiceLogoURLDetails": "Faturada görüntülenen logonun URL'si.",
             "downloadInvoices": "Faturaları indir",
-            "applyCoupon": "Kupon Uygula",
             "addToCart": "Sepete ekle",
             "orderOverview": "Siparişe Genel Bakış",
             "cartTotal": "Sepet Toplamı",
@@ -296,7 +285,6 @@
             "paymentFailed": "Ödeme işlemi sırasında bir hata oluştu. Lütfen işlemi yeniden başlatmayı deneyin.",
             "paymentPending": "Bu ödeme beklemede. Lütfen alışveriş sepetini ziyaret ederek tamamlayın.",
             "couponNotApplied": "Kupon, sepetinizdeki herhangi bir pakete uygulanamadı.",
-            "includesVAT": "{tax_rate}% KDV dahildir.",
             "selectBillingAddressFirst": "Lütfen önce bir fatura adresi seçin.",
             "confirmCouponPayment": "Lütfen {gateway_name} kodunuzu girin. Ödeme daha sonra bir ekip üyesi tarafından manuel olarak onaylanır.",
             "couponsEntered": "Kuponunuz başarıyla eklendi. Satın alma işleminiz onaylanana kadar kuponunuzu düzenleyebilirsiniz.",
@@ -304,12 +292,9 @@
             "startingPaymentFailed": "Ödemeyi başlatırken bir hata oluştu. Lütfen tekrar deneyin veya başka bir ödeme yöntemi kullanın!",
             "paymentActionFailed": "Sizi ödeme sayfasına yönlendirirken bir hata oluştu. Lütfen tekrar deneyin veya başka bir ödeme yöntemi kullanın! Hata mesajı: {message}",
             "paymentCancelled": "Bu ödeme iptal edildi. Alışveriş sepetinizi ziyaret ederek tekrar deneyebilirsiniz.",
-            "purchaseCancelledSuccess": "Satın alma işlemi iptal edildi.",
             "selectGateway": "Lütfen ödeme yönteminizi seçin.",
-            "noOngoingPurchase": "Şu anda devam eden bir satın alma işlemi yok. Lütfen ödemeyi sepetten başlatın.",
             "paymentSuccess": "Ödeme başarıyla tamamlandı. Satın alınan paketler hesabınıza atanmıştır.",
             "couponRemoveSuccess": "Kupon başarıyla kaldırıldı.",
-            "unfinishedPurchase": "Henüz bitmemiş devam eden bir satın alma var.",
             "notEnoughCredits": "Bu satın alma işlemini ödemek için yeterli krediniz yok. Lütfen farklı bir ödeme yöntemi seçin veya daha fazla kredi satın alın.",
             "addToCartError": "Paketi sepetinize eklerken bir hata oluştu.",
             "cartEmpty": "Sepetin boş.",
@@ -357,7 +342,6 @@
     "_packet": {
         "labels": {
             "activeForDetail": "Etkinleştirmeden sonra paketin ne kadar süre aktif olması gerekir. Bir süre sonra devre dışı bırakılmaması gereken paketler için bu alanın boşalmasına izin verin. Yinelenen seçeneği etkinleştirilmişse, bu değer abonelik aralığı olarak kullanılır.",
-            "editRewards": "Ödülleri Düzenle",
             "expires": "Süresi doluyor",
             "customPrice": "Özel Fiyat",
             "relationDisables": "Seçili paketi satın alırken devre dışı bırakır",
@@ -370,11 +354,9 @@
             "abstract": "Özet",
             "buyableActive": "Kullanıcının bu paketi etkin durumda olması durumunda satın alınabilir.",
             "activeUntil": "Aktif olana kadar",
-            "paymentMethods": "Ödeme Yöntemleri",
             "limitPaymentMethods": "Limit ödeme yöntemleri",
             "customPriceDetail": "Kullanıcının fiyata karar vermesine izin verin. Yukarıda girilen fiyat minimum fiyat olarak kullanılır.",
             "relationNotCompatible": "Seçilen paketle uyumlu değil.",
-            "editBundle": "Sunucu paketini düzenle",
             "limitedPayments": "Sınırlı Ödemeler",
             "recurringDetail": "'İçin Etkin' alanında verilen aralıkla bir abonelik oluşturulur.",
             "packetRelations": "Paket ilişkileri",
@@ -422,7 +404,6 @@
         "title": "Navigasyon",
         "parentNavigationLink": "Üst Gezinme Bağlantısı",
         "deleteDefaultLink": "Varsayılan bağlantı silinemiyor",
-        "noHtmlGiven": "Lütfen biraz html girin!",
         "navUpdate": "Gezinme Sırasını Güncelle",
         "bothHtmlInputsUsed": "Her iki HTML girdisini de kullanmayın",
         "contentSanitizationWarning": "JavaScript'in yalnızca Yöneticiler tarafından kullanılmasına izin verilir. Aksi takdirde dezenfekte edilecektir.",
@@ -436,7 +417,6 @@
         "linkTitle": "Başlık",
         "addNavLink": "Gezinme Bağlantısı Ekle",
         "editNavLink": "Gezinme Bağlantısını Düzenle",
-        "rawHtml": "Ham Html",
         "uploadFile": "Dosya Yükle"
     },
     "_forms": {
@@ -508,7 +488,6 @@
             "paymentGateway": "Ödeme Ağ Geçidi",
             "addAppliedReward": "Uygulamalı ödül ekle",
             "reward": "Ödül",
-            "numberOfPurchases": "Satın Alma Sayısı",
             "activeSubscriptions": "Aktif Denizaltılar",
             "notAffectedByRangeSelector": "Aralık seçiciden etkilenmeyen istatistik",
             "allTime": "Her Zaman",
@@ -521,7 +500,6 @@
             "confirm": "Onayla",
             "decline": "Reddet",
             "confirmDebitText": "Satın almayı Onaylamak mı? Bu geri alınamaz.",
-            "myPurchases": "Satın Alımlarım",
             "appliedPackets": "Uygulanan Paketler",
             "revoke": "İptal Et",
             "confirmPurchases": "Satın Alımları Onayla",
@@ -568,7 +546,6 @@
             "hideReservedSlots": "Ayrılmış yuvaları gizle",
             "discordEnterIdAsAddress": "Lonca kimliğinizi sunucu adresi olarak girin. Favori numaranızı port olarak girin.",
             "addBot": "Loncanıza bot ekleyin.",
-            "unknownStatus": "Durum Bilinmiyor",
             "create": "Sunucu Oluştur"
         },
         "type": {
@@ -630,7 +607,6 @@
         }
     },
     "_faq": {
-        "title": "SSS",
         "formContent": "İçerik",
         "html": "Bu alanda HTML'ye izin verilir.",
         "messages": {
@@ -638,25 +614,20 @@
         },
         "add": "Soru ekle",
         "addQuestionDialog": "Soru ekle",
-        "editQuestionDialog": "Soruyu düzenle",
-        "formTitle": "Başlık"
+        "editQuestionDialog": "Soruyu düzenle"
     },
     "_forum": {
         "ticket:": "Bilet",
         "editTopicCategory": "Konu Kategorisini Düzenle",
         "deleteTopic": "Konuyu Sil",
-        "lock": "Kilit",
         "unlock": "Kilidi aç",
-        "noTickets": "Henüz bilet oluşturmadınız.",
         "showClosed": "Gösteri kapandı",
-        "deleteThread": "İş Parçacığını Sil",
         "threadLocked": "Konu Kilitli",
         "numberOfPosts": "Gönderi Sayısı",
         "created": "Yaratıldı",
         "addTopic": "Konu Ekle",
         "topicAdminUser": "Konu Yöneticileri",
         "locked": "Kilitli",
-        "unlocked": "Kilidi açıldı",
         "content": "İçerik",
         "close": "Kapat",
         "banProtest": "Protestoyu yasakla",
@@ -666,7 +637,6 @@
         "showBan": "Yasağı Göster",
         "addThread": "Konu Ekle",
         "numberOfThreads": "Konu Sayısı",
-        "unpin": "Bağlantıyı Kes",
         "pin": "Sabit",
         "editPost": "Gönderileri düzenlemeye izin ver",
         "addCategory": "Kategori Ekle",
@@ -677,7 +647,6 @@
         "addTopicCategory": "Konu Kategorisi Ekle",
         "by": "tarafından",
         "last_post": "Son Gönderi",
-        "lastUpdated": "Son Güncelleme",
         "topicAdmins": "Konu Yöneticileri: ",
         "pinned": "Sabitlendi",
         "addTicket": "Bilet Oluştur",
@@ -706,9 +675,7 @@
         "addNews": "Yeni Mesaj"
     },
     "_properties": {
-        "bundle_edit": "Sunucu paketleri ekleme ve Düzenleme",
-        "ban_show": "Kullanıcının belirtilen pakette yasakları görüntülemesini sağlar",
-        "ban_edit": "Kullanıcının belirtilen paketteki yasakları düzenlemesini sağlar"
+        "ban_show": "Kullanıcının belirtilen pakette yasakları görüntülemesini sağlar"
     },
     "_requirement": {
         "requirementType": "Tür",
@@ -809,7 +776,6 @@
     "or": "veya",
     "_authorization": {
         "title": "Yetkilendirme",
-        "discord": "Discord",
         "discordOauthClientId": "Müşteri Kimliği",
         "discordOauthClientSecret": "Müşteri Sırrı",
         "discordBotToken": "Bot Token",
@@ -1036,7 +1002,6 @@
     "_personalSettings": {
         "noEmailSpecified": "Henüz e-posta belirtilmedi",
         "emailNotifications": "E-posta Bildirimleri",
-        "email": "E-posta",
         "title": "Kişisel Ayarlar",
         "enableEmailNotifications": "E-posta bildirimlerini etkinleştir"
     },
@@ -1142,7 +1107,6 @@
     "perDay": "Günlük",
     "edit": "Düzenle",
     "update": "Güncelleme",
-    "recurring": "Yinelenen",
     "maxUsages": "Maksimum Kullanım",
     "categories": "Kategoriler",
     "subcategory": "Alt Kategori",

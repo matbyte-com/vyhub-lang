@@ -1,10 +1,8 @@
 {
     "_header": {
         "labels": {
-            "register": "Registrieren",
             "login": "Login",
-            "logout": "Ausloggen",
-            "close": "Schließen"
+            "logout": "Ausloggen"
         }
     },
     "_membership": {
@@ -19,12 +17,9 @@
     "_dashboard": {
         "labels": {
             "linkNewAccount": "Konto Verknüpfen",
-            "linkedAccounts": "Verknüpfte Accounts",
             "activeProperties": "Aktive Eigenschaften",
             "groupMemberships": "Gruppenmitgliedschaften",
-            "bansAndWarnings": "Banns und Verwarnungen",
             "userLog": "Nutzerlog",
-            "admin": "Admin",
             "registered_on": "Registriert am",
             "membershipEndDescription": "Leer lassen für unbegrenzte Dauer",
             "removeAdminTitle": "Admin entfernen?",
@@ -95,12 +90,10 @@
             "donationGoal": "Spendenziel",
             "perMonth": "pro Monat",
             "enableDonationGoal": "Spendenziel aktivieren",
-            "cancelPayment": "Zahlung stornieren",
             "cancelPurchase": "Kauf abbrechen",
             "cart": "Einkaufswagen",
             "invoiceLogoURL": "Rechnungslogo URL",
             "invoiceLogoURLDetails": "URL für ein Logo, welches auf der Rechnung angezeigt wird.",
-            "applyCoupon": "Gutschein anwenden",
             "couponCode": "Gutscheincode",
             "tax": "Mehrwertsteuer",
             "taxRules": "Mehrwertsteuer Regeln",
@@ -148,14 +141,11 @@
             "confirmCouponPayment": "Bitte gib deinen {gateway_name} Code ein. Die Zahlung wird dann manuell von einem Teammitglied genehmigt.",
             "startingPaymentFailed": "Beim Starten der Zahlung ist ein Fehler aufgetreten. Bitte versuche es erneut oder verwende eine andere Zahlungsmethode!",
             "paymentActionFailed": "Beim Weiterleiten auf die Zahlungsseite ist ein Fehler aufgetreten. Bitte versuche es erneut oder verwende eine andere Zahlungsmethode! Fehlermeldung: {message}",
-            "noOngoingPurchase": "Es gibt einen laufenden Kauf. Bitte gehe zur Kasse.",
             "paymentCancelled": "Diese Zahlung wurde abgebrochen. Du kannst es im Warenkorb erneut versuchen.",
             "paymentSuccess": "Die Zahlung wurde erfolgreich abgeschlossen. Die gekauften Pakete wurden deinem Account zugeordnet.",
             "paymentProcessing": "Die Zahlung wurde genehmigt und wird in Kürze abgeschlossen. Bitte warte noch einige Minuten auf dieser Seite, während die Zahlungs verarbeitet wird.",
-            "unfinishedPurchase": "Es gibt einen laufenden Kauf, der noch nicht abgeschlossen ist.",
             "purchaseCancelledSuccess": "Der Kauf wurde abgebrochen.",
             "couponNotApplied": "Der Gutschein konnte auf kein Paket im Einkaufswagen angewendet werden.",
-            "includesVAT": "Enthält {tax_rate} % Mehrwertsteuer.",
             "selectBillingAddressFirst": "Bitte wähle zuerst eine Rechnungsadresse.",
             "selectEmailFirst": "Bitte aktualisiere zuerst deine E-Mail-Adresse",
             "cancelPurchaseConfirmation": "Angefangene Zahlungen werden abgebrochen. Alle eingegebenen Gutscheine gehen verloren. Die Stornierung eines Kaufs kann nicht rückgängig gemacht werden.",
@@ -208,7 +198,6 @@
         "title": "Navigation",
         "addNavLink": "Navigationslink hinzufügen",
         "editNavLink": "Navigationslink bearbeiten",
-        "noHtmlGiven": "Bitte gib HTML ein!",
         "deleteDefaultLink": "Standardlink kann nicht gelöscht werden",
         "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder",
         "_location": {
@@ -230,7 +219,6 @@
         "editCmsPage": "Seite bearbeiten",
         "deleteCmsPage": "Seite löschen",
         "contentSanitizationWarning": "JavaScript darf nur von Admins verwendet werden. Sonst wird dieses entfernt.",
-        "rawHtml": "Reines HTML",
         "uploadFile": "Datei hochladen"
     },
     "_gateway": {
@@ -325,7 +313,6 @@
     },
     "_server": {
         "labels": {
-            "unknownStatus": "Status Unbekannt",
             "create": "Server erstellen",
             "edit": "Server bearbeiten",
             "keepReservedSlotsFree": "Reservierte Slots freihalten",
@@ -376,7 +363,6 @@
     },
     "_personalSettings": {
         "emailNotifications": "E-Mail Benachrichtigungen",
-        "title": "Persönliche Einstellungen",
         "email": "E-Mail",
         "enableEmailNotifications": "E-Mail Benachrichtigungen aktivieren",
         "noEmailSpecified": "Noch keine E-Mail angegeben"
@@ -418,7 +404,6 @@
             "activeFor": "Aktiv für",
             "activeSince": "Aktiv seit",
             "activeUntil": "Aktiv bis",
-            "paymentMethods": "Zahlungsmethoden",
             "limitPaymentMethods": "Begrenzte Zahlungsmöglichkeiten",
             "customPriceDetail": "Lasse den Benutzer den Preis bestimmen. Der oben eingegebene Preis wird als Mindestpreis verwendet.",
             "details": "Paket Details",
@@ -427,7 +412,6 @@
             "end": "Ende",
             "relationDisables": "Deaktiviert das ausgewählte Paket beim Kauf",
             "imageDetail": "Eine HTTPS-URL zum Paketbild.",
-            "editBundle": "Serverbundle bearbeiten",
             "expires": "Läuft ab",
             "recurringDetail": "Ein Abonnement wird mit dem im Feld „Aktiv für“ angegebenen Intervall erstellt.",
             "limitedPayments": "Begrenzte Zahlungen",
@@ -437,7 +421,6 @@
             "abstract": "Abstrakt",
             "packetRelations": "Paketbeziehungen",
             "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv sein soll. Lass dieses Feld für Pakete frei, die nach einiger Zeit nicht deaktiviert werden sollen. Wenn die wiederkehrende Option aktiviert ist, wird dieser Wert als Abonnementintervall verwendet.",
-            "editRewards": "Prämien bearbeiten",
             "titleInImage": "Über dem Bild angezeigter Titel (optional)",
             "recommendable": "Empfehlbar",
             "recommendableDescription": "Das Paket kann Benutzern in den für Sie empfohlenen Abschnitten empfohlen werden."
@@ -508,7 +491,6 @@
         "labels": {
             "confirmDebitText": "Kauf bestätigen? Dies kann nicht rückgängig gemacht werden.",
             "totalRevenue": "Gesamteinnahmen",
-            "myPurchases": "Meine Käufe",
             "allPurchases": "Alle Käufe",
             "revoke": "Widerrufen",
             "revoked": "Widerrufen",
@@ -536,7 +518,6 @@
             "addAppliedPacket": "Angewendetes Paket hinzufügen",
             "decline": "Ablehnen",
             "revenueByCategory": "Umsatz nach Kategorie",
-            "numberOfPurchases": "Anzahl von Käufen",
             "activeSubscriptions": "Aktive Abos",
             "averagePurchaseAmount": "Mittlerer Betrag",
             "range": "Bereich",
@@ -560,11 +541,9 @@
     "_settings": {
         "multigroupDescription": "In diesem Bundle können Benutzer gleichzeitig Mitglied in mehreren Gruppen sein.",
         "formulaBeta": "Diese Funktion befindet sich in der Betaphase. Bitte verwende die Funktion mit Bedacht.",
-        "membercount": "Mitglieder",
         "gameserver": "Spielserver",
         "defaultGroup": "Standard Gruppe",
         "multigroup": "Mehrere Gruppen",
-        "totalUsers": "Benutzer insgesamt: ",
         "addRequirementSet": "Anforderungsset hinzufügen",
         "editRequirementSet": "Anforderungsset bearbeiten",
         "addRequirement": "Anforderung hinzufügen",
@@ -581,7 +560,6 @@
         "backgroundColorDescription": "Hintergrundbild überschreibt die Hintergrundfarbe",
         "labels": {
             "addBundle": "Serverbundle hinzufügen",
-            "title": "Einstellungen",
             "groupSettings": "Gruppeneinstellungen",
             "addGroup": "Gruppe Hinzufügen",
             "editGroup": "Gruppe bearbeiten",
@@ -590,14 +568,12 @@
             "updateOrder": "Reihenfolge Aktualisieren",
             "resetOrder": "Reihenfolge zurücksetzen"
         },
-        "imageUrl": "Bild URL",
         "contentEmpty": "Leerer Inhalt",
         "httpPlaceholder": "https://myurl.com",
         "logicFormula": "Logische Formel",
         "permissionLevel": "Rechte Level",
         "formulaTypeError": "Überprüfe ob alle benutzen Id's vorhanden sind",
         "editFormula": "Formula Bearbeiten",
-        "formula": "Form",
         "showFaq": "FAQ aktivieren",
         "communityDescription": "Community Beschreibung",
         "communityDescriptionDescr": "Dies wird in den Ergebnissen von Suchmaschinentests und beim Teilen in sozialen Medien angezeigt",
@@ -839,9 +815,7 @@
         "maxBanLengthInDaysDescription": "Für unbegrenzte Bans leer lassen"
     },
     "_properties": {
-        "ban_show": "Erlaubt Nutzer Bans in bestimmten Serverbundle anzuschauen",
-        "ban_edit": "Erlaubt Nuter Bans in bestimmten Serverbundle zu bearbeiten",
-        "bundle_edit": "Hinzufügen und Bearbeiten von Serverbundles"
+        "ban_edit": "Erlaubt Nuter Bans in bestimmten Serverbundle zu bearbeiten"
     },
     "_legal": {
         "descriptionText": "In den meisten Ländern ist es zwingend erforderlich, zumindest die Kontaktdaten, Nutzungsbedingungen und eine Datenschutzerklärung des Website-Betreibers anzugeben. Eine beispielhafte Datenschutzerklärung findest du in den Dokumenten.",
@@ -948,9 +922,7 @@
         "messages": {
             "contentEmpty": "Bitte gib einen Inhalt ein"
         },
-        "title": "FAQ",
         "add": "Frage hinzufügen",
-        "formTitle": "Titel",
         "formContent": "Inhalt",
         "html": "HTML ist in diesem Feld erlaubt."
     },
@@ -977,7 +949,6 @@
     "begin": "Beginn",
     "_authorization": {
         "title": "Autorisierung",
-        "discord": "Discord",
         "discordOauthClientId": "Client ID",
         "discordOauthClientSecret": "Client Secret",
         "discordBotToken": "Bot Token",
@@ -1047,7 +1018,6 @@
     "requirementSet": "Anforderungssatz",
     "theme": "Style",
     "submit": "Absenden",
-    "recurring": "wiederkehrend",
     "generate": "Generieren",
     "discount": "Rabatt",
     "enddate": "Ende",
@@ -1056,10 +1026,8 @@
         "addThread": "Neues Thema",
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
-        "lock": "Sperren",
         "unlock": "Freischalten",
         "locked": "Geschlossen",
-        "unlocked": "Entsperrt",
         "deleteThread": "Thread löschen",
         "rename": "Umbenennen",
         "manageTopicCategories": "Themenkategorien verwalten",
@@ -1068,11 +1036,9 @@
         "topicAdminUser": "Themen-Admins",
         "deleteTopic": "Thema löschen",
         "forum": "Forum",
-        "ticket:": "Ticket",
         "admin": "Forum-Admin",
         "topicAdmins": "Themen-Admins: ",
         "hideClosed": "Geschlossene Threads ausblenden",
-        "threadLocked": "Thread gesperrt",
         "numberOfPosts": "Beitragsanzahl",
         "pin": "anpinnen",
         "numberOfThreads": "Fadenzahl",
@@ -1090,17 +1056,14 @@
         "closed": "Geschlossen",
         "showBan": "Ban anzeigen",
         "content": "Inhalt",
-        "lastUpdated": "Letztes Update",
         "addTicket": "Ticket erstellen",
         "close": "Schließen",
-        "noTickets": "Du hast noch keine Tickets erstellt.",
         "banProtest": "Entbannungsantrag",
         "creator": "Ersteller",
         "readMore": "Mehr lesen",
         "open": "Öffnen",
         "showClosed": "Geschlossene Elemente anzeigen",
         "addPost": "Post hinzufügen",
-        "unpin": "Lösen",
         "created": "Erstellt",
         "last_post": "Letzter Post",
         "prohibitCreateThreads": "Thread-Erstellung verhindern",

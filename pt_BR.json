@@ -11,12 +11,10 @@
     "_dashboard": {
         "labels": {
             "membershipEndDescription": "Deixar vazio por duração ilimitada",
-            "admin": "Admin",
             "linkedAccounts": "Contas vinculadas",
             "linkNewAccount": "Vincular nova conta",
             "activeProperties": "Propriedades ativas",
             "groupMemberships": "Incrição ao grupo",
-            "bansAndWarnings": "Banimentos e Advertências",
             "userLog": "Registro de Usuário",
             "registered_on": "Registrado em",
             "last_online": "Online pela última vez",
@@ -29,9 +27,7 @@
     "_header": {
         "labels": {
             "login": "Login",
-            "register": "Cadastre-se",
-            "logout": "Encerrar a sessão",
-            "close": "Fechar"
+            "logout": "Encerrar a sessão"
         }
     },
     "_invoice": {
@@ -98,7 +94,6 @@
         "communityDescriptionDescr": "Esta descrição será mostrada nos resultados do teste do motor de busca",
         "labels": {
             "addBundle": "Adicionar Pacote de Servidor",
-            "title": "Configurações",
             "groupSettings": "Configurações de Grupo",
             "addGroup": "Adicionar Grupo",
             "editGroup": "Editar Grupo",
@@ -106,13 +101,10 @@
             "addServer": "Adicionar Servidor"
         },
         "permissionLevel": "Nível de Permissão",
-        "membercount": "Membros",
         "gameserver": "Servidor do Jogo",
         "defaultGroup": "Grupo Padrão",
         "multigroup": "Grupos Múltiplos",
-        "totalUsers": "Total de Usuários: ",
         "backgroundColorDescription": "A imagem de fundo substitui a cor de fundo",
-        "imageUrl": "Imagem URL",
         "contentEmpty": "O conteúdo está vazio",
         "httpPlaceholder": "https://myurl.com",
         "addRequirementSet": "Adicionar Conjunto de Requisitos",
@@ -122,7 +114,6 @@
         "formulaTypeError": "Checar se todas das identificações usadas estão presentes",
         "formulaError": "Fórmula não válida - Cheque o painel para informações adicionais",
         "editFormula": "Editar Fórmula",
-        "formula": "Fórmula",
         "formulaSymbolOr": "Esse símbolo | para OR",
         "formulaSymbolAnd": "Esse Símbolo & para E",
         "formulaBeta": "Essa função está em fase de teste. Por favor, utilize com cuidado.",
@@ -137,9 +128,7 @@
         "showForum": "Ativar Fórum"
     },
     "_properties": {
-        "ban_show": "Permite ao usuário a mostrar proibições em um pacote específico",
-        "ban_edit": "Permite ao usuário editar banimentos no pacote especificado",
-        "bundle_edit": "Adicionar e Editar Pacote de Servidores"
+        "ban_edit": "Permite ao usuário editar banimentos no pacote especificado"
     },
     "_group": {
         "mappings": {
@@ -161,7 +150,6 @@
             "invoiceLogoURL": "Logotipo URL da Fatura",
             "invoiceLogoURLDetails": "URL de um logotipo que é mostrado na fatura.",
             "admin": "Administração da Loja",
-            "applyCoupon": "Aplicar Cupom",
             "couponCode": "Código de Cupom",
             "tax": "Imposto",
             "net": "Rede",
@@ -179,7 +167,6 @@
             "donationGoal": "Meta de Doação",
             "perMonth": "Por mês",
             "enableDonationGoal": "Permitir doação global",
-            "cancelPayment": "Cancelar Pagamento",
             "cancelPurchase": "Cancelar Compra",
             "loginToBuy": "Entre para comprar esse pacote",
             "checkoutCheckboxes": "Finalizar caixas de seleção",
@@ -199,18 +186,15 @@
             "mustAgree": "Você deve concordar para continuar!",
             "startingPaymentFailed": "Ocorreu um erro enquanto iniciava o pagamento. Por favor, tente novamente ou utilize outro método de pagamento!",
             "selectGateway": "Por favor selecione um método de pagamento.",
-            "noOngoingPurchase": "Não há nenhuma compra em curso. Por favor, inicie o check-out no carrinho.",
             "paymentActionFailed": "Ocorreu um erro enquanto redirecionava para a página de pagamento. Por favor, tente novamente ou utilize outro método de pagamento! Mensagem de erro: {Mensagem}",
             "noAddressSpecified": "Endereço não especificado ainda.",
             "paymentProcessing": "O pagamento foi aprovado e será finalizado em breve. Por favor, aguarde alguns minutos nesta página enquanto o pagamento está sendo processado.",
             "paymentSuccess": "Este pagamento foi finalizado com sucesso. Os pacotes de compra foram atribuídos a sua conta.",
             "paymentFailed": "Um erro ocorreu durante o processo de pagamento. Por favor, tente reiniciar o processo.",
-            "unfinishedPurchase": "Existe uma compra em curso que ainda não foi concluída.",
             "purchaseCancelledSuccess": "A compra foi cancelada.",
             "couponApplySuccess": "Cupom aplicado com sucesso.",
             "couponRemoveSuccess": "Cupom removido com sucesso.",
             "couponNotApplied": "Este cupom não pôde ser aplicado em nenhum pacote no seu carrinho.",
-            "includesVAT": "Incluem {tarifa_impostos}% IVA.",
             "selectBillingAddressFirst": "Por favor, selecione um endereço de cobrança primeiro.",
             "selectEmailFirst": "Por favor, primeiro atualize o endereço de e-mail",
             "cancelPurchaseConfirmation": "Os pagamentos iniciados foram cancelados. Todos os cupons utilizados foram perdidos. O cancelamento da compra não pode ser desfeito.",
@@ -303,7 +287,6 @@
         "title": "Navegação",
         "parentNavigationLink": "Principal link de Navegação",
         "addNavLink": "Adicionar Link de Navegação",
-        "noHtmlGiven": "Por favor insira algum HTML!",
         "navReset": "Reinicie Pedido de Navegação",
         "reqProp": "Propriedade Necessária",
         "location": "Localização",
@@ -372,12 +355,10 @@
             "activeFor": "Ativo para",
             "activeSince": "Ativo desde",
             "activeUntil": "Ativo até",
-            "paymentMethods": "Métodos de Pagamento",
             "limitPaymentMethods": "Limitar métodos de pagamento",
             "relationNotCompatible": "Não é compatível com o pacote selecionado.",
             "relationUpgrades": "Pode ser utilizado para atualizar o pacote selecionado.",
             "imageDetail": "Uma HTTPS URL para a imagem do pacote.",
-            "editBundle": "Editar Pacote de Servidor",
             "end": "Encerrar",
             "deleteAppliedPacket": "Deletar pacote aplicado",
             "add": "Adicionar Pacote",
@@ -389,7 +370,6 @@
             "limitPaymentMethodsDetail": "Se os métodos de pagamento estão selecionados, somente estes podem ser utilizados. Se não, todos os métodos podem ser utilizados.",
             "customPriceDetail": "Deixe o usuário decidir o preço. O preço inserido acima é utilizado como preço mínimo.",
             "packetRelations": "Relações do Pacote",
-            "editRewards": "Editar Recompensas",
             "details": "Detalhes do Pacote",
             "relationDisables": "Desativa o pacote selecionado na compra",
             "relationRequires": "Requer o pacote selecionado para uma compra"
@@ -446,7 +426,6 @@
     "_purchases": {
         "labels": {
             "salesCount": "Contagem de Vendas",
-            "myPurchases": "Minhas compras",
             "allPurchases": "Todas as compras",
             "appliedPackets": "Pacotes Aplicados",
             "amountNet": "Valor Líquido",
@@ -598,15 +577,12 @@
         "editTopicCategory": "Editar Categoria do Tópico",
         "deleteCategory": "Excluir Categoria",
         "deleteTopic": "Excluir Tópico",
-        "lock": "Trancar",
         "unlock": "Destrancar",
         "locked": "Bloqueado",
-        "unlocked": "Desbloqueado",
         "deleteThread": "Deletar Tópico",
         "rename": "Renomear",
         "admin": "Administrador do Fórum",
         "pin": "Fixar",
-        "unpin": "Desfixar",
         "addTopicCategory": "Adicionar Categoria de Tópico",
         "editTopic": "Editar Tópico",
         "latestPosts": "Últimos posts",
@@ -618,20 +594,16 @@
         "posts": "Publicações",
         "topicAdmins": "Administradores de tópicos: ",
         "hideClosed": "Ocultar Tópicos Fechados",
-        "threadLocked": "Tópico Bloqueado",
         "pinned": "Fixado",
         "numberOfThreads": "Contagem de Tópicos: ",
         "last_post": "Última Publicação",
-        "lastUpdated": "Última Atualização",
         "showClosed": "Mostrar fechado",
         "forum": "Fórum",
-        "ticket:": "Ticket",
         "tickets": "Tickets",
         "creator": "Criador",
         "content": "Conteúdo",
         "created": "Criado",
         "addTicket": "Criar Ticket",
-        "noTickets": "Você ainda não criou nenhum ticket.",
         "addPost": "Adicionar Publicação",
         "readMore": "Ler Mais",
         "open": "Aberto",
@@ -646,10 +618,8 @@
         },
         "addQuestionDialog": "Adicionar pergunta",
         "editQuestionDialog": "Editar pergunta",
-        "formTitle": "Título",
         "formContent": "Conteúdo",
         "add": "Adicionar pergunta",
-        "title": "Perguntas Frequentes",
         "html": "HTML é permitido neste campo."
     },
     "_property": {
@@ -844,7 +814,6 @@
     },
     "_server": {
         "labels": {
-            "unknownStatus": "Status Desconhecido",
             "edit": "Editar Servidor",
             "numberOfReservedSlots": "Número de slots reservados",
             "hideReservedSlots": "Esconder slots reservados",
@@ -899,7 +868,6 @@
         }
     },
     "_personalSettings": {
-        "title": "Configurações Pessoais",
         "email": "E-mail",
         "emailNotifications": "Notificação do E-mail",
         "enableEmailNotifications": "Ativar notificações por e-mail",
@@ -911,7 +879,6 @@
     },
     "_authorization": {
         "title": "Autorização",
-        "discord": "Discord",
         "discordOauthClientId": "ID Cliente",
         "discordOauthClientSecret": "Segredo do Cliente",
         "discordBotToken": "Símbolo do Bot",
@@ -1011,7 +978,6 @@
     "author": "Autor",
     "id": "ID",
     "update": "Atualizar",
-    "recurring": "Recorrente",
     "revenue": "Rendimento",
     "sales": "Vendas",
     "change": "Mudar",

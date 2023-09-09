@@ -9,11 +9,9 @@
         "formulaTypeError": "Перевірити, чи всі застосовані ID наявні",
         "formulaSymbolOr": "Цей символ | для АБО (OR)",
         "formulaSymbolAnd": "Цей символ & для І (AND)",
-        "imageUrl": "URL зображення",
         "httpPlaceholder": "https://myurl.com",
         "logicFormula": "Логічна формула",
         "editFormula": "Редагувати формулу",
-        "formula": "Формула",
         "requirements": "Вимоги",
         "communityDescriptionDescr": "Цей опис буде показано в результатах тестування пошукових систем",
         "addServerTooltip": "Спочатку додайте серверну групу",
@@ -21,10 +19,8 @@
             "editBundle": "Редагувати серверну групу",
             "addBundle": "Додати серверну групу",
             "addServer": "Додати сервер",
-            "groupSettings": "Налаштування групи",
             "addGroup": "Додати групу",
             "editGroup": "Редагувати групу",
-            "title": "Налаштування",
             "updateOrder": "Оновити замовлення",
             "resetOrder": "Скинути замовлення"
         },
@@ -39,9 +35,7 @@
         "communityDescription": "Опис спільноти",
         "gameserver": "Ігровий сервер",
         "permissionLevel": "Рівень дозволу",
-        "membercount": "Учасники",
         "defaultGroup": "Група за замовчуванням",
-        "totalUsers": "Кількість користувачів: ",
         "multigroup": "Декілька груп",
         "multigroupDescription": "Користувачі можуть бути членами кількох груп одночасно в цьому пакеті.",
         "showForum": "Увімкнути форум",
@@ -82,16 +76,13 @@
     },
     "_dashboard": {
         "labels": {
-            "userLog": "Лог користувача",
             "groupMemberships": "Члени групи",
             "last_online": "Останній раз онлайн",
             "membershipEndDescription": "Залишити порожнім на необмежений час",
             "linkNewAccount": "Прив'язати новий акаунт",
-            "admin": "Адмін",
             "bansAndWarnings": "Бани та попередження",
             "removeAdminTitle": "Видалити адміна?",
             "registered_on": "Зареєстровано на",
-            "linkedAccounts": "Пов'язані акаунти",
             "activeProperties": "Активні опції"
         },
         "messages": {
@@ -127,7 +118,6 @@
     },
     "_navigation": {
         "deleteDefaultLink": "Не вдається видалити основний лінк",
-        "noHtmlGiven": "Будь ласка, введіть якийсь html!",
         "_location": {
             "header": "Верхній колонтитул",
             "footer": "Нижній колонтитул",
@@ -159,9 +149,7 @@
     "_header": {
         "labels": {
             "login": "Вхід",
-            "register": "Зареєструватися",
-            "logout": "Вихід",
-            "close": "Закрити"
+            "logout": "Вихід"
         }
     },
     "_membership": {
@@ -178,12 +166,9 @@
             "confirmCouponPayment": "Будь ласка, введіть код {gateway_name}. Після цього платіж буде вручну схвалений членом команди.",
             "couponApplySuccess": "Купон успішно використано.",
             "couponRemoveSuccess": "Купон успішно видалено.",
-            "purchaseCancelledSuccess": "Покупка скасована.",
             "couponNotApplied": "Купон не може бути застосований до жодного пакету у вашому кошику.",
             "paymentFailed": "Під час оплати виникла помилка. Будь ласка, спробуйте перезапустити процес.",
-            "includesVAT": "Включає {tax_rate}% ПДВ.",
             "paymentCancelled": "Цей платіж було скасовано. Ви можете спробувати ще раз, зайшовши до кошика.",
-            "unfinishedPurchase": "Наразі триває купівля, яка ще не завершена.",
             "paymentSuccess": "Платіж успішно завершено. Придбані пакети приєднані до вашого облікового запису.",
             "selectBillingAddressFirst": "Будь ласка, спочатку оберіть адресу для виставлення рахунку.",
             "confirmCreditsPayment": "Будь ласка, підтвердіть сплату {credits} кредитів.",
@@ -199,7 +184,6 @@
             "addToCartError": "Виникла помилка при додаванні пакета до кошика.",
             "mustAgree": "Ви повинні погодитися, щоб продовжити!",
             "paymentPending": "Цей платіж очікує на розгляд. Будь ласка, завершіть його, відвідавши кошик.",
-            "noOngoingPurchase": "Наразі немає поточної покупки. Будь ласка, почніть оформлення замовлення в кошику.",
             "selectGateway": "Будь ласка, оберіть спосіб оплати.",
             "targetUserChanged": "Цільовий користувач був змінений"
         },
@@ -207,7 +191,6 @@
             "tax": "Податок",
             "taxRules": "Правила оподаткування",
             "subtotal": "Проміжний підсумок",
-            "applyCoupon": "Застосувати купон",
             "couponCode": "Код купона",
             "paymentId": "ID платежу",
             "addToCart": "Додати в кошик",
@@ -220,7 +203,6 @@
             "perMonth": "в місяць",
             "taxAllowUnknown": "Дозволити покупки з країн без податкового правила.",
             "cancelPurchase": "Скасувати покупку",
-            "cancelPayment": "Скасувати платіж",
             "downloadInvoices": "Завантажити рахунки",
             "invoiceLogoURLDetails": "URL логотипу, який відображається в рахунку.",
             "payment": "Оплата",
@@ -255,9 +237,7 @@
         }
     },
     "_properties": {
-        "ban_edit": "Дозволяє користувачеві редагувати бани у заданому пакеті",
-        "ban_show": "Дозволяє користувачеві відображати бани у заданому пакеті",
-        "bundle_edit": "Додавати та редагувати серверні групи"
+        "ban_show": "Дозволяє користувачеві відображати бани у заданому пакеті"
     },
     "_errors": {
         "unauthorized": "Ви повинні увійти в систему, щоб зробити це.",
@@ -358,10 +338,8 @@
             "limitedPayments": "Платежі обмежені",
             "recurring": "Повторення",
             "packetRelations": "Взаємозв'язки між пакетами",
-            "editRewards": "Редагувати винагороди",
             "details": "Деталі пакету",
             "relationDisables": "Відключає вибраний пакет при покупці",
-            "paymentMethods": "Способи оплати",
             "relationRequires": "Потрібно обрати пакет для покупки",
             "notBuyable": "Не можна купити",
             "currency": "Валюта",
@@ -385,7 +363,6 @@
             "customPriceDetail": "Дозвольте користувачеві визначити ціну. Введена ціна використовується як мінімальна ціна.",
             "limitPaymentMethodsDetail": "Якщо способи оплати обрані, то можна використовувати тільки ці способи. Якщо ні, можна використовувати всі способи.",
             "imageDetail": "HTTPS URL-адреса до зображення пакета.",
-            "editBundle": "Редагувати серверну групу",
             "titleInImage": "Заголовок відображається поверх зображення (опціонально)"
         },
         "messages": {
@@ -429,7 +406,6 @@
             "amountNet": "Сума нетто",
             "appliedPackets": "Застосовані пакети",
             "addAppliedPacket": "Додати застосований пакет",
-            "myPurchases": "Мої покупки",
             "monthlyRevenue": "Щомісячний дохід",
             "confirmDebitText": "Підтвердити покупку? Це не можна скасувати.",
             "revenueByCountry": "Дохід за країнами",
@@ -729,7 +705,6 @@
             }
         },
         "labels": {
-            "unknownStatus": "Статус невідомий",
             "create": "Створити сервер",
             "details": "Інформація про сервер",
             "edit": "Редагувати сервер",
@@ -754,7 +729,6 @@
     "_personalSettings": {
         "emailNotifications": "Сповіщення по електронній пошті",
         "noEmailSpecified": "Ще не вказано жодної адреси електронної пошти",
-        "title": "Персональні налаштування",
         "email": "Email",
         "enableEmailNotifications": "Увімкнути сповіщення електронною поштою"
     },
@@ -795,13 +769,10 @@
         "topicAdminUser": "Адміністратори тем",
         "deleteCategory": "Видалити категорію",
         "deleteTopic": "Видалити тему",
-        "lock": "Блокувати",
         "unlock": "Розблокувати",
-        "unlocked": "Розблоковано",
         "deleteThread": "Видалити гілку",
         "topicAdmins": "Адміни тем: ",
         "pin": "Закріпити",
-        "unpin": "Відкріпити",
         "posts": "Пости",
         "addTopicCategory": "Додати категорію теми",
         "editTopic": "Редагувати тему",
@@ -817,14 +788,12 @@
         "numberOfPosts": "Кількість постів: ",
         "threads": "Гілки",
         "by": "при",
-        "ticket:": "Запит",
         "threadLocked": "Гілку заблоковано",
         "tickets": "Запити",
         "creator": "Автор",
         "content": "Вміст",
         "created": "Створено",
         "last_post": "Останній пост",
-        "lastUpdated": "Останнє оновлення",
         "noTickets": "Ви ще не створили жодного запиту.",
         "addPost": "Додати пост",
         "readMore": "Читати далі",
@@ -847,7 +816,6 @@
         "discordBotToken": "Бот-токен",
         "title": "Авторизація",
         "redirectUrl": "Переадресація URL-адреси",
-        "discord": "Discord",
         "discordOauthClientId": "ID клієнта",
         "discordOauthClientSecret": "Приватна інформація клієнта"
     },
@@ -855,14 +823,12 @@
         "addTransaction": "Додати транзакцію"
     },
     "_faq": {
-        "title": "FAQ",
         "add": "Додати питання",
         "messages": {
             "contentEmpty": "Будь ласка, введіть контент"
         },
         "addQuestionDialog": "Додати питання",
         "editQuestionDialog": "Редагувати питання",
-        "formTitle": "Заголовок",
         "formContent": "Вміст",
         "html": "У цьому полі дозволено використовувати HTML."
     },
@@ -895,7 +861,6 @@
     "author": "Автор",
     "email": "E-Mail",
     "discounts": "Знижки",
-    "recurring": "Повторення",
     "generate": "Згенерувати",
     "extraProperties": "Додаткові параметри",
     "date": "Дата",

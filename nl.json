@@ -40,9 +40,7 @@
     "_header": {
         "labels": {
             "login": "Login",
-            "register": "Registreer",
-            "logout": "Uitloggen",
-            "close": "Sluit"
+            "logout": "Uitloggen"
         }
     },
     "_dashboard": {
@@ -50,16 +48,13 @@
             "removeAdminConfirmation": "Vergeet niet om de voormalige beheerder uit de instantie te verwijderen in uw centrale instantieoverzicht."
         },
         "labels": {
-            "linkedAccounts": "Gelinkte accounts",
             "linkNewAccount": "Verbind nieuw account",
             "activeProperties": "Actieve eigenschappen",
             "groupMemberships": "Groeps lidmaatschap",
-            "bansAndWarnings": "Verboden en waarschuwingen",
             "userLog": "Gebruikerslogboek",
             "registered_on": "Geregistreerd op",
             "last_online": "Laatst online",
             "membershipEndDescription": "Laat leeg voor onbeperkte duur",
-            "admin": "Beheer",
             "removeAdminTitle": "Verwijder beheer?"
         }
     },
@@ -122,13 +117,10 @@
         "formulaBeta": "Deze functie bevindt zich in de bètafase. Wees voorzichtig.",
         "communityDescriptionDescr": "Deze beschrijving wordt weergegeven in de testresultaten van zoekmachines",
         "permissionLevel": "Toestemmings niveau",
-        "membercount": "Leden",
         "gameserver": "Gameserver",
         "defaultGroup": "Standaard groep",
         "multigroup": "Meerdere groepen",
-        "totalUsers": "Totale aantal gebruikers: ",
         "multigroupDescription": "Gebruikers kunnen lid van meerdere groepen tegelijk in deze bundel.",
-        "imageUrl": "Foto URL",
         "contentEmpty": "Inhoud is leeg",
         "httpPlaceholder": "https://myurl.com",
         "editRequirementSet": "Eisenset bewerken",
@@ -136,7 +128,6 @@
         "logicFormula": "Logische formule",
         "formulaError": "Formule niet geldig - controleer de console voor aanvullende informatie",
         "editFormula": "Formule bewerken",
-        "formula": "Formule",
         "formulaSymbolOr": "Dit symbool | voor OF",
         "formulaSymbolAnd": "Dit symbool & voor en",
         "documentationLink": "Documentatie",
@@ -149,7 +140,6 @@
         "languageNewDescriptionText": "Help ons vertalen naar jouw taal",
         "addServerTooltip": "Voeg eerst een serverbundel toe",
         "labels": {
-            "title": "Instellingen",
             "groupSettings": "Groeps instellingen",
             "addGroup": "Groep toevoegen",
             "editGroup": "Groep bewerken",
@@ -168,9 +158,7 @@
         "isTeamDescription": "Leden van de groep worden weergegeven op de teampagina"
     },
     "_properties": {
-        "ban_show": "Stelt de gebruiker in staat om bans in gespecificeerde bundel weer te geven",
-        "ban_edit": "Stelt de gebruiker in staat om bans in de gespecificeerde bundel te bewerken",
-        "bundle_edit": "Serverbundels toevoegen en bewerken"
+        "ban_edit": "Stelt de gebruiker in staat om bans in de gespecificeerde bundel te bewerken"
     },
     "_shop": {
         "labels": {
@@ -180,7 +168,6 @@
             "cart": "Winkelwagen",
             "invoiceLogoURLDetails": "URL naar een logo dat op de factuur wordt weergegeven.",
             "admin": "Shop administratie",
-            "applyCoupon": "Bon gebruiken",
             "tax": "BTW",
             "net": "netto",
             "taxRules": "BTW regels",
@@ -206,7 +193,6 @@
             "taxAllowUnknown": "Sta aankopen toe uit landen zonder belastingregel.",
             "taxAllowUnknownDescription": "Indien uitgeschakeld, zijn aankopen uit landen die geen expliciete belastingregel hebben geconfigureerd, niet mogelijk.",
             "enableDonationGoal": "Donatiedoel inschakelen",
-            "cancelPayment": "Annuleer betaling",
             "cancelPurchase": "Annuleer aankoop",
             "couponCode": "coupon code",
             "changeTargetUser": "Koop voor een vriend"
@@ -214,7 +200,6 @@
         "messages": {
             "notEnoughCredits": "U heeft niet genoeg tegoed om deze aankoop te betalen. Kies een andere betaalmethode of koop meer credits.",
             "paymentActionFailed": "Er is een fout opgetreden bij het omleiden naar de betalingspagina. Probeer het opnieuw of gebruik een andere betaalmethode! Foutmelding: {bericht}",
-            "noOngoingPurchase": "Er is momenteel geen lopende aankoop. Begin met afrekenen in de winkelwagen.",
             "confirmCouponPayment": "Voer uw {gateway_name}-code in. De betaling wordt vervolgens handmatig goedgekeurd door een teamlid.",
             "confirmCreditsPayment": "Bevestig de betaling van {credits} credits.",
             "couponsEntered": "Uw coupon is succesvol toegevoegd. U kunt uw kortingsbon bewerken totdat uw aankoop is goedgekeurd.",
@@ -230,12 +215,10 @@
             "paymentCancelled": "Deze betaling is geannuleerd. U kunt het opnieuw proberen door naar uw winkelwagen te gaan.",
             "paymentSuccess": "De betaling is succesvol afgerond. De gekochte pakketten zijn toegewezen aan uw account.",
             "paymentFailed": "Er is een fout opgetreden tijdens het betalingsproces. Probeer het proces opnieuw te starten.",
-            "unfinishedPurchase": "Er is een lopende aankoop die nog niet is afgerond.",
             "purchaseCancelledSuccess": "De betaling is geannuleerd.",
             "couponApplySuccess": "Coupon is succesvol toegepast.",
             "couponRemoveSuccess": "Coupon succesvol verwijderd.",
             "couponNotApplied": "Coupon kan niet worden toegepast op een pakket in uw winkelwagen.",
-            "includesVAT": "Inclusief {tax_rate}% btw.",
             "selectBillingAddressFirst": "Selecteer eerst een factuuradres.",
             "selectEmailFirst": "Werk eerst uw e-mailadres bij",
             "targetUserChanged": "De beoogde gebruiker is gewijzigd"
@@ -351,7 +334,6 @@
         "deleteDefaultLink": "Kan de standaardlink niet verwijderen",
         "bothHtmlInputsUsed": "Gebruik niet beide HTML-invoer",
         "parentNavigationLink": "Bovenliggende navigatielink",
-        "noHtmlGiven": "Voer alstublieft wat html in!",
         "navUpdate": "Voer alsjeblieft een html in!",
         "navReset": "Navigatievolgorde resetten"
     },
@@ -396,17 +378,14 @@
             "customPriceDetail": "Laat de gebruiker de prijs bepalen. De hierboven ingevoerde prijs wordt als minimale prijs gehanteerd.",
             "imageDetail": "Een HTTPS URL naar de pakket afbeelding",
             "enabledDetail": "Indien uitgeschakeld, kan het pakket niet worden gekocht en worden alle toegewezen pakketten inactief.",
-            "paymentMethods": "Betalings methode",
             "limitPaymentMethods": "Gelimiteerde betalings methode",
             "limitPaymentMethodsDetail": "Als betaalmethoden zijn geselecteerd, kunnen alleen deze worden gebruikt. Zo niet, dan kunnen alle methoden worden gebruikt.",
-            "editRewards": "bewerk waardering",
             "packetRelations": "Pakket relaties",
             "details": "Pakket details",
             "relationDisables": "Schakelt het geselecteerde pakket uit bij aankoop",
             "relationRequires": "Vereist het geselecteerde pakket voor een aankoop",
             "relationNotCompatible": "Niet compatibel met het geselecteerde pakket.",
             "relationUpgrades": "Kan worden gebruikt om het geselecteerde pakket te upgraden.",
-            "editBundle": "Bewerk service bundel",
             "deleteAppliedPacket": "Verwijder toegepast pakket",
             "end": "Eind"
         },
@@ -465,7 +444,6 @@
             "refunded": "Terug betaald",
             "unrevoke": "Intrekken ongedaan maken",
             "revoked": "Ingetrokken",
-            "myPurchases": "Mijn aankopen",
             "allPurchases": "Alle aankopen",
             "appliedPackets": "Toegepaste pakketten",
             "amountNet": "Netto bedrag",
@@ -665,7 +643,6 @@
     },
     "_forum": {
         "addTicket": "Ticket maken",
-        "noTickets": "U heeft nog geen tickets aangemaakt.",
         "addPost": "Bericht toevoegen",
         "readMore": "Lees meer",
         "open": "Open",
@@ -684,30 +661,23 @@
         "content": "Inhoud",
         "created": "Gemaakt",
         "last_post": "Laatste post",
-        "unlocked": "Ontgrendeld",
         "addTopic": "Voeg onderwerp toe",
         "locked": "Vergrendeld",
         "by": "door",
         "banProtest": "Protest verbieden",
-        "unlock": "Ontgrendelen",
         "topicAdmins": "Onderwerpbeheerders: ",
-        "lastUpdated": "Laatste update",
         "threadLocked": "Thread vergrendeld",
-        "deleteThread": "Thread verwijderen",
         "forum": "Forum",
-        "ticket:": "Ticket",
         "manageTopicCategories": "Onderwerpcategorieën beheren",
         "addCategory": "Catogorie toevoegen",
         "editTopicCategory": "Onderwerpcategorie bewerken",
         "topicAdminUser": "Onderwerpbeheerders",
         "deleteCategory": "Categorie verwijderen",
         "deleteTopic": "Onderwerp verwijderen",
-        "lock": "Versleutelen",
         "rename": "Hernoemen",
         "hideClosed": "Onderwerpbeheerders:",
         "numberOfPosts": "Aantal berichten ",
         "pin": "pin",
-        "unpin": "vastmaken",
         "posts": "Berichten",
         "addTopicCategory": "Onderwerpcategorie toevoegen",
         "editTopic": "Onderwerp bewerken",
@@ -916,7 +886,6 @@
             }
         },
         "labels": {
-            "unknownStatus": "Status onbekend",
             "create": "Server aanmaken",
             "edit": "Server bewerken",
             "numberOfReservedSlots": "Aantal gereserveerde slots",
@@ -976,11 +945,9 @@
     },
     "rewards": "Beloningen",
     "_faq": {
-        "formTitle": "Titel",
         "formContent": "Inhoud",
         "html": "HTML is toegestaan in dit veld.",
         "editQuestionDialog": "Vraag bewerken",
-        "title": "FAQ",
         "add": "Vraag toevoegen",
         "addQuestionDialog": "Vraag toevoegen",
         "messages": {
@@ -1007,7 +974,6 @@
         "addTransaction": "Transactie toevoegen"
     },
     "_authorization": {
-        "discord": "Discord",
         "discordOauthClientId": "Klant ID (client ID)",
         "discordBotToken": "Bot Token",
         "redirectUrl": "Omleidings-URL",
@@ -1018,14 +984,12 @@
         "noUsersFound": "Geen gebruikers gevonden.",
         "selectAUser": "Selecteer een gebruiker om details te zien."
     },
-    "recurring": "Terugkomend",
     "open": "open",
     "invoice": "Rekening",
     "_server_exception": {
         "begin_smaller_end": "De begindatum moet na de einddatum vallen"
     },
     "_personalSettings": {
-        "title": "Persoonlijke instellingen",
         "email": "Email",
         "emailNotifications": "Email meldingen",
         "enableEmailNotifications": "Schakel e-mailmeldingen in",

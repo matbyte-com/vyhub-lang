@@ -2,9 +2,7 @@
     "_header": {
         "labels": {
             "login": "Войти",
-            "register": "Зарегистрироваться",
-            "logout": "Выйти",
-            "close": "закрыть"
+            "logout": "Выйти"
         }
     },
     "_membership": {
@@ -13,11 +11,6 @@
             "edit": "Редактировать группу",
             "endMembership": "Удалить из группы",
             "activeMemberships": "Активная группа"
-        }
-    },
-    "_dashboard": {
-        "labels": {
-            "linkedAccounts": "Дополнительные аккаунты"
         }
     }
 }

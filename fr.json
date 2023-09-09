@@ -1,14 +1,10 @@
 {
     "_dashboard": {
         "labels": {
-            "userLog": "Journal de l'utilisateur",
             "registered_on": "Inscrit le",
-            "linkedAccounts": "Comptes liés",
             "linkNewAccount": "lier un nouveau compte",
             "activeProperties": "Propriétés actives",
-            "bansAndWarnings": "Bannissements et avertissements",
             "groupMemberships": "Adhésions de groupe",
-            "admin": "Administrateurs",
             "membershipEndDescription": "Laisser vide pour une durée illimitée",
             "removeAdminTitle": "Supprimer l'administrateur ?",
             "last_online": "Dernière connexion",
@@ -44,12 +40,9 @@
         "documentationLink": "Documentation",
         "showTicket": "Activer le système de tickets",
         "permissionLevel": "Niveau d'autorisation",
-        "membercount": "Membres",
         "gameserver": "Serveur de jeu",
         "defaultGroup": "Groupe par défaut",
-        "totalUsers": "Nombre total d'utilisateurs : ",
         "backgroundColorDescription": "L'image d'arrière-plan écrase la couleur d'arrière-plan",
-        "imageUrl": "URL de l'image",
         "contentEmpty": "Le contenu est vide",
         "addRequirementSet": "Ajouter un ensemble d'exigences",
         "editRequirementSet": "Modifier l'ensemble d'exigences",
@@ -58,7 +51,6 @@
         "formulaTypeError": "Vérifiez si tous les identifiants utilisés sont présents",
         "formulaError": "Formule non valide - consultez la console pour plus d'informations",
         "editFormula": "Modifier la formule",
-        "formula": "Formule",
         "formulaSymbolOr": "Ce symbole | pour OU",
         "formulaSymbolAnd": "Ce symbole & pour ET",
         "serverAndServerbundle": "Serveur / Offre groupée de serveurs",
@@ -67,7 +59,6 @@
         "language": "Langue",
         "languageNewDescriptionText": "Aidez-nous à traduire votre langue",
         "labels": {
-            "title": "Réglages",
             "groupSettings": "Paramètres de groupes",
             "addGroup": "Ajouter un groupe",
             "addBundle": "Ajouter un groupe de serveurs",
@@ -128,7 +119,6 @@
             "invoiceLogoURLDetails": "URL vers un logo affiché sur la facture.",
             "admin": "Administration de la boutique",
             "checkoutCheckboxes": "Cases à cocher",
-            "applyCoupon": "Appliquer un coupon",
             "couponCode": "Code du coupon",
             "tax": "Impôt",
             "payment": "Paiement",
@@ -147,7 +137,6 @@
             "taxAllowUnknown": "Autoriser les achats en provenance de pays sans règle fiscale.",
             "subtotal": "Sous-total",
             "enableDonationGoal": "Activer l'objectif de don",
-            "cancelPayment": "Annuler le paiement",
             "cancelPurchase": "Annuler l'achat",
             "loginToBuy": "Connectez-vous pour acheter ce pack",
             "taxAllowUnknownDescription": "Si cette option est désactivée, les achats provenant de pays qui n'ont pas de règle fiscale explicite configurée ne sont pas possibles.",
@@ -170,16 +159,13 @@
             "mustAgree": "Vous devez accepter pour continuer !",
             "startingPaymentFailed": "Une erreur s'est produite lors du paiement. Veuillez réessayer ou utiliser un autre mode de paiement !",
             "selectGateway": "Veuillez sélectionner votre méthode de paiement.",
-            "noOngoingPurchase": "Il n'y a actuellement aucun achat en cours. Veuillez commencer le paiement dans le panier.",
             "noAddressSpecified": "Adresse pas encore spécifiée.",
             "paymentCancelled": "Ce paiement a été annulé. Vous pouvez réessayer en visitant votre panier.",
             "paymentPending": "Ce paiement est en attente. Veuillez le compléter en visitant le panier.",
-            "unfinishedPurchase": "Il y a un achat en cours qui n'est pas encore terminé.",
             "purchaseCancelledSuccess": "L'achat a été annulé.",
             "couponApplySuccess": "Coupon appliqué avec succès.",
             "couponRemoveSuccess": "Coupon supprimé avec succès.",
             "couponNotApplied": "Le coupon n'a pu être appliqué à aucun paquet de votre panier.",
-            "includesVAT": "Comprend {tax_rate}% de TVA.",
             "selectEmailFirst": "Veuillez d'abord mettre à jour votre adresse e-mail",
             "confirmCouponPayment": "Veuillez saisir votre code {gateway_name}. Le paiement est ensuite approuvé manuellement par un membre de l'équipe.",
             "notEnoughCredits": "Vous n'avez pas assez de crédits pour payer cet achat. Veuillez choisir un autre mode de paiement ou acheter plus de crédits.",
@@ -205,9 +191,7 @@
     "_header": {
         "labels": {
             "logout": "Se déconnecter",
-            "close": "Fermer",
-            "login": "Connexion",
-            "register": "S'inscrire"
+            "login": "Connexion"
         }
     },
     "_membership": {
@@ -239,9 +223,7 @@
         }
     },
     "_properties": {
-        "ban_edit": "Permet à l'utilisateur de modifier les bannissements dans le groupe spécifié",
-        "bundle_edit": "Ajouter et modifier des ensembles de serveurs",
-        "ban_show": "Permet à l'utilisateur d'afficher les bannissements dans le groupe spécifié"
+        "bundle_edit": "Ajouter et modifier des ensembles de serveurs"
     },
     "_errors": {
         "cart_not_empty": "Votre panier doit être vide pour ajouter ce paquet.",
@@ -310,7 +292,6 @@
         "link": "Lien",
         "addNavLink": "Ajouter un lien de navigation",
         "editNavLink": "Modifier le lien de navigation",
-        "noHtmlGiven": "S'il vous plaît entrez un peu de HTML !",
         "bothHtmlInputsUsed": "Ne pas utiliser les deux entrées HTML",
         "deleteDefaultLink": "Impossible de supprimer le lien par défaut",
         "parentNavigationLink": "Lien de navigation parent",
@@ -372,19 +353,16 @@
             "activeSince": "Actif depuis",
             "activeUntil": "Actif jusqu'à",
             "activeForDetail": "Combien de temps le paquet doit être actif après l'activation. Laissez ce champ vide pour les paquets qui ne doivent pas être désactivés après un certain temps. Si l'option récurrente est activée, cette valeur est utilisée comme intervalle d'abonnement.",
-            "paymentMethods": "Méthodes de payement",
             "limitPaymentMethods": "Limiter les modes de paiement",
             "limitPaymentMethodsDetail": "Si des méthodes de paiement sont sélectionnées, seules celles-ci peuvent être utilisées. Sinon, toutes les méthodes peuvent être utilisées.",
             "customPriceDetail": "Laissez l'utilisateur décider du prix. Le prix saisi ci-dessus est utilisé comme prix minimal.",
             "packetRelations": "Relations de paquets",
-            "editRewards": "Modifier les récompenses",
             "details": "Détails du paquet",
             "relationDisables": "Désactive le paquet sélectionné à l'achat",
             "relationRequires": "Nécessite le paquet sélectionné pour un achat",
             "relationNotCompatible": "Non compatible avec le paquet sélectionné.",
             "relationUpgrades": "Peut être utilisé pour mettre à niveau le paquet sélectionné.",
             "imageDetail": "Une URL HTTPS vers l'image du paquet.",
-            "editBundle": "Modifier le groupe de serveurs",
             "deleteAppliedPacket": "Supprimer le paquet appliqué",
             "end": "Finir",
             "buyableInactive": "Achetable si l'utilisateur a ce paquet dans un état inactif."
@@ -440,7 +418,6 @@
     },
     "_purchases": {
         "labels": {
-            "myPurchases": "Mes achats",
             "allPurchases": "Tous les achats",
             "appliedPackets": "Paquets appliqués",
             "revoke": "Révoquer",
@@ -630,7 +607,6 @@
     },
     "_server": {
         "labels": {
-            "unknownStatus": "Statut inconnu",
             "create": "Créer un serveur",
             "edit": "Modifier le serveur",
             "numberOfReservedSlots": "Nombre d'emplacements réservés",
@@ -686,11 +662,9 @@
         }
     },
     "_personalSettings": {
-        "title": "Paramètres personnels",
         "emailNotifications": "Notifications par email",
         "enableEmailNotifications": "Activer les notifications par e-mail",
-        "noEmailSpecified": "Aucun e-mail spécifié pour le moment",
-        "email": "Email"
+        "noEmailSpecified": "Aucun e-mail spécifié pour le moment"
     },
     "_team": {
         "title": "L'Équipe",
@@ -723,13 +697,11 @@
     "_authorization": {
         "title": "Autorisation",
         "redirectUrl": "URL de redirection",
-        "discord": "Discord",
         "discordOauthClientId": "ID du client",
         "discordOauthClientSecret": "Clé secrète du client",
         "discordBotToken": "Jeton de robot"
     },
     "update": "Mise à jour",
-    "recurring": "Récurrent",
     "revenue": "Revenu",
     "sales": "Soldes",
     "change": "Échanger",
@@ -887,16 +859,13 @@
         "selectAUser": "Sélectionnez un utilisateur pour voir les détails."
     },
     "_faq": {
-        "formTitle": "Titre",
         "add": "Ajouter une question",
         "editQuestionDialog": "Modifier une question",
         "messages": {
             "contentEmpty": "Veuillez saisir du contenu"
         },
         "addQuestionDialog": "Ajouter une question",
-        "formContent": "Contenu",
-        "html": "HTML est autorisé dans cette section.",
-        "title": "FAQ"
+        "html": "HTML est autorisé dans cette section."
     },
     "_advert": {
         "add": "Ajouter une annonce",
@@ -996,9 +965,7 @@
     "_forum": {
         "content": "Contenu",
         "forum": "Forum",
-        "ticket:": "Billets",
         "unlocked": "Dévérouillé",
-        "noTickets": "Vous n'avez pas encore créé de tickets.",
         "threadLocked": "Fil verrouillé",
         "manageTopicCategories": "Gérer les catégories de sujets",
         "addThread": "Ajouter un fil",
@@ -1009,7 +976,6 @@
         "deleteCategory": "Supprimer la catégorie",
         "deleteTopic": "Supprimer le sujet",
         "pin": "Epinglé",
-        "unpin": "Désépinglé",
         "posts": "Posts",
         "addTopicCategory": "Ajouter une catégorie de sujet",
         "editTopic": "Modifier le sujet",
@@ -1022,7 +988,6 @@
         "creator": "Créateur",
         "created": "Créé",
         "last_post": "Dernier Post",
-        "lastUpdated": "Dernière mise à jour",
         "addTicket": "Créer un ticket",
         "addPost": "Ajouter un post",
         "readMore": "Lire plus",
@@ -1033,7 +998,6 @@
         "showClosed": "Afficher fermé",
         "showBan": "Voir les bannissements",
         "tickets": "Billets",
-        "lock": "Vérouiller",
         "unlock": "Dévérouiller",
         "locked": "Vérouillé",
         "rename": "Renommer",
@@ -1042,7 +1006,6 @@
         "hideClosed": "Masquer les discussions fermées",
         "numberOfThreads": "Nombre de fils : ",
         "numberOfPosts": "Nombre de postes :",
-        "deleteThread": "Supprimer le fil",
         "pinned": "épinglée"
     },
     "_invoice": {
