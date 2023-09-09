@@ -2,9 +2,7 @@
     "_header": {
         "labels": {
             "login": "Login",
-            "register": "Register",
-            "logout": "Logout",
-            "close": "close"
+            "logout": "Logout"
         }
     },
     "_invoice": {
@@ -33,15 +31,11 @@
     },
     "_dashboard": {
         "labels": {
-            "linkedAccounts": "Linked Accounts",
             "linkNewAccount": "link new Account",
             "unlinkAccount": "Unlink Account",
             "unlinkAccountWarning": "Deleting a user link will unlink the accounts. Admin-Status, Bans, Warnings, Purchases, Applied-Packets and Credits are affected by this and might not be handled the way you expect it. Check them afterwards to make sure everything is alright.",
             "activeProperties": "Active Properties",
             "groupMemberships": "Group Memberships",
-            "bansAndWarnings": "Bans and Warnings",
-            "userLog": "User Log",
-            "admin": "Admin",
             "registered_on": "Registered on",
             "last_online": "Last online",
             "membershipEndDescription": "Leave empty for unlimited duration",
@@ -109,14 +103,11 @@
     },
     "_settings": {
         "permissionLevel": "Permission Level",
-        "membercount": "Members",
         "gameserver": "Gameserver",
         "defaultGroup": "Default Group",
         "multigroup": "Multiple Groups",
-        "totalUsers": "Total Users: ",
         "multigroupDescription": "Users can be a member in multiple groups at once in this bundle.",
         "backgroundColorDescription": "Background image overwrites the background color",
-        "imageUrl": "Image URL",
         "contentEmpty": "Content is empty",
         "httpPlaceholder": "https://myurl.com",
         "addRequirementSet": "Add Requirement Set",
@@ -126,7 +117,6 @@
         "formulaTypeError": "Check if all used Id's are present",
         "formulaError": "Formula not valid - check console for additional info",
         "editFormula": "Edit Formula",
-        "formula": "Formula",
         "formulaSymbolOr": "This Symbol | for OR",
         "formulaSymbolAnd": "This Symbol & for AND",
         "formulaBeta": "This function is in beta phase. Please use with caution.",
@@ -149,8 +139,6 @@
         "requirementSetTest": "Test requirement set against user",
         "advancedSettings": "Advanced Settings",
         "labels": {
-            "title": "Settings",
-            "groupSettings": "Groupsettings",
             "addGroup": "Add Group",
             "editGroup": "Edit Group",
             "addBundle": "Add Serverbundle",
@@ -169,11 +157,6 @@
         "isTeam": "Is Team",
         "isTeamDescription": "Members of group will be shown on the team page"
     },
-    "_properties": {
-        "ban_show": "Enables user to display bans in specified bundle",
-        "ban_edit": "Enables user to edit bans in specified bundle",
-        "bundle_edit": "Add and Edit Serverbundles"
-    },
     "_shop": {
         "shopTitle": "Welcome to the Shop",
         "labels": {
@@ -183,7 +166,6 @@
             "invoiceLogoURL": "Invoice logo URL",
             "invoiceLogoURLDetails": "URL to a logo that is displayed on the invoice.",
             "admin": "Shop Administration",
-            "applyCoupon": "Apply Coupon",
             "couponCode": "Coupon Code",
             "discountCode": "Discount Code",
             "tax": "Tax",
@@ -220,7 +202,6 @@
             "lastDonatorsDisplayTitle": "Last donations display title",
             "donationGoal": "Donation goal",
             "enableDonationGoal": "Enable donation goal",
-            "cancelPayment": "Cancel Payment",
             "cancelPurchase": "Cancel Purchase",
             "changeTargetUser": "Buy for a friend",
             "recommended": "Recommended for you",
@@ -241,19 +222,15 @@
             "startingPaymentFailed": "There was an error while initiating the payment. Please try again or use an other payment method!",
             "paymentActionFailed": "There was an error while redirecting you to the payment page. Please try again or use an other payment method! Error message: {message}",
             "selectGateway": "Select payment method",
-            "noOngoingPurchase": "There is currently no ongoing purchase. Please start the checkout in the cart.",
             "noAddressSpecified": "Address not specified yet.",
             "paymentCancelled": "This payment has been cancelled. You can try it again by visiting your shopping cart.",
             "paymentSuccess": "The payment has been finished successfully. The purchased packets have been assigned to your account.",
             "paymentFailed": "An error occurred during the payment process. Please try to restart the process.",
             "paymentPending": "This payment is pending. Please complete it by visiting the shopping cart.",
             "paymentProcessing": "The payment has been approved and will be finished soon. Please wait a few minutes on this page while your payment is being processed.",
-            "unfinishedPurchase": "There is an ongoing purchase that hasn't been finished yet.",
-            "purchaseCancelledSuccess": "The purchase has been cancelled.",
             "couponApplySuccess": "Coupon successfully applied.",
             "couponRemoveSuccess": "Coupon successfully removed.",
             "couponNotApplied": "Coupon could not be applied to any packet in your cart.",
-            "includesVAT": "Includes {tax_rate}% VAT.",
             "selectBillingAddressFirst": "Please select a billing address first.",
             "selectEmailFirst": "Please update your email address first",
             "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone.",
@@ -348,12 +325,10 @@
         "htmlContent": "HTML Content",
         "link": "Link",
         "html": "Html",
-        "rawHtml": "Raw Html",
         "title": "Navigation",
         "parentNavigationLink": "Parent Navigation Link",
         "addNavLink": "Add Navigation Link",
         "editNavLink": "Edit Navigation Link",
-        "noHtmlGiven": "Please input some html!",
         "navUpdate": "Update Navigation Order",
         "navReset": "Reset Navigation Order",
         "reqProp": "Required Property",
@@ -420,19 +395,16 @@
             "activeSince": "Active since",
             "activeUntil": "Active until",
             "activeForDetail": "How long the packet should be active after activation. Let this field empty for packets that should not be disabled after time. If the recurring option is enabled, this value is used as the subscription interval.",
-            "paymentMethods": "Payment Methods",
             "limitPaymentMethods": "Limit payment methods",
             "limitPaymentMethodsDetail": "If payment methods are selected, only these can be used. If not, all methods can be used.",
             "customPriceDetail": "Let the user decide the price. The entered price above is used as the minimal price.",
             "packetRelations": "Packet Relations",
-            "editRewards": "Edit Rewards",
             "details": "Packet Details",
             "relationDisables": "Disables the selected packet on purchase",
             "relationRequires": "Requires the selected packet for a purchase",
             "relationNotCompatible": "Not compatible with the selected packet.",
             "relationUpgrades": "Can be used to upgrade the selected packet.",
             "imageDetail": "An HTTPS URL to the packet image.",
-            "editBundle": "Edit Serverbundle",
             "deleteAppliedPacket": "Delete applied packet",
             "end": "End",
             "recommendable": "Recommendable",
@@ -498,7 +470,6 @@
     },
     "_purchases": {
         "labels": {
-            "myPurchases": "My Purchases",
             "allPurchases": "All Purchases",
             "appliedPackets": "Applied Packets",
             "revoke": "Revoke",
@@ -515,7 +486,6 @@
             "creditsSpent": "Credits Spent",
             "revenueByCountry": "Revenue by Country",
             "revenueByCategory": "Revenue by Category",
-            "numberOfPurchases": "Number of Purchases",
             "editAppliedPacket": "Edit Applied Packet",
             "cancelSubscription": "Cancel Subscription",
             "addAppliedPacket": "Add Applied Packet",
@@ -734,7 +704,6 @@
     },
     "_server": {
         "labels": {
-            "unknownStatus": "Status Unknown",
             "create": "Create Server",
             "edit": "Edit Server",
             "numberOfReservedSlots": "Number of reserved slots",
@@ -798,8 +767,6 @@
         }
     },
     "_personalSettings": {
-        "title": "Personal Settings",
-        "email": "Email",
         "emailNotifications": "Email Notifications",
         "enableEmailNotifications": "Enable email notifications",
         "noEmailSpecified": "No email specified yet"
@@ -834,7 +801,6 @@
     },
     "_authorization": {
         "title": "Authorization",
-        "discord": "Discord",
         "discordOauthClientId": "Client ID",
         "discordOauthClientSecret": "Client Secret",
         "discordBotToken": "Bot Token",
@@ -848,12 +814,9 @@
         "addTransaction": "Add Transaction"
     },
     "_faq": {
-        "title": "FAQ",
         "add": "Add question",
         "addQuestionDialog": "Add question",
         "editQuestionDialog": "Edit question",
-        "formTitle": "Title",
-        "formContent": "Content",
         "html": "HTML is allowed in this field.",
         "messages": {
             "contentEmpty": "Please enter a content"
@@ -862,7 +825,6 @@
     "_forum": {
         "welcomeToForum": "Welcome to the Forum",
         "forum": "Forum",
-        "ticket:": "Ticket",
         "manageTopicCategories": "Manage Topic Categories",
         "addThread": "Add Thread",
         "addCategory": "Add Category",
@@ -871,21 +833,15 @@
         "topicAdminUser": "Topic Admins",
         "deleteCategory": "Delete Category",
         "deleteTopic": "Delete Topic",
-        "lock": "Lock",
-        "unlock": "Unlock",
         "locked": "Locked",
-        "unlocked": "Unlocked",
-        "deleteThread": "Delete Thread",
         "rename": "Rename",
         "admin": "Forum Admin",
         "topicAdmins": "Topic Admins: ",
         "hideClosed": "Hide Closed Threads",
-        "threadLocked": "Locked",
         "pinned": "Pinned",
         "numberOfThreads": "Thread Count",
         "numberOfPosts": "Post Count",
         "pin": "Pin",
-        "unpin": "Unpin",
         "posts": "Posts",
         "reactions": "Reactions",
         "addTopicCategory": "Add Topic Category",
@@ -903,9 +859,7 @@
         "content": "Content",
         "created": "Created",
         "last_post": "Last Post",
-        "lastUpdated": "Last Update",
         "addTicket": "Create Ticket",
-        "noTickets": "You have not created any tickets yet.",
         "addPost": "Add Post",
         "readMore": "Read More",
         "open": "Open",
@@ -1046,7 +1000,6 @@
         "copyClipboard": "Copied to clipboard."
     },
     "update": "Update",
-    "recurring": "Recurring",
     "revenue": "Revenue",
     "sales": "Sales",
     "change": "Change",
@@ -1226,6 +1179,7 @@
     "add-on": "Add-On",
     "password": "Password",
     "chat": "Chat",
+    "admin": "Admin",
     "global": "Global",
     "rawHtml": "Raw HTML",
     "required": "Required",
