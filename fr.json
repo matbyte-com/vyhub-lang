@@ -59,7 +59,6 @@
         "language": "Langue",
         "languageNewDescriptionText": "Aidez-nous à traduire votre langue",
         "labels": {
-            "groupSettings": "Paramètres de groupes",
             "addGroup": "Ajouter un groupe",
             "addBundle": "Ajouter un groupe de serveurs",
             "editBundle": "Modifier le groupe de serveurs",
@@ -162,7 +161,6 @@
             "noAddressSpecified": "Adresse pas encore spécifiée.",
             "paymentCancelled": "Ce paiement a été annulé. Vous pouvez réessayer en visitant votre panier.",
             "paymentPending": "Ce paiement est en attente. Veuillez le compléter en visitant le panier.",
-            "purchaseCancelledSuccess": "L'achat a été annulé.",
             "couponApplySuccess": "Coupon appliqué avec succès.",
             "couponRemoveSuccess": "Coupon supprimé avec succès.",
             "couponNotApplied": "Le coupon n'a pu être appliqué à aucun paquet de votre panier.",
@@ -221,9 +219,6 @@
         "mappings": {
             "name": "Nom du groupe/rang/rôle sur le serveur"
         }
-    },
-    "_properties": {
-        "bundle_edit": "Ajouter et modifier des ensembles de serveurs"
     },
     "_errors": {
         "cart_not_empty": "Votre panier doit être vide pour ajouter ce paquet.",
@@ -965,7 +960,6 @@
     "_forum": {
         "content": "Contenu",
         "forum": "Forum",
-        "unlocked": "Dévérouillé",
         "threadLocked": "Fil verrouillé",
         "manageTopicCategories": "Gérer les catégories de sujets",
         "addThread": "Ajouter un fil",
@@ -998,7 +992,6 @@
         "showClosed": "Afficher fermé",
         "showBan": "Voir les bannissements",
         "tickets": "Billets",
-        "unlock": "Dévérouiller",
         "locked": "Vérouillé",
         "rename": "Renommer",
         "admin": "Administrateurs du forum",

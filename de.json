@@ -19,7 +19,6 @@
             "linkNewAccount": "Konto Verknüpfen",
             "activeProperties": "Aktive Eigenschaften",
             "groupMemberships": "Gruppenmitgliedschaften",
-            "userLog": "Nutzerlog",
             "registered_on": "Registriert am",
             "membershipEndDescription": "Leer lassen für unbegrenzte Dauer",
             "removeAdminTitle": "Admin entfernen?",
@@ -144,7 +143,6 @@
             "paymentCancelled": "Diese Zahlung wurde abgebrochen. Du kannst es im Warenkorb erneut versuchen.",
             "paymentSuccess": "Die Zahlung wurde erfolgreich abgeschlossen. Die gekauften Pakete wurden deinem Account zugeordnet.",
             "paymentProcessing": "Die Zahlung wurde genehmigt und wird in Kürze abgeschlossen. Bitte warte noch einige Minuten auf dieser Seite, während die Zahlungs verarbeitet wird.",
-            "purchaseCancelledSuccess": "Der Kauf wurde abgebrochen.",
             "couponNotApplied": "Der Gutschein konnte auf kein Paket im Einkaufswagen angewendet werden.",
             "selectBillingAddressFirst": "Bitte wähle zuerst eine Rechnungsadresse.",
             "selectEmailFirst": "Bitte aktualisiere zuerst deine E-Mail-Adresse",
@@ -363,7 +361,6 @@
     },
     "_personalSettings": {
         "emailNotifications": "E-Mail Benachrichtigungen",
-        "email": "E-Mail",
         "enableEmailNotifications": "E-Mail Benachrichtigungen aktivieren",
         "noEmailSpecified": "Noch keine E-Mail angegeben"
     },
@@ -560,7 +557,6 @@
         "backgroundColorDescription": "Hintergrundbild überschreibt die Hintergrundfarbe",
         "labels": {
             "addBundle": "Serverbundle hinzufügen",
-            "groupSettings": "Gruppeneinstellungen",
             "addGroup": "Gruppe Hinzufügen",
             "editGroup": "Gruppe bearbeiten",
             "editBundle": "Servrebundle bearbeiten",
@@ -814,9 +810,6 @@
         "maxBanLengthInDays": "Maximale Ban Länge (in Tagen)",
         "maxBanLengthInDaysDescription": "Für unbegrenzte Bans leer lassen"
     },
-    "_properties": {
-        "ban_edit": "Erlaubt Nuter Bans in bestimmten Serverbundle zu bearbeiten"
-    },
     "_legal": {
         "descriptionText": "In den meisten Ländern ist es zwingend erforderlich, zumindest die Kontaktdaten, Nutzungsbedingungen und eine Datenschutzerklärung des Website-Betreibers anzugeben. Eine beispielhafte Datenschutzerklärung findest du in den Dokumenten.",
         "showLegalReminder": "Bitte setze ein Impressum in den Einstellungen!"
@@ -923,7 +916,6 @@
             "contentEmpty": "Bitte gib einen Inhalt ein"
         },
         "add": "Frage hinzufügen",
-        "formContent": "Inhalt",
         "html": "HTML ist in diesem Feld erlaubt."
     },
     "unexpectedError": "Unerwarteter Fehler",
@@ -1026,9 +1018,7 @@
         "addThread": "Neues Thema",
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
-        "unlock": "Freischalten",
         "locked": "Geschlossen",
-        "deleteThread": "Thread löschen",
         "rename": "Umbenennen",
         "manageTopicCategories": "Themenkategorien verwalten",
         "addTopic": "Thema hinzufügen",

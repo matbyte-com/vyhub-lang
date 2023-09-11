@@ -2,8 +2,7 @@
     "_header": {
         "labels": {
             "logout": "Çıkış Yap",
-            "login": "Giriş Yap",
-            "close": "kapalı"
+            "login": "Giriş Yap"
         }
     },
     "_invoice": {
@@ -65,7 +64,6 @@
             "addBundle": "Sunucu paketi ekle",
             "editGroup": "Grubu Düzenle",
             "editBundle": "Sunucu paketini düzenle",
-            "groupSettings": "Grup ayarları",
             "addGroup": "Grup Ekle",
             "addServer": "Sunucu Ekle",
             "updateOrder": "Güncelleme Sırası",
@@ -100,7 +98,6 @@
         "labels": {
             "linkNewAccount": "yeni Hesabı Bağla",
             "groupMemberships": "Grup Üyelikleri",
-            "userLog": "Kullanıcı Günlüğü",
             "activeProperties": "Aktif Özellikler",
             "removeAdminTitle": "Yönetici kaldırılsın mı?",
             "unlinkAccount": "Hesabın Bağlantısını Kaldır",
@@ -607,7 +604,6 @@
         }
     },
     "_faq": {
-        "formContent": "İçerik",
         "html": "Bu alanda HTML'ye izin verilir.",
         "messages": {
             "contentEmpty": "Lütfen bir içerik girin"
@@ -617,12 +613,9 @@
         "editQuestionDialog": "Soruyu düzenle"
     },
     "_forum": {
-        "ticket:": "Bilet",
         "editTopicCategory": "Konu Kategorisini Düzenle",
         "deleteTopic": "Konuyu Sil",
-        "unlock": "Kilidi aç",
         "showClosed": "Gösteri kapandı",
-        "threadLocked": "Konu Kilitli",
         "numberOfPosts": "Gönderi Sayısı",
         "created": "Yaratıldı",
         "addTopic": "Konu Ekle",
@@ -673,9 +666,6 @@
         "news": "Haberler",
         "newsOfTheDay": "Günün haberleri",
         "addNews": "Yeni Mesaj"
-    },
-    "_properties": {
-        "ban_show": "Kullanıcının belirtilen pakette yasakları görüntülemesini sağlar"
     },
     "_requirement": {
         "requirementType": "Tür",
@@ -1002,7 +992,6 @@
     "_personalSettings": {
         "noEmailSpecified": "Henüz e-posta belirtilmedi",
         "emailNotifications": "E-posta Bildirimleri",
-        "title": "Kişisel Ayarlar",
         "enableEmailNotifications": "E-posta bildirimlerini etkinleştir"
     },
     "_team": {

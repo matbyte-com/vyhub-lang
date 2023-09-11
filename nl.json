@@ -51,7 +51,6 @@
             "linkNewAccount": "Verbind nieuw account",
             "activeProperties": "Actieve eigenschappen",
             "groupMemberships": "Groeps lidmaatschap",
-            "userLog": "Gebruikerslogboek",
             "registered_on": "Geregistreerd op",
             "last_online": "Laatst online",
             "membershipEndDescription": "Laat leeg voor onbeperkte duur",
@@ -140,7 +139,6 @@
         "languageNewDescriptionText": "Help ons vertalen naar jouw taal",
         "addServerTooltip": "Voeg eerst een serverbundel toe",
         "labels": {
-            "groupSettings": "Groeps instellingen",
             "addGroup": "Groep toevoegen",
             "editGroup": "Groep bewerken",
             "addBundle": "Serverbundel toevoegen",
@@ -156,9 +154,6 @@
         },
         "isTeam": "Is Team",
         "isTeamDescription": "Leden van de groep worden weergegeven op de teampagina"
-    },
-    "_properties": {
-        "ban_edit": "Stelt de gebruiker in staat om bans in de gespecificeerde bundel te bewerken"
     },
     "_shop": {
         "labels": {
@@ -215,7 +210,6 @@
             "paymentCancelled": "Deze betaling is geannuleerd. U kunt het opnieuw proberen door naar uw winkelwagen te gaan.",
             "paymentSuccess": "De betaling is succesvol afgerond. De gekochte pakketten zijn toegewezen aan uw account.",
             "paymentFailed": "Er is een fout opgetreden tijdens het betalingsproces. Probeer het proces opnieuw te starten.",
-            "purchaseCancelledSuccess": "De betaling is geannuleerd.",
             "couponApplySuccess": "Coupon is succesvol toegepast.",
             "couponRemoveSuccess": "Coupon succesvol verwijderd.",
             "couponNotApplied": "Coupon kan niet worden toegepast op een pakket in uw winkelwagen.",
@@ -666,7 +660,6 @@
         "by": "door",
         "banProtest": "Protest verbieden",
         "topicAdmins": "Onderwerpbeheerders: ",
-        "threadLocked": "Thread vergrendeld",
         "forum": "Forum",
         "manageTopicCategories": "Onderwerpcategorieën beheren",
         "addCategory": "Catogorie toevoegen",
@@ -945,7 +938,6 @@
     },
     "rewards": "Beloningen",
     "_faq": {
-        "formContent": "Inhoud",
         "html": "HTML is toegestaan in dit veld.",
         "editQuestionDialog": "Vraag bewerken",
         "add": "Vraag toevoegen",
@@ -990,7 +982,6 @@
         "begin_smaller_end": "De begindatum moet na de einddatum vallen"
     },
     "_personalSettings": {
-        "email": "Email",
         "emailNotifications": "Email meldingen",
         "enableEmailNotifications": "Schakel e-mailmeldingen in",
         "noEmailSpecified": "Er is nog geen e-mailadres opgegeven"

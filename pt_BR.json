@@ -11,11 +11,9 @@
     "_dashboard": {
         "labels": {
             "membershipEndDescription": "Deixar vazio por duração ilimitada",
-            "linkedAccounts": "Contas vinculadas",
             "linkNewAccount": "Vincular nova conta",
             "activeProperties": "Propriedades ativas",
             "groupMemberships": "Incrição ao grupo",
-            "userLog": "Registro de Usuário",
             "registered_on": "Registrado em",
             "last_online": "Online pela última vez",
             "removeAdminTitle": "Remover administrador?"
@@ -94,7 +92,6 @@
         "communityDescriptionDescr": "Esta descrição será mostrada nos resultados do teste do motor de busca",
         "labels": {
             "addBundle": "Adicionar Pacote de Servidor",
-            "groupSettings": "Configurações de Grupo",
             "addGroup": "Adicionar Grupo",
             "editGroup": "Editar Grupo",
             "editBundle": "Editar Pacote de Servidor",
@@ -126,9 +123,6 @@
         "languageNewDescriptionText": "Nos ajude a traduzir para o seu idioma",
         "addServerTooltip": "Adicionar o Pacote de Servidor primeiro",
         "showForum": "Ativar Fórum"
-    },
-    "_properties": {
-        "ban_edit": "Permite ao usuário editar banimentos no pacote especificado"
     },
     "_group": {
         "mappings": {
@@ -191,7 +185,6 @@
             "paymentProcessing": "O pagamento foi aprovado e será finalizado em breve. Por favor, aguarde alguns minutos nesta página enquanto o pagamento está sendo processado.",
             "paymentSuccess": "Este pagamento foi finalizado com sucesso. Os pacotes de compra foram atribuídos a sua conta.",
             "paymentFailed": "Um erro ocorreu durante o processo de pagamento. Por favor, tente reiniciar o processo.",
-            "purchaseCancelledSuccess": "A compra foi cancelada.",
             "couponApplySuccess": "Cupom aplicado com sucesso.",
             "couponRemoveSuccess": "Cupom removido com sucesso.",
             "couponNotApplied": "Este cupom não pôde ser aplicado em nenhum pacote no seu carrinho.",
@@ -577,9 +570,7 @@
         "editTopicCategory": "Editar Categoria do Tópico",
         "deleteCategory": "Excluir Categoria",
         "deleteTopic": "Excluir Tópico",
-        "unlock": "Destrancar",
         "locked": "Bloqueado",
-        "deleteThread": "Deletar Tópico",
         "rename": "Renomear",
         "admin": "Administrador do Fórum",
         "pin": "Fixar",
@@ -618,7 +609,6 @@
         },
         "addQuestionDialog": "Adicionar pergunta",
         "editQuestionDialog": "Editar pergunta",
-        "formContent": "Conteúdo",
         "add": "Adicionar pergunta",
         "html": "HTML é permitido neste campo."
     },
@@ -868,7 +858,6 @@
         }
     },
     "_personalSettings": {
-        "email": "E-mail",
         "emailNotifications": "Notificação do E-mail",
         "enableEmailNotifications": "Ativar notificações por e-mail",
         "noEmailSpecified": "Nenhum e-mail especificado ainda"

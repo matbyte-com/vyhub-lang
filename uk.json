@@ -80,7 +80,6 @@
             "last_online": "Останній раз онлайн",
             "membershipEndDescription": "Залишити порожнім на необмежений час",
             "linkNewAccount": "Прив'язати новий акаунт",
-            "bansAndWarnings": "Бани та попередження",
             "removeAdminTitle": "Видалити адміна?",
             "registered_on": "Зареєстровано на",
             "activeProperties": "Активні опції"
@@ -235,9 +234,6 @@
             "disabled": "Прострочено",
             "open": "Відкрити"
         }
-    },
-    "_properties": {
-        "ban_show": "Дозволяє користувачеві відображати бани у заданому пакеті"
     },
     "_errors": {
         "unauthorized": "Ви повинні увійти в систему, щоб зробити це.",
@@ -729,7 +725,6 @@
     "_personalSettings": {
         "emailNotifications": "Сповіщення по електронній пошті",
         "noEmailSpecified": "Ще не вказано жодної адреси електронної пошти",
-        "email": "Email",
         "enableEmailNotifications": "Увімкнути сповіщення електронною поштою"
     },
     "_import": {
@@ -769,7 +764,6 @@
         "topicAdminUser": "Адміністратори тем",
         "deleteCategory": "Видалити категорію",
         "deleteTopic": "Видалити тему",
-        "unlock": "Розблокувати",
         "deleteThread": "Видалити гілку",
         "topicAdmins": "Адміни тем: ",
         "pin": "Закріпити",
@@ -788,13 +782,11 @@
         "numberOfPosts": "Кількість постів: ",
         "threads": "Гілки",
         "by": "при",
-        "threadLocked": "Гілку заблоковано",
         "tickets": "Запити",
         "creator": "Автор",
         "content": "Вміст",
         "created": "Створено",
         "last_post": "Останній пост",
-        "noTickets": "Ви ще не створили жодного запиту.",
         "addPost": "Додати пост",
         "readMore": "Читати далі",
         "open": "Відкрити",
@@ -829,7 +821,6 @@
         },
         "addQuestionDialog": "Додати питання",
         "editQuestionDialog": "Редагувати питання",
-        "formContent": "Вміст",
         "html": "У цьому полі дозволено використовувати HTML."
     },
     "_team": {

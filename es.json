@@ -2,8 +2,7 @@
     "_header": {
         "labels": {
             "login": "Acceso",
-            "logout": "Desconectarse",
-            "register": "Registro"
+            "logout": "Desconectarse"
         }
     },
     "_membership": {
@@ -18,7 +17,6 @@
         "labels": {
             "linkNewAccount": "vincular nueva cuenta",
             "activeProperties": "Propiedades activas",
-            "userLog": "Registro de usuario",
             "registered_on": "Registrado en:",
             "groupMemberships": "Membresías de grupo",
             "membershipEndDescription": "Dejar vacío por duración ilimitada",
@@ -92,7 +90,6 @@
         "showTicket": "Habilitar sistema de tickets",
         "language": "Idioma",
         "labels": {
-            "groupSettings": "Ajustes de grupo",
             "addGroup": "Añadir grupo",
             "editGroup": "Editar grupo",
             "addBundle": "Agregar paquete de servidor",
@@ -111,9 +108,6 @@
             "name": "Nombre del grupo/rango/rol en el servidor"
         },
         "isTeamDescription": "Los miembros del grupo se mostrarán en la página del equipo"
-    },
-    "_properties": {
-        "ban_edit": "Permite al usuario editar prohibiciones en un paquete específico"
     },
     "_user": {
         "type": {
