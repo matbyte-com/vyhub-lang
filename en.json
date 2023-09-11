@@ -82,6 +82,7 @@
     "_theme": {
         "headerColor": "Header Color",
         "lightHeaderColor": "Light Header Color",
+        "headerContainer": "Header Container",
         "footerColor": "Footer Color",
         "primaryColor": "Primary Color",
         "secondaryColor": "Secondary Color",
