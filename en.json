@@ -544,6 +544,8 @@
         "_form": {
             "height": "Height",
             "limit": "Limit",
+            "marginTop": "Margin Top",
+            "inviteLink": "Invite Link",
             "headline": "Headline",
             "discordWidget": "Discord Widget",
             "inverted": "Inverted",
