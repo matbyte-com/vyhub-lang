@@ -35,9 +35,9 @@
         "primaryColor": "Primär-Farbe",
         "logoDescription": "Lade die Seite neu, wenn das Logo nicht korrekt dargestellt wird",
         "logoWidth": "Breite des Logos",
-        "successColor": "Erfolg-Farbe",
-        "errorColor": "Fehler-Farbe",
-        "warningColor": "Warnung-Farbe",
+        "successColor": "Erfolgsfarbe",
+        "errorColor": "Farbe von Fehlermeldungen",
+        "warningColor": "Farbe von Warnungen",
         "backgroundColor": "Hintergrundfarbe",
         "backgroundColorDescription": "Farbe wird vom Hintergrundbild überschrieben",
         "darkmode": "Dunkler Modus",
@@ -45,9 +45,13 @@
         "backgroundImageURL": "URL zum Hintergrundbild",
         "logoURL": "URL zum Logo",
         "faviconURL": "URL zum Favicon",
-        "headerColor": "Farbe der Kopf- und Fußzeile",
+        "headerColor": "Farbe der Kopfzeile",
         "secondaryColor": "Sekundäre Farbe",
-        "customCss": "Eigenes CSS"
+        "customCss": "Eigenes CSS",
+        "headerContainer": "Kopfzeile Container",
+        "footerColor": "Fußzeilenfarbe",
+        "lightHeaderColor": "Leichte Kopfzeilenfarbe",
+        "enable_landingpage": "Landingpage aktiviert"
     },
     "_ban": {
         "labels": {
@@ -124,7 +128,17 @@
             "topDonatorDisplayTitle": "Top-Spender Widget Titel",
             "donationGoalDisplayTitle": "Anzeigetitel des Spendenziels",
             "discountCode": "Rabattcode",
-            "recommended": "Für dich empfohlen"
+            "recommended": "Für dich empfohlen",
+            "creditsDisplayTitle": "Credits Anzeigenamen",
+            "creditsDisplayTitleDescription": "Benenne Zahlungsgutschriften nach Belieben um (Gulden, Diamanten, Münzen...)",
+            "addToCart17CharsMax": "In den Warenkorb",
+            "redirectDescription": "Du wirst zum Zahlungsanbieter weitergeleitet.",
+            "payNow": "Jetzt bezahlen",
+            "pleaseWait": "Bitte warten",
+            "productDescription": "Produktbeschreibung",
+            "widgetDescription": "Widget-Komponente, die auf der gesamten Website angezeigt wird (News, Shop, Home)",
+            "lastDonatorsDisplayTitle": "Anzeigename der letzten Spenden",
+            "enableLastDonators": "Letzte Spenden aktivieren"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -133,7 +147,7 @@
             "addToCartError": "Beim Hinzufügen des Pakets zu deinem Warenkorb ist ein Fehler aufgetreten.",
             "cartEmpty": "Dein Warenkorb ist leer.",
             "mustAgree": "Du musst zustimmen, um fortzufahren!",
-            "selectGateway": "Bitte wähle deine Zahlungsmethode.",
+            "selectGateway": "Wähle eine Zahlungsmethode",
             "noAddressSpecified": "Adresse noch nicht angegeben.",
             "couponApplySuccess": "Der Coupon wurde erfolgreich angewendet.",
             "couponRemoveSuccess": "Coupon erfolgreich entfernt.",
@@ -149,7 +163,8 @@
             "cancelPurchaseConfirmation": "Angefangene Zahlungen werden abgebrochen. Alle eingegebenen Gutscheine gehen verloren. Die Stornierung eines Kaufs kann nicht rückgängig gemacht werden.",
             "paymentPending": "Diese Zahlung steht noch aus. Bitte vervollständige sie im Warenkorb.",
             "paymentFailed": "Während des Zahlungsvorgangs ist ein Fehler aufgetreten. Bitte versuche, die Zahlung neu zu starten.",
-            "targetUserChanged": "Der Zielbenutzer wurde geändert"
+            "targetUserChanged": "Der Zielbenutzer wurde geändert",
+            "priceMustBeHigherThanMin": "Der Preis muss höher sein als der Mindestpreis."
         },
         "purchaseStatus": {
             "open": "Offen",
@@ -160,7 +175,8 @@
             "enabled": "Aktiv",
             "disabled": "Abgelaufen",
             "recurring": "Wiederkehrend"
-        }
+        },
+        "shopTitle": "Willkommen im Shop"
     },
     "_errors": {
         "country_not_allowed": "Käufe aus deinem Land sind nicht erlaubt.",
@@ -200,7 +216,7 @@
         "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder",
         "_location": {
             "header": "Kopfzeile",
-            "footer": "Fusszeile",
+            "footer": "Fußzeile",
             "help": "Hilfe"
         },
         "sublink": "Sublink",
@@ -211,7 +227,7 @@
         "navUpdate": "Navigationsreihenfolge aktualisieren",
         "navReset": "Navigationsreihenfolge zurücksetzen",
         "reqProp": "Erforderliche Eigenschaft",
-        "location": "Standort",
+        "location": "Position",
         "cmsPage": "HTML Seite",
         "addCmsPage": "Seite hinzufügen",
         "editCmsPage": "Seite bearbeiten",
@@ -323,7 +339,8 @@
             "details": "Serverdetails",
             "setup": "Server Aufsetzen",
             "queryPortDescription": "SSH Query Port des TS3-Servers. Der Standardport ist 10022.",
-            "sshQueryPort": "SSH Query Port"
+            "sshQueryPort": "SSH Query Port",
+            "offline": "Offline"
         },
         "type": {
             "GMOD": "Garry's Mod",
@@ -382,6 +399,9 @@
             "add": "Adresse hinzufügen",
             "change": "Adresse bearbeiten",
             "vat_number": "Umsatzsteuer-Identifikationsnummer hinzufügen"
+        },
+        "messages": {
+            "noAddressesYet": "Du hast noch keine Adressen."
         }
     },
     "_packet": {
@@ -417,10 +437,10 @@
             "abstractDetail": "Kurze Stichpunkte, die die Hauptmerkmale des Pakets beschreiben.",
             "abstract": "Abstrakt",
             "packetRelations": "Paketbeziehungen",
-            "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv sein soll. Lass dieses Feld für Pakete frei, die nach einiger Zeit nicht deaktiviert werden sollen. Wenn die wiederkehrende Option aktiviert ist, wird dieser Wert als Abonnementintervall verwendet.",
+            "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv bleiben soll. Lass dieses Feld frei bei Paketen, welche nicht nach einem bestimmten Zeitintervall deaktiviert werden sollen. Wenn die wiederkehrende Option aktiviert ist, wird dieser Wert als Abonnementintervall verwendet.",
             "titleInImage": "Über dem Bild angezeigter Titel (optional)",
             "recommendable": "Empfehlbar",
-            "recommendableDescription": "Das Paket kann Benutzern in den für Sie empfohlenen Abschnitten empfohlen werden."
+            "recommendableDescription": "Das Paket kann Benutzern in den \"Empfehlungen\" / \"Für dich Empfohlen\" Abschnitten angezeigt werden."
         },
         "messages": {
             "sortOnlyWithCategory": "Pakete können nur sortiert werden, wenn eine Kategorie ausgewählt ist.",
@@ -442,7 +462,8 @@
         "messageSubject": "Thema",
         "editNews": "Nachricht bearbeiten",
         "newsOfTheDay": "Neuigkeiten des Tages",
-        "news": "Nachrichten"
+        "news": "Nachrichten",
+        "invertTitleColor": "Titelfarbe invertieren"
     },
     "_reward": {
         "labels": {
@@ -579,7 +600,8 @@
         "showFirstSteps": "Aktiviere die Einführung (Erste Schritte)",
         "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)",
         "requirementSetTest": "Teste die Regeln für einen Nutzer",
-        "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics"
+        "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics",
+        "advancedSettings": "Erweiterte Einstellungen"
     },
     "_user": {
         "type": {
@@ -610,7 +632,7 @@
         },
         "labels": {
             "newUsers": "Neue Nutzer",
-            "authRequestDescription": "Führe den folgenden Befehl auf einem {type}-Server aus, um sich anzumelden:"
+            "authRequestDescription": "Führe den folgenden Befehl auf einem {type}-Server aus, um dich anzumelden:"
         },
         "userLinkDescription": "Das Verknüpfen der Nutzer geschieht auf magische Art und Weise. Aber pass auf, dieser Zauber kann nicht rückgängig gemacht werden!"
     },
@@ -694,7 +716,8 @@
         "shopAdministration": "Shop - Verwaltung",
         "legal": "Rechtliches",
         "warnings": "Verwarnungen",
-        "forum": "Forum"
+        "forum": "Forum",
+        "news": "Neuigkeiten"
     },
     "_api": {
         "labels": {
@@ -961,7 +984,7 @@
     "user": "Nutzer",
     "link_account": "Account verknüpfen",
     "icon": "Icon",
-    "command": "Kommando",
+    "command": "Befehl",
     "script": "Script",
     "report": "Bericht",
     "apiKeys": "API Keys",
@@ -1038,7 +1061,7 @@
         "latestThreads": "Neueste Themen",
         "threads": "Themen",
         "by": "von",
-        "editPost": "Beiträge bearbeiten zulassen",
+        "editPost": "Beiträge bearbeiten",
         "posts": "Beiträge",
         "addTopicCategory": "Themenkategorie hinzufügen",
         "edited": "Bearbeitet",
@@ -1057,7 +1080,16 @@
         "created": "Erstellt",
         "last_post": "Letzter Post",
         "prohibitCreateThreads": "Thread-Erstellung verhindern",
-        "prohibitCreateThreadsDescription": "Verhinder, dass Benutzer neue Threads erstellen. Dies betrifft nicht Benutzer mit der Berechtigung „Forum verwalten“ oder Themenadministratoren."
+        "prohibitCreateThreadsDescription": "Verhinder, dass Benutzer neue Threads erstellen. Dies betrifft nicht Benutzer mit der Berechtigung „Forum verwalten“ oder Themenadministratoren.",
+        "welcomeToForum": "Willkommen im Forum",
+        "allowEditPost": "Bearbeitung von Beiträgen erlauben",
+        "allowEditPostDescription": "Benutzern erlauben, ihre eigenen Beiträge zu bearbeiten.",
+        "labelTitle": "Titel des Labels",
+        "editThread": "Thread bearbeiten",
+        "messages": {
+            "tooManyLabels": "Du kannst maximal 4 Labels hinzufügen."
+        },
+        "reactions": "Reaktionen"
     },
     "_invoice": {
         "invoiceDate": "Rechnungsdatum",
@@ -1125,7 +1157,41 @@
         "updateOrderSuccess": "Reihenfolge erfolgreich aktualisiert.",
         "toggleSuccess": "Erfolgreich umgeschaltet.",
         "createSuccess": "Erfolgreich erstellt.",
-        "deleteSuccess": "Erfolgreich gelöscht."
+        "deleteSuccess": "Erfolgreich gelöscht.",
+        "copyClipboard": "In die Zwischenablage kopiert."
     },
-    "method": "Methode"
+    "method": "Methode",
+    "_component": {
+        "_form": {
+            "fixed": "Fixiert - Element beim scrollen fixiert",
+            "dense": "Schmal",
+            "app": "Oben auf Seite anzeigen",
+            "inviteLink": "Einladungslink",
+            "marginTop": "Oberer Abstand",
+            "height": "Höhe",
+            "discordWidget": "Discord Widget",
+            "limit": "Limit",
+            "headline": "Überschrift",
+            "inverted": "Invertiert",
+            "maxColumnHeight": "Maximale Spaltenhöhe",
+            "btnText": "Knopf Text",
+            "question": "Frage",
+            "answer": "Antwort"
+        },
+        "currentPlayers": "Momentane Spieler",
+        "specifyServers": "Gib in den Einstellungen bis zu zwei Server an",
+        "components": "Elemente",
+        "addComponent": "Element hinzufügen",
+        "whiteText": "Weißer Text",
+        "onlinePlayers": "Spieler Online",
+        "activePlayers": "Aktive Spieler",
+        "registeredPlayers": "Registrierte Spieler",
+        "hoursPlayed": "Gespielte Stunden"
+    },
+    "view": "Ansicht",
+    "viewMore": "Mehr anzeigen",
+    "wrapper": "Wrapper",
+    "link": "Link",
+    "admin": "Admin",
+    "content": "Inhalt"
 }
