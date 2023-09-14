@@ -273,6 +273,11 @@
         }
     },
     "_user": {
+        "messages": {
+            "linkAccountConfirm": "Are you sure that you want to link these two user accounts?",
+            "couldNotLinkUsers": "Could not link user accounts.",
+            "linkedAccounts": "Successfully linked user accounts."
+        },
         "userLinkDescription": "Linking a user will perform some magic to combine your accounts. Beware, this magic can not be undone!",
         "labels": {
             "newUsers": "New Users",
