@@ -394,13 +394,13 @@
             "limitedPayments": "Limited Payments",
             "abstractDetail": "Short bullet points that describe the key features of the packet.",
             "recurring": "Recurring",
-            "recurringDetail": "An subscription is created, with the interval given in the 'Active for' field.",
+            "recurringDetail": "A subscription is created, with the interval given in the 'Active for' field.",
             "buyableActive": "Buyable if the user has this packet in an active state.",
             "buyableInactive": "Buyable if the user has this packet in an inactive state.",
             "activeFor": "Active for",
             "activeSince": "Active since",
             "activeUntil": "Active until",
-            "activeForDetail": "How long the packet should be active after activation. Let this field empty for packets that should not be disabled after time. If the recurring option is enabled, this value is used as the subscription interval.",
+            "activeForDetail": "Duration of the packet following activation. Leave this field empty for packets that should not be disabled over time. If the recurring option is enabled, this value is used as the subscription interval.",
             "limitPaymentMethods": "Limit payment methods",
             "limitPaymentMethodsDetail": "If payment methods are selected, only these can be used. If not, all methods can be used.",
             "customPriceDetail": "Let the user decide the price. The entered price above is used as the minimal price.",
@@ -410,11 +410,11 @@
             "relationRequires": "Requires the selected packet for a purchase",
             "relationNotCompatible": "Not compatible with the selected packet.",
             "relationUpgrades": "Can be used to upgrade the selected packet.",
-            "imageDetail": "An HTTPS URL to the packet image.",
+            "imageDetail": "A HTTPS URL to the packet image.",
             "deleteAppliedPacket": "Delete applied packet",
             "end": "End",
             "recommendable": "Recommendable",
-            "recommendableDescription": "The packet may be recommended to users in the recommended for you sections."
+            "recommendableDescription": "The packet may be recommended to users in the \"Recommendations\"/ \"Recommended for you\" sections."
         },
         "messages": {
             "sortOnlyWithCategory": "Packets can only be sorted if a category is selected.",
@@ -542,7 +542,7 @@
         "currentPlayers": "Current Players",
         "whiteText": "White Text",
         "specifyServers": "Specify up to two servers in the settings",
-        "onlinePlayers": "Online Players",
+        "onlinePlayers": "Players Online",
         "activePlayers": "Active Players",
         "registeredPlayers": "Registered Players",
         "hoursPlayed": "Hours Played",
@@ -558,7 +558,7 @@
             "question": "Question",
             "answer": "Answer",
             "maxColumnHeight": "Max Column Height",
-            "app":  "App - Display on top of page",
+            "app": "App - Display on top of page",
             "fixed": "Fixed - Fix component while scrolling",
             "dense": "Dense"
         }
