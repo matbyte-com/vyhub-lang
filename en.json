@@ -1198,5 +1198,8 @@
     "documentation": "Documentation",
     "unknown": "Unknown",
     "wrapper": "Wrapper",
-    "method": "Method"
+    "method": "Method",
+    "everyMonth": "Every month",
+    "everyDay": "Every day",
+    "everyYear": "Every year"
 }
