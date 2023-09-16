@@ -437,7 +437,7 @@
             "abstractDetail": "Kurze Stichpunkte, die die Hauptmerkmale des Pakets beschreiben.",
             "abstract": "Abstrakt",
             "packetRelations": "Paketbeziehungen",
-            "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv bleiben soll. Lass dieses Feld frei bei Paketen, welche nicht nach einem bestimmten Zeitintervall deaktiviert werden sollen. Wenn die wiederkehrende Option aktiviert ist, wird dieser Wert als Abonnementintervall verwendet.",
+            "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv bleiben soll. Lass dieses Feld frei, damit das Paket nicht deaktiviert wird. Wenn das Paket als Abo markiert ist, wird dieser Wert als Intervall verwendet.",
             "titleInImage": "Über dem Bild angezeigter Titel (optional)",
             "recommendable": "Empfehlbar",
             "recommendableDescription": "Das Paket kann Benutzern in den \"Empfehlungen\" / \"Für dich Empfohlen\" Abschnitten angezeigt werden."
