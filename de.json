@@ -634,7 +634,12 @@
             "newUsers": "Neue Nutzer",
             "authRequestDescription": "Führe den folgenden Befehl auf einem {type}-Server aus, um dich anzumelden:"
         },
-        "userLinkDescription": "Das Verknüpfen der Nutzer geschieht auf magische Art und Weise. Aber pass auf, dieser Zauber kann nicht rückgängig gemacht werden!"
+        "userLinkDescription": "Das Verknüpfen der Nutzer geschieht auf magische Art und Weise. Aber pass auf, dieser Zauber kann nicht rückgängig gemacht werden!",
+        "messages": {
+            "linkAccountConfirm": "Bist du dir sicher, dass du diese beiden Accounts verbinden möchtest?",
+            "couldNotLinkUsers": "Die Accounts konnten nicht verbunden werden.",
+            "linkedAccounts": "Die Accounts wurden erfolgreich verbunden."
+        }
     },
     "_log": {
         "labels": {
@@ -1193,5 +1198,8 @@
     "wrapper": "Wrapper",
     "link": "Link",
     "admin": "Admin",
-    "content": "Inhalt"
+    "content": "Inhalt",
+    "everyDay": "Jeden Tag",
+    "everyYear": "Jedes Jahr",
+    "everyMonth": "Jeden Monat"
 }
