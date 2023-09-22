@@ -944,5 +944,8 @@
     "statistics": "Statistics",
     "andMuchMore": "And much more...",
     "paymentProcessing": "Payment Processing",
-    "logout": "Logout"
+    "logout": "Logout",
+    "everyMonth": "Every month",
+    "everyDay": "Every day",
+    "everyYear": "Every year"
 }
