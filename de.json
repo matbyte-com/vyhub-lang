@@ -12,7 +12,7 @@
         "cmd_help": "<red>Ungültiger Spieler!</red> Verwendung: <green>!warn <nick> <reason></green>",
         "create_error": "Fehler beim hinzufügen einer Verwarnung für <green>%s</green>: <red>%s</red>",
         "deleted": "Verwarnung gelöscht.",
-        "received": "Du wurden von <green>%s</green> verwarnt: <red>%s</red>",
+        "received": "Du wurdest von <green>%s</green> verwarnt: <red>%s</red>",
         "toggled_self": "Der Status einer deiner Verwarnungen wurde geändert. Du kannst deiner Verwarnungen unter !dashboard sehen.",
         "user_warned": "<red>%s</red> wurde von <green>%s</green> verwarnt. Grund: <green>%s</green>",
         "deleted_self": "Eine deiner Verwarnungen wurde gelöscht. Du kannst deiner Verwarnungen unter !dashboard sehen."
