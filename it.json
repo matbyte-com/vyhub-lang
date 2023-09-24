@@ -78,5 +78,352 @@
             "loginSuccess": "Accesso riuscito.",
             "loginError": "Errore durante l'accesso."
         }
+    },
+    "_errors": {
+        "too_many_ban_protests": "Ci sono già 3 appelli per questo ban.",
+        "coupon": {
+            "not_found": "Questo codice non è valido."
+        },
+        "ban_protest_open": "Esiste già un'appello aperto per questo ban."
+    },
+    "_user": {
+        "userLinkDescription": "Collegando un utente si compie una magia per combinare i vostri account. Attenzione però, questa magia non può essere annullata!",
+        "labels": {
+            "newUsers": "Nuovo utente",
+            "authRequestDescription": "Eseguire il seguente comando su un server {type} per effettuare il login:"
+        },
+        "type": {
+            "CENTRAL": {
+                "name": "VyHub Central",
+                "info": "La piattaforma per gestire e monetizzare i server di gioco."
+            },
+            "STEAM": {
+                "name": "Steam",
+                "info": "La famosa piattaforma di gioco."
+            },
+            "MINECRAFT": {
+                "name": "Minecraft",
+                "info": "Costruite il vostro mondo."
+            },
+            "TEAMSPEAK3": {
+                "name": "",
+                "info": "Il tuo team. Le tue regole."
+            },
+            "FIVEM": {
+                "name": "",
+                "info": "GTA 5 Multigiocatore."
+            },
+            "DISCORD": {
+                "name": "Discord",
+                "info": "Il vostro posto per parlare e frequentarvi."
+            }
+        },
+        "messages": {
+            "linkAccountConfirm": "Sei sicuro di voler collegare questi due account utente?",
+            "couldNotLinkUsers": "Impossibile collegare gli account utente.",
+            "linkedAccounts": "Account utenti collegati con successo."
+        }
+    },
+    "_legal": {
+        "showLegalReminder": "Imposta le informazioni legali nelle impostazioni!",
+        "descriptionText": "Nella maggior parte dei Paesi è obbligatorio avere almeno i dati di contatto degli operatori del sito web, le condizioni d'uso e un'informativa sulla privacy. Puoi trovare un esempio di informativa sulla privacy nei documenti."
+    },
+    "_navigation": {
+        "messages": {
+            "invalidFileType": "Tipo di file non valido."
+        },
+        "_location": {
+            "header": "Intestazione",
+            "footer": "Piè di pagina",
+            "help": "Aiuto"
+        },
+        "linkTitle": "Titolo",
+        "sublink": "Collegamento secondario",
+        "enabled": "Abilitato",
+        "htmlContent": "Contenuto HTML",
+        "link": "Link",
+        "html": "Html",
+        "title": "Navigazione",
+        "parentNavigationLink": "Link di Navigazione Parentale",
+        "editNavLink": "Modifica il Link di Navigazione",
+        "navUpdate": "Aggiorna l'ordine di navigazione",
+        "navReset": "Resetta l'ordine di navigazione",
+        "location": "Posizione",
+        "cmsPage": "Pagina HTML",
+        "addCmsPage": "Aggiungi Pagina",
+        "editCmsPage": "Modifica Pagina",
+        "deleteDefaultLink": "Non è possibile eliminare il link di default",
+        "bothHtmlInputsUsed": "Non utilizzare entrambi gli input HTML",
+        "uploadFile": "Caricare il file",
+        "reqProp": "Proprietà richiesta",
+        "editor": "Editor",
+        "deleteCmsPage": "Elimina Pagina",
+        "contentSanitizationWarning": "",
+        "cmsPageTitle": "Pagine HTML",
+        "addNavLink": "Aggiungi Link di Navigazione"
+    },
+    "_log": {
+        "messages": {
+            "limitReached": "Il limite dei logs è stato raggiunto. Alcuni logs più vecchi potrebbero non essere visualizzati.",
+            "limitReachedFilter": "Il limite dei logs è stato raggiunto. Alcuni logs più vecchi potrebbero non essere visualizzati. Utilizzare un intervallo di tempo inferiore o un filtro più specifico."
+        },
+        "labels": {
+            "level": "Livello"
+        }
+    },
+    "_forms": {
+        "labels": {
+            "iconDescription": "Icone disponibili"
+        }
+    },
+    "_address": {
+        "labels": {
+            "change": "Cambia Indirizzo",
+            "add": "Aggiungi Indirizzo",
+            "streetAndNumber": "Via e Numero",
+            "addition": "Aggiunta",
+            "city": "Città",
+            "vat_number": "Numero partita IVA",
+            "selectAddress": "Seleziona l'indirizzo",
+            "zip_code": "Codice postale",
+            "state": "Stato"
+        },
+        "messages": {
+            "noAddressesYet": "Non ci sono ancora indirizzi."
+        }
+    },
+    "_packet": {
+        "labels": {
+            "add": "Aggiungi Pacchetto",
+            "customPrice": "Prezzo Personalizzato",
+            "buyableDetail": "Può essere acquistato nel negozio",
+            "notBuyable": "Non Acquistabile",
+            "titleInImage": "Titolo visualizzato sopra l'immagine (opzionale)",
+            "currency": "Valuta",
+            "limitedPayments": "Pagamenti Limitati",
+            "recurring": "Ricorrente",
+            "buyableActive": "Acquistabile se l'utente ha questo pacchetto in uno stato attivo.",
+            "activeFor": "Attivo per",
+            "activeSince": "Attivo da",
+            "activeUntil": "Attivo fino a quando",
+            "limitPaymentMethods": "Limite dei metodi di pagamento",
+            "limitPaymentMethodsDetail": "Se sono stati selezionati i metodi di pagamento, è possibile utilizzare solo questi. In caso contrario, possono essere utilizzati tutti i metodi.",
+            "packetRelations": "Relazioni tra i pacchetti",
+            "details": "Dettagli dei pacchetti",
+            "relationDisables": "Disabilita il pacchetto selezionato all'acquisto",
+            "relationRequires": "Richiede il pacchetto selezionato per l'acquisto",
+            "imageDetail": "Un URL HTTPS all'immagine del pacchetto.",
+            "deleteAppliedPacket": "Cancellare il pacchetto applicato",
+            "end": "Fine",
+            "recommendable": "Raccomandabile",
+            "buyable": "Acquistabile",
+            "edit": "Modifica Pacchetto",
+            "enabledDetail": "Se disabilitato, il pacchetto non può essere acquistato e tutti i pacchetti assegnati diventano inattivi.",
+            "abstractDetail": "Punti elenco brevi che descrivono le caratteristiche principali del pacchetto.",
+            "buyableInactive": "Acquistabile se l'utente ha questo pacchetto in uno stato inattivo.",
+            "activeForDetail": "Durata del pacchetto dopo l'attivazione. Lascia questo campo vuoto per i pacchetti che non devono essere disattivati nel tempo. Se l'opzione ricorrente è attiva, questo valore viene utilizzato come intervallo di sottoscrizione.",
+            "customPriceDetail": "Lascia che sia l'utente a decidere il prezzo. Il prezzo inserito sopra viene utilizzato come prezzo minimo.",
+            "recurringDetail": "Viene creato un abbonamento con l'intervallo indicato nel campo \"Attivo per\".",
+            "relationNotCompatible": "Non compatibile con il pacchetto selezionato.",
+            "relationUpgrades": "Può essere utilizzato per aggiornare il pacchetto selezionato.",
+            "recommendableDescription": "Il pacchetto può essere consigliato agli utenti nelle sezioni \"Raccomandazioni\" / \"Consigliato per te\"."
+        },
+        "messages": {
+            "sortOnlyWithCategory": "I pacchetti possono essere ordinati solo se è selezionata una categoria.",
+            "customPricePossible": "Il prezzo di questo pacchetto può essere personalizzato.",
+            "deleteWarning": "Attenzione! L'eliminazione di un pacchetto cancella anche tutti i pacchetti applicati, i premi applicati e gli articoli acquistati. Forse è meglio disabilitare il pacchetto?"
+        },
+        "status": {
+            "ENABLED": "Abilitato",
+            "DISABLED": "Disabilitato"
+        }
+    },
+    "_packetCategory": {
+        "labels": {
+            "edit": "Modifica la Categoria del Pacchetto",
+            "create": "Crea la Categoria di Pacchetto",
+            "imageDetail": "Un URL HTTPS all'immagine della categoria.",
+            "delete": "Elimina la Categoria del Pacchetto"
+        }
+    },
+    "_reward": {
+        "labels": {
+            "create": "Crea Ricompensa",
+            "once": "Eseguito solo una volta (per pacchetto)",
+            "onEvent": "Esegui su evento",
+            "edit": "Modifica Ricompensa",
+            "onceFromAll": "Esegui solo su un server",
+            "addAppliedReward": "Aggiungere il premio applicato",
+            "syncAppliedRewards": "Premi per la sincronizzazione",
+            "packetSyncLimitDescription": "I premi vengono aggiunti a tutti i pacchetti con date di inizio comprese nell'intervallo indicato. Inizio e fine sono opsionali.",
+            "headerKey": "Chiave di intestazione",
+            "headerValue": "Valore dell'intestazione",
+            "maxRetries": "Numero di tentativi",
+            "_events": {
+                "direct": "Esegui direttamente",
+                "disconnect": "Esegui su disconnessione",
+                "spawn": "Esegui allo spawn",
+                "disable": "Esegui quando il pacchetto applicato diventa inattivo",
+                "connect": "Esegui sulla connessione",
+                "death": "Esegui alla morte"
+            },
+            "_types": {
+                "script": "Esegui uno script sul/i server",
+                "credits": "Aggiungi {crediti_visualizzazione_titolo} all'account dell'acquirente",
+                "membership": "Aggiungi ruolo",
+                "http": "Inviare una richiesta HTTP",
+                "command": "Esegui un comando sul/i server"
+            },
+            "checkForReplacements": "Controlla la documentazione per i tipi di ricompensa e le sostituzioni di stringhe disponibili",
+            "reactivateOnExtend": "Eseguire di nuovo se il pacchetto è stato esteso (al pagamento dell'abbonamento)",
+            "amountOfAppliedRewardsToPatch": "Quantità delle ricompense applicate alla patch: {quantità}",
+            "headers": "Intestazioni"
+        },
+        "status": {
+            "FAILED": "Fallito",
+            "OPEN": "Apri",
+            "EXECUTED": "Eseguito"
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "allPurchases": "Tutti gli Acquisti",
+            "appliedPackets": "Pacchetti applicati",
+            "revoke": "Revoca",
+            "revoked": "Revocato",
+            "unrevoke": "Non revocare",
+            "refund": "Rimborso",
+            "refunded": "Rimborsato",
+            "amountNet": "Importo netto",
+            "amountTotal": "Importo totale",
+            "salesCount": "Conteggio delle vendite",
+            "totalRevenue": "Entrate totali",
+            "monthlyRevenue": "Ricavi mensili",
+            "creditsSpent": "Crediti spesi",
+            "revenueByCountry": "Ricavi per Paese",
+            "editAppliedPacket": "Modifica del pacchetto applicato",
+            "cancelSubscription": "Cancella abbonamento",
+            "addAppliedPacket": "Aggiungi pacchetto applicato",
+            "confirmPurchases": "Confermare gli acquisti",
+            "activeSubscriptions": "Sottotitoli attivi",
+            "averagePurchaseAmount": "Acquisto medio",
+            "range": "Raggio",
+            "allTime": "Per tutto il tempo",
+            "thisYear": "Quest'anno",
+            "thisMonth": "Questo mese",
+            "confirmDebitText": "Conferma l'acquisto? Non potrà essere annullato.",
+            "showApprovedDebits": "Mostra gli addebiti approvati",
+            "paymentGateway": "Gateway di pagamento",
+            "addAppliedReward": "Aggiungere la ricompensa applicata",
+            "reward": "Ricompensa",
+            "revenueByCategory": "Ricavi per Categoria",
+            "notAffectedByRangeSelector": "Statistica non influenzata dal raggio di selezione",
+            "decline": "Declina",
+            "confirm": "Conferma",
+            "declineDebitText": "Annullare l'acquisto? Non potrà essere annullato.",
+            "details": "Dettagli dell'acquisto"
+        },
+        "messages": {
+            "revokeSuccess": "Acquisto revocato con successo.",
+            "refreshSuccess": "I dati di pagamento sono stati aggiornati con successo.",
+            "unrevokeSuccess": "Acquisto non revocato con successo.",
+            "deleteConfirm": "Sei sicuro di voler cancellare questo acquisto? Questa azione non può essere annullata. I pacchetti applicati correlati non verranno eliminati.",
+            "cancelSubscriptionConfirm": "Sei sicuro di voler cancellare questo abbonamento?",
+            "declinePurchaseSuccess": "Acquisto cancellato con successo",
+            "refundInitSuccess": "Rimborso avviato con successo.",
+            "refundConfirm": "Sei sicuro di voler rimborsare questo acquisto?",
+            "confirmPurchaseSuccess": "Acquisto approvato con successo"
+        }
+    },
+    "_home": {
+        "newsOfTheDay": "Notizie del Giorno",
+        "news": "Notizie",
+        "addNews": "Nuovo Messaggio",
+        "invertTitleColor": "Inverti il Colore del Titolo",
+        "messageSubject": "Oggetto",
+        "editNews": "Modifica messaggio",
+        "messages": {
+            "messageEmpty": "Inserisci un messaggio"
+        }
+    },
+    "_component": {
+        "addComponent": "Aggiungi componente",
+        "components": "Componenti",
+        "whiteText": "Testo bianco",
+        "specifyServers": "Specificare fino a due server nelle impostazioni",
+        "onlinePlayers": "Giocatori Online",
+        "activePlayers": "Giocatori Attivi",
+        "registeredPlayers": "Giocatori Registrati",
+        "hoursPlayed": "Ore Giocate",
+        "_form": {
+            "height": "Altezza",
+            "limit": "Limite",
+            "marginTop": "Margine superiore",
+            "headline": "Titolo",
+            "discordWidget": "Widget di Discord",
+            "inverted": "Invertito",
+            "btnText": "Testo del pulsante",
+            "answer": "Risposta",
+            "maxColumnHeight": "Altezza Massima della Colonna",
+            "fixed": "Corretto - Fissa il componente durante lo scorrimento",
+            "container": "Contenitore",
+            "dense": "Denso",
+            "inviteLink": "Link per l'invito",
+            "question": "Domanda",
+            "app": "App - Visualizzazione in cima alla pagina"
+        },
+        "currentPlayers": "Giocatori attuali"
+    },
+    "_requirement": {
+        "addRequirement": "Requisiti",
+        "requirementType": "Tipo",
+        "requirementOperator": "Operatore",
+        "permissionLevel": "Livello di Permesso",
+        "propertyName": "Nome della proprietà",
+        "attributeValue": "Valore dell'Attributo",
+        "attributeName": "Nome dell'Attributo",
+        "date": "Data",
+        "types": {
+            "GROUP_MEMBER": "Membro del gruppo",
+            "PERMISSION_LEVEL": "Livello di Permesso",
+            "PROPERTY": "Proprietà",
+            "PROPERTY_SB": "Proprietà (nel Pacchetto Server)",
+            "USER_ATTRIBUTE": "Attributo utente",
+            "PACKET": "Pacchetto",
+            "DATE": "Data",
+            "PERMISSION_LEVEL_SB": "Livello di Permesso (nel Pacchetto Server)"
+        },
+        "operators": {
+            "NEQ": "Impari",
+            "GEQ": "Maggiore Uguale a",
+            "LT": "Minore di",
+            "GT": "Maggioredi",
+            "ACTIVE": "Attivo",
+            "INACTIVE": "Inattivo",
+            "NEVER_ACTIVE": "Mai attivo",
+            "ONLY_ACTIVE": "Solo inattivo",
+            "ONLY_INACTIVE": "Solo attivo",
+            "NHAVE": "Non hai",
+            "HAVE": "Hai",
+            "EQ": "Pari",
+            "LEQ": "Minore Uguale a"
+        },
+        "requirementSet": "Impostazione dei Requisiti"
+    },
+    "_gateway": {
+        "labels": {
+            "create": "Crea un Gateway di Pagamento",
+            "doNotAcceptPending": "Rifiuta pagamenti in sospeso",
+            "webhookURL": "URL Webhook",
+            "imageUrlDescription": "Opzionale. Quando non viene fornito alcun collegamento, vengono utilizzate le immagini predefinite.",
+            "edit": "Modifica un Gateway di Pagamento",
+            "acceptPending": "Accetta i pagamenti in sospeso",
+            "clientCertDescription": "Un certificato e una chiave del cliente sono utilizzati come metodo di autenticazione per l'API di paysafecard. Contattare il supporto di paysafecard per ottenerne uno.",
+            "acceptPendingDescription": "Alcuni metodi di pagamento (ad es. Addebito Diretto SEPA, SOFORT, ...) richiedono diversi giorni prima che vengano completati. Se questa opzione è attivata, gli acquisti pagati con questi metodi vengono portati a termine direttamente dopo aver completato il processo di checkout. Esiste una piccola possibilità che il pagamento non vada a buon fine.",
+            "coupon": "Coupon (conferma manuale)"
+        },
+        "messages": {
+            "deleteWarning": "Attenzione! L'eliminazione di un gateway di pagamento comporta la cancellazione di tutti gli acquisti e i pagamenti in cui il gateway è stato utilizzato! Questa azione non può essere annullata. Forse è meglio disabilitarlo?"
+        }
     }
 }
