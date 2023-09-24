@@ -1,1 +1,82 @@
-{}
+{
+    "_header": {
+        "labels": {
+            "logout": "Esci",
+            "login": "Accedi"
+        }
+    },
+    "_invoice": {
+        "refund": "Rimborso",
+        "invoiceDate": "Data di Fatturazione",
+        "invoice": "Fattura",
+        "vatNumber": "Partita IVA",
+        "paymentMethod": "Metodo Di Pagamento",
+        "transaction": "Transazione",
+        "item": "Oggetto",
+        "price": "Prezzo",
+        "subtotalNoVat": "Totale parziale (senza IVA)",
+        "vat": "IVA",
+        "total": "Totale",
+        "quantity": "Qauntità",
+        "deliveryDate": "Data Dell'ordine"
+    },
+    "_dashboard": {
+        "labels": {
+            "linkNewAccount": "Collega un nuovo account",
+            "groupMemberships": "Ruoli",
+            "registered_on": "Registrato in",
+            "last_online": "Ultimo accesso",
+            "membershipEndDescription": "Lasciare vuoto per una durata illimitata",
+            "removeAdminTitle": "Rimuovere L'admin?",
+            "unlinkAccountWarning": "L'eliminazione del collegamento di un utente disancorerà gli account. Lo stato di amministratore, i divieti, le ammonizioni, gli acquisti, i pacchetti applicati e i crediti sono influenzati da questa operazione e potrebbero non essere gestiti come ci si aspetta. Controllateli in seguito per assicurarvi che sia tutto a posto.",
+            "activeProperties": "Tag attivi",
+            "unlinkAccount": "Scollega un account"
+        },
+        "messages": {
+            "removeAdminConfirmation": "Non dimenticare di rimuovere il precedente amministratore dall'istanza nella panoramica centrale dell'istanza."
+        }
+    },
+    "_membership": {
+        "labels": {
+            "showPastMemberships": "Mostra Ruoli Passati",
+            "activeMemberships": "Attiva Ruoli",
+            "endMembership": "Rimuovi Ruolo",
+            "edit": "Modifica Ruoli",
+            "add": "Aggiungi Ruolo"
+        }
+    },
+    "_ban": {
+        "externalProtestUrl": "URL per contestare il ban:",
+        "externalProtestUrlDescription": "Lasciare vuoto per il sistema di ticket di VyHub o inserire un link per reindirizzare a un sito esterno.",
+        "vyhubTicketSystem": "Sistema di Ticket di VyHub",
+        "labels": {
+            "add": "Aggiungi Ban",
+            "title": "Bannati",
+            "edit": "Modifica Ban",
+            "details": "Dettagli Ban",
+            "unban": "Rimuovi Ban",
+            "unbanned": "Rimuovi Ban",
+            "reban": "Ri Bannato",
+            "infiniteBandDescription": "Lasciare vuoto per il Ban a vita",
+            "bundleDescription": "Lasciare vuoto per il ban globale",
+            "protestBan": "Contesta Ban",
+            "banProtests": "Conteste",
+            "lengthInMinutes": "Durata (in minuti)"
+        },
+        "messages": {
+            "showingUserBans": "Mostra i ban degli utenti con ID: {id}"
+        }
+    },
+    "_serverbundle": {
+        "labels": {
+            "apiKeys": "Chiavi API di Serverbundle",
+            "createApiKey": "Crea Nuovi API Key"
+        }
+    },
+    "_login": {
+        "messages": {
+            "loginSuccess": "Accesso riuscito.",
+            "loginError": "Errore durante l'accesso."
+        }
+    }
+}
