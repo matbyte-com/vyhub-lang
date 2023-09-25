@@ -423,7 +423,108 @@
             "coupon": "Coupon (conferma manuale)"
         },
         "messages": {
-            "deleteWarning": "Attenzione! L'eliminazione di un gateway di pagamento comporta la cancellazione di tutti gli acquisti e i pagamenti in cui il gateway è stato utilizzato! Questa azione non può essere annullata. Forse è meglio disabilitarlo?"
+            "deleteWarning": "Attenzione! L'eliminazione di un gateway di pagamento comporta la cancellazione di tutti gli acquisti e i pagamenti in cui il gateway è stato utilizzato! Questa azione non può essere annullata. Forse è meglio disabilitarlo?",
+            "formAttributeChangeExplanation": "Gli attributi sottostanti non saranno modificati se non viene fornito alcun valore e sono di sola scrittura, il che significa che l'input non sarà mostrato di nuovo."
         }
+    },
+    "_taxRule": {
+        "labels": {
+            "create": "Crea Regola Fiscale",
+            "edit": "Modifica Regola Fiscale"
+        },
+        "messages": {
+            "infoDetail": "Verrà mostrato durante il checkout e sulla fattura.",
+            "allCountriesDetail": "Lasciare in bianco per indirizzare tutti i Paesi."
+        }
+    },
+    "_notification": {
+        "purchase_finished_other": "{username} ha concluso un acquisto di {importo} tramite {nome_gateway}.",
+        "markUnRead": "segnare come non letto ",
+        "news_new": "Notizie creata: {Oggetto della Notizia}.",
+        "packet_applied": "Il pacchetto {titolo_pacchetto} è stato attivato!",
+        "coupon_purchase_new": "{username} ha inviato a {nome_gateway} dei codici ({importo_totale} {simbolo_di_valuta}) che devono essere approvati.",
+        "noNotification": "Nessuna notifica",
+        "viewAll": "vedi tutti",
+        "notifications": "Notifiche",
+        "newNotifications": "Nuove notifiche",
+        "timeAgo": "{tempo} passato",
+        "markAllAsRead": "Contrassegna tutti come letti",
+        "hideReadNotifications": "Nascondere le notifiche di lettura",
+        "markRead": "segnare come letto",
+        "browserNotifications": "Notifiche del Browser",
+        "type": {
+            "general": "Generale",
+            "news": "Notizie",
+            "shop": "Negozio",
+            "warning": "Avvertimento"
+        },
+        "ticket_new": "{username} ha creato un ticket: {titolo}",
+        "ticket_update": "Nuovo post in ticket: {titolo}",
+        "ban_new": "Sei stato bannato. Motivo: {ragione}",
+        "applied_packet_disabled": "Il pacchetto {titolo_pacchetto} è stato disattivato.",
+        "applied_packet_upgraded": "Il tuo pacchetto {vecchio_titolo_pacchetto} è stato aggiornato con {nuovo_titolo_pacchetto}.",
+        "purchase_finished": "Il tuo acquisto di {importo} è stato completato!",
+        "purchase_cancelled": "L'acquisto di {importo} è stato annullato!",
+        "warning_new": "È stato creato un nuovo avviso. Motivo: {ragione}"
+    },
+    "_warning": {
+        "settingFormDesc": "Gli utenti vengono bannati automaticamente quando raggiungono il numero specificato di avvisi ATTIVI.",
+        "ttl": "Avvertenza Tempo Di Vita (giorni)",
+        "title": "Avvertenze",
+        "ttlPlaceholder": "Durata (in giorni)",
+        "ttlDescription": "Tempo prima che l'avviso si contrassegni come scaduto",
+        "countTillBan": "Numero di avvertimenti fino al ban automatico",
+        "add": "Aggiungi Avviso",
+        "banLength": "Durata del ban automatico (minuti)",
+        "reason": "Motivo",
+        "showUserWarnings": "Mostra gli avvisi dell'utente con l'ID: {id}"
+    },
+    "_server": {
+        "labels": {
+            "discordEnterIdAsAddress": "Inserisci l'id della corporazione come indirizzo del server. Inserisci il numero preferito come porta.",
+            "create": "Crea Server",
+            "edit": "Modifica Server",
+            "numberOfReservedSlots": "Numero di slot riservati",
+            "keepReservedSlotsFree": "Mantenere liberi gli slot riservati",
+            "hideReservedSlots": "Nascondi gli slot riservati",
+            "addBot": "Aggiungi un bot alla tua corporazione.",
+            "discordApplicationIdNeeded": "Crea l'applicazione Discord.",
+            "guildIdDocs": "Trova l'ID della corporazione",
+            "setup": "Impostazione del Server",
+            "details": "Dettagli del Server"
+        },
+        "instructions": {
+            "COMMON": {
+                "runCommands": "Genera i comandi richiesti facendo clic sul pulsante ed eseguili nella console del tuo server.",
+                "wait": "Attendi minimo un minuto per l'inizializzazione di VyHub. Se la connessione è avvenuta con successo, verrà visualizzato un messaggio nella console del server."
+            }
+        }
+    },
+    "_discount": {
+        "labels": {
+            "create": "Crea Sconto",
+            "edit": "Modifica Sconto",
+            "allPackets": "Utilizzabile per tutti i pacchetti",
+            "delete": "Elimina Sconto",
+            "maxUsagesPerUser": "Utilizzo massimo per utente"
+        }
+    },
+    "_userLogEntry": {
+        "addLogEntry": ""
+    },
+    "_pageTitle": {
+        "settings": "Impostazioni",
+        "bans": "",
+        "notifications": "Notifiche",
+        "shop": "Negozio",
+        "news": "Notizie",
+        "shopPacket": "Negozio - Pacchetto",
+        "shopCategory": "Negozio - Categoria",
+        "shopCart": "Carrello",
+        "shopAdministration": "Negozio - Amministrazione",
+        "warnings": "Avvertenze",
+        "legal": "Legale",
+        "notificationLink": "Notifica",
+        "serverDashboard": "Dashboard del Server"
     }
 }
