@@ -731,7 +731,8 @@
         "type": {
             "DISCORD": "Discord",
             "GMOD": "Garry's Mod",
-            "MINECRAFT": "Minecraft"
+            "MINECRAFT": "Minecraft",
+            "FIVEM": "FiveM"
         },
         "instructions": {
             "COMMON": {
