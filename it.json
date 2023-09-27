@@ -526,5 +526,8 @@
         "legal": "Legale",
         "notificationLink": "Notifica",
         "serverDashboard": "Dashboard del Server"
+    },
+    "_theme": {
+        "headerColor": "Colore Intestazione"
     }
 }
