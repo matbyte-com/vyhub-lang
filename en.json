@@ -215,7 +215,8 @@
             "PROVISIONED": "Ready",
             "REPROVISION": "Applying changes to API server",
             "DELETE": "Stopping",
-            "DELETED": "Stopped"
+            "DELETED": "Stopped",
+            "SELFHOSTED": "Self-Hosted"
         },
         "admins": "Admins",
         "owner": "Owner",
