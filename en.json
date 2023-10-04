@@ -196,6 +196,7 @@
             "taxAllowUnknownDescription": "If disabled, purchases from countries that do not have an explicit tax rule configured, are not possible.",
             "enableTopDonators": "Enable top donators",
             "topDonatorsLimit": "Number of donators to display",
+            "topDonatorsDaysLimit": "Days to display",
             "enableLastDonators": "Enable last donations",
             "widgetDescription": "Widget component displayed throughout the website (News, Shop, Home)",
             "topDonatorDisplayTitle": "Top donators display title",
