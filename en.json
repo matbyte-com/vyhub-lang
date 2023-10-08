@@ -553,6 +553,9 @@
         "currentBalanceDescription": "Balance available for payout.",
         "pendingBalanceDescription": "Unpaid fees by the user (may take up to 4 weeks to be processed).",
         "minimumPayout5€": "Minimum Payout 5 €",
+        "integrationToken": "Integration Token",
+        "generateAccessToken": "Generate New Token",
+        "newTokenDescription": "You can use this token to create instances on behalf of your customers. Copy this token and keep it save. It will not be shown again",
         "iban": "IBAN",
         "status": {
             "created": "Created",
