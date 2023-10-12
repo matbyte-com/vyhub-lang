@@ -1031,7 +1031,7 @@
     "revenue": "Einnahmen",
     "subcategory": "Unterkategorie",
     "clientCert": "Client-Zertifikat",
-    "clientKey": "Kundenschlüssel",
+    "clientKey": "Client-Schlüssel",
     "instructions": "Anweisungen",
     "adverts": "Anzeigen",
     "setup": "Setup",
