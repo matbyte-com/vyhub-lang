@@ -226,7 +226,7 @@
             "selectGateway": "Select payment method",
             "noAddressSpecified": "Address not specified yet.",
             "paymentCancelled": "This payment has been cancelled. You can try it again by visiting your shopping cart.",
-            "paymentSuccess": "The payment has been finished successfully. The purchased packets have been assigned to your account.",
+            "paymentSuccess": "The payment has been finished successfully and the purchased packets have been activated.",
             "paymentFailed": "An error occurred during the payment process. Please try to restart the process.",
             "paymentPending": "This payment is pending. Please complete it by visiting the shopping cart.",
             "paymentProcessing": "The payment has been approved and will be finished soon. Please wait a few minutes on this page while your payment is being processed.",
@@ -605,11 +605,12 @@
     "_gateway": {
         "labels": {
             "paypal": "PayPal",
+            "paypalLegacy": "PayPal (Legacy)",
             "stripe": "Stripe",
             "create": "Create Payment Gateway",
             "edit": "Edit Payment Gateway",
             "paysafecard": "Paysafecard",
-            "coupon": "Coupon (manual confirmation)",
+            "coupon": "Coupon/Gift Code (manual confirmation)",
             "acceptPending": "Accept pending payments",
             "doNotAcceptPending": "Do not accept pending payments",
             "clientCertDescription": "A client certificate and key is used as authentication method for the paysafecard API. Contact the paysafecard support to get one.",

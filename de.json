@@ -155,7 +155,7 @@
             "startingPaymentFailed": "Beim Starten der Zahlung ist ein Fehler aufgetreten. Bitte versuche es erneut oder verwende eine andere Zahlungsmethode!",
             "paymentActionFailed": "Beim Weiterleiten auf die Zahlungsseite ist ein Fehler aufgetreten. Bitte versuche es erneut oder verwende eine andere Zahlungsmethode! Fehlermeldung: {message}",
             "paymentCancelled": "Diese Zahlung wurde abgebrochen. Du kannst es im Warenkorb erneut versuchen.",
-            "paymentSuccess": "Die Zahlung wurde erfolgreich abgeschlossen. Die gekauften Pakete wurden deinem Account zugeordnet.",
+            "paymentSuccess": "Die Zahlung wurde erfolgreich abgeschlossen und die gekauften Pakete wurden aktiviert.",
             "paymentProcessing": "Die Zahlung wurde genehmigt und wird in Kürze abgeschlossen. Bitte warte noch einige Minuten auf dieser Seite, während die Zahlungs verarbeitet wird.",
             "couponNotApplied": "Der Gutschein konnte auf kein Paket im Einkaufswagen angewendet werden.",
             "selectBillingAddressFirst": "Bitte wähle zuerst eine Rechnungsadresse.",
@@ -237,7 +237,7 @@
     },
     "_gateway": {
         "labels": {
-            "coupon": "Coupon (manuelle Bestätigung)",
+            "coupon": "Coupon/Gutscheincode (manuelle Bestätigung)",
             "webhookURL": "Webhook URL",
             "paypal": "Paypal",
             "stripe": "Stripe",
