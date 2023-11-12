@@ -605,7 +605,7 @@
     "_gateway": {
         "labels": {
             "paypal": "PayPal",
-            "paypalLegacy": "PayPal (Legacy)",
+            "paypalLegacy": "PayPal (Easy)",
             "stripe": "Stripe",
             "create": "Create Payment Gateway",
             "edit": "Edit Payment Gateway",
