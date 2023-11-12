@@ -605,7 +605,7 @@
     "_gateway": {
         "labels": {
             "paypal": "PayPal",
-            "paypalLegacy": "PayPal (Easy)",
+            "paypalEasy": "PayPal (Easy)",
             "stripe": "Stripe",
             "create": "Create Payment Gateway",
             "edit": "Edit Payment Gateway",
@@ -616,7 +616,9 @@
             "clientCertDescription": "A client certificate and key is used as authentication method for the paysafecard API. Contact the paysafecard support to get one.",
             "acceptPendingDescription": "Some payment methods (e.g. SEPA Direct Debit, SOFORT, ...) take several days until completed. If this option is enabled, purchases paid with these methods are finished directly after completing the checkout process. There is a small chance that the payment fails afterwards.",
             "webhookURL": "Webhook URL",
-            "imageUrlDescription": "Optional. Default images are used, when no link is provided."
+            "imageUrlDescription": "Optional. Default images are used, when no link is provided.",
+            "paypalLegacyHint": "This PayPal integration is easy to setup and also works with non-business accounts. However, it does not support refunds and subscription payments. If possible, use the normal PayPal integration.",
+            "paypalHint": "This PayPal integration requires a PayPal business account. If you do not have one, upgrade your PayPal account or use the PayPal (Easy) integration."
         },
         "messages": {
             "deleteWarning": "Caution! Deleting a payment gateway causes the deletion of all purchases and payments where the gateway has been used! This action can't be undone. Maybe disable it instead?",
@@ -1206,5 +1208,6 @@
     "method": "Method",
     "everyMonth": "Every month",
     "everyDay": "Every day",
-    "everyYear": "Every year"
+    "everyYear": "Every year",
+    "followInstructionsInDocs": "Please follow the instructions in the documentation."
 }
