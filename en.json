@@ -763,6 +763,9 @@
             },
             "FIVEM": {
                 "download": "Download the vyhub-fivem plugin and add it to your server."
+            },
+            "RUST": {
+                "download": "Download the vyhub-rust plugin and add it to your server."
             }
         },
         "deleteServerbundleConfirmationText": "Deleting a serverbundle will also delete all depending objects (rewards, servers, bans, warnings, ...). This action cannot be undone."
