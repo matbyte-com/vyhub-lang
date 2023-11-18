@@ -158,6 +158,10 @@
         "detailDialogTitle": "Details"
     },
     "_newInstance": {
+        "labels": {
+            "cloud": "Cloud",
+            "selfhosted": "Self-Hosted"
+        },
         "title": "Create New Instance",
         "instanceNameAndDomain": "Name and Domain",
         "description": "Get started with your own VyHub instance!{br}No payment information required!{br}{br}If questions arise, please read our {documentation}.",
@@ -168,12 +172,19 @@
         "noInstancesAvailable": "There are currently no instances available. Please try again later.",
         "customDomainDescription": "You need to own a domain and create a CNAME record in the DNS settings of your domain registrar. Read the {docsLink} for more information.",
         "success": "It might take up to 10 minutes for your instance to be created.{br}Go to the {dashboard} to view the status.",
-        "smallCommission": "Small <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>commission</a> on your revenue"
+        "smallCommission": "Small <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>commission</a> on your revenue",
+        "messages": {
+            "customDomainDescriptionSelfhosting": "You need to own a domain and point the DNS A/AAAA record to the server where VyHub will be hosted at.",
+            "selfhostedDescription": "The self-hosted version of VyHub is for advanced users only. You will be able to host VyHub yourself with full access to the database. You have to pay a fixed base fee per month and a 3% commission on your revenue.",
+            "cloudDescription": "VyHub Cloud is the easiest way to get started with VyHub. We take care of the hosting and maintenance of your instance so you can focus on your community. You only pay if you use paid addons or make revenue with your shop."
+        }
     },
     "_instance": {
         "labels": {
             "edit": "Edit Instance",
             "daysLeft": "days left",
+            "showConfig": "Show Config",
+            "config": "Config",
             "newExpirationDate": "New expiration date",
             "noTimeLeft": "No time left",
             "upgradeVersion": "Upgrade Version",
@@ -187,12 +198,17 @@
             "stopInstance": "Stop Instance",
             "resumeInstance": "Start Instance",
             "transferOwnership": "Transfer Ownership",
-            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Agree with Terms of Service and Upgrade to Version 1.4"
+            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Agree with Terms of Service and Upgrade to Version 1.4",
+            "operationalTime": "Subscription Cycle",
+            "extendInstance": "Extend Instance",
+            "activateInstance": "Activate Instance"
         },
         "instanceName": "Name of Instance",
         "cnamePointingAt": "CNAME pointing at",
         "setCNAMEDescription": "Create a CNAME DNS record for your custom domain with this target. This points your custom domain to this VyHub instance.",
         "statusHelp": "Contact support if status does not change after 10 minutes.",
+        "statusHelpPreSelfhosted": "Please complete the payment to activate your instance.",
+        "statusHelpSelfhosted": "Please follow the instructions in the docs for setting up the instance. You can contact support if you need help.",
         "statusHelpProvision": "If this status does not change within 5 minutes, the CNAME record to your custom domain is probably not set correctly. Check the documentation or contact support if you need help.",
         "statusHelpProvisioned": "Your instance is ready to use now. If the site does not load, try to clear your DNS cache or restart your router. If this does not solve the problem, contact the support.",
         "editInstance": "Edit Instance",
@@ -203,7 +219,6 @@
         "autoUpdateTime": "Time of auto update (UTC)",
         "autoUpdateDescription": "Instance is automatically updated at given UTC hour",
         "autoUpdateActivated": "Automatic update activated",
-        "extendInstance": "Extend Instance",
         "extendInstanceDescription": "The runtime of your instance can be extended 7 days before the end. If the instance is not extended in time, it will be stopped.",
         "ownershipTransferSupport": "Please contact the support if you want to transfer the ownership of your instance to another user.",
         "automaticExtension": "Automatic Extension",
@@ -216,7 +231,8 @@
             "REPROVISION": "Applying changes to API server",
             "DELETE": "Stopping",
             "DELETED": "Stopped",
-            "SELFHOSTED": "Self-Hosted"
+            "SELFHOSTED": "Self-Hosted",
+            "PRE_SELFHOSTED": "Self-Hosted (Pending)"
         },
         "admins": "Admins",
         "owner": "Owner",
@@ -226,13 +242,18 @@
             "user_not_found": "User not found"
         },
         "messages": {
+            "configInstructions": "Copy the following config to the beginning of your .env file. CAUTION: Do not change VYHUB_SESSION_SECRET and VYHUB_CRYPT_SECRET once VyHub has been started for the first time.",
             "removedAdmin": "Admin successfully removed.",
             "addedAdmin": "Admin successfully added.",
             "noActivePackets": "There are no active subscriptions for this instance. Make sure to extend your instance before the end of the runtime.",
             "noResourcesAvailable": "There are currently no resources available for a new instance. Please try again later.",
             "instanceReady": "Your instance is ready!",
             "doNotOpenBeforeReady": "Do not open this page before your instance is ready!",
-            "instanceExtended": "Instance successfully extended"
+            "instanceExtended": "Instance successfully extended",
+            "instanceSelfhostedLimitedSupport": "If you need help with installing VyHub on your server, you can purchase the advanced support packet.",
+            "instanceSelfhostedRequirements": "Please note that there are several requirements for self-hosting. You need a linux server with docker and docker-compose installed. Furthermore you need a domain and a SSL certificate. You also need a system administrator that can set up and maintain the server. If you do not meet these requirements, use the cloud version of VyHub.",
+            "noActiveSubscriptions": "There are no active subscriptions for this instance. Make sure to create a new subscription before the end of the runtime.",
+            "paymentLaterSelfhosted": "After finishing this dialog, you will need to activate your instance by selecting a payment plan."
         },
         "cnameCheckerTool": "CNAME Check Tool",
         "revenueFee": "Revenue Fee"
@@ -954,5 +975,8 @@
     "logout": "Logout",
     "everyMonth": "Every month",
     "everyDay": "Every day",
-    "everyYear": "Every year"
+    "everyYear": "Every year",
+    "subscription": "Subscription",
+    "days": "Days",
+    "month": "Month"
 }
