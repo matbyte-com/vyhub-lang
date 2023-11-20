@@ -183,8 +183,8 @@
         "labels": {
             "edit": "Edit Instance",
             "daysLeft": "days left",
-            "showConfig": "Show Config",
             "config": "Config",
+            "setup": "Setup",
             "newExpirationDate": "New expiration date",
             "noTimeLeft": "No time left",
             "upgradeVersion": "Upgrade Version",
@@ -201,7 +201,18 @@
             "agreeWithTermsOfServiceAndUpgradeToVersion14": "Agree with Terms of Service and Upgrade to Version 1.4",
             "operationalTime": "Subscription Cycle",
             "extendInstance": "Extend Instance",
-            "activateInstance": "Activate Instance"
+            "activateInstance": "Activate Instance",
+            "cloneRepository": "Clone the vyhub-onprem Github repository",
+            "cloneRepositoryDescription": "Connect to your linux server via SSH, clone the vyhub-onprem Git repository and enter the cloned folder by using the following commands:",
+            "dockerLogin": "Docker Login for registry.matbyte.com",
+            "dockerLoginDescription": "Run the following command to authenticate with our container registry:",
+            "insertConfig": "Insert and adjust Config",
+            "insertConfigDescription": "In /opt/vyhub-onprem, edit the .env file. Copy the following lines to the beginning of the file:",
+            "insertConfigCaution": "Do not change the VYHUB_SESSION_SECRET and VYHUB_CRYPT_SECRET config parameters once VyHub has been started for the first time.",
+            "continueInDocs": "Continue in the documentation",
+            "continueInDocsDescription": "For the next steps, please check our documentation:",
+            "assurePrerequisitesDescription": "Make sure that your server and environment meet all necessary prerequisites before continuing. You can find them in the documentation:",
+            "assurePrerequisites": "Prerequisites"
         },
         "instanceName": "Name of Instance",
         "cnamePointingAt": "CNAME pointing at",
@@ -242,7 +253,6 @@
             "user_not_found": "User not found"
         },
         "messages": {
-            "configInstructions": "Copy the following config to the beginning of your .env file. CAUTION: Do not change VYHUB_SESSION_SECRET and VYHUB_CRYPT_SECRET once VyHub has been started for the first time.",
             "removedAdmin": "Admin successfully removed.",
             "addedAdmin": "Admin successfully added.",
             "noActivePackets": "There are no active subscriptions for this instance. Make sure to extend your instance before the end of the runtime.",
