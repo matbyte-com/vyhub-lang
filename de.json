@@ -138,7 +138,9 @@
             "productDescription": "Produktbeschreibung",
             "widgetDescription": "Widget-Komponente, die auf der gesamten Website angezeigt wird (News, Shop, Home)",
             "lastDonatorsDisplayTitle": "Anzeigename der letzten Spenden",
-            "enableLastDonators": "Letzte Spenden aktivieren"
+            "enableLastDonators": "Letzte Spenden aktivieren",
+            "topDonatorsDaysLimit": "Akkumulationsdauer",
+            "yourAccounts": "Deine Konten"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -248,7 +250,10 @@
             "acceptPending": "Akzeptiere ausstehende Zahlungen",
             "doNotAcceptPending": "Akzeptiere keine ausstehenden Zahlungen",
             "acceptPendingDescription": "Einige Zahlungsarten (z. B. SEPA-Lastschrift, SOFORT, ...) benötigen mehrere Tage, bis sie abgeschlossen sind. Wenn diese Option aktiviert ist, werden mit diesen Methoden bezahlte Einkäufe direkt nach Abschluss des Bestellvorgangs abgeschlossen. Es besteht eine geringe Chance, dass die Zahlung danach fehlschlägt.",
-            "imageUrlDescription": "Optional. Wenn kein Link angegeben ist, werden Standardbilder verwendet."
+            "imageUrlDescription": "Optional. Wenn kein Link angegeben ist, werden Standardbilder verwendet.",
+            "paypalEasy": "PayPal (Easy)",
+            "paypalLegacyHint": "Diese PayPal-Integration ist einfach einzurichten und funktioniert auch mit Nicht-Geschäftskonten. Rückerstattungen und Abonnementzahlungen werden jedoch nicht unterstützt. Nutze nach Möglichkeit die normale PayPal-Integration.",
+            "paypalHint": "Für diese PayPal-Integration ist ein PayPal-Geschäftskonto erforderlich. Wenn du noch kein Konto hast, aktualisiere dein PayPal-Konto oder nutze die PayPal-Integration (einfach)."
         },
         "messages": {
             "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird, und sind write-only, was bedeutet, dass die Eingabe nicht erneut angezeigt wird.",
@@ -345,7 +350,8 @@
         "type": {
             "GMOD": "Garry's Mod",
             "DISCORD": "Discord",
-            "MINECRAFT": "Minecraft"
+            "MINECRAFT": "Minecraft",
+            "FIVEM": "FiveM"
         },
         "instructions": {
             "DISCORD": {
@@ -372,6 +378,9 @@
             },
             "FIVEM": {
                 "download": "Lade das Vyhub-Fivem-Plugin herunter und fügen es deinem Server hinzu."
+            },
+            "RUST": {
+                "download": "Lade das Plugin vyhub-rust herunter und füge es deinem Server hinzu."
             }
         },
         "deleteServerbundleConfirmationText": "Durch das Löschen eines Serverbundles werden auch alle abhängigen Objekte (Belohnungen, Server, Sperren, Warnungen usw.) gelöscht. Diese Aktion kann nicht rückgängig gemacht werden."
@@ -1181,7 +1190,8 @@
             "maxColumnHeight": "Maximale Spaltenhöhe",
             "btnText": "Knopf Text",
             "question": "Frage",
-            "answer": "Antwort"
+            "answer": "Antwort",
+            "container": "Container"
         },
         "currentPlayers": "Momentane Spieler",
         "specifyServers": "Gib in den Einstellungen bis zu zwei Server an",
@@ -1201,5 +1211,7 @@
     "content": "Inhalt",
     "everyDay": "Jeden Tag",
     "everyYear": "Jedes Jahr",
-    "everyMonth": "Jeden Monat"
+    "everyMonth": "Jeden Monat",
+    "staff": "Mitarbeiter",
+    "followInstructionsInDocs": "Bitte folge den Anweisungen in der Dokumentation."
 }
