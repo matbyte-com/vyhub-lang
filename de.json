@@ -159,7 +159,23 @@
             "upgradeVersion": "Version updaten",
             "newExpirationDate": "Neues Ablaufdatum",
             "addons": "Erweiterungen",
-            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Ich stimme den AGB zu und führe ein Upgrade auf Version 1.4 durch"
+            "agreeWithTermsOfServiceAndUpgradeToVersion14": "Ich stimme den AGB zu und führe ein Upgrade auf Version 1.4 durch",
+            "config": "Konfig",
+            "operationalTime": "Abozyklus",
+            "extendInstance": "Instanz verlängern",
+            "activateInstance": "Instanz aktivieren",
+            "setup": "Setup",
+            "cloneRepository": "Klone das Github-Repository vyhub-onprem",
+            "cloneRepositoryDescription": "Stelle über SSH eine Verbindung zu deinem Linux-Server her, klone das Git-Repository vyhub-onprem und navigiere zu dem heruntergeladenen Ordner, indem du die folgenden Befehle verwendest:",
+            "dockerLogin": "Docker-Anmeldung für registry.matbyte.com",
+            "dockerLoginDescription": "Führe den folgenden Befehl aus, um dich bei unserer Container-Registrierung zu authentifizieren:",
+            "insertConfig": "Config einfügen und anpassen",
+            "insertConfigDescription": "Bearbeite in /opt/vyhub-onprem die .env-Datei. Kopieren die folgenden Zeilen an den Anfang der Datei:",
+            "insertConfigCaution": "Ändere den Konfigurationsparameter VYHUB_SESSION_SECRET und VYHUB_CRYPT_SECRET nicht, nachdem VyHub zum ersten Mal gestartet wurde.",
+            "continueInDocs": "Weitere Infos findest du in der Dokumentation",
+            "continueInDocsDescription": "Die nächsten Schritte findest du in unserer Dokumentation:",
+            "assurePrerequisitesDescription": "Stelle sicher, dass dein Server und deine Umgebung alle erforderlichen Voraussetzungen erfüllen, bevor du fortfährst. Du findest sie in der Dokumentation:",
+            "assurePrerequisites": "Voraussetzungen"
         },
         "instanceName": "Name der Instanz",
         "cnamePointingAt": "CNAME zeigt auf",
@@ -175,7 +191,9 @@
             "DELETED": "Angehalten",
             "DELETE": "Anhalten",
             "UNPROVISIONED": "API-Server einrichten",
-            "REPROVISION": "Wende Änderungen am API Server an"
+            "REPROVISION": "Wende Änderungen am API Server an",
+            "SELFHOSTED": "Selbstgehostet",
+            "PRE_SELFHOSTED": "Selbstgehostet (ausstehend)"
         },
         "statusHelp": "Kontaktiere den Support, wenn der Status sich nach 10 Minuten nicht ändert.",
         "deletedInstance": "Instanz erfolgreich gestoppt",
@@ -200,7 +218,11 @@
             "doNotOpenBeforeReady": "Öffne die Seite nicht, bevor die Instanz bereit ist!",
             "noActivePackets": "Es gibt keine aktiven Abos für diese Instanz. Stelle sicher, dass du die Instanz vor Ende der Laufzeit verlängerst.",
             "noResourcesAvailable": "Es sind derzeit keine Ressourcen für eine neue Instanz verfügbar. Bitte versuche es später noch einmal.",
-            "instanceExtended": "Instanz wurde erfolgreich verlängert"
+            "instanceExtended": "Instanz wurde erfolgreich verlängert",
+            "instanceSelfhostedLimitedSupport": "Wenn Sie Hilfe bei der Installation von VyHub auf deinem Server benötigst, kannst du das erweiterte Support-Paket erwerben.",
+            "instanceSelfhostedRequirements": "Bitte beachte, dass für das Selbsthosting mehrere Voraussetzungen gelten. Du benötigst einen Linux-Server, auf dem Docker und Docker-Compose installiert sind. Darüber hinaus benötigst du eine Domain und ein SSL-Zertifikat. Du benötigst außerdem einen Systemadministrator, der den Server einrichten und warten kann. Wenn du diese Anforderungen nicht erfüllst, nutze die Cloud-Version von VyHub.",
+            "noActiveSubscriptions": "Für diese Instanz sind keine aktiven Abonnements vorhanden. Stelle sicher, dass du vor dem Ende der Laufzeit ein neues Abonnement erstellst.",
+            "paymentLaterSelfhosted": "Nachdem du diesen Dialog abgeschlossen hast, musst du deine Instanz aktivieren, indem du einen Abonement auswählst."
         },
         "cnameCheckerTool": "CNAME-Überprüfung",
         "extendInstance": "Instanz verlängern",
@@ -209,7 +231,9 @@
         "connectOneServer": "Verbinde einen Spielserver",
         "automaticExtension": "Automatische Verlängerung",
         "setUpAutocharge": "Automatische Zahlungen aktivieren",
-        "revenueFee": "Einnahmegebühr"
+        "revenueFee": "Einnahmegebühr",
+        "statusHelpPreSelfhosted": "Bitte schließe die Zahlung ab, um deine Instanz zu aktivieren.",
+        "statusHelpSelfhosted": "Bitte folge den Anweisungen in der Dokumentation zum Einrichten der Instanz. Du kannst dich an den Support wenden, wenn du Hilfe benötigst."
     },
     "log": "Log",
     "_form": {
@@ -414,7 +438,10 @@
             "checkoutCheckboxes": "Checkout-Kontrollkästchen",
             "orderWithObligationToPay": "Zahlungspflichtig bestellen",
             "financeReport": "Finanzbericht",
-            "downloadInvoices": "Herunterladen von Rechnungen"
+            "downloadInvoices": "Herunterladen von Rechnungen",
+            "payNow": "Jetzt zahlen",
+            "pleaseWait": "Bitte warten...",
+            "redirectDescription": "Du wirst zum Zahlungsanbieter weitergeleitet"
         },
         "messages": {
             "couponsEntered": "Dein coupon wurde erfolgreich gespeichert. Du kannst ihn noch ändern, solange er noch nicht akzeptiert worden ist.",
@@ -525,7 +552,16 @@
         "success": "Das Erstellen deiner Instanz kann bis zu 10 Minuten dauern.{br} Gehe zum {dashboard} um den Status zu sehen.",
         "smallCommission": "Kleine <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>Kommission</a> auf deinen Umsatz",
         "noInstancesAvailable": "Aktuell sind keine Instanzen verfügbar. Bitte versuche es später erneut.",
-        "instanceNameAndDomain": "Name und Domain"
+        "instanceNameAndDomain": "Name und Domain",
+        "labels": {
+            "cloud": "Cloud",
+            "selfhosted": "Selbst gehostet"
+        },
+        "messages": {
+            "customDomainDescriptionSelfhosting": "Du musst eine Domain besitzen und den DNS-A/AAAA-Eintrag auf den Server verweisen, auf dem VyHub gehostet wird.",
+            "selfhostedDescription": "Die selbst gehostete Version von VyHub ist nur für fortgeschrittene Benutzer. Du kannst VyHub selbst hosten und du hast damit vollen Zugriff auf die Datenbank. Dafür musst du eine feste Grundgebühr pro Monat und eine Provision von 3 % auf den Umsatz zahlen.",
+            "cloudDescription": "VyHub Cloud ist der einfachste Weg, mit VyHub zu beginnen. Wir kümmern uns um das Hosting und die Wartung deiner Instanz, damit du dich auf deine Community konzentrieren kannst. Du zahlst nur, wenn du kostenpflichtige Addons nutzt oder mit deinem Shop Umsätze erzielst."
+        }
     },
     "_features": {
         "_shop": {
@@ -828,7 +864,10 @@
         "affiliateDashboard": "Partner Dashboard",
         "overlayDescription": "Dieses Dashboard ist für die Benutzer des Partnerprogramms. Suchst du dein VyHub Konto?",
         "lookHere": "Schau hier.",
-        "minimumPayout5€": "Minimale Auszahlung von 5€"
+        "minimumPayout5€": "Minimale Auszahlung von 5€",
+        "integrationToken": "Integrationstoken",
+        "generateAccessToken": "Neuen Token generieren",
+        "newTokenDescription": "Mit diesem Token kannst du deine Instanzen im Namen deiner Kunden erstellen. Kopiere diesen Token und bewahren ihn auf. Er wird nicht erneut angezeigt"
     },
     "message": "Nachricht",
     "acceptPrivacy": "Ich akzeptiere die Datenschutzerklärung",
@@ -1028,5 +1067,11 @@
         "helpDescription": "Brauchst du Hilfe? Du kannst uns über die folgenden Kanäle erreichen."
     },
     "paymentProcessing": "Zahlungsabwicklung",
-    "logout": "Ausloggen"
+    "logout": "Ausloggen",
+    "everyMonth": "Jeden Monat",
+    "everyDay": "Jeden Tag",
+    "everyYear": "Jedes Jahr",
+    "subscription": "Abonnement",
+    "days": "Tage",
+    "month": "Monat"
 }
