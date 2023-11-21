@@ -563,7 +563,8 @@
             "app": "App - Display on top of page",
             "fixed": "Fixed - Fix component while scrolling",
             "dense": "Dense",
-            "container": "Container"
+            "container": "Container",
+            "openInNewTab": "Open in new tab"
         }
     },
     "_requirement": {
