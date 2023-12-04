@@ -32,7 +32,11 @@
         "faviconURL": "URL du favicon",
         "headerColor": "Couleur de l'en-tête et bas de page",
         "secondaryColor": "Couleur secondaire",
-        "customCss": "CSS personnalisé"
+        "customCss": "CSS personnalisé",
+        "headerContainer": "Conteneur d'en-tête",
+        "footerColor": "Couleur du pied de page",
+        "lightHeaderColor": "Couleur de l'en-tête",
+        "enable_landingpage": "Activer la page d'atterrissage"
     },
     "_settings": {
         "multigroup": "Plusieurs groupes",
@@ -75,7 +79,11 @@
         "addServerTooltip": "Veuillez premièrement ajouter un groupe de serveurs",
         "showForum": "Activer le forum",
         "showChat": "Activer le tchat",
-        "showFirstSteps": "Activer le tutoriel (premier pas)"
+        "showFirstSteps": "Activer le tutoriel (premier pas)",
+        "advancedSettings": "Paramètres avancés",
+        "requirementSetTest": "Test des exigences par rapport à l'utilisateur",
+        "showFirstStepsDescription": "Tutoriel des premiers pas en bas à droite. (réservé aux administrateurs)",
+        "googleAnalyticsTagDescription": "[Facultatif] pour l'utilisation de Google Analytics"
     },
     "_home": {
         "messages": {
@@ -85,7 +93,8 @@
         "news": "Actualités",
         "addNews": "Nouveau message",
         "messageSubject": "Sujet",
-        "editNews": "Modifier le message"
+        "editNews": "Modifier le message",
+        "invertTitleColor": "Inversion de la couleur du titre"
     },
     "_ban": {
         "messages": {
@@ -148,7 +157,21 @@
             "discountCode": "Code de réduction",
             "recommended": "Recommandé pour vous",
             "topDonatorsLimit": "Nombre de donateurs à affichés",
-            "enableTopDonators": "Activer les meilleurs donateurs"
+            "enableTopDonators": "Activer les meilleurs donateurs",
+            "addToCart13CharsMax": "Ajouter à votre panier",
+            "creditsDisplayTitle": "Titre d'affichage des crédits",
+            "payNow": "Payer maintenant",
+            "pleaseWait": "Attendez s'il vous plaît",
+            "redirectDescription": "Vous serez redirigé vers le fournisseur de paiement.",
+            "productDescription": "Description de l'objet",
+            "creditsDisplayTitleDescription": "Renommer les crédits de paiement en ce que vous voulez (golden, diamants, pièces...)",
+            "enableLastDonators": "Activer les derniers dons",
+            "lastDonatorsDisplayTitle": "Titre de l'affichage des dernières donations",
+            "widgetDescription": "Widget affiché sur l'ensemble du site (Actualités, Boutique, Accueil)",
+            "topDonatorsDaysLimit": "Jours à afficher",
+            "topDonatorDisplayTitle": "Les meilleurs donateurs affichent le titre",
+            "donationGoalDisplayTitle": "Titre d'affichage de l'objectif de donation",
+            "yourAccounts": "Votre compte"
         },
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} {credits_display_title}.",
@@ -173,7 +196,8 @@
             "paymentSuccess": "Le paiement a été terminé avec succès. Les paquets achetés ont été attribués à votre compte.",
             "paymentProcessing": "Le paiement a été confirmé et va être finalisé sous peu. Merci d'attendre quelques minutes sur cette page le temps que le paiement soit traité.",
             "paymentFailed": "Une erreur s'est produite lors du processus de paiement. Veuillez réessayer.",
-            "targetUserChanged": "L'utilisateur cible a été modifié"
+            "targetUserChanged": "L'utilisateur cible a été modifié",
+            "priceMustBeHigherThanMin": "Le prix doit être supérieur au prix minimum."
         },
         "purchaseStatus": {
             "open": "Ouvrir",
@@ -184,7 +208,8 @@
             "recurring": "Récurrent",
             "enabled": "Actif",
             "disabled": "Expiré"
-        }
+        },
+        "shopTitle": "Bienvenue dans la boutique"
     },
     "_header": {
         "labels": {
@@ -218,7 +243,9 @@
         "isTeamDescription": "Les membres du groupe seront affichés sur la page de l'équipe",
         "mappings": {
             "name": "Nom du groupe/rang/rôle sur le serveur"
-        }
+        },
+        "maxBanLengthInDays": "Durée maximale du Bannissement (en jours)",
+        "maxBanLengthInDaysDescription": "Laisser vide pour les Bannissement à vie"
     },
     "_errors": {
         "cart_not_empty": "Votre panier doit être vide pour ajouter ce paquet.",
@@ -273,7 +300,13 @@
                 "name": "FiveM",
                 "info": "GTA 5 Multiplayer."
             }
-        }
+        },
+        "messages": {
+            "linkAccountConfirm": "Êtes-vous sûr de vouloir lier ces deux comptes utilisateur ?",
+            "linkedAccounts": "Liaison réussie des comptes utilisateurs.",
+            "couldNotLinkUsers": "Impossible de relier les comptes utilisateurs."
+        },
+        "userLinkDescription": "L'établissement d'un lien avec un utilisateur permet de combiner vos comptes de manière magique. Attention, cette magie ne peut être annulée !"
     },
     "_legal": {
         "showLegalReminder": "Veuillez définir les informations légales dans les paramètres !",
@@ -307,7 +340,11 @@
         "location": "Localisation",
         "editCmsPage": "Modifié la page",
         "contentSanitizationWarning": "JavaScript ne peut être utilisé que par les administrateurs. Sinon, il va être désinfecté.",
-        "reqProp": "Propriété requise"
+        "reqProp": "Propriété requise",
+        "uploadFile": "Charger un fichier",
+        "messages": {
+            "invalidFileType": "Type de fichier incorrect."
+        }
     },
     "_address": {
         "labels": {
@@ -320,6 +357,9 @@
             "zip_code": "Code postal",
             "vat_number": "Numéro de TVA",
             "selectAddress": "Sélectionnez l'adresse"
+        },
+        "messages": {
+            "noAddressesYet": "Vous n'avez pas encore d'adresse."
         }
     },
     "_forms": {
@@ -360,7 +400,10 @@
             "imageDetail": "Une URL HTTPS vers l'image du paquet.",
             "deleteAppliedPacket": "Supprimer le paquet appliqué",
             "end": "Finir",
-            "buyableInactive": "Achetable si l'utilisateur a ce paquet dans un état inactif."
+            "buyableInactive": "Achetable si l'utilisateur a ce paquet dans un état inactif.",
+            "recommendableDescription": "Le paquet peut être recommandé aux utilisateurs dans les sections \"Recommandations\"/\"Recommandé pour vous\".",
+            "recommendable": "Recommandé",
+            "titleInImage": "Titre affiché sur l'image (facultatif)"
         },
         "messages": {
             "sortOnlyWithCategory": "Les paquets ne peuvent être triés que si une catégorie est sélectionnée.",
@@ -400,10 +443,19 @@
                 "command": "Exécuter une commande sur le(s) serveur(s)",
                 "script": "Exécuter un script sur le(s) serveur(s)",
                 "credits": "Ajouter des {credits_display_title} au compte des acheteurs",
-                "membership": "Ajouter une appartenance à un groupe"
+                "membership": "Ajouter une appartenance à un groupe",
+                "http": "Envoi d'une demande HTTP"
             },
             "checkForReplacements": "Consultez la documentation pour connaître les récompenses disponibles et les \"strings\" de remplacement",
-            "reactivateOnExtend": "Exécuter à nouveau si le paquet a été prolongé (sur paiement de l'abonnement)"
+            "reactivateOnExtend": "Exécuter à nouveau si le paquet a été prolongé (sur paiement de l'abonnement)",
+            "headers": "En-têtes de page",
+            "syncAppliedRewards": "Synchronisation des récompenses",
+            "amountOfAppliedRewardsToPatch": "Montant des récompenses appliquées au correctif : {amount}",
+            "maxRetries": "Nombre de tentatives de réponse",
+            "packetSyncLimitDescription": "Les récompenses sont ajoutées à tous les paquets dont la date de début se situe dans l'intervalle indiqué. Les dates de début et de fin sont facultatives.",
+            "headerKey": "Clé de l'en-tête",
+            "headerValue": "Valeur de l'en-tête",
+            "templates": "Les modèles"
         },
         "status": {
             "OPEN": "Ouvrir",
@@ -441,7 +493,14 @@
             "paymentGateway": "Passerelle de paiement",
             "addAppliedReward": "Ajouter une récompense appliquée",
             "reward": "Récompense",
-            "thisMonth": "Ce mois-ci"
+            "thisMonth": "Ce mois-ci",
+            "activeSubscriptions": "Abonnement actifs",
+            "allTime": "Tout le temps",
+            "averagePurchaseAmount": "Panier moyen des achats",
+            "range": "Gamme de prix",
+            "revenueByCategory": "Revenus par catégorie",
+            "notAffectedByRangeSelector": "Statistique non affectée par le sélecteur de plage",
+            "thisYear": "Cette année"
         },
         "messages": {
             "refundInitSuccess": "Remboursement fait avec succès.",
@@ -504,7 +563,11 @@
             "acceptPending": "Accepter les paiements en attente",
             "doNotAcceptPending": "Ne pas accepter les paiements en attente",
             "acceptPendingDescription": "Certains modes de paiement (par exemple, prélèvement SEPA, SOFORT, ...) prennent plusieurs jours avant d'être effectués. Si cette option est activée, les achats payés avec ces méthodes sont terminés directement après avoir terminé le processus de paiement. Il y a une petite chance que le paiement échoue par la suite.",
-            "clientCertDescription": "Un certificat client et une clé sont utilisés comme méthode d'authentification pour l'API paysafecard. Contactez le support paysafecard pour en obtenir un."
+            "clientCertDescription": "Un certificat client et une clé sont utilisés comme méthode d'authentification pour l'API paysafecard. Contactez le support paysafecard pour en obtenir un.",
+            "paypalLegacyHint": "Cette intégration PayPal est facile à mettre en place et fonctionne également avec des comptes non professionnels. Toutefois, elle ne prend pas en charge les remboursements et les paiements d'abonnements. Si possible, utilisez l'intégration PayPal normale.",
+            "paypalHint": "Cette intégration PayPal nécessite un compte professionnel PayPal. Si vous n'en avez pas, mettez à jour votre compte PayPal ou utilisez l'intégration PayPal (facile).",
+            "paypalEasy": "PayPal (simple)",
+            "imageUrlDescription": "Facultatif. Les images par défaut sont utilisées lorsqu'aucun lien n'est fourni."
         },
         "messages": {
             "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée et sont en écriture seule, ce qui signifie que votre entrée ne sera plus affichée.",
@@ -585,7 +648,8 @@
         "notifications": "Notifications",
         "serverDashboard": "Tableau de bord du serveur",
         "faq": "FAQ",
-        "forum": "Forum"
+        "forum": "Forum",
+        "news": "Actualités"
     },
     "_warning": {
         "title": "Avertissements",
@@ -612,12 +676,16 @@
             "guildIdDocs": "Trouver l'identifiant du Serveur Discord",
             "discordApplicationIdNeeded": "Créer une application Discord.",
             "setup": "Configurer le serveur",
-            "details": "Détails du serveur"
+            "details": "Détails du serveur",
+            "offline": "Hors-Ligne",
+            "sshQueryPort": "Port d'interrogation SSH",
+            "queryPortDescription": "Interroger le port de votre serveur TS3. Le port standard est 10022."
         },
         "type": {
             "DISCORD": "Discord",
             "MINECRAFT": "Minecraft",
-            "GMOD": "Garry's Mod"
+            "GMOD": "Garry's Mod",
+            "FIVEM": "FiveM"
         },
         "instructions": {
             "COMMON": {
@@ -632,7 +700,8 @@
                 "createApp": "Crée une application Discord et active l'authorization Discord.",
                 "readInstructions": "Lisez et suivez les instructions suivantes dans la documentation.",
                 "addBot": "Ajoutez le Bot à votre serveur Discord. Appuyez sur \"reload\" si le bouton ne fonctionne pas.",
-                "restart": "Redémarrer"
+                "restart": "Redémarrer",
+                "restartBot": "[Facultatif] Vous rencontrez des problèmes comme le bot n'a pas été démarré ? Veuillez consulter les logs pour obtenir des messages d'erreur utiles. Vous pouvez redémarrer le bot manuellement ici."
             },
             "MINECRAFT": {
                 "download": "Téléchargez le plugin vyhub-minecraft et placez-le dans le dossier plugins de votre serveur. Puis, redémarrez le serveur."
@@ -640,8 +709,15 @@
             "TEAMSPEAK3": {
                 "headline": "Le bot TS3 devrait déjà être connecté à votre serveur Teamspeak.",
                 "botNotConnected": "Le bot n'est pas connecté ? Activez d'abord l'affichage des bots de requête. Chaque fois que vous modifiez les paramètres du serveur, le bot essaie de se reconnecter. Vous pouvez trouver des messages d'erreur dans les logs."
+            },
+            "FIVEM": {
+                "download": "Téléchargez le plugin vyhub-fivem et ajoutez-le à votre serveur."
+            },
+            "RUST": {
+                "download": "Téléchargez le plugin vyhub-rust et ajoutez-le à votre serveur."
             }
-        }
+        },
+        "deleteServerbundleConfirmationText": "La suppression d'un groupe de serveurs entraîne également la suppression de tous les objets qui en dépendent (récompenses, serveurs, bannissement, avertissements, ...). Cette action ne peut pas être annulée."
     },
     "_server_exception": {
         "begin_smaller_end": "La date de début doit être inférieur à la date de fin"
@@ -941,8 +1017,16 @@
             "ban_comment_show": "Voir les commentaires bannis",
             "user_comment_show": "Afficher les commentaires des utilisateurs",
             "ban_comment_edit": "Créer/supprimer les commentaires bannis",
-            "ban_comment_delete": "Supprimer les commentaires des utilisateurs bannis"
-        }
+            "ban_comment_delete": "Supprimer les commentaires des utilisateurs bannis",
+            "ban_log_show": "Afficher les logs des bannissements",
+            "ban_config_edit": "Modifier la configuration du bannissement dans les paramètres",
+            "user_log_show": "Voir les logs de l'utilisateur",
+            "forum_edit": "Gestion du forum",
+            "forum_post": "Empêcher les utilisateurs de publier des messages dans le forum",
+            "ticket_create": "Empêcher les utilisateurs de créer des tickets et des tickets de débanissement",
+            "shop_use": "Empêcher les utilisateurs d'utiliser la boutique"
+        },
+        "negatedProperties": "Propriétés négatives"
     },
     "_creditHistory": {
         "addTransaction": "Ajouter une transcription"
@@ -998,7 +1082,18 @@
         "hideClosed": "Masquer les discussions fermées",
         "numberOfThreads": "Nombre de fils : ",
         "numberOfPosts": "Nombre de postes :",
-        "pinned": "épinglée"
+        "pinned": "épinglée",
+        "allowEditPostDescription": "Permettre aux utilisateurs de modifier leurs propres messages.",
+        "editThread": "Éditer le fil",
+        "reactions": "Réactions",
+        "allowEditPost": "Permettre de modifier les messages",
+        "labelTitle": "Titre de l'étiquette",
+        "welcomeToForum": "Bienvenue sur le forum",
+        "prohibitCreateThreads": "Empêcher la création d'un fil de discussion",
+        "prohibitCreateThreadsDescription": "Empêcher les utilisateurs de créer de nouvelles discussions. Cela n'affecte pas les utilisateurs disposant de l'autorisation \"Gérer le forum\" ou les administrateurs de sujets.",
+        "messages": {
+            "tooManyLabels": "Vous pouvez ajouter jusqu'à 4 étiquettes."
+        }
     },
     "_invoice": {
         "invoice": "Facture",
@@ -1021,6 +1116,103 @@
     "comments": "Commentaires",
     "unknown": "Inconnu",
     "_messages": {
-        "cancelSuccess": "Annulé avec succès."
-    }
+        "cancelSuccess": "Annulé avec succès.",
+        "copyClipboard": "Copié dans le presse-papier.",
+        "removeSuccess": "Retiré avec succès.",
+        "editSuccess": "Éditée avec succès.",
+        "updateOrderSuccess": "Mise à jour réussie de la commande.",
+        "toggleSuccess": "Basculé avec succès.",
+        "addSuccess": "L'ajout a été effectué avec succès.",
+        "deleteSuccess": "Suppression réussie.",
+        "updateSuccess": "La mise à jour a été effectuée avec succès.",
+        "createSuccess": "Création réussie."
+    },
+    "_component": {
+        "activePlayers": "Joueurs Actifs",
+        "currentPlayers": "Joueurs Actuels",
+        "whiteText": "Texte en blanc",
+        "_form": {
+            "fixed": "Corrigé - Correction du composant lors du défilement",
+            "app": "App - Afficher en haut de page",
+            "dense": "Denses",
+            "marginTop": "Marge du Haut",
+            "inviteLink": "Lien pour l'invitation",
+            "answer": "Réponse",
+            "inverted": "Inversé",
+            "btnText": "Texte du bouton",
+            "question": "Question",
+            "height": "La hauteur",
+            "container": "Conteneur",
+            "openInNewTab": "Ouvrir dans un nouvel onglet",
+            "limit": "Limitation",
+            "headline": "À la une",
+            "discordWidget": "Widget Discord",
+            "maxColumnHeight": "Hauteur maximale de la colonne"
+        },
+        "specifyServers": "Spécifiez jusqu'à deux serveurs dans les paramètres",
+        "onlinePlayers": "Joueurs en Ligne",
+        "registeredPlayers": "Joueurs inscrits",
+        "hoursPlayed": "Nombre d'heures jouées",
+        "addComponent": "Ajouter un élément",
+        "components": "Les éléments"
+    },
+    "overview": "Aperçu Général",
+    "wrapper": "Emballage",
+    "documentation": "La documentation",
+    "link": "Lien",
+    "viewMore": "Afficher plus",
+    "everyMonth": "Chaque mois",
+    "_firstSteps": {
+        "syncGroups": "Synchroniser les groupes entre VyHub et votre serveur",
+        "createGroup": "Créer un groupe avec une cartographie de groupe",
+        "firstSteps": "Premières étapes",
+        "welcome": "Bienvenue",
+        "connectGameserver": "Connectez votre serveur de jeu",
+        "setupShop": "Créez votre boutique",
+        "createCategory": "Création d'une catégorie de paquets",
+        "createPacket": "Création d'un paquet",
+        "setCommunityName": "Définir le nom de votre communauté",
+        "setLanguageAndFeatures": "Définir la langue et les fonctionnalités",
+        "createBundle": "Créer un paquet de serveurs",
+        "createServer": "Créer votre serveur",
+        "createReward": "Créez une récompense",
+        "login": "Se connecter avec VyHub Central pour devenir administrateur",
+        "addPmGateway": "Configurez vos méthodes de paiement"
+    },
+    "_chat": {
+        "loginRequired": "Connexion requise pour utiliser le tchat",
+        "reconnect": "Reconnexion"
+    },
+    "labels": "Étiquettes",
+    "admin": "Administrateur",
+    "view": "Voir",
+    "required": "Exigée",
+    "back": "Retour",
+    "comment": "Commentaire",
+    "content": "Contenu",
+    "everyYear": "Chaque année",
+    "followInstructionsInDocs": "Suivez les instructions de la documentation.",
+    "staff": "Personnel",
+    "everyDay": "Chaque jour",
+    "password": "Mot de passe",
+    "_log": {
+        "labels": {
+            "level": "Niveau"
+        },
+        "messages": {
+            "limitReached": "La limite des logs a été atteinte. Il se peut que certaines logs plus anciennes ne soient pas affichés.",
+            "limitReachedFilter": "La limite des logs a été atteinte. Il se peut que certaines logs plus anciens ne soient pas affichés. Utilisez une période plus courte ou un filtre plus spécifique."
+        }
+    },
+    "test": "Essai",
+    "logs": "Logs",
+    "selectAll": "Tout sélectionner",
+    "show": "Afficher",
+    "method": "Méthode",
+    "time": "Temps",
+    "filter": "Filtres",
+    "total": "Total",
+    "chat": "Tchat",
+    "global": "Global",
+    "rawHtml": "HTML brut"
 }
