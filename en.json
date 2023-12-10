@@ -715,7 +715,10 @@
         "add": "Add Warning",
         "banLength": "Length of automatic ban (minutes)",
         "reason": "Reason",
-        "showUserWarnings": "Showing warnings of user with ID: {id}"
+        "showUserWarnings": "Showing warnings of user with ID: {id}",
+        "labels": {
+            "details": "Warning Details"
+        }
     },
     "_server": {
         "labels": {
