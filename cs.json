@@ -1,1 +1,64 @@
-{}
+{
+    "_invoice": {
+        "invoice": "Faktura",
+        "invoiceDate": "Datum Faktury",
+        "deliveryDate": "Datum Dodání",
+        "vatNumber": "DIČ",
+        "paymentMethod": "Způsob Platby",
+        "transaction": "Transakce",
+        "item": "Položka",
+        "quantity": "Kvantita",
+        "price": "Cena",
+        "subtotalNoVat": "Mezisoučet (bez DPH)",
+        "total": "Celkem"
+    },
+    "_dashboard": {
+        "labels": {
+            "last_online": "Naposledy online",
+            "membershipEndDescription": "Nechte prázdné po neomezenou dobu",
+            "removeAdminTitle": "Odstranit správce?",
+            "unlinkAccountWarning": "Odstraněním odkazu na uživatele se propojení účtů zruší. Admin-Status, zákazy, varování, nákupy, aplikované balíčky a kredity jsou tímto ovlivněny a nemusí být zpracovány tak, jak očekáváte. Zkontrolujte je následně, zda je vše v pořádku."
+        },
+        "messages": {
+            "removeAdminConfirmation": "Nezapomeňte odstranit bývalého správce z instance v centrálním přehledu instancí."
+        }
+    },
+    "_ban": {
+        "externalProtestUrlDescription": "Ponechte prázdné místo pro systém ticketů VyHub nebo zadejte odkaz pro přesměrování na externí stránku.",
+        "vyhubTicketSystem": "Systém ticketů VyHub",
+        "labels": {
+            "lengthInMinutes": "Délka (v minutách)"
+        }
+    },
+    "_login": {
+        "messages": {
+            "loginSuccess": "Úspěšně přihlášen.",
+            "loginError": "Chyba během přihlášení."
+        }
+    },
+    "_theme": {
+        "headerColor": "Barva Záhlaví",
+        "enable_landingpage": "Povolit cílovou stránku",
+        "darkmode": "Tmavý režim",
+        "backgroundImageURL": "URL adresa obrázku na pozadí",
+        "logoURL": "URL Adresa Loga",
+        "showCommunityName": "Zobrazit Název Komunity",
+        "communityNameDescription": "Zobrazí název komunity v záhlaví",
+        "logoDescription": "Znovu načíst stránku, pokud se logo nezobrazuje správně",
+        "logoWidth": "Šířka Loga",
+        "faviconURL": "URL Adresa Favikony",
+        "customCss": "Vlastní CSS",
+        "lightHeaderColor": "Barva Světlého Záhlaví"
+    },
+    "_settings": {
+        "permissionLevel": "Úroveň oprávnění",
+        "gameserver": "Herní server",
+        "defaultGroup": "Výchozí skupina",
+        "multigroup": "Více skupin"
+    },
+    "_serverbundle": {
+        "labels": {
+            "createApiKey": "Vytvořit nový klíč API"
+        }
+    }
+}
