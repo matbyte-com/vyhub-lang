@@ -308,7 +308,11 @@
             },
             "FIVEM": {
                 "name": "FiveM",
-                "info": "GTA 5 Multiplayer."
+                "info": "Rev Up, Team Up, Rule the Streets of Los Santos."
+            },
+            "ASA": {
+                "name": "Ark Ascended",
+                "info": "Tame the Wild, Master the Dinosaurs."
             }
         }
     },
@@ -742,7 +746,10 @@
             "DISCORD": "Discord",
             "GMOD": "Garry's Mod",
             "MINECRAFT": "Minecraft",
-            "FIVEM": "FiveM"
+            "FIVEM": "FiveM",
+            "ASA": "Ark Survival Ascended",
+            "RUST": "Rust",
+            "SEVEN_DAYS": "7 Days to Die"
         },
         "instructions": {
             "COMMON": {
@@ -755,6 +762,9 @@
             },
             "MINECRAFT": {
                 "download": "Download the vyhub-minecraft plugin .jar and put it into the plugins folder of your server. Then restart your server."
+            },
+            "ASA": {
+                "download": "Download the vyhub-asa plugin and put it into the plugins folder of your server. Then restart your server."
             },
             "DISCORD": {
                 "createApp": "Create a Discord application and enable Discord authorization.",
