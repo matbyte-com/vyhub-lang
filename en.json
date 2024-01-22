@@ -270,6 +270,7 @@
         "wrong_currency": "You cannot have packets with different currencies in your cart.",
         "ban_protest_open": "There already exists an open protest for this ban.",
         "too_many_ban_protests": "There are already 3 protests for this ban.",
+        "title_too_long": "The title is too long",
         "coupon": {
             "not_found": "This code is invalid."
         }
