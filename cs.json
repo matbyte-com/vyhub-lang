@@ -10,14 +10,21 @@
         "quantity": "Kvantita",
         "price": "Cena",
         "subtotalNoVat": "Mezisoučet (bez DPH)",
-        "total": "Celkem"
+        "total": "Celkem",
+        "refund": "Vrácení peněz",
+        "vat": "DPH"
     },
     "_dashboard": {
         "labels": {
             "last_online": "Naposledy online",
-            "membershipEndDescription": "Nechte prázdné po neomezenou dobu",
+            "membershipEndDescription": "Nechte prázdné pro neomezenou dobu",
             "removeAdminTitle": "Odstranit správce?",
-            "unlinkAccountWarning": "Odstraněním odkazu na uživatele se propojení účtů zruší. Admin-Status, zákazy, varování, nákupy, aplikované balíčky a kredity jsou tímto ovlivněny a nemusí být zpracovány tak, jak očekáváte. Zkontrolujte je následně, zda je vše v pořádku."
+            "unlinkAccountWarning": "Odstraněním odkazu na uživatele se propojení účtů zruší. Admin-Status, zákazy, varování, nákupy, aplikované balíčky a kredity jsou tímto ovlivněny a nemusí být zpracovány tak, jak očekáváte. Zkontrolujte je následně, zda je vše v pořádku.",
+            "linkNewAccount": "Připojit nový Účet",
+            "unlinkAccount": "Odpojit Účet",
+            "activeProperties": "Aktivní Vlastnosti",
+            "groupMemberships": "Skupinová Členství",
+            "registered_on": "Registrováno dne"
         },
         "messages": {
             "removeAdminConfirmation": "Nezapomeňte odstranit bývalého správce z instance v centrálním přehledu instancí."
@@ -27,7 +34,22 @@
         "externalProtestUrlDescription": "Ponechte prázdné místo pro systém ticketů VyHub nebo zadejte odkaz pro přesměrování na externí stránku.",
         "vyhubTicketSystem": "Systém ticketů VyHub",
         "labels": {
-            "lengthInMinutes": "Délka (v minutách)"
+            "lengthInMinutes": "Délka (v minutách)",
+            "title": "Bany",
+            "add": "Přidat Ban",
+            "edit": "Upravit Ban",
+            "details": "Detaily Banu",
+            "unban": "Unban",
+            "reban": "Znovu Zabanovat",
+            "unbanned": "Odbanovaný",
+            "infiniteBandDescription": "Ponechte prázdné pro trvalý ban",
+            "protestBan": "Protestovat proti banu",
+            "banProtests": "Protesty",
+            "bundleDescription": "Ponechte prázdné pro globální ban"
+        },
+        "externalProtestUrl": "Externí URL pro protest proti banu",
+        "messages": {
+            "showingUserBans": "Zobrazení banů uživatele s ID: {id}"
         }
     },
     "_login": {
@@ -44,21 +66,156 @@
         "logoURL": "URL Adresa Loga",
         "showCommunityName": "Zobrazit Název Komunity",
         "communityNameDescription": "Zobrazí název komunity v záhlaví",
-        "logoDescription": "Znovu načíst stránku, pokud se logo nezobrazuje správně",
+        "logoDescription": "Znovu načtěte stránku, pokud není logo zobrazeno správně",
         "logoWidth": "Šířka Loga",
         "faviconURL": "URL Adresa Favikony",
         "customCss": "Vlastní CSS",
-        "lightHeaderColor": "Barva Světlého Záhlaví"
+        "lightHeaderColor": "Barva Světlého Záhlaví",
+        "headerContainer": "Záhlaví kontejneru",
+        "footerColor": "Barva Footeru",
+        "primaryColor": "Primární Barva",
+        "secondaryColor": "Sekundární Barva",
+        "successColor": "Úšpěšná Barva",
+        "errorColor": "Chybová Barva",
+        "warningColor": "Barva Varování",
+        "backgroundColor": "Barva Pozadí",
+        "backgroundColorDescription": "Barva je přepsána pozadím obrázku"
     },
     "_settings": {
         "permissionLevel": "Úroveň oprávnění",
         "gameserver": "Herní server",
         "defaultGroup": "Výchozí skupina",
-        "multigroup": "Více skupin"
+        "multigroup": "Více skupin",
+        "multigroupDescription": "Uživatelé mohou být najednou členy více skupin v tomto balíčku.",
+        "backgroundColorDescription": "Obrázek na pozadí přepisuje barvu pozadí",
+        "contentEmpty": "Obsah je prázdný",
+        "httpPlaceholder": "https://mojeurl.cz",
+        "addRequirementSet": "Přidat soubor požadavků",
+        "editRequirementSet": "Upravit Soubor Požadavků",
+        "addRequirement": "Přidat Požadavek",
+        "logicFormula": "Logická Formula",
+        "formulaTypeError": "Zkontrolovat, zda jsou všechna použitá ID přítomna",
+        "formulaError": "Formula není platná – zkontrolujte konzoli pro další informace.\"",
+        "editFormula": "Upravit Formulu",
+        "formulaSymbolOr": "Tento Symbol: | pro operaci \"nebo\"",
+        "formulaSymbolAnd": "Tento Symbol: & pro operaci \"A\"",
+        "formulaBeta": "Tato funkce je ve fázi beta testování. Používejte s opatrností.",
+        "documentationLink": "Dokumentace",
+        "serverAndServerbundle": "Server / Serverový balíček",
+        "requirements": "Požadavky",
+        "showTicket": "Povolit systém tiketů",
+        "showTeam": "Povolit Týmovou Stránku",
+        "showFaq": "Povolit stránku s často kladenými otázkami (FAQ)",
+        "showForum": "Povolit Forum",
+        "showChat": "Povolit Chat",
+        "communityDescription": "Popis Komunity",
+        "communityDescriptionDescr": "Toto bude zobrazeno ve výsledcích vyhledávání a při sdílení na sociálních médiích",
+        "language": "Jazyk",
+        "languageNewDescriptionText": "Pomozte nám přeložit do vašeho jazyka",
+        "addServerTooltip": "Nejprve přidejte serverový balíček",
+        "showFirstSteps": "Povolit návod (první kroky)",
+        "googleAnalyticsTagDescription": "[Volitelné] pro váš účel s Google Analytics",
+        "requirementSetTest": "Otestovat soubor požadavků na uživatele",
+        "advancedSettings": "Pokročilá nastavení",
+        "labels": {
+            "addGroup": "Přidat Skupinu",
+            "editGroup": "Upravit Skupinu",
+            "addBundle": "Přidat Serverový Balíček",
+            "editBundle": "Upravit Serverový Balíček",
+            "addServer": "Přidat Server",
+            "updateOrder": "Upravit Objednávku",
+            "resetOrder": "Resetovat Objednávku"
+        },
+        "showFirstStepsDescription": "Průvodce prvními kroky v pravém dolním rohu. (Pouze pro správce)"
     },
     "_serverbundle": {
         "labels": {
-            "createApiKey": "Vytvořit nový klíč API"
+            "createApiKey": "Vytvořit nový klíč API",
+            "apiKeys": "Klíče API pro serverový balíček"
+        }
+    },
+    "_header": {
+        "labels": {
+            "login": "Přihlásit",
+            "logout": "Odhlášení"
+        }
+    },
+    "_membership": {
+        "labels": {
+            "add": "Přidat Skupinové Členství",
+            "edit": "Upravit Skupinové Členství",
+            "endMembership": "Zrušit Členství",
+            "activeMemberships": "Aktivní Členství",
+            "showPastMemberships": "Zobrazit Předchozí Členství"
+        }
+    },
+    "_group": {
+        "maxBanLengthInDays": "Maximální Délka Banu (dny)",
+        "maxBanLengthInDaysDescription": "Ponechte prázdné pro nekonečný ban",
+        "mappings": {
+            "name": "Název skupiny/hodnosti/role na serveru"
+        },
+        "isTeam": "Je Tým",
+        "isTeamDescription": "Členové skupiny budou zobrazeni na stránce týmu"
+    },
+    "_shop": {
+        "shopTitle": "Vítejte v Obchodě",
+        "labels": {
+            "financeReport": "Finanční Zpráva",
+            "downloadInvoices": "Stáhnout Faktury",
+            "cart": "Košík",
+            "invoiceLogoURL": "URL loga faktury",
+            "invoiceLogoURLDetails": "URL k logu, který je zobrazen na faktuře.",
+            "admin": "Administrace Obchodu",
+            "couponCode": "Kód Kupónu",
+            "discountCode": "Kód Slevy",
+            "tax": "Daň",
+            "net": "čistá cena",
+            "taxRules": "Daňová Pravidla",
+            "subtotal": "Mezisoučet",
+            "payment": "Platba",
+            "paymentId": "ID Platby",
+            "addToCart": "Přidat do košíku",
+            "addToCart13CharsMax": "Přidat do košíku",
+            "total": "Součet",
+            "businessAddress": "Adresa Firmy",
+            "purchaseNow": "Zakoupit Nyní",
+            "payNow": "Zaplatit Teď",
+            "orderOverview": "Přehled Objednávky",
+            "cartTotal": "Součet v košíku",
+            "yourAccounts": "Vaše Účty",
+            "defaultCurrency": "Výchozí Měna",
+            "unfinishedPurchase": "Nedokončený Nákup",
+            "billingAddress": "Fakturační Adresa",
+            "removeAllPackets": "Odebrat všechny balíčky",
+            "perMonth": "za měsíc",
+            "taxIncludedInPacketPrice": "Daň zahrnuta v ceně balíčku",
+            "taxIncludedInPacketPriceDescription": "Místo toho, aby byly daně přidány k určené ceně balíčku navrch, jsou zahrnuty v ceně.",
+            "loginToBuy": "Přihlaste se pro nákup tohoto balíčku",
+            "checkoutCheckboxes": "Zaškrtávací políčka při objednávce",
+            "taxAllowUnknownDescription": "Pokud je vypnuto, není možný nákup ze zemí, které nemají explicitně nastaveno daňové pravidlo.",
+            "enableTopDonators": "Povolit ukazování top donátorů",
+            "topDonatorsLimit": "Počet top donátorů k zobrazení",
+            "topDonatorsDaysLimit": "Dny k zobrazení",
+            "enableLastDonators": "Povolit zobrazení posledních donátorů",
+            "widgetDescription": "Komponent widgetu zobrazený na celém webu (Novinky, Obchod, Domov)",
+            "topDonatorDisplayTitle": "Název pro zobrazení pro top donátory",
+            "donationGoalDisplayTitle": "Název pro zobrazení Donate cíle",
+            "lastDonatorsDisplayTitle": "Název pro zobrazení posledních donatů",
+            "donationGoal": "Donate goal",
+            "enableDonationGoal": "Povolit donate goal",
+            "cancelPurchase": "Zrušit Platbu",
+            "changeTargetUser": "Zakoupit pro kamaráda",
+            "recommended": "Doporučeno pro vás",
+            "creditsDisplayTitle": "Název pro zobrazení kreditů",
+            "creditsDisplayTitleDescription": "Přejmenujte platební kredity na cokoli, co vám vyhovuje (guldeny, diamanty, mince...)",
+            "pleaseWait": "Čekejte Prosím",
+            "redirectDescription": "Budete přesměrováni na platebního poskytovatele.",
+            "productDescription": "Popis Produktu",
+            "taxAllowUnknown": "Povolit nákupy z zemí bez daňového pravidla."
+        },
+        "messages": {
+            "confirmCreditsPayment": "Prosím, potvrďte platbu {credits} {credits_display_title}."
         }
     }
 }
