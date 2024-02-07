@@ -260,7 +260,8 @@
             "instanceSelfhostedLimitedSupport": "If you need help with installing VyHub on your server, you can purchase the advanced support packet.",
             "instanceSelfhostedRequirements": "Please note that there are several requirements for self-hosting. You need a linux server with docker and docker-compose installed. Furthermore you need a domain and a SSL certificate. You also need a system administrator that can set up and maintain the server. If you do not meet these requirements, use the cloud version of VyHub.",
             "noActiveSubscriptions": "There are no active subscriptions for this instance. Make sure to create a new subscription before the end of the runtime.",
-            "paymentLaterSelfhosted": "After finishing this dialog, you will need to activate your instance by selecting a payment plan."
+            "paymentLaterSelfhosted": "After finishing this dialog, you will need to activate your instance by selecting a payment plan.",
+            "updateAvailable": "There is an update available!"
         },
         "cnameCheckerTool": "CNAME Check Tool",
         "revenueFee": "Revenue Fee"
