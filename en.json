@@ -838,6 +838,7 @@
         "thankYou": "Thank you for registering!"
     },
     "_statistic": {
+        "instanceServerStatistics": "Instance Server Statistics",
         "instanceStatistics": "Instance Statistics",
         "interval": {
             "DAILY": "Daily",
