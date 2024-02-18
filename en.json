@@ -542,7 +542,15 @@
             "showApprovedDebits": "Show approved debits",
             "paymentGateway": "Payment Gateway",
             "addAppliedReward": "Add applied reward",
-            "reward": "Reward"
+            "reward": "Reward",
+            "range": "Range",
+            "allTime": "All Time",
+            "thisYear": "This Year",
+            "thisMonth": "This Month",
+            "revenueByCategory": "Revenue by Category",
+            "averagePurchaseAmount": "Avg. Amount",
+            "notAffectedByRangeSelector": "Not affected by range selector",
+            "activeSubscriptions": "Active Subs"
         },
         "messages": {
             "cancelSubscriptionSuccess": "Subscription successfully cancelled.",
