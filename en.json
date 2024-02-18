@@ -282,6 +282,7 @@
             "linkedAccounts": "Successfully linked user accounts."
         },
         "userLinkDescription": "Linking a user will perform some magic to combine your accounts. Beware, this magic can not be undone!",
+        "userLoginShopDescription": "Please login so we can identify you in game.",
         "labels": {
             "newUsers": "New Users",
             "authRequestDescription": "Execute the following command on a {type} server to login:"

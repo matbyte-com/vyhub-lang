@@ -644,6 +644,7 @@
             "authRequestDescription": "Führe den folgenden Befehl auf einem {type}-Server aus, um dich anzumelden:"
         },
         "userLinkDescription": "Das Verknüpfen der Nutzer geschieht auf magische Art und Weise. Aber pass auf, dieser Zauber kann nicht rückgängig gemacht werden!",
+        "userLoginShopDescription": "Bitte melde dich an, damit wir dich im Spiel identifizieren können.",
         "messages": {
             "linkAccountConfirm": "Bist du dir sicher, dass du diese beiden Accounts verbinden möchtest?",
             "couldNotLinkUsers": "Die Accounts konnten nicht verbunden werden.",
