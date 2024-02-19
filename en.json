@@ -630,7 +630,7 @@
         },
         "messages": {
             "deleteWarning": "Caution! Deleting a payment gateway causes the deletion of all purchases and payments where the gateway has been used! This action can't be undone. Maybe disable it instead?",
-            "formAttributeChangeExplanation": "The attributes below will not be edited if no value is given and are write-only, meaning your input will not be shown again."
+            "attributeChangeExplanation": "The attributes below will not be edited if no value is given. Secret attributes are write-only, meaning your input will not be shown again."
         }
     },
     "_taxRule": {
