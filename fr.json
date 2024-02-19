@@ -570,7 +570,6 @@
             "imageUrlDescription": "Facultatif. Les images par défaut sont utilisées lorsqu'aucun lien n'est fourni."
         },
         "messages": {
-            "formAttributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est donnée et sont en écriture seule, ce qui signifie que votre entrée ne sera plus affichée.",
             "deleteWarning": "Attention ! Supprimer une passerelle de paiement provoque la suppression de tous les achats et paiements utilisés par la passerelle de paiement. Cette action ne peut pas être annulée. Ne voulez-vous pas plutôt la désactiver ?"
         }
     },

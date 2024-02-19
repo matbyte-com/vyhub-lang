@@ -256,7 +256,6 @@
             "paypalHint": "Für diese PayPal-Integration ist ein PayPal-Geschäftskonto erforderlich. Wenn du noch kein Konto hast, aktualisiere dein PayPal-Konto oder nutze die PayPal-Integration (einfach)."
         },
         "messages": {
-            "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird, und sind write-only, was bedeutet, dass die Eingabe nicht erneut angezeigt wird.",
             "deleteWarning": "Vorsicht! Das Löschen eines Zahlungsgateways bewirkt das Löschen aller Käufe und Zahlungen, bei denen das Gateway verwendet wurde! Diese Aktion kann nicht rückgängig gemacht werden. Vielleicht stattdessen deaktivieren?"
         }
     },

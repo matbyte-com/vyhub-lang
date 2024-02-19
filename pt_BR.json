@@ -484,8 +484,7 @@
             "doNotAcceptPending": "Não aceite pagamentos pendentes"
         },
         "messages": {
-            "deleteWarning": "Cuidado! A exclusão de um gateway de pagamento causa a exclusão de todas as compras e pagamentos em que o gateway foi usado! Esta ação não pode ser desfeita. Talvez desativá-lo em vez disso?",
-            "formAttributeChangeExplanation": "Os atributos abaixo não serão editados se nenhum valor for fornecido."
+            "deleteWarning": "Cuidado! A exclusão de um gateway de pagamento causa a exclusão de todas as compras e pagamentos em que o gateway foi usado! Esta ação não pode ser desfeita. Talvez desativá-lo em vez disso?"
         }
     },
     "_notification": {

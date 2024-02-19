@@ -843,8 +843,7 @@
             "acceptPending": "Bekleyen ödemeleri kabul et"
         },
         "messages": {
-            "deleteWarning": "Dikkat! Bir ödeme ağ geçidinin silinmesi, ağ geçidinin kullanıldığı tüm satın alımların ve ödemelerin silinmesine neden olur! Bu eylem geri alınamaz. Belki onun yerine devre dışı bırak?",
-            "formAttributeChangeExplanation": "Herhangi bir değer verilmezse ve salt yazılırsa, aşağıdaki öznitelikler düzenlenmez, bu da girdinizin bir daha gösterilmeyeceği anlamına gelir."
+            "deleteWarning": "Dikkat! Bir ödeme ağ geçidinin silinmesi, ağ geçidinin kullanıldığı tüm satın alımların ve ödemelerin silinmesine neden olur! Bu eylem geri alınamaz. Belki onun yerine devre dışı bırak?"
         }
     },
     "paymentMethods": "Ödeme Yöntemleri",

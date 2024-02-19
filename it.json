@@ -423,8 +423,7 @@
             "coupon": "Coupon (conferma manuale)"
         },
         "messages": {
-            "deleteWarning": "Attenzione! L'eliminazione di un gateway di pagamento comporta la cancellazione di tutti gli acquisti e i pagamenti in cui il gateway è stato utilizzato! Questa azione non può essere annullata. Forse è meglio disabilitarlo?",
-            "formAttributeChangeExplanation": "Gli attributi sottostanti non saranno modificati se non viene fornito alcun valore e sono di sola scrittura, il che significa che l'input non sarà mostrato di nuovo."
+            "deleteWarning": "Attenzione! L'eliminazione di un gateway di pagamento comporta la cancellazione di tutti gli acquisti e i pagamenti in cui il gateway è stato utilizzato! Questa azione non può essere annullata. Forse è meglio disabilitarlo?"
         }
     },
     "_taxRule": {

@@ -524,8 +524,7 @@
             "webhookURL": "Webhook-URL"
         },
         "messages": {
-            "deleteWarning": "Voorzichtigheid! Het verwijderen van een betalingsgateway zorgt ervoor dat alle aankopen en betalingen waarbij de gateway is gebruikt, worden verwijderd! Deze actie kan niet ongedaan worden gemaakt. Misschien liever uitschakelen?",
-            "formAttributeChangeExplanation": "De onderstaande attributen worden niet bewerkt als er geen waarde wordt opgegeven."
+            "deleteWarning": "Voorzichtigheid! Het verwijderen van een betalingsgateway zorgt ervoor dat alle aankopen en betalingen waarbij de gateway is gebruikt, worden verwijderd! Deze actie kan niet ongedaan worden gemaakt. Misschien liever uitschakelen?"
         }
     },
     "_notification": {
