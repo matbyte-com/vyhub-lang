@@ -73,6 +73,13 @@
             "createApiKey": "Create new API key"
         }
     },
+    "_search": {
+        "labels": {
+            "linkedUsers": "Linked users",
+            "searchUsers": "Search users",
+            "recentlyActiveUsers": "Recently active users"
+        }
+    },
     "_login": {
         "messages": {
             "loginSuccess": "Successfully logged in.",
@@ -692,6 +699,7 @@
         "dashboard": "Dashboard",
         "settings": "Settings",
         "bans": "Bans",
+        "search": "Search",
         "notifications": "Notifications",
         "about": "About",
         "shop": "Shop",
@@ -1230,5 +1238,6 @@
     "everyMonth": "Every month",
     "everyDay": "Every day",
     "everyYear": "Every year",
-    "followInstructionsInDocs": "Please follow the instructions in the documentation."
+    "followInstructionsInDocs": "Please follow the instructions in the documentation.",
+    "advanced": "Advanced"
 }
