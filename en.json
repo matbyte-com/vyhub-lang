@@ -915,8 +915,13 @@
         "prohibitCreateThreadsDescription": "Prevent users from creating new threads. This does not affect users with the 'Manage Forum' permission or Topic Admins.",
         "labelTitle": "Label Title",
         "editThread": "Edit Thread",
+        "lastActivity": "Last Activity",
+        "lockWithAnswer": "Lock thread with answer",
+        "topicAdminGroup": "Topic Admin Groups",
         "messages": {
-            "tooManyLabels": "You can only add up to 4 labels."
+            "tooManyLabels": "You can only add up to 4 labels.",
+            "oldThread": "This thread is older than 3 months. Consider creating a new thread because the thread could be outdated.",
+            "closedThread": "You are about to reply to a closed thread."
         }
     },
     "_advert": {
