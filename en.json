@@ -921,7 +921,8 @@
         "messages": {
             "tooManyLabels": "You can only add up to 4 labels.",
             "oldThread": "This thread is older than 3 months. Consider creating a new thread because the thread could be outdated.",
-            "closedThread": "You are about to reply to a closed thread."
+            "closedThread": "You are about to reply to a closed thread.",
+            "banned": "You are banned from the forum and cannot create new threads or posts."
         }
     },
     "_advert": {
