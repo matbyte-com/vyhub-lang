@@ -176,6 +176,7 @@
         "success": "It might take up to 10 minutes for your instance to be created.{br}Go to the {dashboard} to view the status.",
         "smallCommission": "Small <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>commission</a> on your revenue",
         "messages": {
+            "successSelfhosted": "Your instance has been created successfully.{br}Go to the {dashboard} to choose a payment plan and setup your instance.",
             "customDomainDescriptionSelfhosting": "You need to own a domain and point the DNS A/AAAA record to the server where VyHub will be hosted at.",
             "selfhostedDescription": "The self-hosted version of VyHub is for advanced users only. You will be able to host VyHub yourself with full access to the database. You have to pay a fixed base fee per month and a 3% commission on your revenue.",
             "cloudDescription": "VyHub Cloud is the easiest way to get started with VyHub. We take care of the hosting and maintenance of your instance so you can focus on your community. You only pay if you use paid addons or make revenue with your shop."
