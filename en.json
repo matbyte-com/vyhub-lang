@@ -11,6 +11,7 @@
         "contact": "Contact",
         "faq": "FAQ",
         "docs": "Docs",
+        "balance": "Balance",
         "admin": "Admin",
         "profile": "Profile",
         "affiliate": "Affiliate",
@@ -351,6 +352,7 @@
     },
     "_shop": {
         "labels": {
+            "price_override": "Price Override",
             "cart": "Cart",
             "invoiceLogoURL": "Invoice logo URL",
             "invoiceLogoURLDetails": "URL to a logo that is displayed on the invoice.",
