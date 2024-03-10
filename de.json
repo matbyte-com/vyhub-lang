@@ -10,7 +10,8 @@
             "add": "Gruppenmitgliedschaft hinzufügen",
             "edit": "Gruppenmitgliedschaft bearbeiten",
             "endMembership": "Mitgliedschaft beenden",
-            "activeMemberships": "Aktive Mitgliedschaften"
+            "activeMemberships": "Aktive Mitgliedschaften",
+            "showInactive": "Zeige inaktive"
         }
     },
     "_dashboard": {
@@ -23,7 +24,8 @@
             "removeAdminTitle": "Admin entfernen?",
             "last_online": "Zuletzt online",
             "unlinkAccount": "Account trennen",
-            "unlinkAccountWarning": "Durch das Löschen einer Benutzerverknüpfung wird die Verknüpfung der Konten aufgehoben. Admin-Status, Sperren, Warnungen, Käufe, angewandte Pakete und Credits sind hiervon betroffen und werden möglicherweise anders behandelt, als du es erwartest. Überprüfe alles im Nachhinein!"
+            "unlinkAccountWarning": "Durch das Löschen einer Benutzerverknüpfung wird die Verknüpfung der Konten aufgehoben. Admin-Status, Sperren, Warnungen, Käufe, angewandte Pakete und Credits sind hiervon betroffen und werden möglicherweise anders behandelt, als du es erwartest. Überprüfe alles im Nachhinein!",
+            "visibleToUser": "Sichtbar für Benutzer"
         },
         "messages": {
             "removeAdminConfirmation": "Vergiss nicht, den ehemaligen Admin auch von der Instanz in der zentralen Instanzübersicht zu entfernen."
@@ -200,7 +202,8 @@
         "too_many_ban_protests": "Es gibt bereits 3 Entbannungsanträge für diesen Bann.",
         "requirement_parse_error": "Konnte Vorraussetzungs-Formel nicht verarbeiten. Bitte kontaktiere einen Admin.",
         "payment_error": "Zahlungsfehler: {msg}",
-        "illegal_value": "Ungültiger Wert: {msg}"
+        "illegal_value": "Ungültiger Wert: {msg}",
+        "title_too_long": "Der Titel ist zu lang"
     },
     "_navigation": {
         "enabled": "Aktiviert",
@@ -255,7 +258,8 @@
             "paypalHint": "Für diese PayPal-Integration ist ein PayPal-Geschäftskonto erforderlich. Wenn du noch kein Konto hast, aktualisiere dein PayPal-Konto oder nutze die PayPal-Integration (einfach)."
         },
         "messages": {
-            "deleteWarning": "Vorsicht! Das Löschen eines Zahlungsgateways bewirkt das Löschen aller Käufe und Zahlungen, bei denen das Gateway verwendet wurde! Diese Aktion kann nicht rückgängig gemacht werden. Vielleicht stattdessen deaktivieren?"
+            "deleteWarning": "Vorsicht! Das Löschen eines Zahlungsgateways bewirkt das Löschen aller Käufe und Zahlungen, bei denen das Gateway verwendet wurde! Diese Aktion kann nicht rückgängig gemacht werden. Vielleicht stattdessen deaktivieren?",
+            "attributeChangeExplanation": "Die nachstehenden Parameter werden nicht bearbeitet, wenn kein Wert angegeben wird. Geheime Attribute werden nach dem Speichern nicht wieder angezeigt."
         }
     },
     "_notification": {
@@ -302,7 +306,10 @@
         "countTillBan": "Anzahl der Verwarnungen bis zum automatischen Bann",
         "settingFormDesc": "Benutzer werden automatisch gesperrt, wenn sie die angegebene Anzahl von aktiven Warnungen erreichen.",
         "add": "Verwarnung hinzufügen",
-        "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}"
+        "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}",
+        "labels": {
+            "details": "Verwarn-Details"
+        }
     },
     "_import": {
         "gextension": {
@@ -343,7 +350,8 @@
             "setup": "Server Aufsetzen",
             "queryPortDescription": "SSH Query Port des TS3-Servers. Der Standardport ist 10022.",
             "sshQueryPort": "SSH Query Port",
-            "offline": "Offline"
+            "offline": "Offline",
+            "hidden": "Versteckt"
         },
         "type": {
             "GMOD": "Garry's Mod",
@@ -378,7 +386,10 @@
                 "download": "Lade das Vyhub-Fivem-Plugin herunter und fügen es deinem Server hinzu."
             },
             "RUST": {
-                "download": "Lade das Plugin vyhub-rust herunter und füge es deinem Server hinzu."
+                "download": "Lade das Plugin vyhub-umod herunter und füge es deinem Server hinzu."
+            },
+            "ASA": {
+                "download": "Lade das Plugin vyhub-asa herunter und lege es in den Plugins-Ordner deines Servers. Starten dann den Server neu."
             }
         },
         "deleteServerbundleConfirmationText": "Durch das Löschen eines Serverbundles werden auch alle abhängigen Objekte (Belohnungen, Server, Sperren, Warnungen usw.) gelöscht. Diese Aktion kann nicht rückgängig gemacht werden."
@@ -634,7 +645,11 @@
             },
             "FIVEM": {
                 "name": "FiveM",
-                "info": "GTA 5 Multiplayer."
+                "info": "Mach dich bereit, sei ein Team und regiere die Straßen von Los Santos."
+            },
+            "ASA": {
+                "info": "Zähme die Wildnis, beherrsche die Dinosaurier.",
+                "name": ""
             }
         },
         "labels": {
@@ -730,7 +745,8 @@
         "legal": "Rechtliches",
         "warnings": "Verwarnungen",
         "forum": "Forum",
-        "news": "Neuigkeiten"
+        "news": "Neuigkeiten",
+        "search": "Suche"
     },
     "_api": {
         "labels": {
@@ -1051,7 +1067,7 @@
     "enddate": "Ende",
     "flags": "Flaggen",
     "_forum": {
-        "addThread": "Neues Thema",
+        "addThread": "Neue Diskussion",
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
         "locked": "Geschlossen",
@@ -1064,15 +1080,15 @@
         "forum": "Forum",
         "admin": "Forum-Admin",
         "topicAdmins": "Themen-Admins: ",
-        "hideClosed": "Geschlossene Threads ausblenden",
+        "hideClosed": "Geschlossene Diskussionen ausblenden",
         "numberOfPosts": "Beitragsanzahl",
         "pin": "anpinnen",
-        "numberOfThreads": "Fadenzahl",
+        "numberOfThreads": "Anzahl Diskussionen",
         "pinned": "Angepinnt",
         "editTopic": "Thema bearbeiten",
         "latestPosts": "Neueste Beiträge",
-        "latestThreads": "Neueste Themen",
-        "threads": "Themen",
+        "latestThreads": "Neueste Diskussionen",
+        "threads": "Diskussionen",
         "by": "von",
         "editPost": "Beiträge bearbeiten",
         "posts": "Beiträge",
@@ -1092,17 +1108,23 @@
         "addPost": "Post hinzufügen",
         "created": "Erstellt",
         "last_post": "Letzter Post",
-        "prohibitCreateThreads": "Thread-Erstellung verhindern",
-        "prohibitCreateThreadsDescription": "Verhinder, dass Benutzer neue Threads erstellen. Dies betrifft nicht Benutzer mit der Berechtigung „Forum verwalten“ oder Themenadministratoren.",
+        "prohibitCreateThreads": "Diskussions-Erstellung verhindern",
+        "prohibitCreateThreadsDescription": "Verhinder, dass Benutzer neue Diskussionen erstellen. Dies betrifft nicht Benutzer mit der Berechtigung „Forum verwalten“ oder Themenadministratoren.",
         "welcomeToForum": "Willkommen im Forum",
         "allowEditPost": "Bearbeitung von Beiträgen erlauben",
         "allowEditPostDescription": "Benutzern erlauben, ihre eigenen Beiträge zu bearbeiten.",
         "labelTitle": "Titel des Labels",
-        "editThread": "Thread bearbeiten",
+        "editThread": "Diskussionen bearbeiten",
         "messages": {
-            "tooManyLabels": "Du kannst maximal 4 Labels hinzufügen."
+            "tooManyLabels": "Du kannst maximal 4 Labels hinzufügen.",
+            "oldThread": "Diese Diskussion ist älter als 3 Monate. Überlege ob eine neue Diskussionen eventuell sinnvoller wäre.",
+            "closedThread": "Du bist dabei auf eine geschlossene Diskussionen zu antworten.",
+            "banned": "Du bist vom Forum gebannt und kannst keine neuen Diskussionen oder Beiträge erstellen."
         },
-        "reactions": "Reaktionen"
+        "reactions": "Reaktionen",
+        "lastActivity": "Letzte Aktivitäten",
+        "lockWithAnswer": "Antworten und schließen",
+        "topicAdminGroup": "Themen Admin-Gruppen"
     },
     "_invoice": {
         "invoiceDate": "Rechnungsdatum",
@@ -1190,7 +1212,8 @@
             "btnText": "Knopf Text",
             "question": "Frage",
             "answer": "Antwort",
-            "container": "Container"
+            "container": "Container",
+            "openInNewTab": "In neuem Tab öffnen"
         },
         "currentPlayers": "Momentane Spieler",
         "specifyServers": "Gib in den Einstellungen bis zu zwei Server an",
@@ -1212,5 +1235,14 @@
     "everyYear": "Jedes Jahr",
     "everyMonth": "Jeden Monat",
     "staff": "Mitarbeiter",
-    "followInstructionsInDocs": "Bitte folge den Anweisungen in der Dokumentation."
+    "followInstructionsInDocs": "Bitte folge den Anweisungen in der Dokumentation.",
+    "_search": {
+        "labels": {
+            "linkedUsers": "Verknüpfte Konten",
+            "searchUsers": "Benutzer suchen",
+            "recentlyActiveUsers": "Zuletzt aktiv"
+        }
+    },
+    "advanced": "Erweitert",
+    "memberships": "Mitgliedschaften"
 }
