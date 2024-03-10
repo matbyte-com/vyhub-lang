@@ -321,7 +321,7 @@
                 "info": "Rev Up, Team Up, Rule the Streets of Los Santos."
             },
             "ASA": {
-                "name": "Ark Ascended",
+                "name": "ARK: Survival Ascended",
                 "info": "Tame the Wild, Master the Dinosaurs."
             }
         }
@@ -758,7 +758,7 @@
             "GMOD": "Garry's Mod",
             "MINECRAFT": "Minecraft",
             "FIVEM": "FiveM",
-            "ASA": "Ark Survival Ascended",
+            "ASA": "ARK: Survival Ascended",
             "RUST": "Rust",
             "SEVEN_DAYS": "7 Days to Die"
         },
