@@ -51,7 +51,7 @@
         "customCss": "Eigenes CSS",
         "headerContainer": "Kopfzeile Container",
         "footerColor": "Fußzeilenfarbe",
-        "lightHeaderColor": "Leichte Kopfzeilenfarbe",
+        "lightHeaderColor": "Helle Kopfzeilenfarbe",
         "enable_landingpage": "Landingpage aktiviert"
     },
     "_ban": {
@@ -948,7 +948,7 @@
             "ban_config_edit": "Bearbeiten der Bannkonfiguration in den Einstellungen",
             "ban_comment_show": "Bannkommentare anzeigen",
             "ticket_create": "Verhindert, dass Nutzer Tickets und Bannanfechtungen erstellen",
-            "forum_post": "Verhindert, dass Benutzer im Forum posten",
+            "forum_post": "Verhindert, dass Benutzer im Forum Beiträge erstellen",
             "shop_use": "Verhindert, dass Nutzer den Shop benutzen"
         },
         "categories": {
@@ -1105,9 +1105,9 @@
         "readMore": "Mehr lesen",
         "open": "Öffnen",
         "showClosed": "Geschlossene Elemente anzeigen",
-        "addPost": "Post hinzufügen",
+        "addPost": "Beitrag hinzufügen",
         "created": "Erstellt",
-        "last_post": "Letzter Post",
+        "last_post": "Letzter Beitrag",
         "prohibitCreateThreads": "Diskussions-Erstellung verhindern",
         "prohibitCreateThreadsDescription": "Verhinder, dass Benutzer neue Diskussionen erstellen. Dies betrifft nicht Benutzer mit der Berechtigung „Forum verwalten“ oder Themenadministratoren.",
         "welcomeToForum": "Willkommen im Forum",
