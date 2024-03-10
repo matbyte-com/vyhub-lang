@@ -90,8 +90,7 @@
             "add": "Grup Üyeliği Ekle",
             "endMembership": "Üyeliği Sonlandır",
             "edit": "Grup Üyeliğini Düzenle",
-            "activeMemberships": "Aktif Üyelikler",
-            "showPastMemberships": "Geçmiş üyelikleri göster"
+            "activeMemberships": "Aktif Üyelikler"
         }
     },
     "_dashboard": {

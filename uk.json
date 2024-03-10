@@ -154,7 +154,6 @@
     "_membership": {
         "labels": {
             "endMembership": "Видалити з групи",
-            "showPastMemberships": "Показати неактивних учасників",
             "edit": "Редагувати групу",
             "activeMemberships": "Активні учасники",
             "add": "Додати в групу"

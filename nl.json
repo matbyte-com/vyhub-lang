@@ -62,8 +62,7 @@
             "add": "Groepslid toevoegen",
             "edit": "Bewerk groepslid",
             "endMembership": "Eind lidmaatschap",
-            "activeMemberships": "Actieve groepsleden",
-            "showPastMemberships": "Oude groepsleden laten zien"
+            "activeMemberships": "Actieve groepsleden"
         }
     },
     "_ban": {

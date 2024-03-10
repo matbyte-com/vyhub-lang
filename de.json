@@ -10,8 +10,7 @@
             "add": "Gruppenmitgliedschaft hinzufügen",
             "edit": "Gruppenmitgliedschaft bearbeiten",
             "endMembership": "Mitgliedschaft beenden",
-            "activeMemberships": "Aktive Mitgliedschaften",
-            "showPastMemberships": "Inaktive Mitgliedschaften anzeigen"
+            "activeMemberships": "Aktive Mitgliedschaften"
         }
     },
     "_dashboard": {

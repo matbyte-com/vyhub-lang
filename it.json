@@ -38,7 +38,6 @@
     },
     "_membership": {
         "labels": {
-            "showPastMemberships": "Mostra Ruoli Passati",
             "activeMemberships": "Attiva Ruoli",
             "endMembership": "Rimuovi Ruolo",
             "edit": "Modifica Ruoli",

@@ -145,8 +145,7 @@
             "add": "Přidat Skupinové Členství",
             "edit": "Upravit Skupinové Členství",
             "endMembership": "Zrušit Členství",
-            "activeMemberships": "Aktivní Členství",
-            "showPastMemberships": "Zobrazit Předchozí Členství"
+            "activeMemberships": "Aktivní Členství"
         }
     },
     "_group": {

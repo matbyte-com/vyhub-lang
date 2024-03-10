@@ -4,8 +4,7 @@
             "activeMemberships": "Inscrições",
             "endMembership": "Encerrar inscrição",
             "add": "Adicionar inscrição ao grupo",
-            "edit": "Editar inscrição do grupo",
-            "showPastMemberships": "Mostrar inscrições antigas"
+            "edit": "Editar inscrição do grupo"
         }
     },
     "_dashboard": {

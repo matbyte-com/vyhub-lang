@@ -222,8 +222,7 @@
             "add": "Ajouter une adhésion à un groupe",
             "edit": "Modifier l'appartenance au groupe",
             "activeMemberships": "Adhésions actives",
-            "endMembership": "Mettre fin à l'adhésion",
-            "showPastMemberships": "Afficher les anciennes adhésions"
+            "endMembership": "Mettre fin à l'adhésion"
         }
     },
     "_serverbundle": {
