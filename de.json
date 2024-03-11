@@ -1118,7 +1118,7 @@
         "messages": {
             "tooManyLabels": "Du kannst maximal 4 Labels hinzufügen.",
             "oldThread": "Diese Diskussion ist älter als 3 Monate. Überlege ob eine neue Diskussionen eventuell sinnvoller wäre.",
-            "closedThread": "Du bist dabei auf eine geschlossene Diskussionen zu antworten.",
+            "closedThread": "Du bist dabei, auf eine geschlossene Diskussion zu antworten.",
             "banned": "Du bist vom Forum gebannt und kannst keine neuen Diskussionen oder Beiträge erstellen."
         },
         "reactions": "Reaktionen",
