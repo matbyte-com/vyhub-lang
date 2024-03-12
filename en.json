@@ -154,7 +154,8 @@
             "editBundle": "Edit Serverbundle",
             "addServer": "Add Server",
             "updateOrder": "Update Order",
-            "resetOrder": "Reset Order"
+            "resetOrder": "Reset Order",
+            "previewImageURL": "Preview Image URL"
         }
     },
     "_group": {
