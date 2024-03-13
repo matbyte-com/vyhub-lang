@@ -141,7 +141,8 @@
             "lastDonatorsDisplayTitle": "Anzeigename der letzten Spenden",
             "enableLastDonators": "Letzte Spenden aktivieren",
             "topDonatorsDaysLimit": "Akkumulationsdauer",
-            "yourAccounts": "Deine Konten"
+            "yourAccounts": "Deine Konten",
+            "showPacketsAsList": "Pakete als Liste anzeigen"
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -1244,5 +1245,6 @@
         }
     },
     "advanced": "Erweitert",
-    "memberships": "Mitgliedschaften"
+    "memberships": "Mitgliedschaften",
+    "news": "Neuigkeiten"
 }
