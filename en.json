@@ -171,6 +171,7 @@
         "shopTitle": "Welcome to the Shop",
         "labels": {
             "financeReport": "Finance Report",
+            "showPacketsAsList": "Show packets as list",
             "downloadInvoices": "Download Invoices",
             "cart": "Cart",
             "invoiceLogoURL": "Invoice logo URL",
