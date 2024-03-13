@@ -43,7 +43,8 @@
             "visibleToUser": "Visible to user"
         },
         "messages": {
-            "removeAdminConfirmation": "Do not forget to remove the former admin from the instance in your central instance overview."
+            "removeAdminConfirmation": "Do not forget to remove the former admin from the instance in your central instance overview.",
+            "deleteUserText": "Deleting a user also deletes all related bans, warnings, purchases, statistics, etc. This action can't be undone."
         }
     },
     "_ban": {
