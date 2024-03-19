@@ -1251,5 +1251,6 @@
     "followInstructionsInDocs": "Please follow the instructions in the documentation.",
     "advanced": "Advanced",
     "memberships": "Memberships",
-    "news": "News"
+    "news": "News",
+    "deletedUser": "Deleted User"
 }
