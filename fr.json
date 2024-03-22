@@ -9,10 +9,12 @@
             "removeAdminTitle": "Supprimer l'administrateur ?",
             "last_online": "Dernière connexion",
             "unlinkAccountWarning": "La suppression d'un lien utilisateur dissociera les comptes. Le statut d'administrateur, les interdictions, les avertissements, les achats, les paquets appliqués et les crédits sont affectés par cela et peuvent ne pas être traités comme vous l'attendez. Vérifiez-les ensuite pour vous assurer que tout va bien.",
-            "unlinkAccount": "Délier compte"
+            "unlinkAccount": "Délier compte",
+            "visibleToUser": "Visible pour l'utilisateur"
         },
         "messages": {
-            "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale."
+            "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale.",
+            "deleteUserText": "La suppression d'un utilisateur efface également tous les bannissements, avertissements, achats, statistiques, etc. qui y sont liés. Cette action ne peut pas être annulée."
         }
     },
     "_theme": {
@@ -69,7 +71,8 @@
             "addServer": "Ajouter un serveur",
             "editGroup": "Modifier le groupe",
             "updateOrder": "Mettre à jour l'ordre",
-            "resetOrder": "Réinitialiser l'ordre"
+            "resetOrder": "Réinitialiser l'ordre",
+            "previewImageURL": "Prévisualisation de l'URL de l'image"
         },
         "formulaBeta": "Cette fonction est en phase bêta. Veuillez utiliser avec prudence.",
         "httpPlaceholder": "https://myurl.com",
@@ -171,7 +174,8 @@
             "topDonatorsDaysLimit": "Jours à afficher",
             "topDonatorDisplayTitle": "Les meilleurs donateurs affichent le titre",
             "donationGoalDisplayTitle": "Titre d'affichage de l'objectif de donation",
-            "yourAccounts": "Votre compte"
+            "yourAccounts": "Votre compte",
+            "showPacketsAsList": "Afficher les paquets sous forme d'une liste"
         },
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} {credits_display_title}.",
@@ -222,7 +226,8 @@
             "add": "Ajouter une adhésion à un groupe",
             "edit": "Modifier l'appartenance au groupe",
             "activeMemberships": "Adhésions actives",
-            "endMembership": "Mettre fin à l'adhésion"
+            "endMembership": "Mettre fin à l'adhésion",
+            "showInactive": "Montrer inactif"
         }
     },
     "_serverbundle": {
@@ -267,7 +272,8 @@
         "ban_protest_open": "Une contestation existe déjà pour ce bannissement.",
         "too_many_ban_protests": "Il y a déjà 3 contestations pour ce bannissement.",
         "payment_error": "Erreur de paiement : {msg}",
-        "illegal_value": "Valeur invalide : {msg}"
+        "illegal_value": "Valeur invalide : {msg}",
+        "title_too_long": "Le titre est trop long"
     },
     "_user": {
         "labels": {
@@ -297,7 +303,11 @@
             },
             "FIVEM": {
                 "name": "FiveM",
-                "info": "GTA 5 Multiplayer."
+                "info": "Domine les rues de Los Santos."
+            },
+            "ASA": {
+                "name": "ARK: Survival Ascended",
+                "info": "Apprivoisez les animaux sauvages, maîtrisez les dinosaures."
             }
         },
         "messages": {
@@ -305,7 +315,8 @@
             "linkedAccounts": "Liaison réussie des comptes utilisateurs.",
             "couldNotLinkUsers": "Impossible de relier les comptes utilisateurs."
         },
-        "userLinkDescription": "L'établissement d'un lien avec un utilisateur permet de combiner vos comptes de manière magique. Attention, cette magie ne peut être annulée !"
+        "userLinkDescription": "L'établissement d'un lien avec un utilisateur permet de combiner vos comptes de manière magique. Attention, cette magie ne peut être annulée !",
+        "userLoginShopDescription": "Veuillez vous enregistrer afin que nous puissions vous identifier en jeu."
     },
     "_legal": {
         "showLegalReminder": "Veuillez définir les informations légales dans les paramètres !",
@@ -386,7 +397,7 @@
             "activeFor": "Actif pour",
             "activeSince": "Actif depuis",
             "activeUntil": "Actif jusqu'à",
-            "activeForDetail": "Combien de temps le paquet doit être actif après l'activation. Laissez ce champ vide pour les paquets qui ne doivent pas être désactivés après un certain temps. Si l'option récurrente est activée, cette valeur est utilisée comme intervalle d'abonnement.",
+            "activeForDetail": "Durée du paquet après l'activation. Laissez ce champ vide pour les paquets qui ne doivent pas être désactivés au fil du temps. Si l'option récurrente est activée, cette valeur est utilisée comme intervalle d'abonnement.",
             "limitPaymentMethods": "Limiter les modes de paiement",
             "limitPaymentMethodsDetail": "Si des méthodes de paiement sont sélectionnées, seules celles-ci peuvent être utilisées. Sinon, toutes les méthodes peuvent être utilisées.",
             "customPriceDetail": "Laissez l'utilisateur décider du prix. Le prix saisi ci-dessus est utilisé comme prix minimal.",
@@ -569,7 +580,8 @@
             "imageUrlDescription": "Facultatif. Les images par défaut sont utilisées lorsqu'aucun lien n'est fourni."
         },
         "messages": {
-            "deleteWarning": "Attention ! Supprimer une passerelle de paiement provoque la suppression de tous les achats et paiements utilisés par la passerelle de paiement. Cette action ne peut pas être annulée. Ne voulez-vous pas plutôt la désactiver ?"
+            "deleteWarning": "Attention ! Supprimer une passerelle de paiement provoque la suppression de tous les achats et paiements utilisés par la passerelle de paiement. Cette action ne peut pas être annulée. Ne voulez-vous pas plutôt la désactiver ?",
+            "attributeChangeExplanation": "Les attributs ci-dessous ne seront pas modifiés si aucune valeur n'est indiquée. Les attributs secrets sont en écriture seule, ce qui signifie que vos données ne seront pas affichées à nouveau."
         }
     },
     "_taxRule": {
@@ -647,7 +659,8 @@
         "serverDashboard": "Tableau de bord du serveur",
         "faq": "FAQ",
         "forum": "Forum",
-        "news": "Actualités"
+        "news": "Actualités",
+        "search": "Rechercher"
     },
     "_warning": {
         "title": "Avertissements",
@@ -660,7 +673,10 @@
         "add": "Ajouter un avertissement",
         "banLength": "Durée du bannissement automatique (minutes)",
         "reason": "Raison",
-        "showUserWarnings": "Affichage des avertissements de l'utilisateur avec l'ID : {id}"
+        "showUserWarnings": "Affichage des avertissements de l'utilisateur avec l'ID : {id}",
+        "labels": {
+            "details": "Détails des avertissements"
+        }
     },
     "_server": {
         "labels": {
@@ -677,13 +693,17 @@
             "details": "Détails du serveur",
             "offline": "Hors-Ligne",
             "sshQueryPort": "Port d'interrogation SSH",
-            "queryPortDescription": "Interroger le port de votre serveur TS3. Le port standard est 10022."
+            "queryPortDescription": "Interroger le port de votre serveur TS3. Le port standard est 10022.",
+            "hidden": "Caché"
         },
         "type": {
             "DISCORD": "Discord",
             "MINECRAFT": "Minecraft",
             "GMOD": "Garry's Mod",
-            "FIVEM": "FiveM"
+            "FIVEM": "FiveM",
+            "ASA": "ARK: Survival Ascended",
+            "RUST": "Rust",
+            "SEVEN_DAYS": "7 Days to Die"
         },
         "instructions": {
             "COMMON": {
@@ -712,7 +732,10 @@
                 "download": "Téléchargez le plugin vyhub-fivem et ajoutez-le à votre serveur."
             },
             "RUST": {
-                "download": "Téléchargez le plugin vyhub-rust et ajoutez-le à votre serveur."
+                "download": "Téléchargez le plugin vyhub-umod (Rust & 7 Days To Die) puis ajoutez-le à votre serveur."
+            },
+            "ASA": {
+                "download": "Téléchargez le plugin vyhub-asa et placez-le dans le dossier plugins de votre serveur. Redémarrez ensuite votre serveur."
             }
         },
         "deleteServerbundleConfirmationText": "La suppression d'un groupe de serveurs entraîne également la suppression de tous les objets qui en dépendent (récompenses, serveurs, bannissement, avertissements, ...). Cette action ne peut pas être annulée."
@@ -1058,7 +1081,7 @@
         "latestThreads": "Derniers Fils",
         "threads": "Fils",
         "by": "par",
-        "editPost": "Autoriser la modification des publications",
+        "editPost": "Modification de la publication",
         "edited": "Édité",
         "creator": "Créateur",
         "created": "Créé",
@@ -1078,8 +1101,8 @@
         "admin": "Administrateurs du forum",
         "topicAdmins": "Administrateurs du sujet : ",
         "hideClosed": "Masquer les discussions fermées",
-        "numberOfThreads": "Nombre de fils : ",
-        "numberOfPosts": "Nombre de postes :",
+        "numberOfThreads": "Nombre de fils",
+        "numberOfPosts": "Nombre de postes",
         "pinned": "épinglée",
         "allowEditPostDescription": "Permettre aux utilisateurs de modifier leurs propres messages.",
         "editThread": "Éditer le fil",
@@ -1090,8 +1113,14 @@
         "prohibitCreateThreads": "Empêcher la création d'un fil de discussion",
         "prohibitCreateThreadsDescription": "Empêcher les utilisateurs de créer de nouvelles discussions. Cela n'affecte pas les utilisateurs disposant de l'autorisation \"Gérer le forum\" ou les administrateurs de sujets.",
         "messages": {
-            "tooManyLabels": "Vous pouvez ajouter jusqu'à 4 étiquettes."
-        }
+            "tooManyLabels": "Vous pouvez ajouter jusqu'à 4 étiquettes.",
+            "oldThread": "Cette discussion date de plus de 3 mois. Créer une nouvelle discussion car celle-ci pourrait être obsolète.",
+            "banned": "Vous êtes banni du forum et ne pouvez pas créer de nouveaux fils de discussion ou de nouveaux messages.",
+            "closedThread": "Vous êtes sur le point de répondre à un fil de discussion fermé."
+        },
+        "lastActivity": "Dernières activités",
+        "lockWithAnswer": "Verrouiller le fil de discussion avec une réponse",
+        "topicAdminGroup": "Groupes Administrateur du Topic"
     },
     "_invoice": {
         "invoice": "Facture",
@@ -1212,5 +1241,16 @@
     "total": "Total",
     "chat": "Tchat",
     "global": "Global",
-    "rawHtml": "HTML brut"
+    "rawHtml": "HTML brut",
+    "deletedUser": "Utilisateur supprimé",
+    "_search": {
+        "labels": {
+            "linkedUsers": "Utilisateurs liés",
+            "searchUsers": "Rechercher des utilisateurs",
+            "recentlyActiveUsers": "Utilisateurs récemment actifs"
+        }
+    },
+    "advanced": "Avancé",
+    "memberships": "Abonnement",
+    "news": "Actualités"
 }
