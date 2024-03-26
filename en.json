@@ -184,6 +184,7 @@
     },
     "_instance": {
         "labels": {
+            "subdomain": "Subdomain",
             "edit": "Edit Instance",
             "daysLeft": "days left",
             "config": "Config",
