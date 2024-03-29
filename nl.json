@@ -243,7 +243,8 @@
         "quantity": "Hoeveelheid",
         "subtotalNoVat": "Subtotaal (zonder btw)",
         "total": "Totaal",
-        "vat": "BTW"
+        "vat": "BTW",
+        "refund": "Terugbetaling"
     },
     "_login": {
         "messages": {
