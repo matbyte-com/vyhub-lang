@@ -17,7 +17,8 @@
             "hey_x": "Hey {name}",
             "best_regards": "Best regards",
             "your_x_team": "Your {name} Team",
-            "thank_you": "Thank you for using our services."
+            "thank_you": "Thank you for using our services.",
+            "purchase_history": "Purchase History"
         },
         "cart_follow_up": {
             "exploring": "We noticed you've been exploring the incredible world of {name}. It seems you have abandoned something in your cart.",

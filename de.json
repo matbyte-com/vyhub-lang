@@ -10,7 +10,8 @@
             "cart_follow_up": "Du verpasst etwas!",
             "notification": "Neue Benachrichtigung von {name}",
             "payment_successful": "Zahlung erfolgreich, Rechnung verfügbar",
-            "subscription_cancelled": "Abonnement storniert"
+            "subscription_cancelled": "Abonnement storniert",
+            "purchase_history": "Kaufübersicht"
         },
         "base": {
             "hello_x": "Hallo {name}",
