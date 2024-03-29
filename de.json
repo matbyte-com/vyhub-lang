@@ -5,6 +5,42 @@
             "logout": "Ausloggen"
         }
     },
+    "_mail": {
+        "subjects": {
+            "cart_follow_up": "Du verpasst etwas!",
+            "notification": "Neue Benachrichtigung von {name}",
+            "payment_successful": "Zahlung erfolgreich, Rechnung verfügbar",
+            "subscription_cancelled": "Abonnement storniert"
+        },
+        "base": {
+            "hello_x": "Hallo {name}",
+            "hey_x": "Hey {name}",
+            "best_regards": "Viele Grüße",
+            "your_x_team": "Dein {name} Team",
+            "thank_you": "Vielen Dank, dass du unsere Dienste nutzt.",
+            "purchase_history": "Kaufübersicht"
+        },
+        "cart_follow_up": {
+            "exploring": "Wir haben mitbekommen, dass du dir die weite Welt von {name} angesehen hast und dabei etwas in deinem Warenkorb vergessen hast.",
+            "benefits": "Verpasse nicht die exklusiven Vorteile und Privilegien, auf die du ein Auge geworfen hast!",
+            "your_cart": "Dein Warenkorb",
+            "take_me_to_my_cart": "Zum Warenkorb"
+        },
+        "notification": {
+            "new_notification": "Du hast eine neue Benachrichtigung von {name} erhalten",
+            "can_disable": "Du kannst diese E-Mails in deinen persönlichen Einstellungen deaktivieren."
+        },
+        "payment_successful": {
+            "payment_processed": "Deine Zahlung in Höhe von {amount} wurde erfolgreich bearbeitet.",
+            "invoice_available": "Eine Rechnung steht in deiner {purchase_history} bereit."
+        },
+        "subscription_cancelled": {
+            "gateway_sub_cancelled": "Dein {gateway} Abonnement wurde storniert.",
+            "product": "Produkt",
+            "subscription_id": "Abonnement ID",
+            "check_status": "Den aktuellen Status kannst du in der {purchase_history} sehen."
+        }
+    },
     "_membership": {
         "labels": {
             "add": "Gruppenmitgliedschaft hinzufügen",

@@ -5,6 +5,41 @@
             "logout": "Logout"
         }
     },
+    "_mail": {
+        "subjects": {
+            "cart_follow_up": "Don't Miss Out on Your Experience",
+            "notification": "New notification at {name}",
+            "payment_successful": "Payment successful, invoice available",
+            "subscription_cancelled": "Subscription cancelled"
+        },
+        "base": {
+            "hello_x": "Hello {name}",
+            "hey_x": "Hey {name}",
+            "best_regards": "Best regards",
+            "your_x_team": "Your {name} Team",
+            "thank_you": "Thank you for using our services."
+        },
+        "cart_follow_up": {
+            "exploring": "We noticed you've been exploring the incredible world of {name}. It seems you have abandoned something in your cart.",
+            "benefits": "Don't miss out on exclusive benefits and privileges where you have your eyes on.",
+            "your_cart": "Your Cart",
+            "take_me_to_my_cart": "Take me to my Cart"
+        },
+        "notification": {
+            "new_notification": "You received a new notification at {name}",
+            "can_disable": "You can disable these email notifications in your personal settings."
+        },
+        "payment_successful": {
+            "payment_processed": "your payment of {amount} has been successfully processed.",
+            "invoice_available": "An invoice is available in your {purchase_history}."
+        },
+        "subscription_cancelled": {
+            "gateway_sub_cancelled": "your {gateway} subscription has been cancelled.",
+            "product": "Product",
+            "subscription_id": "Subscription ID",
+            "check_status": "Check the current status in the {purchase_history}."
+        }
+    },
     "_invoice": {
         "invoice": "Invoice",
         "refund": "Refund",
@@ -686,7 +721,7 @@
             "shop": "Shop",
             "warning": "Warning"
         },
-        "news_new": "News created: {newsSubject}.",
+        "news_new": "News: {newsSubject}.",
         "ticket_new": "{username} created ticket: {title}",
         "ticket_update": "New post in ticket: {title}",
         "ban_new": "You have been banned. Reason: {reason}",
@@ -696,7 +731,7 @@
         "purchase_finished_other": "{username} finished a purchase of {amount} via {gateway_name}.",
         "purchase_finished": "Your purchase of {amount} has been finished!",
         "purchase_cancelled": "Your purchase of {amount} has been cancelled!",
-        "warning_new": "A new warning has been created. Reason: {reason}",
+        "warning_new": "You have been warned. Reason: {reason}",
         "coupon_purchase_new": "{username} submitted {gateway_name} codes ({amount_total} {currency_symbol}) that need to be approved."
     },
     "_pageTitle": {
