@@ -17,8 +17,7 @@
             "hey_x": "Hey {name}",
             "best_regards": "Viele Grüße",
             "your_x_team": "Dein {name} Team",
-            "thank_you": "Vielen Dank, dass du unsere Dienste nutzt.",
-            "purchase_history": "Kaufübersicht"
+            "thank_you": "Vielen Dank, dass du unsere Dienste nutzt."
         },
         "cart_follow_up": {
             "exploring": "Wir haben mitbekommen, dass du dir die weite Welt von {name} angesehen hast und dabei etwas in deinem Warenkorb vergessen hast.",
