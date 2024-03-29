@@ -54,7 +54,8 @@
             "registered_on": "Geregistreerd op",
             "last_online": "Laatst online",
             "membershipEndDescription": "Laat leeg voor onbeperkte duur",
-            "removeAdminTitle": "Verwijder beheer?"
+            "removeAdminTitle": "Verwijder beheer?",
+            "unlinkAccount": "Account loskoppelen"
         }
     },
     "_membership": {
@@ -62,7 +63,8 @@
             "add": "Groepslid toevoegen",
             "edit": "Bewerk groepslid",
             "endMembership": "Eind lidmaatschap",
-            "activeMemberships": "Actieve groepsleden"
+            "activeMemberships": "Actieve groepsleden",
+            "showInactive": "Niet actief tonen"
         }
     },
     "_ban": {
