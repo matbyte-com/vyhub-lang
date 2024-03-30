@@ -16,7 +16,8 @@
         "profile": "Profile",
         "affiliate": "Affiliate",
         "purchases": "Purchases",
-        "customers": "Customers"
+        "customers": "Customers",
+        "support":  "Support"
     },
     "_footer": {
         "about": "About VyHub",
@@ -575,6 +576,7 @@
         }
     },
     "_support": {
+        "getHelp": "Get Help",
         "messages": {
             "needHelp": "Need help? Create a support request.",
             "requestSendSuccess": "Support request successfully sent. You should receive a confirmation e-mail soon."
