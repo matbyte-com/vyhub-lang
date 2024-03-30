@@ -577,6 +577,9 @@
     },
     "_support": {
         "getHelp": "Get Help",
+        "discordDescription": "Join our Discord server to get help from the community and the developers.",
+        "youtubeDescription": "Check out our Youtube channel for tutorials and guides.",
+        "documentationDescription": "Read the documentation to find answers to common questions.",
         "messages": {
             "needHelp": "Need help? Create a support request.",
             "requestSendSuccess": "Support request successfully sent. You should receive a confirmation e-mail soon."
@@ -1004,5 +1007,6 @@
     "everyYear": "Every year",
     "subscription": "Subscription",
     "days": "Days",
-    "month": "Month"
+    "month": "Month",
+    "frequentlyAskedQuestions": "Frequently Asked Questions"
 }
