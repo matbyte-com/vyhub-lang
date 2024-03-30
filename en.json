@@ -196,6 +196,10 @@
         }
     },
     "_group": {
+        "labels": {
+            "protected": "Protected",
+            "protectedDescription": "Changes to memberships in this group are not allowed from third party applications like gameservers. Additionally, members of this group might be protected from bans."
+        },
         "maxBanLengthInDays": "Max Ban Length (in days)",
         "maxBanLengthInDaysDescription": "Leave empty for infinitive bans",
         "mappings": {
