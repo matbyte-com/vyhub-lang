@@ -20,7 +20,9 @@
         "docs": "Documentation",
         "profile": "Profil",
         "affiliate": "Affilier",
-        "customers": "Clients"
+        "customers": "Clients",
+        "balance": "crédit",
+        "support": "Soutien"
     },
     "_form": {
         "contact": {
@@ -52,7 +54,16 @@
                 "username_not_allowed": "Identifiant interdit",
                 "email_taken": "Cet email est déjà pris. Veuillez vous connecter."
             },
-            "sendConfirmationCode": "Envoyer le code"
+            "sendConfirmationCode": "Envoyer le code",
+            "howDidYouHearAboutUsOptions": {
+                "youtube": "Youtube",
+                "other": "Autre",
+                "socialMedia": "Réseaux sociaux",
+                "friends": "Des amis",
+                "searchEngine": "Moteur de recherche (Google, Bing, ...)",
+                "otherCommunity": "Autre communauté"
+            },
+            "howDidYouHearAboutUs": "Comment as-tu entendu parler de nous ?"
         },
         "validation": {
             "required": "Ce champ est obligatoire",
@@ -63,7 +74,9 @@
             "usernameFormat": "Le nom d'utilisateur ne doit contenir que ces caractères : a-z, 0-9, ., _, -",
             "passwordNoNumber": "le mot de passe doit contenir au moins un chiffre",
             "passwordNoSpecialCharacter": "Le mot de passe doit contenir au moins un caractère spécial",
-            "codeLength": "Le code doit être de longueur 5"
+            "codeLength": "Le code doit être de longueur 5",
+            "emailInvalid": "L'adresse e-mail doit être valide",
+            "formInvalid": "Le formulaire est invalide"
         }
     },
     "_log": {
@@ -105,7 +118,13 @@
         "purchase_unrevoke": "Achat non révoqué. id_achat : {id_achat}.",
         "purchase_refund": "Achat remboursé. id_achat : {purchase_id}, id_débit : {debit_id}, id_remboursement_debit : {refund_debit_id}.",
         "payment_credits_success": "Paiement du crédit réussi. action : {action}, user_id : {user_id}, debit_id : {debit_id}, crédits : {credits}.",
-        "payment_credits_fail": "Le paiement du crédit a échoué. action : {action}, user_id : {user_id}, debit_id : {debit_id}, crédits : {credits}, raison : {reason}."
+        "payment_credits_fail": "Le paiement du crédit a échoué. action : {action}, user_id : {user_id}, debit_id : {debit_id}, crédits : {credits}, raison : {reason}.",
+        "labels": {
+            "level": "Niveau"
+        },
+        "messages": {
+            "limitReachedFilter": "Limite de journal atteinte, utilisez des filtres."
+        }
     },
     "_address": {
         "labels": {
@@ -117,7 +136,8 @@
             "state": "État",
             "zip_code": "Code postal",
             "vat_number": "Numéro de TVA",
-            "selectAddress": "Sélectionnez l'adresse"
+            "selectAddress": "Sélectionnez l'adresse",
+            "edit": "Modifier l'adresse"
         },
         "messages": {
             "changeSuccess": "L'adresse de l'entreprise a été modifiée avec succès.",
@@ -137,8 +157,10 @@
                 "headline4": "Statistiques",
                 "title5": "Réductions",
                 "headline5": "Réductions",
-                "title6": "Passerelles de paiement"
-            }
+                "title6": "Passerelles de paiement",
+                "headline1": "Paquets illimités"
+            },
+            "subtitle": "Vendez des classements et des objets en jeu contre de l'argent réel."
         },
         "_groupsAndTeams": {
             "_features": {
@@ -166,13 +188,14 @@
                 "title1": "Tableau de bord",
                 "title2": "Tableau de bord du serveur"
             }
-        }
+        },
+        "allFeatures": "Toutes les fonctionnalités"
     },
     "_footer": {
         "legal": "Mentions légales",
         "_help": {
             "docs": "Documentation",
-            "support": "Support",
+            "support": "Soutien",
             "status": "Page d'état"
         },
         "_legal": {
@@ -210,11 +233,7 @@
         "vat": "TVA",
         "refund": "Remboursement"
     },
-    "log": {
-        "labels": {
-            "log": "Log"
-        }
-    },
+    "log": "Enregistrer",
     "_home": {
         "shop": "Boutique",
         "sections": {
@@ -236,7 +255,7 @@
                 "bulletPoint1": "Actualités",
                 "bulletPoint3": "Système de tickets",
                 "bulletPoint4": "Page de l'équipe",
-                "bulletPoint2": "."
+                "bulletPoint2": "API REST complète"
             }
         },
         "endcards": {
@@ -248,7 +267,7 @@
             "customizable": {
                 "bulletPoint2": "Personnaliser l'image d'arrière-plan et le jeu de couleurs",
                 "bulletPoint4": "Utilisez votre propre (sous)domaine",
-                "bulletPoint5": ".",
+                "bulletPoint5": "API REST complète",
                 "bulletPoint3": "Téléchargez du code HTML pour créer vos propres sous-pages",
                 "bulletPoint1": "Entièrement réglable et personnalisable selon vos besoins"
             },
@@ -290,7 +309,11 @@
         "joinOurDiscord": "Rejoignez notre Discord",
         "rightManagement": "Contrôle d'accès",
         "supportedGames": "Jeux pris en charge / Intégrations",
-        "contactFormSubtitle": "Avez-vous des questions concernant les fonctionnalités, le paiement ou autre chose ? Envoyez-nous un message."
+        "contactFormSubtitle": "Avez-vous des questions concernant les fonctionnalités, le paiement ou autre chose ? Envoyez-nous un message.",
+        "ourCommunities": "Nos communautés",
+        "_communities": {
+            "description": "Des centaines de communautés font confiance à VyHub. Deviens l'une d'elles !"
+        }
     },
     "_dashboard": {
         "title": "Tableau de bord",
@@ -333,7 +356,14 @@
             "taxAllowUnknown": "Autoriser les achats en provenance de pays sans règle fiscale.",
             "taxAllowUnknownDescription": "Si cette option est désactivée, les achats provenant de pays qui n'ont pas de règle fiscale explicite configurée ne sont pas possibles.",
             "cancelPayment": "Annuler le paiement",
-            "cancelPurchase": "Annuler l'achat"
+            "cancelPurchase": "Annuler l'achat",
+            "orderWithObligationToPay": "Commande avec obligation de paiement",
+            "pleaseWait": "Veuillez patienter...",
+            "redirectDescription": "Vous serez redirigé vers le fournisseur de paiement",
+            "payNow": "Payer maintenant",
+            "price_override": "Remplacement du prix",
+            "financeReport": "Rapport financier",
+            "downloadInvoices": "Télécharger les factures"
         },
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} crédits.",
@@ -364,7 +394,10 @@
             "includesVAT": "Comprend {tax_rate}% de TVA.",
             "selectBillingAddressFirst": "Veuillez d'abord sélectionner une adresse de facturation.",
             "selectEmailFirst": "Veuillez d'abord mettre à jour votre adresse e-mail",
-            "cancelPurchaseConfirmation": "Les paiements commencés sont annulés. Tous les coupons saisis sont perdus. L'annulation d'un achat ne peut pas être annulée."
+            "cancelPurchaseConfirmation": "Les paiements commencés sont annulés. Tous les coupons saisis sont perdus. L'annulation d'un achat ne peut pas être annulée.",
+            "variablePricePaymentSuccess": "Méthode de paiement enregistrée avec succès pour une utilisation future.",
+            "notEnoughLiquidityForAddons": "Tu as besoin d'un solde VyHub positif ou d'avoir activé le paiement automatique pour pouvoir activer des extensions.",
+            "paymentSuccess": "Le paiement a été effectué avec succès."
         },
         "purchaseStatus": {
             "open": "Ouvrir",
@@ -393,7 +426,14 @@
         "wrong_currency": "Vous ne pouvez pas avoir de paquets avec des devises différentes dans votre panier.",
         "coupon": {
             "not_found": "Ce code est invalide."
-        }
+        },
+        "name_not_available": "Nom non disponible",
+        "no_server_available": "Aucun serveur disponible pour une nouvelle instance. Veuillez contacter le support.",
+        "too_many_instances": "Vous ne pouvez pas créer d'autres instances. Veuillez contacter le support pour augmenter votre limite.",
+        "no_resources_available": "Il n'y a pas suffisamment de ressources informatiques disponibles.",
+        "undefined": "Erreur inattendue. Veuillez contacter le support.",
+        "wrong_giftcode": "Le code cadeau n'est pas valide",
+        "domain_not_available": "Domaine non disponible"
     },
     "_gateway": {
         "labels": {
@@ -447,7 +487,15 @@
             "showApprovedDebits": "Afficher les débits approuvés",
             "paymentGateway": "Passerelle de paiement",
             "addAppliedReward": "Ajouter une récompense appliquée",
-            "reward": "Récompense"
+            "reward": "Récompense",
+            "range": "gamme",
+            "allTime": "Tout le temps",
+            "thisYear": "Cette année",
+            "thisMonth": "Ce mois-ci",
+            "revenueByCategory": "Revenus par catégorie",
+            "averagePurchaseAmount": "Moy. montant",
+            "notAffectedByRangeSelector": "Non affecté par le sélecteur de plage",
+            "activeSubscriptions": "Abonnés actifs"
         },
         "messages": {
             "cancelSubscriptionSuccess": "Abonnement annulé avec succès.",
@@ -466,8 +514,38 @@
     },
     "_affiliate": {
         "status": {
-            "finished": "Achevé"
-        }
+            "finished": "Achevé",
+            "pending": "En attente",
+            "rejected": "Rejeté",
+            "created": "Créé"
+        },
+        "recipient": "Destinataire",
+        "affiliateResources": "Ressources d'affiliation",
+        "payoutNow": "Payer maintenant",
+        "integrationToken": "Jeton d'intégration",
+        "registeredUsers": "Utilisateurs enregistrés",
+        "processedOn": "Traité le",
+        "newTokenDescription": "Tu peux utiliser ce jeton pour créer des instances au nom de tes clients. Copie ce jeton et garde-le en sécurité. Il ne sera pas affiché à nouveau.",
+        "generateAccessToken": "Générer un nouveau jeton",
+        "totalReferrals": "Total des références",
+        "totalPaid": "Totalement payé",
+        "messages": {
+            "linkCopied": "Lien copié dans le presse-papiers.",
+            "payoutSuccess": "Paiement lancé avec succès."
+        },
+        "affiliateDashboard": "Tableau de bord d'affiliation",
+        "currentBalance": "Solde actuel",
+        "pendingBalance": "Solde en attente",
+        "overlayDescription": "Ce tableau de bord est pour les utilisateurs du programme d'affiliation. Tu cherches ton tableau de bord de compte ?",
+        "yourAffiliateLink": "Ton lien d'affiliation",
+        "payouts": "Paiements",
+        "payout": "Paiement",
+        "transactionId": "identifiant de transaction",
+        "currentBalanceDescription": "Solde disponible pour le paiement.",
+        "pendingBalanceDescription": "Frais impayés par l'utilisateur (le traitement peut prendre jusqu'à 4 semaines).",
+        "minimumPayout5€": "Paiement minimum 5 €",
+        "lookHere": "Regardez ici.",
+        "iban": "IBAN"
     },
     "_games": {
         "_features": {
@@ -536,7 +614,18 @@
         "description": "Commencez avec votre propre instance VyHub !{br}Aucune information de paiement requise !{br}{br}Si vous avez des questions, veuillez lire notre {documentation}.",
         "customDomainDescription": "Vous devez posséder un domaine et créer un enregistrement CNAME dans les paramètres DNS de votre bureau d'enregistrement de domaine. Lisez le {docsLink} pour plus d'informations.",
         "loginRegister": "S'identifier / S'enregistrer",
-        "noInstancesAvailable": "Il n'y a actuellement aucune instance disponible. Veuillez réessayer plus tard."
+        "noInstancesAvailable": "Il n'y a actuellement aucune instance disponible. Veuillez réessayer plus tard.",
+        "messages": {
+            "selfhostedDescription": "La version auto-hébergée de VyHub est destinée uniquement aux utilisateurs avancés. Vous pourrez héberger VyHub vous-même avec un accès complet à la base de données. Vous devez payer des frais de base fixes par mois ainsi qu'une commission de 3% sur vos revenus.",
+            "customDomainDescriptionSelfhosting": "Tu as besoin de posséder un domaine et de pointer le DNS A/AAAA vers le serveur où VyHub sera hébergé.",
+            "cloudDescription": "VyHub Cloud est le moyen le plus simple de commencer avec VyHub. Nous nous occupons de l'hébergement et de la maintenance de votre instance afin que vous puissiez vous concentrer sur votre communauté. Vous ne payez que si vous utilisez des extensions payantes ou si vous générez des revenus avec votre boutique.",
+            "successSelfhosted": "Votre instance a été créée avec succès.{br}Accédez au {dashboard} pour choisir un plan de paiement et configurer votre instance."
+        },
+        "labels": {
+            "cloud": "Nuage",
+            "selfhosted": "Auto-hébergé",
+            "free": "Gratuit"
+        }
     },
     "_instance": {
         "labels": {
@@ -553,9 +642,25 @@
             "transferOwnership": "Transfert de propriétaire",
             "agreeWithTermsOfServiceAndUpgradeToVersion14": "Acceptez les conditions d'utilisation et passez à la version 1.4",
             "addons": "Addons",
-            "resumeInstance": "Reprendre l'instance",
+            "resumeInstance": "Démarrer l'instance.",
             "newExpirationDate": "Nouvelle date de péremption",
-            "addAdmin": "Ajouter un administrateur"
+            "addAdmin": "Ajouter un administrateur",
+            "operationalTime": "Cycle d'abonnement",
+            "config": "Configuration",
+            "extendInstance": "Prolonger l'instance",
+            "activateInstance": "Activer l'instance",
+            "subdomain": "Sous-domaine",
+            "selfhostFrontend": "Interface utilisateur auto-hébergée (expert)",
+            "assurePrerequisitesDescription": "Assure toi que ton serveur et ton environnement répondent à tous les prérequis nécessaires. Suis également les instructions d'installation jusqu'à ce que tu reviennes à ce dialogue. Tu peux trouver les exigences et les instructions dans la documentation :",
+            "assurePrerequisites": "Prérequis",
+            "insertConfig": "Insère et ajuste la configuration",
+            "insertConfigDescription": "Dans /opt/vyhub-onprem, édite le fichier .env. Copie les lignes suivantes au début du fichier :",
+            "setup": "Installation",
+            "dockerLogin": "Connexion Docker pour registry.matbyte.com",
+            "dockerLoginDescription": "Exécute la commande suivante pour t'authentifier avec notre registre de conteneurs :",
+            "continueInDocs": "Continuez dans la documentation",
+            "continueInDocsDescription": "Pour les prochaines étapes, veuillez consulter notre documentation:",
+            "selfhostFrontendDescription": "Peut être activé si vyhub-web est hébergé sur votre propre serveur. Cela s'adresse uniquement aux utilisateurs avancés."
         },
         "cnamePointingAt": "CNAME pointant vers",
         "statusHelpProvisioned": "Votre instance est prête à être utilisée maintenant. Si le site ne se charge pas, essayez de vider votre cache DNS ou de redémarrer votre routeur. Si cela ne résout pas le problème, contactez le support.",
@@ -574,7 +679,9 @@
             "PROVISIONED": "Prêt",
             "DELETE": "Arrêt",
             "DELETED": "Arrêté",
-            "REPROVISION": "Application des modifications au serveur d'API"
+            "REPROVISION": "Application des modifications au serveur d'API",
+            "SELFHOSTED": "Auto-hébergé",
+            "PRE_SELFHOSTED": "Auto-hébergé (en attente)"
         },
         "admins": "Administrateurs",
         "owner": "Propriétaire",
@@ -589,7 +696,12 @@
             "noResourcesAvailable": "Il n'y a actuellement aucune ressource disponible pour une nouvelle instance. Veuillez réessayer plus tard.",
             "instanceReady": "Votre instance est prête !",
             "doNotOpenBeforeReady": "N'ouvrez pas cette page avant que votre instance ne soit prête !",
-            "noActivePackets": "Il n'y a aucun abonnement actif pour cette instance. Assurez-vous d'étendre votre instance avant la fin de l'exécution."
+            "noActivePackets": "Il n'y a aucun abonnement actif pour cette instance. Assurez-vous d'étendre votre instance avant la fin de l'exécution.",
+            "noActiveSubscriptions": "Il n'y a pas d'abonnements actifs pour cette instance. Assure-toi de créer un nouvel abonnement avant la fin de la durée d'exécution.",
+            "updateAvailable": "Une mise à jour est disponible !",
+            "paymentLaterSelfhosted": "Une fois ce dialogue terminé, vous devrez activer votre instance en sélectionnant un plan de paiement.",
+            "instanceSelfhostedRequirements": "Remarque qu'il y a plusieurs exigences pour l'auto-hébergement. Tu as besoin d'un serveur Linux avec Docker et Docker-compose installés. De plus, tu as besoin d'un domaine et d'un certificat SSL. Tu as également besoin d'un administrateur système qui peut configurer et entretenir le serveur. Si tu ne réponds pas à ces exigences, utilise la version cloud de VyHub.",
+            "instanceSelfhostedLimitedSupport": "Si tu as besoin d'aide pour installer VyHub sur ton serveur, tu peux acheter le pack de support avancé."
         },
         "cnameCheckerTool": "Outil de vérification CNAME",
         "revenueFee": "Frais de revenu",
@@ -602,7 +714,9 @@
         "setCNAMEDescription": "Créez un enregistrement DNS CNAME pour votre domaine personnalisé avec cette cible. Cela pointe votre domaine personnalisé vers cette instance VyHub.",
         "statusHelp": "Contactez l'assistance si l'état ne change pas après 10 minutes.",
         "autoUpdateDescription": "L'instance est automatiquement mise à jour à l'heure UTC",
-        "autoUpdateActivated": "Mise à jour automatique activée"
+        "autoUpdateActivated": "Mise à jour automatique activée",
+        "statusHelpPreSelfhosted": "Veuillez effectuer le paiement pour activer votre instance.",
+        "statusHelpSelfhosted": "Suivez les instructions dans la documentation pour configurer l'instance. Contactez le support si nécessaire."
     },
     "_loginRegister": {
         "noAccount": "Pas de compte ?",
@@ -610,5 +724,119 @@
         "alreadyHaveAccount": "Vous avez déjà un compte ?",
         "welcomeBack": "Bon retour !",
         "helpDescription": "Avez-vous besoin d'aide ? Vous pouvez nous joindre via les salons suivants."
-    }
+    },
+    "lastName": "Nom de famille",
+    "resetPassword": {
+        "sendLink": "Envoyer le lien",
+        "emailSent": "Suivez les étapes dans l'e-mail envoyé à {email} (si un compte existe)",
+        "setPassword": "Définir le mot de passe",
+        "noTokenSpecified": "Aucun jeton spécifié. Veuillez demander un nouveau jeton.",
+        "passwordSet": "Succès ! Vous pouvez maintenant utiliser votre nouveau mot de passe pour {login_placeholder}.",
+        "login_placeholder": "Se connecter",
+        "toLogin": "connexion",
+        "resetPassword": "Réinitialiser le mot de passe",
+        "backToLogin": "Retour à la connexion",
+        "sendLinkToEmail": "Nous allons envoyer un lien de réinitialisation de mot de passe à",
+        "badToken": "Le jeton a expiré ou est invalide. Veuillez demander un nouveau jeton."
+    },
+    "_addon": {
+        "messages": {
+            "addonApplied": "Extension appliquée avec succès.",
+            "addonCancelled": "Extension annulée avec succès.",
+            "addonEdited": "Extension éditée avec succès."
+        },
+        "addon": "Extension",
+        "addons": "Extensions",
+        "newAddon": "Nouvelle extension",
+        "currentAddons": "Extensions actuelles",
+        "cancelAddonDescription": "Es-tu sûr de vouloir annuler l'extension ? L'extension sera annulée à la fin de la période de facturation en cours.",
+        "expiresOn": "Expire le",
+        "editAddon": "Modifier l'extension",
+        "noAddonsAvailable": "Aucune extension disponible"
+    },
+    "domain": "Domaine",
+    "instances": "Instances",
+    "instance": "Instance",
+    "docs": "Documents",
+    "_payInstance": {
+        "labels": {
+            "title": "Instance de paiement"
+        }
+    },
+    "_support": {
+        "messages": {
+            "requestSendSuccess": "La demande d'assistance a été envoyée avec succès. Vous devriez recevoir bientôt un e-mail de confirmation.",
+            "needHelp": "Besoin d'aide? Créez une demande d'assistance."
+        },
+        "getHelp": "Obtenir de l'aide",
+        "youtubeDescription": "Consultez notre chaîne YouTube pour des tutoriels et des guides.",
+        "discordDescription": "Rejoignez notre serveur Discord pour obtenir l'aide de la communauté et des développeurs.",
+        "documentationDescription": "Lisez la documentation pour trouver des réponses aux questions courantes."
+    },
+    "success": "Succès",
+    "_statistic": {
+        "interval": {
+            "MONTHLY": "Mensuel",
+            "YEARLY": "Annuel",
+            "WEEKLY": "Hebdomadaire"
+        }
+    },
+    "acceptPrivacy": "Accepter la politique de confidentialité",
+    "_account": {
+        "labels": {
+            "chargeAccount": "Compte de facturation",
+            "balance": "Crédit",
+            "nextCharge": "Charge suivante",
+            "autocharge_enabled": "Chargement automatique activé",
+            "autocharge_disabled": "Charge automatique désactivée",
+            "autocharge": "Chargement automatique",
+            "enableAutocharge": "Activer la recharge automatique"
+        },
+        "messages": {
+            "autocharge": "Lorsque le paiement automatique est activé, votre solde de compte négatif sera automatiquement débité de votre méthode de paiement enregistrée après la fin du mois. Un minimum de 5 EUR par transaction s'applique.",
+            "noChargeScheduled": "Il n'y a actuellement aucune charge prévue. Veuillez vérifier de nouveau au début du mois prochain.",
+            "cancelConfirm": "Êtes-vous sûr de vouloir annuler le rechargement automatique du compte ?"
+        }
+    },
+    "accept": "Accepter",
+    "extend": "Étendre",
+    "next": "L'étape suivante",
+    "owner": "Propriétaire",
+    "_legal": {
+        "messages": {
+            "agreeToS": "Je suis d'accord avec les conditions générales d'utilisation.",
+            "agreeTo": "Je suis d'accord avec les {tos}.",
+            "noWithdraw": "J'exige et accepte expressément que Matbye UG commence déjà l'exécution du service acheté avant la fin du délai de rétractation. De plus, je suis conscient que je perds déjà le droit de rétractation auquel j'ai droit légalement dès l'accomplissement complet du contrat par Matbyte UG.",
+            "dataCorrect": "Par la présente, je garantis que les détails spécifiés (en particulier l'adresse de facturation) sont vrais et complets.",
+            "tos": "conditions d'utilisation"
+        }
+    },
+    "password": "Mot de passe",
+    "activeUntil": "Actif jusqu'à",
+    "user": "Utilisateur",
+    "version": "Version",
+    "account": "Compte",
+    "_messages": {
+        "cancelSuccess": "Annulé avec succès"
+    },
+    "contact": "Contact",
+    "firstName": "Prénom",
+    "back": "Dos",
+    "admins": "Administrateurs",
+    "contactUs": "Contactez-nous",
+    "support": "Soutien",
+    "labels": "Étiquettes",
+    "subscribe": "S'abonner",
+    "authorizeApplication": "Autoriser la demande",
+    "_pricing": {
+        "a1": "VyHub est gratuit à utiliser. Tu peux l'utiliser aussi longtemps que tu le souhaites. Nous ne facturons qu'une petite commission sur tes revenus mensuels. Ainsi, tu ne paies que lorsque tu gagnes de l'argent. Plus de détails sur les frais peuvent être trouvés dans notre <a target=\"_blank\" href=\"https://docs.vyhub.net/latest/central/account\">documentation</a>.",
+        "addons": {
+            "communication": "Extension de communication"
+        }
+    },
+    "transactions": "Transactions",
+    "noEntries": "Aucune entrée.",
+    "close": "Fermer",
+    "toggle": "Basculer",
+    "partners": "Les partenaires"
 }
