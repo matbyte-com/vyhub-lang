@@ -64,7 +64,8 @@
             "visibleToUser": "Sichtbar für Benutzer"
         },
         "messages": {
-            "removeAdminConfirmation": "Vergiss nicht, den ehemaligen Admin auch von der Instanz in der zentralen Instanzübersicht zu entfernen."
+            "removeAdminConfirmation": "Vergiss nicht, den ehemaligen Admin auch von der Instanz in der zentralen Instanzübersicht zu entfernen.",
+            "deleteUserText": "Durch das Löschen eines Benutzers werden auch alle dazugehörigen Banns, Verwarnungen, Käufe, Statistiken usw. gelöscht. Diese Aktion kann nicht rückgängig gemacht werden."
         }
     },
     "_theme": {
@@ -320,13 +321,13 @@
         },
         "packet_applied": "Paket {packet_title} wurde aktiviert!",
         "browserNotifications": "Browser-Benachrichtigungen",
-        "news_new": "Neuigkeit erstellt: {newsSubject}.",
+        "news_new": "Neuigkeit: {newsSubject}.",
         "ticket_new": "{username} hat ein Ticket erstellt: {title}",
         "ticket_update": "Neuer Beitrag im Ticket: {title}",
         "timeAgo": "vor {time}",
         "purchase_cancelled": "Dein Kauf in Höhe von {amount} wurde storniert!",
         "purchase_finished": "Dein Kauf in Höhe von {amount} wurde abgeschlossen!",
-        "warning_new": "Es wurde eine neue Verwarnung erstellt. Grund: {reason}",
+        "warning_new": "Du wurdest verwarnt. Grund: {reason}",
         "coupon_purchase_new": "{username} eingereicht {gateway_name} Codes ({amount_total} {currency_symbol}) die müssen genehmigt werden.",
         "applied_packet_disabled": "Ihr Paket {packet_title} wurde deaktiviert.",
         "applied_packet_upgraded": "Ihr Paket {old_packet_title} wurde aufgerüstet mit {new_packet_title}.",
@@ -394,7 +395,10 @@
             "GMOD": "Garry's Mod",
             "DISCORD": "Discord",
             "MINECRAFT": "Minecraft",
-            "FIVEM": "FiveM"
+            "FIVEM": "FiveM",
+            "RUST": "Rust",
+            "SEVEN_DAYS": "7 Days to Die",
+            "ASA": "ARK: Survival Ascended"
         },
         "instructions": {
             "DISCORD": {
@@ -638,7 +642,8 @@
             "editBundle": "Servrebundle bearbeiten",
             "addServer": "Server hinzufügen",
             "updateOrder": "Reihenfolge Aktualisieren",
-            "resetOrder": "Reihenfolge zurücksetzen"
+            "resetOrder": "Reihenfolge zurücksetzen",
+            "previewImageURL": "Vorschaubild-URL"
         },
         "contentEmpty": "Leerer Inhalt",
         "httpPlaceholder": "https://myurl.com",
@@ -686,7 +691,7 @@
             },
             "ASA": {
                 "info": "Zähme die Wildnis, beherrsche die Dinosaurier.",
-                "name": ""
+                "name": "ARK: Survival Ascended"
             }
         },
         "labels": {
@@ -897,7 +902,11 @@
         },
         "isTeam": "Ist Team",
         "maxBanLengthInDays": "Maximale Ban Länge (in Tagen)",
-        "maxBanLengthInDaysDescription": "Für unbegrenzte Bans leer lassen"
+        "maxBanLengthInDaysDescription": "Für unbegrenzte Bans leer lassen",
+        "labels": {
+            "protected": "Geschützt",
+            "protectedDescription": "Änderungen an der Mitgliedschaft in dieser Gruppe sind von Gameservern und anderen Anwendungen nicht zulässig. Darüber hinaus sind Mitglieder dieser Gruppe vor Banns geschützt."
+        }
     },
     "_legal": {
         "descriptionText": "In den meisten Ländern ist es zwingend erforderlich, zumindest die Kontaktdaten, Nutzungsbedingungen und eine Datenschutzerklärung des Website-Betreibers anzugeben. Eine beispielhafte Datenschutzerklärung findest du in den Dokumenten.",
@@ -1282,5 +1291,6 @@
     },
     "advanced": "Erweitert",
     "memberships": "Mitgliedschaften",
-    "news": "Neuigkeiten"
+    "news": "Neuigkeiten",
+    "deletedUser": "Gelöschter Nutzer"
 }
