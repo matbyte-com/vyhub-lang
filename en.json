@@ -1,4 +1,7 @@
 {
+    "_messages": {
+        "cancelSuccess": "Successfully cancelled"
+    },
     "_header": {
         "start": "Start",
         "features": "Features",
