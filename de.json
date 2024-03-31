@@ -20,7 +20,9 @@
         "admin": "Admin",
         "profile": "Profil",
         "affiliate": "Partner",
-        "customers": "Communities"
+        "customers": "Communities",
+        "balance": "Guthaben",
+        "support": "Hilfe"
     },
     "_footer": {
         "_about": {
@@ -174,8 +176,11 @@
             "insertConfigCaution": "Ändere den Konfigurationsparameter VYHUB_SESSION_SECRET und VYHUB_CRYPT_SECRET nicht, nachdem VyHub zum ersten Mal gestartet wurde.",
             "continueInDocs": "Weitere Infos findest du in der Dokumentation",
             "continueInDocsDescription": "Die nächsten Schritte findest du in unserer Dokumentation:",
-            "assurePrerequisitesDescription": "Stelle sicher, dass dein Server und deine Umgebung alle erforderlichen Voraussetzungen erfüllen, bevor du fortfährst. Du findest sie in der Dokumentation:",
-            "assurePrerequisites": "Voraussetzungen"
+            "assurePrerequisitesDescription": "Stelle sicher, dass dein Server und deine Umgebung alle erforderlichen Voraussetzungen erfüllen. Du kannst die Anforderungen in der Dokumentation finden:",
+            "assurePrerequisites": "Voraussetzungen",
+            "subdomain": "Subdomain",
+            "selfhostFrontend": "Selbstgehostetes Frontend (Experte)",
+            "selfhostFrontendDescription": "Kann aktiviert werden, wenn vyhub-web auf deinem eigenen Server gehostet wird. Dies ist nur für fortgeschrittene Benutzer."
         },
         "instanceName": "Name der Instanz",
         "cnamePointingAt": "CNAME zeigt auf",
@@ -222,7 +227,8 @@
             "instanceSelfhostedLimitedSupport": "Wenn Sie Hilfe bei der Installation von VyHub auf deinem Server benötigst, kannst du das erweiterte Support-Paket erwerben.",
             "instanceSelfhostedRequirements": "Bitte beachte, dass für das Selbsthosting mehrere Voraussetzungen gelten. Du benötigst einen Linux-Server, auf dem Docker und Docker-Compose installiert sind. Darüber hinaus benötigst du eine Domain und ein SSL-Zertifikat. Du benötigst außerdem einen Systemadministrator, der den Server einrichten und warten kann. Wenn du diese Anforderungen nicht erfüllst, nutze die Cloud-Version von VyHub.",
             "noActiveSubscriptions": "Für diese Instanz sind keine aktiven Abonnements vorhanden. Stelle sicher, dass du vor dem Ende der Laufzeit ein neues Abonnement erstellst.",
-            "paymentLaterSelfhosted": "Nachdem du diesen Dialog abgeschlossen hast, musst du deine Instanz aktivieren, indem du einen Abonement auswählst."
+            "paymentLaterSelfhosted": "Nachdem du diesen Dialog abgeschlossen hast, musst du deine Instanz aktivieren, indem du einen Abonement auswählst.",
+            "updateAvailable": "Es ist ein Update verfügbar!"
         },
         "cnameCheckerTool": "CNAME-Überprüfung",
         "extendInstance": "Instanz verlängern",
@@ -556,12 +562,14 @@
         "instanceNameAndDomain": "Name und Domain",
         "labels": {
             "cloud": "Cloud",
-            "selfhosted": "Selbst gehostet"
+            "selfhosted": "Selbst gehostet",
+            "free": "Gratis"
         },
         "messages": {
             "customDomainDescriptionSelfhosting": "Du musst eine Domain besitzen und den DNS-A/AAAA-Eintrag auf den Server verweisen, auf dem VyHub gehostet wird.",
             "selfhostedDescription": "Die selbst gehostete Version von VyHub ist nur für fortgeschrittene Benutzer. Du kannst VyHub selbst hosten und du hast damit vollen Zugriff auf die Datenbank. Dafür musst du eine feste Grundgebühr pro Monat und eine Provision von 3 % auf den Umsatz zahlen.",
-            "cloudDescription": "VyHub Cloud ist der einfachste Weg, mit VyHub zu beginnen. Wir kümmern uns um das Hosting und die Wartung deiner Instanz, damit du dich auf deine Community konzentrieren kannst. Du zahlst nur, wenn du kostenpflichtige Addons nutzt oder mit deinem Shop Umsätze erzielst."
+            "cloudDescription": "VyHub Cloud ist der einfachste Weg, mit VyHub zu beginnen. Wir kümmern uns um das Hosting und die Wartung deiner Instanz, damit du dich auf deine Community konzentrieren kannst. Du zahlst nur, wenn du kostenpflichtige Addons nutzt oder mit deinem Shop Umsätze erzielst.",
+            "successSelfhosted": "Deine neue Instanz wurde erfolgreich erstellt.{br}Gehe zum {dashboard}, um einen Zahlungsplan auszuwählen und deine Instanz einzurichten."
         }
     },
     "_features": {
@@ -700,7 +708,7 @@
             "playerSync": "Benutzerrollen synchronisieren",
             "discordNotifications": "Anpassbare Verbots-/Warnungs-/Kaufbenachrichtigungen in Textkanälen"
         },
-        "minecraftDescription": "VyHub unterstützt Minecraft, das meistgespielte überlebens-Sandbox-Spiel. Derzeit erfordert dieses Plugin Java >= 17 und Minecraft >= 1.13.",
+        "minecraftDescription": "VyHub unterstützt Minecraft, das meistgespielte überlebens-Sandbox-Spiel. Alle großen Bukkit/Spigot/Paper versionen sind unterstützt. Weiterhin unterstützen wir BungeeCord und Velocity.",
         "discordDescription": "VyHub unterstützt Discord, die kostenlose Sprach-, Video- und Text-Chat-App.",
         "gmodDescription": "VyHub unterstützt Garry's Mod, der bekannte Physikbaukasten.",
         "teamspeakDescription": "VyHub unterstützt TeamSpeak, den Voice-Chat, bei dem du die volle Kontrolle hast.",
@@ -743,7 +751,13 @@
             "coupon": "Coupon",
             "showApprovedDebits": "Genehmigte Abbuchungen anzeigen",
             "addAppliedReward": "Angewendete Prämie hinzufügen",
-            "reward": "Prämie"
+            "reward": "Prämie",
+            "thisYear": "Dieses Jahr",
+            "thisMonth": "Dieser Monat",
+            "revenueByCategory": "Umsatz nach Kategorie",
+            "notAffectedByRangeSelector": "Von der Bereichsauswahl nicht betroffen",
+            "averagePurchaseAmount": "Durchschn. Kaufpreis",
+            "activeSubscriptions": "Aktive Subscription"
         },
         "messages": {
             "refundInitSuccess": "Erstattung erfolgreich gestartet.",
@@ -949,7 +963,11 @@
         "messages": {
             "needHelp": "Du brauchst Hilfe? Erstelle ein Ticket.",
             "requestSendSuccess": "Ticket erfolgreich abgeschickt. Du solltest zeitnah eine Bestätigungsmail erhalten."
-        }
+        },
+        "getHelp": "Hilfe bekommen",
+        "discordDescription": "Tritt unserem Discord-Server bei, um Hilfe von der Community und den Entwicklern zu erhalten.",
+        "youtubeDescription": "Schau dir unseren Youtube-Kanal für Tutorials und Anleitungen an.",
+        "documentationDescription": "Lies die Dokumentation, um Antworten auf häufig gestellte Fragen zu finden."
     },
     "payments": "Zahlungen",
     "success": "Erfolg",
@@ -996,7 +1014,8 @@
             "WEEKLY": "Wöchentlich",
             "MONTHLY": "Monatlich",
             "YEARLY": "Jährlich"
-        }
+        },
+        "instanceServerStatistics": "Instanzserverstatistiken"
     },
     "accept": "Akzeptieren",
     "copy": "Kopieren",
@@ -1074,5 +1093,9 @@
     "everyYear": "Jedes Jahr",
     "subscription": "Abonnement",
     "days": "Tage",
-    "month": "Monat"
+    "month": "Monat",
+    "_messages": {
+        "cancelSuccess": "Erfolgreich abgebrochen"
+    },
+    "frequentlyAskedQuestions": "Häufig gestellte Fragen"
 }
