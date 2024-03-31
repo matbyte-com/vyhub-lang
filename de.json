@@ -486,7 +486,8 @@
             "enabled": "Aktiv",
             "disabled": "Abgelaufen",
             "revoked": "Storniert"
-        }
+        },
+        "stripeHint": "Wir würden uns freuen, wenn du <b>Stripe</b> verwendest, da dort die Gebühren geringer sind und die Zahlungsbwicklung besser funktioniert."
     },
     "newInstance": {
         "viewOrder": "Bestellung ansehen",

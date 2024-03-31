@@ -441,7 +441,8 @@
             "recurring": "Recurring",
             "enabled": "Active",
             "disabled": "Expired"
-        }
+        },
+        "stripeHint": "We would be pleased if you use <b>Stripe</b>, as the fees are lower there and the payment processing works better."
     },
     "_log": {
         "labels": {
