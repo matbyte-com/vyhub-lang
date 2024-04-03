@@ -249,7 +249,11 @@
             "name": "Nom du groupe/rang/rôle sur le serveur"
         },
         "maxBanLengthInDays": "Durée maximale du Bannissement (en jours)",
-        "maxBanLengthInDaysDescription": "Laisser vide pour les Bannissement à vie"
+        "maxBanLengthInDaysDescription": "Laisser vide pour les Bannissement à vie",
+        "labels": {
+            "protected": "Protégé",
+            "protectedDescription": "Les modifications des membres de ce groupe ne sont pas autorisées à partir d'applications tierces comme les serveurs de jeux. En outre, les membres de ce groupe peuvent être protégés contre les bans."
+        }
     },
     "_errors": {
         "cart_not_empty": "Votre panier doit être vide pour ajouter ce paquet.",
@@ -624,7 +628,7 @@
             "shop": "Boutique",
             "warning": "Avertissement"
         },
-        "news_new": "Actualités créées : {newsSubject}.",
+        "news_new": "Nouvelles : {newsSubject}.",
         "ticket_new": "{username} a créé le ticket : {title}",
         "ticket_update": "Nouveau message dans le ticket : {title}",
         "notifications": "Notifications",
@@ -632,7 +636,7 @@
         "packet_applied": "Le paquet {packet_title} a été activé !",
         "purchase_finished": "Votre achat de {amount} est terminé !",
         "purchase_cancelled": "Votre achat de {amount} a été annulé !",
-        "warning_new": "Un nouvel avertissement a été créé. Raison : {reason}",
+        "warning_new": "Vous avez reçu un avertissement. Raison : {reason}",
         "coupon_purchase_new": "{username} a soumis des codes {gateway_name} ({amount_total} {currency_symbol}) qui doivent être approuvés.",
         "purchase_finished_other": "{username} a finalisé son achat de {amount} avec {gateway_name}.",
         "timeAgo": "il y a {time}",
@@ -1252,5 +1256,41 @@
     },
     "advanced": "Avancé",
     "memberships": "Abonnement",
-    "news": "Actualités"
+    "news": "Actualités",
+    "_mail": {
+        "subjects": {
+            "cart_follow_up": "Ne ratez pas votre expérience",
+            "notification": "Nouvelle notification à {name}",
+            "payment_successful": "Paiement effectué, facture disponible",
+            "subscription_cancelled": "Abonnement annulé"
+        },
+        "base": {
+            "hello_x": "Bonjour {name}",
+            "hey_x": "Hey {name}",
+            "best_regards": "Meilleures salutations",
+            "your_x_team": "Votre Équipe {name}",
+            "thank_you": "Merci d'avoir utilisé nos services.",
+            "purchase_history": "Historique des achats"
+        },
+        "cart_follow_up": {
+            "exploring": "Nous avons remarqué que tu as exploré le monde incroyable de {name}. Il semble que tu aies abandonné quelque chose dans ton panier.",
+            "benefits": "Ne manque pas les avantages et privilèges exclusifs sur lesquels tu as les yeux rivés.",
+            "your_cart": "Votre panier",
+            "take_me_to_my_cart": "Emmène-moi à mon panier"
+        },
+        "notification": {
+            "new_notification": "Tu as reçu une nouvelle notification à {name}",
+            "can_disable": "Tu peux désactiver ces notifications par courriel dans tes paramètres personnels."
+        },
+        "payment_successful": {
+            "payment_processed": "ton paiement de {amount} a été traité avec succès.",
+            "invoice_available": "Une facture est disponible dans ton {purchase_history}."
+        },
+        "subscription_cancelled": {
+            "gateway_sub_cancelled": "ton abonnement {gateway} a été annulé.",
+            "product": "Produit",
+            "subscription_id": "ID de l'abonnement",
+            "check_status": "Vérifie l'état actuel dans {purchase_history}."
+        }
+    }
 }
