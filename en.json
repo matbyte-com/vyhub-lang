@@ -1092,6 +1092,18 @@
         "toggleSuccess": "Successfully toggled.",
         "copyClipboard": "Copied to clipboard."
     },
+    "_support": {
+        "getHelp": "Do you need help?",
+        "supportQuestions": "Do you have a question or feedback? Send us a message!",
+        "send": "send",
+        "reply?": "Do you want a reply?",
+        "discordDescription": "Join our Discord server to get help from the community and the developers.",
+        "youtubeDescription": "Check out our Youtube channel for tutorials and guides.",
+        "documentationDescription": "Read the documentation to find answers to common questions.",
+        "messages": {
+            "requestSendSuccess": "Support request successfully sent. You should receive a confirmation e-mail soon."
+        }
+    },
     "update": "Update",
     "revenue": "Revenue",
     "sales": "Sales",
