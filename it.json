@@ -531,7 +531,17 @@
     "_mail": {
         "subjects": {
             "cart_follow_up": "Non Mancare la Tua Esperienza",
-            "notification": "Nuova notifica a {nome}"
+            "notification": "Nuova notifica a {name}",
+            "payment_successful": "Pagamento eseguito con successo, la fattura è disponibile",
+            "subscription_cancelled": "Sottoscrizione annullata"
+        },
+        "base": {
+            "hello_x": "Buongiorno {name}",
+            "hey_x": "Ehi {name}",
+            "purchase_history": "Cronologia Degli Acquisti"
+        },
+        "cart_follow_up": {
+            "exploring": "Abbiamo notato che stai esplorando il fantastico mondo di {name}. Sembrerebbe che hai abbandonato qualcosa nel tuo carrello."
         }
     }
 }
