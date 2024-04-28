@@ -538,7 +538,9 @@
         "base": {
             "hello_x": "Buongiorno {name}",
             "hey_x": "Ehi {name}",
-            "purchase_history": "Cronologia Degli Acquisti"
+            "purchase_history": "Cronologia Degli Acquisti",
+            "best_regards": "Cordiali saluti",
+            "thank_you": "Grazie per aver utilizzato i nostri servizi."
         },
         "cart_follow_up": {
             "exploring": "Abbiamo notato che stai esplorando il fantastico mondo di {name}. Sembrerebbe che hai abbandonato qualcosa nel tuo carrello."
