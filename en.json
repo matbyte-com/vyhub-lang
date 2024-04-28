@@ -509,6 +509,8 @@
             "templates": "Templates",
             "headers": "Headers",
             "headerKey": "Header Key",
+            "limitToServers": "Limit to servers",
+            "limitToServersDescription": "Limit the execution of the reward to the selected servers. If no servers are selected, the reward is executed on all servers in the serverbundle.",
             "headerValue": "Header Value",
             "maxRetries": "Number of Retries",
             "_events": {
@@ -780,6 +782,7 @@
     },
     "_server": {
         "labels": {
+            "rconPassword": "RCON Password",
             "create": "Create Server",
             "edit": "Edit Server",
             "numberOfReservedSlots": "Number of reserved slots",
