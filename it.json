@@ -527,5 +527,10 @@
     },
     "_theme": {
         "headerColor": "Colore Intestazione"
+    },
+    "_mail": {
+        "subjects": {
+            "cart_follow_up": "Non perdere la tua esperienza"
+        }
     }
 }
