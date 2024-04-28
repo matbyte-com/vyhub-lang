@@ -543,7 +543,9 @@
             "thank_you": "Grazie per aver utilizzato i nostri servizi."
         },
         "cart_follow_up": {
-            "exploring": "Abbiamo notato che stai esplorando l'incredibile mondo di {nome}. Sembra che tu abbia abbandonato qualcosa nel carrello."
+            "exploring": "Abbiamo notato che stai esplorando l'incredibile mondo di {name}. Sembrerebbe che hai abbandonato qualcosa nel tuo carrello.",
+            "benefits": "Non perderti i vantaggi e i privilegi esclusivi su cui hai puntato gli occhi.",
+            "your_cart": "Il tuo Carrello"
         }
     }
 }
