@@ -813,6 +813,7 @@
         },
         "instructions": {
             "COMMON": {
+                "noSetup": "This serevr does not require an in-game plugin. Just follow the instructions in the docs.",
                 "runCommands": "Generate the required commands by clicking the button and execute them in the server console of your server.",
                 "wait": "Wait up to a minute for VyHub to initialize. There will be a message in the server console if the connection was successful."
             },
