@@ -497,10 +497,13 @@
         "labels": {
             "checkForReplacements": "Check the docs for available reward types and string replacements",
             "create": "Create Reward",
+            "serverbundleDescription": "A reward is executed on all servers in the selected serverbundle, including servers added later. For rewards that are not serverbundle specific, this field can be let empty. Check out the docs for more information.",
             "once": "Only execute once (per packet)",
+            "onceDescription": "If enabled, the reward is only executed once on ALL servers in the selected serverbundle, including servers added later. If disabled, the reward is executed on all servers in the selected serverbundle every time the selected event happens.",
             "onEvent": "Execute on event",
             "edit": "Edit Reward",
             "onceFromAll": "Only execute on one server",
+            "onceFromAllDescription": "If enabled, the reward is only executed on the first server (of the selected serverbundle) the user connects to. Must be combined with 'Only execute once'.",
             "reactivateOnExtend": "Execute again if packet has been extended (on subscription payment)",
             "addAppliedReward": "Add applied reward",
             "syncAppliedRewards": "Sync rewards",
