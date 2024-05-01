@@ -1108,7 +1108,8 @@
         "youtubeDescription": "Check out our Youtube channel for tutorials and guides.",
         "documentationDescription": "Read the documentation to find answers to common questions.",
         "messages": {
-            "requestSendSuccess": "Support request successfully sent. You should receive a confirmation e-mail soon."
+            "tooShort": "Your message is too short.",
+            "requestSendSuccess": "Support request successfully sent. You should receive a confirmation e-mail soon if you requested a reply."
         }
     },
     "update": "Update",
