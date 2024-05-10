@@ -1011,6 +1011,7 @@
             "theme_edit": "Edit theme settings",
             "ban_show": "View bans",
             "ban_edit": "Manage bans",
+            "ban_unlimited": "Create bans of any length",
             "ban_delete": "Delete bans",
             "ban_global": "Create global bans",
             "ban_log_show": "View ban log",
