@@ -190,6 +190,7 @@
         "labels": {
             "subdomain": "Subdomain",
             "edit": "Edit Instance",
+            "retryScheduled": "Retry scheduled",
             "selfhostFrontend": "Self-Hosted Frontend (expert)",
             "selfhostFrontendDescription": "Can be enabled if vyhub-web is hosted on your own server. This is for advanced users only.",
             "daysLeft": "days left",
@@ -1003,6 +1004,7 @@
     "rewards": "Rewards",
     "discounts": "Discounts",
     "statistics": "Statistics",
+    "retry": "Retry",
     "andMuchMore": "And much more...",
     "paymentProcessing": "Payment Processing",
     "logout": "Logout",
