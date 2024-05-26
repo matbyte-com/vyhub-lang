@@ -14,7 +14,7 @@
         "deleted": "Avertissement supprimé.",
         "deleted_self": "L'un de vos avertissements a été supprimé. Vérifiez vos avertissements avec !dashboard.",
         "toggled": "L'état d'avertissement a changé.",
-        "cmd_help": "<red>Joueur invalide !</red> Utilisation : <green>!warn <joueur> <raison></green>",
+        "cmd_help": "<red>Joueur invalide !</red> Utilisation : <green>!warn joueur raison</green>",
         "received": "Vous avez reçu un avertissement de <green>%s</green> : <red>%s</red>"
     },
     "ban": {

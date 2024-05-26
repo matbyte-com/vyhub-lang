@@ -9,7 +9,7 @@
     },
     "warning": {
         "toggled": "Status der Verwarnung wurde geändert.",
-        "cmd_help": "<red>Ungültiger Spieler!</red> Verwendung: <green>!warn <nick> <reason></green>",
+        "cmd_help": "<red>Ungültiger Spieler!</red> Verwendung: <green>!warn player reason</green>",
         "create_error": "Fehler beim hinzufügen einer Verwarnung für <green>%s</green>: <red>%s</red>",
         "deleted": "Verwarnung gelöscht.",
         "received": "Du wurdest von <green>%s</green> verwarnt: <red>%s</red>",

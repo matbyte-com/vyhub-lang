@@ -9,7 +9,7 @@
     },
     "warning": {
         "user_warned": "<red>%s</red> has been warned by <green>%s</green>. Reason: <green>%s</green>",
-        "cmd_help": "<red>Invlid player!</red> Usage: <green>!warn <nick> <reason></green>",
+        "cmd_help": "<red>Invlid player!</red> Usage: <green>!warn player reason</green>",
         "toggled_self": "The status of one of your warnings has been changed. Check your warnings with !dashboard.",
         "create_error": "Error while adding warning for player <green>%s</green>: <red>%s</red>",
         "toggled": "Warning status changed.",
