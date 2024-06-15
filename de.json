@@ -490,7 +490,7 @@
             "imageDetail": "Eine HTTPS-URL zum Paketbild.",
             "expires": "Läuft ab",
             "recurringDetail": "Ein Abonnement wird mit dem im Feld „Aktiv für“ angegebenen Intervall erstellt.",
-            "limitedPayments": "Begrenzte Zahlungen",
+            "limitedPayments": "Begrenzte Zahlungsmethoden",
             "relationUpgrades": "Kann verwendet werden, um das ausgewählte Paket zu aktualisieren.",
             "deleteAppliedPacket": "Angewandtes Paket löschen",
             "abstractDetail": "Kurze Stichpunkte, die die Hauptmerkmale des Pakets beschreiben.",
