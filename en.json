@@ -839,7 +839,8 @@
                 "botNotConnected": "The bot is not connected? Enable the display of query bots first. Every time you change the server settings, the bot tries to reconnect. You may find error messages in the log."
             },
             "FIVEM": {
-                "download": "Download the vyhub-fivem plugin and add it to your server."
+                "download": "Download the vyhub-fivem plugin and add it to your server.",
+                "server_cfg": "Add the following lines to your server.cfg file:"
             },
             "RUST": {
                 "download": "Download the vyhub-umod (Rust & 7 Days To Die) plugin and add it to your server."
