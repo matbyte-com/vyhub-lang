@@ -845,7 +845,8 @@
                 "server_cfg": "Add the following lines to your server.cfg file:"
             },
             "RUST": {
-                "download": "Download the vyhub-umod (Rust & 7 Days To Die) plugin and add it to your server."
+                "download": "Download the vyhub-umod (Rust & 7 Days To Die) plugin and add it to your server.",
+                "imageLibrary": "Download the Image-Library plugin to be able to use the /dashboard command."
             }
         },
         "deleteServerbundleConfirmationText": "Deleting a serverbundle will also delete all depending objects (rewards, servers, bans, warnings, ...). This action cannot be undone."
@@ -1101,7 +1102,8 @@
         "updateSuccess": "Successfully updated.",
         "updateOrderSuccess": "Successfully updated order.",
         "toggleSuccess": "Successfully toggled.",
-        "copyClipboard": "Copied to clipboard."
+        "copyClipboard": "Copied to clipboard.",
+        "linkCopied": "Link copied to clipboard."
     },
     "_support": {
         "getHelp": "Do you need help?",
