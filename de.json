@@ -344,7 +344,7 @@
         "countTillBan": "Anzahl der Verwarnungen bis zum automatischen Bann",
         "settingFormDesc": "Benutzer werden automatisch gesperrt, wenn sie die angegebene Anzahl von aktiven Warnungen erreichen.",
         "add": "Verwarnung hinzufügen",
-        "showUserWarnings": "Verwarnunge des Nutzers mit der ID: {id}",
+        "showUserWarnings": "Verwarnungen des Nutzers mit der ID: {id}",
         "labels": {
             "details": "Verwarn-Details"
         }
