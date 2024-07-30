@@ -882,7 +882,7 @@
         "minimumPayout5€": "Minimale Auszahlung von 5€",
         "integrationToken": "Integrationstoken",
         "generateAccessToken": "Neuen Token generieren",
-        "newTokenDescription": "Mit diesem Token kannst du deine Instanzen im Namen deiner Kunden erstellen. Kopiere diesen Token und bewahren ihn auf. Er wird nicht erneut angezeigt"
+        "newTokenDescription": "Mit diesem Token kannst du deine Instanzen im Namen deiner Kunden erstellen. Kopiere diesen Token und bewahre ihn auf. Er wird nicht erneut angezeigt."
     },
     "message": "Nachricht",
     "acceptPrivacy": "Ich akzeptiere die Datenschutzerklärung",
