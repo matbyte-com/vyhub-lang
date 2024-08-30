@@ -25,7 +25,7 @@
         "errorColor": "Hata Rengi",
         "logoURL": "Logo URL'si",
         "faviconURL": "Favicon URL'si",
-        "headerColor": "Üstbilgi ve Altbilgi Rengi",
+        "headerColor": "Başlık Rengi",
         "darkmode": "Karanlık mod",
         "backgroundImageURL": "Arka Plan Resmi URL'si",
         "showCommunityName": "Topluluk Adını Göster",
@@ -37,7 +37,10 @@
         "communityNameDescription": "Topluluk adını başlıkta görüntüler",
         "logoDescription": "Logo doğru görüntülenmiyorsa Sayfayı yeniden yükle",
         "logoWidth": "Logo Genişliği",
-        "customCss": "Özel CSS"
+        "customCss": "Özel CSS",
+        "headerContainer": "Başlık Konteyneri",
+        "footerColor": "Altbilgi Rengi",
+        "lightHeaderColor": "Açık Başlık Rengi"
     },
     "_settings": {
         "contentEmpty": "İçerik boş",
@@ -90,7 +93,8 @@
             "add": "Grup Üyeliği Ekle",
             "endMembership": "Üyeliği Sonlandır",
             "edit": "Grup Üyeliğini Düzenle",
-            "activeMemberships": "Aktif Üyelikler"
+            "activeMemberships": "Aktif Üyelikler",
+            "showInactive": "Pasifleri Göster"
         }
     },
     "_dashboard": {
@@ -103,10 +107,12 @@
             "unlinkAccountWarning": "Bir kullanıcı bağlantısını silmek hesapların bağlantısını kaldıracaktır. Yönetici Durumu, Yasaklar, Uyarılar, Satın Alımlar, Uygulanan Paketler ve Krediler bundan etkilenir ve beklediğiniz şekilde ele alınmayabilir. Her şeyin yolunda olduğundan emin olmak için daha sonra kontrol edin.",
             "registered_on": "Üzerinde kayıtlı",
             "last_online": "Son çevrimiçi",
-            "membershipEndDescription": "Sınırsız süre boş bırakın"
+            "membershipEndDescription": "Sınırsız süre boş bırakın",
+            "visibleToUser": "Kullanıcıya Görünür"
         },
         "messages": {
-            "removeAdminConfirmation": "Merkezi örneğinize genel bakışınızda eski yöneticiyi örnekten kaldırmayı unutmayın."
+            "removeAdminConfirmation": "Merkezi örneğinize genel bakışınızda eski yöneticiyi örnekten kaldırmayı unutmayın.",
+            "deleteUserText": "Bir kullanıcıyı silmek, ilgili tüm yasakları, uyarıları, satın almaları, istatistikleri vb. de siler. Bu işlem geri alınamaz."
         }
     },
     "_ban": {
@@ -1111,5 +1117,48 @@
     "setup": "Kurulum",
     "test": "Test",
     "documentation": "Dokümantasyon",
-    "unknown": "Bilinmeyen"
+    "unknown": "Bilinmeyen",
+    "_mail": {
+        "subjects": {
+            "payment_successful": "Ödeme başarılı, fatura hazır",
+            "cart_follow_up": "Deneyiminizi Kaçırmayın",
+            "notification": "{name} adlı yerde yeni bildirim",
+            "subscription_cancelled": "Abonelik iptal edildi"
+        },
+        "base": {
+            "hello_x": "Merhaba {name}",
+            "hey_x": "Selam {name}",
+            "best_regards": "En iyi dileklerimle",
+            "your_x_team": "{name} Ekibiniz",
+            "thank_you": "Hizmetlerimizi kullandığınız için teşekkür ederiz.",
+            "purchase_history": "Satın Alma Geçmişi"
+        },
+        "cart_follow_up": {
+            "exploring": "{name} adlı muhteşem dünyayı keşfettiğinizi fark ettik. Görünüşe göre sepetinizde bir şeyi bırakmışsınız.",
+            "benefits": "Gözünüzün önündeki özel avantajları ve ayrıcalıkları kaçırmayın.",
+            "your_cart": "Sepetiniz",
+            "take_me_to_my_cart": "Sepetime Git"
+        },
+        "notification": {
+            "can_disable": "Bu e-posta bildirimlerini kişisel ayarlarınızdan devre dışı bırakabilirsiniz.",
+            "new_notification": "{name} adlı yerde yeni bir bildirim aldınız"
+        },
+        "payment_successful": {
+            "payment_processed": "{amount} tutarındaki ödemeniz başarıyla işlenmiştir.",
+            "invoice_available": "Faturanız {purchase_history} bölümünde mevcuttur."
+        },
+        "subscription_cancelled": {
+            "gateway_sub_cancelled": "{gateway} aboneliğiniz iptal edilmiştir.",
+            "product": "Ürün",
+            "subscription_id": "Abonelik Kimliği",
+            "check_status": "Mevcut durumu {purchase_history} bölümünde kontrol edin."
+        }
+    },
+    "_search": {
+        "labels": {
+            "linkedUsers": "Bağlantılı kullanıcılar",
+            "searchUsers": "Kullanıcıları ara",
+            "recentlyActiveUsers": "Son Zamanlarda Aktif Kullanıcılar"
+        }
+    }
 }
