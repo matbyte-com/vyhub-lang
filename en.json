@@ -811,7 +811,8 @@
             "FIVEM": "FiveM",
             "ASA": "ARK: Survival Ascended",
             "RUST": "Rust",
-            "SEVEN_DAYS": "7 Days to Die"
+            "SEVEN_DAYS": "7 Days to Die",
+            "TEAMSPEAK3": "Teamspeak 3"
         },
         "instructions": {
             "COMMON": {
