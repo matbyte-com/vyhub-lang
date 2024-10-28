@@ -368,8 +368,7 @@
             "container": "Contenitore",
             "dense": "Denso",
             "inviteLink": "Link per l'invito",
-            "question": "Domanda",
-            "app": "App - Visualizzazione in cima alla pagina"
+            "question": "Domanda"
         },
         "currentPlayers": "Giocatori attuali"
     },

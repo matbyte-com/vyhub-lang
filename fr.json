@@ -1164,7 +1164,6 @@
         "whiteText": "Texte en blanc",
         "_form": {
             "fixed": "Corrigé - Correction du composant lors du défilement",
-            "app": "App - Afficher en haut de page",
             "dense": "Denses",
             "marginTop": "Marge du Haut",
             "inviteLink": "Lien pour l'invitation",
