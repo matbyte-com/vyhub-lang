@@ -624,7 +624,6 @@
             "question": "Question",
             "answer": "Answer",
             "maxColumnHeight": "Max Column Height",
-            "app": "App - Display on top of page",
             "fixed": "Fixed - Fix component while scrolling",
             "dense": "Dense",
             "container": "Container",
