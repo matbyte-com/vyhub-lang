@@ -531,7 +531,8 @@
                 "script": "Execute a script on the server(s)",
                 "credits": "Add {credits_display_title} to the buyers account",
                 "membership": "Add group membership",
-                "http": "Send a HTTP request"
+                "http": "Send a HTTP request",
+                "teamspeak_channel": "Create a Teamspeak channel"
             }
         },
         "status": {
