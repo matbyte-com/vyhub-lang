@@ -170,6 +170,7 @@
         "serverAndServerbundle": "Server / Serverbundle",
         "requirements": "Requirements",
         "showTicket": "Enable Ticket System",
+        "shopOnly": "Enable Shop Only Mode (Simple)",
         "showTeam": "Enable Team Page",
         "showFaq": "Enable FAQ Page",
         "showForum": "Enable Forum",
