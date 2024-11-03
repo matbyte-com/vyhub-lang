@@ -89,7 +89,7 @@
         "headerContainer": "Kopfzeile Container",
         "footerColor": "Fußzeilenfarbe",
         "lightHeaderColor": "Helle Kopfzeilenfarbe",
-        "enable_landingpage": "Landingpage aktiviert"
+        "enable_landingpage": "Landingpage aktivieren"
     },
     "_ban": {
         "labels": {
@@ -909,12 +909,12 @@
         }
     },
     "_legal": {
-        "descriptionText": "In den meisten Ländern ist es zwingend erforderlich, zumindest die Kontaktdaten, Nutzungsbedingungen und eine Datenschutzerklärung des Website-Betreibers anzugeben. Eine beispielhafte Datenschutzerklärung findest du in den Dokumenten.",
+        "descriptionText": "In den meisten Ländern ist es zwingend erforderlich, zumindest die Kontaktdaten, Nutzungsbedingungen und eine Datenschutzerklärung des Website-Betreibers anzugeben. Eine beispielhafte Datenschutzerklärung findest du in der Dokumentation.",
         "showLegalReminder": "Bitte setze ein Impressum in den Einstellungen!"
     },
     "_forms": {
         "labels": {
-            "iconDescription": "Verfügbare Symbole"
+            "iconDescription": "Verfügbare Icons"
         }
     },
     "_packetCategory": {
