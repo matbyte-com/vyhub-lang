@@ -519,6 +519,10 @@
             "limitToServersDescription": "Limit the execution of the reward to the selected servers. If no servers are selected, the reward is executed on all servers in the serverbundle.",
             "headerValue": "Header Value",
             "maxRetries": "Number of Retries",
+            "parentChannelId": "Parent Channel ID",
+            "channelGroupId": "Channel Group ID",
+            "clientLimit": "Client Limit",
+            "deleteOnExpire": "Delete on expiration",
             "_events": {
                 "direct": "Execute directly",
                 "connect": "Execute on connect",
