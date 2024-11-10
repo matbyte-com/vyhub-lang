@@ -712,7 +712,8 @@
             "edit": "Edit Discount",
             "allPackets": "Usable for all packets",
             "delete": "Delete Discount",
-            "maxUsagesPerUser": "Maximum usages per user"
+            "maxUsagesPerUser": "Maximum usages per user",
+            "codeDescription": "The code that the user has to enter during checkout. Leave empty to apply the discount automatically."
         }
     },
     "_userLogEntry": {
