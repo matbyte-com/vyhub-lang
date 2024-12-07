@@ -340,7 +340,8 @@
         "userLoginShopDescription": "Please login so we can identify you in game.",
         "labels": {
             "newUsers": "New Users",
-            "authRequestDescription": "Execute the following command on a {type} server to login:"
+            "authRequestDescription": "Execute the following command on a {type} server to login:",
+            "hideAvatar": "Hide/Unhide Avatar for all users"
         },
         "type": {
             "CENTRAL": {
