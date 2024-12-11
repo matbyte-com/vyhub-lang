@@ -266,7 +266,9 @@
             "redirectDescription": "You will be redirected to the payment provider.",
             "productDescription": "Product Description",
             "showWidgetsOnShopPage": "Show statistic widgets on shop page",
-            "showWidgetsOnShopPageDesc": "If disabled, the enabled widgets (top donators, ...) are not shown on the shop page."
+            "showWidgetsOnShopPageDesc": "If disabled, the enabled widgets (top donators, ...) are not shown on the shop page.",
+            "purchasesWithoutAddressLimit": "Customer address required for purchases of more than",
+            "purchasesWithoutAddressLimitDescription": "For purchases with a total amount less than specified here, the customer does not need to provide an address. Only applies for purchases that use the default currency."
         },
         "messages": {
             "confirmCreditsPayment": "Please confirm the payment of {credits} {credits_display_title}.",
@@ -326,6 +328,7 @@
         "too_many_ban_protests": "There are already 3 protests for this ban.",
         "title_too_long": "The title is too long",
         "validation_error": "Validation error: {msg}",
+        "address_required": "An address is required for this purchase.",
         "coupon": {
             "not_found": "This code is invalid."
         }
