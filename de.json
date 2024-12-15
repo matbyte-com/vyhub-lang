@@ -127,7 +127,7 @@
     },
     "_shop": {
         "labels": {
-            "taxAllowUnknown": "Erlaube Käufe aus Ländern ohne Steuervorschriften.",
+            "taxAllowUnknown": "Erlaube Käufe aus Ländern ohne gesetzte Mehrwertsteuerregel.",
             "donationGoal": "Spendenziel",
             "perMonth": "pro Monat",
             "enableDonationGoal": "Spendenziel aktivieren",
@@ -167,7 +167,7 @@
             "donationGoalDisplayTitle": "Anzeigetitel des Spendenziels",
             "discountCode": "Rabattcode",
             "recommended": "Für dich empfohlen",
-            "creditsDisplayTitle": "Credits Anzeigenamen",
+            "creditsDisplayTitle": "Anzeigename für Credits",
             "creditsDisplayTitleDescription": "Benenne Zahlungsgutschriften nach Belieben um (Gulden, Diamanten, Münzen...)",
             "addToCart13CharsMax": "Warenkorb",
             "redirectDescription": "Du wirst zum Zahlungsanbieter weitergeleitet.",
@@ -179,7 +179,11 @@
             "enableLastDonators": "Letzte Spenden aktivieren",
             "topDonatorsDaysLimit": "Akkumulationsdauer",
             "yourAccounts": "Deine Konten",
-            "showPacketsAsList": "Pakete als Liste anzeigen"
+            "showPacketsAsList": "Pakete als Liste anzeigen",
+            "purchasesWithoutAddressLimit": "Kundenadresse erforderlich für Käufe über",
+            "purchasesWithoutAddressLimitDescription": "Bei Einkäufen mit einem geringeren Betrag als der hier angegebene, ist die Angabe einer Adresse durch den Kunden nicht erforderlich. Gilt nur für Einkäufe, die die Standardwährung verwenden.",
+            "showWidgetsOnShopPage": "Statistik-Widgets auf der Shop-Seite anzeigen",
+            "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt."
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -241,7 +245,9 @@
         "requirement_parse_error": "Konnte Vorraussetzungs-Formel nicht verarbeiten. Bitte kontaktiere einen Admin.",
         "payment_error": "Zahlungsfehler: {msg}",
         "illegal_value": "Ungültiger Wert: {msg}",
-        "title_too_long": "Der Titel ist zu lang"
+        "title_too_long": "Der Titel ist zu lang",
+        "address_required": "Für diesen Kauf ist eine Adresse erforderlich.",
+        "validation_error": "Validierungsfehler: {msg}"
     },
     "_navigation": {
         "enabled": "Aktiviert",
@@ -389,7 +395,8 @@
             "queryPortDescription": "SSH Query Port des TS3-Servers. Der Standardport ist 10022.",
             "sshQueryPort": "SSH Query Port",
             "offline": "Offline",
-            "hidden": "Versteckt"
+            "hidden": "Versteckt",
+            "rconPassword": "RCON-Passwort"
         },
         "type": {
             "GMOD": "Garry's Mod",
@@ -398,7 +405,8 @@
             "FIVEM": "FiveM",
             "RUST": "Rust",
             "SEVEN_DAYS": "7 Days to Die",
-            "ASA": "ARK: Survival Ascended"
+            "ASA": "ARK: Survival Ascended",
+            "TEAMSPEAK3": "Teamspeak 3"
         },
         "instructions": {
             "DISCORD": {
@@ -410,7 +418,8 @@
             },
             "COMMON": {
                 "runCommands": "Generiere die erforderlichen Befehle, indem du auf die Schaltfläche klickst. Führe diese anschließend in der Serverkonsole deines Servers aus.",
-                "wait": "Warte bis zu einer Minute, bis VyHub initialisiert ist. Bei erfolgreicher Verbindung erscheint eine Meldung in der Serverkonsole."
+                "wait": "Warte bis zu einer Minute, bis VyHub initialisiert ist. Bei erfolgreicher Verbindung erscheint eine Meldung in der Serverkonsole.",
+                "noSetup": "Für diesen Server ist kein In-Game-Plugin erforderlich. Befolge einfach die Anweisungen. Für mehr Infos, lies die Dokumentation."
             },
             "GMOD": {
                 "download": "Lade das Addon vyhub-gmod herunter, entpacken es und legen es in den Addons-Ordner deines Servers. Starte dann deinen Server neu.",
@@ -424,10 +433,12 @@
                 "botNotConnected": "Der Bot ist nicht verbunden? Aktiviere zuerst die Anzeige von Query-Bots. Jedes Mal, wenn du die Servereinstellungen änderst, versucht der Bot, sich erneut zu verbinden. Möglicherweise findest du auch Fehlermeldungen im Log."
             },
             "FIVEM": {
-                "download": "Lade das Vyhub-Fivem-Plugin herunter und fügen es deinem Server hinzu."
+                "download": "Lade das Vyhub-Fivem-Plugin herunter und fügen es deinem Server hinzu.",
+                "server_cfg": "Füge die folgenden Zeilen zur server.cfg-Datei hinzu:"
             },
             "RUST": {
-                "download": "Lade das Plugin vyhub-umod herunter und füge es deinem Server hinzu."
+                "download": "Lade das Plugin vyhub-umod herunter und füge es deinem Server hinzu.",
+                "imageLibrary": "Lade das Image-Library-Plugin herunter, um den Befehl /dashboard verwenden zu können."
             },
             "ASA": {
                 "download": "Lade das Plugin vyhub-asa herunter und lege es in den Plugins-Ordner deines Servers. Starten dann den Server neu."
@@ -544,7 +555,8 @@
                 "credits": "Credits zum Konto des Käufers hinzufügen",
                 "membership": "Gruppenmitgliedschaft hinzufügen",
                 "script": "Ausführen eines Skripts auf dem/den Server(n)",
-                "http": "Einen HTTP request senden"
+                "http": "Einen HTTP request senden",
+                "teamspeak_channel": "Erstelle einen Teamspeak-Kanal"
             },
             "addAppliedReward": "Angewendete Prämie hinzufügen",
             "reactivateOnExtend": "Erneut ausführen, wenn das Paket verlängert wurde (bei Abonnementzahlung)",
@@ -556,7 +568,16 @@
             "headers": "Header",
             "headerKey": "Header Key",
             "maxRetries": "Anzahl der Wiederholungsversuche",
-            "headerValue": "Header Value"
+            "headerValue": "Header Value",
+            "parentChannelId": "ID des übergeordneten Kanals",
+            "channelGroupId": "Kanalgruppen-ID",
+            "clientLimit": "Nutzerlimit",
+            "deleteOnExpire": "Nach Ablauf löschen",
+            "serverbundleDescription": "Eine Prämie wird auf allen Servern im ausgewählten Serverbundle ausgeführt, auch auf später hinzugefügten Servern. Für Prämien, die nicht serverbundle-spezifisch sind, kann dieses Feld leer gelassen werden. Weitere Informationen in der Dokumentation.",
+            "onceDescription": "Wenn aktiviert, wird die Prämie nur einmal auf ALLEN Servern im ausgewählten Serverbundle ausgeführt, einschließlich später hinzugefügter Server. Wenn deaktiviert, wird die Prämie jedes Mal, wenn das ausgewählte Ereignis eintritt, auf allen Servern im ausgewählten Serverbundle ausgeführt.",
+            "limitToServers": "Auf Server beschränken",
+            "limitToServersDescription": "Beschränke die Ausführung der Prämie auf die ausgewählten Server. Wenn keine Server ausgewählt sind, wird die Belohnung auf allen Servern im Serverbundle ausgeführt.",
+            "onceFromAllDescription": "Wenn aktiviert, wird die Prämie nur auf dem ersten Server (des ausgewählten Serverbundles) ausgeführt, mit dem sich der Benutzer verbindet. Muss mit „Nur einmal ausführen“ kombiniert werden."
         },
         "status": {
             "OPEN": "Offen",
@@ -653,7 +674,7 @@
         "editFormula": "Formula Bearbeiten",
         "showFaq": "FAQ aktivieren",
         "communityDescription": "Community Beschreibung",
-        "communityDescriptionDescr": "Dies wird in den Ergebnissen von Suchmaschinentests und beim Teilen in sozialen Medien angezeigt",
+        "communityDescriptionDescr": "Dies wird in den Ergebnissen von Suchmaschinen und beim Teilen in sozialen Medien angezeigt",
         "addServerTooltip": "Erstelle zuerst ein Serverbundle",
         "showForum": "Forum aktivieren",
         "showChat": "Chat aktivieren",
@@ -661,7 +682,8 @@
         "showFirstStepsDescription": "Die Einführung im unteren rechten Rand des Bildschirms (nur für Admins)",
         "requirementSetTest": "Teste die Regeln für einen Nutzer",
         "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics",
-        "advancedSettings": "Erweiterte Einstellungen"
+        "advancedSettings": "Erweiterte Einstellungen",
+        "shopOnly": "Nutze nur den VyHub Shop (einfacher Modus)"
     },
     "_user": {
         "type": {
@@ -696,7 +718,8 @@
         },
         "labels": {
             "newUsers": "Neue Nutzer",
-            "authRequestDescription": "Führe den folgenden Befehl auf einem {type}-Server aus, um dich anzumelden:"
+            "authRequestDescription": "Führe den folgenden Befehl auf einem {type}-Server aus, um dich anzumelden:",
+            "hideAvatar": "Avatar für andere Benutzer ein-/ausblenden"
         },
         "userLinkDescription": "Das Verknüpfen der Nutzer geschieht auf magische Art und Weise. Aber pass auf, dieser Zauber kann nicht rückgängig gemacht werden!",
         "userLoginShopDescription": "Bitte melde dich an, damit wir dich im Spiel identifizieren können.",
@@ -761,7 +784,8 @@
             "edit": "Rabatt bearbeiten",
             "allPackets": "Verwendbar für alle Pakete",
             "delete": "Rabatt löschen",
-            "maxUsagesPerUser": "Maximale Nutzung pro Benutzer"
+            "maxUsagesPerUser": "Maximale Nutzung pro Benutzer",
+            "codeDescription": "Der Code, den der Benutzer beim Bezahlvorgang eingeben muss. Lasse das Feld leer, um den Rabatt für alle anzuwenden anzuwenden."
         }
     },
     "_userLogEntry": {
@@ -995,7 +1019,8 @@
             "ban_comment_show": "Bannkommentare anzeigen",
             "ticket_create": "Verhindert, dass Nutzer Tickets und Bannanfechtungen erstellen",
             "forum_post": "Verhindert, dass Benutzer im Forum Beiträge erstellen",
-            "shop_use": "Verhindert, dass Nutzer den Shop benutzen"
+            "shop_use": "Verhindert, dass Nutzer den Shop benutzen",
+            "ban_unlimited": "Banns beliebiger Länge erstellen"
         },
         "categories": {
             "general": "Allgemein",
@@ -1239,7 +1264,8 @@
         "toggleSuccess": "Erfolgreich umgeschaltet.",
         "createSuccess": "Erfolgreich erstellt.",
         "deleteSuccess": "Erfolgreich gelöscht.",
-        "copyClipboard": "In die Zwischenablage kopiert."
+        "copyClipboard": "In die Zwischenablage kopiert.",
+        "linkCopied": "Link in die Zwischenablage kopiert."
     },
     "method": "Methode",
     "_component": {
@@ -1291,5 +1317,18 @@
     "advanced": "Erweitert",
     "memberships": "Mitgliedschaften",
     "news": "Neuigkeiten",
-    "deletedUser": "Gelöschter Nutzer"
+    "deletedUser": "Gelöschter Nutzer",
+    "_support": {
+        "discordDescription": "Tritt unserem Discord-Server bei, um Hilfe von der Community und den Entwicklern zu erhalten.",
+        "getHelp": "Brauchst du Hilfe?",
+        "send": "Senden",
+        "reply?": "Möchtest du eine Antwort?",
+        "supportQuestions": "Hast du eine Frage oder Feedback? Schicke uns eine Nachricht!",
+        "youtubeDescription": "Schau dir unseren Youtube-Kanal für Tutorials und Anleitungen an.",
+        "documentationDescription": "Lies die Dokumentation, um Antworten auf häufig gestellte Fragen zu finden.",
+        "messages": {
+            "requestSendSuccess": "Supportanfrage erfolgreich gesendet. Du solltest schon bald eine Bestätigungs-E-Mail erhalten, wenn du eine Antwort möchtest.",
+            "tooShort": "Deine Nachricht ist zu kurz."
+        }
+    }
 }
