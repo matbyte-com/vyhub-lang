@@ -614,9 +614,6 @@
         "forum": "Forum"
     },
     "_home": {
-        "messages": {
-            "messageEmpty": "Voer een bericht in"
-        },
         "messageSubject": "Onderwerp",
         "editNews": "Bewerk bericht",
         "newsOfTheDay": "Nieuws van de dag",

@@ -525,9 +525,6 @@
     "extraProperties": "Zusätzliche Eigenschaften",
     "length": "Länge",
     "_home": {
-        "messages": {
-            "messageEmpty": "Bitte gib eine Nachricht ein"
-        },
         "addNews": "Neue Nachricht",
         "messageSubject": "Thema",
         "editNews": "Nachricht bearbeiten",

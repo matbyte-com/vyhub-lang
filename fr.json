@@ -89,9 +89,6 @@
         "googleAnalyticsTagDescription": "[Facultatif] pour l'utilisation de Google Analytics"
     },
     "_home": {
-        "messages": {
-            "messageEmpty": "Veuillez entrer un message"
-        },
         "newsOfTheDay": "Actualités du jour",
         "news": "Actualités",
         "addNews": "Nouveau message",

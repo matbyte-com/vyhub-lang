@@ -459,9 +459,6 @@
         }
     },
     "_home": {
-        "messages": {
-            "messageEmpty": "Por favor, digite uma mensagem"
-        },
         "news": "Atualizações",
         "newsOfTheDay": "Atualizações do dia",
         "addNews": "Nova Mensagem",

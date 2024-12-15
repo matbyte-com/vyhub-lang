@@ -340,10 +340,7 @@
         "addNews": "Nuovo Messaggio",
         "invertTitleColor": "Inverti il Colore del Titolo",
         "messageSubject": "Oggetto",
-        "editNews": "Modifica messaggio",
-        "messages": {
-            "messageEmpty": "Inserisci un messaggio"
-        }
+        "editNews": "Modifica messaggio"
     },
     "_component": {
         "addComponent": "Aggiungi componente",

@@ -665,9 +665,6 @@
     "_home": {
         "messageSubject": "Konu",
         "editNews": "Mesajı Düzenle",
-        "messages": {
-            "messageEmpty": "Lütfen bir mesaj girin"
-        },
         "news": "Haberler",
         "newsOfTheDay": "Günün haberleri",
         "addNews": "Yeni Mesaj"
