@@ -412,7 +412,6 @@
         "editCmsPage": "Edit Page",
         "deleteCmsPage": "Delete Page",
         "deleteDefaultLink": "Can't delete default link",
-        "bothHtmlInputsUsed": "Do not use both HTML inputs",
         "contentSanitizationWarning": "JavaScript is only allowed to be used by Admins. Otherwise it is going to be sanitized.",
         "uploadFile": "Upload File"
     },
