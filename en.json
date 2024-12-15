@@ -176,7 +176,7 @@
         "showForum": "Enable Forum",
         "showChat": "Enable Chat",
         "communityDescription": "Community Description",
-        "communityDescriptionDescr": "This will be shown in search engine test results and when sharing in social media",
+        "communityDescriptionDescr": "This will be shown in search engine results and when sharing in social media",
         "language": "Language",
         "languageNewDescriptionText": "Help us translate to your language",
         "addServerTooltip": "Add a serverbundle first",
@@ -718,7 +718,7 @@
             "allPackets": "Usable for all packets",
             "delete": "Delete Discount",
             "maxUsagesPerUser": "Maximum usages per user",
-            "codeDescription": "The code that the user has to enter during checkout. Leave empty to apply the discount automatically."
+            "codeDescription": "The code that the user has to enter during checkout. Leave empty to apply the discount for everybody."
         }
     },
     "_userLogEntry": {
@@ -827,7 +827,7 @@
         },
         "instructions": {
             "COMMON": {
-                "noSetup": "This serevr does not require an in-game plugin. Just follow the instructions in the docs.",
+                "noSetup": "This server does not require an in-game plugin. Just follow the instructions in the docs.",
                 "runCommands": "Generate the required commands by clicking the button and execute them in the server console of your server.",
                 "wait": "Wait up to a minute for VyHub to initialize. There will be a message in the server console if the connection was successful."
             },
