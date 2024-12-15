@@ -261,7 +261,6 @@
         "addNavLink": "Navigationslink hinzufügen",
         "editNavLink": "Navigationslink bearbeiten",
         "deleteDefaultLink": "Standardlink kann nicht gelöscht werden",
-        "bothHtmlInputsUsed": "Verwende nicht beide HTML Eingabefelder",
         "_location": {
             "header": "Kopfzeile",
             "footer": "Fußzeile",

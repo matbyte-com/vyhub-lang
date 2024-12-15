@@ -331,7 +331,6 @@
         "link": "Lien",
         "addNavLink": "Ajouter un lien de navigation",
         "editNavLink": "Modifier le lien de navigation",
-        "bothHtmlInputsUsed": "Ne pas utiliser les deux entrées HTML",
         "deleteDefaultLink": "Impossible de supprimer le lien par défaut",
         "parentNavigationLink": "Lien de navigation parent",
         "navUpdate": "Mettre à jour l'ordre de navigation",

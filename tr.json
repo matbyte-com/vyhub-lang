@@ -407,7 +407,6 @@
         "parentNavigationLink": "Üst Gezinme Bağlantısı",
         "deleteDefaultLink": "Varsayılan bağlantı silinemiyor",
         "navUpdate": "Gezinme Sırasını Güncelle",
-        "bothHtmlInputsUsed": "Her iki HTML girdisini de kullanmayın",
         "contentSanitizationWarning": "JavaScript'in yalnızca Yöneticiler tarafından kullanılmasına izin verilir. Aksi takdirde dezenfekte edilecektir.",
         "cmsPage": "HTML Sayfası",
         "addCmsPage": "Sayfa Ekle",
