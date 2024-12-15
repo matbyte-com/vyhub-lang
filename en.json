@@ -76,7 +76,8 @@
             "last_online": "Last online",
             "membershipEndDescription": "Leave empty for unlimited duration",
             "removeAdminTitle": "Remove admin?",
-            "visibleToUser": "Visible to user"
+            "visibleToUser": "Visible to user",
+            "noLinkedAccounts": "No linked accounts"
         },
         "messages": {
             "removeAdminConfirmation": "Do not forget to remove the former admin from the instance in your central instance overview.",
