@@ -608,10 +608,7 @@
         "addNews": "New Message",
         "invertTitleColor": "Invert Title Color",
         "messageSubject": "Subject",
-        "editNews": "Edit Message",
-        "messages": {
-            "messageEmpty": "Please enter a message"
-        }
+        "editNews": "Edit Message"
     },
     "_component": {
         "addComponent": "Add Component",
