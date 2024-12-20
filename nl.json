@@ -313,7 +313,6 @@
         "sublink": "Sublink",
         "editor": "Bewerker",
         "cmsPageTitle": "HTML Paginas",
-        "enabled": "Inschakelen",
         "htmlContent": "HTML inhoud",
         "reqProp": "Vereiste eigenschap",
         "contentSanitizationWarning": "JavaScript mag alleen worden gebruikt door beheerders. Anders wordt het ontsmet.",
@@ -683,8 +682,7 @@
         "addAdvertDialog": "Advertentie toevoegen",
         "editAdvertDialog": "Advertentie bewerken",
         "title": "Advertenties",
-        "add": "Advertentie toevoegen",
-        "formEnabled": "inschakelen"
+        "add": "Advertentie toevoegen"
     },
     "cancelled": "geannuleerd",
     "_property": {
@@ -938,10 +936,7 @@
         "html": "HTML is toegestaan in dit veld.",
         "editQuestionDialog": "Vraag bewerken",
         "add": "Vraag toevoegen",
-        "addQuestionDialog": "Vraag toevoegen",
-        "messages": {
-            "contentEmpty": "Alsjeblieft voeg inhoud toe."
-        }
+        "addQuestionDialog": "Vraag toevoegen"
     },
     "properties": "Eigenschappen",
     "icon": "Icoon",

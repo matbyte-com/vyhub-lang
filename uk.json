@@ -140,7 +140,6 @@
         "contentSanitizationWarning": "JavaScript дозволено використовувати лише адміністраторам. В іншому випадку він буде вилучений.",
         "htmlContent": "Вміст у форматі HTML",
         "linkTitle": "Заголовок",
-        "enabled": "Включено",
         "link": "Лінк",
         "editNavLink": "Редагувати навігаційний лінк"
     },
@@ -792,7 +791,6 @@
         "title": "Оголошення",
         "formTitle": "Назва",
         "add": "Додати оголошення",
-        "formEnabled": "Увімкнути",
         "addAdvertDialog": "Додати оголошення",
         "editAdvertDialog": "Редагувати оголошення",
         "formContent": "Вміст"
@@ -809,9 +807,6 @@
     },
     "_faq": {
         "add": "Додати питання",
-        "messages": {
-            "contentEmpty": "Будь ласка, введіть контент"
-        },
         "addQuestionDialog": "Додати питання",
         "editQuestionDialog": "Редагувати питання",
         "html": "У цьому полі дозволено використовувати HTML."

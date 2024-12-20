@@ -399,7 +399,6 @@
             "invalidFileType": "Geçersiz dosya türü."
         },
         "sublink": "Alt Bağlantı",
-        "enabled": "Etkin",
         "htmlContent": "HTML İçeriği",
         "link": "Bağlantı",
         "html": "HTML",
@@ -609,9 +608,6 @@
     },
     "_faq": {
         "html": "Bu alanda HTML'ye izin verilir.",
-        "messages": {
-            "contentEmpty": "Lütfen bir içerik girin"
-        },
         "add": "Soru ekle",
         "addQuestionDialog": "Soru ekle",
         "editQuestionDialog": "Soruyu düzenle"
@@ -891,7 +887,6 @@
     "_advert": {
         "title": "İlanlar",
         "add": "Reklam ekle",
-        "formEnabled": "Etkin",
         "formTitle": "Başlık",
         "addAdvertDialog": "Reklam ekle",
         "formContent": "İçerik",

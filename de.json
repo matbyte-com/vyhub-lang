@@ -250,7 +250,6 @@
         "validation_error": "Validierungsfehler: {msg}"
     },
     "_navigation": {
-        "enabled": "Aktiviert",
         "link": "Link",
         "messages": {
             "invalidFileType": "Ungültiger Dateityp."
@@ -1031,9 +1030,6 @@
     "_faq": {
         "addQuestionDialog": "Frage hinzufügen",
         "editQuestionDialog": "Frage bearbeiten",
-        "messages": {
-            "contentEmpty": "Bitte gib einen Inhalt ein"
-        },
         "add": "Frage hinzufügen",
         "html": "HTML ist in diesem Feld erlaubt."
     },
@@ -1113,7 +1109,6 @@
     "_advert": {
         "title": "Ankündigungen",
         "add": "Anzeige hinzufügen",
-        "formEnabled": "berechtigen",
         "formTitle": "Titel",
         "formContent": "Inhalt",
         "addAdvertDialog": "Anzeige hinzufügen",

@@ -326,7 +326,6 @@
     "_navigation": {
         "title": "Navigation",
         "linkTitle": "Titre",
-        "enabled": "Activé",
         "htmlContent": "Contenu HTML",
         "link": "Lien",
         "addNavLink": "Ajouter un lien de navigation",
@@ -953,9 +952,6 @@
     "_faq": {
         "add": "Ajouter une question",
         "editQuestionDialog": "Modifier une question",
-        "messages": {
-            "contentEmpty": "Veuillez saisir du contenu"
-        },
         "addQuestionDialog": "Ajouter une question",
         "html": "HTML est autorisé dans cette section."
     },
@@ -964,7 +960,6 @@
         "title": "Annonces",
         "formTitle": "Titre",
         "formContent": "Contenu",
-        "formEnabled": "Activer",
         "editAdvertDialog": "Modifier l'annonce",
         "addAdvertDialog": "Ajouter une annonce"
     },

@@ -272,7 +272,6 @@
         },
         "linkTitle": "Título",
         "editor": "Editor",
-        "enabled": "Habilitado",
         "htmlContent": "Conteúdo HTML",
         "link": "Link",
         "html": "Html",
@@ -598,9 +597,6 @@
         "showBan": "Mostrar proibição"
     },
     "_faq": {
-        "messages": {
-            "contentEmpty": "Por favor, insira um conteúdo"
-        },
         "addQuestionDialog": "Adicionar pergunta",
         "editQuestionDialog": "Editar pergunta",
         "add": "Adicionar pergunta",
@@ -679,7 +675,6 @@
         "title": "Anúncios",
         "add": "Adicionar anúncio",
         "formContent": "Conteúdo",
-        "formEnabled": "Habilitar",
         "addAdvertDialog": "Adicionar anúncio",
         "editAdvertDialog": "Editar anúncio"
     },
