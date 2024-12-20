@@ -412,7 +412,7 @@
                 "addBot": "Füge den Bot zu deinem Discord-Server hinzu. Klicken auf Neu laden, wenn die Schaltfläche nicht funktioniert.",
                 "createApp": "Erstellen eine Discord-Anwendung und aktiviere die Discord-Autorisierung.",
                 "readInstructions": "Lese und befolge die weiteren Anweisungen in der Dokumentation.",
-                "restartBot": "[Optional] Du hast probleme, zum Beispiel wurde der Bot nicht gestartet? Bitte überprüfe die Logs auf hilfreiche Fehlermeldungen. Hier kannst du den Bot manuell neu starten.",
+                "restartBot": "[Optional] Du hast Probleme, zum Beispiel wurde der Bot nicht gestartet? Bitte überprüfe die Logs auf hilfreiche Fehlermeldungen. Hier kannst du den Bot manuell neu starten.",
                 "restart": "Neu starten"
             },
             "COMMON": {
@@ -421,7 +421,7 @@
                 "noSetup": "Für diesen Server ist kein In-Game-Plugin erforderlich. Befolge einfach die Anweisungen. Für mehr Infos, lies die Dokumentation."
             },
             "GMOD": {
-                "download": "Lade das Addon vyhub-gmod herunter, entpacken es und legen es in den Addons-Ordner deines Servers. Starte dann deinen Server neu.",
+                "download": "Lade das Addon vyhub-gmod herunter, entpacke es und legen es in den Addons-Ordner deines Servers. Starte dann deinen Server neu.",
                 "serverConsoleHint": "Wichtig: Die Serverkonsole ist NICHT die Konsole im Spiel (beim Drücken von F10)."
             },
             "MINECRAFT": {
@@ -645,7 +645,7 @@
         "formulaSymbolOr": "Dieses Symbol | für ODER",
         "formulaSymbolAnd": "Dieses Symbol & für UND",
         "documentationLink": "Dokumentation",
-        "serverAndServerbundle": "Server /Serverbündel",
+        "serverAndServerbundle": "Server / Serverbundel",
         "requirements": "Anforderungen",
         "showTicket": "Ticket System aktivieren",
         "showTeam": "Team Seite aktivieren",
@@ -1176,7 +1176,7 @@
         "created": "Erstellt",
         "last_post": "Letzter Beitrag",
         "prohibitCreateThreads": "Diskussions-Erstellung verhindern",
-        "prohibitCreateThreadsDescription": "Verhinder, dass Benutzer neue Diskussionen erstellen. Dies betrifft nicht Benutzer mit der Berechtigung „Forum verwalten“ oder Themenadministratoren.",
+        "prohibitCreateThreadsDescription": "Verhindert, dass Benutzer neue Diskussionen erstellen. Dies betrifft nicht Benutzer mit der Berechtigung „Forum verwalten“ oder Themenadministratoren.",
         "welcomeToForum": "Willkommen im Forum",
         "allowEditPost": "Bearbeitung von Beiträgen erlauben",
         "allowEditPostDescription": "Benutzern erlauben, ihre eigenen Beiträge zu bearbeiten.",

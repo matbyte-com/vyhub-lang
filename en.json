@@ -395,7 +395,6 @@
         "sublink": "Sublink",
         "editor": "Editor",
         "cmsPageTitle": "HTML Pages",
-        "enabled": "Enabled",
         "htmlContent": "HTML Content",
         "link": "Link",
         "html": "Html",
@@ -924,10 +923,7 @@
         "add": "Add question",
         "addQuestionDialog": "Add question",
         "editQuestionDialog": "Edit question",
-        "html": "HTML is allowed in this field.",
-        "messages": {
-            "contentEmpty": "Please enter a content"
-        }
+        "html": "HTML is allowed in this field."
     },
     "_forum": {
         "welcomeToForum": "Welcome to the Forum",
@@ -970,6 +966,7 @@
         "addPost": "Add Post",
         "readMore": "Read More",
         "open": "Open",
+        "opened": "Opened",
         "closed": "Closed",
         "close": "Close",
         "banProtest": "Ban protest",
@@ -994,7 +991,6 @@
         "add": "Add advert",
         "formTitle": "Title",
         "formContent": "Content",
-        "formEnabled": "Enable",
         "addAdvertDialog": "Add advert",
         "editAdvertDialog": "Edit advert"
     },
