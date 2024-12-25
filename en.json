@@ -146,7 +146,8 @@
         "logoDescription": "Reload Page if logo is not displayed correctly",
         "logoWidth": "Logo Width",
         "faviconURL": "Favicon URL",
-        "customCss": "Custom CSS"
+        "customCss": "Custom CSS",
+        "shopOnlyServers": "These servers are shown in the shop-only header. Specify up to two servers."
     },
     "_settings": {
         "permissionLevel": "Permission Level",
