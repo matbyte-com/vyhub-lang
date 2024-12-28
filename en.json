@@ -147,6 +147,7 @@
         "logoWidth": "Logo Width",
         "faviconURL": "Favicon URL",
         "customCss": "Custom CSS",
+        "featuredServers": "Featured Servers for Shop Only",
         "shopOnlyServers": "These servers are shown in the shop-only header. Specify up to two servers."
     },
     "_settings": {
