@@ -353,7 +353,6 @@
             "activeSince": "O zamandan beri aktif",
             "buyableDetail": "Dükkandan satın alınabilir",
             "enabledDetail": "Devre dışı bırakılırsa, paket satın alınamaz ve atanan tüm paketler devre dışı kalır.",
-            "abstract": "Özet",
             "buyableActive": "Kullanıcının bu paketi etkin durumda olması durumunda satın alınabilir.",
             "activeUntil": "Aktif olana kadar",
             "limitPaymentMethods": "Limit ödeme yöntemleri",
@@ -373,7 +372,6 @@
             "details": "Paket Detayları",
             "limitPaymentMethodsDetail": "Ödeme yöntemleri seçilirse, yalnızca bunlar kullanılabilir. Değilse, tüm yöntemler kullanılabilir.",
             "end": "Son",
-            "abstractDetail": "Paketin temel özelliklerini açıklayan kısa madde işaretleri.",
             "recurring": "Yinelenen",
             "relationRequires": "Satın almak için seçilen paketi gerektirir"
         },

@@ -359,8 +359,6 @@
             "buyableDetail": "Kan gekocht worden in de winkel",
             "expires": "Verloopt",
             "limitedPayments": "Gelimiteerde betaling",
-            "abstract": "Abstract",
-            "abstractDetail": "Korte opsommingstekens die de belangrijkste kenmerken van het pakket beschrijven.",
             "recurring": "Terrugkomend",
             "buyableActive": "Te koop als de gebruiker dit pakket in een actieve staat heeft.",
             "buyableInactive": "Te koop als de gebruiker dit pakket in een inactieve staat heeft.",

@@ -378,7 +378,6 @@
     },
     "_packet": {
         "labels": {
-            "abstract": "Abstrait",
             "recurring": "Récurrent",
             "add": "Ajouter un paquet",
             "edit": "Modifier le paquet",
@@ -390,7 +389,6 @@
             "currency": "Devise",
             "expires": "Expire",
             "limitedPayments": "Paiements limités",
-            "abstractDetail": "Courte description décrivant les principales caractéristiques du paquet.",
             "recurringDetail": "Un abonnement est créé, avec l'intervalle indiqué dans le champ 'Actif pour'.",
             "buyableActive": "Achetable si l'utilisateur a ce paquet dans un état actif.",
             "activeFor": "Actif pour",

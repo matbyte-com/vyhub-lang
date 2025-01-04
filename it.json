@@ -216,7 +216,6 @@
             "buyable": "Acquistabile",
             "edit": "Modifica Pacchetto",
             "enabledDetail": "Se disabilitato, il pacchetto non può essere acquistato e tutti i pacchetti assegnati diventano inattivi.",
-            "abstractDetail": "Punti elenco brevi che descrivono le caratteristiche principali del pacchetto.",
             "buyableInactive": "Acquistabile se l'utente ha questo pacchetto in uno stato inattivo.",
             "activeForDetail": "Durata del pacchetto dopo l'attivazione. Lascia questo campo vuoto per i pacchetti che non devono essere disattivati nel tempo. Se l'opzione ricorrente è attiva, questo valore viene utilizzato come intervallo di sottoscrizione.",
             "customPriceDetail": "Lascia che sia l'utente a decidere il prezzo. Il prezzo inserito sopra viene utilizzato come prezzo minimo.",

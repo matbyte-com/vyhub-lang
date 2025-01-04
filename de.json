@@ -502,8 +502,6 @@
             "limitedPayments": "Begrenzte Zahlungsmethoden",
             "relationUpgrades": "Kann verwendet werden, um das ausgewählte Paket zu aktualisieren.",
             "deleteAppliedPacket": "Angewandtes Paket löschen",
-            "abstractDetail": "Kurze Stichpunkte, die die Hauptmerkmale des Pakets beschreiben.",
-            "abstract": "Abstrakt",
             "packetRelations": "Paketbeziehungen",
             "activeForDetail": "Wie lange das Paket nach der Aktivierung aktiv bleiben soll. Lass dieses Feld frei, damit das Paket nicht deaktiviert wird. Wenn das Paket als Abo markiert ist, wird dieser Wert als Intervall verwendet.",
             "titleInImage": "Über dem Bild angezeigter Titel (optional)",
