@@ -101,9 +101,6 @@
             "bundleDescription": "Leave empty for global ban",
             "protestBan": "Protest Ban",
             "banProtests": "Protests"
-        },
-        "messages": {
-            "showingUserBans": "Showing bans of user with ID: {id}"
         }
     },
     "_serverbundle": {
@@ -1128,6 +1125,7 @@
     "sales": "Sales",
     "change": "Change",
     "code": "Code",
+    "limitedToUser": "Limited to user {username}",
     "none": "None",
     "unexpectedError": "Unexpected Error",
     "requirementSet": "Requirement Set",
