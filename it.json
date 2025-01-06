@@ -61,9 +61,6 @@
             "protestBan": "Contesta Ban",
             "banProtests": "Conteste",
             "lengthInMinutes": "Durata (in minuti)"
-        },
-        "messages": {
-            "showingUserBans": "Mostra i ban degli utenti con ID: {id}"
         }
     },
     "_serverbundle": {

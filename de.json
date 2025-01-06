@@ -106,9 +106,6 @@
             "banProtests": "Entbannungsanträge",
             "protestBan": "Entbannungsantrag"
         },
-        "messages": {
-            "showingUserBans": "Zeige Banns für Nutzer mit der ID: {id}"
-        },
         "externalProtestUrl": "Externe Entbannungsantrag URL",
         "externalProtestUrlDescription": "Lasse das Feld leer, um das VyHub Ticketsystem für Entbannungsanträge zu verwenden. Alternativ kann eine externe URL angegeben werden, auf die weitergeleitet wird.",
         "vyhubTicketSystem": "VyHub Ticketsystem"

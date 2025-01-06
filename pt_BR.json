@@ -55,9 +55,6 @@
             "infiniteBandDescription": "Deixe em branco para banimento permanente",
             "bundleDescription": "Deixe em branco para uma proibição global",
             "banProtests": "Contestações"
-        },
-        "messages": {
-            "showingUserBans": "Mostrando proibições de usuário com ID"
         }
     },
     "_serverbundle": {

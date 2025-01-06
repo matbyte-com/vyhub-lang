@@ -47,10 +47,7 @@
             "banProtests": "Protesty",
             "bundleDescription": "Ponechte prázdné pro globální ban"
         },
-        "externalProtestUrl": "Externí URL pro protest proti banu",
-        "messages": {
-            "showingUserBans": "Zobrazení banů uživatele s ID: {id}"
-        }
+        "externalProtestUrl": "Externí URL pro protest proti banu"
     },
     "_login": {
         "messages": {

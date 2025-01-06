@@ -81,9 +81,6 @@
             "bundleDescription": "Laat leeg voor levenslang verbod",
             "protestBan": "Bezwaar verbod",
             "banProtests": "Protest"
-        },
-        "messages": {
-            "showingUserBans": "Verbanningen van gebruikers met ID weergeven: {id}"
         }
     },
     "_serverbundle": {

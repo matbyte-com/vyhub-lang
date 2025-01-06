@@ -130,9 +130,6 @@
             "infiniteBandDescription": "Ömür boyu yasak için boş bırakın",
             "bundleDescription": "Küresel yasak için boş bırakın"
         },
-        "messages": {
-            "showingUserBans": "Kimliği olan kullanıcının yasaklarını gösterme: {id}"
-        },
         "externalProtestUrlDescription": "VyHub bilet sistemi için boş bırakın veya harici siteye yönlendirmek için bağlantı girin.",
         "externalProtestUrl": "Dış yasaklama protesto URL'si",
         "vyhubTicketSystem": "VyHub Bilet Sistemi"

@@ -38,9 +38,6 @@
             "unbanned": "Desbaneado",
             "infiniteBandDescription": "Dejar vacío para la prohibición de por vida",
             "bundleDescription": "Dejar vacío para la prohibición global"
-        },
-        "messages": {
-            "showingUserBans": "Mostrando prohibiciones de usuario con ID: {id}"
         }
     },
     "_serverbundle": {

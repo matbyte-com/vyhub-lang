@@ -97,9 +97,6 @@
         "invertTitleColor": "Inversion de la couleur du titre"
     },
     "_ban": {
-        "messages": {
-            "showingUserBans": "Affichage des bannissements de l'utilisateur avec l'identifiant : {id}"
-        },
         "labels": {
             "title": "Bannissements",
             "add": "Ajouter un bannissement",

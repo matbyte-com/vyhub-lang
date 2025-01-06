@@ -89,9 +89,6 @@
         }
     },
     "_ban": {
-        "messages": {
-            "showingUserBans": "Показати бани користувача з ID: {id}"
-        },
         "labels": {
             "protestBan": "Заявка на зняття бану",
             "reban": "Знову забанити",
