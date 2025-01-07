@@ -879,6 +879,7 @@
         "editTeam": "Edit Team"
     },
     "_import": {
+        "title": "Import",
         "messages": {
             "description": "In this section, you can import data from other systems."
         },
@@ -1228,7 +1229,6 @@
     "actions": "Actions",
     "title": "Title",
     "comments": "Comments",
-    "import": "Import",
     "subtitle": "Subtitle",
     "summary": "Summary",
     "expired": "Expired",
