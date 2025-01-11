@@ -539,7 +539,7 @@
             "numberOfReservedSlots": "Ayrılmış yuva sayısı",
             "keepReservedSlotsFree": "Ayrılmış yuvaları ücretsiz tutun",
             "hideReservedSlots": "Ayrılmış yuvaları gizle",
-            "discordEnterIdAsAddress": "Lonca kimliğinizi sunucu adresi olarak girin. Favori numaranızı port olarak girin.",
+            "discordEnterIdAsAddress": "Lonca kimliğinizi sunucu adresi olarak girin.",
             "addBot": "Loncanıza bot ekleyin.",
             "create": "Sunucu Oluştur"
         },

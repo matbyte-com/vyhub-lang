@@ -791,7 +791,7 @@
             "edit": "Editar Servidor",
             "numberOfReservedSlots": "Número de slots reservados",
             "hideReservedSlots": "Esconder slots reservados",
-            "discordEnterIdAsAddress": "Digite o id da sua guilda como endereço do servidor. Digite seu número favorito como porta.",
+            "discordEnterIdAsAddress": "Digite o id da sua guilda como endereço do servidor.",
             "addBot": "Adicionar bot em sua guilda.",
             "discordApplicationIdNeeded": "Criar uma aplicação do Discord.",
             "guildIdDocs": "Encontrar ID da guilda",

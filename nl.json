@@ -877,7 +877,7 @@
             "guildIdDocs": "Gilde-ID vinden",
             "setup": "Server instellen",
             "details": "Server details",
-            "discordEnterIdAsAddress": "Voer uw guilds-id in als serveradres. Voer uw favoriete nummer in als poort.",
+            "discordEnterIdAsAddress": "Voer uw guilds-id in als serveradres.",
             "keepReservedSlotsFree": "Houd gereserveerde slots vrij"
         },
         "type": {

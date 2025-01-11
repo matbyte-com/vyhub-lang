@@ -469,7 +469,7 @@
     },
     "_server": {
         "labels": {
-            "discordEnterIdAsAddress": "Inserisci l'id della corporazione come indirizzo del server. Inserisci il numero preferito come porta.",
+            "discordEnterIdAsAddress": "Inserisci l'id della corporazione come indirizzo del server.",
             "create": "Crea Server",
             "edit": "Modifica Server",
             "numberOfReservedSlots": "Numero di slot riservati",

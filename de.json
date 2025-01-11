@@ -381,7 +381,7 @@
             "keepReservedSlotsFree": "Reservierte Slots freihalten",
             "numberOfReservedSlots": "Anzahl an reservierten Slots",
             "hideReservedSlots": "Reservierte Slots ausblenden",
-            "discordEnterIdAsAddress": "Gib deine Gilden-ID als Serveradresse ein. Gib deine Lieblingszahl als Port ein.",
+            "discordEnterIdAsAddress": "Gib deine Gilden-ID als Serveradresse ein.",
             "addBot": "Bot zu deiner Gilde hinzufügen.",
             "discordApplicationIdNeeded": "Discord-Anwendung erstellen.",
             "guildIdDocs": "Gilden-ID finden.",

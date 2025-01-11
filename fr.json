@@ -679,7 +679,7 @@
             "numberOfReservedSlots": "Nombre d'emplacements réservés",
             "keepReservedSlotsFree": "Gardez les emplacements réservés libres",
             "hideReservedSlots": "Masquer les emplacements réservés",
-            "discordEnterIdAsAddress": "Entrez l'identifiant de votre guilde comme adresse de serveur. Entrez votre numéro préféré comme port.",
+            "discordEnterIdAsAddress": "Entrez l'identifiant de votre guilde comme adresse de serveur.",
             "addBot": "Ajoutez un bot à votre guilde.",
             "guildIdDocs": "Trouver l'identifiant du Serveur Discord",
             "discordApplicationIdNeeded": "Créer une application Discord.",
