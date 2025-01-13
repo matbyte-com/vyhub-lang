@@ -94,8 +94,6 @@
         "formulaTypeError": "Zkontrolovat, zda jsou všechna použitá ID přítomna",
         "formulaError": "Formula není platná – zkontrolujte konzoli pro další informace.\"",
         "editFormula": "Upravit Formulu",
-        "formulaSymbolOr": "Tento Symbol: | pro operaci \"nebo\"",
-        "formulaSymbolAnd": "Tento Symbol: & pro operaci \"A\"",
         "formulaBeta": "Tato funkce je ve fázi beta testování. Používejte s opatrností.",
         "documentationLink": "Dokumentace",
         "serverAndServerbundle": "Server / Serverový balíček",

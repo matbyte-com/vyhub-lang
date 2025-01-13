@@ -57,8 +57,6 @@
         "formulaTypeError": "Vérifiez si tous les identifiants utilisés sont présents",
         "formulaError": "Formule non valide - consultez la console pour plus d'informations",
         "editFormula": "Modifier la formule",
-        "formulaSymbolOr": "Ce symbole | pour OU",
-        "formulaSymbolAnd": "Ce symbole & pour ET",
         "serverAndServerbundle": "Serveur / Offre groupée de serveurs",
         "requirements": "Conditions",
         "showTeam": "Activer la page d'équipe",

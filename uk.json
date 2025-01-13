@@ -7,8 +7,6 @@
         "editRequirementSet": "Редагувати набір параметрів",
         "addRequirement": "Додати параметр",
         "formulaTypeError": "Перевірити, чи всі застосовані ID наявні",
-        "formulaSymbolOr": "Цей символ | для АБО (OR)",
-        "formulaSymbolAnd": "Цей символ & для І (AND)",
         "httpPlaceholder": "https://myurl.com",
         "logicFormula": "Логічна формула",
         "editFormula": "Редагувати формулу",

@@ -58,7 +58,6 @@
         "multigroupDescription": "Kullanıcılar bu pakette aynı anda birden fazla gruba üye olabilir.",
         "formulaError": "Formül geçerli değil - ek bilgi için konsolu kontrol edin",
         "editFormula": "Formülü Düzenle",
-        "formulaSymbolAnd": "Bu Sembol & için VE",
         "requirements": "Gereksinimler",
         "language": "Dil",
         "showFaq": "SSS Sayfasını Etkinleştir",
@@ -72,7 +71,6 @@
             "updateOrder": "Güncelleme Sırası",
             "resetOrder": "Siparişi Sıfırla"
         },
-        "formulaSymbolOr": "Bu Sembol / için VEYA",
         "showTeam": "Takım Sayfasını Etkinleştir",
         "communityDescriptionDescr": "Bu, arama motoru test sonuçlarında ve sosyal medyada paylaşılırken gösterilecektir",
         "addServerTooltip": "Önce bir sunucu paketi ekleyin",

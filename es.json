@@ -79,8 +79,6 @@
         "logicFormula": "Fórmula lógica",
         "formulaTypeError": "Compruebe si todas las identificaciones utilizadas están presentes",
         "editFormula": "Editar fórmula",
-        "formulaSymbolOr": "Este símbolo | para O",
-        "formulaSymbolAnd": "Este símbolo & para Y",
         "formulaBeta": "Esta función está en fase beta. Úselo con precaución.",
         "documentationLink": "Documentación",
         "requirements": "Requisitos",

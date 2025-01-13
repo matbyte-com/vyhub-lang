@@ -107,8 +107,6 @@
         "formulaTypeError": "Checar se todas das identificações usadas estão presentes",
         "formulaError": "Fórmula não válida - Cheque o painel para informações adicionais",
         "editFormula": "Editar Fórmula",
-        "formulaSymbolOr": "Esse símbolo | para OR",
-        "formulaSymbolAnd": "Esse Símbolo & para E",
         "formulaBeta": "Essa função está em fase de teste. Por favor, utilize com cuidado.",
         "documentationLink": "Documentação",
         "requirements": "Requerimentos",

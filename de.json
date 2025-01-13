@@ -636,8 +636,6 @@
         "editRequirementSet": "Anforderungsset bearbeiten",
         "addRequirement": "Anforderung hinzufügen",
         "formulaError": "Formel nicht gültig - Konsole für zusätzliche Informationen prüfen",
-        "formulaSymbolOr": "Dieses Symbol | für ODER",
-        "formulaSymbolAnd": "Dieses Symbol & für UND",
         "documentationLink": "Dokumentation",
         "serverAndServerbundle": "Server / Serverbundel",
         "requirements": "Anforderungen",

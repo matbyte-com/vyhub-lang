@@ -125,8 +125,6 @@
         "logicFormula": "Logische formule",
         "formulaError": "Formule niet geldig - controleer de console voor aanvullende informatie",
         "editFormula": "Formule bewerken",
-        "formulaSymbolOr": "Dit symbool | voor OF",
-        "formulaSymbolAnd": "Dit symbool & voor en",
         "documentationLink": "Documentatie",
         "serverAndServerbundle": "Server/ Server bundel",
         "requirements": "Vereisten",
