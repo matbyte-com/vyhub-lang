@@ -163,8 +163,6 @@
         "formulaTypeError": "Check if all used Id's are present",
         "formulaError": "Formula not valid - check console for additional info",
         "editFormula": "Edit Formula",
-        "formulaSymbolOr": "This Symbol | for OR",
-        "formulaSymbolAnd": "This Symbol & for AND",
         "formulaBeta": "This function is in beta phase. Please use with caution.",
         "documentationLink": "Documentation",
         "serverAndServerbundle": "Server / Serverbundle",
@@ -639,11 +637,21 @@
         "requirementType": "Type",
         "requirementOperator": "Operator",
         "permissionLevel": "Permission Level",
+        "permissionLevel": "Permission Level",
         "requirementSet": "Requirement Set",
         "propertyName": "Property Name",
         "attributeName": "Attribute Name",
         "attributeValue": "Attribute Value",
         "date": "Date",
+        "labels": {
+            "forOrConnection": "For OR Connection",
+            "forAndConnection": "For AND Connection"
+        },
+        "examples": {
+            "abstract": "The requirement set is fulfilled, if the user fulfills requirement with ID 1 and either requirement ID 2 or ID 3.",
+            "basic": "The requirement set is fulfilled, if the user fulfills requirement 0",
+            "advanced": "The requirement set is fulfilled, if the user fulfills requirement 0 or requirement 1 or requirement 2"
+        },
         "types": {
             "GROUP_MEMBER": "Groupmember",
             "PERMISSION_LEVEL": "Permission Level",
