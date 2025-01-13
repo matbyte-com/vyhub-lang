@@ -648,7 +648,7 @@
             "forAndConnection": "For AND Connection"
         },
         "examples": {
-            "abstract": "The requirement set is fulfilled, if the user fulfills requirement with ID 1 and either requirement ID 2 or ID 3.",
+            "abstract": "The requirement set is fulfilled, if the user fulfills requirement with ID 0 and either requirement ID 1 or ID 2.",
             "basic": "The requirement set is fulfilled, if the user fulfills requirement 0",
             "advanced": "The requirement set is fulfilled, if the user fulfills requirement 0 or requirement 1 or requirement 2"
         },
