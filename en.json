@@ -325,6 +325,7 @@
         "ban_protest_open": "There already exists an open protest for this ban.",
         "too_many_ban_protests": "There are already 3 protests for this ban.",
         "title_too_long": "The title is too long",
+        "invalid_token": "Your login session expired, please log in again.",
         "validation_error": "Validation error: {msg}",
         "address_required": "An address is required for this purchase.",
         "coupon": {
