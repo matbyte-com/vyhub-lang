@@ -638,7 +638,6 @@
         "requirementType": "Type",
         "requirementOperator": "Operator",
         "permissionLevel": "Permission Level",
-        "permissionLevel": "Permission Level",
         "requirementSet": "Requirement Set",
         "propertyName": "Property Name",
         "attributeName": "Attribute Name",
@@ -695,7 +694,7 @@
             "acceptPendingDescription": "Some payment methods (e.g. SEPA Direct Debit, SOFORT, ...) take several days until completed. If this option is enabled, purchases paid with these methods are finished directly after completing the checkout process. There is a small chance that the payment fails afterwards.",
             "webhookURL": "Webhook URL",
             "imageUrlDescription": "Optional. Default images are used, when no link is provided.",
-            "paypalLegacyHint": "This PayPal integration is easy to setup and also works with non-business accounts. However, it does not support refunds and subscription payments. If possible, use the normal PayPal integration.",
+            "paypalLegacyHint": "This PayPal integration is easy to setup and sometimes also works with non-business accounts. However, it does not support refunds and subscription payments. If possible, use the normal PayPal integration.",
             "paypalHint": "This PayPal integration requires a PayPal business account. If you do not have one, upgrade your PayPal account or use the PayPal (Easy) integration."
         },
         "messages": {
