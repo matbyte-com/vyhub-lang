@@ -803,8 +803,11 @@
             "create": "Create Server",
             "edit": "Edit Server",
             "numberOfReservedSlots": "Number of reserved slots",
+            "numberOfReservedSlotsDesc": "Number of player slots that should be reserved for users in privileged groups.",
             "keepReservedSlotsFree": "Keep reserved slots free",
+            "keepReservedSlotsFreeDesc": "If enabled, reserved slots are always kept free to allow privileged users to join the server even if it is full. In this case the newest non-privileged user is kicked.",
             "hideReservedSlots": "Hide reserved slots",
+            "hideReservedSlotsDesc": "Recommended together with the previous option. If enabled, reserved slots are not shown in the server list.",
             "discordEnterIdAsAddress": "Enter your guilds id as server address.",
             "addBot": "Add bot to your guild.",
             "discordApplicationIdNeeded": "Create Discord application.",
@@ -814,6 +817,8 @@
             "queryPortDescription": "Query port of your TS3 server. The standard port is 10022.",
             "sshQueryPort": "SSH Query Port",
             "offline": "Offline",
+            "syncBans": "Sync Bans",
+            "syncBansDescription": "Enable ban sync for the server. This requires that groups are set up correctly and mapped to in-game groups.",
             "hidden": "Hidden"
         },
         "type": {
