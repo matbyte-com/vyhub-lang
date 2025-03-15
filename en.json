@@ -261,6 +261,7 @@
             "creditsDisplayTitle": "Credits display title",
             "creditsDisplayTitleDescription": "Rename payment credits to anything you like (gulden, diamonds, coins...)",
             "pleaseWait": "Please Wait",
+            "sharePacket": "Check out the {title} from {store}! Great perks at a great price.",
             "redirectDescription": "You will be redirected to the payment provider.",
             "productDescription": "Product Description",
             "showWidgetsOnShopPage": "Show statistic widgets on shop page",
