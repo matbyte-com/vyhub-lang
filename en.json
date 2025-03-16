@@ -836,7 +836,8 @@
             "COMMON": {
                 "noSetup": "This server does not require an in-game plugin. Just follow the instructions in the docs.",
                 "runCommands": "Generate the required commands by clicking the button and execute them in the server console of your server.",
-                "wait": "Wait up to a minute for VyHub to initialize. There will be a message in the server console if the connection was successful."
+                "wait": "Wait up to a minute for VyHub to initialize. There will be a message in the server console if the connection was successful.",
+                "prerequisites": "Make sure that {framework} is installed."
             },
             "GMOD": {
                 "download": "Download the vyhub-gmod addon, unpack it and put it into the addons folder of your server. Then restart your server.",
