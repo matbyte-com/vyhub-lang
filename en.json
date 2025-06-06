@@ -820,7 +820,8 @@
             "offline": "Offline",
             "syncBans": "Sync Bans",
             "syncBansDescription": "Enable ban sync for the server. This requires that groups are set up correctly and mapped to in-game groups.",
-            "hidden": "Hidden"
+            "hidden": "Hidden",
+            "additionalProperties": "Additional Properties"
         },
         "type": {
             "DISCORD": "Discord",
