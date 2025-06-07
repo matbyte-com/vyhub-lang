@@ -1064,7 +1064,7 @@
             "user_log_show": "View user log",
             "packet_show": "View packets and rewards",
             "packet_edit": "Manage shop packets",
-            "purchase_show": "View purchases and statistics",
+            "purchase_show": "View purchases and statistics of all users",
             "purchase_edit": "Manage purchases",
             "applied_packet_show": "View applied packets and rewards.",
             "applied_packet_edit": "Edit applied packets and rewards.",
