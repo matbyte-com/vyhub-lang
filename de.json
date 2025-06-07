@@ -27,8 +27,7 @@
             "take_me_to_my_cart": "Zum Warenkorb"
         },
         "notification": {
-            "new_notification": "Du hast eine neue Benachrichtigung von {name} erhalten",
-            "can_disable": "Du kannst diese E-Mails in deinen persönlichen Einstellungen deaktivieren."
+            "new_notification": "Du hast eine neue Benachrichtigung von {name} erhalten"
         },
         "payment_successful": {
             "payment_processed": "Deine Zahlung in Höhe von {amount} wurde erfolgreich bearbeitet.",

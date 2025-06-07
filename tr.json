@@ -1123,7 +1123,6 @@
             "take_me_to_my_cart": "Sepetime Git"
         },
         "notification": {
-            "can_disable": "Bu e-posta bildirimlerini kişisel ayarlarınızdan devre dışı bırakabilirsiniz.",
             "new_notification": "{name} adlı yerde yeni bir bildirim aldınız"
         },
         "payment_successful": {

@@ -1261,8 +1261,7 @@
             "take_me_to_my_cart": "Emmène-moi à mon panier"
         },
         "notification": {
-            "new_notification": "Tu as reçu une nouvelle notification à {name}",
-            "can_disable": "Tu peux désactiver ces notifications par courriel dans tes paramètres personnels."
+            "new_notification": "Tu as reçu une nouvelle notification à {name}"
         },
         "payment_successful": {
             "payment_processed": "ton paiement de {amount} a été traité avec succès.",
