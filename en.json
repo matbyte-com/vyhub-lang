@@ -926,7 +926,7 @@
         "discordBotToken": "Bot Token",
         "redirectUrl": "Redirect URL",
         "steamApiKey": "Steam API Key",
-        "steamApiKeyDescription": "The Steam API key is used to fetch user data from Steam. You can get one at https://steamcommunity.com/dev/apikey. It's highly recommended to set this key."
+        "steamApiKeyDescription": "It's highly recommended to set your Steam API key here. The Steam API key is used to fetch user data from Steam. You can get one here"
     },
     "_serverDashboard": {
         "noUsersFound": "No users found.",
