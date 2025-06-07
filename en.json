@@ -28,7 +28,7 @@
         },
         "notification": {
             "new_notification": "You received a new notification at {name}",
-            "can_disable": "You can disable these email notifications in your personal settings."
+            "unsubscribe_url": "You can unsubscribe from further notifications here"
         },
         "payment_successful": {
             "payment_processed": "your payment of {amount} has been successfully processed.",
