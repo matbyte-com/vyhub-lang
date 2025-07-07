@@ -235,7 +235,6 @@
         "labels": {
             "edit": "Modifica la Categoria del Pacchetto",
             "create": "Crea la Categoria di Pacchetto",
-            "imageDetail": "Un URL HTTPS all'immagine della categoria.",
             "delete": "Elimina la Categoria del Pacchetto"
         }
     },

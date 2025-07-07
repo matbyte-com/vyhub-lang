@@ -579,7 +579,6 @@
         "labels": {
             "edit": "Pakketcategorie bewerken",
             "delete": "Pakketcategorie verwijderen",
-            "imageDetail": "Een HTTPS-URL naar de categorieafbeelding.",
             "create": "Pakketcategorie maken"
         }
     },

@@ -421,8 +421,7 @@
         "labels": {
             "create": "Créer une catégorie de paquets",
             "edit": "Modifier la catégorie de paquets",
-            "delete": "Supprimer la catégorie de paquets",
-            "imageDetail": "Une URL HTTPS vers l'image de catégorie."
+            "delete": "Supprimer la catégorie de paquets"
         }
     },
     "_reward": {

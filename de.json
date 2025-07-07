@@ -946,7 +946,6 @@
         "labels": {
             "create": "Paketkategorie erstellen",
             "delete": "Paketkategorie löschen",
-            "imageDetail": "Eine HTTPS-URL zum Kategoriebild.",
             "edit": "Paketkategorie bearbeiten"
         }
     },

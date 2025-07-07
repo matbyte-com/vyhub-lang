@@ -873,8 +873,7 @@
         "labels": {
             "edit": "Paket Kategorisini Düzenle",
             "delete": "Paket Kategorisini Sil",
-            "create": "Paket Kategorisi Oluştur",
-            "imageDetail": "Kategori resmine bir HTTPS URL'si."
+            "create": "Paket Kategorisi Oluştur"
         }
     },
     "_advert": {

@@ -700,8 +700,7 @@
         "labels": {
             "create": "Criar Categoria do Pacote",
             "edit": "Editar Pacote da Categoria",
-            "delete": "Deletar Categoria do Pacote",
-            "imageDetail": "Um HTTPS URL para imagem da categoria."
+            "delete": "Deletar Categoria do Pacote"
         }
     },
     "_requirement": {
