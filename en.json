@@ -136,8 +136,8 @@
         "backgroundColorDescription": "Color is overwritten by background image",
         "enable_landingpage": "Enable Landingpage",
         "darkmode": "Darkmode",
-        "backgroundImageURL": "Background Image URL",
-        "logoURL": "Logo URL",
+        "backgroundImageURL": "Background Image",
+        "logoURL": "Logo",
         "showCommunityName": "Show Community Name",
         "communityNameDescription": "Displays community name in header",
         "logoDescription": "Reload Page if logo is not displayed correctly",
@@ -214,8 +214,8 @@
             "showPacketsAsList": "Show packets as list",
             "downloadInvoices": "Download Invoices",
             "cart": "Cart",
-            "invoiceLogoURL": "Invoice logo URL",
-            "invoiceLogoURLDetails": "URL to a logo that is displayed on the invoice.",
+            "invoiceLogoURL": "Invoice logo",
+            "invoiceLogoURLDetails": "Logo that is displayed on the invoice.",
             "admin": "Shop Administration",
             "couponCode": "Coupon Code",
             "discountCode": "Discount Code",
@@ -493,8 +493,7 @@
         "labels": {
             "create": "Create Packet Category",
             "edit": "Edit Packet Category",
-            "delete": "Delete Packet Category",
-            "imageDetail": "An HTTPS URL to the category image."
+            "delete": "Delete Packet Category"
         }
     },
     "_reward": {
@@ -694,7 +693,7 @@
             "clientCertDescription": "A client certificate and key is used as authentication method for the paysafecard API. Contact the paysafecard support to get one.",
             "acceptPendingDescription": "Some payment methods (e.g. SEPA Direct Debit, SOFORT, ...) take several days until completed. If this option is enabled, purchases paid with these methods are finished directly after completing the checkout process. There is a small chance that the payment fails afterwards.",
             "webhookURL": "Webhook URL",
-            "imageUrlDescription": "Optional. Default images are used, when no link is provided.",
+            "imageUrlDescription": "Optional. Default images are used, when no image is uploaded.",
             "paypalLegacyHint": "This PayPal integration is easy to setup and sometimes also works with non-business accounts. However, it does not support refunds and subscription payments. If possible, use the normal PayPal integration.",
             "paypalHint": "This PayPal integration requires a PayPal business account. If you do not have one, upgrade your PayPal account or use the PayPal (Easy) integration."
         },
@@ -1195,7 +1194,7 @@
     "startdate": "Begin",
     "enddate": "Ending",
     "example": "Example",
-    "imageURL": "Image URL",
+    "imageURL": "Image",
     "link": "Link",
     "groups": "Groups",
     "value": "Value",
