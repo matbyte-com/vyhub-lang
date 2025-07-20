@@ -168,7 +168,8 @@
             "selfhosted": "Self-Hosted",
             "free": "Free",
             "topUpNow": "Top up now",
-            "topUpNeeded": "Top up needed"
+            "topUpNeeded": "Top up needed",
+            "paymentPlan": "Payment Plan"
         },
         "title": "Create New Instance",
         "instanceNameAndDomain": "Name and Domain",
@@ -383,6 +384,8 @@
             "paymentId": "Payment ID",
             "addToCart": "Add to cart",
             "total": "Total",
+            "totalMonthly": "Monthly Total",
+            "totalOneTime": "One-Time Total",
             "businessAddress": "Business Address",
             "credits": "Credits",
             "purchaseNow": "Purchase Now",
