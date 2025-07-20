@@ -227,7 +227,7 @@
             "instanceSelfhostedLimitedSupport": "Wenn Sie Hilfe bei der Installation von VyHub auf deinem Server benötigst, kannst du das erweiterte Support-Paket erwerben.",
             "instanceSelfhostedRequirements": "Bitte beachte, dass für das Selbsthosting mehrere Voraussetzungen gelten. Du benötigst einen Linux-Server, auf dem Docker und Docker-Compose installiert sind. Darüber hinaus benötigst du eine Domain und ein SSL-Zertifikat. Du benötigst außerdem einen Systemadministrator, der den Server einrichten und warten kann. Wenn du diese Anforderungen nicht erfüllst, nutze die Cloud-Version von VyHub.",
             "noActiveSubscriptions": "Für diese Instanz sind keine aktiven Abonnements vorhanden. Stelle sicher, dass du vor dem Ende der Laufzeit ein neues Abonnement erstellst.",
-            "paymentLaterSelfhosted": "Nachdem du diesen Dialog abgeschlossen hast, musst du deine Instanz aktivieren, indem du einen Abonement auswählst.",
+            "paymentLaterSelfhosted": "Nachdem du diesen Dialog abgeschlossen hast, musst du deine Instanz aktivieren, indem du ein Abonnement auswählst.",
             "updateAvailable": "Es ist ein Update verfügbar!"
         },
         "cnameCheckerTool": "CNAME-Überprüfung",
