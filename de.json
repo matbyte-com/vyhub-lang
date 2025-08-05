@@ -237,7 +237,7 @@
         "connectOneServer": "Verbinde einen Spielserver",
         "automaticExtension": "Automatische Verlängerung",
         "setUpAutocharge": "Automatische Zahlungen aktivieren",
-        "revenueFee": "Einnahmegebühr",
+        "revenueFee": "Umsatzgebühr",
         "statusHelpPreSelfhosted": "Bitte schließe die Zahlung ab, um deine Instanz zu aktivieren.",
         "statusHelpSelfhosted": "Bitte folge den Anweisungen in der Dokumentation zum Einrichten der Instanz. Du kannst dich an den Support wenden, wenn du Hilfe benötigst."
     },

@@ -228,7 +228,9 @@
             "continueInDocs": "Continue in the documentation",
             "continueInDocsDescription": "For the next steps, please check our documentation:",
             "assurePrerequisitesDescription": "Make sure that your server and environment meet all necessary prerequisites. Also follow the installation instructions until you are sent back to this dialog. You can find the requirements and instructions in the docs:",
-            "assurePrerequisites": "Prerequisites"
+            "assurePrerequisites": "Prerequisites",
+            "upgradeToLifetime": "Upgrade to Lifetime",
+            "forEur": "For {amount} €"
         },
         "instanceName": "Name of Instance",
         "cnamePointingAt": "CNAME pointing at",
@@ -271,6 +273,7 @@
         "messages": {
             "removedAdmin": "Admin successfully removed.",
             "addedAdmin": "Admin successfully added.",
+            "upgradeTopUpNeeded": "You need to enable Auto-Charge and top up your account to at least {amount} € to upgrade this instance.",
             "noActivePackets": "There are no active subscriptions for this instance. Make sure to extend your instance before the end of the runtime.",
             "noResourcesAvailable": "There are currently no resources available for a new instance. Please try again later.",
             "instanceReady": "Your instance is ready!",
@@ -280,7 +283,8 @@
             "instanceSelfhostedRequirements": "Please note that there are several requirements for self-hosting. You need a linux server with docker and docker-compose installed. Furthermore you need a domain and a SSL certificate. You also need a system administrator that can set up and maintain the server. If you do not meet these requirements, use the cloud version of VyHub.",
             "noActiveSubscriptions": "There are no active subscriptions for this instance. Make sure to create a new subscription before the end of the runtime.",
             "paymentLaterSelfhosted": "After finishing this dialog, you will need to activate your instance by selecting a payment plan.",
-            "updateAvailable": "There is an update available!"
+            "updateAvailable": "There is an update available!",
+            "confirmLifetimeUpgrade": "Are you sure you want to upgrade to lifetime? This will remove the monthly fee and you will not be charged anymore. The lifetime upgrade is a one-time payment of {amount} €."
         },
         "cnameCheckerTool": "CNAME Check Tool",
         "revenueFee": "Revenue Fee"
@@ -504,6 +508,7 @@
         "no_permissions": "Permission error: {msg}",
         "unauthorized": "You must be logged in to do this.",
         "wrong_currency": "You cannot have packets with different currencies in your cart.",
+        "insufficient_balance": "You need to have auto-charge enabled and a sufficient balance to do this.",
         "coupon": {
             "not_found": "This code is invalid."
         }
