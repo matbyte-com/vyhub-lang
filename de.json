@@ -180,7 +180,13 @@
             "assurePrerequisites": "Voraussetzungen",
             "subdomain": "Subdomain",
             "selfhostFrontend": "Selbstgehostetes Frontend (Experte)",
-            "selfhostFrontendDescription": "Kann aktiviert werden, wenn vyhub-web auf deinem eigenen Server gehostet wird. Dies ist nur für fortgeschrittene Benutzer."
+            "selfhostFrontendDescription": "Kann aktiviert werden, wenn vyhub-web auf deinem eigenen Server gehostet wird. Dies ist nur für fortgeschrittene Benutzer.",
+            "retryScheduled": "Wiederholung geplant",
+            "baseFee": "Grundgebühr",
+            "stopInstanceDescription": "Wenn die Instanz gestoppt wird, wird im nächsten Monat keine Gebühr mehr fällig.",
+            "resumeInstanceDescription": "Wenn die Instanz gestartet wird, wird die monatliche Gebühr von {cloudFee} fällig.",
+            "upgradeToLifetime": "Upgrade auf Lifetime",
+            "forEur": "Für {amount} €"
         },
         "instanceName": "Name der Instanz",
         "cnamePointingAt": "CNAME zeigt auf",
@@ -228,7 +234,9 @@
             "instanceSelfhostedRequirements": "Bitte beachte, dass für das Selbsthosting mehrere Voraussetzungen gelten. Du benötigst einen Linux-Server, auf dem Docker und Docker-Compose installiert sind. Darüber hinaus benötigst du eine Domain und ein SSL-Zertifikat. Du benötigst außerdem einen Systemadministrator, der den Server einrichten und warten kann. Wenn du diese Anforderungen nicht erfüllst, nutze die Cloud-Version von VyHub.",
             "noActiveSubscriptions": "Für diese Instanz sind keine aktiven Abonnements vorhanden. Stelle sicher, dass du vor dem Ende der Laufzeit ein neues Abonnement erstellst.",
             "paymentLaterSelfhosted": "Nachdem du diesen Dialog abgeschlossen hast, musst du deine Instanz aktivieren, indem du ein Abonnement auswählst.",
-            "updateAvailable": "Es ist ein Update verfügbar!"
+            "updateAvailable": "Es ist ein Update verfügbar!",
+            "upgradeTopUpNeeded": "Du musst Auto-Charge aktivieren und dein Konto mindestens mit {amount} € aufladen, damit du diese Instanz upgraden kannst.",
+            "confirmLifetimeUpgrade": "Bist du sicher, dass du auf Lifetime upgraden möchtest? Die monatliche Grundgebühr wird dann nicht mehr fällig. Das Lifetime-Upgrade kostet einmalig {amount} €."
         },
         "cnameCheckerTool": "CNAME-Überprüfung",
         "extendInstance": "Instanz verlängern",
@@ -390,7 +398,8 @@
         "too_many_instances": "Du kannst keine weiteren Instanzen erstellen. Bitte kontaktiere den Support um das Limit zu erhöhen.",
         "missing_properties": "Du hast nicht all benötigten Rechte: {properties}",
         "no_resources_available": "Aktuell gibt es nicht genügend verfügbare Rechenleistung.",
-        "packet_relation_violated": "Dieses Paket verletzt eine Paketbeziehung mit einem anderen Paket: {relation_type} {packet_title}."
+        "packet_relation_violated": "Dieses Paket verletzt eine Paketbeziehung mit einem anderen Paket: {relation_type} {packet_title}.",
+        "insufficient_balance": "Du musst Autocharge aktiviert haben und ein ausreichendes Guthaben haben, damit du diese Aktion ausführen kannst."
     },
     "_gateway": {
         "labels": {
@@ -447,7 +456,10 @@
             "downloadInvoices": "Herunterladen von Rechnungen",
             "payNow": "Jetzt zahlen",
             "pleaseWait": "Bitte warten...",
-            "redirectDescription": "Du wirst zum Zahlungsanbieter weitergeleitet"
+            "redirectDescription": "Du wirst zum Zahlungsanbieter weitergeleitet",
+            "price_override": "Preis Überschreiben",
+            "totalMonthly": "Monatlich Gesamt",
+            "totalOneTime": "Einmalig Gesamt"
         },
         "messages": {
             "couponsEntered": "Dein coupon wurde erfolgreich gespeichert. Du kannst ihn noch ändern, solange er noch nicht akzeptiert worden ist.",
@@ -563,13 +575,19 @@
         "labels": {
             "cloud": "Cloud",
             "selfhosted": "Selbst gehostet",
-            "free": "Gratis"
+            "free": "Gratis",
+            "topUpNow": "Jetzt aufladen",
+            "topUpNeeded": "Aufladung benötigt",
+            "paymentPlan": "Zahlungs-Plan"
         },
         "messages": {
             "customDomainDescriptionSelfhosting": "Du musst eine Domain besitzen und den DNS-A/AAAA-Eintrag auf den Server verweisen, auf dem VyHub gehostet wird.",
             "selfhostedDescription": "Die selbst gehostete Version von VyHub ist nur für fortgeschrittene Benutzer. Du kannst VyHub selbst hosten und du hast damit vollen Zugriff auf die Datenbank. Dafür musst du eine feste Grundgebühr pro Monat und eine Provision von 3 % auf den Umsatz zahlen.",
             "cloudDescription": "VyHub Cloud ist der einfachste Weg, mit VyHub zu beginnen. Wir kümmern uns um das Hosting und die Wartung deiner Instanz, damit du dich auf deine Community konzentrieren kannst. Du zahlst nur, wenn du kostenpflichtige Addons nutzt oder mit deinem Shop Umsätze erzielst.",
-            "successSelfhosted": "Deine neue Instanz wurde erfolgreich erstellt.{br}Gehe zum {dashboard}, um einen Zahlungsplan auszuwählen und deine Instanz einzurichten."
+            "successSelfhosted": "Deine neue Instanz wurde erfolgreich erstellt.{br}Gehe zum {dashboard}, um einen Zahlungsplan auszuwählen und deine Instanz einzurichten.",
+            "topUpSuccessful": "Aufladung erfolgreich! Du kannst jetzt deine Instanz erstellen.",
+            "waitingForTopUp": "Warten auf Aufladung...",
+            "topUpNeeded": "Du musst Auto-Charge aktivieren und dein Konto mindestens mit {amount} € aufladen, damit du die Instanz erstellen kannst."
         }
     },
     "_features": {
@@ -757,7 +775,9 @@
             "revenueByCategory": "Umsatz nach Kategorie",
             "notAffectedByRangeSelector": "Von der Bereichsauswahl nicht betroffen",
             "averagePurchaseAmount": "Durchschn. Kaufpreis",
-            "activeSubscriptions": "Aktive Subscription"
+            "activeSubscriptions": "Aktive Subscription",
+            "range": "Zeitraum",
+            "allTime": "Alle Zeiten"
         },
         "messages": {
             "refundInitSuccess": "Erstattung erfolgreich gestartet.",
@@ -1097,5 +1117,7 @@
     "_messages": {
         "cancelSuccess": "Erfolgreich abgebrochen"
     },
-    "frequentlyAskedQuestions": "Häufig gestellte Fragen"
+    "frequentlyAskedQuestions": "Häufig gestellte Fragen",
+    "retry": "Erneut versuchen",
+    "product": "Produkt"
 }
