@@ -616,9 +616,9 @@
         "loginRegister": "S'identifier / S'enregistrer",
         "noInstancesAvailable": "Il n'y a actuellement aucune instance disponible. Veuillez réessayer plus tard.",
         "messages": {
-            "selfhostedDescription": "La version auto-hébergée de VyHub est destinée uniquement aux utilisateurs avancés. Vous pourrez héberger VyHub vous-même avec un accès complet à la base de données. Vous devez payer des frais de base fixes par mois ainsi qu'une commission de 3% sur vos revenus.",
+            "selfhostedDescription": "La version auto-hébergée de VyHub est destinée uniquement aux utilisateurs avancés. Vous pourrez héberger VyHub vous-même avec un accès complet à la base de données.",
             "customDomainDescriptionSelfhosting": "Tu as besoin de posséder un domaine et de pointer le DNS A/AAAA vers le serveur où VyHub sera hébergé.",
-            "cloudDescription": "VyHub Cloud est le moyen le plus simple de commencer avec VyHub. Nous nous occupons de l'hébergement et de la maintenance de votre instance afin que vous puissiez vous concentrer sur votre communauté. Vous ne payez que si vous utilisez des extensions payantes ou si vous générez des revenus avec votre boutique.",
+            "cloudDescription": "VyHub Cloud est le moyen le plus simple de commencer avec VyHub. Nous nous occupons de l'hébergement et de la maintenance de votre instance afin que vous puissiez vous concentrer sur votre communauté.",
             "successSelfhosted": "Votre instance a été créée avec succès.{br}Accédez au {dashboard} pour choisir un plan de paiement et configurer votre instance."
         },
         "labels": {
