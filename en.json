@@ -257,6 +257,7 @@
             "enableDonationGoal": "Enable donation goal",
             "cancelPurchase": "Cancel Purchase",
             "changeTargetUser": "Buy for a friend",
+            "recipient": "Recipient",
             "recommended": "Recommended for you",
             "creditsDisplayTitle": "Credits display title",
             "creditsDisplayTitleDescription": "Rename payment credits to anything you like (gulden, diamonds, coins...)",

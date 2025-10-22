@@ -160,6 +160,7 @@
             "downloadInvoices": "Rechnungen herunterladen",
             "net": "net",
             "changeTargetUser": "Für einen Freund kaufen",
+            "recipient": "Empfänger",
             "enableTopDonators": "Aktiviere Top-Spender",
             "topDonatorsLimit": "Anzahl der anzuzeigenden Spender",
             "topDonatorDisplayTitle": "Top-Spender Widget Titel",
