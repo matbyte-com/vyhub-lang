@@ -582,8 +582,8 @@
         },
         "messages": {
             "customDomainDescriptionSelfhosting": "Du musst eine Domain besitzen und den DNS-A/AAAA-Eintrag auf den Server verweisen, auf dem VyHub gehostet wird.",
-            "selfhostedDescription": "Die selbst gehostete Version von VyHub ist nur für fortgeschrittene Benutzer. Du kannst VyHub selbst hosten und du hast damit vollen Zugriff auf die Datenbank. Dafür musst du eine feste Grundgebühr pro Monat und eine Provision von 3 % auf den Umsatz zahlen.",
-            "cloudDescription": "VyHub Cloud ist der einfachste Weg, mit VyHub zu beginnen. Wir kümmern uns um das Hosting und die Wartung deiner Instanz, damit du dich auf deine Community konzentrieren kannst. Du zahlst nur, wenn du kostenpflichtige Addons nutzt oder mit deinem Shop Umsätze erzielst.",
+            "selfhostedDescription": "Die selbst gehostete Version von VyHub ist nur für fortgeschrittene Benutzer. Du kannst VyHub selbst hosten und du hast damit vollen Zugriff auf die Datenbank.",
+            "cloudDescription": "VyHub Cloud ist der einfachste Weg, mit VyHub zu beginnen. Wir kümmern uns um das Hosting und die Wartung deiner Instanz, damit du dich auf deine Community konzentrieren kannst.",
             "successSelfhosted": "Deine neue Instanz wurde erfolgreich erstellt.{br}Gehe zum {dashboard}, um einen Zahlungsplan auszuwählen und deine Instanz einzurichten.",
             "topUpSuccessful": "Aufladung erfolgreich! Du kannst jetzt deine Instanz erstellen.",
             "waitingForTopUp": "Warten auf Aufladung...",
