@@ -599,17 +599,16 @@
             }
         },
         "database": {
-            "title": "Veritabani",
             "labels": {
-                "exportTitle": "Veritabani disa aktar",
-                "importTitle": "Veritabani ice aktar",
+                "exportTitle": "VyHub Export",
+                "importTitle": "VyHub Import",
                 "dumpFile": "Yedek arsivi (.tar.gz)",
-                "importConfirmTitle": "Veritabani ice aktarmayi onayla"
+                "importConfirmTitle": "VyHub import islemini onayla"
             },
             "messages": {
-                "dangerDescription": "Veritabani ice aktarma, yapilandirilmis semadaki tum mevcut verileri degistirir. Bu islem yikicidir.",
+                "dangerDescription": "VyHub import islemi, yapilandirilmis semadaki tum mevcut verileri degistirir. Bu islem yikicidir.",
                 "exportDescription": "Tam bir yedek arsivi indir (manifest.json + dump.sql).",
-                "importConfirm": "Bu arsivi ice aktarmak mevcut tum verileri degistirecek. Devam edilsin mi?"
+                "importConfirm": "Bu arsivi ice aktarmak mevcut tum VyHub verilerini degistirecek. Devam edilsin mi?"
             }
         }
     },

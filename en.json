@@ -919,17 +919,16 @@
             }
         },
         "database": {
-            "title": "Database",
             "labels": {
-                "exportTitle": "Export Database",
-                "importTitle": "Import Database",
+                "exportTitle": "VyHub Export",
+                "importTitle": "VyHub Import",
                 "dumpFile": "Backup Archive (.tar.gz)",
-                "importConfirmTitle": "Confirm Database Import"
+                "importConfirmTitle": "Confirm VyHub Import"
             },
             "messages": {
-                "dangerDescription": "Database import replaces all existing data in the configured schema. This action is destructive.",
+                "dangerDescription": "VyHub import replaces all existing data in the configured schema. This action is destructive.",
                 "exportDescription": "Download a full backup archive (manifest.json + dump.sql).",
-                "importConfirm": "Importing this archive will replace all current database data. Continue?"
+                "importConfirm": "Importing this archive will replace all current VyHub data. Continue?"
             }
         }
     },

@@ -375,17 +375,16 @@
             }
         },
         "database": {
-            "title": "Datenbank",
             "labels": {
-                "exportTitle": "Datenbank exportieren",
-                "importTitle": "Datenbank importieren",
+                "exportTitle": "VyHub Export",
+                "importTitle": "VyHub Import",
                 "dumpFile": "Backup-Archiv (.tar.gz)",
-                "importConfirmTitle": "Datenbankimport bestatigen"
+                "importConfirmTitle": "VyHub-Import bestatigen"
             },
             "messages": {
-                "dangerDescription": "Der Datenbankimport ersetzt alle vorhandenen Daten im konfigurierten Schema. Diese Aktion ist destruktiv.",
+                "dangerDescription": "Der VyHub-Import ersetzt alle vorhandenen Daten im konfigurierten Schema. Diese Aktion ist destruktiv.",
                 "exportDescription": "Lade ein vollstandiges Backup-Archiv herunter (manifest.json + dump.sql).",
-                "importConfirm": "Beim Import dieses Archivs werden alle aktuellen Daten ersetzt. Fortfahren?"
+                "importConfirm": "Beim Import dieses Archivs werden alle aktuellen VyHub-Daten ersetzt. Fortfahren?"
             }
         },
         "messages": {
