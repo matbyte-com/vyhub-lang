@@ -597,6 +597,20 @@
                 "basicDataDescription": "URL'yi Uzantı sitenize ekleyin (dizin olmadan.php). Uzantı sürümü 2.7.8 veya daha yenisini kullandığınızdan emin olun.",
                 "import2Description": "Artık aşağıdaki ek nesneleri içe aktarabilirsiniz. Emir konuyla ilgili değil."
             }
+        },
+        "database": {
+            "title": "Veritabani",
+            "labels": {
+                "exportTitle": "Veritabani disa aktar",
+                "importTitle": "Veritabani ice aktar",
+                "dumpFile": "Yedek arsivi (.tar.gz)",
+                "importConfirmTitle": "Veritabani ice aktarmayi onayla"
+            },
+            "messages": {
+                "dangerDescription": "Veritabani ice aktarma, yapilandirilmis semadaki tum mevcut verileri degistirir. Bu islem yikicidir.",
+                "exportDescription": "Tam bir yedek arsivi indir (manifest.json + dump.sql).",
+                "importConfirm": "Bu arsivi ice aktarmak mevcut tum verileri degistirecek. Devam edilsin mi?"
+            }
         }
     },
     "_faq": {

@@ -374,6 +374,20 @@
                 "basicDataDescription": "Fügen die URL zu deiner GExtension-Seite ein (ohne index.php). Stellen sicher, dass du GExtension Version 2.7.8 oder neuer verwendest."
             }
         },
+        "database": {
+            "title": "Datenbank",
+            "labels": {
+                "exportTitle": "Datenbank exportieren",
+                "importTitle": "Datenbank importieren",
+                "dumpFile": "Backup-Archiv (.tar.gz)",
+                "importConfirmTitle": "Datenbankimport bestatigen"
+            },
+            "messages": {
+                "dangerDescription": "Der Datenbankimport ersetzt alle vorhandenen Daten im konfigurierten Schema. Diese Aktion ist destruktiv.",
+                "exportDescription": "Lade ein vollstandiges Backup-Archiv herunter (manifest.json + dump.sql).",
+                "importConfirm": "Beim Import dieses Archivs werden alle aktuellen Daten ersetzt. Fortfahren?"
+            }
+        },
         "messages": {
             "description": "In diesem Abschnitt kannst du Daten aus anderen Systemen importieren."
         },

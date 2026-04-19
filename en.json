@@ -917,6 +917,20 @@
                 "packetsDataDescription": "Select which VyHub packet should be given to owners of GExtension packets. It is also possible to exclude some rewards. If no GExtension packets are selectable, make sure that your URL and API key are correct. Start the packet import afterwards.",
                 "basicDataDescription": "Insert the URL to your GExtension site (without index.php). Make sure to use GExtension version 2.7.8 or newer."
             }
+        },
+        "database": {
+            "title": "Database",
+            "labels": {
+                "exportTitle": "Export Database",
+                "importTitle": "Import Database",
+                "dumpFile": "Backup Archive (.tar.gz)",
+                "importConfirmTitle": "Confirm Database Import"
+            },
+            "messages": {
+                "dangerDescription": "Database import replaces all existing data in the configured schema. This action is destructive.",
+                "exportDescription": "Download a full backup archive (manifest.json + dump.sql).",
+                "importConfirm": "Importing this archive will replace all current database data. Continue?"
+            }
         }
     },
     "_authorization": {
