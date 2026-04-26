@@ -324,6 +324,7 @@
             "checkout": "Check-Out",
             "payment": "Pagamento",
             "paymentId": "ID de Pagamento",
+            "paymentPeriod": "Período de pagamento",
             "addToCart": "Adicionar ao carrinho",
             "total": "Total",
             "businessAddress": "Endereço profissional",

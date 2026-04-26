@@ -1,6 +1,9 @@
 {
     "_messages": {
-        "cancelSuccess": "Successfully cancelled"
+        "cancelSuccess": "Successfully cancelled",
+        "createSuccess": "Successfully created",
+        "editSuccess": "Successfully edited",
+        "deleteSuccess": "Successfully deleted"
     },
     "_header": {
         "start": "Start",
@@ -20,7 +23,7 @@
         "affiliate": "Affiliate",
         "purchases": "Purchases",
         "customers": "Customers",
-        "support":  "Support"
+        "support": "Support"
     },
     "_footer": {
         "about": "About VyHub",
@@ -169,7 +172,8 @@
             "free": "Free",
             "topUpNow": "Top up now",
             "topUpNeeded": "Top up needed",
-            "paymentPlan": "Payment Plan"
+            "paymentPlan": "Payment Plan",
+            "license": "License"
         },
         "title": "Create New Instance",
         "instanceNameAndDomain": "Name and Domain",
@@ -179,6 +183,8 @@
         "name": "Name of instance",
         "customDomain": "Custom domain",
         "noInstancesAvailable": "There are currently no instances available. Please try again later.",
+        "noLicensesAvailable": "There are currently no licenses available. Please try again later.",
+        "noLicenseSelected": "Please select a license to continue.",
         "customDomainDescription": "You need to own a domain and create a CNAME record in the DNS settings of your domain registrar. Read the {docsLink} for more information.",
         "success": "It might take up to 10 minutes for your instance to be created.{br}Go to the {dashboard} to view the status.",
         "smallCommission": "Small <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>commission</a> on your revenue",
@@ -194,6 +200,7 @@
     },
     "_instance": {
         "labels": {
+            "manageSubscription": "Manage subscription",
             "subdomain": "Subdomain",
             "edit": "Edit Instance",
             "retryScheduled": "Retry scheduled",
@@ -271,7 +278,10 @@
             "user_not_found": "User not found"
         },
         "messages": {
+            "cloudDiscontinuedTitle": "VyHub Cloud will be discontinued",
+            "cloudDiscontinuedMigrationText": "VyHub Cloud will be discontinued after 2026-08-01. Please migrate your instance data to a new VyHub Self-Hosted instance to continue using VyHub after this date. You can find the migration guide in our documentation.",
             "removedAdmin": "Admin successfully removed.",
+            "manageSubscriptionHint": "If you select a new license, you may need to cancel existing subscriptions yourself to avoid duplicated subscriptions.",
             "addedAdmin": "Admin successfully added.",
             "upgradeTopUpNeeded": "You need to enable Auto-Charge and top up your account to at least {amount} € to upgrade this instance.",
             "noActivePackets": "There are no active subscriptions for this instance. Make sure to extend your instance before the end of the runtime.",
@@ -280,7 +290,7 @@
             "doNotOpenBeforeReady": "Do not open this page before your instance is ready!",
             "instanceExtended": "Instance successfully extended",
             "instanceSelfhostedLimitedSupport": "If you need help with installing VyHub on your server, you can purchase the advanced support packet.",
-            "instanceSelfhostedRequirements": "Please note that there are several requirements for self-hosting. You need a linux server with docker and docker-compose installed. Furthermore you need a domain and a SSL certificate. You also need a system administrator that can set up and maintain the server. If you do not meet these requirements, use the cloud version of VyHub.",
+            "instanceSelfhostedRequirements": "Please note that there are several requirements for self-hosting. You need a linux server with docker and docker-compose installed. Furthermore you need a domain and a SSL certificate. You also need a system administrator that can set up and maintain the server.",
             "noActiveSubscriptions": "There are no active subscriptions for this instance. Make sure to create a new subscription before the end of the runtime.",
             "paymentLaterSelfhosted": "After finishing this dialog, you will need to activate your instance by selecting a payment plan.",
             "updateAvailable": "There is an update available!",
@@ -362,6 +372,8 @@
         "newAddon": "New Add-on",
         "editAddon": "Edit Add-on",
         "noAddonsAvailable": "No add-ons available",
+        "selectLicenseFirst": "Please select a license to see available add-ons.",
+        "noAddonsForDuration": "No add-ons are available for the selected license duration. Add-ons can be purchased separately at any time.",
         "currentAddons": "Current Add-ons",
         "cancelAddonDescription": "Are you sure you want to cancel the add-on? The add-on will be cancelled at the end of the current billing period.",
         "expiresOn": "Expires On",
@@ -386,6 +398,7 @@
             "checkout": "Checkout",
             "payment": "Payment",
             "paymentId": "Payment ID",
+            "paymentPeriod": "Payment Period",
             "addToCart": "Add to cart",
             "total": "Total",
             "totalMonthly": "Monthly Total",
@@ -411,7 +424,9 @@
             "cancelPurchase": "Cancel Purchase",
             "payNow": "Pay Now",
             "pleaseWait": "Please wait...",
-            "redirectDescription": "You will be redirected to the payment provider"
+            "redirectDescription": "You will be redirected to the payment provider",
+            "varies": "Varies",
+            "oneTime": "One-Time"
         },
         "messages": {
             "confirmCreditsPayment": "Please confirm the payment of {credits} credits.",
@@ -461,7 +476,7 @@
     },
     "_log": {
         "labels": {
-           "level": "Level"
+            "level": "Level"
         },
         "messages": {
             "limitReachedFilter": "Reached log limit, use filters."
@@ -763,7 +778,7 @@
     "_shopFeatures": {
         "title": "Shop Features",
         "allShopFeatures": "All shop features",
-        "packets":  {
+        "packets": {
             "description": "VyHub gives you the opportunity to sell packages on your gameserver. Packages can be organised in categories and subcategories. It is possible to create package upgrade paths and packages with conditional availability. It can be used to sell packages only to players who have a certain rank, even a certain playtime, or another package which can or must be upgraded.",
             "bp1": "Unlimited packages",
             "bp2": "Unlimited categories",
@@ -975,13 +990,12 @@
             "tos": "terms of service"
         },
         "cookieTitle": "🍪 Privacy Settings",
-        "cookieDescription": "We use cookies \uD83C\uDF6A to improve your browsing experience on our website, to analyze our website traffic, and to understand where our visitors are coming from. You can read more about it on our {privacyPolicy}.",
+        "cookieDescription": "We use cookies 🍪 to improve your browsing experience on our website, to analyze our website traffic, and to understand where our visitors are coming from. You can read more about it on our {privacyPolicy}.",
         "privacyPolicyPage": "privacy policy page",
         "necessaryCookies": "Necessary Cookies",
         "cookiePreferenceDescription": "You can manually adjust your cookie preferences here.",
         "acceptSelected": "Accept Selected",
         "preferences": "Preferences"
-
     },
     "docs": "Docs",
     "account": "Account",
@@ -999,7 +1013,8 @@
         "messages": {
             "autocharge": "When Auto-Charge is enabled, your negative account balance will be automatically charged from your stored payment method after the end of the month. A minimum of 5 EUR per charge applies.",
             "noChargeScheduled": "There is currently no planned charge. Please check back at the beginning of the next month.",
-            "cancelConfirm": "Are you sure that you want to cancel the automatic account top up?"
+            "cancelConfirm": "Are you sure that you want to cancel the automatic account top up?",
+            "creditAccountSunsetHint": "The credit account feature will be discontinued in the near future. Payouts from the credit account are not possible."
         }
     },
     "transactions": "Transactions",
@@ -1030,5 +1045,36 @@
     "subscription": "Subscription",
     "days": "Days",
     "month": "Month",
-    "frequentlyAskedQuestions": "Frequently Asked Questions"
+    "frequentlyAskedQuestions": "Frequently Asked Questions",
+    "from": "From",
+    "to": "To",
+    "_packet": {
+        "labels": {
+            "add": "Add Packet",
+            "edit": "Edit Packet",
+            "activeFor": "Active For",
+            "activeForDetail": "Duration in days after which the packet expires. Leave empty for lifetime.",
+            "buyable": "Buyable",
+            "buyableDetail": "Whether customers can purchase this packet.",
+            "customPrice": "Custom Price",
+            "customPriceDetail": "Allow customers to enter a custom price.",
+            "recurring": "Recurring",
+            "recurringDetail": "Whether this packet is a recurring subscription.",
+            "notBuyable": "Not Buyable",
+            "expires": "Expires",
+            "limitedPayments": "Limited Payments"
+        },
+        "messages": {
+            "deleteWarning": "Are you sure you want to delete this packet? This action cannot be undone."
+        }
+    },
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "subcategory": "Subcategory",
+    "enabled": "Enabled",
+    "payment": "Payment",
+    "general": "General",
+    "currency": "Currency",
+    "credits": "Credits",
+    "flags": "Flags"
 }

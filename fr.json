@@ -339,6 +339,7 @@
             "checkout": "Vérifier",
             "payment": "Paiement",
             "paymentId": "ID de paiement",
+            "paymentPeriod": "Période de paiement",
             "addToCart": "Ajouter au panier",
             "total": "Total",
             "businessAddress": "Adresse d'affaires",
@@ -700,7 +701,7 @@
             "noActiveSubscriptions": "Il n'y a pas d'abonnements actifs pour cette instance. Assure-toi de créer un nouvel abonnement avant la fin de la durée d'exécution.",
             "updateAvailable": "Une mise à jour est disponible !",
             "paymentLaterSelfhosted": "Une fois ce dialogue terminé, vous devrez activer votre instance en sélectionnant un plan de paiement.",
-            "instanceSelfhostedRequirements": "Remarque qu'il y a plusieurs exigences pour l'auto-hébergement. Tu as besoin d'un serveur Linux avec Docker et Docker-compose installés. De plus, tu as besoin d'un domaine et d'un certificat SSL. Tu as également besoin d'un administrateur système qui peut configurer et entretenir le serveur. Si tu ne réponds pas à ces exigences, utilise la version cloud de VyHub.",
+            "instanceSelfhostedRequirements": "Remarque qu'il y a plusieurs exigences pour l'auto-hébergement. Tu as besoin d'un serveur Linux avec Docker et Docker-compose installés. De plus, tu as besoin d'un domaine et d'un certificat SSL. Tu as également besoin d'un administrateur système qui peut configurer et entretenir le serveur.",
             "instanceSelfhostedLimitedSupport": "Si tu as besoin d'aide pour installer VyHub sur ton serveur, tu peux acheter le pack de support avancé."
         },
         "cnameCheckerTool": "Outil de vérification CNAME",

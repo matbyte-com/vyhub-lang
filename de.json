@@ -146,6 +146,7 @@
     "_instance": {
         "labels": {
             "edit": "Instanz editieren",
+            "manageSubscription": "Abo verwalten",
             "daysLeft": "Tage übrig",
             "noTimeLeft": "Keine Zeit übrig",
             "extendRuntime": "Laufzeit verlängern",
@@ -231,10 +232,11 @@
             "noResourcesAvailable": "Es sind derzeit keine Ressourcen für eine neue Instanz verfügbar. Bitte versuche es später noch einmal.",
             "instanceExtended": "Instanz wurde erfolgreich verlängert",
             "instanceSelfhostedLimitedSupport": "Wenn Sie Hilfe bei der Installation von VyHub auf deinem Server benötigst, kannst du das erweiterte Support-Paket erwerben.",
-            "instanceSelfhostedRequirements": "Bitte beachte, dass für das Selbsthosting mehrere Voraussetzungen gelten. Du benötigst einen Linux-Server, auf dem Docker und Docker-Compose installiert sind. Darüber hinaus benötigst du eine Domain und ein SSL-Zertifikat. Du benötigst außerdem einen Systemadministrator, der den Server einrichten und warten kann. Wenn du diese Anforderungen nicht erfüllst, nutze die Cloud-Version von VyHub.",
+            "instanceSelfhostedRequirements": "Bitte beachte, dass für das Selbsthosting mehrere Voraussetzungen gelten. Du benötigst einen Linux-Server, auf dem Docker und Docker-Compose installiert sind. Darüber hinaus benötigst du eine Domain und ein SSL-Zertifikat. Du benötigst außerdem einen Systemadministrator, der den Server einrichten und warten kann.",
             "noActiveSubscriptions": "Für diese Instanz sind keine aktiven Abonnements vorhanden. Stelle sicher, dass du vor dem Ende der Laufzeit ein neues Abonnement erstellst.",
             "paymentLaterSelfhosted": "Nachdem du diesen Dialog abgeschlossen hast, musst du deine Instanz aktivieren, indem du ein Abonnement auswählst.",
             "updateAvailable": "Es ist ein Update verfügbar!",
+            "manageSubscriptionHint": "Wenn du eine neue Lizenz auswählst, musst du ggf. bestehende Abos selbst kündigen, damit es nicht zu doppelten Abos kommt.",
             "upgradeTopUpNeeded": "Du musst Auto-Charge aktivieren und dein Konto mindestens mit {amount} € aufladen, damit du diese Instanz upgraden kannst.",
             "confirmLifetimeUpgrade": "Bist du sicher, dass du auf Lifetime upgraden möchtest? Die monatliche Grundgebühr wird dann nicht mehr fällig. Das Lifetime-Upgrade kostet einmalig {amount} €."
         },
@@ -430,6 +432,7 @@
             "checkout": "Bezahlen",
             "payment": "Bezahlung",
             "paymentId": "Zahlungs ID",
+            "paymentPeriod": "Zahlungszeitraum",
             "addToCart": "Zum Einkaufswagen hinzufügen",
             "total": "Gesamt",
             "credits": "Credits",
@@ -444,7 +447,7 @@
             "perMonth": "pro Monat",
             "loginToBuy": "Einloggen um dieses Paket zu kaufen",
             "taxAllowUnknown": "Erlaube Käufe aus Ländern ohne Steuerregel.",
-            "taxAllowUnknownDescription": "Wenn deaktiviert, sind Käufe aus Ländern ohne festgelegte expliziete Steuerregel nicht möglich.",
+            "taxAllowUnknownDescription": "Wenn deaktiviert, sind Käufe aus Ländern ohne festgelegte explizite Steuerregel nicht möglich.",
             "invoiceLogoURLDetails": "URL zu dem Logo, welches auf der Rechnung angezeigt wird.",
             "admin": "Shop Administration",
             "orderOverview": "Bestellübersicht",
@@ -459,7 +462,9 @@
             "redirectDescription": "Du wirst zum Zahlungsanbieter weitergeleitet",
             "price_override": "Preis Überschreiben",
             "totalMonthly": "Monatlich Gesamt",
-            "totalOneTime": "Einmalig Gesamt"
+            "totalOneTime": "Einmalig Gesamt",
+            "varies": "Variiert",
+            "oneTime": "Einmalig"
         },
         "messages": {
             "couponsEntered": "Dein coupon wurde erfolgreich gespeichert. Du kannst ihn noch ändern, solange er noch nicht akzeptiert worden ist.",
@@ -571,6 +576,8 @@
         "success": "Das Erstellen deiner Instanz kann bis zu 10 Minuten dauern.{br} Gehe zum {dashboard} um den Status zu sehen.",
         "smallCommission": "Kleine <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>Kommission</a> auf deinen Umsatz",
         "noInstancesAvailable": "Aktuell sind keine Instanzen verfügbar. Bitte versuche es später erneut.",
+        "noLicensesAvailable": "Aktuell sind keine Lizenzen verfügbar. Bitte versuche es später erneut.",
+        "noLicenseSelected": "Bitte wähle eine Lizenz aus, um fortzufahren.",
         "instanceNameAndDomain": "Name und Domain",
         "labels": {
             "cloud": "Cloud",
@@ -578,7 +585,8 @@
             "free": "Gratis",
             "topUpNow": "Jetzt aufladen",
             "topUpNeeded": "Aufladung benötigt",
-            "paymentPlan": "Zahlungs-Plan"
+            "paymentPlan": "Zahlungs-Plan",
+            "license": "Lizenz"
         },
         "messages": {
             "customDomainDescriptionSelfhosting": "Du musst eine Domain besitzen und den DNS-A/AAAA-Eintrag auf den Server verweisen, auf dem VyHub gehostet wird.",
@@ -645,7 +653,7 @@
                 "headline3": "Forum",
                 "text3": "Deine Spieler können sich in unserem Forum austauschen. Weiterhin ist es möglich, Teameigene Bereiche zu erstellen.",
                 "headline4": "Ticket system",
-                "text1": "Mit VyHub kannst du Spieler von deinen Gameservern verbannen. Banns können für eine Reihe von Gameservern oder global für alle deine Server erstellt werden. Benutzer haben die Möglichkeit, einen Bann-Protest zu erstellen, der dann von den Admins eingesehen werden kann.",
+                "text1": "Mit VyHub kannst du Spieler von deinen Gameservern verbannen. Banne können für eine Reihe von Gameservern oder global für alle deine Server erstellt werden. Benutzer haben die Möglichkeit, einen Bann-Protest zu erstellen, der dann von den Admins eingesehen werden kann.",
                 "text5": "Gruppen können Teil des Teams sein. Es wird automatisch eine Teamseite erstellt, die es den Spielern ermöglicht, die richtige Person zu finden.",
                 "text4": "Um deine Community besser zu verwalten und den Supportprozess zu vereinfachen, bietet VyHub ein Ticketsystem. Spieler können Tickets erstellen, die dann von Teammitgliedern gelöst werden.",
                 "title6": "Anzeigen",
@@ -943,6 +951,8 @@
     "users": "Nutzer",
     "_addon": {
         "addon": "Erweiterung",
+        "selectLicenseFirst": "Bitte wähle eine Lizenz aus, um verfügbare Erweiterungen zu sehen.",
+        "noAddonsForDuration": "Für die ausgewählte Lizenz-Laufzeit sind keine Erweiterungen verfügbar. Erweiterungen können separat jederzeit erworben werden.",
         "messages": {
             "addonEdited": "Erweiterung erfolgreich bearbeitet.",
             "addonApplied": "Erweiterung erfolgreich hinzugefügt.",
@@ -971,7 +981,8 @@
         "messages": {
             "autocharge": "Wenn Auto-Charge aktiviert ist, wird dein negativer Kontostand nach Monatsende automatisch von deiner hinterlegten Zahlungsmethode abgebucht. Es gilt ein Mindestbetrag von 5 EUR pro Zahlung.",
             "noChargeScheduled": "Derzeit ist keine Zahlung geplant. Bitte schaue zu Beginn des nächsten Monats noch einmal vorbei.",
-            "cancelConfirm": "Sind Sie sicher, dass Sie die automatische Kontoaufladung abbrechen möchten?"
+            "cancelConfirm": "Sind Sie sicher, dass Sie die automatische Kontoaufladung abbrechen möchten?",
+            "creditAccountSunsetHint": "Das Guthaben-Konto wird in naher Zukunft eingestellt. Auszahlungen vom Guthaben-Konto sind nicht möglich."
         }
     },
     "domain": "Domain",
@@ -1115,9 +1126,43 @@
     "days": "Tage",
     "month": "Monat",
     "_messages": {
-        "cancelSuccess": "Erfolgreich abgebrochen"
+        "cancelSuccess": "Erfolgreich abgebrochen",
+        "createSuccess": "Erfolgreich erstellt",
+        "editSuccess": "Erfolgreich bearbeitet",
+        "deleteSuccess": "Erfolgreich gelöscht"
     },
     "frequentlyAskedQuestions": "Häufig gestellte Fragen",
     "retry": "Erneut versuchen",
-    "product": "Produkt"
+    "product": "Produkt",
+    "from": "Von",
+    "to": "Bis",
+    "_packet": {
+        "labels": {
+            "add": "Paket hinzufügen",
+            "edit": "Paket bearbeiten",
+            "activeFor": "Aktiv für",
+            "activeForDetail": "Dauer in Tagen, nach der das Paket abläuft. Leer lassen für lebenslang.",
+            "buyable": "Kaufbar",
+            "buyableDetail": "Ob Kunden dieses Paket kaufen können.",
+            "customPrice": "Benutzerdefinierter Preis",
+            "customPriceDetail": "Erlaube Kunden, einen eigenen Preis einzugeben.",
+            "recurring": "Wiederkehrend",
+            "recurringDetail": "Ob dieses Paket ein wiederkehrendes Abonnement ist.",
+            "notBuyable": "Nicht kaufbar",
+            "expires": "Läuft ab",
+            "limitedPayments": "Begrenzte Zahlungen"
+        },
+        "messages": {
+            "deleteWarning": "Bist du sicher, dass du dieses Paket löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+    },
+    "title": "Titel",
+    "subtitle": "Untertitel",
+    "subcategory": "Unterkategorie",
+    "enabled": "Aktiv",
+    "payment": "Zahlung",
+    "general": "Allgemein",
+    "currency": "Währung",
+    "credits": "Credits",
+    "flags": "Status"
 }

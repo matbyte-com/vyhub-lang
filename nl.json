@@ -320,6 +320,7 @@
             "tax": "Belasting",
             "payment": "Betaling",
             "paymentId": "Betalings ID",
+            "paymentPeriod": "Betalingsperiode",
             "addToCart": "Voeg toe aan winkelkar",
             "total": "Totaal",
             "businessAddress": "Bedrijfs adress",

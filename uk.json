@@ -309,6 +309,7 @@
             "checkout": "Оформити замовлення",
             "payment": "Оплата",
             "paymentId": "ID платежу",
+            "paymentPeriod": "Період оплати",
             "addToCart": "Додати в кошик",
             "total": "Всього",
             "businessAddress": "Юридична адреса",
