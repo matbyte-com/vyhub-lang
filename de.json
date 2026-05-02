@@ -378,7 +378,7 @@
             "labels": {
                 "exportTitle": "VyHub Export",
                 "importTitle": "VyHub Import",
-                "dumpFile": "Backup-Archiv (.tar.gz)",
+                "dumpFile": "Backup-Archiv (.zip)",
                 "importConfirmTitle": "VyHub-Import bestätigen",
                 "cryptSecretChangedTitle": "Crypt Secret geändert",
                 "newCryptSecret": "Neuer VYHUB_CRYPT_SECRET-Wert",

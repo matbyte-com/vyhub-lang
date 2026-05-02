@@ -922,7 +922,7 @@
             "labels": {
                 "exportTitle": "VyHub Export",
                 "importTitle": "VyHub Import",
-                "dumpFile": "Backup Archive (.tar.gz)",
+                "dumpFile": "Backup Archive (.zip)",
                 "importConfirmTitle": "Confirm VyHub Import",
                 "cryptSecretChangedTitle": "Crypt Secret Changed",
                 "newCryptSecret": "New VYHUB_CRYPT_SECRET value",

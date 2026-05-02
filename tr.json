@@ -602,7 +602,7 @@
             "labels": {
                 "exportTitle": "VyHub Export",
                 "importTitle": "VyHub Import",
-                "dumpFile": "Yedek arsivi (.tar.gz)",
+                "dumpFile": "Yedek arsivi (.zip)",
                 "importConfirmTitle": "VyHub import islemini onayla"
             },
             "messages": {
