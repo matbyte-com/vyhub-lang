@@ -379,12 +379,17 @@
                 "exportTitle": "VyHub Export",
                 "importTitle": "VyHub Import",
                 "dumpFile": "Backup-Archiv (.tar.gz)",
-                "importConfirmTitle": "VyHub-Import bestatigen"
+                "importConfirmTitle": "VyHub-Import bestätigen",
+                "cryptSecretChangedTitle": "Crypt Secret geändert",
+                "newCryptSecret": "Neuer VYHUB_CRYPT_SECRET-Wert",
+                "cryptSecretAcknowledge": "Ich habe das neue Crypt Secret gespeichert"
             },
             "messages": {
                 "dangerDescription": "Der VyHub-Import ersetzt alle vorhandenen Daten im konfigurierten Schema. Diese Aktion ist destruktiv.",
-                "exportDescription": "Lade ein vollstandiges Backup-Archiv herunter (manifest.json + dump.sql).",
-                "importConfirm": "Beim Import dieses Archivs werden alle aktuellen VyHub-Daten ersetzt. Fortfahren?"
+                "exportDescription": "Lade ein vollständiges Backup-Archiv herunter (manifest.json + dump.sql).",
+                "importConfirm": "Beim Import dieses Archivs werden alle aktuellen VyHub-Daten ersetzt. Fortfahren?",
+                "versionNote": "Imports sind nur innerhalb derselben VyHub-Version möglich. Imports zwischen zwei Cloud-Instanzen werden nicht unterstützt.",
+                "cryptSecretChanged": "Das Crypt Secret hat sich nach diesem Import geändert. Du musst die Umgebungsvariable VYHUB_CRYPT_SECRET auf den unten angezeigten Wert aktualisieren und VyHub neu starten, sonst sind verschlüsselte Daten nicht zugänglich."
             }
         },
         "messages": {

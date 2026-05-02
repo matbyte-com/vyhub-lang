@@ -923,12 +923,17 @@
                 "exportTitle": "VyHub Export",
                 "importTitle": "VyHub Import",
                 "dumpFile": "Backup Archive (.tar.gz)",
-                "importConfirmTitle": "Confirm VyHub Import"
+                "importConfirmTitle": "Confirm VyHub Import",
+                "cryptSecretChangedTitle": "Crypt Secret Changed",
+                "newCryptSecret": "New VYHUB_CRYPT_SECRET value",
+                "cryptSecretAcknowledge": "I have saved the new crypt secret"
             },
             "messages": {
                 "dangerDescription": "VyHub import replaces all existing data in the configured schema. This action is destructive.",
                 "exportDescription": "Download a full backup archive (manifest.json + dump.sql).",
-                "importConfirm": "Importing this archive will replace all current VyHub data. Continue?"
+                "importConfirm": "Importing this archive will replace all current VyHub data. Continue?",
+                "versionNote": "Imports are only supported within the same VyHub version. Imports between two cloud instances are not supported.",
+                "cryptSecretChanged": "The crypt secret has changed after this import. You must update the VYHUB_CRYPT_SECRET environment variable to the value shown below and restart VyHub, otherwise encrypted data will be inaccessible."
             }
         }
     },
