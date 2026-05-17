@@ -280,6 +280,9 @@
         "backToPasskey": "Zurück zum Passkey",
         "cancelLogin": "Abbrechen und neu anfangen",
         "recoveryCode": "Wiederherstellungs-Code",
+        "disable2fa": "2FA deaktivieren",
+        "disable2faConfirm": "Bist du sicher, dass du die Zwei-Faktor-Authentifizierung für diesen Nutzer deaktivieren möchtest? Alle Passkeys und Wiederherstellungs-Codes werden entfernt.",
+        "disabled2faAdmin": "Die Zwei-Faktor-Authentifizierung wurde für diesen Nutzer deaktiviert.",
         "error": {
             "webauthn_invalid": "Passkey-Verifizierung fehlgeschlagen. Bitte erneut versuchen.",
             "mfa_token_invalid": "Deine Sitzung ist abgelaufen. Bitte melde dich erneut an.",

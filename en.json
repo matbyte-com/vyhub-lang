@@ -327,6 +327,9 @@
         "backToPasskey": "Back to passkey",
         "cancelLogin": "Cancel and start over",
         "recoveryCode": "Recovery code",
+        "disable2fa": "Disable 2FA",
+        "disable2faConfirm": "Are you sure you want to disable two-factor authentication for this user? All passkeys and recovery codes will be removed.",
+        "disabled2faAdmin": "Two-factor authentication has been disabled for this user.",
         "error": {
             "webauthn_invalid": "Passkey verification failed. Please try again.",
             "mfa_token_invalid": "Your session expired. Please log in again.",
