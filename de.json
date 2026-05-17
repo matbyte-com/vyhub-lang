@@ -252,6 +252,41 @@
         "statusHelpSelfhosted": "Bitte folge den Anweisungen in der Dokumentation zum Einrichten der Instanz. Du kannst dich an den Support wenden, wenn du Hilfe benötigst."
     },
     "log": "Log",
+    "_security": {
+        "title": "Zwei-Faktor-Authentifizierung",
+        "description": "Schütze dein Konto mit einem Passkey (Security Key, Fingerabdruck oder Geräte-PIN). Wenn aktiviert, musst du dich nach der Passworteingabe zusätzlich mit einem Passkey ausweisen.",
+        "enabled": "Aktiviert",
+        "disabled": "Deaktiviert",
+        "passkeyName": "Name des Passkeys",
+        "passkeyNamePlaceholder": "z. B. YubiKey 5 oder MacBook Touch ID",
+        "addPasskey": "Passkey hinzufügen",
+        "addedPasskey": "Passkey hinzugefügt.",
+        "deletedPasskey": "Passkey entfernt.",
+        "deletePasskeyConfirm": "Möchtest du diesen Passkey wirklich löschen? Wenn es dein letzter ist, wird die Zwei-Faktor-Authentifizierung deaktiviert.",
+        "noPasskeys": "Du hast noch keine Passkeys.",
+        "created": "Erstellt",
+        "lastUsed": "Zuletzt verwendet",
+        "never": "Nie",
+        "recoveryCodes": "Wiederherstellungs-Codes",
+        "saveRecoveryCodes": "Speichere diese Codes an einem sicheren Ort. Jeder Code kann einmal verwendet werden, falls du keinen Zugriff mehr auf deine Passkeys hast. Sie werden nicht erneut angezeigt.",
+        "regenerateCodes": "Wiederherstellungs-Codes neu generieren",
+        "copy": "Kopieren",
+        "copied": "Wiederherstellungs-Codes in die Zwischenablage kopiert.",
+        "download": "Herunterladen",
+        "codesAck": "Ich habe meine Wiederherstellungs-Codes gespeichert.",
+        "verifyWithPasskey": "Bestätige deine Identität mit einem deiner Passkeys.",
+        "verify": "Bestätigen",
+        "useRecoveryCode": "Stattdessen Wiederherstellungs-Code verwenden",
+        "backToPasskey": "Zurück zum Passkey",
+        "cancelLogin": "Abbrechen und neu anfangen",
+        "recoveryCode": "Wiederherstellungs-Code",
+        "error": {
+            "webauthn_invalid": "Passkey-Verifizierung fehlgeschlagen. Bitte erneut versuchen.",
+            "mfa_token_invalid": "Deine Sitzung ist abgelaufen. Bitte melde dich erneut an.",
+            "recovery_code_invalid": "Dieser Wiederherstellungs-Code ist ungültig oder wurde bereits verwendet.",
+            "webauthn_no_2fa": "Zwei-Faktor-Authentifizierung ist nicht aktiviert."
+        }
+    },
     "_form": {
         "contact": {
             "message": "Nachricht",
