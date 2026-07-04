@@ -19,7 +19,7 @@
         "docs": "Doku",
         "admin": "Admin",
         "profile": "Profil",
-        "affiliate": "Partner",
+        "affiliate": "Freunde werben",
         "customers": "Communities",
         "balance": "Guthaben",
         "support": "Hilfe"
@@ -949,8 +949,9 @@
         "recipient": "Empfänger",
         "iban": "IBAN",
         "currentBalanceDescription": "Zur Auszahlung verfügbares Guthaben.",
-        "pendingBalanceDescription": "Unbezahlte Gebühren der Nutzer (Bearbeitung kann bis zu 4 Wochen dauern).",
-        "affiliateDashboard": "Partner Dashboard",
+        "pendingBalanceDescription": "Nutzerzahlungen noch nicht zur Auszahlung verfügbar",
+        "affiliateDashboard": "Freunde werben",
+        "earnDescription": "Verdiene 15 % von jedem Kauf, den deine geworbenen Freunde tätigen.",
         "overlayDescription": "Dieses Dashboard ist für die Benutzer des Partnerprogramms. Suchst du dein VyHub Konto?",
         "lookHere": "Schau hier.",
         "minimumPayout5€": "Minimale Auszahlung von 5€",
@@ -1054,7 +1055,7 @@
         "messages": {
             "dataCorrect": "Hiermit versichere ich, dass die angegebenen Daten (insbesondere Rechnungsadresse) wahrheitsgemäß und vollständig sind.",
             "agreeToS": "Ich stimme den Nutzungsbedingungen zu.",
-            "noWithdraw": "Ich fordere und stimme ausdrücklich zu, dass die Matbye UG bereits vor Ablauf der Widerrufsfrist mit der Ausführung der erworbenen Leistung beginnt. Ferner ist mir bekannt, dass ich das mir gesetzlich zustehende Widerrufsrecht bereits mit vollständiger Vertragserfüllung durch die Matbyte UG verliere.",
+            "noWithdraw": "Ich fordere und stimme ausdrücklich zu, dass bereits vor Ablauf der Widerrufsfrist mit der Ausführung der erworbenen Leistung begonnen wird. Ferner ist mir bekannt, dass ich das mir gesetzlich zustehende Widerrufsrecht bereits mit vollständiger Vertragserfüllung verliere.",
             "agreeTo": "Ich stimme den {tos} zu.",
             "tos": "Nutzungsbedingungen"
         },

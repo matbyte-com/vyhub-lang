@@ -20,7 +20,7 @@
         "balance": "Balance",
         "admin": "Admin",
         "profile": "Profile",
-        "affiliate": "Affiliate",
+        "affiliate": "Refer a friend",
         "purchases": "Purchases",
         "customers": "Customers",
         "support": "Support"
@@ -670,7 +670,8 @@
         "overlayDescription": "This dashboard is for the users of the affiliate program. You are searching your account dashboard?",
         "lookHere": "Look here.",
         "affiliateResources": "Affiliate Resources",
-        "affiliateDashboard": "Affiliate Dashboard",
+        "affiliateDashboard": "Refer a friend",
+        "earnDescription": "Earn 15% of every purchase your referred friends make.",
         "yourAffiliateLink": "Your Affiliate Link",
         "currentBalance": "Current Balance",
         "pendingBalance": "Pending Balance",
@@ -684,7 +685,7 @@
         "recipient": "Recipient",
         "transactionId": "Transaction ID",
         "currentBalanceDescription": "Balance available for payout.",
-        "pendingBalanceDescription": "Unpaid fees by the user (may take up to 4 weeks to be processed).",
+        "pendingBalanceDescription": "User payments not available for payout yet",
         "minimumPayout5€": "Minimum Payout 5 €",
         "integrationToken": "Integration Token",
         "generateAccessToken": "Generate New Token",
@@ -1029,7 +1030,7 @@
     "partners": "Partners",
     "_legal": {
         "messages": {
-            "noWithdraw": "I require and expressly agree that Matbye UG already begins with the execution of the purchased service before the end of the withdrawal period. Furthermore, I am aware that I already lose the right of withdrawal to which I am entitled by law upon complete fulfillment of the contract by Matbyte UG.",
+            "noWithdraw": "I require and expressly agree that the execution of the purchased service already begins before the end of the withdrawal period. Furthermore, I am aware that I already lose the right of withdrawal to which I am entitled by law upon complete fulfillment of the contract.",
             "dataCorrect": "I herewith guarantee that the details specified (especially billing address) are true and complete.",
             "agreeToS": "I agree to the terms of service.",
             "agreeTo": "I agree to the {tos}.",
