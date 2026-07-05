@@ -362,6 +362,9 @@
             "pleaseWait": "Veuillez patienter...",
             "redirectDescription": "Vous serez redirigé vers le fournisseur de paiement",
             "payNow": "Payer maintenant",
+            "firstCycleOnly": "Premier cycle uniquement",
+            "firstCycle": "Premier cycle",
+            "afterwardsRecurring": "puis {price}",
             "price_override": "Remplacement du prix",
             "financeReport": "Rapport financier",
             "downloadInvoices": "Télécharger les factures"
@@ -849,5 +852,7 @@
     "noEntries": "Aucune entrée.",
     "close": "Fermer",
     "toggle": "Basculer",
-    "partners": "Les partenaires"
+    "partners": "Les partenaires",
+    "maxUsages": "Utilisations max.",
+    "maxUsagesPerUser": "Utilisations max. par utilisateur"
 }

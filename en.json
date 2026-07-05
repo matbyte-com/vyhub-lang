@@ -469,6 +469,9 @@
             "downloadInvoices": "Download Invoices",
             "cancelPurchase": "Cancel Purchase",
             "payNow": "Pay Now",
+            "firstCycleOnly": "First cycle only",
+            "firstCycle": "First cycle",
+            "afterwardsRecurring": "then {price}",
             "pleaseWait": "Please wait...",
             "redirectDescription": "You will be redirected to the payment provider",
             "varies": "Varies",
@@ -1124,5 +1127,7 @@
     "general": "General",
     "currency": "Currency",
     "credits": "Credits",
-    "flags": "Flags"
+    "flags": "Flags",
+    "maxUsages": "Max Usages",
+    "maxUsagesPerUser": "Max Usages Per User"
 }

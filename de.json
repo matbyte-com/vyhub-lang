@@ -504,6 +504,9 @@
             "financeReport": "Finanzbericht",
             "downloadInvoices": "Herunterladen von Rechnungen",
             "payNow": "Jetzt zahlen",
+            "firstCycleOnly": "Nur erster Zyklus",
+            "firstCycle": "Erster Zyklus",
+            "afterwardsRecurring": "danach {price}",
             "pleaseWait": "Bitte warten...",
             "redirectDescription": "Du wirst zum Zahlungsanbieter weitergeleitet",
             "price_override": "Preis Überschreiben",
@@ -1212,5 +1215,7 @@
     "general": "Allgemein",
     "currency": "Währung",
     "credits": "Credits",
-    "flags": "Status"
+    "flags": "Status",
+    "maxUsages": "Max. Verwendungen",
+    "maxUsagesPerUser": "Max. Verwendungen pro Benutzer"
 }
