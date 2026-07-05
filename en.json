@@ -1129,6 +1129,7 @@
             "customPriceDetail": "Allow customers to enter a custom price.",
             "recurring": "Recurring",
             "recurringDetail": "Whether this packet is a recurring subscription.",
+            "paymentGatewaysDetail": "Limit which payment gateways can be used for this packet. Leave empty to allow all.",
             "multiApply": "Multi Apply",
             "multiApplyDetail": "Whether this packet can be applied multiple times at once.",
             "isAddon": "Addon",

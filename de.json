@@ -1217,6 +1217,7 @@
             "customPriceDetail": "Erlaube Kunden, einen eigenen Preis einzugeben.",
             "recurring": "Wiederkehrend",
             "recurringDetail": "Ob dieses Paket ein wiederkehrendes Abonnement ist.",
+            "paymentGatewaysDetail": "Beschränke, welche Zahlungsmethoden für dieses Paket verwendet werden können. Leer lassen, um alle zu erlauben.",
             "multiApply": "Mehrfach anwendbar",
             "multiApplyDetail": "Ob dieses Paket mehrfach gleichzeitig angewendet werden kann.",
             "isAddon": "Addon",
