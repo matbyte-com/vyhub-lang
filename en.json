@@ -1129,6 +1129,10 @@
             "customPriceDetail": "Allow customers to enter a custom price.",
             "recurring": "Recurring",
             "recurringDetail": "Whether this packet is a recurring subscription.",
+            "multiApply": "Multi Apply",
+            "multiApplyDetail": "Whether this packet can be applied multiple times at once.",
+            "isAddon": "Addon",
+            "isAddonDetail": "Whether this packet is an addon for another packet.",
             "notBuyable": "Not Buyable",
             "expires": "Expires",
             "limitedPayments": "Limited Payments"
@@ -1137,6 +1141,18 @@
             "deleteWarning": "Are you sure you want to delete this packet? This action cannot be undone."
         }
     },
+    "_packetCategory": {
+        "labels": {
+            "add": "Add Category",
+            "edit": "Edit Category",
+            "imageUrl": "Image URL",
+            "sortId": "Sort ID"
+        },
+        "messages": {
+            "deleteWarning": "Are you sure you want to delete this category? This action cannot be undone."
+        }
+    },
+    "categories": "Categories",
     "title": "Title",
     "subtitle": "Subtitle",
     "subcategory": "Subcategory",
