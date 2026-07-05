@@ -49,7 +49,8 @@
         "_legal": {
             "about": "Über",
             "termsOfService": "AGB",
-            "privacyPolicy": "Datenschutz"
+            "privacyPolicy": "Datenschutz",
+            "withdrawal": "Widerrufsrecht"
         }
     },
     "_home": {
@@ -144,6 +145,22 @@
         "yourAdminInstances": "Instanzen, auf denen du Admin bist"
     },
     "_instance": {
+        "_dpa": {
+            "generate": "Auftragsverarbeitungsvertrag erstellen",
+            "title": "Auftragsverarbeitungsvertrag (Art. 28 DSGVO)",
+            "description": "Erstelle einen Auftragsverarbeitungsvertrag (AVV) für diese Instanz. Bitte gib deine Daten als Verantwortlicher ein.",
+            "company": "Firma / Name",
+            "representative": "Vertreten durch (optional)",
+            "street": "Straße und Hausnummer",
+            "zip": "PLZ",
+            "city": "Ort",
+            "country": "Land",
+            "note": "Der Vertrag wird als PDF-Dokument erstellt. Beide Parteien stimmen dem Vertrag zu; er ist auch ohne Unterschrift gültig.",
+            "generateBtn": "Erstellen",
+            "generatedTitle": "Erstellte Verträge",
+            "none": "Es wurden noch keine Verträge erstellt.",
+            "download": "Herunterladen"
+        },
         "labels": {
             "edit": "Instanz editieren",
             "manageSubscription": "Abo verwalten",
@@ -628,6 +645,7 @@
         "noLicensesAvailable": "Aktuell sind keine Lizenzen verfügbar. Bitte versuche es später erneut.",
         "noLicenseSelected": "Bitte wähle eine Lizenz aus, um fortzufahren.",
         "instanceNameAndDomain": "Name und Domain",
+        "availableAt": "Deine Instanz wird erreichbar sein unter",
         "labels": {
             "cloud": "Cloud",
             "selfhosted": "Selbst gehostet",

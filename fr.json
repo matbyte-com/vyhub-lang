@@ -201,7 +201,8 @@
         "_legal": {
             "about": "à propos",
             "termsOfService": "Conditions d'utilisation",
-            "privacyPolicy": "Politique de Confidentialité"
+            "privacyPolicy": "Politique de Confidentialité",
+            "withdrawal": "Droit de rétractation"
         },
         "about": "À propos de VyHub",
         "help": "Obtenir de l'aide",
@@ -610,6 +611,7 @@
     "_newInstance": {
         "title": "Créer une nouvelle instance",
         "instanceNameAndDomain": "Nom et domaine",
+        "availableAt": "Votre instance sera disponible à l'adresse",
         "creditCardButton": "Carte de crédit ou Carte de débit",
         "currency": "EUR / mois",
         "name": "Nom de l'instance",
@@ -633,6 +635,22 @@
         }
     },
     "_instance": {
+        "_dpa": {
+            "generate": "Générer un contrat de sous-traitance",
+            "title": "Contrat de sous-traitance (art. 28 RGPD)",
+            "description": "Générez un contrat de sous-traitance (allemand : Auftragsverarbeitungsvertrag) pour cette instance. Veuillez saisir vos coordonnées en tant que responsable du traitement.",
+            "company": "Société / Nom",
+            "representative": "Représenté par (facultatif)",
+            "street": "Rue et numéro",
+            "zip": "Code postal",
+            "city": "Ville",
+            "country": "Pays",
+            "note": "Le contrat est généré sous forme de document PDF. Les deux parties acceptent le contrat ; il est valable sans signature. En cas de divergence, la version allemande prévaut.",
+            "generateBtn": "Générer",
+            "generatedTitle": "Contrats générés",
+            "none": "Aucun contrat n'a encore été généré.",
+            "download": "Télécharger"
+        },
         "labels": {
             "edit": "Modifier l'instance",
             "daysLeft": "Jours restants",

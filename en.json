@@ -49,7 +49,8 @@
         "_legal": {
             "about": "About",
             "termsOfService": "Terms of Service",
-            "privacyPolicy": "Privacy Policy"
+            "privacyPolicy": "Privacy Policy",
+            "withdrawal": "Right of Withdrawal"
         }
     },
     "_invoice": {
@@ -177,6 +178,7 @@
         },
         "title": "Create New Instance",
         "instanceNameAndDomain": "Name and Domain",
+        "availableAt": "Your instance will be available at",
         "description": "Get started with your own VyHub instance!{br}No payment information required!{br}{br}If questions arise, please read our {documentation}.",
         "creditCardButton": "Credit- or Debitcard",
         "currency": "EUR / month",
@@ -199,6 +201,22 @@
         }
     },
     "_instance": {
+        "_dpa": {
+            "generate": "Data Processing Agreement (DPA)",
+            "title": "Data Processing Agreement (Art. 28 GDPR)",
+            "description": "Generate a data processing agreement (German: Auftragsverarbeitungsvertrag) for this instance. Please enter your details as the data controller.",
+            "company": "Company / Name",
+            "representative": "Represented by (optional)",
+            "street": "Street and number",
+            "zip": "ZIP code",
+            "city": "City",
+            "country": "Country",
+            "note": "The agreement is generated as a PDF document. Both parties agree to the contract; it is valid without signature. In the event of discrepancies, the German version prevails.",
+            "generateBtn": "Generate",
+            "generatedTitle": "Generated agreements",
+            "none": "No agreements generated yet.",
+            "download": "Download"
+        },
         "labels": {
             "manageSubscription": "Manage subscription",
             "subdomain": "Subdomain",
