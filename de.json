@@ -1056,6 +1056,7 @@
             "dataCorrect": "Hiermit versichere ich, dass die angegebenen Daten (insbesondere Rechnungsadresse) wahrheitsgemäß und vollständig sind.",
             "agreeToS": "Ich stimme den Nutzungsbedingungen zu.",
             "noWithdraw": "Ich fordere und stimme ausdrücklich zu, dass bereits vor Ablauf der Widerrufsfrist mit der Ausführung der erworbenen Leistung begonnen wird. Ferner ist mir bekannt, dass ich das mir gesetzlich zustehende Widerrufsrecht bereits mit vollständiger Vertragserfüllung verliere.",
+            "noUpdateEntitlement": "Ich stimme ausdrücklich zu, dass meine selbst gehostete Lizenz ohne Anspruch auf Aktualisierungen, einschließlich Sicherheitsaktualisierungen, bereitgestellt wird (§ 327h BGB).",
             "agreeTo": "Ich stimme den {tos} zu.",
             "tos": "Nutzungsbedingungen"
         },

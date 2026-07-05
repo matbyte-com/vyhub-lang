@@ -817,6 +817,7 @@
             "agreeToS": "Je suis d'accord avec les conditions générales d'utilisation.",
             "agreeTo": "Je suis d'accord avec les {tos}.",
             "noWithdraw": "J'exige et accepte expressément que l'exécution du service acheté commence déjà avant la fin du délai de rétractation. De plus, je suis conscient que je perds déjà le droit de rétractation auquel j'ai droit légalement dès l'accomplissement complet du contrat.",
+            "noUpdateEntitlement": "J'accepte expressément que ma licence auto-hébergée soit fournie sans aucun droit à des mises à jour, y compris les mises à jour de sécurité (§ 327h BGB).",
             "dataCorrect": "Par la présente, je garantis que les détails spécifiés (en particulier l'adresse de facturation) sont vrais et complets.",
             "tos": "conditions d'utilisation"
         }

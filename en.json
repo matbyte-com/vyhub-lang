@@ -1031,6 +1031,7 @@
     "_legal": {
         "messages": {
             "noWithdraw": "I require and expressly agree that the execution of the purchased service already begins before the end of the withdrawal period. Furthermore, I am aware that I already lose the right of withdrawal to which I am entitled by law upon complete fulfillment of the contract.",
+            "noUpdateEntitlement": "I expressly agree that my self-hosted license is supplied without any entitlement to updates, including security updates (§ 327h BGB).",
             "dataCorrect": "I herewith guarantee that the details specified (especially billing address) are true and complete.",
             "agreeToS": "I agree to the terms of service.",
             "agreeTo": "I agree to the {tos}.",
