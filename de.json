@@ -145,6 +145,11 @@
         "yourAdminInstances": "Instanzen, auf denen du Admin bist"
     },
     "_instance": {
+        "_pricingV3": {
+            "title": "Handlung erforderlich: Wechsel zum neuen Preismodell",
+            "text": "Diese Instanz nutzt noch das alte Preismodell. Bitte wechsle vor dem {date} zum neuen Preismodell, um Unterbrechungen zu vermeiden.",
+            "button": "Preismodell wechseln"
+        },
         "_dpa": {
             "generate": "Auftragsverarbeitungsvertrag erstellen",
             "title": "Auftragsverarbeitungsvertrag (Art. 28 DSGVO)",

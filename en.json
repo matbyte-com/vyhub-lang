@@ -201,6 +201,11 @@
         }
     },
     "_instance": {
+        "_pricingV3": {
+            "title": "Action required: switch to the new pricing",
+            "text": "This instance still uses the old pricing model. Please switch to the new pricing before {date} to avoid interruptions.",
+            "button": "Switch pricing"
+        },
         "_dpa": {
             "generate": "Data Processing Agreement (DPA)",
             "title": "Data Processing Agreement (Art. 28 GDPR)",
