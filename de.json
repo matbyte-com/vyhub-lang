@@ -488,6 +488,11 @@
             "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird."
         }
     },
+    "_discount": {
+        "labels": {
+            "newOrInactiveInstanceOnly": "Nur für neue oder inaktive Instanzen"
+        }
+    },
     "_shop": {
         "labels": {
             "cancelPayment": "Zahlung abbrechen",

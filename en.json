@@ -452,6 +452,11 @@
             "addonEdited": "Add-on successfully edited."
         }
     },
+    "_discount": {
+        "labels": {
+            "newOrInactiveInstanceOnly": "Only for new or inactive instances"
+        }
+    },
     "_shop": {
         "labels": {
             "price_override": "Price Override",
