@@ -340,6 +340,10 @@
             "username": "Nutzername",
             "password": "Passwort",
             "passwordConfirmation": "Passwortbestätigung",
+            "acceptTos": "Ich akzeptiere die {link}",
+            "acceptPrivacy": "Ich akzeptiere die {link}",
+            "termsOfService": "AGB",
+            "privacyPolicy": "Datenschutzerklärung",
             "error": {
                 "password_no_match": "Überprüfe das Passwort bestätigen Feld",
                 "username_taken": "Nutzername ist schon vergeben",
@@ -371,7 +375,8 @@
             "passwordNoSpecialCharacter": "Passwort muss ein besonderes Zeichen enthalten",
             "passwordMatch": "Passwörter stimmen nicht überein",
             "codeLength": "Code muss 5 Zeichen lang sein",
-            "formInvalid": "Formular ist ungültig"
+            "formInvalid": "Formular ist ungültig",
+            "mustAgree": "Du musst akzeptieren um fortzufahren!"
         },
         "submit": "Absenden"
     },
@@ -1228,6 +1233,12 @@
             "recurring": "Wiederkehrend",
             "recurringDetail": "Ob dieses Paket ein wiederkehrendes Abonnement ist.",
             "paymentGatewaysDetail": "Beschränke, welche Zahlungsmethoden für dieses Paket verwendet werden können. Leer lassen, um alle zu erlauben.",
+            "packetRelations": "Paketbeziehungen",
+            "relationRequires": "Erfordert das ausgewählte Paket für einen Kauf",
+            "relationNotCompatible": "Nicht kompatibel mit dem ausgewählten Paket.",
+            "relationDisables": "Deaktiviert das ausgewählte Paket beim Kauf",
+            "relationUpgrades": "Kann verwendet werden, um das ausgewählte Paket upzugraden.",
+            "relationUpgradeWithDiscount": "Upgradet das ausgewählte Paket: Die verbleibende Zeit wird als Rabatt auf den Preis angerechnet (keine Zeitverlängerung).",
             "multiApply": "Mehrfach anwendbar",
             "multiApplyDetail": "Ob dieses Paket mehrfach gleichzeitig angewendet werden kann.",
             "isAddon": "Addon",
@@ -1252,6 +1263,8 @@
         }
     },
     "categories": "Kategorien",
+    "relations": "Beziehungen",
+    "type": "Typ",
     "title": "Titel",
     "subtitle": "Untertitel",
     "subcategory": "Unterkategorie",

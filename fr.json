@@ -45,6 +45,10 @@
             "passwordConfirmation": "Confirmation du mot de passe",
             "registrationRequired": "Enregistrement requis",
             "forgotPassword": "Mot de passe oublié",
+            "acceptTos": "J'accepte les {link}",
+            "acceptPrivacy": "J'accepte la {link}",
+            "termsOfService": "Conditions d'utilisation",
+            "privacyPolicy": "Politique de Confidentialité",
             "error": {
                 "username_taken": "Nom d'utilisateur déjà pris",
                 "invalid_request": "Mot de passe incorrect",
@@ -76,7 +80,8 @@
             "passwordNoSpecialCharacter": "Le mot de passe doit contenir au moins un caractère spécial",
             "codeLength": "Le code doit être de longueur 5",
             "emailInvalid": "L'adresse e-mail doit être valide",
-            "formInvalid": "Le formulaire est invalide"
+            "formInvalid": "Le formulaire est invalide",
+            "mustAgree": "Vous devez accepter pour continuer !"
         }
     },
     "_log": {

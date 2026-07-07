@@ -381,6 +381,10 @@
             "continue": "Continue",
             "sendConfirmationCode": "Send Code",
             "forgotPassword": "Forgot Password",
+            "acceptTos": "I accept the {link}",
+            "acceptPrivacy": "I accept the {link}",
+            "termsOfService": "Terms of Service",
+            "privacyPolicy": "Privacy Policy",
             "howDidYouHearAboutUs": "How did you hear about us?",
             "howDidYouHearAboutUsOptions": {
                 "searchEngine": "Search Engine (Google, Bing, ...)",
@@ -419,7 +423,8 @@
             "passwordMatch": "Password does not match",
             "codeLength": "Code must be of length 5",
             "emailInvalid": "Email must be valid",
-            "formInvalid": "Form is invalid"
+            "formInvalid": "Form is invalid",
+            "mustAgree": "You must agree to continue!"
         }
     },
     "resetPassword": {
@@ -1140,6 +1145,12 @@
             "recurring": "Recurring",
             "recurringDetail": "Whether this packet is a recurring subscription.",
             "paymentGatewaysDetail": "Limit which payment gateways can be used for this packet. Leave empty to allow all.",
+            "packetRelations": "Packet Relations",
+            "relationRequires": "Requires the selected packet for a purchase",
+            "relationNotCompatible": "Not compatible with the selected packet.",
+            "relationDisables": "Disables the selected packet on purchase",
+            "relationUpgrades": "Can be used to upgrade the selected packet.",
+            "relationUpgradeWithDiscount": "Upgrades the selected packet: its remaining time is credited as a discount on the price (no time extension).",
             "multiApply": "Multi Apply",
             "multiApplyDetail": "Whether this packet can be applied multiple times at once.",
             "isAddon": "Addon",
@@ -1164,6 +1175,8 @@
         }
     },
     "categories": "Categories",
+    "relations": "Relations",
+    "type": "Type",
     "title": "Title",
     "subtitle": "Subtitle",
     "subcategory": "Subcategory",
