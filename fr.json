@@ -415,7 +415,7 @@
             "finished": "Achevé",
             "refunded": "Remboursé",
             "revoked": "Révoqué",
-            "recurring": "Récurrent",
+            "recurring": "Abonnement",
             "enabled": "Actif",
             "disabled": "Expiré"
         }
@@ -471,6 +471,7 @@
         "labels": {
             "myPurchases": "Mes achats",
             "allPurchases": "Tous les achats",
+            "recurringPrice": "{price} tous les {period}",
             "appliedPackets": "Paquets appliqués",
             "revoke": "Révoquer",
             "revoked": "Révoqué",
@@ -664,7 +665,8 @@
             "frontendUrl": ".",
             "cname": "CNAME",
             "apiUrl": "API URL",
-            "activePackets": "Paquets actifs",
+            "activeSubscriptions": "Abonnements actifs",
+            "updateSubscription": "Mettre à jour l'abonnement",
             "advancedSettings": "Réglages avancés",
             "stopInstance": "Arrêter l'instance",
             "transferOwnership": "Transfert de propriétaire",
