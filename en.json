@@ -5,6 +5,16 @@
         "editSuccess": "Successfully edited",
         "deleteSuccess": "Successfully deleted"
     },
+    "_settings": {
+        "title": "Settings"
+    },
+    "_maintenance": {
+        "title": "Under Maintenance",
+        "message": "The platform is currently undergoing maintenance. Please check back again shortly.",
+        "banner": "Maintenance mode is enabled. Only admins can use the platform right now.",
+        "label": "Maintenance Mode",
+        "description": "When enabled, non-admin users are blocked from using the platform and shown a maintenance message."
+    },
     "_header": {
         "start": "Start",
         "features": "Features",

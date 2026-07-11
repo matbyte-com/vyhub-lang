@@ -1,4 +1,14 @@
 {
+    "_settings": {
+        "title": "Einstellungen"
+    },
+    "_maintenance": {
+        "title": "Wartungsarbeiten",
+        "message": "Die Plattform wird derzeit gewartet. Bitte versuche es in Kürze erneut.",
+        "banner": "Der Wartungsmodus ist aktiviert. Zurzeit können nur Admins die Plattform nutzen.",
+        "label": "Wartungsmodus",
+        "description": "Wenn aktiviert, werden Nicht-Admin-Benutzer von der Plattform ausgesperrt und sehen eine Wartungsmeldung."
+    },
     "_header": {
         "purchases": "Käufe",
         "labels": {

@@ -1,4 +1,14 @@
 {
+    "_settings": {
+        "title": "Paramètres"
+    },
+    "_maintenance": {
+        "title": "En maintenance",
+        "message": "La plateforme est actuellement en maintenance. Veuillez réessayer dans quelques instants.",
+        "banner": "Le mode maintenance est activé. Seuls les administrateurs peuvent utiliser la plateforme pour le moment.",
+        "label": "Mode maintenance",
+        "description": "Lorsqu'il est activé, les utilisateurs non administrateurs sont bloqués et voient un message de maintenance."
+    },
     "_header": {
         "features": "Caractéristiques",
         "games": "Jeux",
