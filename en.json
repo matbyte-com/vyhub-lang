@@ -1140,6 +1140,8 @@
     "start": "Start",
     "disabled": "Disabled",
     "copy": "Copy",
+    "key": "Key",
+    "value": "Value",
     "enter": "Enter",
     "product": "Product",
     "rewards": "Rewards",
@@ -1183,7 +1185,10 @@
             "isAddonDetail": "Whether this packet is an addon for another packet.",
             "notBuyable": "Not Buyable",
             "expires": "Expires",
-            "limitedPayments": "Limited Payments"
+            "limitedPayments": "Limited Payments",
+            "deployment": "Deployment",
+            "helmValues": "Helm Values",
+            "envVars": "Environment Variables"
         },
         "messages": {
             "deleteWarning": "Are you sure you want to delete this packet? This action cannot be undone."

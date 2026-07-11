@@ -610,6 +610,8 @@
     "add": "Ajouter",
     "cancel": "Annuler",
     "select": "Sélectionner",
+    "key": "Clé",
+    "value": "Valeur",
     "name": "Nom",
     "summary": "Résumé",
     "description": "Description",

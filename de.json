@@ -1160,6 +1160,8 @@
     },
     "accept": "Akzeptieren",
     "copy": "Kopieren",
+    "key": "Schlüssel",
+    "value": "Wert",
     "enter": "Eintreten",
     "disabled": "Deaktivieren",
     "end": "Beenden",
@@ -1271,7 +1273,10 @@
             "isAddonDetail": "Ob dieses Paket ein Addon für ein anderes Paket ist.",
             "notBuyable": "Nicht kaufbar",
             "expires": "Läuft ab",
-            "limitedPayments": "Begrenzte Zahlungen"
+            "limitedPayments": "Begrenzte Zahlungen",
+            "deployment": "Deployment",
+            "helmValues": "Helm-Werte",
+            "envVars": "Umgebungsvariablen"
         },
         "messages": {
             "deleteWarning": "Bist du sicher, dass du dieses Paket löschen möchtest? Diese Aktion kann nicht rückgängig gemacht werden."
