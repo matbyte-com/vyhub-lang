@@ -15,6 +15,18 @@
         "label": "Maintenance Mode",
         "description": "When enabled, non-admin users are blocked from using the platform and shown a maintenance message."
     },
+    "_broadcast": {
+        "title": "Broadcast Mail",
+        "description": "Send a free-text email with a subject to all registered users.",
+        "subject": "Subject",
+        "body": "Message",
+        "usernameHint": "You can use %username% as a placeholder for the recipient's username.",
+        "confirm": "I understand this email will be sent to all users.",
+        "send": "Send to all users",
+        "sendTest": "Send test to myself",
+        "sendSuccess": "Email queued for {count} user(s).",
+        "testSuccess": "Test email queued to your address."
+    },
     "_header": {
         "start": "Start",
         "features": "Features",

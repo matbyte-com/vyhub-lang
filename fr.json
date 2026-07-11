@@ -9,6 +9,18 @@
         "label": "Mode maintenance",
         "description": "Lorsqu'il est activé, les utilisateurs non administrateurs sont bloqués et voient un message de maintenance."
     },
+    "_broadcast": {
+        "title": "E-mail groupé",
+        "description": "Envoyer un e-mail en texte libre avec un objet à tous les utilisateurs inscrits.",
+        "subject": "Objet",
+        "body": "Message",
+        "usernameHint": "Vous pouvez utiliser %username% comme espace réservé pour le nom d'utilisateur du destinataire.",
+        "confirm": "Je comprends que cet e-mail sera envoyé à tous les utilisateurs.",
+        "send": "Envoyer à tous les utilisateurs",
+        "sendTest": "M'envoyer un test",
+        "sendSuccess": "E-mail mis en file d'attente pour {count} utilisateur(s).",
+        "testSuccess": "E-mail de test mis en file d'attente à votre adresse."
+    },
     "_header": {
         "features": "Caractéristiques",
         "games": "Jeux",

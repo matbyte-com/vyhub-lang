@@ -9,6 +9,18 @@
         "label": "Wartungsmodus",
         "description": "Wenn aktiviert, werden Nicht-Admin-Benutzer von der Plattform ausgesperrt und sehen eine Wartungsmeldung."
     },
+    "_broadcast": {
+        "title": "Rundmail",
+        "description": "Sende eine Freitext-E-Mail mit Betreff an alle registrierten Benutzer.",
+        "subject": "Betreff",
+        "body": "Nachricht",
+        "usernameHint": "Du kannst %username% als Platzhalter für den Benutzernamen des Empfängers verwenden.",
+        "confirm": "Mir ist bewusst, dass diese E-Mail an alle Benutzer gesendet wird.",
+        "send": "An alle Benutzer senden",
+        "sendTest": "Test an mich selbst senden",
+        "sendSuccess": "E-Mail für {count} Benutzer eingereiht.",
+        "testSuccess": "Test-E-Mail an deine Adresse eingereiht."
+    },
     "_header": {
         "purchases": "Käufe",
         "labels": {
