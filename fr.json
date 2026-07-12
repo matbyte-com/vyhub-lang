@@ -762,8 +762,7 @@
             "DELETE": "Arrêt",
             "DELETED": "Arrêté",
             "REPROVISION": "Application des modifications au serveur d'API",
-            "SELFHOSTED": "Auto-hébergé",
-            "PRE_SELFHOSTED": "Auto-hébergé (en attente)"
+            "SELFHOSTED": "Auto-hébergé"
         },
         "admins": "Administrateurs",
         "owner": "Propriétaire",
@@ -797,7 +796,6 @@
         "statusHelp": "Contactez l'assistance si l'état ne change pas après 10 minutes.",
         "autoUpdateDescription": "L'instance est automatiquement mise à jour à l'heure UTC",
         "autoUpdateActivated": "Mise à jour automatique activée",
-        "statusHelpPreSelfhosted": "Veuillez effectuer le paiement pour activer votre instance.",
         "statusHelpSelfhosted": "Suivez les instructions dans la documentation pour configurer l'instance. Contactez le support si nécessaire."
     },
     "_loginRegister": {

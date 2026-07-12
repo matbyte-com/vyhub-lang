@@ -277,8 +277,7 @@
             "DELETE": "Anhalten",
             "UNPROVISIONED": "API-Server einrichten",
             "REPROVISION": "Wende Änderungen am API Server an",
-            "SELFHOSTED": "Selbstgehostet",
-            "PRE_SELFHOSTED": "Selbstgehostet (ausstehend)"
+            "SELFHOSTED": "Selbstgehostet"
         },
         "statusHelp": "Kontaktiere den Support, wenn der Status sich nach 10 Minuten nicht ändert.",
         "deletedInstance": "Instanz erfolgreich gestoppt",
@@ -322,7 +321,6 @@
         "automaticExtension": "Automatische Verlängerung",
         "setUpAutocharge": "Automatische Zahlungen aktivieren",
         "revenueFee": "Umsatzgebühr",
-        "statusHelpPreSelfhosted": "Bitte schließe die Zahlung ab, um deine Instanz zu aktivieren.",
         "statusHelpSelfhosted": "Bitte folge den Anweisungen in der Dokumentation zum Einrichten der Instanz. Du kannst dich an den Support wenden, wenn du Hilfe benötigst."
     },
     "log": "Log",

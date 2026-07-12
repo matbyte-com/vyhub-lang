@@ -317,7 +317,6 @@
         "cnamePointingAt": "CNAME pointing at",
         "setCNAMEDescription": "Create a CNAME DNS record for your custom domain with this target. This points your custom domain to this VyHub instance.",
         "statusHelp": "Contact support if status does not change after 10 minutes.",
-        "statusHelpPreSelfhosted": "Please complete the payment to activate your instance.",
         "statusHelpSelfhosted": "Please follow the instructions in the docs for setting up the instance. You can contact support if you need help.",
         "statusHelpProvision": "If this status does not change within 5 minutes, the CNAME record to your custom domain is probably not set correctly. Check the documentation or contact support if you need help.",
         "statusHelpProvisioned": "Your instance is ready to use now. If the site does not load, try to clear your DNS cache or restart your router. If this does not solve the problem, contact the support.",
@@ -341,8 +340,7 @@
             "REPROVISION": "Applying changes to API server",
             "DELETE": "Stopping",
             "DELETED": "Stopped",
-            "SELFHOSTED": "Self-Hosted",
-            "PRE_SELFHOSTED": "Self-Hosted (Pending)"
+            "SELFHOSTED": "Self-Hosted"
         },
         "admins": "Admins",
         "owner": "Owner",
