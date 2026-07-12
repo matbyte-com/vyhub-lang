@@ -1,6 +1,26 @@
 {
     "_settings": {
-        "title": "Paramètres"
+        "title": "Paramètres",
+        "upstreams": {
+            "title": "Upstreams",
+            "add": "Ajouter un upstream",
+            "edit": "Modifier l'upstream",
+            "name": "Nom",
+            "default": "Par défaut"
+        },
+        "dbServers": {
+            "title": "Serveurs de base de données",
+            "add": "Ajouter un serveur de base de données",
+            "edit": "Modifier le serveur de base de données",
+            "name": "Nom",
+            "host": "Hôte",
+            "user": "Utilisateur",
+            "port": "Port",
+            "dbName": "Nom de la base de données",
+            "enabled": "Activé",
+            "maxInstances": "Instances max",
+            "freeSlots": "Emplacements libres"
+        }
     },
     "_maintenance": {
         "title": "En maintenance",

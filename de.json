@@ -1,6 +1,26 @@
 {
     "_settings": {
-        "title": "Einstellungen"
+        "title": "Einstellungen",
+        "upstreams": {
+            "title": "Upstreams",
+            "add": "Upstream hinzufügen",
+            "edit": "Upstream bearbeiten",
+            "name": "Name",
+            "default": "Standard"
+        },
+        "dbServers": {
+            "title": "Datenbankserver",
+            "add": "Datenbankserver hinzufügen",
+            "edit": "Datenbankserver bearbeiten",
+            "name": "Name",
+            "host": "Host",
+            "user": "Benutzer",
+            "port": "Port",
+            "dbName": "Datenbankname",
+            "enabled": "Aktiviert",
+            "maxInstances": "Max. Instanzen",
+            "freeSlots": "Freie Plätze"
+        }
     },
     "_maintenance": {
         "title": "Wartungsarbeiten",

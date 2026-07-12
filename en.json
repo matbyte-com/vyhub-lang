@@ -6,7 +6,27 @@
         "deleteSuccess": "Successfully deleted"
     },
     "_settings": {
-        "title": "Settings"
+        "title": "Settings",
+        "upstreams": {
+            "title": "Upstreams",
+            "add": "Add Upstream",
+            "edit": "Edit Upstream",
+            "name": "Name",
+            "default": "Default"
+        },
+        "dbServers": {
+            "title": "Database Servers",
+            "add": "Add Database Server",
+            "edit": "Edit Database Server",
+            "name": "Name",
+            "host": "Host",
+            "user": "User",
+            "port": "Port",
+            "dbName": "Database Name",
+            "enabled": "Enabled",
+            "maxInstances": "Max Instances",
+            "freeSlots": "Free Slots"
+        }
     },
     "_maintenance": {
         "title": "Under Maintenance",
