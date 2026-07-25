@@ -488,7 +488,7 @@
     "select": "Auswählen",
     "message": "Nachricht",
     "not_available": "Nicht verfügbar",
-    "properties": "Eigenschaften",
+    "properties": "Berechtigungen",
     "unexpectedErrorOccurred": "Es ist ein unerwarteter Fehler aufgetreten.",
     "refresh": "Aktualisieren",
     "example": "Beispiel",
@@ -711,7 +711,11 @@
         "requirementSetTest": "Teste die Regeln für einen Nutzer",
         "googleAnalyticsTagDescription": "[Optional] für die Nutzung von Google Analytics",
         "advancedSettings": "Erweiterte Einstellungen",
-        "shopOnly": "Nutze nur den VyHub Shop (einfacher Modus)"
+        "shopOnly": "Nutze nur den VyHub Shop (einfacher Modus)",
+        "requirementSetTestHint": "Wähle einen Benutzer, um zu prüfen, ob er dieses Anforderungsset erfüllt.",
+        "testFulfilled": "Der Benutzer erfüllt dieses Anforderungsset.",
+        "testNotFulfilled": "Der Benutzer erfüllt dieses Anforderungsset nicht.",
+        "requirementSetsHint": "Anforderungssets definieren Bedingungen, die ein Benutzer erfüllen muss, zum Beispiel um auf ein Paket oder eine Belohnung zuzugreifen. Jedes Set kombiniert eine oder mehrere Anforderungen mit UND/ODER-Logik und kann später an verschiedenen Stellen wiederverwendet werden."
     },
     "_user": {
         "type": {
@@ -790,10 +794,10 @@
         "types": {
             "DATE": "Datum",
             "USER_SELF": "Benutzer Selbst",
-            "PROPERTY": "Eigenschaft",
+            "PROPERTY": "Berechtigung",
             "GROUP_MEMBER": "Gruppenmitglied",
-            "PERMISSION_LEVEL": "Berechtigungswert",
-            "PERMISSION_LEVEL_SB": "Berechtigungswert (in Serverbundle)",
+            "PERMISSION_LEVEL": "Berechtigungsstufe",
+            "PERMISSION_LEVEL_SB": "Berechtigungsstufe (in Serverbundle)",
             "PROPERTY_SB": "Berechtigung (in Serverbundle)",
             "USER_ATTRIBUTE": "Nutzer Attribut",
             "PACKET": "Paket"
@@ -813,7 +817,14 @@
         "labels": {
             "forOrConnection": "Für logische ODER-Verknüpfungen",
             "forAndConnection": "Für logische UND-Verknüpfungen"
-        }
+        },
+        "matchAll": "Alle erfüllen",
+        "matchAny": "Beliebige erfüllen",
+        "noConditions": "Noch keine Bedingungen. Füge unten eine Anforderung oder Gruppe hinzu.",
+        "addCondition": "Bedingung hinzufügen",
+        "addGroup": "Gruppe hinzufügen",
+        "missingRequirement": "Fehlende Anforderung",
+        "logicHint": "Verknüpfe deine Anforderungen mit UND/ODER. Nutze Gruppen, um Bedingungen zu verschachteln."
     },
     "_discount": {
         "labels": {
@@ -1373,5 +1384,7 @@
         }
     },
     "home": "Start",
-    "limitedToUser": "Gefiltert auf Benutzer {username}"
+    "limitedToUser": "Gefiltert auf Benutzer {username}",
+    "saving": "Wird gespeichert…",
+    "savedAutomatically": "Änderungen werden automatisch gespeichert"
 }

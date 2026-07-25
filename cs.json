@@ -128,7 +128,11 @@
             "previewImageURL": "URL náhledového obrázku"
         },
         "showFirstStepsDescription": "Průvodce prvními kroky v pravém dolním rohu. (Pouze pro správce)",
-        "shopOnly": "Povolit režim pouze obchod (jednoduchý)"
+        "shopOnly": "Povolit režim pouze obchod (jednoduchý)",
+        "requirementSetTestHint": "Vyberte uživatele a zkontrolujte, zda splňuje tuto sadu požadavků.",
+        "testFulfilled": "Uživatel splňuje tuto sadu požadavků.",
+        "testNotFulfilled": "Uživatel nesplňuje tuto sadu požadavků.",
+        "requirementSetsHint": "Sady požadavků definují podmínky, které musí uživatel splnit, například pro přístup k balíčku nebo odměně. Každá sada kombinuje jeden nebo více požadavků pomocí logiky A/NEBO a lze ji později znovu použít na různých místech."
     },
     "_serverbundle": {
         "labels": {
@@ -686,7 +690,14 @@
             "ONLY_INACTIVE": "Pouze aktivní",
             "HAVE": "Má",
             "NHAVE": "Nemá"
-        }
+        },
+        "matchAll": "Splnit vše",
+        "matchAny": "Splnit libovolné",
+        "noConditions": "Zatím žádné podmínky. Přidejte níže požadavek nebo skupinu.",
+        "addCondition": "Přidat podmínku",
+        "addGroup": "Přidat skupinu",
+        "missingRequirement": "Chybějící požadavek",
+        "logicHint": "Zkombinujte požadavky pomocí A/NEBO. Použijte skupiny pro vnořené podmínky."
     },
     "_gateway": {
         "labels": {
@@ -1373,5 +1384,7 @@
     "advanced": "Pokročilé",
     "memberships": "Členství",
     "news": "Novinky",
-    "deletedUser": "Smazaný uživatel"
+    "deletedUser": "Smazaný uživatel",
+    "saving": "Ukládání…",
+    "savedAutomatically": "Změny se ukládají automaticky"
 }

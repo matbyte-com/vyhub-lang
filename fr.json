@@ -88,7 +88,11 @@
         "requirementSetTest": "Test des exigences par rapport à l'utilisateur",
         "showFirstStepsDescription": "Tutoriel des premiers pas en bas à droite. (réservé aux administrateurs)",
         "googleAnalyticsTagDescription": "[Facultatif] pour l'utilisation de Google Analytics",
-        "shopOnly": "Activer le mode Boutique uniquement (Simple)"
+        "shopOnly": "Activer le mode Boutique uniquement (Simple)",
+        "requirementSetTestHint": "Sélectionnez un utilisateur pour vérifier s'il remplit cet ensemble d'exigences.",
+        "testFulfilled": "L'utilisateur remplit cet ensemble d'exigences.",
+        "testNotFulfilled": "L'utilisateur ne remplit pas cet ensemble d'exigences.",
+        "requirementSetsHint": "Les ensembles d’exigences définissent les conditions qu’un utilisateur doit remplir, par exemple pour accéder à un paquet ou une récompense. Chaque ensemble combine une ou plusieurs exigences avec une logique ET/OU et peut être réutilisé ultérieurement à différents endroits."
     },
     "_home": {
         "newsOfTheDay": "Actualités du jour",
@@ -591,7 +595,14 @@
             "abstract": "L'ensemble de conditions est rempli si l'utilisateur remplit la condition portant l'ID 0 et soit la condition ID 1, soit la condition ID 2.",
             "basic": "L'ensemble de conditions est rempli si l'utilisateur remplit la condition 0",
             "advanced": "L'ensemble de conditions est rempli si l'utilisateur remplit la condition 0 ou la condition 1 ou la condition 2"
-        }
+        },
+        "matchAll": "Tout remplir",
+        "matchAny": "Remplir au moins un",
+        "noConditions": "Aucune condition pour l'instant. Ajoutez une exigence ou un groupe ci-dessous.",
+        "addCondition": "Ajouter une condition",
+        "addGroup": "Ajouter un groupe",
+        "missingRequirement": "Exigence manquante",
+        "logicHint": "Combinez vos exigences avec ET/OU. Utilisez des groupes pour imbriquer les conditions."
     },
     "_gateway": {
         "labels": {
@@ -1373,5 +1384,7 @@
         }
     },
     "limitedToUser": "Limité à l'utilisateur {username}",
-    "home": "Accueil"
+    "home": "Accueil",
+    "saving": "Enregistrement…",
+    "savedAutomatically": "Les modifications sont enregistrées automatiquement"
 }

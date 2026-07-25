@@ -451,7 +451,14 @@
             "abstract": "Il set di requisiti è soddisfatto se l'utente soddisfa il requisito con ID 0 e il requisito ID 1 o ID 2.",
             "basic": "Il set di requisiti è soddisfatto se l'utente soddisfa il requisito 0",
             "advanced": "Il set di requisiti è soddisfatto se l'utente soddisfa il requisito 0 o il requisito 1 o il requisito 2"
-        }
+        },
+        "matchAll": "Soddisfa tutti",
+        "matchAny": "Soddisfa uno qualsiasi",
+        "noConditions": "Ancora nessuna condizione. Aggiungi un requisito o un gruppo qui sotto.",
+        "addCondition": "Aggiungi condizione",
+        "addGroup": "Aggiungi gruppo",
+        "missingRequirement": "Requisito mancante",
+        "logicHint": "Combina i tuoi requisiti con E/O. Usa i gruppi per annidare le condizioni."
     },
     "_gateway": {
         "labels": {
@@ -758,7 +765,11 @@
             "updateOrder": "Aggiorna ordine",
             "resetOrder": "Reimposta ordine",
             "previewImageURL": "URL immagine di anteprima"
-        }
+        },
+        "requirementSetTestHint": "Seleziona un utente per verificare se soddisfa questo insieme di requisiti.",
+        "testFulfilled": "L'utente soddisfa questo insieme di requisiti.",
+        "testNotFulfilled": "L'utente non soddisfa questo insieme di requisiti.",
+        "requirementSetsHint": "Gli insiemi di requisiti definiscono le condizioni che un utente deve soddisfare, ad esempio per accedere a un pacchetto o a una ricompensa. Ogni insieme combina uno o più requisiti con logica E/O e può essere riutilizzato in seguito in luoghi diversi."
     },
     "_group": {
         "labels": {
@@ -1373,5 +1384,7 @@
     "advanced": "Avanzate",
     "memberships": "Iscrizioni",
     "news": "Notizie",
-    "deletedUser": "Utente eliminato"
+    "deletedUser": "Utente eliminato",
+    "saving": "Salvataggio…",
+    "savedAutomatically": "Le modifiche vengono salvate automaticamente"
 }

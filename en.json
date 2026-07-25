@@ -192,7 +192,11 @@
             "updateOrder": "Update Order",
             "resetOrder": "Reset Order",
             "previewImageURL": "Preview Image URL"
-        }
+        },
+        "requirementSetTestHint": "Select a user to check whether they fulfill this requirement set.",
+        "testFulfilled": "The user fulfills this requirement set.",
+        "testNotFulfilled": "The user does not fulfill this requirement set.",
+        "requirementSetsHint": "Requirement sets define conditions a user must fulfill, for example to access a packet or reward. Each set combines one or more requirements with AND/OR logic, and can be reused later in different places."
     },
     "_group": {
         "labels": {
@@ -686,7 +690,14 @@
             "ONLY_INACTIVE": "Only Active",
             "HAVE": "Have",
             "NHAVE": "Have Not"
-        }
+        },
+        "matchAll": "Match all",
+        "matchAny": "Match any",
+        "noConditions": "No conditions yet. Add a requirement or group below.",
+        "addCondition": "Add condition",
+        "addGroup": "Add group",
+        "missingRequirement": "Missing requirement",
+        "logicHint": "Combine your requirements with AND/OR. Use groups to nest conditions."
     },
     "_gateway": {
         "labels": {
@@ -1373,5 +1384,7 @@
     "advanced": "Advanced",
     "memberships": "Memberships",
     "news": "News",
-    "deletedUser": "Deleted User"
+    "deletedUser": "Deleted User",
+    "saving": "Saving…",
+    "savedAutomatically": "Changes are saved automatically"
 }

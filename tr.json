@@ -90,7 +90,11 @@
         "googleAnalyticsTagDescription": "[İsteğe bağlı] Google Analytics kullanımınız için",
         "requirementSetTest": "Kullanıcıya karşı test gereksinimi belirlendi",
         "shopOnly": "Yalnızca Mağaza Modunu Etkinleştir (Basit)",
-        "advancedSettings": "Gelişmiş Ayarlar"
+        "advancedSettings": "Gelişmiş Ayarlar",
+        "requirementSetTestHint": "Bir kullanıcının bu gereksinim setini karşılayıp karşılamadığını kontrol etmek için bir kullanıcı seçin.",
+        "testFulfilled": "Kullanıcı bu gereksinim setini karşılıyor.",
+        "testNotFulfilled": "Kullanıcı bu gereksinim setini karşılamıyor.",
+        "requirementSetsHint": "Gereksinim setleri, bir kullanıcının karşılaması gereken koşulları tanımlar, örneğin bir pakete veya ödüle erişmek için. Her set, bir veya daha fazla gereksinimi VE/VEYA mantığıyla birleştirir ve daha sonra farklı yerlerde yeniden kullanılabilir."
     },
     "_membership": {
         "labels": {
@@ -839,7 +843,14 @@
             "abstract": "Kullanıcı ID 0 olan koşulu ve ID 1 veya ID 2 koşullarından birini yerine getirirse koşul kümesi tamamlanır.",
             "basic": "Kullanıcı 0 numaralı koşulu yerine getirirse koşul kümesi tamamlanır",
             "advanced": "Kullanıcı 0 numaralı koşulu veya 1 numaralı koşulu veya 2 numaralı koşulu yerine getirirse koşul kümesi tamamlanır"
-        }
+        },
+        "matchAll": "Tümünü karşıla",
+        "matchAny": "Herhangi birini karşıla",
+        "noConditions": "Henüz koşul yok. Aşağıdan bir gereksinim veya grup ekleyin.",
+        "addCondition": "Koşul ekle",
+        "addGroup": "Grup ekle",
+        "missingRequirement": "Eksik gereksinim",
+        "logicHint": "Gereksinimlerinizi VE/VEYA ile birleştirin. Koşulları iç içe yerleştirmek için grupları kullanın."
     },
     "_pageTitle": {
         "legal": "Legal",
@@ -1373,5 +1384,7 @@
     "advanced": "Gelişmiş",
     "memberships": "Üyelikler",
     "news": "Haberler",
-    "deletedUser": "Silinmiş Kullanıcı"
+    "deletedUser": "Silinmiş Kullanıcı",
+    "saving": "Kaydediliyor…",
+    "savedAutomatically": "Değişiklikler otomatik olarak kaydedilir"
 }

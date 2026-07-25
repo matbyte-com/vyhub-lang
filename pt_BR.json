@@ -143,7 +143,11 @@
         "showFirstStepsDescription": "Tutorial de primeiros passos no canto inferior direito. (Somente administradores)",
         "googleAnalyticsTagDescription": "[Opcional] para o uso do seu Google Analytics",
         "requirementSetTest": "Testar conjunto de requisitos contra usuário",
-        "advancedSettings": "Configurações avançadas"
+        "advancedSettings": "Configurações avançadas",
+        "requirementSetTestHint": "Selecione um usuário para verificar se ele atende a este conjunto de requisitos.",
+        "testFulfilled": "O usuário atende a este conjunto de requisitos.",
+        "testNotFulfilled": "O usuário não atende a este conjunto de requisitos.",
+        "requirementSetsHint": "Os conjuntos de requisitos definem condições que um usuário deve atender, por exemplo para acessar um pacote ou recompensa. Cada conjunto combina um ou mais requisitos com lógica E/OU e pode ser reutilizado posteriormente em diferentes lugares."
     },
     "_group": {
         "mappings": {
@@ -940,7 +944,14 @@
             "abstract": "O conjunto de requisitos é cumprido se o usuário cumprir o requisito com ID 0 e o requisito ID 1 ou ID 2.",
             "basic": "O conjunto de requisitos é cumprido se o usuário cumprir o requisito 0",
             "advanced": "O conjunto de requisitos é cumprido se o usuário cumprir o requisito 0 ou o requisito 1 ou o requisito 2"
-        }
+        },
+        "matchAll": "Atender a todos",
+        "matchAny": "Atender a qualquer",
+        "noConditions": "Ainda não há condições. Adicione um requisito ou grupo abaixo.",
+        "addCondition": "Adicionar condição",
+        "addGroup": "Adicionar grupo",
+        "missingRequirement": "Requisito ausente",
+        "logicHint": "Combine seus requisitos com E/OU. Use grupos para aninhar condições."
     },
     "_taxRule": {
         "labels": {
@@ -1373,5 +1384,7 @@
     "advanced": "Avançado",
     "memberships": "Associações",
     "news": "Notícias",
-    "deletedUser": "Usuário excluído"
+    "deletedUser": "Usuário excluído",
+    "saving": "Salvando…",
+    "savedAutomatically": "As alterações são salvas automaticamente"
 }

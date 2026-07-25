@@ -134,7 +134,11 @@
         "showFirstStepsDescription": "Tutorial de primeros pasos en la parte inferior derecha. (Solo administradores)",
         "googleAnalyticsTagDescription": "[Opcional] para tu uso de Google Analytics",
         "requirementSetTest": "Probar conjunto de requisitos con un usuario",
-        "advancedSettings": "Ajustes avanzados"
+        "advancedSettings": "Ajustes avanzados",
+        "requirementSetTestHint": "Selecciona un usuario para comprobar si cumple este conjunto de requisitos.",
+        "testFulfilled": "El usuario cumple este conjunto de requisitos.",
+        "testNotFulfilled": "El usuario no cumple este conjunto de requisitos.",
+        "requirementSetsHint": "Los conjuntos de requisitos definen las condiciones que un usuario debe cumplir, por ejemplo para acceder a un paquete o una recompensa. Cada conjunto combina uno o más requisitos con lógica Y/O y se puede reutilizar más tarde en diferentes lugares."
     },
     "_group": {
         "isTeam": "es equipo",
@@ -686,7 +690,14 @@
             "ONLY_INACTIVE": "Solo activo",
             "HAVE": "Tiene",
             "NHAVE": "No tiene"
-        }
+        },
+        "matchAll": "Cumplir todos",
+        "matchAny": "Cumplir cualquiera",
+        "noConditions": "Aún no hay condiciones. Añade un requisito o grupo abajo.",
+        "addCondition": "Añadir condición",
+        "addGroup": "Añadir grupo",
+        "missingRequirement": "Requisito faltante",
+        "logicHint": "Combina tus requisitos con Y/O. Usa grupos para anidar condiciones."
     },
     "_gateway": {
         "labels": {
@@ -1373,5 +1384,7 @@
     "advanced": "Avanzado",
     "memberships": "Membresías",
     "news": "Noticias",
-    "deletedUser": "Usuario eliminado"
+    "deletedUser": "Usuario eliminado",
+    "saving": "Guardando…",
+    "savedAutomatically": "Los cambios se guardan automáticamente"
 }

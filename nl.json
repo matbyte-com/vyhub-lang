@@ -166,7 +166,11 @@
         "showFirstStepsDescription": "Tutorial met eerste stappen rechtsonder. (Alleen admins)",
         "googleAnalyticsTagDescription": "[Optioneel] voor je gebruik van Google Analytics",
         "requirementSetTest": "Vereistenset testen tegen gebruiker",
-        "advancedSettings": "Geavanceerde instellingen"
+        "advancedSettings": "Geavanceerde instellingen",
+        "requirementSetTestHint": "Selecteer een gebruiker om te controleren of deze aan deze vereistenset voldoet.",
+        "testFulfilled": "De gebruiker voldoet aan deze vereistenset.",
+        "testNotFulfilled": "De gebruiker voldoet niet aan deze vereistenset.",
+        "requirementSetsHint": "Vereistensets definiëren voorwaarden waaraan een gebruiker moet voldoen, bijvoorbeeld om toegang te krijgen tot een pakket of beloning. Elke set combineert een of meer vereisten met EN/OF-logica en kan later op verschillende plaatsen worden hergebruikt."
     },
     "_group": {
         "mappings": {
@@ -631,7 +635,14 @@
             "abstract": "De vereistenset is voldaan als de gebruiker voldoet aan vereiste met ID 0 en ofwel vereiste ID 1 of ID 2.",
             "basic": "De vereistenset is voldaan als de gebruiker voldoet aan vereiste 0",
             "advanced": "De vereistenset is voldaan als de gebruiker voldoet aan vereiste 0 of vereiste 1 of vereiste 2"
-        }
+        },
+        "matchAll": "Aan alle voldoen",
+        "matchAny": "Aan een voldoen",
+        "noConditions": "Nog geen voorwaarden. Voeg hieronder een vereiste of groep toe.",
+        "addCondition": "Voorwaarde toevoegen",
+        "addGroup": "Groep toevoegen",
+        "missingRequirement": "Ontbrekende vereiste",
+        "logicHint": "Combineer je vereisten met EN/OF. Gebruik groepen om voorwaarden te nesten."
     },
     "_gateway": {
         "labels": {
@@ -1373,5 +1384,7 @@
     "advanced": "Geavanceerd",
     "memberships": "Lidmaatschappen",
     "news": "Nieuws",
-    "deletedUser": "Verwijderde gebruiker"
+    "deletedUser": "Verwijderde gebruiker",
+    "saving": "Opslaan…",
+    "savedAutomatically": "Wijzigingen worden automatisch opgeslagen"
 }
