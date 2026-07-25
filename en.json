@@ -1018,6 +1018,8 @@
         "prohibitCreateThreadsDescription": "Prevent users from creating new threads. This does not affect users with the 'Manage Forum' permission or Topic Admins.",
         "labelTitle": "Label Title",
         "editThread": "Edit Thread",
+        "moveThread": "Move Thread",
+        "selectDestinationTopic": "Select destination topic",
         "lastActivity": "Last Activity",
         "lockWithAnswer": "Lock thread with answer",
         "topicAdminGroup": "Topic Admin Groups",

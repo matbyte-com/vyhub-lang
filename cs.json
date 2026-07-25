@@ -24,10 +24,13 @@
             "unlinkAccount": "Odpojit Účet",
             "activeProperties": "Aktivní Vlastnosti",
             "groupMemberships": "Skupinová Členství",
-            "registered_on": "Registrováno dne"
+            "registered_on": "Registrováno dne",
+            "visibleToUser": "Viditelné pro uživatele",
+            "noLinkedAccounts": "Žádné propojené účty"
         },
         "messages": {
-            "removeAdminConfirmation": "Nezapomeňte odstranit bývalého správce z instance v centrálním přehledu instancí."
+            "removeAdminConfirmation": "Nezapomeňte odstranit bývalého správce z instance v centrálním přehledu instancí.",
+            "deleteUserText": "Smazáním uživatele se smažou také všechny související bany, varování, nákupy, statistiky atd. Tuto akci nelze vrátit zpět."
         }
     },
     "_ban": {
@@ -76,7 +79,9 @@
         "errorColor": "Chybová Barva",
         "warningColor": "Barva Varování",
         "backgroundColor": "Barva Pozadí",
-        "backgroundColorDescription": "Barva je přepsána pozadím obrázku"
+        "backgroundColorDescription": "Barva je přepsána pozadím obrázku",
+        "featuredServers": "Doporučené servery pouze pro obchod",
+        "shopOnlyServers": "Tyto servery se zobrazují v hlavičce určené pouze pro obchod. Zadejte až dva servery."
     },
     "_settings": {
         "permissionLevel": "Úroveň oprávnění",
@@ -119,9 +124,11 @@
             "editBundle": "Upravit Serverový Balíček",
             "addServer": "Přidat Server",
             "updateOrder": "Upravit Objednávku",
-            "resetOrder": "Resetovat Objednávku"
+            "resetOrder": "Resetovat Objednávku",
+            "previewImageURL": "URL náhledového obrázku"
         },
-        "showFirstStepsDescription": "Průvodce prvními kroky v pravém dolním rohu. (Pouze pro správce)"
+        "showFirstStepsDescription": "Průvodce prvními kroky v pravém dolním rohu. (Pouze pro správce)",
+        "shopOnly": "Povolit režim pouze obchod (jednoduchý)"
     },
     "_serverbundle": {
         "labels": {
@@ -140,7 +147,8 @@
             "add": "Přidat Skupinové Členství",
             "edit": "Upravit Skupinové Členství",
             "endMembership": "Zrušit Členství",
-            "activeMemberships": "Aktivní Členství"
+            "activeMemberships": "Aktivní Členství",
+            "showInactive": "Zobrazit neaktivní"
         }
     },
     "_group": {
@@ -150,7 +158,11 @@
             "name": "Název skupiny/hodnosti/role na serveru"
         },
         "isTeam": "Je Tým",
-        "isTeamDescription": "Členové skupiny budou zobrazeni na stránce týmu"
+        "isTeamDescription": "Členové skupiny budou zobrazeni na stránce týmu",
+        "labels": {
+            "protected": "Chráněné",
+            "protectedDescription": "Změny členství v této skupině nejsou povoleny z aplikací třetích stran, jako jsou herní servery. Kromě toho mohou být členové této skupiny chráněni před bany."
+        }
     },
     "_shop": {
         "shopTitle": "Vítejte v Obchodě",
@@ -206,10 +218,1155 @@
             "pleaseWait": "Čekejte Prosím",
             "redirectDescription": "Budete přesměrováni na platebního poskytovatele.",
             "productDescription": "Popis Produktu",
-            "taxAllowUnknown": "Povolit nákupy z zemí bez daňového pravidla."
+            "taxAllowUnknown": "Povolit nákupy z zemí bez daňového pravidla.",
+            "showPacketsAsList": "Zobrazit balíčky jako seznam",
+            "invoiceAccentColor": "Akcentová barva faktury",
+            "invoiceAccentColorDescription": "Akcentová barva použitá pro nadpisy, záhlaví tabulek a součty na faktuře.",
+            "firstCycleOnly": "Pouze první cyklus",
+            "firstCycleOnlyHint": "Sleva se uplatní pouze na první zúčtovací období opakovaného balíčku; další období jsou účtována za plnou cenu.",
+            "firstCycleDiscountHint": "Pouze pro první zúčtovací období, poté {price}",
+            "firstCycle": "První platba",
+            "afterwardsRecurring": "Poté {price}",
+            "recipient": "Příjemce",
+            "sharePacket": "Podívejte se na {title} od {store}! Skvělé výhody za skvělou cenu.",
+            "showWidgetsOnShopPage": "Zobrazit statistické widgety na stránce obchodu",
+            "showWidgetsOnShopPageDesc": "Pokud je zakázáno, povolené widgety (nejlepší dárci, ...) se na stránce obchodu nezobrazují.",
+            "purchasesWithoutAddressLimit": "Adresa zákazníka vyžadována u nákupů nad",
+            "purchasesWithoutAddressLimitDescription": "U nákupů s celkovou částkou nižší, než je zde uvedeno, nemusí zákazník uvádět adresu. Platí pouze pro nákupy, které používají výchozí měnu."
         },
         "messages": {
-            "confirmCreditsPayment": "Prosím, potvrďte platbu {credits} {credits_display_title}."
+            "confirmCreditsPayment": "Prosím, potvrďte platbu {credits} {credits_display_title}.",
+            "confirmCouponPayment": "Zadejte svůj kód {gateway_name}. Platba je poté ručně schválena členem týmu.",
+            "couponsEntered": "Váš kupón byl úspěšně přidán. Kupón můžete upravovat, dokud nebude váš nákup schválen.",
+            "notEnoughCredits": "Nemáte dostatek {credits_display_title} k zaplacení tohoto nákupu. Zvolte prosím jiný způsob platby nebo si kupte více {credits_display_title}.",
+            "addToCartError": "Při přidávání balíčku do košíku došlo k chybě.",
+            "cartEmpty": "Váš košík je prázdný.",
+            "mustAgree": "Pro pokračování musíte souhlasit!",
+            "startingPaymentFailed": "Při zahájení platby došlo k chybě. Zkuste to prosím znovu nebo použijte jiný způsob platby!",
+            "paymentActionFailed": "Při přesměrování na platební stránku došlo k chybě. Zkuste to prosím znovu nebo použijte jiný způsob platby! Chybová zpráva: {message}",
+            "selectGateway": "Vyberte způsob platby",
+            "noAddressSpecified": "Adresa dosud nebyla zadána.",
+            "paymentCancelled": "Tato platba byla zrušena. Můžete to zkusit znovu návštěvou svého nákupního košíku.",
+            "paymentSuccess": "Platba byla úspěšně dokončena a zakoupené balíčky byly aktivovány.",
+            "paymentFailed": "Během procesu platby došlo k chybě. Zkuste prosím proces restartovat.",
+            "paymentPending": "Tato platba čeká na vyřízení. Dokončete ji prosím návštěvou nákupního košíku.",
+            "paymentProcessing": "Platba byla schválena a brzy bude dokončena. Počkejte prosím několik minut na této stránce, zatímco se vaše platba zpracovává.",
+            "couponApplySuccess": "Kupón úspěšně uplatněn.",
+            "couponRemoveSuccess": "Kupón úspěšně odstraněn.",
+            "couponNotApplied": "Kupón nebylo možné uplatnit na žádný balíček ve vašem košíku.",
+            "selectBillingAddressFirst": "Vyberte prosím nejprve fakturační adresu.",
+            "selectEmailFirst": "Nejprve prosím aktualizujte svou e-mailovou adresu",
+            "cancelPurchaseConfirmation": "Zahájené platby jsou zrušeny. Všechny zadané kupóny jsou ztraceny. Zrušení nákupu nelze vrátit zpět.",
+            "targetUserChanged": "Cílový uživatel byl změněn",
+            "priceMustBeHigherThanMin": "Cena musí být vyšší než minimální cena."
+        },
+        "purchaseStatus": {
+            "open": "Otevřeno",
+            "cancelled": "Zrušeno",
+            "finished": "Dokončeno",
+            "refunded": "Vráceno",
+            "revoked": "Zrušeno",
+            "recurring": "Opakující se",
+            "enabled": "Aktivní",
+            "disabled": "Vypršelo"
         }
-    }
+    },
+    "_mail": {
+        "subjects": {
+            "cart_follow_up": "Nenechte si ujít svůj zážitek",
+            "notification": "Nové oznámení na {name}",
+            "payment_successful": "Platba úspěšná, faktura k dispozici",
+            "subscription_cancelled": "Předplatné zrušeno"
+        },
+        "base": {
+            "hello_x": "Ahoj {name}",
+            "hey_x": "Ahoj {name}",
+            "best_regards": "S pozdravem",
+            "your_x_team": "Váš tým {name}",
+            "thank_you": "Děkujeme, že využíváte našich služeb.",
+            "purchase_history": "Historie nákupů"
+        },
+        "cart_follow_up": {
+            "exploring": "Všimli jsme si, že objevujete úžasný svět {name}. Zdá se, že jste něco nechali ve svém košíku.",
+            "benefits": "Nenechte si ujít exkluzivní výhody a privilegia, na která máte zálusk.",
+            "your_cart": "Váš košík",
+            "take_me_to_my_cart": "Přejít do mého košíku"
+        },
+        "notification": {
+            "new_notification": "Obdrželi jste nové oznámení na {name}",
+            "unsubscribe_url": "Z dalších oznámení se můžete odhlásit zde"
+        },
+        "payment_successful": {
+            "payment_processed": "vaše platba {amount} byla úspěšně zpracována.",
+            "invoice_available": "Faktura je k dispozici ve vaší {purchase_history}."
+        },
+        "subscription_cancelled": {
+            "gateway_sub_cancelled": "vaše předplatné {gateway} bylo zrušeno.",
+            "product": "Produkt",
+            "subscription_id": "ID předplatného",
+            "check_status": "Zkontrolujte aktuální stav v {purchase_history}."
+        }
+    },
+    "_search": {
+        "labels": {
+            "linkedUsers": "Propojení uživatelé",
+            "searchUsers": "Hledat uživatele",
+            "recentlyActiveUsers": "Nedávno aktivní uživatelé"
+        }
+    },
+    "_errors": {
+        "country_not_allowed": "Nákupy z vaší země nejsou povoleny.",
+        "requirement_parse_error": "Nelze zpracovat vzorec požadavků. Kontaktujte prosím administrátora.",
+        "cart_not_empty": "Váš košík musí být prázdný, abyste mohli přidat tento balíček.",
+        "packet_requires_other": "Tento balíček vyžaduje jiný balíček: {packet_title}.",
+        "packet_not_compatible": "Tento balíček není kompatibilní s jiným balíčkem: {packet_title}.",
+        "packet_relation_violated": "Tento balíček porušuje vztah s jiným balíčkem: {relation_type} {packet_title}.",
+        "packet_already_in_cart": "Tento balíček je již ve vašem košíku.",
+        "packet_not_purchasable": "Tento balíček nemůžete zakoupit.",
+        "cart_full": "Váš košík je plný.",
+        "payment_error": "Chyba platby: {msg}",
+        "not_found": "Nenalezeno.",
+        "illegal_value": "Neplatná hodnota: {msg}",
+        "missing_properties": "Nemáte všechna požadovaná oprávnění: {properties}",
+        "no_permissions": "Chyba oprávnění: {msg}",
+        "unauthorized": "Pro tuto akci musíte být přihlášeni.",
+        "wrong_currency": "Nemůžete mít v košíku balíčky s různými měnami.",
+        "ban_protest_open": "Pro tento ban již existuje otevřené odvolání.",
+        "too_many_ban_protests": "Pro tento ban již existují 3 odvolání.",
+        "title_too_long": "Název je příliš dlouhý",
+        "invalid_token": "Vaše přihlašovací relace vypršela, přihlaste se prosím znovu.",
+        "validation_error": "Chyba ověření: {msg}",
+        "address_required": "Pro tento nákup je vyžadována adresa.",
+        "coupon": {
+            "not_found": "Tento kód je neplatný."
+        }
+    },
+    "_user": {
+        "messages": {
+            "linkAccountConfirm": "Opravdu chcete propojit tyto dva uživatelské účty?",
+            "couldNotLinkUsers": "Uživatelské účty nebylo možné propojit.",
+            "linkedAccounts": "Uživatelské účty úspěšně propojeny."
+        },
+        "userLinkDescription": "Propojení uživatele provede nějakou magii pro spojení vašich účtů. Pozor, tuto magii nelze vrátit zpět!",
+        "userLoginShopDescription": "Přihlaste se prosím, abychom vás mohli identifikovat ve hře.",
+        "labels": {
+            "newUsers": "Noví uživatelé",
+            "authRequestDescription": "Pro přihlášení proveďte na serveru {type} následující příkaz:",
+            "hideAvatar": "Skrýt/Zobrazit avatar pro všechny uživatele"
+        },
+        "type": {
+            "CENTRAL": {
+                "name": "VyHub Central",
+                "info": "Platforma pro správu a monetizaci vašich herních serverů."
+            },
+            "STEAM": {
+                "name": "Steam",
+                "info": "Slavná herní platforma."
+            },
+            "DISCORD": {
+                "name": "Discord",
+                "info": "Vaše místo pro povídání a setkávání."
+            },
+            "MINECRAFT": {
+                "name": "Minecraft",
+                "info": "Postavte si svůj vlastní svět."
+            },
+            "TEAMSPEAK3": {
+                "name": "Teamspeak 3",
+                "info": "Hlasový chat pro hráče."
+            },
+            "FIVEM": {
+                "name": "FiveM",
+                "info": "Nastartujte, spojte síly a vládněte ulicím Los Santos."
+            },
+            "ASA": {
+                "name": "ARK: Survival Ascended",
+                "info": "Zkroťte divočinu, ovládněte dinosaury."
+            }
+        }
+    },
+    "_legal": {
+        "descriptionText": "Ve většině zemí je povinné mít alespoň kontaktní údaje provozovatele webu, podmínky použití a zásady ochrany osobních údajů. Vzorové zásady ochrany osobních údajů najdete v dokumentaci.",
+        "showLegalReminder": "Nastavte prosím právní informace v nastavení!"
+    },
+    "_navigation": {
+        "messages": {
+            "invalidFileType": "Neplatný typ souboru."
+        },
+        "_location": {
+            "header": "Záhlaví",
+            "footer": "Zápatí",
+            "help": "Nápověda"
+        },
+        "linkTitle": "Název",
+        "sublink": "Pododkaz",
+        "editor": "Editor",
+        "cmsPageTitle": "HTML stránky",
+        "htmlContent": "HTML obsah",
+        "link": "Odkaz",
+        "html": "Html",
+        "title": "Navigace",
+        "parentNavigationLink": "Nadřazený navigační odkaz",
+        "addNavLink": "Přidat navigační odkaz",
+        "editNavLink": "Upravit navigační odkaz",
+        "navUpdate": "Aktualizovat pořadí navigace",
+        "navReset": "Obnovit pořadí navigace",
+        "reqProp": "Vyžadované oprávnění",
+        "location": "Umístění",
+        "cmsPage": "HTML stránka",
+        "addCmsPage": "Přidat stránku",
+        "editCmsPage": "Upravit stránku",
+        "deleteCmsPage": "Smazat stránku",
+        "deleteDefaultLink": "Výchozí odkaz nelze smazat",
+        "contentSanitizationWarning": "JavaScript smí používat pouze administrátoři. Jinak bude vyčištěn.",
+        "uploadFile": "Volitelné: Nahrát soubor"
+    },
+    "_log": {
+        "messages": {
+            "limitReached": "Byl dosažen limit logů. Některé starší logy nemusí být zobrazeny.",
+            "limitReachedFilter": "Byl dosažen limit logů. Některé starší logy nemusí být zobrazeny. Použijte menší časové rozmezí nebo konkrétnější filtr."
+        },
+        "labels": {
+            "level": "Úroveň"
+        }
+    },
+    "_forms": {
+        "labels": {
+            "iconDescription": "Dostupné ikony"
+        }
+    },
+    "_address": {
+        "labels": {
+            "add": "Přidat adresu",
+            "change": "Změnit adresu",
+            "streetAndNumber": "Ulice a číslo",
+            "addition": "Doplněk",
+            "city": "Město",
+            "state": "Stát",
+            "zip_code": "PSČ",
+            "vat_number": "DIČ",
+            "selectAddress": "Vybrat adresu"
+        },
+        "messages": {
+            "noAddressesYet": "Zatím nemáte žádné adresy."
+        }
+    },
+    "_packet": {
+        "labels": {
+            "add": "Přidat balíček",
+            "edit": "Upravit balíček",
+            "customPrice": "Vlastní cena",
+            "buyable": "K zakoupení",
+            "buyableDetail": "Lze zakoupit v obchodě",
+            "enabledDetail": "Pokud je zakázáno, balíček nelze zakoupit a všechny přiřazené balíčky se stanou neaktivními.",
+            "notBuyable": "Nelze zakoupit",
+            "titleInImage": "Název zobrazený přes obrázek (volitelné)",
+            "currency": "Měna",
+            "expires": "Vyprší",
+            "limitedPayments": "Omezené platby",
+            "recurring": "Opakující se",
+            "recurringDetail": "Vytvoří se předplatné s intervalem zadaným v poli 'Aktivní po dobu'.",
+            "buyableActive": "K zakoupení, pokud má uživatel tento balíček v aktivním stavu.",
+            "buyableInactive": "K zakoupení, pokud má uživatel tento balíček v neaktivním stavu.",
+            "activeFor": "Aktivní po dobu",
+            "activeSince": "Aktivní od",
+            "activeUntil": "Aktivní do",
+            "activeForDetail": "Doba trvání balíčku po aktivaci. Nechte toto pole prázdné pro balíčky, které by se neměly časem deaktivovat. Pokud je povolena možnost opakování, tato hodnota se použije jako interval předplatného.",
+            "limitPaymentMethods": "Omezit způsoby platby",
+            "limitPaymentMethodsDetail": "Pokud jsou vybrány způsoby platby, lze použít pouze tyto. Pokud ne, lze použít všechny způsoby.",
+            "customPriceDetail": "Nechte uživatele rozhodnout o ceně. Výše zadaná cena se použije jako minimální cena.",
+            "packetRelations": "Vztahy balíčku",
+            "details": "Podrobnosti balíčku",
+            "relationDisables": "Deaktivuje vybraný balíček při nákupu",
+            "relationRequires": "Vyžaduje vybraný balíček pro nákup",
+            "relationNotCompatible": "Není kompatibilní s vybraným balíčkem.",
+            "relationUpgrades": "Vylepší vybraný balíček: jeho zbývající čas se přičte k době trvání nového balíčku.",
+            "relationUpgradeWithDiscount": "Vylepší vybraný balíček: jeho zbývající čas se připíše jako sleva na cenu.",
+            "imageDetail": "HTTPS URL k obrázku balíčku.",
+            "deleteAppliedPacket": "Smazat přiřazený balíček",
+            "end": "Konec",
+            "recommendable": "Doporučitelné",
+            "recommendableDescription": "Balíček může být doporučen uživatelům v sekcích \"Doporučení\"/ \"Doporučeno pro vás\"."
+        },
+        "messages": {
+            "sortOnlyWithCategory": "Balíčky lze třídit pouze pokud je vybrána kategorie.",
+            "customPricePossible": "Cenu tohoto balíčku lze přizpůsobit.",
+            "deleteWarning": "Pozor! Smazáním balíčku se smažou také všechny související přiřazené balíčky, přiřazené odměny a položky nákupu. Možná balíček raději zakázat?"
+        },
+        "status": {
+            "ENABLED": "Povoleno",
+            "DISABLED": "Zakázáno"
+        }
+    },
+    "_packetCategory": {
+        "labels": {
+            "create": "Vytvořit kategorii balíčků",
+            "edit": "Upravit kategorii balíčků",
+            "delete": "Smazat kategorii balíčků"
+        }
+    },
+    "_reward": {
+        "labels": {
+            "checkForReplacements": "Zkontrolujte dokumentaci pro dostupné typy odměn a nahrazení řetězců",
+            "create": "Vytvořit odměnu",
+            "serverbundleDescription": "Odměna se provede na všech serverech ve vybraném serverbundle, včetně serverů přidaných později. Pro odměny, které nejsou specifické pro serverbundle, lze toto pole nechat prázdné. Více informací najdete v dokumentaci.",
+            "once": "Provést pouze jednou (na balíček)",
+            "onceDescription": "Pokud je povoleno, odměna se provede pouze jednou na VŠECH serverech ve vybraném serverbundle, včetně serverů přidaných později. Pokud je zakázáno, odměna se provede na všech serverech ve vybraném serverbundle pokaždé, když nastane vybraná událost.",
+            "onEvent": "Provést při události",
+            "edit": "Upravit odměnu",
+            "onceFromAll": "Provést pouze na jednom serveru",
+            "onceFromAllDescription": "Pokud je povoleno, odměna se provede pouze na prvním serveru (z vybraného serverbundle), ke kterému se uživatel připojí. Musí být kombinováno s 'Provést pouze jednou'.",
+            "reactivateOnExtend": "Provést znovu, pokud byl balíček prodloužen (při platbě předplatného)",
+            "addAppliedReward": "Přidat přiřazenou odměnu",
+            "syncAppliedRewards": "Synchronizovat odměny",
+            "amountOfAppliedRewardsToPatch": "Počet přiřazených odměn k opravě: {amount}",
+            "packetSyncLimitDescription": "Odměny se přidají ke všem balíčkům s daty zahájení v zadaném rozmezí. Začátek a konec jsou volitelné.",
+            "templates": "Šablony",
+            "headers": "Hlavičky",
+            "headerKey": "Klíč hlavičky",
+            "limitToServers": "Omezit na servery",
+            "limitToServersDescription": "Omezte provedení odměny na vybrané servery. Pokud není vybrán žádný server, odměna se provede na všech serverech v serverbundle.",
+            "headerValue": "Hodnota hlavičky",
+            "maxRetries": "Počet pokusů",
+            "parentChannelId": "ID nadřazeného kanálu",
+            "channelGroupId": "ID skupiny kanálu",
+            "clientLimit": "Limit klientů",
+            "deleteOnExpire": "Smazat při vypršení",
+            "_events": {
+                "direct": "Provést přímo",
+                "connect": "Provést při připojení",
+                "disconnect": "Provést při odpojení",
+                "spawn": "Provést při spawnu",
+                "disable": "Provést, když se přiřazený balíček stane neaktivním",
+                "death": "Provést při smrti"
+            },
+            "_types": {
+                "command": "Provést příkaz na serveru/serverech",
+                "script": "Provést skript na serveru/serverech",
+                "credits": "Přidat {credits_display_title} na účet kupujícího",
+                "membership": "Přidat členství ve skupině",
+                "http": "Odeslat HTTP požadavek",
+                "teamspeak_channel": "Vytvořit kanál Teamspeak"
+            }
+        },
+        "status": {
+            "OPEN": "Otevřeno",
+            "EXECUTED": "Provedeno",
+            "FAILED": "Selhalo"
+        }
+    },
+    "_purchases": {
+        "labels": {
+            "allPurchases": "Všechny nákupy",
+            "appliedPackets": "Přiřazené balíčky",
+            "revoke": "Odvolat",
+            "revoked": "Odvoláno",
+            "unrevoke": "Zrušit odvolání",
+            "refund": "Vrátit peníze",
+            "refunded": "Peníze vráceny",
+            "amountNet": "Čistá částka",
+            "amountTotal": "Celková částka",
+            "details": "Podrobnosti nákupu",
+            "salesCount": "Počet prodejů",
+            "totalRevenue": "Celkové tržby",
+            "monthlyRevenue": "Měsíční tržby",
+            "creditsSpent": "Utracené kredity",
+            "revenueByCountry": "Tržby podle zemí",
+            "revenueByCategory": "Tržby podle kategorií",
+            "editAppliedPacket": "Upravit přiřazený balíček",
+            "cancelSubscription": "Zrušit předplatné",
+            "addAppliedPacket": "Přidat přiřazený balíček",
+            "confirmPurchases": "Potvrdit nákupy",
+            "activeSubscriptions": "Aktivní předplatná",
+            "averagePurchaseAmount": "Průměrný nákup",
+            "range": "Rozsah",
+            "notAffectedByRangeSelector": "Statistika není ovlivněna výběrem rozsahu",
+            "allTime": "Za celou dobu",
+            "thisYear": "Tento rok",
+            "thisMonth": "Tento měsíc",
+            "coupon": "Kupón",
+            "confirm": "Potvrdit",
+            "decline": "Odmítnout",
+            "confirmDebitText": "Potvrdit nákup? Toto nelze vrátit zpět.",
+            "declineDebitText": "Zrušit nákup? Toto nelze vrátit zpět.",
+            "showApprovedDebits": "Zobrazit schválené platby",
+            "paymentGateway": "Platební brána",
+            "addAppliedReward": "Přidat přiřazenou odměnu",
+            "reward": "Odměna"
+        },
+        "messages": {
+            "refundInitSuccess": "Vrácení peněz úspěšně zahájeno.",
+            "revokeSuccess": "Nákup úspěšně odvolán.",
+            "refreshSuccess": "Platební údaje úspěšně obnoveny.",
+            "unrevokeSuccess": "Odvolání nákupu úspěšně zrušeno.",
+            "refundConfirm": "Opravdu chcete vrátit peníze za tento nákup?",
+            "deleteConfirm": "Opravdu chcete smazat tento nákup? Tuto akci nelze vrátit zpět. Související přiřazené balíčky nebudou smazány.",
+            "cancelSubscriptionConfirm": "Opravdu chcete zrušit toto předplatné?",
+            "confirmPurchaseSuccess": "Nákup úspěšně schválen",
+            "declinePurchaseSuccess": "Nákup úspěšně zrušen"
+        }
+    },
+    "_home": {
+        "newsOfTheDay": "Novinky dne",
+        "news": "Novinky",
+        "addNews": "Nová zpráva",
+        "invertTitleColor": "Invertovat barvu názvu",
+        "messageSubject": "Předmět",
+        "editNews": "Upravit zprávu"
+    },
+    "_component": {
+        "addComponent": "Přidat komponentu",
+        "components": "Komponenty",
+        "currentPlayers": "Aktuální hráči",
+        "whiteText": "Bílý text",
+        "specifyServers": "Zadejte v nastavení až dva servery",
+        "onlinePlayers": "Hráči online",
+        "activePlayers": "Aktivní hráči",
+        "registeredPlayers": "Registrovaní hráči",
+        "hoursPlayed": "Odehrané hodiny",
+        "_form": {
+            "height": "Výška",
+            "limit": "Limit",
+            "marginTop": "Horní okraj",
+            "inviteLink": "Odkaz na pozvánku",
+            "headline": "Nadpis",
+            "discordWidget": "Discord widget",
+            "inverted": "Invertované",
+            "btnText": "Text tlačítka",
+            "question": "Otázka",
+            "answer": "Odpověď",
+            "maxColumnHeight": "Maximální výška sloupce",
+            "fixed": "Pevné - Ukotvit komponentu při posouvání",
+            "dense": "Husté",
+            "container": "Kontejner",
+            "openInNewTab": "Otevřít v nové kartě"
+        }
+    },
+    "_requirement": {
+        "addRequirement": "Požadavek",
+        "requirementType": "Typ",
+        "requirementOperator": "Operátor",
+        "permissionLevel": "Úroveň oprávnění",
+        "requirementSet": "Sada požadavků",
+        "propertyName": "Název oprávnění",
+        "attributeName": "Název atributu",
+        "attributeValue": "Hodnota atributu",
+        "date": "Datum",
+        "labels": {
+            "forOrConnection": "Pro spojení OR",
+            "forAndConnection": "Pro spojení AND"
+        },
+        "examples": {
+            "abstract": "Sada požadavků je splněna, pokud uživatel splňuje požadavek s ID 0 a buď požadavek ID 1 nebo ID 2.",
+            "basic": "Sada požadavků je splněna, pokud uživatel splňuje požadavek 0",
+            "advanced": "Sada požadavků je splněna, pokud uživatel splňuje požadavek 0 nebo požadavek 1 nebo požadavek 2"
+        },
+        "types": {
+            "GROUP_MEMBER": "Člen skupiny",
+            "PERMISSION_LEVEL": "Úroveň oprávnění",
+            "PERMISSION_LEVEL_SB": "Úroveň oprávnění (v serverbundle)",
+            "PROPERTY": "Oprávnění",
+            "PROPERTY_SB": "Oprávnění (v serverbundle)",
+            "USER_ATTRIBUTE": "Atribut uživatele",
+            "PACKET": "Balíček",
+            "DATE": "Datum",
+            "USER_SELF": "Uživatel sám"
+        },
+        "operators": {
+            "EQ": "Rovná se",
+            "NEQ": "Nerovná se",
+            "LEQ": "Menší nebo rovno",
+            "GEQ": "Větší nebo rovno",
+            "LT": "Menší než",
+            "GT": "Větší než",
+            "ACTIVE": "Aktivní",
+            "INACTIVE": "Neaktivní",
+            "NEVER_ACTIVE": "Nikdy aktivní",
+            "ONLY_ACTIVE": "Pouze neaktivní",
+            "ONLY_INACTIVE": "Pouze aktivní",
+            "HAVE": "Má",
+            "NHAVE": "Nemá"
+        }
+    },
+    "_gateway": {
+        "labels": {
+            "paypal": "PayPal",
+            "paypalEasy": "PayPal (Snadný)",
+            "stripe": "Stripe",
+            "create": "Vytvořit platební bránu",
+            "edit": "Upravit platební bránu",
+            "paysafecard": "Paysafecard",
+            "coupon": "Kupón/Dárkový kód (ruční potvrzení)",
+            "acceptPending": "Přijímat čekající platby",
+            "doNotAcceptPending": "Nepřijímat čekající platby",
+            "clientCertDescription": "Klientský certifikát a klíč se používají jako metoda ověření pro API paysafecard. Kontaktujte podporu paysafecard pro jejich získání.",
+            "acceptPendingDescription": "Některé způsoby platby (např. SEPA inkaso, SOFORT, ...) trvají několik dní, než jsou dokončeny. Pokud je tato možnost povolena, nákupy zaplacené těmito metodami jsou dokončeny přímo po dokončení procesu pokladny. Existuje malá šance, že platba poté selže.",
+            "webhookURL": "URL webhooku",
+            "imageUrlDescription": "Volitelné. Pokud není nahrán žádný obrázek, použijí se výchozí obrázky.",
+            "paypalLegacyHint": "Tato integrace PayPal se snadno nastavuje a někdy funguje i s neobchodními účty. Nepodporuje však vrácení peněz a platby předplatného. Pokud je to možné, použijte normální integraci PayPal.",
+            "paypalHint": "Tato integrace PayPal vyžaduje obchodní účet PayPal. Pokud jej nemáte, upgradujte svůj účet PayPal nebo použijte integraci PayPal (Snadný)."
+        },
+        "messages": {
+            "deleteWarning": "Pozor! Smazání platební brány způsobí smazání všech nákupů a plateb, kde byla brána použita! Tuto akci nelze vrátit zpět. Možná ji raději zakázat?",
+            "attributeChangeExplanation": "Níže uvedené atributy nebudou upraveny, pokud není zadána žádná hodnota. Tajné atributy jsou pouze pro zápis, což znamená, že váš vstup se již nezobrazí."
+        }
+    },
+    "_taxRule": {
+        "labels": {
+            "edit": "Upravit daňové pravidlo",
+            "create": "Vytvořit daňové pravidlo"
+        },
+        "messages": {
+            "allCountriesDetail": "Nechte prázdné pro cílení na všechny země.",
+            "infoDetail": "Zobrazí se během pokladny a na faktuře."
+        }
+    },
+    "_discount": {
+        "labels": {
+            "create": "Vytvořit slevu",
+            "edit": "Upravit slevu",
+            "allPackets": "Použitelné pro všechny balíčky",
+            "delete": "Smazat slevu",
+            "maxUsagesPerUser": "Maximální počet použití na uživatele",
+            "codeDescription": "Kód, který musí uživatel zadat během pokladny. Nechte prázdné pro uplatnění slevy pro všechny."
+        }
+    },
+    "_userLogEntry": {
+        "addLogEntry": "Přidat záznam do logu"
+    },
+    "_notification": {
+        "noNotification": "Žádná oznámení",
+        "viewAll": "zobrazit vše",
+        "notifications": "Oznámení",
+        "newNotifications": "Nová oznámení",
+        "timeAgo": "před {time}",
+        "markAllAsRead": "Označit vše jako přečtené",
+        "hideReadNotifications": "Skrýt přečtená oznámení",
+        "isLink": "Odkaz",
+        "markRead": "označit jako přečtené",
+        "markUnRead": "označit jako nepřečtené ",
+        "browserNotifications": "Oznámení prohlížeče",
+        "type": {
+            "general": "Obecné",
+            "ban": "Ban",
+            "news": "Novinky",
+            "ticket": "Ticket",
+            "shop": "Obchod",
+            "warning": "Varování"
+        },
+        "news_new": "Novinky: {newsSubject}.",
+        "ticket_new": "{username} vytvořil ticket: {title}",
+        "ticket_update": "Nový příspěvek v ticketu: {title}",
+        "ban_new": "Byli jste zabanováni. Důvod: {reason}",
+        "packet_applied": "Balíček {packet_title} byl aktivován!",
+        "applied_packet_disabled": "Váš balíček {packet_title} byl deaktivován.",
+        "applied_packet_upgraded": "Váš balíček {old_packet_title} byl vylepšen na {new_packet_title}.",
+        "purchase_finished_other": "{username} dokončil nákup {amount} přes {gateway_name}.",
+        "purchase_finished": "Váš nákup {amount} byl dokončen!",
+        "purchase_cancelled": "Váš nákup {amount} byl zrušen!",
+        "warning_new": "Byli jste varováni. Důvod: {reason}",
+        "coupon_purchase_new": "{username} odeslal kódy {gateway_name} ({amount_total} {currency_symbol}), které je třeba schválit."
+    },
+    "_pageTitle": {
+        "dashboard": "Nástěnka",
+        "settings": "Nastavení",
+        "bans": "Bany",
+        "search": "Hledání uživatelů",
+        "notifications": "Oznámení",
+        "about": "O aplikaci",
+        "shop": "Obchod",
+        "news": "Novinky",
+        "shopPacket": "Obchod - Balíček",
+        "shopCategory": "Obchod - Kategorie",
+        "shopCart": "Košík",
+        "shopAdministration": "Obchod - Administrace",
+        "log": "Logy",
+        "warnings": "Varování",
+        "legal": "Právní informace",
+        "ticket": "Ticket",
+        "team": "Tým",
+        "notificationLink": "Oznámení",
+        "serverDashboard": "Nástěnka serveru",
+        "faq": "FAQ",
+        "forum": "Fórum"
+    },
+    "_warning": {
+        "title": "Varování",
+        "ttl": "Doba platnosti varování (dny)",
+        "ttlPlaceholder": "Délka (ve dnech)",
+        "ttlDescription": "Doba, než je varování označeno jako vypršelé",
+        "countTillBan": "Počet varování do automatického banu",
+        "countTillBanDesc": "0 pro ŽÁDNÉ automatické bany.",
+        "settingFormDesc": "Uživatelé jsou automaticky zabanováni, když dosáhnou zadaného počtu AKTIVNÍCH varování.",
+        "add": "Přidat varování",
+        "banLength": "Délka automatického banu (minuty)",
+        "reason": "Důvod",
+        "showUserWarnings": "Zobrazení varování uživatele s ID: {id}",
+        "labels": {
+            "details": "Podrobnosti varování"
+        }
+    },
+    "_server": {
+        "labels": {
+            "rconPassword": "Heslo RCON",
+            "create": "Vytvořit server",
+            "edit": "Upravit server",
+            "numberOfReservedSlots": "Počet rezervovaných slotů",
+            "numberOfReservedSlotsDesc": "Počet slotů hráčů, které mají být rezervovány pro uživatele v privilegovaných skupinách.",
+            "keepReservedSlotsFree": "Udržovat rezervované sloty volné",
+            "keepReservedSlotsFreeDesc": "Pokud je povoleno, rezervované sloty jsou vždy udržovány volné, aby se privilegovaní uživatelé mohli připojit k serveru, i když je plný. V takovém případě je vyhozen nejnovější neprivilegovaný uživatel.",
+            "hideReservedSlots": "Skrýt rezervované sloty",
+            "hideReservedSlotsDesc": "Doporučeno spolu s předchozí možností. Pokud je povoleno, rezervované sloty se nezobrazují v seznamu serverů.",
+            "discordEnterIdAsAddress": "Zadejte ID svého guildu jako adresu serveru.",
+            "addBot": "Přidejte bota do svého guildu.",
+            "discordApplicationIdNeeded": "Vytvořte aplikaci Discord.",
+            "guildIdDocs": "Najít ID guildu",
+            "setup": "Nastavit server",
+            "details": "Podrobnosti serveru",
+            "queryPortDescription": "Query port vašeho serveru TS3. Standardní port je 10022.",
+            "sshQueryPort": "SSH query port",
+            "offline": "Offline",
+            "syncBans": "Synchronizovat bany",
+            "syncBansDescription": "Povolte synchronizaci banů pro server. To vyžaduje správné nastavení skupin a jejich namapování na skupiny ve hře.",
+            "hidden": "Skryté",
+            "additionalProperties": "Další vlastnosti"
+        },
+        "type": {
+            "DISCORD": "Discord",
+            "GMOD": "Garry's Mod",
+            "MINECRAFT": "Minecraft",
+            "FIVEM": "FiveM",
+            "ASA": "ARK: Survival Ascended",
+            "RUST": "Rust",
+            "SEVEN_DAYS": "7 Days to Die",
+            "TEAMSPEAK3": "Teamspeak 3"
+        },
+        "instructions": {
+            "COMMON": {
+                "noSetup": "Tento server nevyžaduje plugin ve hře. Stačí postupovat podle pokynů v dokumentaci.",
+                "runCommands": "Vygenerujte požadované příkazy kliknutím na tlačítko a proveďte je v konzoli svého serveru.",
+                "wait": "Počkejte až minutu, než se VyHub inicializuje. V konzoli serveru se objeví zpráva, pokud bylo připojení úspěšné.",
+                "prerequisites": "Ujistěte se, že je nainstalován {framework}."
+            },
+            "GMOD": {
+                "download": "Stáhněte doplněk vyhub-gmod, rozbalte jej a vložte do složky addons svého serveru. Poté server restartujte.",
+                "serverConsoleHint": "Důležité: Konzole serveru NENÍ konzole ve hře (při stisknutí F10)."
+            },
+            "MINECRAFT": {
+                "download": "Stáhněte plugin .jar vyhub-minecraft a vložte jej do složky plugins svého serveru. Poté server restartujte."
+            },
+            "ASA": {
+                "download": "Stáhněte plugin vyhub-asa a vložte jej do složky plugins svého serveru. Poté server restartujte."
+            },
+            "DISCORD": {
+                "createApp": "Vytvořte aplikaci Discord a povolte autorizaci Discord.",
+                "readInstructions": "Přečtěte si a postupujte podle dalších pokynů v dokumentaci.",
+                "addBot": "Přidejte bota na svůj server Discord. Klikněte na obnovit, pokud tlačítko nefunguje.",
+                "restartBot": "[Volitelné] Máte problémy, jako že se bot nespustil? Zkontrolujte prosím logy pro užitečné chybové zprávy. Bota můžete ručně restartovat zde.",
+                "restart": "Restartovat"
+            },
+            "TEAMSPEAK3": {
+                "headline": "Bot TS3 by měl již být připojen k vašemu serveru Teamspeak.",
+                "botNotConnected": "Bot není připojen? Nejprve povolte zobrazení query botů. Pokaždé, když změníte nastavení serveru, se bot pokusí znovu připojit. Chybové zprávy můžete najít v logu."
+            },
+            "FIVEM": {
+                "download": "Stáhněte plugin vyhub-fivem a přidejte jej na svůj server.",
+                "server_cfg": "Přidejte do souboru server.cfg následující řádky:"
+            },
+            "RUST": {
+                "download": "Stáhněte plugin vyhub-umod (Rust a 7 Days To Die) a přidejte jej na svůj server.",
+                "imageLibrary": "Stáhněte plugin Image-Library, abyste mohli používat příkaz /dashboard."
+            }
+        },
+        "deleteServerbundleConfirmationText": "Smazáním serverbundle se smažou také všechny závislé objekty (odměny, servery, bany, varování, ...). Tuto akci nelze vrátit zpět."
+    },
+    "_server_exception": {
+        "begin_smaller_end": "Datum začátku musí být po datu konce"
+    },
+    "_api": {
+        "labels": {
+            "createKey": "Vytvořit klíč",
+            "createdKey": "Vytvořený API klíč",
+            "limitToServerbundle": "Omezit na serverbundle"
+        },
+        "messages": {
+            "keyCreated": "Vytvořen nový klíč:"
+        }
+    },
+    "_personalSettings": {
+        "emailNotifications": "E-mailová oznámení",
+        "enableEmailNotifications": "Povolit e-mailová oznámení",
+        "noEmailSpecified": "Zatím nebyl zadán žádný e-mail"
+    },
+    "_team": {
+        "title": "Tým",
+        "editTeam": "Upravit tým"
+    },
+    "_import": {
+        "title": "Import",
+        "messages": {
+            "description": "V této sekci můžete importovat data z jiných systémů."
+        },
+        "gextension": {
+            "labels": {
+                "basicData": "Základní data",
+                "url": "URL GExtension",
+                "furtherData": "Další data",
+                "groupServerbundleUser": "Skupiny, Serverbundle, Uživatelé",
+                "gexPacket": "Balíček GExtension",
+                "urlDescription": "URL na váš web GExtension bez index.php. Příklad: https://mojekomunita.com/gextension/",
+                "apiKeyDescription": "Zkopírujte svůj API klíč z nastavení GExtension.",
+                "packetTranslations": "Překlady balíčků",
+                "excludedRewards": "Vyloučené odměny"
+            },
+            "messages": {
+                "import1Description": "VyHub je nyní připraven importovat první objekty: Skupiny, Serverbundle a Uživatele. Ujistěte se, že spustíte import v tomto pořadí.",
+                "import2Description": "Nyní můžete importovat další objekty níže. Na pořadí nezáleží.",
+                "packetsDataDescription": "Vyberte, který balíček VyHub má být dán vlastníkům balíčků GExtension. Je také možné vyloučit některé odměny. Pokud nelze vybrat žádné balíčky GExtension, ujistěte se, že vaše URL a API klíč jsou správné. Poté spusťte import balíčků.",
+                "basicDataDescription": "Vložte URL na váš web GExtension (bez index.php). Ujistěte se, že používáte GExtension verzi 2.7.8 nebo novější."
+            }
+        },
+        "database": {
+            "labels": {
+                "exportTitle": "VyHub Export",
+                "importTitle": "VyHub Import",
+                "dumpFile": "Záložní archiv (.zip)",
+                "importConfirmTitle": "Potvrdit VyHub Import",
+                "cryptSecretChangedTitle": "Šifrovací tajemství změněno",
+                "newCryptSecret": "Nová hodnota VYHUB_CRYPT_SECRET",
+                "cryptSecretAcknowledge": "Uložil jsem nové šifrovací tajemství"
+            },
+            "messages": {
+                "dangerDescription": "VyHub import nahradí všechna existující data v nakonfigurovaném schématu. Tato akce je destruktivní.",
+                "exportDescription": "Stáhněte kompletní záložní archiv (manifest.json + dump.sql).",
+                "importConfirm": "Import tohoto archivu nahradí všechna aktuální data VyHub. Pokračovat?",
+                "versionNote": "Importy jsou podporovány pouze v rámci stejné verze VyHub. Importy mezi dvěma cloudovými instancemi nejsou podporovány.",
+                "cryptSecretChanged": "Šifrovací tajemství se po tomto importu změnilo. Musíte aktualizovat proměnnou prostředí VYHUB_CRYPT_SECRET na hodnotu zobrazenou níže a restartovat VyHub, jinak budou šifrovaná data nedostupná."
+            }
+        }
+    },
+    "_authorization": {
+        "title": "Autorizace",
+        "discordOauthClientId": "Client ID",
+        "discordOauthClientSecret": "Client Secret",
+        "discordBotToken": "Token bota",
+        "redirectUrl": "URL přesměrování",
+        "steamApiKey": "Steam API klíč",
+        "steamApiKeyDescription": "Důrazně doporučujeme zde nastavit svůj Steam API klíč. Steam API klíč se používá k načítání uživatelských dat ze Steamu. Jeden můžete získat zde"
+    },
+    "_serverDashboard": {
+        "noUsersFound": "Nenalezeni žádní uživatelé.",
+        "selectAUser": "Vyberte uživatele pro zobrazení podrobností."
+    },
+    "_creditHistory": {
+        "addTransaction": "Přidat transakci"
+    },
+    "_faq": {
+        "add": "Přidat otázku",
+        "addQuestionDialog": "Přidat otázku",
+        "editQuestionDialog": "Upravit otázku",
+        "html": "V tomto poli je povolen HTML."
+    },
+    "_forum": {
+        "welcomeToForum": "Vítejte na fóru",
+        "forum": "Fórum",
+        "manageTopicCategories": "Spravovat kategorie témat",
+        "addThread": "Přidat vlákno",
+        "addCategory": "Přidat kategorii",
+        "addTopic": "Přidat téma",
+        "editTopicCategory": "Upravit kategorii tématu",
+        "topicAdminUser": "Administrátoři témat",
+        "deleteCategory": "Smazat kategorii",
+        "deleteTopic": "Smazat téma",
+        "locked": "Uzamčeno",
+        "rename": "Přejmenovat",
+        "admin": "Administrátor fóra",
+        "topicAdmins": "Administrátoři témat: ",
+        "hideClosed": "Skrýt uzavřená vlákna",
+        "pinned": "Připnuto",
+        "numberOfThreads": "Počet vláken",
+        "numberOfPosts": "Počet příspěvků",
+        "pin": "Připnout",
+        "posts": "Příspěvky",
+        "reactions": "Reakce",
+        "addTopicCategory": "Přidat kategorii tématu",
+        "editTopic": "Upravit téma",
+        "latestPosts": "Nejnovější příspěvky",
+        "latestThreads": "Nejnovější vlákna",
+        "threads": "Vlákna",
+        "by": "od",
+        "editPost": "Upravit příspěvek",
+        "allowEditPost": "Povolit úpravu příspěvků",
+        "allowEditPostDescription": "Umožnit uživatelům upravovat vlastní příspěvky.",
+        "edited": "Upraveno",
+        "tickets": "Tickety",
+        "creator": "Tvůrce",
+        "content": "Obsah",
+        "created": "Vytvořeno",
+        "last_post": "Poslední příspěvek",
+        "addTicket": "Vytvořit ticket",
+        "addPost": "Přidat příspěvek",
+        "readMore": "Číst více",
+        "open": "Otevřít",
+        "opened": "Otevřeno",
+        "closed": "Uzavřeno",
+        "close": "Zavřít",
+        "banProtest": "Odvolání proti banu",
+        "showClosed": "Zobrazit uzavřené",
+        "showBan": "Zobrazit ban",
+        "prohibitCreateThreads": "Zabránit vytváření vláken",
+        "prohibitCreateThreadsDescription": "Zabraňte uživatelům vytvářet nová vlákna. To nemá vliv na uživatele s oprávněním 'Spravovat fórum' nebo na administrátory témat.",
+        "labelTitle": "Název štítku",
+        "editThread": "Upravit vlákno",
+        "lastActivity": "Poslední aktivita",
+        "lockWithAnswer": "Uzamknout vlákno s odpovědí",
+        "topicAdminGroup": "Skupiny administrátorů témat",
+        "messages": {
+            "tooManyLabels": "Můžete přidat pouze až 4 štítky.",
+            "oldThread": "Toto vlákno je starší než 3 měsíce. Zvažte vytvoření nového vlákna, protože toto by mohlo být zastaralé.",
+            "closedThread": "Chystáte se odpovědět na uzavřené vlákno.",
+            "banned": "Jste zabanováni na fóru a nemůžete vytvářet nová vlákna ani příspěvky."
+        },
+        "moveThread": "Přesunout vlákno",
+        "selectDestinationTopic": "Vyberte cílové téma"
+    },
+    "_advert": {
+        "title": "Reklamy",
+        "add": "Přidat reklamu",
+        "formTitle": "Název",
+        "formContent": "Obsah",
+        "addAdvertDialog": "Přidat reklamu",
+        "editAdvertDialog": "Upravit reklamu"
+    },
+    "_property": {
+        "negatedProperties": "Negovaná oprávnění",
+        "categories": {
+            "general": "Obecné",
+            "bans_and_warnings": "Bany a varování",
+            "other": "Ostatní",
+            "user": "Uživatel",
+            "shop": "Obchod"
+        },
+        "descriptions": {
+            "user_create": "Vytvořit cizího uživatele (pouze API)",
+            "user_edit": "Upravit údaje jiných uživatelů",
+            "user_ignore_target_level": "Umožňuje upravit uživatele bez ohledu na jeho úroveň a umožňuje přidat jakékoli členství ve skupinách.",
+            "user_morph": "Umožnit vystupovat jako jiný uživatel. Podporováno pouze pro některé endpointy.",
+            "user_attribute_definition_edit": "Upravit definice atributů uživatele.",
+            "user_attribute_edit": "Upravit data atributů uživatele.",
+            "user_comment_show": "Zobrazit komentáře uživatelů",
+            "user_comment_edit": "Vytvořit/smazat komentáře uživatelů",
+            "user_comment_delete": "Smazat komentáře jiných uživatelů",
+            "server_edit": "Spravovat servery",
+            "server_show": "Zobrazit nastavení serveru",
+            "bundle_edit": "Spravovat server bundly",
+            "theme_show": "Zobrazit nastavení motivu",
+            "theme_edit": "Upravit nastavení motivu",
+            "ban_show": "Zobrazit bany",
+            "ban_edit": "Spravovat bany",
+            "ban_unlimited": "Vytvářet bany jakékoli délky",
+            "ban_delete": "Mazat bany",
+            "ban_global": "Vytvářet globální bany",
+            "ban_log_show": "Zobrazit log banů",
+            "ban_config_edit": "Upravit konfiguraci banů v nastavení",
+            "ban_comment_show": "Zobrazit komentáře banů",
+            "ban_comment_edit": "Vytvořit/smazat komentáře banů",
+            "ban_comment_delete": "Smazat komentáře banů jiných uživatelů",
+            "warning_show": "Zobrazit varování",
+            "warning_edit": "Spravovat varování",
+            "warning_delete": "Mazat varování",
+            "address_show": "Zobrazit adresy jiných uživatelů.",
+            "warning_config_show": "Zobrazit konfiguraci varování v nastavení",
+            "warning_config_edit": "Upravit konfiguraci varování v nastavení",
+            "group_edit": "Spravovat skupiny",
+            "nav_show": "Zobrazit nastavení navigační lišty",
+            "nav_edit": "Spravovat navigační lištu",
+            "news_edit": "Spravovat novinky",
+            "requirement_show": "Zobrazit sady požadavků",
+            "requirement_edit": "Spravovat sady požadavků",
+            "gateway_show": "Zobrazit platební brány",
+            "gateway_edit": "Spravovat platební brány",
+            "general_show": "Zobrazit obecná nastavení",
+            "general_edit": "Spravovat obecná nastavení",
+            "log_show": "Zobrazit logy",
+            "user_log_show": "Zobrazit log uživatele",
+            "packet_show": "Zobrazit balíčky a odměny",
+            "packet_edit": "Spravovat balíčky obchodu",
+            "purchase_show": "Zobrazit nákupy a statistiky všech uživatelů",
+            "purchase_edit": "Spravovat nákupy",
+            "applied_packet_show": "Zobrazit přiřazené balíčky a odměny.",
+            "applied_packet_edit": "Upravit přiřazené balíčky a odměny.",
+            "shop_edit": "Spravovat nastavení obchodu",
+            "shop_show": "Zobrazit nastavení obchodu",
+            "discount_show": "Zobrazit slevy obchodu",
+            "discount_edit": "Spravovat slevy obchodu",
+            "account_show": "Zobrazit kreditní účty jiných uživatelů",
+            "account_edit": "Upravit transakce kreditních účtů uživatelů",
+            "admin_menu": "Povolit administrátorské menu",
+            "ticket_show": "Zobrazit tickety",
+            "ticket_edit": "Upravit tickety",
+            "apikey_edit": "Spravovat API klíče",
+            "legal_edit": "Upravit právní obsah",
+            "authorization_show": "Zobrazit nastavení autorizace",
+            "authorization_edit": "Upravit nastavení autorizace",
+            "auth_request_confirm": "Potvrdit požadavky na autorizaci (pouze pro herní servery)",
+            "faq_edit": "Upravit FAQ v nastavení",
+            "reserved_slot_use": "Použít rezervované sloty na serveru",
+            "advert_show": "Zobrazit reklamy",
+            "advert_edit": "Spravovat reklamy",
+            "forum_edit": "Spravovat fórum",
+            "forum_post": "Zabránit uživatelům přispívat na fórum",
+            "ticket_create": "Zabránit uživatelům vytvářet tickety a odvolání proti banu",
+            "shop_use": "Zabránit uživatelům používat obchod"
+        }
+    },
+    "_chat": {
+        "loginRequired": "Pro použití chatu je vyžadováno přihlášení",
+        "reconnect": "Znovu připojit"
+    },
+    "_firstSteps": {
+        "firstSteps": "První kroky",
+        "welcome": "Vítejte",
+        "connectGameserver": "Připojte svůj herní server",
+        "login": "Přihlaste se pomocí VyHub Central, abyste se stali administrátorem",
+        "setCommunityName": "Nastavte název své komunity",
+        "setLanguageAndFeatures": "Nastavte jazyk a funkce",
+        "createBundle": "Vytvořte serverbundle",
+        "createServer": "Vytvořte svůj server",
+        "syncGroups": "Synchronizujte skupiny mezi VyHub a vaším serverem",
+        "createGroup": "Vytvořte skupinu s mapováním skupin",
+        "setupShop": "Nastavte svůj obchod",
+        "createCategory": "Vytvořte kategorii balíčků",
+        "createReward": "Vytvořte odměnu",
+        "createPacket": "Vytvořte balíček",
+        "addPmGateway": "Nastavte své způsoby platby"
+    },
+    "_messages": {
+        "addSuccess": "Úspěšně přidáno.",
+        "createSuccess": "Úspěšně vytvořeno.",
+        "deleteSuccess": "Úspěšně smazáno.",
+        "removeSuccess": "Úspěšně odstraněno.",
+        "cancelSuccess": "Úspěšně zrušeno.",
+        "editSuccess": "Úspěšně upraveno.",
+        "updateSuccess": "Úspěšně aktualizováno.",
+        "updateOrderSuccess": "Pořadí úspěšně aktualizováno.",
+        "toggleSuccess": "Úspěšně přepnuto.",
+        "copyClipboard": "Zkopírováno do schránky.",
+        "linkCopied": "Odkaz zkopírován do schránky."
+    },
+    "_support": {
+        "getHelp": "Potřebujete pomoc?",
+        "supportQuestions": "Máte otázku nebo zpětnou vazbu? Napište nám!",
+        "send": "odeslat",
+        "reply?": "Chcete odpověď?",
+        "discordDescription": "Připojte se k našemu serveru Discord a získejte pomoc od komunity a vývojářů.",
+        "youtubeDescription": "Podívejte se na náš kanál Youtube pro návody a průvodce.",
+        "documentationDescription": "Přečtěte si dokumentaci a najděte odpovědi na běžné otázky.",
+        "messages": {
+            "tooShort": "Vaše zpráva je příliš krátká.",
+            "requestSendSuccess": "Žádost o podporu úspěšně odeslána. Pokud jste požádali o odpověď, měli byste brzy obdržet potvrzovací e-mail."
+        }
+    },
+    "update": "Aktualizovat",
+    "revenue": "Tržby",
+    "sales": "Prodeje",
+    "change": "Změnit",
+    "code": "Kód",
+    "limitedToUser": "Omezeno na uživatele {username}",
+    "none": "Žádný",
+    "unexpectedError": "Neočekávaná chyba",
+    "requirementSet": "Sada požadavků",
+    "automatic": "Automatické",
+    "discounts": "Slevy",
+    "maxUsages": "Maximální počet použití",
+    "environment": "Prostředí",
+    "perDay": "Za den",
+    "perMonth": "Za měsíc",
+    "perYear": "Za rok",
+    "type": "Typ",
+    "categories": "Kategorie",
+    "tax": "Daň",
+    "all": "Vše",
+    "generate": "Generovat",
+    "every": "Každý",
+    "requirements": "Požadavky",
+    "subcategory": "Podkategorie",
+    "servers": "Servery",
+    "paymentGateways": "Platební brány",
+    "paymentMethods": "Způsoby platby",
+    "general": "Obecné",
+    "revoked": "Odvoláno",
+    "purchases": "Nákupy",
+    "overview": "Přehled",
+    "view": "Zobrazit",
+    "viewMore": "Zobrazit více",
+    "language": "Jazyk",
+    "payment": "Platba",
+    "refresh": "Obnovit",
+    "payments": "Platby",
+    "gateway": "Brána",
+    "open": "Otevřít",
+    "log": "Log",
+    "apiKey": "API klíč",
+    "cancelled": "Zrušeno",
+    "finished": "Dokončeno",
+    "search": "Hledat",
+    "amount": "Částka",
+    "invoice": "Faktura",
+    "statistics": "Statistiky",
+    "days": "Dny",
+    "comment": "Komentář",
+    "total": "Celkem",
+    "oneTime": "Jednorázově",
+    "serverbundle": "Serverbundle",
+    "groupname": "Název",
+    "startdate": "Začátek",
+    "enddate": "Konec",
+    "example": "Příklad",
+    "imageURL": "Obrázek",
+    "link": "Odkaz",
+    "groups": "Skupiny",
+    "value": "Hodnota",
+    "description": "Popis",
+    "totals": "Součty",
+    "text": "Text",
+    "staff": "Tým",
+    "country": "Země",
+    "allGroups": "Všechny skupiny",
+    "allProperties": "Všechna oprávnění",
+    "username": "Uživatelské jméno",
+    "navigation": "Navigace",
+    "email": "E-mail",
+    "extraProperties": "Další vlastnosti",
+    "rewards": "Odměny",
+    "packets": "Balíčky",
+    "dark_mode": "Tmavý režim",
+    "length": "Délka",
+    "shop": "Obchod",
+    "relations": "Vztahy",
+    "user": "Uživatel",
+    "creator": "Tvůrce",
+    "select": "Vybrat",
+    "selectAll": "Vybrat vše",
+    "add": "Přidat",
+    "name": "Název",
+    "percentage": "Procento",
+    "info": "Info",
+    "dashboard": "Nástěnka",
+    "message": "Zpráva",
+    "date": "Datum",
+    "clientCert": "Klientský certifikát",
+    "clientKey": "Klientský klíč",
+    "advancedProperties": "Pokročilé vlastnosti",
+    "details": "Podrobnosti",
+    "server": "Server",
+    "endsOn": "Končí",
+    "createdOn": "Vytvořeno",
+    "reason": "Důvod",
+    "status": "Stav",
+    "link_account": "Propojit účet",
+    "id": "ID",
+    "edit": "Upravit",
+    "not_available": "Nedostupné",
+    "cancel": "Zrušit",
+    "create": "Vytvořit",
+    "bundle": "Bundle",
+    "home": "Domů",
+    "actions": "Akce",
+    "title": "Název",
+    "comments": "Komentáře",
+    "subtitle": "Podnadpis",
+    "summary": "Souhrn",
+    "expired": "Vypršelo",
+    "active": "Aktivní",
+    "inactive": "Neaktivní",
+    "areYouSure": "Jste si jisti?",
+    "delete": "Smazat",
+    "color": "Barva",
+    "properties": "Vlastnosti",
+    "icon": "Ikona",
+    "category": "Kategorie",
+    "packet": "Balíček",
+    "price": "Cena",
+    "address": "Adresa",
+    "command": "Příkaz",
+    "script": "Skript",
+    "port": "Port",
+    "flags": "Příznaky",
+    "disabled": "Zakázáno",
+    "start": "Spustit",
+    "download": "Stáhnout",
+    "report": "Report",
+    "or": "nebo",
+    "ipAddress": "IP adresa",
+    "continue": "Pokračovat",
+    "apiKeys": "API klíče",
+    "api": "API",
+    "unexpectedErrorOccurred": "Došlo k neočekávané chybě.",
+    "theme": "Motiv",
+    "url": "URL",
+    "noDataAvailable": "Nejsou k dispozici žádná data.",
+    "enabled": "Povoleno",
+    "htmlNoMatch": "Toto není platná URL",
+    "begin": "Začátek",
+    "end": "Konec",
+    "group": "Skupina",
+    "reset": "Obnovit",
+    "communityName": "Název komunity",
+    "submit": "Odeslat",
+    "serverStatus": "Stav serveru",
+    "connect": "Připojit",
+    "save": "Uložit",
+    "warnings": "Varování",
+    "bans": "Bany",
+    "labels": "Štítky",
+    "filter": "Filtr",
+    "enable": "Povolit",
+    "disable": "Zakázat",
+    "error": "Chyba",
+    "logs": "Logy",
+    "maxInputExceeded": "Překročena maximální délka vstupu {length}",
+    "discord": "Discord",
+    "key": "Klíč",
+    "legal": "Právní informace",
+    "personalSettings": "Osobní nastavení",
+    "author": "Autor",
+    "team": "Tým",
+    "help": "Nápověda",
+    "mappings": "Mapování",
+    "ticket": "Ticket",
+    "redirect": "Přesměrování",
+    "here": "zde",
+    "discount": "Sleva",
+    "confirm": "Potvrdit",
+    "faq": "FAQ",
+    "back": "Zpět",
+    "adverts": "Reklamy",
+    "map": "Mapa",
+    "setup": "Nastavení",
+    "instructions": "Pokyny",
+    "writeToConfirm": "Pro potvrzení napište:",
+    "add-on": "Doplněk",
+    "password": "Heslo",
+    "chat": "Chat",
+    "admin": "Admin",
+    "global": "Globální",
+    "rawHtml": "Surové HTML",
+    "required": "Povinné",
+    "content": "Obsah",
+    "time": "Čas",
+    "show": "Zobrazit",
+    "test": "Test",
+    "documentation": "Dokumentace",
+    "unknown": "Neznámé",
+    "wrapper": "Wrapper",
+    "method": "Metoda",
+    "everyMonth": "Každý měsíc",
+    "everyDay": "Každý den",
+    "everyYear": "Každý rok",
+    "followInstructionsInDocs": "Postupujte prosím podle pokynů v dokumentaci.",
+    "advanced": "Pokročilé",
+    "memberships": "Členství",
+    "news": "Novinky",
+    "deletedUser": "Smazaný uživatel"
 }

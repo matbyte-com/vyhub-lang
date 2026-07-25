@@ -4,7 +4,8 @@
             "activeMemberships": "Inscrições",
             "endMembership": "Encerrar inscrição",
             "add": "Adicionar inscrição ao grupo",
-            "edit": "Editar inscrição do grupo"
+            "edit": "Editar inscrição do grupo",
+            "showInactive": "Mostrar inativos"
         }
     },
     "_dashboard": {
@@ -15,10 +16,15 @@
             "groupMemberships": "Incrição ao grupo",
             "registered_on": "Registrado em",
             "last_online": "Online pela última vez",
-            "removeAdminTitle": "Remover administrador?"
+            "removeAdminTitle": "Remover administrador?",
+            "unlinkAccount": "Desvincular conta",
+            "unlinkAccountWarning": "Excluir um vínculo de usuário irá desvincular as contas. Status de administrador, banimentos, advertências, compras, pacotes aplicados e créditos são afetados por isso e podem não ser tratados como você espera. Verifique-os depois para garantir que está tudo certo.",
+            "visibleToUser": "Visível ao usuário",
+            "noLinkedAccounts": "Nenhuma conta vinculada"
         },
         "messages": {
-            "removeAdminConfirmation": "Não se esqueça de remover o antigo administrador da instância na sua central de visão geral da instância."
+            "removeAdminConfirmation": "Não se esqueça de remover o antigo administrador da instância na sua central de visão geral da instância.",
+            "deleteUserText": "Excluir um usuário também exclui todos os banimentos, advertências, compras, estatísticas, etc. relacionados. Esta ação não pode ser desfeita."
         }
     },
     "_header": {
@@ -39,7 +45,8 @@
         "price": "Preço",
         "subtotalNoVat": "Subtotal (sem IVA)",
         "vat": "IVA",
-        "total": "Total"
+        "total": "Total",
+        "refund": "Reembolso"
     },
     "_ban": {
         "labels": {
@@ -55,7 +62,10 @@
             "infiniteBandDescription": "Deixe em branco para banimento permanente",
             "bundleDescription": "Deixe em branco para uma proibição global",
             "banProtests": "Contestações"
-        }
+        },
+        "externalProtestUrl": "URL externa de contestação de banimento",
+        "externalProtestUrlDescription": "Deixe em branco para o sistema de tickets do VyHub ou insira um link para redirecionar para um site externo.",
+        "vyhubTicketSystem": "Sistema de tickets VyHub"
     },
     "_serverbundle": {
         "labels": {
@@ -79,7 +89,14 @@
         "logoDescription": "Recarregar página se o logotipo não aparece corretamente",
         "logoWidth": "Amplitude do logotipo",
         "faviconURL": "Ícone do site URL",
-        "secondaryColor": "Cor Secundária"
+        "secondaryColor": "Cor Secundária",
+        "lightHeaderColor": "Cor clara do cabeçalho",
+        "headerContainer": "Contêiner do cabeçalho",
+        "footerColor": "Cor do rodapé",
+        "enable_landingpage": "Ativar página inicial",
+        "customCss": "CSS personalizado",
+        "featuredServers": "Servidores em destaque somente para a loja",
+        "shopOnlyServers": "Estes servidores são exibidos no cabeçalho somente da loja. Especifique até dois servidores."
     },
     "_settings": {
         "multigroupDescription": "Usuários podem ser membros de múltiplos grupos por vez em esse pacote.",
@@ -91,7 +108,10 @@
             "addGroup": "Adicionar Grupo",
             "editGroup": "Editar Grupo",
             "editBundle": "Editar Pacote de Servidor",
-            "addServer": "Adicionar Servidor"
+            "addServer": "Adicionar Servidor",
+            "updateOrder": "Atualizar ordem",
+            "resetOrder": "Redefinir ordem",
+            "previewImageURL": "URL da imagem de pré-visualização"
         },
         "permissionLevel": "Nível de Permissão",
         "gameserver": "Servidor do Jogo",
@@ -116,14 +136,27 @@
         "language": "Idioma",
         "languageNewDescriptionText": "Nos ajude a traduzir para o seu idioma",
         "addServerTooltip": "Adicionar o Pacote de Servidor primeiro",
-        "showForum": "Ativar Fórum"
+        "showForum": "Ativar Fórum",
+        "shopOnly": "Ativar modo somente loja (simples)",
+        "showChat": "Ativar chat",
+        "showFirstSteps": "Ativar tutorial (primeiros passos)",
+        "showFirstStepsDescription": "Tutorial de primeiros passos no canto inferior direito. (Somente administradores)",
+        "googleAnalyticsTagDescription": "[Opcional] para o uso do seu Google Analytics",
+        "requirementSetTest": "Testar conjunto de requisitos contra usuário",
+        "advancedSettings": "Configurações avançadas"
     },
     "_group": {
         "mappings": {
             "name": "Nome do grupo/classificação/papel no servidor"
         },
         "isTeam": "É Equipe",
-        "isTeamDescription": "Membros do grupo serão mostrados na página de equipe"
+        "isTeamDescription": "Membros do grupo serão mostrados na página de equipe",
+        "labels": {
+            "protected": "Protegido",
+            "protectedDescription": "Alterações em associações neste grupo não são permitidas a partir de aplicativos de terceiros, como servidores de jogos. Além disso, membros deste grupo podem estar protegidos contra banimentos."
+        },
+        "maxBanLengthInDays": "Duração máxima do banimento (em dias)",
+        "maxBanLengthInDaysDescription": "Deixe em branco para banimentos infinitos"
     },
     "_shop": {
         "labels": {
@@ -160,7 +193,39 @@
             "checkoutCheckboxes": "Finalizar caixas de seleção",
             "taxAllowUnknown": "Permitir compras de países sem regras fiscais.",
             "taxAllowUnknownDescription": "Se desativado, compras originárias de países que não possuem uma regra de impostos explícita configurada, não serão possíveis.",
-            "changeTargetUser": "Compre para um amigo"
+            "changeTargetUser": "Compre para um amigo",
+            "showPacketsAsList": "Mostrar pacotes como lista",
+            "invoiceAccentColor": "Cor de destaque da fatura",
+            "invoiceAccentColorDescription": "Cor de destaque usada em títulos, cabeçalhos de tabela e totais na fatura.",
+            "discountCode": "Código de desconto",
+            "addToCart13CharsMax": "Adicionar",
+            "firstCycleOnly": "Apenas o primeiro ciclo",
+            "firstCycleOnlyHint": "Aplique o desconto apenas ao primeiro período de cobrança de um pacote recorrente; os períodos seguintes são cobrados pelo preço integral.",
+            "firstCycleDiscountHint": "Apenas para o primeiro período de cobrança, depois {price}",
+            "firstCycle": "Primeiro pagamento",
+            "afterwardsRecurring": "Depois {price}",
+            "payNow": "Pagar agora",
+            "yourAccounts": "Suas contas",
+            "enableTopDonators": "Ativar principais doadores",
+            "topDonatorsLimit": "Número de doadores a exibir",
+            "topDonatorsDaysLimit": "Dias a exibir",
+            "enableLastDonators": "Ativar últimas doações",
+            "widgetDescription": "Componente widget exibido em todo o site (Notícias, Loja, Início)",
+            "topDonatorDisplayTitle": "Título de exibição dos principais doadores",
+            "donationGoalDisplayTitle": "Título de exibição da meta de doação",
+            "lastDonatorsDisplayTitle": "Título de exibição das últimas doações",
+            "recipient": "Destinatário",
+            "recommended": "Recomendado para você",
+            "creditsDisplayTitle": "Título de exibição dos créditos",
+            "creditsDisplayTitleDescription": "Renomeie os créditos de pagamento para o que quiser (florins, diamantes, moedas...)",
+            "pleaseWait": "Por favor, aguarde",
+            "sharePacket": "Confira o {title} da {store}! Ótimas vantagens por um ótimo preço.",
+            "redirectDescription": "Você será redirecionado para o provedor de pagamento.",
+            "productDescription": "Descrição do produto",
+            "showWidgetsOnShopPage": "Mostrar widgets de estatísticas na página da loja",
+            "showWidgetsOnShopPageDesc": "Se desativado, os widgets ativados (principais doadores, ...) não são mostrados na página da loja.",
+            "purchasesWithoutAddressLimit": "Endereço do cliente obrigatório para compras acima de",
+            "purchasesWithoutAddressLimitDescription": "Para compras com valor total menor que o especificado aqui, o cliente não precisa fornecer um endereço. Aplica-se apenas a compras que usam a moeda padrão."
         },
         "messages": {
             "notEnoughCredits": "Você não tem créditos suficientes para pagar essa compra. Por favor escolha um método de pagamento diferente ou compre mais créditos.",
@@ -185,7 +250,8 @@
             "selectBillingAddressFirst": "Por favor, selecione um endereço de cobrança primeiro.",
             "selectEmailFirst": "Por favor, primeiro atualize o endereço de e-mail",
             "cancelPurchaseConfirmation": "Os pagamentos iniciados foram cancelados. Todos os cupons utilizados foram perdidos. O cancelamento da compra não pode ser desfeito.",
-            "targetUserChanged": "O usuário alvo foi alterado"
+            "targetUserChanged": "O usuário alvo foi alterado",
+            "priceMustBeHigherThanMin": "O preço deve ser maior que o preço mínimo."
         },
         "purchaseStatus": {
             "open": "Aberto",
@@ -196,7 +262,8 @@
             "enabled": "Ativo",
             "revoked": "Revogado",
             "disabled": "Expirado"
-        }
+        },
+        "shopTitle": "Bem-vindo à loja"
     },
     "_login": {
         "messages": {
@@ -225,12 +292,17 @@
         "packet_relation_violated": "Esse pacote viola a relação com um outro pacote: {relação_tipo} {titulo_pacote}.",
         "illegal_value": "Valor inválido: {msg}",
         "missing_properties": "Você não tem todas as propriedades necessárias: {propriedades}",
-        "too_many_ban_protests": "Já existem 3 protestos para esta proibição."
+        "too_many_ban_protests": "Já existem 3 protestos para esta proibição.",
+        "title_too_long": "O título é muito longo",
+        "invalid_token": "Sua sessão de login expirou, faça login novamente.",
+        "validation_error": "Erro de validação: {msg}",
+        "address_required": "É necessário um endereço para esta compra."
     },
     "_user": {
         "labels": {
             "newUsers": "Novos Usuários",
-            "authRequestDescription": "Execute o seguinte comendo em um {tipo} servidor para entrar:"
+            "authRequestDescription": "Execute o seguinte comendo em um {tipo} servidor para entrar:",
+            "hideAvatar": "Ocultar/Mostrar avatar para todos os usuários"
         },
         "type": {
             "CENTRAL": {
@@ -252,8 +324,23 @@
             "TEAMSPEAK3": {
                 "name": "Teamspeak 3",
                 "info": "Bate-papo por voz para jogadores."
+            },
+            "FIVEM": {
+                "name": "FiveM",
+                "info": "Acelere, junte-se e domine as ruas de Los Santos."
+            },
+            "ASA": {
+                "name": "ARK: Survival Ascended",
+                "info": "Dome o selvagem, domine os dinossauros."
             }
-        }
+        },
+        "messages": {
+            "linkAccountConfirm": "Tem certeza de que deseja vincular estas duas contas de usuário?",
+            "couldNotLinkUsers": "Não foi possível vincular as contas de usuário.",
+            "linkedAccounts": "Contas de usuário vinculadas com sucesso."
+        },
+        "userLinkDescription": "Vincular um usuário fará uma mágica para combinar suas contas. Cuidado, essa mágica não pode ser desfeita!",
+        "userLoginShopDescription": "Faça login para que possamos identificá-lo no jogo."
     },
     "_legal": {
         "showLegalReminder": "Por favor, insira as informações legais nas configurações!",
@@ -285,7 +372,11 @@
         "editNavLink": "Editar Link de Navegação",
         "navUpdate": "Atualize Pedido de Navegação",
         "deleteDefaultLink": "Não pode excluir o link padrão",
-        "contentSanitizationWarning": "O uso do JavaScript somente é autorizado ser utilizado por Administradores. Caso contrário ele será desinfetado."
+        "contentSanitizationWarning": "O uso do JavaScript somente é autorizado ser utilizado por Administradores. Caso contrário ele será desinfetado.",
+        "messages": {
+            "invalidFileType": "Tipo de arquivo inválido."
+        },
+        "uploadFile": "Opcional: Enviar arquivo"
     },
     "log": "Registro",
     "apiKey": "Chave API",
@@ -322,6 +413,9 @@
             "selectAddress": "Selecione endereço",
             "change": "Alterar Endereço",
             "streetAndNumber": "Rua e Número"
+        },
+        "messages": {
+            "noAddressesYet": "Você ainda não tem endereços."
         }
     },
     "_packet": {
@@ -355,7 +449,11 @@
             "packetRelations": "Relações do Pacote",
             "details": "Detalhes do Pacote",
             "relationDisables": "Desativa o pacote selecionado na compra",
-            "relationRequires": "Requer o pacote selecionado para uma compra"
+            "relationRequires": "Requer o pacote selecionado para uma compra",
+            "titleInImage": "Título exibido sobre a imagem (opcional)",
+            "relationUpgradeWithDiscount": "Faz upgrade do pacote selecionado: seu tempo restante é creditado como desconto no preço.",
+            "recommendable": "Recomendável",
+            "recommendableDescription": "O pacote pode ser recomendado aos usuários nas seções \"Recomendações\"/\"Recomendado para você\"."
         },
         "messages": {
             "sortOnlyWithCategory": "Os pacotes só podem ser classificados se uma categoria for selecionada.",
@@ -386,11 +484,30 @@
                 "credits": "Adicione créditos à conta do comprador",
                 "membership": "Adicionar associação ao grupo",
                 "command": "Execute um comando no(s) servidor(es)",
-                "script": "Execute um script no(s) servidor(es)"
+                "script": "Execute um script no(s) servidor(es)",
+                "http": "Enviar uma requisição HTTP",
+                "teamspeak_channel": "Criar um canal do Teamspeak"
             },
             "create": "Criar Recompensa",
             "once": "Somente executar uma vez (por pacote)",
-            "onEvent": "Executar no evento"
+            "onEvent": "Executar no evento",
+            "serverbundleDescription": "Uma recompensa é executada em todos os servidores do serverbundle selecionado, incluindo servidores adicionados posteriormente. Para recompensas que não são específicas de serverbundle, este campo pode ser deixado vazio. Confira a documentação para mais informações.",
+            "onceDescription": "Se ativado, a recompensa é executada apenas uma vez em TODOS os servidores do serverbundle selecionado, incluindo servidores adicionados posteriormente. Se desativado, a recompensa é executada em todos os servidores do serverbundle selecionado sempre que o evento selecionado acontecer.",
+            "onceFromAllDescription": "Se ativado, a recompensa é executada apenas no primeiro servidor (do serverbundle selecionado) ao qual o usuário se conectar. Deve ser combinado com 'Executar apenas uma vez'.",
+            "syncAppliedRewards": "Sincronizar recompensas",
+            "amountOfAppliedRewardsToPatch": "Quantidade de recompensas aplicadas a corrigir: {amount}",
+            "packetSyncLimitDescription": "As recompensas são adicionadas a todos os pacotes com datas de início no intervalo indicado. Início e fim são opcionais.",
+            "templates": "Modelos",
+            "headers": "Cabeçalhos",
+            "headerKey": "Chave do cabeçalho",
+            "limitToServers": "Limitar a servidores",
+            "limitToServersDescription": "Limite a execução da recompensa aos servidores selecionados. Se nenhum servidor for selecionado, a recompensa é executada em todos os servidores do serverbundle.",
+            "headerValue": "Valor do cabeçalho",
+            "maxRetries": "Número de tentativas",
+            "parentChannelId": "ID do canal pai",
+            "channelGroupId": "ID do grupo do canal",
+            "clientLimit": "Limite de clientes",
+            "deleteOnExpire": "Excluir ao expirar"
         },
         "status": {
             "OPEN": "Abrir",
@@ -435,7 +552,15 @@
             "confirmPurchases": "Confirmar Compras",
             "coupon": "Cupom",
             "confirm": "Confirme",
-            "reward": "Recompensa"
+            "reward": "Recompensa",
+            "revenueByCategory": "Receita por categoria",
+            "activeSubscriptions": "Assinaturas ativas",
+            "averagePurchaseAmount": "Compra média",
+            "range": "Intervalo",
+            "notAffectedByRangeSelector": "Estatística não afetada pelo seletor de intervalo",
+            "allTime": "Todo o período",
+            "thisYear": "Este ano",
+            "thisMonth": "Este mês"
         },
         "messages": {
             "refundInitSuccess": "Reembolso iniciado com sucesso.",
@@ -454,7 +579,8 @@
         "newsOfTheDay": "Atualizações do dia",
         "addNews": "Nova Mensagem",
         "messageSubject": "Assunto",
-        "editNews": "Editar Mensagem"
+        "editNews": "Editar Mensagem",
+        "invertTitleColor": "Inverter cor do título"
     },
     "_gateway": {
         "labels": {
@@ -468,10 +594,15 @@
             "coupon": "Cupom (confirmação manual)",
             "webhookURL": "URL do Webhook",
             "acceptPending": "Aceitar pagamentos pendentes",
-            "doNotAcceptPending": "Não aceite pagamentos pendentes"
+            "doNotAcceptPending": "Não aceite pagamentos pendentes",
+            "paypalEasy": "PayPal (Fácil)",
+            "imageUrlDescription": "Opcional. Imagens padrão são usadas quando nenhuma imagem é enviada.",
+            "paypalLegacyHint": "Esta integração do PayPal é fácil de configurar e às vezes também funciona com contas não comerciais. No entanto, ela não oferece suporte a reembolsos e pagamentos de assinatura. Se possível, use a integração normal do PayPal.",
+            "paypalHint": "Esta integração do PayPal requer uma conta comercial do PayPal. Se você não tiver uma, atualize sua conta do PayPal ou use a integração PayPal (Fácil)."
         },
         "messages": {
-            "deleteWarning": "Cuidado! A exclusão de um gateway de pagamento causa a exclusão de todas as compras e pagamentos em que o gateway foi usado! Esta ação não pode ser desfeita. Talvez desativá-lo em vez disso?"
+            "deleteWarning": "Cuidado! A exclusão de um gateway de pagamento causa a exclusão de todas as compras e pagamentos em que o gateway foi usado! Esta ação não pode ser desfeita. Talvez desativá-lo em vez disso?",
+            "attributeChangeExplanation": "Os atributos abaixo não serão editados se nenhum valor for fornecido. Atributos secretos são somente de escrita, ou seja, sua entrada não será mostrada novamente."
         }
     },
     "_notification": {
@@ -520,7 +651,10 @@
         "add": "Adicionar Aviso",
         "banLength": "Duração do banimento automático (minutos)",
         "reason": "Razão",
-        "showUserWarnings": "Mostrando avisos de usuário com ID: {id}"
+        "showUserWarnings": "Mostrando avisos de usuário com ID: {id}",
+        "labels": {
+            "details": "Detalhes da advertência"
+        }
     },
     "_import": {
         "gextension": {
@@ -544,6 +678,25 @@
         },
         "messages": {
             "description": "Nesta seção, você pode importar dados de outros sistemas."
+        },
+        "title": "Importar",
+        "database": {
+            "labels": {
+                "exportTitle": "Exportação VyHub",
+                "importTitle": "Importação VyHub",
+                "dumpFile": "Arquivo de backup (.zip)",
+                "importConfirmTitle": "Confirmar importação VyHub",
+                "cryptSecretChangedTitle": "Segredo de criptografia alterado",
+                "newCryptSecret": "Novo valor de VYHUB_CRYPT_SECRET",
+                "cryptSecretAcknowledge": "Salvei o novo segredo de criptografia"
+            },
+            "messages": {
+                "dangerDescription": "A importação VyHub substitui todos os dados existentes no esquema configurado. Esta ação é destrutiva.",
+                "exportDescription": "Baixe um arquivo de backup completo (manifest.json + dump.sql).",
+                "importConfirm": "Importar este arquivo substituirá todos os dados atuais do VyHub. Continuar?",
+                "versionNote": "As importações são suportadas apenas dentro da mesma versão do VyHub. Importações entre duas instâncias na nuvem não são suportadas.",
+                "cryptSecretChanged": "O segredo de criptografia mudou após esta importação. Você deve atualizar a variável de ambiente VYHUB_CRYPT_SECRET para o valor mostrado abaixo e reiniciar o VyHub, caso contrário, os dados criptografados ficarão inacessíveis."
+            }
         }
     },
     "_forum": {
@@ -587,7 +740,27 @@
         "closed": "Fechado",
         "close": "Fechar",
         "banProtest": "Proibir protesto",
-        "showBan": "Mostrar proibição"
+        "showBan": "Mostrar proibição",
+        "welcomeToForum": "Bem-vindo ao fórum",
+        "reactions": "Reações",
+        "allowEditPost": "Permitir edição de posts",
+        "allowEditPostDescription": "Permite que usuários editem seus próprios posts.",
+        "opened": "Aberto",
+        "prohibitCreateThreads": "Impedir criação de tópicos",
+        "prohibitCreateThreadsDescription": "Impede que usuários criem novos tópicos. Isso não afeta usuários com a permissão 'Gerenciar fórum' ou administradores de tópico.",
+        "labelTitle": "Título da etiqueta",
+        "editThread": "Editar tópico",
+        "lastActivity": "Última atividade",
+        "lockWithAnswer": "Bloquear tópico com resposta",
+        "topicAdminGroup": "Grupos de administradores de tópico",
+        "messages": {
+            "tooManyLabels": "Você só pode adicionar até 4 etiquetas.",
+            "oldThread": "Este tópico tem mais de 3 meses. Considere criar um novo tópico, pois este pode estar desatualizado.",
+            "closedThread": "Você está prestes a responder a um tópico fechado.",
+            "banned": "Você está banido do fórum e não pode criar novos tópicos ou posts."
+        },
+        "moveThread": "Mover tópico",
+        "selectDestinationTopic": "Selecionar tópico de destino"
     },
     "_faq": {
         "addQuestionDialog": "Adicionar pergunta",
@@ -652,7 +825,21 @@
             "faq_edit": "Editar FAQ nas configurações",
             "reserved_slot_use": "Use slots reservados em um servidor",
             "advert_show": "Ver anúncios",
-            "advert_edit": "Gerenciar anúncios"
+            "advert_edit": "Gerenciar anúncios",
+            "user_comment_show": "Ver comentários de usuário",
+            "user_comment_edit": "Criar/excluir comentários de usuário",
+            "user_comment_delete": "Excluir comentários de usuário de outros usuários",
+            "ban_unlimited": "Criar banimentos de qualquer duração",
+            "ban_log_show": "Ver log de banimentos",
+            "ban_config_edit": "Editar configuração de banimentos nas configurações",
+            "ban_comment_show": "Ver comentários de banimento",
+            "ban_comment_edit": "Criar/excluir comentários de banimento",
+            "ban_comment_delete": "Excluir comentários de banimento de outros usuários",
+            "user_log_show": "Ver log de usuário",
+            "forum_edit": "Gerenciar fórum",
+            "forum_post": "Impedir que usuários postem no fórum",
+            "ticket_create": "Impedir que usuários criem tickets e contestações de banimento",
+            "shop_use": "Impedir que usuários usem a loja"
         },
         "categories": {
             "general": "Geral",
@@ -660,7 +847,8 @@
             "other": "Outro",
             "user": "Usuário",
             "shop": "Loja"
-        }
+        },
+        "negatedProperties": "Propriedades negadas"
     },
     "color": "Cor",
     "_advert": {
@@ -738,6 +926,15 @@
             "HAVE": "Ter",
             "LEQ": "Menos que Igual",
             "GEQ": "Melhor que Igual"
+        },
+        "labels": {
+            "forOrConnection": "Para conexão OU",
+            "forAndConnection": "Para conexão E"
+        },
+        "examples": {
+            "abstract": "O conjunto de requisitos é cumprido se o usuário cumprir o requisito com ID 0 e o requisito ID 1 ou ID 2.",
+            "basic": "O conjunto de requisitos é cumprido se o usuário cumprir o requisito 0",
+            "advanced": "O conjunto de requisitos é cumprido se o usuário cumprir o requisito 0 ou o requisito 1 ou o requisito 2"
         }
     },
     "_taxRule": {
@@ -756,7 +953,8 @@
             "delete": "Deletar Desconto",
             "maxUsagesPerUser": "Uso máximo por usuário",
             "create": "Criar Desconto",
-            "edit": "Editar Desconto"
+            "edit": "Editar Desconto",
+            "codeDescription": "O código que o usuário deve inserir durante o checkout. Deixe em branco para aplicar o desconto a todos."
         }
     },
     "_userLogEntry": {
@@ -781,7 +979,9 @@
         "shop": "Loja",
         "shopPacket": "Loja - Pacote",
         "shopCategory": "Loja - Categoria",
-        "shopCart": "Carrinho"
+        "shopCart": "Carrinho",
+        "search": "Pesquisa de usuários",
+        "news": "Notícias"
     },
     "_server": {
         "labels": {
@@ -795,17 +995,35 @@
             "create": "Criar Servidor",
             "keepReservedSlotsFree": "Mantenha slots reservados livres",
             "setup": "Servidor de Configuração",
-            "details": "Detalhes do Servidor"
+            "details": "Detalhes do Servidor",
+            "rconPassword": "Senha RCON",
+            "numberOfReservedSlotsDesc": "Número de vagas de jogadores que devem ser reservadas para usuários em grupos privilegiados.",
+            "keepReservedSlotsFreeDesc": "Se ativado, as vagas reservadas são sempre mantidas livres para permitir que usuários privilegiados entrem no servidor mesmo que esteja cheio. Nesse caso, o usuário não privilegiado mais recente é expulso.",
+            "hideReservedSlotsDesc": "Recomendado junto com a opção anterior. Se ativado, as vagas reservadas não são mostradas na lista de servidores.",
+            "queryPortDescription": "Porta de consulta do seu servidor TS3. A porta padrão é 10022.",
+            "sshQueryPort": "Porta de consulta SSH",
+            "offline": "Offline",
+            "syncBans": "Sincronizar banimentos",
+            "syncBansDescription": "Ative a sincronização de banimentos para o servidor. Isso requer que os grupos estejam configurados corretamente e mapeados para os grupos do jogo.",
+            "hidden": "Oculto",
+            "additionalProperties": "Propriedades adicionais"
         },
         "type": {
             "DISCORD": "Discord",
             "GMOD": "Garry's Mod",
-            "MINECRAFT": "Minecraft"
+            "MINECRAFT": "Minecraft",
+            "FIVEM": "FiveM",
+            "ASA": "ARK: Survival Ascended",
+            "RUST": "Rust",
+            "SEVEN_DAYS": "7 Days to Die",
+            "TEAMSPEAK3": "Teamspeak 3"
         },
         "instructions": {
             "COMMON": {
                 "runCommands": "Gere os comandos necessários clicando no botão e execute-os no console do seu servidor.",
-                "wait": "Aguarde até um minuto para o VyHub inicializar. Haverá uma mensagem no console do servidor se a conexão for bem-sucedida."
+                "wait": "Aguarde até um minuto para o VyHub inicializar. Haverá uma mensagem no console do servidor se a conexão for bem-sucedida.",
+                "noSetup": "Este servidor não requer um plugin no jogo. Basta seguir as instruções na documentação.",
+                "prerequisites": "Certifique-se de que o {framework} está instalado."
             },
             "GMOD": {
                 "download": "Baixe o complemento vyhub-gmod, descompacte-o e coloque-o na pasta de complementos do seu servidor. Em seguida, reinicie seu servidor.",
@@ -814,7 +1032,9 @@
             "DISCORD": {
                 "createApp": "Crie um aplicativo Discord e habilite a autorização do Discord.",
                 "readInstructions": "Leia e siga as instruções adicionais nos documentos.",
-                "addBot": "Adicione o Bot ao seu servidor Discord. Clique em recarregar se o botão não estiver funcionando."
+                "addBot": "Adicione o Bot ao seu servidor Discord. Clique em recarregar se o botão não estiver funcionando.",
+                "restartBot": "[Opcional] Você está tendo problemas, como o bot não ter iniciado? Verifique os logs em busca de mensagens de erro úteis. Você pode reiniciar o bot manualmente aqui.",
+                "restart": "Reiniciar"
             },
             "MINECRAFT": {
                 "download": "Baixe o plug-in .jar do vyhub-minecraft e coloque-o na pasta de plug-ins do seu servidor. Em seguida, reinicie seu servidor."
@@ -822,8 +1042,20 @@
             "TEAMSPEAK3": {
                 "botNotConnected": "O bot não está conectado? Ative a exibição de bots de consulta primeiro. Toda vez que você altera as configurações do servidor, o bot tenta se reconectar. Você pode encontrar mensagens de erro no log.",
                 "headline": "O bot TS3 já deve estar conectado ao seu servidor Teamspeak."
+            },
+            "ASA": {
+                "download": "Baixe o plugin vyhub-asa e coloque-o na pasta de plugins do seu servidor. Em seguida, reinicie o servidor."
+            },
+            "FIVEM": {
+                "download": "Baixe o plugin vyhub-fivem e adicione-o ao seu servidor.",
+                "server_cfg": "Adicione as seguintes linhas ao seu arquivo server.cfg:"
+            },
+            "RUST": {
+                "download": "Baixe o plugin vyhub-umod (Rust e 7 Days To Die) e adicione-o ao seu servidor.",
+                "imageLibrary": "Baixe o plugin Image-Library para poder usar o comando /dashboard."
             }
-        }
+        },
+        "deleteServerbundleConfirmationText": "Excluir um serverbundle também excluirá todos os objetos dependentes (recompensas, servidores, banimentos, advertências, ...). Esta ação não pode ser desfeita."
     },
     "_server_exception": {
         "begin_smaller_end": "A data de início deve ser posterior à data de término"
@@ -852,7 +1084,9 @@
         "discordOauthClientId": "ID Cliente",
         "discordOauthClientSecret": "Segredo do Cliente",
         "discordBotToken": "Símbolo do Bot",
-        "redirectUrl": "URL de Redirecionamento"
+        "redirectUrl": "URL de Redirecionamento",
+        "steamApiKey": "Chave da API Steam",
+        "steamApiKeyDescription": "É altamente recomendável definir sua chave da API Steam aqui. A chave da API Steam é usada para buscar dados de usuário do Steam. Você pode obter uma aqui"
     },
     "_serverDashboard": {
         "noUsersFound": "Usuários não encontrados.",
@@ -970,5 +1204,169 @@
     "subcategory": "Subcategoria",
     "servers": "Servidores",
     "paymentGateways": "Gateways de Pagamento",
-    "add-on": "Adicionar"
+    "add-on": "Adicionar",
+    "_mail": {
+        "subjects": {
+            "cart_follow_up": "Não perca sua experiência",
+            "notification": "Nova notificação em {name}",
+            "payment_successful": "Pagamento efetuado, fatura disponível",
+            "subscription_cancelled": "Assinatura cancelada"
+        },
+        "base": {
+            "hello_x": "Olá {name}",
+            "hey_x": "Oi {name}",
+            "best_regards": "Atenciosamente",
+            "your_x_team": "Sua equipe {name}",
+            "thank_you": "Obrigado por usar nossos serviços.",
+            "purchase_history": "Histórico de compras"
+        },
+        "cart_follow_up": {
+            "exploring": "Percebemos que você tem explorado o incrível mundo de {name}. Parece que você deixou algo no carrinho.",
+            "benefits": "Não perca os benefícios e privilégios exclusivos que você deseja.",
+            "your_cart": "Seu carrinho",
+            "take_me_to_my_cart": "Ir para o meu carrinho"
+        },
+        "notification": {
+            "new_notification": "Você recebeu uma nova notificação em {name}",
+            "unsubscribe_url": "Você pode cancelar as próximas notificações aqui"
+        },
+        "payment_successful": {
+            "payment_processed": "seu pagamento de {amount} foi processado com sucesso.",
+            "invoice_available": "Uma fatura está disponível no seu {purchase_history}."
+        },
+        "subscription_cancelled": {
+            "gateway_sub_cancelled": "sua assinatura {gateway} foi cancelada.",
+            "product": "Produto",
+            "subscription_id": "ID da assinatura",
+            "check_status": "Verifique o status atual no {purchase_history}."
+        }
+    },
+    "_search": {
+        "labels": {
+            "linkedUsers": "Usuários vinculados",
+            "searchUsers": "Pesquisar usuários",
+            "recentlyActiveUsers": "Usuários ativos recentemente"
+        }
+    },
+    "_log": {
+        "messages": {
+            "limitReached": "Limite de logs atingido. Alguns logs mais antigos podem não ser exibidos.",
+            "limitReachedFilter": "Limite de logs atingido. Alguns logs mais antigos podem não ser exibidos. Use um intervalo de tempo menor ou um filtro mais específico."
+        },
+        "labels": {
+            "level": "Nível"
+        }
+    },
+    "_component": {
+        "addComponent": "Adicionar componente",
+        "components": "Componentes",
+        "currentPlayers": "Jogadores atuais",
+        "whiteText": "Texto branco",
+        "specifyServers": "Especifique até dois servidores nas configurações",
+        "onlinePlayers": "Jogadores online",
+        "activePlayers": "Jogadores ativos",
+        "registeredPlayers": "Jogadores registrados",
+        "hoursPlayed": "Horas jogadas",
+        "_form": {
+            "height": "Altura",
+            "limit": "Limite",
+            "marginTop": "Margem superior",
+            "inviteLink": "Link de convite",
+            "headline": "Título",
+            "discordWidget": "Widget do Discord",
+            "inverted": "Invertido",
+            "btnText": "Texto do botão",
+            "question": "Pergunta",
+            "answer": "Resposta",
+            "maxColumnHeight": "Altura máxima da coluna",
+            "fixed": "Fixo - Fixar componente ao rolar",
+            "dense": "Compacto",
+            "container": "Contêiner",
+            "openInNewTab": "Abrir em nova aba"
+        }
+    },
+    "_chat": {
+        "loginRequired": "Login necessário para usar o chat",
+        "reconnect": "Reconectar"
+    },
+    "_firstSteps": {
+        "firstSteps": "Primeiros passos",
+        "welcome": "Bem-vindo",
+        "connectGameserver": "Conecte seu servidor de jogo",
+        "login": "Faça login com a VyHub Central para se tornar administrador",
+        "setCommunityName": "Defina o nome da sua comunidade",
+        "setLanguageAndFeatures": "Defina idioma e recursos",
+        "createBundle": "Crie um serverbundle",
+        "createServer": "Crie seu servidor",
+        "syncGroups": "Sincronize os grupos entre o VyHub e seu servidor",
+        "createGroup": "Crie um grupo com um mapeamento de grupo",
+        "setupShop": "Configure sua loja",
+        "createCategory": "Crie uma categoria de pacote",
+        "createReward": "Crie uma recompensa",
+        "createPacket": "Crie um pacote",
+        "addPmGateway": "Configure seus métodos de pagamento"
+    },
+    "_messages": {
+        "addSuccess": "Adicionado com sucesso.",
+        "createSuccess": "Criado com sucesso.",
+        "deleteSuccess": "Excluído com sucesso.",
+        "removeSuccess": "Removido com sucesso.",
+        "cancelSuccess": "Cancelado com sucesso.",
+        "editSuccess": "Editado com sucesso.",
+        "updateSuccess": "Atualizado com sucesso.",
+        "updateOrderSuccess": "Ordem atualizada com sucesso.",
+        "toggleSuccess": "Alternado com sucesso.",
+        "copyClipboard": "Copiado para a área de transferência.",
+        "linkCopied": "Link copiado para a área de transferência."
+    },
+    "_support": {
+        "getHelp": "Você precisa de ajuda?",
+        "supportQuestions": "Tem uma pergunta ou feedback? Envie-nos uma mensagem!",
+        "send": "enviar",
+        "reply?": "Você quer uma resposta?",
+        "discordDescription": "Junte-se ao nosso servidor do Discord para obter ajuda da comunidade e dos desenvolvedores.",
+        "youtubeDescription": "Confira nosso canal do Youtube para tutoriais e guias.",
+        "documentationDescription": "Leia a documentação para encontrar respostas a perguntas comuns.",
+        "messages": {
+            "tooShort": "Sua mensagem é muito curta.",
+            "requestSendSuccess": "Solicitação de suporte enviada com sucesso. Você deverá receber um e-mail de confirmação em breve se solicitou uma resposta."
+        }
+    },
+    "limitedToUser": "Limitado ao usuário {username}",
+    "overview": "Visão geral",
+    "view": "Ver",
+    "viewMore": "Ver mais",
+    "comment": "Comentário",
+    "total": "Total",
+    "link": "Link",
+    "staff": "Equipe",
+    "selectAll": "Selecionar tudo",
+    "home": "Início",
+    "comments": "Comentários",
+    "labels": "Etiquetas",
+    "filter": "Filtrar",
+    "logs": "Logs",
+    "back": "Voltar",
+    "password": "Senha",
+    "chat": "Chat",
+    "admin": "Administrador",
+    "global": "Global",
+    "rawHtml": "HTML bruto",
+    "required": "Obrigatório",
+    "content": "Conteúdo",
+    "time": "Hora",
+    "show": "Mostrar",
+    "test": "Testar",
+    "documentation": "Documentação",
+    "unknown": "Desconhecido",
+    "wrapper": "Wrapper",
+    "method": "Método",
+    "everyMonth": "Todo mês",
+    "everyDay": "Todo dia",
+    "everyYear": "Todo ano",
+    "followInstructionsInDocs": "Siga as instruções na documentação.",
+    "advanced": "Avançado",
+    "memberships": "Associações",
+    "news": "Notícias",
+    "deletedUser": "Usuário excluído"
 }

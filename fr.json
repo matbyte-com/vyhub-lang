@@ -10,7 +10,8 @@
             "last_online": "Dernière connexion",
             "unlinkAccountWarning": "La suppression d'un lien utilisateur dissociera les comptes. Le statut d'administrateur, les interdictions, les avertissements, les achats, les paquets appliqués et les crédits sont affectés par cela et peuvent ne pas être traités comme vous l'attendez. Vérifiez-les ensuite pour vous assurer que tout va bien.",
             "unlinkAccount": "Délier compte",
-            "visibleToUser": "Visible pour l'utilisateur"
+            "visibleToUser": "Visible pour l'utilisateur",
+            "noLinkedAccounts": "Aucun compte lié"
         },
         "messages": {
             "removeAdminConfirmation": "N'oubliez pas de supprimer l'ancien administrateur de l'instance dans la vue d'ensemble de votre instance centrale.",
@@ -38,7 +39,9 @@
         "headerContainer": "Conteneur d'en-tête",
         "footerColor": "Couleur du pied de page",
         "lightHeaderColor": "Couleur de l'en-tête",
-        "enable_landingpage": "Activer la page d'atterrissage"
+        "enable_landingpage": "Activer la page d'atterrissage",
+        "featuredServers": "Serveurs mis en avant pour le mode Boutique uniquement",
+        "shopOnlyServers": "Ces serveurs sont affichés dans l'en-tête du mode boutique uniquement. Indiquez jusqu'à deux serveurs."
     },
     "_settings": {
         "multigroup": "Plusieurs groupes",
@@ -84,7 +87,8 @@
         "advancedSettings": "Paramètres avancés",
         "requirementSetTest": "Test des exigences par rapport à l'utilisateur",
         "showFirstStepsDescription": "Tutoriel des premiers pas en bas à droite. (réservé aux administrateurs)",
-        "googleAnalyticsTagDescription": "[Facultatif] pour l'utilisation de Google Analytics"
+        "googleAnalyticsTagDescription": "[Facultatif] pour l'utilisation de Google Analytics",
+        "shopOnly": "Activer le mode Boutique uniquement (Simple)"
     },
     "_home": {
         "newsOfTheDay": "Actualités du jour",
@@ -167,7 +171,20 @@
             "topDonatorDisplayTitle": "Les meilleurs donateurs affichent le titre",
             "donationGoalDisplayTitle": "Titre d'affichage de l'objectif de donation",
             "yourAccounts": "Votre compte",
-            "showPacketsAsList": "Afficher les paquets sous forme d'une liste"
+            "showPacketsAsList": "Afficher les paquets sous forme d'une liste",
+            "invoiceAccentColor": "Couleur d'accentuation de la facture",
+            "invoiceAccentColorDescription": "Couleur d'accentuation utilisée pour les titres, les en-têtes de tableau et les totaux sur la facture.",
+            "firstCycleOnly": "Premier cycle uniquement",
+            "firstCycleOnlyHint": "Réduire uniquement la première période de facturation d'un paquet récurrent ; les périodes suivantes sont facturées au prix plein.",
+            "firstCycleDiscountHint": "Uniquement pour la première période de facturation, puis {price}",
+            "firstCycle": "Premier paiement",
+            "afterwardsRecurring": "Ensuite {price}",
+            "recipient": "Destinataire",
+            "sharePacket": "Découvrez le {title} de {store} ! De superbes avantages à un prix avantageux.",
+            "showWidgetsOnShopPage": "Afficher les widgets de statistiques sur la page boutique",
+            "showWidgetsOnShopPageDesc": "Si désactivé, les widgets activés (meilleurs donateurs, ...) ne sont pas affichés sur la page boutique.",
+            "purchasesWithoutAddressLimit": "Adresse du client requise pour les achats supérieurs à",
+            "purchasesWithoutAddressLimitDescription": "Pour les achats dont le montant total est inférieur à la valeur indiquée ici, le client n'a pas besoin de fournir une adresse. Ne s'applique qu'aux achats utilisant la devise par défaut."
         },
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} {credits_display_title}.",
@@ -269,12 +286,16 @@
         "too_many_ban_protests": "Il y a déjà 3 contestations pour ce bannissement.",
         "payment_error": "Erreur de paiement : {msg}",
         "illegal_value": "Valeur invalide : {msg}",
-        "title_too_long": "Le titre est trop long"
+        "title_too_long": "Le titre est trop long",
+        "invalid_token": "Votre session de connexion a expiré, veuillez vous reconnecter.",
+        "validation_error": "Erreur de validation : {msg}",
+        "address_required": "Une adresse est requise pour cet achat."
     },
     "_user": {
         "labels": {
             "newUsers": "Nouveaux utilisateurs",
-            "authRequestDescription": "Exécutez la commande suivante sur un serveur {type} pour vous connecter :"
+            "authRequestDescription": "Exécutez la commande suivante sur un serveur {type} pour vous connecter :",
+            "hideAvatar": "Masquer/Afficher l'avatar pour tous les utilisateurs"
         },
         "type": {
             "CENTRAL": {
@@ -405,7 +426,8 @@
             "buyableInactive": "Achetable si l'utilisateur a ce paquet dans un état inactif.",
             "recommendableDescription": "Le paquet peut être recommandé aux utilisateurs dans les sections \"Recommandations\"/\"Recommandé pour vous\".",
             "recommendable": "Recommandé",
-            "titleInImage": "Titre affiché sur l'image (facultatif)"
+            "titleInImage": "Titre affiché sur l'image (facultatif)",
+            "relationUpgradeWithDiscount": "Améliore le paquet sélectionné : son temps restant est crédité sous forme de réduction sur le prix."
         },
         "messages": {
             "sortOnlyWithCategory": "Les paquets ne peuvent être triés que si une catégorie est sélectionnée.",
@@ -445,7 +467,8 @@
                 "script": "Exécuter un script sur le(s) serveur(s)",
                 "credits": "Ajouter des {credits_display_title} au compte des acheteurs",
                 "membership": "Ajouter une appartenance à un groupe",
-                "http": "Envoi d'une demande HTTP"
+                "http": "Envoi d'une demande HTTP",
+                "teamspeak_channel": "Créer un canal Teamspeak"
             },
             "checkForReplacements": "Consultez la documentation pour connaître les récompenses disponibles et les \"strings\" de remplacement",
             "reactivateOnExtend": "Exécuter à nouveau si le paquet a été prolongé (sur paiement de l'abonnement)",
@@ -456,7 +479,16 @@
             "packetSyncLimitDescription": "Les récompenses sont ajoutées à tous les paquets dont la date de début se situe dans l'intervalle indiqué. Les dates de début et de fin sont facultatives.",
             "headerKey": "Clé de l'en-tête",
             "headerValue": "Valeur de l'en-tête",
-            "templates": "Les modèles"
+            "templates": "Les modèles",
+            "serverbundleDescription": "Une récompense est exécutée sur tous les serveurs du groupe de serveurs sélectionné, y compris les serveurs ajoutés ultérieurement. Pour les récompenses qui ne sont pas spécifiques à un groupe de serveurs, ce champ peut être laissé vide. Consultez la documentation pour plus d'informations.",
+            "onceDescription": "Si activé, la récompense n'est exécutée qu'une seule fois sur TOUS les serveurs du groupe de serveurs sélectionné, y compris les serveurs ajoutés ultérieurement. Si désactivé, la récompense est exécutée sur tous les serveurs du groupe de serveurs sélectionné à chaque fois que l'événement sélectionné se produit.",
+            "onceFromAllDescription": "Si activé, la récompense n'est exécutée que sur le premier serveur (du groupe de serveurs sélectionné) auquel l'utilisateur se connecte. Doit être combiné avec « N'exécuter qu'une seule fois ».",
+            "limitToServers": "Limiter aux serveurs",
+            "limitToServersDescription": "Limiter l'exécution de la récompense aux serveurs sélectionnés. Si aucun serveur n'est sélectionné, la récompense est exécutée sur tous les serveurs du groupe de serveurs.",
+            "parentChannelId": "ID du canal parent",
+            "channelGroupId": "ID du groupe de canaux",
+            "clientLimit": "Limite de clients",
+            "deleteOnExpire": "Supprimer à l'expiration"
         },
         "status": {
             "OPEN": "Ouvrir",
@@ -550,6 +582,15 @@
             "ONLY_INACTIVE": "Uniquement actif",
             "HAVE": "Avoir",
             "NHAVE": "Ne pas avoir"
+        },
+        "labels": {
+            "forOrConnection": "Pour une connexion OU",
+            "forAndConnection": "Pour une connexion ET"
+        },
+        "examples": {
+            "abstract": "L'ensemble de conditions est rempli si l'utilisateur remplit la condition portant l'ID 0 et soit la condition ID 1, soit la condition ID 2.",
+            "basic": "L'ensemble de conditions est rempli si l'utilisateur remplit la condition 0",
+            "advanced": "L'ensemble de conditions est rempli si l'utilisateur remplit la condition 0 ou la condition 1 ou la condition 2"
         }
     },
     "_gateway": {
@@ -591,7 +632,8 @@
             "edit": "Modifier la remise",
             "allPackets": "Utilisable pour tous les paquets",
             "delete": "Supprimer la remise",
-            "maxUsagesPerUser": "Utilisation maximale par utilisateur"
+            "maxUsagesPerUser": "Utilisation maximale par utilisateur",
+            "codeDescription": "Le code que l'utilisateur doit saisir lors du paiement. Laissez vide pour appliquer la réduction à tout le monde."
         }
     },
     "_userLogEntry": {
@@ -685,7 +727,14 @@
             "offline": "Hors-Ligne",
             "sshQueryPort": "Port d'interrogation SSH",
             "queryPortDescription": "Interroger le port de votre serveur TS3. Le port standard est 10022.",
-            "hidden": "Caché"
+            "hidden": "Caché",
+            "rconPassword": "Mot de passe RCON",
+            "numberOfReservedSlotsDesc": "Nombre de places de joueurs à réserver aux utilisateurs des groupes privilégiés.",
+            "keepReservedSlotsFreeDesc": "Si activé, les places réservées sont toujours maintenues libres pour permettre aux utilisateurs privilégiés de rejoindre le serveur même s'il est plein. Dans ce cas, l'utilisateur non privilégié le plus récent est expulsé.",
+            "hideReservedSlotsDesc": "Recommandé avec l'option précédente. Si activé, les places réservées ne sont pas affichées dans la liste des serveurs.",
+            "syncBans": "Synchroniser les bannissements",
+            "syncBansDescription": "Activer la synchronisation des bannissements pour le serveur. Cela nécessite que les groupes soient correctement configurés et associés aux groupes en jeu.",
+            "additionalProperties": "Propriétés supplémentaires"
         },
         "type": {
             "DISCORD": "Discord",
@@ -694,12 +743,15 @@
             "FIVEM": "FiveM",
             "ASA": "ARK: Survival Ascended",
             "RUST": "Rust",
-            "SEVEN_DAYS": "7 Days to Die"
+            "SEVEN_DAYS": "7 Days to Die",
+            "TEAMSPEAK3": "Teamspeak 3"
         },
         "instructions": {
             "COMMON": {
                 "wait": "Attendez jusqu'à 1 minute que VyHub s'initialise. Un message dans la console du serveur apparaîtra en cas de connexion avec succès.",
-                "runCommands": "Générez les commandes requises en cliquant sur le bouton et exécutez-les dans la console serveur de votre serveur."
+                "runCommands": "Générez les commandes requises en cliquant sur le bouton et exécutez-les dans la console serveur de votre serveur.",
+                "noSetup": "Ce serveur ne nécessite pas de plugin en jeu. Suivez simplement les instructions de la documentation.",
+                "prerequisites": "Assurez-vous que {framework} est installé."
             },
             "GMOD": {
                 "serverConsoleHint": "Important : La console du serveur n'est pas la console de jeu (quand vous appuyez sur F10).",
@@ -720,10 +772,12 @@
                 "botNotConnected": "Le bot n'est pas connecté ? Activez d'abord l'affichage des bots de requête. Chaque fois que vous modifiez les paramètres du serveur, le bot essaie de se reconnecter. Vous pouvez trouver des messages d'erreur dans les logs."
             },
             "FIVEM": {
-                "download": "Téléchargez le plugin vyhub-fivem et ajoutez-le à votre serveur."
+                "download": "Téléchargez le plugin vyhub-fivem et ajoutez-le à votre serveur.",
+                "server_cfg": "Ajoutez les lignes suivantes à votre fichier server.cfg :"
             },
             "RUST": {
-                "download": "Téléchargez le plugin vyhub-umod (Rust & 7 Days To Die) puis ajoutez-le à votre serveur."
+                "download": "Téléchargez le plugin vyhub-umod (Rust & 7 Days To Die) puis ajoutez-le à votre serveur.",
+                "imageLibrary": "Téléchargez le plugin Image-Library pour pouvoir utiliser la commande /dashboard."
             },
             "ASA": {
                 "download": "Téléchargez le plugin vyhub-asa et placez-le dans le dossier plugins de votre serveur. Redémarrez ensuite votre serveur."
@@ -775,6 +829,25 @@
                 "packetsDataDescription": "Sélectionnez quel paquet VyHub doit être donné aux propriétaires de paquets GExtension. Il est également possible d'exclure certaines récompenses. Si aucun paquet GExtension n'est sélectionnable, assurez-vous que votre URL et votre clé API sont correctes. Lancez ensuite l'importation du paquet.",
                 "basicDataDescription": "Insérez l'URL de votre site GExtension (sans index.php). Assurez-vous d'utiliser GExtension version 2.7.8 ou plus récente."
             }
+        },
+        "title": "Importer",
+        "database": {
+            "labels": {
+                "exportTitle": "Export VyHub",
+                "importTitle": "Import VyHub",
+                "dumpFile": "Archive de sauvegarde (.zip)",
+                "importConfirmTitle": "Confirmer l'import VyHub",
+                "cryptSecretChangedTitle": "Secret de chiffrement modifié",
+                "newCryptSecret": "Nouvelle valeur de VYHUB_CRYPT_SECRET",
+                "cryptSecretAcknowledge": "J'ai enregistré le nouveau secret de chiffrement"
+            },
+            "messages": {
+                "dangerDescription": "L'import VyHub remplace toutes les données existantes dans le schéma configuré. Cette action est destructive.",
+                "exportDescription": "Téléchargez une archive de sauvegarde complète (manifest.json + dump.sql).",
+                "importConfirm": "Importer cette archive remplacera toutes les données VyHub actuelles. Continuer ?",
+                "versionNote": "Les imports ne sont pris en charge qu'au sein de la même version de VyHub. Les imports entre deux instances cloud ne sont pas pris en charge.",
+                "cryptSecretChanged": "Le secret de chiffrement a changé après cet import. Vous devez mettre à jour la variable d'environnement VYHUB_CRYPT_SECRET avec la valeur affichée ci-dessous et redémarrer VyHub, sinon les données chiffrées seront inaccessibles."
+            }
         }
     },
     "_authorization": {
@@ -782,7 +855,9 @@
         "redirectUrl": "URL de redirection",
         "discordOauthClientId": "ID du client",
         "discordOauthClientSecret": "Clé secrète du client",
-        "discordBotToken": "Jeton de robot"
+        "discordBotToken": "Jeton de robot",
+        "steamApiKey": "Clé API Steam",
+        "steamApiKeyDescription": "Il est fortement recommandé de définir votre clé API Steam ici. La clé API Steam est utilisée pour récupérer les données des utilisateurs depuis Steam. Vous pouvez en obtenir une ici"
     },
     "update": "Mise à jour",
     "revenue": "Revenu",
@@ -1031,7 +1106,8 @@
             "forum_edit": "Gestion du forum",
             "forum_post": "Empêcher les utilisateurs de publier des messages dans le forum",
             "ticket_create": "Empêcher les utilisateurs de créer des tickets et des tickets de débanissement",
-            "shop_use": "Empêcher les utilisateurs d'utiliser la boutique"
+            "shop_use": "Empêcher les utilisateurs d'utiliser la boutique",
+            "ban_unlimited": "Créer des bannissements de n'importe quelle durée"
         },
         "negatedProperties": "Propriétés négatives"
     },
@@ -1106,7 +1182,10 @@
         },
         "lastActivity": "Dernières activités",
         "lockWithAnswer": "Verrouiller le fil de discussion avec une réponse",
-        "topicAdminGroup": "Groupes Administrateur du Topic"
+        "topicAdminGroup": "Groupes Administrateur du Topic",
+        "opened": "Ouvert",
+        "moveThread": "Déplacer le sujet",
+        "selectDestinationTopic": "Sélectionner le sujet de destination"
     },
     "_invoice": {
         "invoice": "Facture",
@@ -1138,7 +1217,8 @@
         "addSuccess": "L'ajout a été effectué avec succès.",
         "deleteSuccess": "Suppression réussie.",
         "updateSuccess": "La mise à jour a été effectuée avec succès.",
-        "createSuccess": "Création réussie."
+        "createSuccess": "Création réussie.",
+        "linkCopied": "Lien copié dans le presse-papiers."
     },
     "_component": {
         "activePlayers": "Joueurs Actifs",
@@ -1260,7 +1340,8 @@
             "take_me_to_my_cart": "Emmène-moi à mon panier"
         },
         "notification": {
-            "new_notification": "Tu as reçu une nouvelle notification à {name}"
+            "new_notification": "Tu as reçu une nouvelle notification à {name}",
+            "unsubscribe_url": "Vous pouvez vous désabonner des prochaines notifications ici"
         },
         "payment_successful": {
             "payment_processed": "ton paiement de {amount} a été traité avec succès.",
@@ -1272,5 +1353,20 @@
             "subscription_id": "ID de l'abonnement",
             "check_status": "Vérifie l'état actuel dans {purchase_history}."
         }
-    }
+    },
+    "_support": {
+        "getHelp": "Avez-vous besoin d'aide ?",
+        "supportQuestions": "Vous avez une question ou un commentaire ? Envoyez-nous un message !",
+        "send": "envoyer",
+        "reply?": "Souhaitez-vous une réponse ?",
+        "discordDescription": "Rejoignez notre serveur Discord pour obtenir de l'aide de la communauté et des développeurs.",
+        "youtubeDescription": "Consultez notre chaîne Youtube pour des tutoriels et des guides.",
+        "documentationDescription": "Lisez la documentation pour trouver des réponses aux questions courantes.",
+        "messages": {
+            "tooShort": "Votre message est trop court.",
+            "requestSendSuccess": "Demande d'assistance envoyée avec succès. Vous devriez bientôt recevoir un e-mail de confirmation si vous avez demandé une réponse."
+        }
+    },
+    "limitedToUser": "Limité à l'utilisateur {username}",
+    "home": "Accueil"
 }

@@ -27,7 +27,8 @@
             "take_me_to_my_cart": "Zum Warenkorb"
         },
         "notification": {
-            "new_notification": "Du hast eine neue Benachrichtigung von {name} erhalten"
+            "new_notification": "Du hast eine neue Benachrichtigung von {name} erhalten",
+            "unsubscribe_url": "Hier kannst du dich von weiteren Benachrichtigungen abmelden"
         },
         "payment_successful": {
             "payment_processed": "Deine Zahlung in Höhe von {amount} wurde erfolgreich bearbeitet.",
@@ -190,7 +191,8 @@
             "purchasesWithoutAddressLimit": "Kundenadresse erforderlich für Käufe über",
             "purchasesWithoutAddressLimitDescription": "Bei Einkäufen mit einem geringeren Betrag als der hier angegebene, ist die Angabe einer Adresse durch den Kunden nicht erforderlich. Gilt nur für Einkäufe, die die Standardwährung verwenden.",
             "showWidgetsOnShopPage": "Statistik-Widgets auf der Shop-Seite anzeigen",
-            "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt."
+            "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt.",
+            "sharePacket": "Schau dir das {title} von {store} an! Tolle Vorteile zu einem tollen Preis."
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -421,7 +423,13 @@
             "sshQueryPort": "SSH Query Port",
             "offline": "Offline",
             "hidden": "Versteckt",
-            "rconPassword": "RCON-Passwort"
+            "rconPassword": "RCON-Passwort",
+            "numberOfReservedSlotsDesc": "Anzahl der Spielerplätze, die für Nutzer in privilegierten Gruppen reserviert werden sollen.",
+            "keepReservedSlotsFreeDesc": "Wenn aktiviert, werden reservierte Plätze immer freigehalten, damit privilegierte Nutzer dem Server auch dann beitreten können, wenn er voll ist. In diesem Fall wird der neueste nicht privilegierte Nutzer gekickt.",
+            "hideReservedSlotsDesc": "Empfohlen zusammen mit der vorherigen Option. Wenn aktiviert, werden reservierte Plätze nicht in der Serverliste angezeigt.",
+            "syncBans": "Bans synchronisieren",
+            "syncBansDescription": "Aktiviere die Ban-Synchronisierung für den Server. Dies setzt voraus, dass Gruppen korrekt eingerichtet und den Ingame-Gruppen zugeordnet sind.",
+            "additionalProperties": "Zusätzliche Eigenschaften"
         },
         "type": {
             "GMOD": "Garry's Mod",
@@ -444,7 +452,8 @@
             "COMMON": {
                 "runCommands": "Generiere die erforderlichen Befehle, indem du auf die Schaltfläche klickst. Führe diese anschließend in der Serverkonsole deines Servers aus.",
                 "wait": "Warte bis zu einer Minute, bis VyHub initialisiert ist. Bei erfolgreicher Verbindung erscheint eine Meldung in der Serverkonsole.",
-                "noSetup": "Für diesen Server ist kein In-Game-Plugin erforderlich. Befolge einfach die Anweisungen. Für mehr Infos, lies die Dokumentation."
+                "noSetup": "Für diesen Server ist kein In-Game-Plugin erforderlich. Befolge einfach die Anweisungen. Für mehr Infos, lies die Dokumentation.",
+                "prerequisites": "Stelle sicher, dass {framework} installiert ist."
             },
             "GMOD": {
                 "download": "Lade das Addon vyhub-gmod herunter, entpacke es und legen es in den Addons-Ordner deines Servers. Starte dann deinen Server neu.",
@@ -1091,7 +1100,9 @@
         "discordOauthClientId": "Client ID",
         "discordOauthClientSecret": "Client Secret",
         "discordBotToken": "Bot Token",
-        "redirectUrl": "Redirect URL"
+        "redirectUrl": "Redirect URL",
+        "steamApiKey": "Steam-API-Schlüssel",
+        "steamApiKeyDescription": "Es wird dringend empfohlen, hier deinen Steam-API-Schlüssel zu hinterlegen. Der Steam-API-Schlüssel wird verwendet, um Nutzerdaten von Steam abzurufen. Einen Schlüssel erhältst du hier"
     },
     "_serverDashboard": {
         "selectAUser": "Wähle einen Nutzer, um Details zu sehen.",
@@ -1208,6 +1219,8 @@
         "allowEditPostDescription": "Benutzern erlauben, ihre eigenen Beiträge zu bearbeiten.",
         "labelTitle": "Titel des Labels",
         "editThread": "Diskussionen bearbeiten",
+        "moveThread": "Thread verschieben",
+        "selectDestinationTopic": "Zielthema auswählen",
         "messages": {
             "tooManyLabels": "Du kannst maximal 4 Labels hinzufügen.",
             "oldThread": "Diese Diskussion ist älter als 3 Monate. Überlege ob eine neue Diskussionen eventuell sinnvoller wäre.",

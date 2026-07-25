@@ -40,7 +40,10 @@
         "customCss": "Özel CSS",
         "headerContainer": "Başlık Konteyneri",
         "footerColor": "Altbilgi Rengi",
-        "lightHeaderColor": "Açık Başlık Rengi"
+        "lightHeaderColor": "Açık Başlık Rengi",
+        "enable_landingpage": "Açılış Sayfasını Etkinleştir",
+        "featuredServers": "Yalnızca Mağaza İçin Öne Çıkan Sunucular",
+        "shopOnlyServers": "Bu sunucular yalnızca mağaza başlığında gösterilir. En fazla iki sunucu belirtin."
     },
     "_settings": {
         "contentEmpty": "İçerik boş",
@@ -69,7 +72,8 @@
             "addGroup": "Grup Ekle",
             "addServer": "Sunucu Ekle",
             "updateOrder": "Güncelleme Sırası",
-            "resetOrder": "Siparişi Sıfırla"
+            "resetOrder": "Siparişi Sıfırla",
+            "previewImageURL": "Önizleme Görsel URL'si"
         },
         "showTeam": "Takım Sayfasını Etkinleştir",
         "communityDescriptionDescr": "Bu, arama motoru test sonuçlarında ve sosyal medyada paylaşılırken gösterilecektir",
@@ -84,7 +88,9 @@
         "showFirstSteps": "Öğreticiyi etkinleştir (ilk adımlar)",
         "showFirstStepsDescription": "Sağ altta ilk adımlar öğreticisi. (Yalnızca Yöneticiler)",
         "googleAnalyticsTagDescription": "[İsteğe bağlı] Google Analytics kullanımınız için",
-        "requirementSetTest": "Kullanıcıya karşı test gereksinimi belirlendi"
+        "requirementSetTest": "Kullanıcıya karşı test gereksinimi belirlendi",
+        "shopOnly": "Yalnızca Mağaza Modunu Etkinleştir (Basit)",
+        "advancedSettings": "Gelişmiş Ayarlar"
     },
     "_membership": {
         "labels": {
@@ -106,7 +112,8 @@
             "registered_on": "Üzerinde kayıtlı",
             "last_online": "Son çevrimiçi",
             "membershipEndDescription": "Sınırsız süre boş bırakın",
-            "visibleToUser": "Kullanıcıya Görünür"
+            "visibleToUser": "Kullanıcıya Görünür",
+            "noLinkedAccounts": "Bağlı hesap yok"
         },
         "messages": {
             "removeAdminConfirmation": "Merkezi örneğinize genel bakışınızda eski yöneticiyi örnekten kaldırmayı unutmayın.",
@@ -212,7 +219,11 @@
             "apikey_edit": "API anahtarlarını yönetme",
             "general_show": "Genel ayarları görüntüle",
             "general_edit": "Genel ayarları yönet",
-            "forum_edit": "Forumu yönet"
+            "forum_edit": "Forumu yönet",
+            "ban_unlimited": "Herhangi bir uzunlukta ban oluştur",
+            "forum_post": "Kullanıcıların forumda gönderi paylaşmasını engelle",
+            "ticket_create": "Kullanıcıların bilet ve ban itirazı oluşturmasını engelle",
+            "shop_use": "Kullanıcıların mağazayı kullanmasını engelle"
         },
         "categories": {
             "general": "Genel",
@@ -220,7 +231,8 @@
             "other": "Diğer",
             "user": "Kullanıcı",
             "shop": "Dükkan"
-        }
+        },
+        "negatedProperties": "Olumsuzlanmış Özellikler"
     },
     "_group": {
         "isTeam": "Takımdır",
@@ -229,7 +241,11 @@
             "name": "Sunucudaki grubun / rütbenin / rolün adı"
         },
         "isTeamDescription": "Grup üyeleri ekip sayfasında gösterilecektir",
-        "maxBanLengthInDays": "Maksimum Bant Uzunluğu (gün olarak)"
+        "maxBanLengthInDays": "Maksimum Bant Uzunluğu (gün olarak)",
+        "labels": {
+            "protected": "Korumalı",
+            "protectedDescription": "Bu gruptaki üyeliklerde yapılan değişikliklere oyun sunucuları gibi üçüncü taraf uygulamalardan izin verilmez. Ayrıca bu grubun üyeleri banlardan korunabilir."
+        }
     },
     "change": "Değişim",
     "code": "Kod",
@@ -273,7 +289,34 @@
             "addToCart": "Sepete ekle",
             "orderOverview": "Siparişe Genel Bakış",
             "cartTotal": "Sepet Toplamı",
-            "discountCode": "İndirim Kodu"
+            "discountCode": "İndirim Kodu",
+            "showPacketsAsList": "Paketleri liste olarak göster",
+            "invoiceAccentColor": "Fatura vurgu rengi",
+            "invoiceAccentColorDescription": "Faturadaki başlıklar, tablo başlıkları ve toplamlar için kullanılan vurgu rengi.",
+            "addToCart13CharsMax": "Sepete ekle",
+            "firstCycleOnly": "Yalnızca ilk dönem",
+            "firstCycleOnlyHint": "Yinelenen bir paketin yalnızca ilk fatura dönemine indirim uygulanır; sonraki dönemler tam fiyattan ücretlendirilir.",
+            "firstCycleDiscountHint": "Yalnızca ilk fatura dönemi için, sonra {price}",
+            "firstCycle": "İlk ödeme",
+            "afterwardsRecurring": "Ardından {price}",
+            "payNow": "Şimdi Öde",
+            "yourAccounts": "Hesaplarınız",
+            "topDonatorsDaysLimit": "Gösterilecek gün sayısı",
+            "enableLastDonators": "Son bağışları etkinleştir",
+            "widgetDescription": "Web sitesi genelinde gösterilen bileşen (Haberler, Mağaza, Ana Sayfa)",
+            "lastDonatorsDisplayTitle": "Son bağışlar görüntüleme başlığı",
+            "recipient": "Alıcı",
+            "recommended": "Sizin için önerilenler",
+            "creditsDisplayTitle": "Kredi görüntüleme başlığı",
+            "creditsDisplayTitleDescription": "Ödeme kredilerini istediğiniz gibi yeniden adlandırın (altın, elmas, jeton...)",
+            "pleaseWait": "Lütfen Bekleyin",
+            "sharePacket": "{store} mağazasından {title} paketine göz atın! Uygun fiyata harika avantajlar.",
+            "redirectDescription": "Ödeme sağlayıcısına yönlendirileceksiniz.",
+            "productDescription": "Ürün Açıklaması",
+            "showWidgetsOnShopPage": "Mağaza sayfasında istatistik bileşenlerini göster",
+            "showWidgetsOnShopPageDesc": "Devre dışı bırakılırsa, etkin bileşenler (en çok bağış yapanlar, ...) mağaza sayfasında gösterilmez.",
+            "purchasesWithoutAddressLimit": "Şu tutardan fazla alışverişlerde müşteri adresi gerekir",
+            "purchasesWithoutAddressLimitDescription": "Toplam tutarı burada belirtilenden az olan alışverişlerde müşterinin adres girmesi gerekmez. Yalnızca varsayılan para birimini kullanan alışverişler için geçerlidir."
         },
         "messages": {
             "couponApplySuccess": "Kupon başarıyla uygulandı.",
@@ -298,7 +341,8 @@
             "selectEmailFirst": "Lütfen önce e-posta adresinizi güncelleyin",
             "cancelPurchaseConfirmation": "Başlatılan ödemeler iptal edilir. Girilen tüm kuponlar kaybolur. Bir satın alma işlemini iptal etmek geri alınamaz.",
             "mustAgree": "Devam etmeyi kabul etmelisin!",
-            "targetUserChanged": "Hedef kullanıcı değiştirildi"
+            "targetUserChanged": "Hedef kullanıcı değiştirildi",
+            "priceMustBeHigherThanMin": "Fiyat, minimum fiyattan yüksek olmalıdır."
         },
         "purchaseStatus": {
             "disabled": "Süresi dolmuş",
@@ -309,7 +353,8 @@
             "refunded": "İade edildi",
             "open": "Açık",
             "revoked": "İptal edildi"
-        }
+        },
+        "shopTitle": "Mağazaya Hoş Geldiniz"
     },
     "open": "Açık",
     "dashboard": "Kontrol Paneli",
@@ -334,7 +379,11 @@
         "cart_full": "Sepetin dolu.",
         "payment_error": "Ödeme Hatası: {msg}",
         "not_found": "Bulunamadı.",
-        "illegal_value": "Geçersiz değer: {msg}"
+        "illegal_value": "Geçersiz değer: {msg}",
+        "title_too_long": "Başlık çok uzun",
+        "invalid_token": "Oturumunuzun süresi doldu, lütfen tekrar giriş yapın.",
+        "validation_error": "Doğrulama hatası: {msg}",
+        "address_required": "Bu satın alma için bir adres gereklidir."
     },
     "_packet": {
         "labels": {
@@ -368,7 +417,10 @@
             "limitPaymentMethodsDetail": "Ödeme yöntemleri seçilirse, yalnızca bunlar kullanılabilir. Değilse, tüm yöntemler kullanılabilir.",
             "end": "Son",
             "recurring": "Yinelenen",
-            "relationRequires": "Satın almak için seçilen paketi gerektirir"
+            "relationRequires": "Satın almak için seçilen paketi gerektirir",
+            "relationUpgradeWithDiscount": "Seçili paketi yükseltir: kalan süresi fiyata indirim olarak yansıtılır.",
+            "recommendable": "Önerilebilir",
+            "recommendableDescription": "Paket, \"Öneriler\"/\"Sizin için önerilenler\" bölümlerinde kullanıcılara önerilebilir."
         },
         "status": {
             "DISABLED": "Etkisiz",
@@ -428,6 +480,9 @@
             "vat_number": "KDV Numarası",
             "selectAddress": "Adres seç",
             "change": "Adresi Değiştir"
+        },
+        "messages": {
+            "noAddressesYet": "Henüz adresiniz yok."
         }
     },
     "_reward": {
@@ -436,7 +491,9 @@
                 "command": "Sunucu(lar) da bir komut yürütme",
                 "credits": "Alıcılar hesabına kredi ekleme",
                 "script": "Sunucu(lar) da bir komut dosyası yürütme",
-                "membership": "Grup üyeliği ekle"
+                "membership": "Grup üyeliği ekle",
+                "http": "Bir HTTP isteği gönder",
+                "teamspeak_channel": "Bir Teamspeak kanalı oluştur"
             },
             "_events": {
                 "disconnect": "Bağlantıyı keserken çalıştır",
@@ -457,7 +514,20 @@
             "edit": "Ödülü Düzenle",
             "onceFromAll": "Yalnızca bir sunucuda yürütme",
             "templates": "Şablonlar",
-            "reactivateOnExtend": "Paket uzatılmışsa (abonelik ödemesinde) yeniden yürütün"
+            "reactivateOnExtend": "Paket uzatılmışsa (abonelik ödemesinde) yeniden yürütün",
+            "serverbundleDescription": "Bir ödül, seçili sunucu paketindeki tüm sunucularda (sonradan eklenenler dahil) yürütülür. Sunucu paketine özel olmayan ödüller için bu alan boş bırakılabilir. Daha fazla bilgi için dokümantasyona göz atın.",
+            "onceDescription": "Etkinleştirilirse, ödül seçili sunucu paketindeki TÜM sunucularda (sonradan eklenenler dahil) yalnızca bir kez yürütülür. Devre dışı bırakılırsa, ödül seçili olay her gerçekleştiğinde seçili sunucu paketindeki tüm sunucularda yürütülür.",
+            "onceFromAllDescription": "Etkinleştirilirse, ödül yalnızca kullanıcının bağlandığı ilk sunucuda (seçili sunucu paketinden) yürütülür. 'Yalnızca bir kez yürüt' ile birlikte kullanılmalıdır.",
+            "headers": "Başlıklar",
+            "headerKey": "Başlık Anahtarı",
+            "limitToServers": "Sunucularla sınırla",
+            "limitToServersDescription": "Ödülün yürütülmesini seçili sunucularla sınırlayın. Hiçbir sunucu seçilmezse, ödül sunucu paketindeki tüm sunucularda yürütülür.",
+            "headerValue": "Başlık Değeri",
+            "maxRetries": "Yeniden Deneme Sayısı",
+            "parentChannelId": "Üst Kanal ID'si",
+            "channelGroupId": "Kanal Grubu ID'si",
+            "clientLimit": "İstemci Sınırı",
+            "deleteOnExpire": "Süresi dolduğunda sil"
         },
         "status": {
             "FAILED": "Başarısız",
@@ -522,7 +592,8 @@
             "allPackets": "Tüm paketler için kullanılabilir",
             "delete": "İndirimi Sil",
             "create": "İndirim Oluştur",
-            "maxUsagesPerUser": "Kullanıcı başına maksimum kullanım"
+            "maxUsagesPerUser": "Kullanıcı başına maksimum kullanım",
+            "codeDescription": "Kullanıcının ödeme sırasında girmesi gereken kod. İndirimi herkese uygulamak için boş bırakın."
         }
     },
     "_server": {
@@ -539,12 +610,26 @@
             "hideReservedSlots": "Ayrılmış yuvaları gizle",
             "discordEnterIdAsAddress": "Lonca kimliğinizi sunucu adresi olarak girin.",
             "addBot": "Loncanıza bot ekleyin.",
-            "create": "Sunucu Oluştur"
+            "create": "Sunucu Oluştur",
+            "rconPassword": "RCON Şifresi",
+            "numberOfReservedSlotsDesc": "Ayrıcalıklı gruplardaki kullanıcılar için ayrılması gereken oyuncu yeri sayısı.",
+            "keepReservedSlotsFreeDesc": "Etkinleştirilirse, ayrılmış yerler her zaman boş tutulur; böylece ayrıcalıklı kullanıcılar sunucu dolu olsa bile katılabilir. Bu durumda en yeni ayrıcalıksız kullanıcı atılır.",
+            "hideReservedSlotsDesc": "Önceki seçenekle birlikte önerilir. Etkinleştirilirse, ayrılmış yerler sunucu listesinde gösterilmez.",
+            "offline": "Çevrimdışı",
+            "syncBans": "Banları Senkronize Et",
+            "syncBansDescription": "Sunucu için ban senkronizasyonunu etkinleştirin. Bunun için grupların doğru şekilde ayarlanmış ve oyun içi gruplarla eşleştirilmiş olması gerekir.",
+            "hidden": "Gizli",
+            "additionalProperties": "Ek Özellikler"
         },
         "type": {
             "DISCORD": "Discord",
             "GMOD": "Garry's Mod",
-            "MINECRAFT": "Minecraft"
+            "MINECRAFT": "Minecraft",
+            "FIVEM": "FiveM",
+            "ASA": "ARK: Survival Ascended",
+            "RUST": "Rust",
+            "SEVEN_DAYS": "7 Days to Die",
+            "TEAMSPEAK3": "Teamspeak 3"
         },
         "instructions": {
             "GMOD": {
@@ -563,14 +648,24 @@
             },
             "COMMON": {
                 "runCommands": "Düğmeye tıklayarak gerekli komutları oluşturun ve bunları sunucunuzun sunucu konsolunda yürütün.",
-                "wait": "Vyhub'ın başlatılması için bir dakika bekleyin. Bağlantı başarılı olursa, sunucu konsolunda bir ileti görüntülenir."
+                "wait": "Vyhub'ın başlatılması için bir dakika bekleyin. Bağlantı başarılı olursa, sunucu konsolunda bir ileti görüntülenir.",
+                "noSetup": "Bu sunucu oyun içi eklenti gerektirmez. Sadece dokümantasyondaki talimatları izleyin.",
+                "prerequisites": "{framework} yüklü olduğundan emin olun."
             },
             "TEAMSPEAK3": {
                 "headline": "TS3 botu zaten Teamspeak sunucunuza bağlı olmalıdır.",
                 "botNotConnected": "Bot bağlı değil mi? Önce sorgu botlarının görüntülenmesini etkinleştirin. Sunucu ayarlarını her değiştirdiğinizde, bot yeniden bağlanmaya çalışır. Günlükte hata iletileri bulabilirsiniz."
             },
             "FIVEM": {
-                "download": "Vyhub-fivem eklentisini indirin ve sunucunuza ekleyin."
+                "download": "Vyhub-fivem eklentisini indirin ve sunucunuza ekleyin.",
+                "server_cfg": "Aşağıdaki satırları server.cfg dosyanıza ekleyin:"
+            },
+            "ASA": {
+                "download": "vyhub-asa eklentisini indirip sunucunuzun plugins klasörüne koyun. Ardından sunucunuzu yeniden başlatın."
+            },
+            "RUST": {
+                "download": "vyhub-umod (Rust & 7 Days To Die) eklentisini indirip sunucunuza ekleyin.",
+                "imageLibrary": "/dashboard komutunu kullanabilmek için Image-Library eklentisini indirin."
             }
         },
         "deleteServerbundleConfirmationText": "Bir sunucu paketini silmek, bağlı tüm nesneleri de silecektir (ödüller, sunucular, yasaklar, uyarılar, ...). Bu eylem geri alınamaz."
@@ -603,14 +698,20 @@
                 "exportTitle": "VyHub Export",
                 "importTitle": "VyHub Import",
                 "dumpFile": "Yedek arsivi (.zip)",
-                "importConfirmTitle": "VyHub import islemini onayla"
+                "importConfirmTitle": "VyHub import islemini onayla",
+                "cryptSecretChangedTitle": "Şifreleme Anahtarı Değişti",
+                "newCryptSecret": "Yeni VYHUB_CRYPT_SECRET değeri",
+                "cryptSecretAcknowledge": "Yeni şifreleme anahtarını kaydettim"
             },
             "messages": {
                 "dangerDescription": "VyHub import islemi, yapilandirilmis semadaki tum mevcut verileri degistirir. Bu islem yikicidir.",
                 "exportDescription": "Tam bir yedek arsivi indir (manifest.json + dump.sql).",
-                "importConfirm": "Bu arsivi ice aktarmak mevcut tum VyHub verilerini degistirecek. Devam edilsin mi?"
+                "importConfirm": "Bu arsivi ice aktarmak mevcut tum VyHub verilerini degistirecek. Devam edilsin mi?",
+                "versionNote": "İçe aktarmalar yalnızca aynı VyHub sürümü içinde desteklenir. İki bulut örneği arasında içe aktarma desteklenmez.",
+                "cryptSecretChanged": "Bu içe aktarmadan sonra şifreleme anahtarı değişti. VYHUB_CRYPT_SECRET ortam değişkenini aşağıda gösterilen değerle güncellemeli ve VyHub'ı yeniden başlatmalısınız; aksi takdirde şifrelenmiş verilere erişilemez."
             }
-        }
+        },
+        "title": "İçe Aktar"
     },
     "_faq": {
         "html": "Bu alanda HTML'ye izin verilir.",
@@ -661,14 +762,33 @@
         "tickets": "Biletler",
         "creator": "Yaratıcı",
         "prohibitCreateThreads": "İş parçacığı Oluşturmayı Engelle",
-        "prohibitCreateThreadsDescription": "Kullanıcıların yeni iş parçacıkları oluşturmasını engelleyin. Bu, 'Forumu Yönet' iznine sahip kullanıcıları veya Konu Yöneticilerini etkilemez."
+        "prohibitCreateThreadsDescription": "Kullanıcıların yeni iş parçacıkları oluşturmasını engelleyin. Bu, 'Forumu Yönet' iznine sahip kullanıcıları veya Konu Yöneticilerini etkilemez.",
+        "welcomeToForum": "Foruma Hoş Geldiniz",
+        "reactions": "Tepkiler",
+        "allowEditPost": "Gönderi düzenlemeye izin ver",
+        "allowEditPostDescription": "Kullanıcıların kendi gönderilerini düzenlemesine izin verin.",
+        "opened": "Açıldı",
+        "labelTitle": "Etiket Başlığı",
+        "editThread": "Konuyu Düzenle",
+        "lastActivity": "Son Etkinlik",
+        "lockWithAnswer": "Konuyu yanıtla ve kilitle",
+        "topicAdminGroup": "Konu Yönetici Grupları",
+        "messages": {
+            "tooManyLabels": "En fazla 4 etiket ekleyebilirsiniz.",
+            "oldThread": "Bu konu 3 aydan eski. İçeriği güncel olmayabileceği için yeni bir konu açmayı düşünün.",
+            "closedThread": "Kapalı bir konuya yanıt vermek üzeresiniz.",
+            "banned": "Forumdan banlandınız ve yeni konu veya gönderi oluşturamazsınız."
+        },
+        "moveThread": "Konuyu Taşı",
+        "selectDestinationTopic": "Hedef konuyu seçin"
     },
     "_home": {
         "messageSubject": "Konu",
         "editNews": "Mesajı Düzenle",
         "news": "Haberler",
         "newsOfTheDay": "Günün haberleri",
-        "addNews": "Yeni Mesaj"
+        "addNews": "Yeni Mesaj",
+        "invertTitleColor": "Başlık Rengini Ters Çevir"
     },
     "_requirement": {
         "requirementType": "Tür",
@@ -705,7 +825,16 @@
         "attributeName": "Nitelik Adı",
         "date": "Tarih",
         "requirementOperator": "Operatör",
-        "addRequirement": "Gereksinim"
+        "addRequirement": "Gereksinim",
+        "labels": {
+            "forOrConnection": "VEYA Bağlantısı İçin",
+            "forAndConnection": "VE Bağlantısı İçin"
+        },
+        "examples": {
+            "abstract": "Kullanıcı ID 0 olan koşulu ve ID 1 veya ID 2 koşullarından birini yerine getirirse koşul kümesi tamamlanır.",
+            "basic": "Kullanıcı 0 numaralı koşulu yerine getirirse koşul kümesi tamamlanır",
+            "advanced": "Kullanıcı 0 numaralı koşulu veya 1 numaralı koşulu veya 2 numaralı koşulu yerine getirirse koşul kümesi tamamlanır"
+        }
     },
     "_pageTitle": {
         "legal": "Legal",
@@ -726,7 +855,9 @@
         "shopCart": "At arabası",
         "notificationLink": "Bildirim",
         "serverDashboard": "Sunucu Panosu",
-        "forum": "Forum"
+        "forum": "Forum",
+        "search": "Kullanıcı Arama",
+        "news": "Haberler"
     },
     "_notification": {
         "notifications": "Bildirimler",
@@ -772,7 +903,9 @@
         "discordOauthClientId": "Müşteri Kimliği",
         "discordOauthClientSecret": "Müşteri Sırrı",
         "discordBotToken": "Bot Token",
-        "redirectUrl": "URL'yi Yönlendir"
+        "redirectUrl": "URL'yi Yönlendir",
+        "steamApiKey": "Steam API Anahtarı",
+        "steamApiKeyDescription": "Steam API anahtarınızı buraya girmeniz kesinlikle önerilir. Steam API anahtarı, kullanıcı verilerini Steam'den almak için kullanılır. Buradan bir tane edinebilirsiniz"
     },
     "connect": "Bağlan",
     "bans": "Yasaklar",
@@ -790,7 +923,8 @@
     "_user": {
         "labels": {
             "newUsers": "Yeni Kullanıcılar",
-            "authRequestDescription": "Oturum açmak için bir {type} sunucusunda aşağıdaki komutu yürütün:"
+            "authRequestDescription": "Oturum açmak için bir {type} sunucusunda aşağıdaki komutu yürütün:",
+            "hideAvatar": "Tüm kullanıcılar için avatarı gizle/göster"
         },
         "type": {
             "CENTRAL": {
@@ -816,9 +950,19 @@
             "FIVEM": {
                 "name": "FiveM",
                 "info": "GTA 5 Çok Oyunculu."
+            },
+            "ASA": {
+                "name": "ARK: Survival Ascended",
+                "info": "Vahşi doğayı evcilleştir, dinozorlara hükmet."
             }
         },
-        "userLinkDescription": "Bir kullanıcıyı bağlamak, hesaplarınızı birleştirmek için biraz sihir yapacaktır. Dikkat edin, bu sihir geri alınamaz!"
+        "userLinkDescription": "Bir kullanıcıyı bağlamak, hesaplarınızı birleştirmek için biraz sihir yapacaktır. Dikkat edin, bu sihir geri alınamaz!",
+        "messages": {
+            "linkAccountConfirm": "Bu iki kullanıcı hesabını bağlamak istediğinizden emin misiniz?",
+            "couldNotLinkUsers": "Kullanıcı hesapları bağlanamadı.",
+            "linkedAccounts": "Kullanıcı hesapları başarıyla bağlandı."
+        },
+        "userLoginShopDescription": "Sizi oyunda tanımlayabilmemiz için lütfen giriş yapın."
     },
     "_messages": {
         "removeSuccess": "Başarıyla kaldırıldı.",
@@ -829,7 +973,9 @@
         "addSuccess": "Başarıyla eklendi.",
         "createSuccess": "Başarıyla oluşturuldu.",
         "deleteSuccess": "Başarıyla silindi.",
-        "editSuccess": "Başarıyla düzenlendi."
+        "editSuccess": "Başarıyla düzenlendi.",
+        "copyClipboard": "Panoya kopyalandı.",
+        "linkCopied": "Bağlantı panoya kopyalandı."
     },
     "_gateway": {
         "labels": {
@@ -843,10 +989,15 @@
             "stripe": "Stripe",
             "create": "Ödeme Ağ Geçidi Oluştur",
             "acceptPendingDescription": "Bazı ödeme yöntemleri (ör. SEPA Otomatik Ödeme, SOFORT, ...) tamamlanana kadar birkaç gün sürebilir. Bu seçenek etkinleştirilirse, bu yöntemlerle ödenen satın alımlar, ödeme işlemi tamamlandıktan hemen sonra tamamlanır. Ödemenin daha sonra başarısız olması için küçük bir şans var.",
-            "acceptPending": "Bekleyen ödemeleri kabul et"
+            "acceptPending": "Bekleyen ödemeleri kabul et",
+            "paypalEasy": "PayPal (Kolay)",
+            "imageUrlDescription": "İsteğe bağlı. Hiçbir görsel yüklenmediğinde varsayılan görseller kullanılır.",
+            "paypalLegacyHint": "Bu PayPal entegrasyonunun kurulumu kolaydır ve bazen işletme olmayan hesaplarla da çalışır. Ancak geri ödemeleri ve abonelik ödemelerini desteklemez. Mümkünse normal PayPal entegrasyonunu kullanın.",
+            "paypalHint": "Bu PayPal entegrasyonu bir PayPal işletme hesabı gerektirir. Yoksa PayPal hesabınızı yükseltin veya PayPal (Kolay) entegrasyonunu kullanın."
         },
         "messages": {
-            "deleteWarning": "Dikkat! Bir ödeme ağ geçidinin silinmesi, ağ geçidinin kullanıldığı tüm satın alımların ve ödemelerin silinmesine neden olur! Bu eylem geri alınamaz. Belki onun yerine devre dışı bırak?"
+            "deleteWarning": "Dikkat! Bir ödeme ağ geçidinin silinmesi, ağ geçidinin kullanıldığı tüm satın alımların ve ödemelerin silinmesine neden olur! Bu eylem geri alınamaz. Belki onun yerine devre dışı bırak?",
+            "attributeChangeExplanation": "Aşağıdaki öznitelikler bir değer girilmezse düzenlenmez. Gizli öznitelikler yalnızca yazılabilir; yani girdiğiniz değer tekrar gösterilmez."
         }
     },
     "paymentMethods": "Ödeme Yöntemleri",
@@ -979,7 +1130,10 @@
         "ttlPlaceholder": "Uzunluk (gün olarak)",
         "ttlDescription": "Uyarının süresi dolmuş olarak işaretlenene kadar geçen süre",
         "countTillBan": "Otomatik yasaklamaya kadar uyarı sayısı",
-        "countTillBanDesc": "0 otomatik yasak YOK."
+        "countTillBanDesc": "0 otomatik yasak YOK.",
+        "labels": {
+            "details": "Uyarı Detayları"
+        }
     },
     "_creditHistory": {
         "addTransaction": "İşlem Ekle"
@@ -1135,7 +1289,8 @@
             "take_me_to_my_cart": "Sepetime Git"
         },
         "notification": {
-            "new_notification": "{name} adlı yerde yeni bir bildirim aldınız"
+            "new_notification": "{name} adlı yerde yeni bir bildirim aldınız",
+            "unsubscribe_url": "Buradan diğer bildirim aboneliklerinden çıkabilirsiniz"
         },
         "payment_successful": {
             "payment_processed": "{amount} tutarındaki ödemeniz başarıyla işlenmiştir.",
@@ -1154,5 +1309,64 @@
             "searchUsers": "Kullanıcıları ara",
             "recentlyActiveUsers": "Son Zamanlarda Aktif Kullanıcılar"
         }
-    }
+    },
+    "_component": {
+        "addComponent": "Bileşen Ekle",
+        "components": "Bileşenler",
+        "currentPlayers": "Mevcut Oyuncular",
+        "whiteText": "Beyaz Metin",
+        "specifyServers": "Ayarlarda en fazla iki sunucu belirtin",
+        "onlinePlayers": "Çevrimiçi Oyuncular",
+        "activePlayers": "Aktif Oyuncular",
+        "registeredPlayers": "Kayıtlı Oyuncular",
+        "hoursPlayed": "Oynanan Saat",
+        "_form": {
+            "height": "Yükseklik",
+            "limit": "Sınır",
+            "marginTop": "Üst Boşluk",
+            "inviteLink": "Davet Bağlantısı",
+            "headline": "Başlık",
+            "discordWidget": "Discord Bileşeni",
+            "inverted": "Ters Çevrilmiş",
+            "btnText": "Düğme Metni",
+            "question": "Soru",
+            "answer": "Cevap",
+            "maxColumnHeight": "Maksimum Sütun Yüksekliği",
+            "fixed": "Sabit - Kaydırırken bileşeni sabitle",
+            "dense": "Yoğun",
+            "container": "Konteyner",
+            "openInNewTab": "Yeni sekmede aç"
+        }
+    },
+    "_support": {
+        "getHelp": "Yardıma mı ihtiyacınız var?",
+        "supportQuestions": "Bir sorunuz veya geri bildiriminiz mi var? Bize mesaj gönderin!",
+        "send": "gönder",
+        "reply?": "Yanıt istiyor musunuz?",
+        "discordDescription": "Topluluktan ve geliştiricilerden yardım almak için Discord sunucumuza katılın.",
+        "youtubeDescription": "Eğitimler ve kılavuzlar için Youtube kanalımıza göz atın.",
+        "documentationDescription": "Sık sorulan soruların yanıtlarını bulmak için dokümantasyonu okuyun.",
+        "messages": {
+            "tooShort": "Mesajınız çok kısa.",
+            "requestSendSuccess": "Destek talebi başarıyla gönderildi. Yanıt istediyseniz kısa süre içinde bir onay e-postası almalısınız."
+        }
+    },
+    "limitedToUser": "{username} kullanıcısıyla sınırlı",
+    "view": "Görüntüle",
+    "viewMore": "Daha fazla göster",
+    "link": "Bağlantı",
+    "staff": "Ekip",
+    "home": "Ana Sayfa",
+    "admin": "Yönetici",
+    "content": "İçerik",
+    "wrapper": "Sarmalayıcı",
+    "method": "Yöntem",
+    "everyMonth": "Her ay",
+    "everyDay": "Her gün",
+    "everyYear": "Her yıl",
+    "followInstructionsInDocs": "Lütfen dokümantasyondaki talimatları izleyin.",
+    "advanced": "Gelişmiş",
+    "memberships": "Üyelikler",
+    "news": "Haberler",
+    "deletedUser": "Silinmiş Kullanıcı"
 }
