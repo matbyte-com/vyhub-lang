@@ -216,6 +216,8 @@
             "cart": "Cart",
             "invoiceLogoURL": "Invoice logo",
             "invoiceLogoURLDetails": "Logo that is displayed on the invoice.",
+            "invoiceAccentColor": "Invoice accent color",
+            "invoiceAccentColorDescription": "Accent color used for headings, table headers and totals on the invoice.",
             "admin": "Shop Administration",
             "couponCode": "Coupon Code",
             "discountCode": "Discount Code",

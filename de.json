@@ -134,6 +134,8 @@
             "cart": "Einkaufswagen",
             "invoiceLogoURL": "Rechnungslogo URL",
             "invoiceLogoURLDetails": "URL für ein Logo, welches auf der Rechnung angezeigt wird.",
+            "invoiceAccentColor": "Rechnungs-Akzentfarbe",
+            "invoiceAccentColorDescription": "Akzentfarbe für Überschriften, Tabellenköpfe und Summen auf der Rechnung.",
             "couponCode": "Gutscheincode",
             "tax": "Mehrwertsteuer",
             "taxRules": "Mehrwertsteuer Regeln",
