@@ -970,6 +970,11 @@
     "_forum": {
         "welcomeToForum": "Welcome to the Forum",
         "forum": "Forum",
+        "subforum": "Subforum",
+        "manageForum": "Manage Forum",
+        "manageCategories": "Manage Categories",
+        "addSubforum": "Add Subforum",
+        "editSubforum": "Edit Subforum",
         "manageTopicCategories": "Manage Topic Categories",
         "addThread": "Add Thread",
         "addCategory": "Add Category",

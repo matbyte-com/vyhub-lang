@@ -1028,7 +1028,12 @@
             "banned": "Jste zabanováni na fóru a nemůžete vytvářet nová vlákna ani příspěvky."
         },
         "moveThread": "Přesunout vlákno",
-        "selectDestinationTopic": "Vyberte cílové téma"
+        "selectDestinationTopic": "Vyberte cílové téma",
+        "subforum": "Podfórum",
+        "manageForum": "Spravovat fórum",
+        "manageCategories": "Spravovat kategorie",
+        "addSubforum": "Přidat podfórum",
+        "editSubforum": "Upravit podfórum"
     },
     "_advert": {
         "title": "Reklamy",

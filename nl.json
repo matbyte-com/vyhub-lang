@@ -827,7 +827,12 @@
             "banned": "Je bent verbannen van het forum en kunt geen nieuwe threads of berichten aanmaken."
         },
         "moveThread": "Onderwerp verplaatsen",
-        "selectDestinationTopic": "Selecteer bestemmingsonderwerp"
+        "selectDestinationTopic": "Selecteer bestemmingsonderwerp",
+        "subforum": "Subforum",
+        "manageForum": "Forum beheren",
+        "manageCategories": "Categorieën beheren",
+        "addSubforum": "Subforum toevoegen",
+        "editSubforum": "Subforum bewerken"
     },
     "apiKey": "API sleutel",
     "finished": "Afgerond",

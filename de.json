@@ -1172,6 +1172,11 @@
     "flags": "Flaggen",
     "_forum": {
         "addThread": "Neue Diskussion",
+        "subforum": "Unterforum",
+        "manageForum": "Forum verwalten",
+        "manageCategories": "Kategorien verwalten",
+        "addSubforum": "Unterforum hinzufügen",
+        "editSubforum": "Unterforum bearbeiten",
         "addCategory": "Kategorie erstellen",
         "deleteCategory": "Kategorie löschen",
         "locked": "Geschlossen",

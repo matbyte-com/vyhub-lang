@@ -1185,7 +1185,12 @@
         "topicAdminGroup": "Groupes Administrateur du Topic",
         "opened": "Ouvert",
         "moveThread": "Déplacer le sujet",
-        "selectDestinationTopic": "Sélectionner le sujet de destination"
+        "selectDestinationTopic": "Sélectionner le sujet de destination",
+        "subforum": "Sous-forum",
+        "manageForum": "Gérer le forum",
+        "manageCategories": "Gérer les catégories",
+        "addSubforum": "Ajouter un sous-forum",
+        "editSubforum": "Modifier le sous-forum"
     },
     "_invoice": {
         "invoice": "Facture",

@@ -1028,7 +1028,12 @@
             "oldThread": "Este hilo tiene más de 3 meses. Considera crear un hilo nuevo, ya que este podría estar desactualizado.",
             "closedThread": "Estás a punto de responder a un hilo cerrado.",
             "banned": "Estás baneado del foro y no puedes crear nuevos hilos ni publicaciones."
-        }
+        },
+        "subforum": "Subforo",
+        "manageForum": "Gestionar foro",
+        "manageCategories": "Gestionar categorías",
+        "addSubforum": "Añadir subforo",
+        "editSubforum": "Editar subforo"
     },
     "_advert": {
         "title": "Anuncios",

@@ -1028,7 +1028,12 @@
             "banned": "Sei bannato dal forum e non puoi creare nuove discussioni o post."
         },
         "moveThread": "Sposta discussione",
-        "selectDestinationTopic": "Seleziona argomento di destinazione"
+        "selectDestinationTopic": "Seleziona argomento di destinazione",
+        "subforum": "Sottoforum",
+        "manageForum": "Gestisci forum",
+        "manageCategories": "Gestisci categorie",
+        "addSubforum": "Aggiungi sottoforum",
+        "editSubforum": "Modifica sottoforum"
     },
     "_advert": {
         "title": "Annunci",

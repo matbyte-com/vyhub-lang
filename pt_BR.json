@@ -760,7 +760,12 @@
             "banned": "Você está banido do fórum e não pode criar novos tópicos ou posts."
         },
         "moveThread": "Mover tópico",
-        "selectDestinationTopic": "Selecionar tópico de destino"
+        "selectDestinationTopic": "Selecionar tópico de destino",
+        "subforum": "Subfórum",
+        "manageForum": "Gerenciar fórum",
+        "manageCategories": "Gerenciar categorias",
+        "addSubforum": "Adicionar subfórum",
+        "editSubforum": "Editar subfórum"
     },
     "_faq": {
         "addQuestionDialog": "Adicionar pergunta",

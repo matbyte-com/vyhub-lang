@@ -780,7 +780,12 @@
             "banned": "Forumdan banlandınız ve yeni konu veya gönderi oluşturamazsınız."
         },
         "moveThread": "Konuyu Taşı",
-        "selectDestinationTopic": "Hedef konuyu seçin"
+        "selectDestinationTopic": "Hedef konuyu seçin",
+        "subforum": "Alt forum",
+        "manageForum": "Forumu yönet",
+        "manageCategories": "Kategorileri yönet",
+        "addSubforum": "Alt forum ekle",
+        "editSubforum": "Alt forumu düzenle"
     },
     "_home": {
         "messageSubject": "Konu",

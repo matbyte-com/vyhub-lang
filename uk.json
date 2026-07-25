@@ -991,7 +991,12 @@
             "banned": "Вас забанено на форумі, тож ви не можете створювати нові теми чи дописи."
         },
         "moveThread": "Перемістити тему",
-        "selectDestinationTopic": "Виберіть тему призначення"
+        "selectDestinationTopic": "Виберіть тему призначення",
+        "subforum": "Підфорум",
+        "manageForum": "Керувати форумом",
+        "manageCategories": "Керувати категоріями",
+        "addSubforum": "Додати підфорум",
+        "editSubforum": "Редагувати підфорум"
     },
     "_advert": {
         "title": "Оголошення",
