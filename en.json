@@ -67,7 +67,7 @@
     },
     "_dashboard": {
         "labels": {
-            "linkNewAccount": "link new Account",
+            "linkNewAccount": "Link Account",
             "unlinkAccount": "Unlink Account",
             "unlinkAccountWarning": "Deleting a user link will unlink the accounts. Admin-Status, Bans, Warnings, Purchases, Applied-Packets and Credits are affected by this and might not be handled the way you expect it. Check them afterwards to make sure everything is alright.",
             "activeProperties": "Active Properties",
