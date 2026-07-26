@@ -129,6 +129,8 @@
         "labels": {
             "taxAllowUnknown": "Erlaube Käufe aus Ländern ohne gesetzte Mehrwertsteuerregel.",
             "donationGoal": "Spendenziel",
+            "topDonators": "Top-Spender",
+            "lastDonations": "Letzte Spenden",
             "perMonth": "pro Monat",
             "enableDonationGoal": "Spendenziel aktivieren",
             "cancelPurchase": "Kauf abbrechen",
@@ -933,6 +935,7 @@
     "delete": "Löschen",
     "color": "Farbe",
     "category": "Kategorie",
+    "checkout": "Kasse",
     "packet": "Paket",
     "price": "Preis",
     "address": "Adresse",
