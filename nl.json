@@ -648,6 +648,8 @@
         },
         "matchAll": "Aan alle voldoen",
         "matchAny": "Aan een voldoen",
+        "and": "EN",
+        "or": "OF",
         "noConditions": "Nog geen voorwaarden. Voeg hieronder een vereiste of groep toe.",
         "addCondition": "Voorwaarde toevoegen",
         "addGroup": "Groep toevoegen",

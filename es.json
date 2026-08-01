@@ -703,6 +703,8 @@
         },
         "matchAll": "Cumplir todos",
         "matchAny": "Cumplir cualquiera",
+        "and": "Y",
+        "or": "O",
         "noConditions": "Aún no hay condiciones. Añade un requisito o grupo abajo.",
         "addCondition": "Añadir condición",
         "addGroup": "Añadir grupo",

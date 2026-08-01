@@ -464,6 +464,8 @@
         },
         "matchAll": "Soddisfa tutti",
         "matchAny": "Soddisfa uno qualsiasi",
+        "and": "E",
+        "or": "O",
         "noConditions": "Ancora nessuna condizione. Aggiungi un requisito o un gruppo qui sotto.",
         "addCondition": "Aggiungi condizione",
         "addGroup": "Aggiungi gruppo",

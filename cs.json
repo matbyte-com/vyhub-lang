@@ -703,6 +703,8 @@
         },
         "matchAll": "Splnit vše",
         "matchAny": "Splnit libovolné",
+        "and": "A",
+        "or": "NEBO",
         "noConditions": "Zatím žádné podmínky. Přidejte níže požadavek nebo skupinu.",
         "addCondition": "Přidat podmínku",
         "addGroup": "Přidat skupinu",

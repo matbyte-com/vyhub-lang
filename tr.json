@@ -856,6 +856,8 @@
         },
         "matchAll": "Tümünü karşıla",
         "matchAny": "Herhangi birini karşıla",
+        "and": "VE",
+        "or": "VEYA",
         "noConditions": "Henüz koşul yok. Aşağıdan bir gereksinim veya grup ekleyin.",
         "addCondition": "Koşul ekle",
         "addGroup": "Grup ekle",

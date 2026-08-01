@@ -957,6 +957,8 @@
         },
         "matchAll": "Atender a todos",
         "matchAny": "Atender a qualquer",
+        "and": "E",
+        "or": "OU",
         "noConditions": "Ainda não há condições. Adicione um requisito ou grupo abaixo.",
         "addCondition": "Adicionar condição",
         "addGroup": "Adicionar grupo",

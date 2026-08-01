@@ -608,6 +608,8 @@
         },
         "matchAll": "Tout remplir",
         "matchAny": "Remplir au moins un",
+        "and": "ET",
+        "or": "OU",
         "noConditions": "Aucune condition pour l'instant. Ajoutez une exigence ou un groupe ci-dessous.",
         "addCondition": "Ajouter une condition",
         "addGroup": "Ajouter un groupe",

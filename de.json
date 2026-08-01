@@ -832,6 +832,8 @@
         },
         "matchAll": "Alle erfüllen",
         "matchAny": "Beliebige erfüllen",
+        "and": "UND",
+        "or": "ODER",
         "noConditions": "Noch keine Bedingungen. Füge unten eine Anforderung oder Gruppe hinzu.",
         "addCondition": "Bedingung hinzufügen",
         "addGroup": "Gruppe hinzufügen",
