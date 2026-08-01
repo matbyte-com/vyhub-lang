@@ -650,6 +650,7 @@
     },
     "_requirement": {
         "addRequirement": "Requirement",
+        "editRequirement": "Edit Requirement",
         "requirementType": "Type",
         "requirementOperator": "Operator",
         "permissionLevel": "Permission Level",
