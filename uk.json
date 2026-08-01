@@ -279,7 +279,7 @@
         "purchaseStatus": {
             "cancelled": "Скасовано",
             "revoked": "Анульовано",
-            "recurring": "Повторення",
+            "recurring": "Підписка",
             "enabled": "Активно",
             "finished": "Завершено",
             "refunded": "Повернуто",

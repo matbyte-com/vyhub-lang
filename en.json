@@ -315,7 +315,7 @@
             "finished": "Finished",
             "refunded": "Refunded",
             "revoked": "Revoked",
-            "recurring": "Recurring",
+            "recurring": "Subscription",
             "enabled": "Active",
             "disabled": "Expired"
         }

@@ -313,7 +313,7 @@
             "finished": "Завершено",
             "refunded": "Возвращено",
             "revoked": "Отозвано",
-            "recurring": "Повторяющийся",
+            "recurring": "Подписка",
             "enabled": "Активен",
             "disabled": "Истёк"
         }

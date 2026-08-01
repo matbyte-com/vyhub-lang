@@ -262,7 +262,7 @@
             "cancelled": "Cancelado",
             "finished": "Concluído",
             "refunded": "Restituído",
-            "recurring": "Recorrente",
+            "recurring": "Assinatura",
             "enabled": "Ativo",
             "revoked": "Revogado",
             "disabled": "Expirado"

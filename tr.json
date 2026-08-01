@@ -350,7 +350,7 @@
         },
         "purchaseStatus": {
             "disabled": "Süresi dolmuş",
-            "recurring": "Yinelenen",
+            "recurring": "Abonelik",
             "enabled": "Etkin",
             "cancelled": "İptal edildi",
             "finished": "Bitmiş",

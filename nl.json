@@ -286,7 +286,7 @@
             "finished": "Afgerond",
             "refunded": "Terugbetaald",
             "revoked": "Terug getrokken",
-            "recurring": "Terugkerend",
+            "recurring": "Abonnement",
             "enabled": "Actief",
             "disabled": "Verlopen"
         },

@@ -898,7 +898,7 @@
             "finished": "Completato",
             "refunded": "Rimborsato",
             "revoked": "Revocato",
-            "recurring": "Ricorrente",
+            "recurring": "Abbonamento",
             "enabled": "Attivo",
             "disabled": "Scaduto"
         }
