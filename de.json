@@ -17,6 +17,11 @@
         "user_warned": "<red>%s</red> wurde von <green>%s</green> verwarnt. Grund: <green>%s</green>",
         "deleted_self": "Eine deiner Verwarnungen wurde gelöscht. Du kannst deiner Verwarnungen unter !dashboard sehen."
     },
+    "welcome": {
+        "warnings": "Du hast <red>%i</red> Verwarnungen, <red>%i</red> davon sind aktiv. Du kannst sie dir mit <green>%s</green> ansehen.",
+        "packet_expires": "Dein Paket <green>%s</green> läuft in <green>%i</green> Tagen ab.",
+        "profile": "Du kannst dein VyHub Profil mit <green>%s</green> öffnen."
+    },
     "ban": {
         "status_changed": "Ban Status von %s erfolgreich auf %s gesetzt.",
         "user_banned": "<red>%s</red> wurde von <green>%s</green> für <red>%s</red> vom Server gebannt. Grund: <green>%s</green>"

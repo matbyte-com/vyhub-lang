@@ -17,6 +17,11 @@
         "deleted_self": "One of your warnings has been deleted. Check your warnings with !dashboard.",
         "received": "You have received a warning by <green>%s</green>: <red>%s</red>"
     },
+    "welcome": {
+        "warnings": "You have <red>%i</red> warnings, <red>%i</red> of them are active. You can see them with <green>%s</green>.",
+        "packet_expires": "Your package <green>%s</green> expires in <green>%i</green> days.",
+        "profile": "You can open your VyHub profile with <green>%s</green>."
+    },
     "ban": {
         "status_changed": "Successfully set ban status of %s to %s.",
         "user_banned": "<red>%s</red> has been banned by <green>%s</green> for <red>%s</red>. Reason: <green>%s</green>"

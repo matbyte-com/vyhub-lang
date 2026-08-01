@@ -17,6 +17,11 @@
         "cmd_help": "<red>Joueur invalide !</red> Utilisation : <green>!warn joueur raison</green>",
         "received": "Vous avez reçu un avertissement de <green>%s</green> : <red>%s</red>"
     },
+    "welcome": {
+        "warnings": "Vous avez <red>%i</red> avertissements, dont <red>%i</red> actifs. Vous pouvez les consulter avec <green>%s</green>.",
+        "packet_expires": "Votre forfait <green>%s</green> expire dans <green>%i</green> jours.",
+        "profile": "Vous pouvez ouvrir votre profil VyHub avec <green>%s</green>."
+    },
     "ban": {
         "status_changed": "Le statut de bannissement de %s a été défini avec succès sur %s.",
         "user_banned": "<red>%s</red> a été banni par <green>%s</green> pour <red>%s</red>. Raison : <green>%s</green>"
