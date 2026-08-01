@@ -679,6 +679,17 @@
             "DATE": "Date",
             "USER_SELF": "User Self"
         },
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Checks whether the user is (or is not) a member of a specific group.",
+            "PERMISSION_LEVEL": "Compares the user's global permission level against a value.",
+            "PERMISSION_LEVEL_SB": "Compares the user's permission level within a specific server bundle against a value.",
+            "PROPERTY": "Checks whether the user has (or does not have) a specific property.",
+            "PROPERTY_SB": "Checks whether the user has (or does not have) a property within a specific server bundle.",
+            "USER_ATTRIBUTE": "Compares a named user attribute against a value.",
+            "PACKET": "Checks the activation state of a specific packet for the user.",
+            "DATE": "Compares the current date against a fixed date.",
+            "USER_SELF": "Checks whether the requirement is being evaluated for the user themselves."
+        },
         "operators": {
             "EQ": "Equal",
             "NEQ": "Not Equal",
@@ -696,6 +707,8 @@
         },
         "matchAll": "Match all",
         "matchAny": "Match any",
+        "and": "AND",
+        "or": "OR",
         "noConditions": "No conditions yet. Add a requirement or group below.",
         "addCondition": "Add condition",
         "addGroup": "Add group",

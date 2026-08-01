@@ -778,6 +778,16 @@
     "_requirement": {
         "addRequirement": "Anforderung",
         "requirementType": "Typ",
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Prüft, ob der Benutzer Mitglied einer bestimmten Gruppe ist (oder nicht).",
+            "PERMISSION_LEVEL": "Vergleicht die globale Berechtigungsstufe des Benutzers mit einem Wert.",
+            "PERMISSION_LEVEL_SB": "Vergleicht die Berechtigungsstufe des Benutzers innerhalb eines bestimmten Serverbundles mit einem Wert.",
+            "PROPERTY": "Prüft, ob der Benutzer eine bestimmte Eigenschaft hat (oder nicht).",
+            "PROPERTY_SB": "Prüft, ob der Benutzer eine Eigenschaft innerhalb eines bestimmten Serverbundles hat (oder nicht).",
+            "USER_ATTRIBUTE": "Vergleicht ein benanntes Benutzerattribut mit einem Wert.",
+            "PACKET": "Prüft den Aktivierungsstatus eines bestimmten Pakets für den Benutzer.",
+            "DATE": "Vergleicht das aktuelle Datum mit einem festen Datum."
+        },
         "operators": {
             "EQ": "Gleich",
             "ACTIVE": "Aktiv",

@@ -572,6 +572,16 @@
             "DATE": "Date"
         },
         "date": "Date",
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Vérifie si l'utilisateur est (ou non) membre d'un groupe spécifique.",
+            "PERMISSION_LEVEL": "Compare le niveau d'autorisation global de l'utilisateur à une valeur.",
+            "PERMISSION_LEVEL_SB": "Compare le niveau d'autorisation de l'utilisateur au sein d'un bundle de serveurs spécifique à une valeur.",
+            "PROPERTY": "Vérifie si l'utilisateur possède (ou non) une propriété spécifique.",
+            "PROPERTY_SB": "Vérifie si l'utilisateur possède (ou non) une propriété au sein d'un bundle de serveurs spécifique.",
+            "USER_ATTRIBUTE": "Compare un attribut utilisateur nommé à une valeur.",
+            "PACKET": "Vérifie l'état d'activation d'un paquet spécifique pour l'utilisateur.",
+            "DATE": "Compare la date actuelle à une date fixe."
+        },
         "operators": {
             "EQ": "Égal",
             "NEQ": "Inégal",

@@ -801,6 +801,16 @@
     },
     "_requirement": {
         "requirementType": "Tür",
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Kullanıcının belirli bir grubun üyesi olup olmadığını kontrol eder.",
+            "PERMISSION_LEVEL": "Kullanıcının genel yetki seviyesini bir değerle karşılaştırır.",
+            "PERMISSION_LEVEL_SB": "Kullanıcının belirli bir sunucu paketindeki yetki seviyesini bir değerle karşılaştırır.",
+            "PROPERTY": "Kullanıcının belirli bir özelliğe sahip olup olmadığını kontrol eder.",
+            "PROPERTY_SB": "Kullanıcının belirli bir sunucu paketinde bir özelliğe sahip olup olmadığını kontrol eder.",
+            "USER_ATTRIBUTE": "Adlandırılmış bir kullanıcı özniteliğini bir değerle karşılaştırır.",
+            "PACKET": "Kullanıcı için belirli bir paketin etkinleşme durumunu kontrol eder.",
+            "DATE": "Geçerli tarihi sabit bir tarihle karşılaştırır."
+        },
         "operators": {
             "LT": "Daha Az",
             "GT": "Daha büyük",

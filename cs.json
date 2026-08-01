@@ -676,6 +676,16 @@
             "DATE": "Datum",
             "USER_SELF": "Uživatel sám"
         },
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Kontroluje, zda je uživatel členem určité skupiny (nebo není).",
+            "PERMISSION_LEVEL": "Porovnává globální úroveň oprávnění uživatele s hodnotou.",
+            "PERMISSION_LEVEL_SB": "Porovnává úroveň oprávnění uživatele v rámci určitého balíčku serverů s hodnotou.",
+            "PROPERTY": "Kontroluje, zda má uživatel určitou vlastnost (nebo nemá).",
+            "PROPERTY_SB": "Kontroluje, zda má uživatel vlastnost v rámci určitého balíčku serverů (nebo nemá).",
+            "USER_ATTRIBUTE": "Porovnává pojmenovaný atribut uživatele s hodnotou.",
+            "PACKET": "Kontroluje stav aktivace určitého balíčku pro uživatele.",
+            "DATE": "Porovnává aktuální datum s pevným datem."
+        },
         "operators": {
             "EQ": "Rovná se",
             "NEQ": "Nerovná se",

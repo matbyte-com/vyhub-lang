@@ -921,6 +921,16 @@
             "PACKET": "Pacote",
             "USER_SELF": "Auto Usuário"
         },
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Verifica se o usuário é (ou não) membro de um grupo específico.",
+            "PERMISSION_LEVEL": "Compara o nível de permissão global do usuário com um valor.",
+            "PERMISSION_LEVEL_SB": "Compara o nível de permissão do usuário dentro de um pacote de servidores específico com um valor.",
+            "PROPERTY": "Verifica se o usuário tem (ou não) uma propriedade específica.",
+            "PROPERTY_SB": "Verifica se o usuário tem (ou não) uma propriedade dentro de um pacote de servidores específico.",
+            "USER_ATTRIBUTE": "Compara um atributo de usuário nomeado com um valor.",
+            "PACKET": "Verifica o estado de ativação de um pacote específico para o usuário.",
+            "DATE": "Compara a data atual com uma data fixa."
+        },
         "operators": {
             "EQ": "Igual",
             "NEQ": "Não Igual",

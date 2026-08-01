@@ -427,6 +427,16 @@
             "PERMISSION_LEVEL_SB": "Livello di Permesso (nel Pacchetto Server)",
             "USER_SELF": "Utente stesso"
         },
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Verifica se l'utente è (o non è) membro di un gruppo specifico.",
+            "PERMISSION_LEVEL": "Confronta il livello di autorizzazione globale dell'utente con un valore.",
+            "PERMISSION_LEVEL_SB": "Confronta il livello di autorizzazione dell'utente all'interno di un bundle di server specifico con un valore.",
+            "PROPERTY": "Verifica se l'utente ha (o non ha) una proprietà specifica.",
+            "PROPERTY_SB": "Verifica se l'utente ha (o non ha) una proprietà all'interno di un bundle di server specifico.",
+            "USER_ATTRIBUTE": "Confronta un attributo utente denominato con un valore.",
+            "PACKET": "Verifica lo stato di attivazione di un pacchetto specifico per l'utente.",
+            "DATE": "Confronta la data corrente con una data fissa."
+        },
         "operators": {
             "NEQ": "Impari",
             "GEQ": "Maggiore Uguale a",

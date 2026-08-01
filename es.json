@@ -676,6 +676,16 @@
             "DATE": "Fecha",
             "USER_SELF": "El propio usuario"
         },
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Comprueba si el usuario es (o no) miembro de un grupo específico.",
+            "PERMISSION_LEVEL": "Compara el nivel de permiso global del usuario con un valor.",
+            "PERMISSION_LEVEL_SB": "Compara el nivel de permiso del usuario dentro de un paquete de servidores específico con un valor.",
+            "PROPERTY": "Comprueba si el usuario tiene (o no) una propiedad específica.",
+            "PROPERTY_SB": "Comprueba si el usuario tiene (o no) una propiedad dentro de un paquete de servidores específico.",
+            "USER_ATTRIBUTE": "Compara un atributo de usuario con nombre con un valor.",
+            "PACKET": "Comprueba el estado de activación de un paquete específico para el usuario.",
+            "DATE": "Compara la fecha actual con una fecha fija."
+        },
         "operators": {
             "EQ": "Igual",
             "NEQ": "Distinto",

@@ -612,6 +612,16 @@
         "attributeName": "attribuut naam",
         "attributeValue": "Attribuutwaarde",
         "date": "Datum",
+        "typeDescriptions": {
+            "GROUP_MEMBER": "Controleert of de gebruiker lid is (of niet) van een specifieke groep.",
+            "PERMISSION_LEVEL": "Vergelijkt het globale machtigingsniveau van de gebruiker met een waarde.",
+            "PERMISSION_LEVEL_SB": "Vergelijkt het machtigingsniveau van de gebruiker binnen een specifieke serverbundel met een waarde.",
+            "PROPERTY": "Controleert of de gebruiker een specifieke eigenschap heeft (of niet).",
+            "PROPERTY_SB": "Controleert of de gebruiker een eigenschap heeft binnen een specifieke serverbundel (of niet).",
+            "USER_ATTRIBUTE": "Vergelijkt een benoemd gebruikersattribuut met een waarde.",
+            "PACKET": "Controleert de activeringsstatus van een specifiek pakket voor de gebruiker.",
+            "DATE": "Vergelijkt de huidige datum met een vaste datum."
+        },
         "operators": {
             "NEQ": "Niet gelijk",
             "LEQ": "Minder gelijk dan",
