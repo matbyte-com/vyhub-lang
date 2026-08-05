@@ -3,7 +3,9 @@
         "cancelSuccess": "Successfully cancelled",
         "createSuccess": "Successfully created",
         "editSuccess": "Successfully edited",
-        "deleteSuccess": "Successfully deleted"
+        "deleteSuccess": "Successfully deleted",
+        "addSuccess": "Successfully added.",
+        "removeSuccess": "Successfully removed."
     },
     "_settings": {
         "title": "Settings",
@@ -311,7 +313,8 @@
             "pasteConfigBlob": "Paste config string into the setup script",
             "pasteConfigBlobDescription": "When ./setup.sh asks for the config string, paste the value below. It contains all instance env variables and the registry credentials required to provision your server.",
             "upgradeToLifetime": "Upgrade to Lifetime",
-            "forEur": "For {amount} €"
+            "forEur": "For {amount} €",
+            "cname": "CNAME"
         },
         "instanceName": "Name of Instance",
         "cnamePointingAt": "CNAME pointing at",
@@ -443,7 +446,8 @@
                 "username_not_allowed": "Username Not Allowed",
                 "email_taken": "Email is already taken. Please Log in.",
                 "invalid_request": "Invalid Password",
-                "captcha_low": "Please Complete Captcha"
+                "captcha_low": "Please Complete Captcha",
+                "captcha_err": "Captcha verification failed. Please try again."
             }
         },
         "contact": {
@@ -501,7 +505,10 @@
     },
     "_discount": {
         "labels": {
-            "newOrInactiveInstanceOnly": "Only for new or inactive instances"
+            "newOrInactiveInstanceOnly": "Only for new or inactive instances",
+            "allPackets": "Usable for all packets",
+            "create": "Create Discount",
+            "edit": "Edit Discount"
         }
     },
     "_shop": {
@@ -551,7 +558,8 @@
             "pleaseWait": "Please wait...",
             "redirectDescription": "You will be redirected to the payment provider",
             "varies": "Varies",
-            "oneTime": "One-Time"
+            "oneTime": "One-Time",
+            "net": "net"
         },
         "messages": {
             "confirmCreditsPayment": "Please confirm the payment of {credits} credits.",
@@ -585,7 +593,8 @@
             "selectEmailFirst": "Please update your email address first",
             "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone.",
             "variablePricePaymentSuccess": "Payment method registered successfully for future use.",
-            "notEnoughLiquidityForAddons": "You need a positive VyHub Balance or enabled Auto-Charge to activate Add-ons."
+            "notEnoughLiquidityForAddons": "You need a positive VyHub Balance or enabled Auto-Charge to activate Add-ons.",
+            "priceMustBeHigherThanMin": "The price must be higher than the minimum price."
         },
         "purchaseStatus": {
             "open": "Open",
@@ -661,7 +670,11 @@
             "edit": "Edit Payment Gateway",
             "paysafecard": "Paysafecard",
             "coupon": "Coupon (manual confirmation)",
-            "webhookURL": "Webhook URL"
+            "webhookURL": "Webhook URL",
+            "acceptPending": "Accept pending payments",
+            "acceptPendingDescription": "Some payment methods (e.g. SEPA Direct Debit, SOFORT, ...) take several days until completed. If this option is enabled, purchases paid with these methods are finished directly after completing the checkout process. There is a small chance that the payment fails afterwards.",
+            "clientCertDescription": "A client certificate and key is used as authentication method for the paysafecard API. Contact the paysafecard support to get one.",
+            "doNotAcceptPending": "Do not accept pending payments"
         },
         "messages": {
             "createSuccess": "Payment gateway successfully created.",
@@ -782,7 +795,9 @@
         "messages": {
             "linkCopied": "Link copied to clipboard.",
             "payoutSuccess": "Payout successfully initiated."
-        }
+        },
+        "amount": "Amount",
+        "paypalEmail": "PayPal Email"
     },
     "_features": {
         "allFeatures": "All Features",
@@ -1211,7 +1226,8 @@
             "envVars": "Environment Variables"
         },
         "messages": {
-            "deleteWarning": "Are you sure you want to delete this packet? This action cannot be undone."
+            "deleteWarning": "Are you sure you want to delete this packet? This action cannot be undone.",
+            "customPricePossible": "The price for this packet can be customized."
         }
     },
     "_packetCategory": {
@@ -1238,5 +1254,41 @@
     "credits": "Credits",
     "flags": "Flags",
     "maxUsages": "Max Usages",
-    "maxUsagesPerUser": "Max Usages Per User"
+    "maxUsagesPerUser": "Max Usages Per User",
+    "active": "Active",
+    "all": "All",
+    "automatic": "Automatic",
+    "begin": "Begin",
+    "clientCert": "Client Certificate",
+    "clientKey": "Client Key",
+    "code": "Code",
+    "discount": "Discount",
+    "download": "Download",
+    "environment": "Environment",
+    "inactive": "Inactive",
+    "noDataAvailable": "No data available.",
+    "none": "None",
+    "oneTime": "One-Time",
+    "or": "or",
+    "overview": "Overview",
+    "paymentGateways": "Payment Gateways",
+    "paymentMethods": "Payment Methods",
+    "perDay": "Per day",
+    "perMonth": "Per month",
+    "perYear": "Per year",
+    "percentage": "Percentage",
+    "refresh": "Refresh",
+    "report": "Report",
+    "sales": "Sales",
+    "time": "Time",
+    "total": "Total",
+    "Mails": "Mails",
+    "done": "Done",
+    "footer": {
+        "labels": {
+            "language": "Language"
+        }
+    },
+    "loginRegister": "Login / Register",
+    "recurring": "Recurring"
 }
