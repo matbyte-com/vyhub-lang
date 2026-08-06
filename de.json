@@ -547,7 +547,11 @@
             "newOrInactiveInstanceOnly": "Nur für neue oder inaktive Instanzen",
             "allPackets": "Verwendbar für alle Pakete",
             "create": "Rabatt erstellen",
-            "edit": "Rabatt bearbeiten"
+            "edit": "Rabatt bearbeiten",
+            "removeCode": "Code entfernen"
+        },
+        "messages": {
+            "codeApplied": "Rabattcode \"{name}\" angewendet"
         }
     },
     "_shop": {
@@ -564,6 +568,7 @@
             "paymentId": "Zahlungs ID",
             "paymentPeriod": "Zahlungszeitraum",
             "addToCart": "Zum Einkaufswagen hinzufügen",
+            "included": "Inklusive",
             "total": "Gesamt",
             "credits": "Credits",
             "purchaseNow": "Jetzt kaufen",
@@ -723,7 +728,8 @@
             "topUpNow": "Jetzt aufladen",
             "topUpNeeded": "Aufladung benötigt",
             "paymentPlan": "Zahlungs-Plan",
-            "license": "Lizenz"
+            "license": "Lizenz",
+            "createInstance": "Instanz erstellen"
         },
         "messages": {
             "customDomainDescriptionSelfhosting": "Du musst eine Domain besitzen und den DNS-A/AAAA-Eintrag auf den Server verweisen, auf dem VyHub gehostet wird.",

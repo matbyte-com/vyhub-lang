@@ -465,6 +465,7 @@
             "paymentId": "ID de paiement",
             "paymentPeriod": "Période de paiement",
             "addToCart": "Ajouter au panier",
+            "included": "Inclus",
             "total": "Total",
             "businessAddress": "Adresse d'affaires",
             "credits": "Crédits",
@@ -796,7 +797,8 @@
             "topUpNow": "Recharger maintenant",
             "topUpNeeded": "Rechargement nécessaire",
             "paymentPlan": "Plan de paiement",
-            "license": "Licence"
+            "license": "Licence",
+            "createInstance": "Créer une instance"
         },
         "noLicensesAvailable": "Aucune licence n'est disponible pour le moment. Veuillez réessayer plus tard.",
         "noLicenseSelected": "Veuillez sélectionner une licence pour continuer."
@@ -1114,7 +1116,11 @@
             "allPackets": "Utilisable pour tous les paquets",
             "create": "Créer une remise",
             "edit": "Modifier la remise",
-            "newOrInactiveInstanceOnly": "Uniquement pour les instances nouvelles ou inactives"
+            "newOrInactiveInstanceOnly": "Uniquement pour les instances nouvelles ou inactives",
+            "removeCode": "Supprimer le code"
+        },
+        "messages": {
+            "codeApplied": "Code de remise \"{name}\" appliqué"
         }
     },
     "_packet": {

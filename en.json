@@ -218,7 +218,8 @@
             "topUpNow": "Top up now",
             "topUpNeeded": "Top up needed",
             "paymentPlan": "Payment Plan",
-            "license": "License"
+            "license": "License",
+            "createInstance": "Create instance"
         },
         "title": "Create New Instance",
         "instanceNameAndDomain": "Name and Domain",
@@ -508,7 +509,11 @@
             "newOrInactiveInstanceOnly": "Only for new or inactive instances",
             "allPackets": "Usable for all packets",
             "create": "Create Discount",
-            "edit": "Edit Discount"
+            "edit": "Edit Discount",
+            "removeCode": "Remove code"
+        },
+        "messages": {
+            "codeApplied": "Discount code \"{name}\" applied"
         }
     },
     "_shop": {
@@ -528,6 +533,7 @@
             "paymentId": "Payment ID",
             "paymentPeriod": "Payment Period",
             "addToCart": "Add to cart",
+            "included": "Included",
             "total": "Total",
             "totalMonthly": "Monthly Total",
             "totalOneTime": "One-Time Total",
