@@ -507,6 +507,7 @@
     "_discount": {
         "labels": {
             "newOrInactiveInstanceOnly": "Only for new or inactive instances",
+            "fullPriceOnUpgrade": "Count full price on upgrade",
             "allPackets": "Usable for all packets",
             "create": "Create Discount",
             "edit": "Edit Discount",

@@ -545,6 +545,7 @@
     "_discount": {
         "labels": {
             "newOrInactiveInstanceOnly": "Nur für neue oder inaktive Instanzen",
+            "fullPriceOnUpgrade": "Vollen Preis beim Upgrade anrechnen",
             "allPackets": "Verwendbar für alle Pakete",
             "create": "Rabatt erstellen",
             "edit": "Rabatt bearbeiten",

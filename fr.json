@@ -1116,6 +1116,7 @@
             "allPackets": "Utilisable pour tous les paquets",
             "create": "Créer une remise",
             "edit": "Modifier la remise",
+            "fullPriceOnUpgrade": "Compter le prix total lors de la mise à niveau",
             "newOrInactiveInstanceOnly": "Uniquement pour les instances nouvelles ou inactives",
             "removeCode": "Supprimer le code"
         },
