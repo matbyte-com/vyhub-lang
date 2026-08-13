@@ -1,4 +1,17 @@
 {
+    "_withdrawal": {
+        "title": "Droit de rétractation",
+        "subject": "Demande de rétractation",
+        "subtitle": "Utilisez ce formulaire pour déclarer la rétractation de votre achat. Nous traiterons votre demande dès que possible.",
+        "name": "Nom",
+        "email": "E-mail",
+        "purchaseId": "ID d'achat (optionnel)",
+        "purchaseDate": "Date d'achat",
+        "comment": "Commentaire",
+        "note": "Votre rétractation sera examinée après l'envoi de ce formulaire. Veuillez noter que tous les achats ne sont pas éligibles à la rétractation.",
+        "moreInfo": "Pour plus d'informations, consultez notre page sur le droit de rétractation.",
+        "success": "Votre demande de rétractation a été envoyée avec succès."
+    },
     "_settings": {
         "title": "Paramètres",
         "upstreams": {

@@ -1,4 +1,17 @@
 {
+    "_withdrawal": {
+        "title": "Right of Withdrawal",
+        "subject": "Right of Withdrawal Request",
+        "subtitle": "Use this form to declare the withdrawal from your purchase. We will process your request as soon as possible.",
+        "name": "Name",
+        "email": "Email",
+        "purchaseId": "Purchase ID (optional)",
+        "purchaseDate": "Purchase Date",
+        "comment": "Comment",
+        "note": "Your withdrawal will be reviewed after you submit this form. Please note that not all purchases are eligible for withdrawal.",
+        "moreInfo": "For more information, see our Right of Withdrawal page.",
+        "success": "Your withdrawal request has been submitted successfully."
+    },
     "_messages": {
         "cancelSuccess": "Successfully cancelled",
         "createSuccess": "Successfully created",

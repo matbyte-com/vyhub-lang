@@ -1,4 +1,17 @@
 {
+    "_withdrawal": {
+        "title": "Widerruf",
+        "subject": "Widerrufsantrag",
+        "subtitle": "Nutze dieses Formular, um den Widerruf deines Kaufs zu erklären. Wir bearbeiten deine Anfrage so schnell wie möglich.",
+        "name": "Name",
+        "email": "E-Mail",
+        "purchaseId": "Kauf-ID (optional)",
+        "purchaseDate": "Kaufdatum",
+        "comment": "Kommentar",
+        "note": "Dein Widerruf wird nach dem Absenden dieses Formulars geprüft. Bitte beachte, dass nicht alle Käufe widerrufbar sind.",
+        "moreInfo": "Weitere Informationen findest du auf unserer Widerrufsseite.",
+        "success": "Dein Widerruf wurde erfolgreich übermittelt."
+    },
     "_settings": {
         "title": "Einstellungen",
         "upstreams": {
