@@ -203,7 +203,9 @@
             "enableWithdrawalForm": "Widerrufsformular aktivieren",
             "enableWithdrawalFormDesc": "Zeigt ein öffentliches Widerrufsformular, verlinkt im Footer. Benötigt das Ticketsystem, da jede Einreichung als Ticket angelegt wird.",
             "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt.",
-            "sharePacket": "Schau dir das {title} von {store} an! Tolle Vorteile zu einem tollen Preis."
+            "sharePacket": "Schau dir das {title} von {store} an! Tolle Vorteile zu einem tollen Preis.",
+            "enableWithdrawalForm": "Widerrufsformular aktivieren",
+            "enableWithdrawalFormDesc": "Zeigt ein öffentliches Widerrufsformular, verlinkt im Footer. Benötigt das Ticketsystem, da jede Einreichung als Ticket angelegt wird."
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -1425,6 +1427,10 @@
         "email": "E-Mail",
         "text": "Dein Widerruf",
         "textPlaceholder": "Bitte teile uns mit, welchen Kauf du widerrufst und wann du ihn getätigt hast.",
-        "success": "Dein Widerruf wurde übermittelt. Du erhältst in Kürze eine Bestätigung."
+        "success": "Dein Widerruf wurde übermittelt. Du erhältst in Kürze eine Bestätigung.",
+        "purchaseDate": "Kaufdatum",
+        "purchaseId": "Kauf-ID",
+        "comment": "Kommentar",
+        "commentPlaceholder": "Alles Weitere, was du uns zu diesem Widerruf mitteilen möchtest."
     }
 }

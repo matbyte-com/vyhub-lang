@@ -1427,5 +1427,17 @@
         "success": "ur withdrawal has been submitted. You will receive a confirmation shortly."
     },
     "saving": "Saving…",
-    "savedAutomatically": "Changes are saved automatically"
+    "savedAutomatically": "Changes are saved automatically",
+    "_withdrawal": {
+        "title": "Right of Withdrawal",
+        "subtitle": "Use this form to declare the withdrawal of your purchase. We will process your request as soon as possible.",
+        "note": "Submitting this form only declares your withdrawal. It does not replace the other ways of contacting us, and your request will be reviewed afterwards.",
+        "name": "Name",
+        "email": "Email",
+        "purchaseDate": "Purchase date",
+        "purchaseId": "Purchase ID",
+        "comment": "Comment",
+        "commentPlaceholder": "Anything else you would like to tell us about this withdrawal.",
+        "success": "Your withdrawal has been submitted. You will receive a confirmation shortly."
+    }
 }
