@@ -236,7 +236,11 @@
             "showWidgetsOnShopPage": "Zobrazit statistické widgety na stránce obchodu",
             "showWidgetsOnShopPageDesc": "Pokud je zakázáno, povolené widgety (nejlepší dárci, ...) se na stránce obchodu nezobrazují.",
             "purchasesWithoutAddressLimit": "Adresa zákazníka vyžadována u nákupů nad",
-            "purchasesWithoutAddressLimitDescription": "U nákupů s celkovou částkou nižší, než je zde uvedeno, nemusí zákazník uvádět adresu. Platí pouze pro nákupy, které používají výchozí měnu."
+            "purchasesWithoutAddressLimitDescription": "U nákupů s celkovou částkou nižší, než je zde uvedeno, nemusí zákazník uvádět adresu. Platí pouze pro nákupy, které používají výchozí měnu.",
+            "topDonators": "Nejlepší dárci",
+            "lastDonations": "Poslední dary",
+            "enableWithdrawalForm": "Povolit formulář pro odstoupení",
+            "enableWithdrawalFormDesc": "Zobrazí veřejný formulář pro odstoupení, odkazovaný v zápatí. Vyžaduje systém ticketů, protože každé odeslání se zaznamená jako ticket."
         },
         "messages": {
             "confirmCreditsPayment": "Prosím, potvrďte platbu {credits} {credits_display_title}.",
@@ -280,7 +284,8 @@
             "cart_follow_up": "Nenechte si ujít svůj zážitek",
             "notification": "Nové oznámení na {name}",
             "payment_successful": "Platba úspěšná, faktura k dispozici",
-            "subscription_cancelled": "Předplatné zrušeno"
+            "subscription_cancelled": "Předplatné zrušeno",
+            "withdrawal_received": "Obdrželi jsme vaše odstoupení"
         },
         "base": {
             "hello_x": "Ahoj {name}",
@@ -309,6 +314,11 @@
             "product": "Produkt",
             "subscription_id": "ID předplatného",
             "check_status": "Zkontrolujte aktuální stav v {purchase_history}."
+        },
+        "withdrawal_received": {
+            "confirmation": "obdrželi jsme vaše prohlášení o odstoupení dne {received_at}. Tato zpráva potvrzuje jeho přijetí.",
+            "declaration": "Vaše prohlášení",
+            "not_yet_reviewed": "Upozorňujeme, že se jedná pouze o potvrzení přijetí. Zda je odstoupení platné, dosud nebylo posouzeno; v této věci vás budeme kontaktovat samostatně."
         }
     },
     "_search": {
@@ -343,7 +353,9 @@
         "address_required": "Pro tento nákup je vyžadována adresa.",
         "coupon": {
             "not_found": "Tento kód je neplatný."
-        }
+        },
+        "no_purchase_for_email": "Pro tuto e-mailovou adresu jsme nenašli žádný nákup. Použijte adresu, se kterou jste nakupovali, nebo nás kontaktujte přímo.",
+        "withdrawal_form_requires_tickets": "Formulář pro odstoupení zaznamenává každé odeslání jako ticket. Nejprve povolte systém ticketů v obecném nastavení."
     },
     "_user": {
         "messages": {
@@ -684,7 +696,8 @@
             "PROPERTY_SB": "Kontroluje, zda má uživatel vlastnost v rámci určitého balíčku serverů (nebo nemá).",
             "USER_ATTRIBUTE": "Porovnává pojmenovaný atribut uživatele s hodnotou.",
             "PACKET": "Kontroluje stav aktivace určitého balíčku pro uživatele.",
-            "DATE": "Porovnává aktuální datum s pevným datem."
+            "DATE": "Porovnává aktuální datum s pevným datem.",
+            "USER_SELF": "Kontroluje, zda je požadavek vyhodnocován pro samotného uživatele."
         },
         "operators": {
             "EQ": "Rovná se",
@@ -709,7 +722,8 @@
         "addCondition": "Přidat podmínku",
         "addGroup": "Přidat skupinu",
         "missingRequirement": "Chybějící požadavek",
-        "logicHint": "Zkombinujte požadavky pomocí A/NEBO. Použijte skupiny pro vnořené podmínky."
+        "logicHint": "Zkombinujte požadavky pomocí A/NEBO. Použijte skupiny pro vnořené podmínky.",
+        "editRequirement": "Upravit požadavek"
     },
     "_gateway": {
         "labels": {
@@ -811,7 +825,8 @@
         "notificationLink": "Oznámení",
         "serverDashboard": "Nástěnka serveru",
         "faq": "FAQ",
-        "forum": "Fórum"
+        "forum": "Fórum",
+        "withdrawal": "Právo na odstoupení"
     },
     "_warning": {
         "title": "Varování",
@@ -1056,7 +1071,10 @@
         "manageForum": "Spravovat fórum",
         "manageCategories": "Spravovat kategorie",
         "addSubforum": "Přidat podfórum",
-        "editSubforum": "Upravit podfórum"
+        "editSubforum": "Upravit podfórum",
+        "manageTicketCategories": "Spravovat kategorie",
+        "addTicketCategory": "Přidat kategorii",
+        "editTicketCategory": "Upravit kategorii"
     },
     "_advert": {
         "title": "Reklamy",
@@ -1398,5 +1416,18 @@
     "news": "Novinky",
     "deletedUser": "Smazaný uživatel",
     "saving": "Ukládání…",
-    "savedAutomatically": "Změny se ukládají automaticky"
+    "savedAutomatically": "Změny se ukládají automaticky",
+    "checkout": "Pokladna",
+    "_withdrawal": {
+        "title": "Právo na odstoupení",
+        "subtitle": "Pomocí tohoto formuláře oznamte odstoupení od svého nákupu. Vaši žádost zpracujeme co nejdříve.",
+        "note": "Odesláním tohoto formuláře pouze oznamujete své odstoupení. Nenahrazuje ostatní způsoby kontaktu a vaše žádost bude následně posouzena.",
+        "name": "Jméno",
+        "email": "E-mail",
+        "purchaseDate": "Datum nákupu",
+        "purchaseId": "ID nákupu",
+        "comment": "Komentář",
+        "commentPlaceholder": "Cokoli dalšího, co nám chcete k tomuto odstoupení sdělit.",
+        "success": "Vaše odstoupení bylo odesláno. Brzy obdržíte potvrzení."
+    }
 }

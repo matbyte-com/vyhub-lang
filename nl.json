@@ -252,7 +252,11 @@
             "showWidgetsOnShopPage": "Statistiekwidgets weergeven op winkelpagina",
             "showWidgetsOnShopPageDesc": "Indien uitgeschakeld worden de ingeschakelde widgets (topdonateurs, ...) niet weergegeven op de winkelpagina.",
             "purchasesWithoutAddressLimit": "Klantadres vereist voor aankopen van meer dan",
-            "purchasesWithoutAddressLimitDescription": "Voor aankopen met een totaalbedrag lager dan hier opgegeven hoeft de klant geen adres op te geven. Geldt alleen voor aankopen in de standaardvaluta."
+            "purchasesWithoutAddressLimitDescription": "Voor aankopen met een totaalbedrag lager dan hier opgegeven hoeft de klant geen adres op te geven. Geldt alleen voor aankopen in de standaardvaluta.",
+            "topDonators": "Topdonateurs",
+            "lastDonations": "Laatste donaties",
+            "enableWithdrawalForm": "Herroepingsformulier inschakelen",
+            "enableWithdrawalFormDesc": "Toont een openbaar herroepingsformulier, gelinkt in de footer. Vereist het ticketsysteem, omdat elke inzending als ticket wordt vastgelegd."
         },
         "messages": {
             "notEnoughCredits": "U heeft niet genoeg tegoed om deze aankoop te betalen. Kies een andere betaalmethode of koop meer credits.",
@@ -340,7 +344,9 @@
         "title_too_long": "De titel is te lang",
         "invalid_token": "Je aanmeldsessie is verlopen, meld je opnieuw aan.",
         "validation_error": "Validatiefout: {msg}",
-        "address_required": "Voor deze aankoop is een adres vereist."
+        "address_required": "Voor deze aankoop is een adres vereist.",
+        "no_purchase_for_email": "We konden geen aankoop vinden voor dit e-mailadres. Gebruik het adres waarmee je hebt gekocht of neem rechtstreeks contact met ons op.",
+        "withdrawal_form_requires_tickets": "Het herroepingsformulier legt elke inzending vast als ticket. Schakel eerst het ticketsysteem in bij de algemene instellingen."
     },
     "_user": {
         "type": {
@@ -620,7 +626,8 @@
             "PROPERTY_SB": "Controleert of de gebruiker een eigenschap heeft binnen een specifieke serverbundel (of niet).",
             "USER_ATTRIBUTE": "Vergelijkt een benoemd gebruikersattribuut met een waarde.",
             "PACKET": "Controleert de activeringsstatus van een specifiek pakket voor de gebruiker.",
-            "DATE": "Vergelijkt de huidige datum met een vaste datum."
+            "DATE": "Vergelijkt de huidige datum met een vaste datum.",
+            "USER_SELF": "Controleert of de vereiste wordt geëvalueerd voor de gebruiker zelf."
         },
         "operators": {
             "NEQ": "Niet gelijk",
@@ -654,7 +661,8 @@
         "addCondition": "Voorwaarde toevoegen",
         "addGroup": "Groep toevoegen",
         "missingRequirement": "Ontbrekende vereiste",
-        "logicHint": "Combineer je vereisten met EN/OF. Gebruik groepen om voorwaarden te nesten."
+        "logicHint": "Combineer je vereisten met EN/OF. Gebruik groepen om voorwaarden te nesten.",
+        "editRequirement": "Vereiste bewerken"
     },
     "_gateway": {
         "labels": {
@@ -766,7 +774,8 @@
         "faq": "FAQ",
         "forum": "Forum",
         "search": "Gebruikers zoeken",
-        "news": "Nieuws"
+        "news": "Nieuws",
+        "withdrawal": "Herroepingsrecht"
     },
     "_home": {
         "messageSubject": "Onderwerp",
@@ -855,7 +864,10 @@
         "manageForum": "Forum beheren",
         "manageCategories": "Categorieën beheren",
         "addSubforum": "Subforum toevoegen",
-        "editSubforum": "Subforum bewerken"
+        "editSubforum": "Subforum bewerken",
+        "manageTicketCategories": "Categorieën beheren",
+        "addTicketCategory": "Categorie toevoegen",
+        "editTicketCategory": "Categorie bewerken"
     },
     "apiKey": "API sleutel",
     "finished": "Afgerond",
@@ -1238,7 +1250,8 @@
             "cart_follow_up": "Mis je ervaring niet",
             "notification": "Nieuwe melding bij {name}",
             "payment_successful": "Betaling geslaagd, factuur beschikbaar",
-            "subscription_cancelled": "Abonnement geannuleerd"
+            "subscription_cancelled": "Abonnement geannuleerd",
+            "withdrawal_received": "We hebben je herroeping ontvangen"
         },
         "base": {
             "hello_x": "Hallo {name}",
@@ -1267,6 +1280,11 @@
             "product": "Product",
             "subscription_id": "Abonnements-ID",
             "check_status": "Controleer de huidige status in de {purchase_history}."
+        },
+        "withdrawal_received": {
+            "confirmation": "we hebben je herroepingsverklaring op {received_at} ontvangen. Dit bericht bevestigt de ontvangst ervan.",
+            "declaration": "Je verklaring",
+            "not_yet_reviewed": "Let op: dit is uitsluitend een ontvangstbevestiging. Of de herroeping geldig is, is nog niet beoordeeld; we nemen hierover afzonderlijk contact met je op."
         }
     },
     "_search": {
@@ -1398,5 +1416,18 @@
     "news": "Nieuws",
     "deletedUser": "Verwijderde gebruiker",
     "saving": "Opslaan…",
-    "savedAutomatically": "Wijzigingen worden automatisch opgeslagen"
+    "savedAutomatically": "Wijzigingen worden automatisch opgeslagen",
+    "checkout": "Afrekenen",
+    "_withdrawal": {
+        "title": "Herroepingsrecht",
+        "subtitle": "Gebruik dit formulier om de herroeping van je aankoop te verklaren. We verwerken je verzoek zo snel mogelijk.",
+        "note": "Met het verzenden van dit formulier verklaar je alleen je herroeping. Het vervangt de andere manieren om contact op te nemen niet, en je verzoek wordt daarna beoordeeld.",
+        "name": "Naam",
+        "email": "E-mail",
+        "purchaseDate": "Aankoopdatum",
+        "purchaseId": "Aankoop-ID",
+        "comment": "Opmerking",
+        "commentPlaceholder": "Alles wat je ons verder over deze herroeping wilt vertellen.",
+        "success": "Je herroeping is verzonden. Je ontvangt binnenkort een bevestiging."
+    }
 }

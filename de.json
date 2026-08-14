@@ -202,10 +202,7 @@
             "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt.",
             "enableWithdrawalForm": "Widerrufsformular aktivieren",
             "enableWithdrawalFormDesc": "Zeigt ein öffentliches Widerrufsformular, verlinkt im Footer. Benötigt das Ticketsystem, da jede Einreichung als Ticket angelegt wird.",
-            "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt.",
-            "sharePacket": "Schau dir das {title} von {store} an! Tolle Vorteile zu einem tollen Preis.",
-            "enableWithdrawalForm": "Widerrufsformular aktivieren",
-            "enableWithdrawalFormDesc": "Zeigt ein öffentliches Widerrufsformular, verlinkt im Footer. Benötigt das Ticketsystem, da jede Einreichung als Ticket angelegt wird."
+            "sharePacket": "Schau dir das {title} von {store} an! Tolle Vorteile zu einem tollen Preis."
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",
@@ -799,7 +796,8 @@
             "PROPERTY_SB": "Prüft, ob der Benutzer eine Eigenschaft innerhalb eines bestimmten Serverbundles hat (oder nicht).",
             "USER_ATTRIBUTE": "Vergleicht ein benanntes Benutzerattribut mit einem Wert.",
             "PACKET": "Prüft den Aktivierungsstatus eines bestimmten Pakets für den Benutzer.",
-            "DATE": "Vergleicht das aktuelle Datum mit einem festen Datum."
+            "DATE": "Vergleicht das aktuelle Datum mit einem festen Datum.",
+            "USER_SELF": "Prüft, ob die Anforderung für den Nutzer selbst ausgewertet wird."
         },
         "operators": {
             "EQ": "Gleich",
@@ -851,7 +849,8 @@
         "addCondition": "Bedingung hinzufügen",
         "addGroup": "Gruppe hinzufügen",
         "missingRequirement": "Fehlende Anforderung",
-        "logicHint": "Verknüpfe deine Anforderungen mit UND/ODER. Nutze Gruppen, um Bedingungen zu verschachteln."
+        "logicHint": "Verknüpfe deine Anforderungen mit UND/ODER. Nutze Gruppen, um Bedingungen zu verschachteln.",
+        "editRequirement": "Anforderung bearbeiten"
     },
     "_discount": {
         "labels": {

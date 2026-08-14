@@ -264,7 +264,11 @@
             "showWidgetsOnShopPage": "Mostrar widgets de estadísticas en la página de la tienda",
             "showWidgetsOnShopPageDesc": "Si se desactiva, los widgets activados (principales donantes, ...) no se muestran en la página de la tienda.",
             "purchasesWithoutAddressLimit": "Dirección del cliente obligatoria para compras superiores a",
-            "purchasesWithoutAddressLimitDescription": "Para compras con un importe total inferior al especificado aquí, el cliente no necesita facilitar una dirección. Solo se aplica a las compras que utilizan la moneda predeterminada."
+            "purchasesWithoutAddressLimitDescription": "Para compras con un importe total inferior al especificado aquí, el cliente no necesita facilitar una dirección. Solo se aplica a las compras que utilizan la moneda predeterminada.",
+            "topDonators": "Mejores donantes",
+            "lastDonations": "Últimas donaciones",
+            "enableWithdrawalForm": "Activar formulario de desistimiento",
+            "enableWithdrawalFormDesc": "Muestra un formulario de desistimiento público, enlazado en el pie de página. Requiere el sistema de tickets, porque cada envío se registra como un ticket."
         },
         "shopTitle": "Bienvenido a la tienda",
         "messages": {
@@ -309,7 +313,8 @@
             "cart_follow_up": "No te pierdas tu experiencia",
             "notification": "Nueva notificación en {name}",
             "payment_successful": "Pago realizado, factura disponible",
-            "subscription_cancelled": "Suscripción cancelada"
+            "subscription_cancelled": "Suscripción cancelada",
+            "withdrawal_received": "Hemos recibido tu desistimiento"
         },
         "base": {
             "hello_x": "Hola {name}",
@@ -338,6 +343,11 @@
             "product": "Producto",
             "subscription_id": "ID de suscripción",
             "check_status": "Consulta el estado actual en el {purchase_history}."
+        },
+        "withdrawal_received": {
+            "confirmation": "hemos recibido tu declaración de desistimiento el {received_at}. Este mensaje confirma su recepción.",
+            "declaration": "Tu declaración",
+            "not_yet_reviewed": "Ten en cuenta que esto es únicamente una confirmación de recepción. Todavía no se ha evaluado si el desistimiento es efectivo; nos pondremos en contacto contigo por separado al respecto."
         }
     },
     "_invoice": {
@@ -387,7 +397,9 @@
         "address_required": "Se requiere una dirección para esta compra.",
         "coupon": {
             "not_found": "Este código no es válido."
-        }
+        },
+        "no_purchase_for_email": "No hemos encontrado ninguna compra para esta dirección de correo electrónico. Utiliza la dirección con la que realizaste la compra o contáctanos directamente.",
+        "withdrawal_form_requires_tickets": "El formulario de desistimiento registra cada envío como un ticket. Activa primero el sistema de tickets en la configuración general."
     },
     "_legal": {
         "descriptionText": "En la mayoría de los países es obligatorio incluir, como mínimo, los datos de contacto del operador del sitio web, las condiciones de uso y una política de privacidad. Puedes encontrar un ejemplo de política de privacidad en la documentación.",
@@ -684,7 +696,8 @@
             "PROPERTY_SB": "Comprueba si el usuario tiene (o no) una propiedad dentro de un paquete de servidores específico.",
             "USER_ATTRIBUTE": "Compara un atributo de usuario con nombre con un valor.",
             "PACKET": "Comprueba el estado de activación de un paquete específico para el usuario.",
-            "DATE": "Compara la fecha actual con una fecha fija."
+            "DATE": "Compara la fecha actual con una fecha fija.",
+            "USER_SELF": "Comprueba si el requisito se evalúa para el propio usuario."
         },
         "operators": {
             "EQ": "Igual",
@@ -709,7 +722,8 @@
         "addCondition": "Añadir condición",
         "addGroup": "Añadir grupo",
         "missingRequirement": "Requisito faltante",
-        "logicHint": "Combina tus requisitos con Y/O. Usa grupos para anidar condiciones."
+        "logicHint": "Combina tus requisitos con Y/O. Usa grupos para anidar condiciones.",
+        "editRequirement": "Editar requisito"
     },
     "_gateway": {
         "labels": {
@@ -811,7 +825,8 @@
         "notificationLink": "Notificación",
         "serverDashboard": "Panel del servidor",
         "faq": "Preguntas frecuentes",
-        "forum": "Foro"
+        "forum": "Foro",
+        "withdrawal": "Derecho de desistimiento"
     },
     "_warning": {
         "title": "Advertencias",
@@ -1056,7 +1071,10 @@
         "manageForum": "Gestionar foro",
         "manageCategories": "Gestionar categorías",
         "addSubforum": "Añadir subforo",
-        "editSubforum": "Editar subforo"
+        "editSubforum": "Editar subforo",
+        "manageTicketCategories": "Gestionar categorías",
+        "addTicketCategory": "Añadir categoría",
+        "editTicketCategory": "Editar categoría"
     },
     "_advert": {
         "title": "Anuncios",
@@ -1398,5 +1416,18 @@
     "news": "Noticias",
     "deletedUser": "Usuario eliminado",
     "saving": "Guardando…",
-    "savedAutomatically": "Los cambios se guardan automáticamente"
+    "savedAutomatically": "Los cambios se guardan automáticamente",
+    "checkout": "Finalizar compra",
+    "_withdrawal": {
+        "title": "Derecho de desistimiento",
+        "subtitle": "Utiliza este formulario para declarar el desistimiento de tu compra. Procesaremos tu solicitud lo antes posible.",
+        "note": "El envío de este formulario solo declara tu desistimiento. No sustituye las demás vías de contacto, y tu solicitud se revisará posteriormente.",
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "purchaseDate": "Fecha de compra",
+        "purchaseId": "ID de compra",
+        "comment": "Comentario",
+        "commentPlaceholder": "Cualquier otra cosa que quieras contarnos sobre este desistimiento.",
+        "success": "Tu desistimiento se ha enviado. Recibirás una confirmación en breve."
+    }
 }

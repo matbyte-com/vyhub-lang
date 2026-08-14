@@ -104,7 +104,9 @@
         "title_too_long": "Il titolo è troppo lungo",
         "invalid_token": "La tua sessione di accesso è scaduta, effettua nuovamente l'accesso.",
         "validation_error": "Errore di validazione: {msg}",
-        "address_required": "È richiesto un indirizzo per questo acquisto."
+        "address_required": "È richiesto un indirizzo per questo acquisto.",
+        "no_purchase_for_email": "Non abbiamo trovato alcun acquisto per questo indirizzo email. Utilizza l'indirizzo con cui hai effettuato l'acquisto oppure contattaci direttamente.",
+        "withdrawal_form_requires_tickets": "Il modulo di recesso registra ogni invio come ticket. Abilita prima il sistema di ticket nelle impostazioni generali."
     },
     "_user": {
         "userLinkDescription": "Collegando un utente si compie una magia per combinare i vostri account. Attenzione però, questa magia non può essere annullata!",
@@ -435,7 +437,8 @@
             "PROPERTY_SB": "Verifica se l'utente ha (o non ha) una proprietà all'interno di un bundle di server specifico.",
             "USER_ATTRIBUTE": "Confronta un attributo utente denominato con un valore.",
             "PACKET": "Verifica lo stato di attivazione di un pacchetto specifico per l'utente.",
-            "DATE": "Confronta la data corrente con una data fissa."
+            "DATE": "Confronta la data corrente con una data fissa.",
+            "USER_SELF": "Verifica se il requisito viene valutato per l'utente stesso."
         },
         "operators": {
             "NEQ": "Impari",
@@ -470,7 +473,8 @@
         "addCondition": "Aggiungi condizione",
         "addGroup": "Aggiungi gruppo",
         "missingRequirement": "Requisito mancante",
-        "logicHint": "Combina i tuoi requisiti con E/O. Usa i gruppi per annidare le condizioni."
+        "logicHint": "Combina i tuoi requisiti con E/O. Usa i gruppi per annidare le condizioni.",
+        "editRequirement": "Modifica requisito"
     },
     "_gateway": {
         "labels": {
@@ -662,7 +666,8 @@
         "ticket": "Ticket",
         "team": "Team",
         "faq": "FAQ",
-        "forum": "Forum"
+        "forum": "Forum",
+        "withdrawal": "Diritto di recesso"
     },
     "_theme": {
         "headerColor": "Colore Intestazione",
@@ -694,7 +699,8 @@
             "cart_follow_up": "Non Mancare la Tua Esperienza",
             "notification": "Nuova notifica a {name}",
             "payment_successful": "Pagamento eseguito con successo, la fattura è disponibile",
-            "subscription_cancelled": "Sottoscrizione annullata"
+            "subscription_cancelled": "Sottoscrizione annullata",
+            "withdrawal_received": "Abbiamo ricevuto il tuo recesso"
         },
         "base": {
             "hello_x": "Buongiorno {name}",
@@ -723,6 +729,11 @@
             "product": "Prodotto",
             "subscription_id": "ID abbonamento",
             "check_status": "Controlla lo stato attuale nel {purchase_history}."
+        },
+        "withdrawal_received": {
+            "confirmation": "abbiamo ricevuto la tua dichiarazione di recesso il {received_at}. Questo messaggio ne conferma la ricezione.",
+            "declaration": "La tua dichiarazione",
+            "not_yet_reviewed": "Tieni presente che si tratta solo di una conferma di ricezione. Non è ancora stato valutato se il recesso sia efficace; ti contatteremo separatamente in merito."
         }
     },
     "_search": {
@@ -864,7 +875,11 @@
             "showWidgetsOnShopPage": "Mostra widget statistici nella pagina del negozio",
             "showWidgetsOnShopPageDesc": "Se disabilitato, i widget abilitati (migliori donatori, ...) non vengono mostrati nella pagina del negozio.",
             "purchasesWithoutAddressLimit": "Indirizzo del cliente richiesto per acquisti superiori a",
-            "purchasesWithoutAddressLimitDescription": "Per acquisti con un importo totale inferiore a quello specificato qui, il cliente non deve fornire un indirizzo. Si applica solo agli acquisti che utilizzano la valuta predefinita."
+            "purchasesWithoutAddressLimitDescription": "Per acquisti con un importo totale inferiore a quello specificato qui, il cliente non deve fornire un indirizzo. Si applica solo agli acquisti che utilizzano la valuta predefinita.",
+            "topDonators": "Migliori donatori",
+            "lastDonations": "Ultime donazioni",
+            "enableWithdrawalForm": "Abilita il modulo di recesso",
+            "enableWithdrawalFormDesc": "Mostra un modulo di recesso pubblico, collegato nel piè di pagina. Richiede il sistema di ticket, perché ogni invio viene registrato come ticket."
         },
         "messages": {
             "confirmCreditsPayment": "Conferma il pagamento di {credits} {credits_display_title}.",
@@ -1056,7 +1071,10 @@
         "manageForum": "Gestisci forum",
         "manageCategories": "Gestisci categorie",
         "addSubforum": "Aggiungi sottoforum",
-        "editSubforum": "Modifica sottoforum"
+        "editSubforum": "Modifica sottoforum",
+        "manageTicketCategories": "Gestisci categorie",
+        "addTicketCategory": "Aggiungi categoria",
+        "editTicketCategory": "Modifica categoria"
     },
     "_advert": {
         "title": "Annunci",
@@ -1398,5 +1416,18 @@
     "news": "Notizie",
     "deletedUser": "Utente eliminato",
     "saving": "Salvataggio…",
-    "savedAutomatically": "Le modifiche vengono salvate automaticamente"
+    "savedAutomatically": "Le modifiche vengono salvate automaticamente",
+    "checkout": "Pagamento",
+    "_withdrawal": {
+        "title": "Diritto di recesso",
+        "subtitle": "Utilizza questo modulo per dichiarare il recesso dal tuo acquisto. Elaboreremo la tua richiesta il prima possibile.",
+        "note": "L'invio di questo modulo dichiara soltanto il tuo recesso. Non sostituisce gli altri canali di contatto e la tua richiesta verrà esaminata successivamente.",
+        "name": "Nome",
+        "email": "Email",
+        "purchaseDate": "Data di acquisto",
+        "purchaseId": "ID acquisto",
+        "comment": "Commento",
+        "commentPlaceholder": "Qualsiasi altra cosa che desideri comunicarci riguardo a questo recesso.",
+        "success": "Il tuo recesso è stato inviato. Riceverai a breve una conferma."
+    }
 }

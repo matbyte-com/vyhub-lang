@@ -229,7 +229,11 @@
             "showWidgetsOnShopPage": "Mostrar widgets de estatísticas na página da loja",
             "showWidgetsOnShopPageDesc": "Se desativado, os widgets ativados (principais doadores, ...) não são mostrados na página da loja.",
             "purchasesWithoutAddressLimit": "Endereço do cliente obrigatório para compras acima de",
-            "purchasesWithoutAddressLimitDescription": "Para compras com valor total menor que o especificado aqui, o cliente não precisa fornecer um endereço. Aplica-se apenas a compras que usam a moeda padrão."
+            "purchasesWithoutAddressLimitDescription": "Para compras com valor total menor que o especificado aqui, o cliente não precisa fornecer um endereço. Aplica-se apenas a compras que usam a moeda padrão.",
+            "topDonators": "Principais doadores",
+            "lastDonations": "Últimas doações",
+            "enableWithdrawalForm": "Ativar formulário de desistência",
+            "enableWithdrawalFormDesc": "Exibe um formulário de desistência público, com link no rodapé. Requer o sistema de tickets, pois cada envio é registrado como um ticket."
         },
         "messages": {
             "notEnoughCredits": "Você não tem créditos suficientes para pagar essa compra. Por favor escolha um método de pagamento diferente ou compre mais créditos.",
@@ -300,7 +304,9 @@
         "title_too_long": "O título é muito longo",
         "invalid_token": "Sua sessão de login expirou, faça login novamente.",
         "validation_error": "Erro de validação: {msg}",
-        "address_required": "É necessário um endereço para esta compra."
+        "address_required": "É necessário um endereço para esta compra.",
+        "no_purchase_for_email": "Não encontramos nenhuma compra para este endereço de e-mail. Use o endereço com o qual você fez a compra ou entre em contato conosco diretamente.",
+        "withdrawal_form_requires_tickets": "O formulário de desistência registra cada envio como um ticket. Ative primeiro o sistema de tickets nas configurações gerais."
     },
     "_user": {
         "labels": {
@@ -769,7 +775,10 @@
         "manageForum": "Gerenciar fórum",
         "manageCategories": "Gerenciar categorias",
         "addSubforum": "Adicionar subfórum",
-        "editSubforum": "Editar subfórum"
+        "editSubforum": "Editar subfórum",
+        "manageTicketCategories": "Gerenciar categorias",
+        "addTicketCategory": "Adicionar categoria",
+        "editTicketCategory": "Editar categoria"
     },
     "_faq": {
         "addQuestionDialog": "Adicionar pergunta",
@@ -929,7 +938,8 @@
             "PROPERTY_SB": "Verifica se o usuário tem (ou não) uma propriedade dentro de um pacote de servidores específico.",
             "USER_ATTRIBUTE": "Compara um atributo de usuário nomeado com um valor.",
             "PACKET": "Verifica o estado de ativação de um pacote específico para o usuário.",
-            "DATE": "Compara a data atual com uma data fixa."
+            "DATE": "Compara a data atual com uma data fixa.",
+            "USER_SELF": "Verifica se o requisito está sendo avaliado para o próprio usuário."
         },
         "operators": {
             "EQ": "Igual",
@@ -963,7 +973,8 @@
         "addCondition": "Adicionar condição",
         "addGroup": "Adicionar grupo",
         "missingRequirement": "Requisito ausente",
-        "logicHint": "Combine seus requisitos com E/OU. Use grupos para aninhar condições."
+        "logicHint": "Combine seus requisitos com E/OU. Use grupos para aninhar condições.",
+        "editRequirement": "Editar requisito"
     },
     "_taxRule": {
         "labels": {
@@ -1009,7 +1020,8 @@
         "shopCategory": "Loja - Categoria",
         "shopCart": "Carrinho",
         "search": "Pesquisa de usuários",
-        "news": "Notícias"
+        "news": "Notícias",
+        "withdrawal": "Direito de desistência"
     },
     "_server": {
         "labels": {
@@ -1238,7 +1250,8 @@
             "cart_follow_up": "Não perca sua experiência",
             "notification": "Nova notificação em {name}",
             "payment_successful": "Pagamento efetuado, fatura disponível",
-            "subscription_cancelled": "Assinatura cancelada"
+            "subscription_cancelled": "Assinatura cancelada",
+            "withdrawal_received": "Recebemos sua desistência"
         },
         "base": {
             "hello_x": "Olá {name}",
@@ -1267,6 +1280,11 @@
             "product": "Produto",
             "subscription_id": "ID da assinatura",
             "check_status": "Verifique o status atual no {purchase_history}."
+        },
+        "withdrawal_received": {
+            "confirmation": "recebemos sua declaração de desistência em {received_at}. Esta mensagem confirma o recebimento.",
+            "declaration": "Sua declaração",
+            "not_yet_reviewed": "Observe que esta é apenas uma confirmação de recebimento. Ainda não avaliamos se a desistência é válida; entraremos em contato separadamente sobre isso."
         }
     },
     "_search": {
@@ -1398,5 +1416,18 @@
     "news": "Notícias",
     "deletedUser": "Usuário excluído",
     "saving": "Salvando…",
-    "savedAutomatically": "As alterações são salvas automaticamente"
+    "savedAutomatically": "As alterações são salvas automaticamente",
+    "checkout": "Finalizar compra",
+    "_withdrawal": {
+        "title": "Direito de desistência",
+        "subtitle": "Use este formulário para declarar a desistência da sua compra. Processaremos sua solicitação o mais rápido possível.",
+        "note": "O envio deste formulário apenas declara sua desistência. Ele não substitui as outras formas de contato, e sua solicitação será analisada posteriormente.",
+        "name": "Nome",
+        "email": "E-mail",
+        "purchaseDate": "Data da compra",
+        "purchaseId": "ID da compra",
+        "comment": "Comentário",
+        "commentPlaceholder": "Qualquer outra coisa que você queira nos contar sobre esta desistência.",
+        "success": "Sua desistência foi enviada. Você receberá uma confirmação em breve."
+    }
 }

@@ -188,7 +188,11 @@
             "showWidgetsOnShopPage": "Afficher les widgets de statistiques sur la page boutique",
             "showWidgetsOnShopPageDesc": "Si désactivé, les widgets activés (meilleurs donateurs, ...) ne sont pas affichés sur la page boutique.",
             "purchasesWithoutAddressLimit": "Adresse du client requise pour les achats supérieurs à",
-            "purchasesWithoutAddressLimitDescription": "Pour les achats dont le montant total est inférieur à la valeur indiquée ici, le client n'a pas besoin de fournir une adresse. Ne s'applique qu'aux achats utilisant la devise par défaut."
+            "purchasesWithoutAddressLimitDescription": "Pour les achats dont le montant total est inférieur à la valeur indiquée ici, le client n'a pas besoin de fournir une adresse. Ne s'applique qu'aux achats utilisant la devise par défaut.",
+            "topDonators": "Meilleurs donateurs",
+            "lastDonations": "Derniers dons",
+            "enableWithdrawalForm": "Activer le formulaire de rétractation",
+            "enableWithdrawalFormDesc": "Affiche un formulaire de rétractation public, accessible depuis le pied de page. Nécessite le système de tickets, car chaque envoi est enregistré comme un ticket."
         },
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} {credits_display_title}.",
@@ -293,7 +297,9 @@
         "title_too_long": "Le titre est trop long",
         "invalid_token": "Votre session de connexion a expiré, veuillez vous reconnecter.",
         "validation_error": "Erreur de validation : {msg}",
-        "address_required": "Une adresse est requise pour cet achat."
+        "address_required": "Une adresse est requise pour cet achat.",
+        "no_purchase_for_email": "Nous n'avons trouvé aucun achat associé à cette adresse e-mail. Veuillez utiliser l'adresse avec laquelle vous avez effectué votre achat, ou contactez-nous directement.",
+        "withdrawal_form_requires_tickets": "Le formulaire de rétractation enregistre chaque envoi comme un ticket. Activez d'abord le système de tickets dans les paramètres généraux."
     },
     "_user": {
         "labels": {
@@ -580,7 +586,8 @@
             "PROPERTY_SB": "Vérifie si l'utilisateur possède (ou non) une propriété au sein d'un bundle de serveurs spécifique.",
             "USER_ATTRIBUTE": "Compare un attribut utilisateur nommé à une valeur.",
             "PACKET": "Vérifie l'état d'activation d'un paquet spécifique pour l'utilisateur.",
-            "DATE": "Compare la date actuelle à une date fixe."
+            "DATE": "Compare la date actuelle à une date fixe.",
+            "USER_SELF": "Vérifie si l'exigence est évaluée pour l'utilisateur lui-même."
         },
         "operators": {
             "EQ": "Égal",
@@ -614,7 +621,8 @@
         "addCondition": "Ajouter une condition",
         "addGroup": "Ajouter un groupe",
         "missingRequirement": "Exigence manquante",
-        "logicHint": "Combinez vos exigences avec ET/OU. Utilisez des groupes pour imbriquer les conditions."
+        "logicHint": "Combinez vos exigences avec ET/OU. Utilisez des groupes pour imbriquer les conditions.",
+        "editRequirement": "Modifier l'exigence"
     },
     "_gateway": {
         "labels": {
@@ -716,7 +724,8 @@
         "faq": "FAQ",
         "forum": "Forum",
         "news": "Actualités",
-        "search": "Rechercher"
+        "search": "Rechercher",
+        "withdrawal": "Droit de rétractation"
     },
     "_warning": {
         "title": "Avertissements",
@@ -1213,7 +1222,10 @@
         "manageForum": "Gérer le forum",
         "manageCategories": "Gérer les catégories",
         "addSubforum": "Ajouter un sous-forum",
-        "editSubforum": "Modifier le sous-forum"
+        "editSubforum": "Modifier le sous-forum",
+        "manageTicketCategories": "Gérer les catégories",
+        "addTicketCategory": "Ajouter une catégorie",
+        "editTicketCategory": "Modifier la catégorie"
     },
     "_invoice": {
         "invoice": "Facture",
@@ -1351,7 +1363,8 @@
             "cart_follow_up": "Ne ratez pas votre expérience",
             "notification": "Nouvelle notification à {name}",
             "payment_successful": "Paiement effectué, facture disponible",
-            "subscription_cancelled": "Abonnement annulé"
+            "subscription_cancelled": "Abonnement annulé",
+            "withdrawal_received": "Nous avons bien reçu votre rétractation"
         },
         "base": {
             "hello_x": "Bonjour {name}",
@@ -1380,6 +1393,11 @@
             "product": "Produit",
             "subscription_id": "ID de l'abonnement",
             "check_status": "Vérifie l'état actuel dans {purchase_history}."
+        },
+        "withdrawal_received": {
+            "confirmation": "nous avons reçu votre déclaration de rétractation le {received_at}. Ce message en confirme la réception.",
+            "declaration": "Votre déclaration",
+            "not_yet_reviewed": "Veuillez noter qu'il s'agit uniquement d'un accusé de réception. La validité de la rétractation n'a pas encore été évaluée ; nous vous contacterons séparément à ce sujet."
         }
     },
     "_support": {
@@ -1398,5 +1416,18 @@
     "limitedToUser": "Limité à l'utilisateur {username}",
     "home": "Accueil",
     "saving": "Enregistrement…",
-    "savedAutomatically": "Les modifications sont enregistrées automatiquement"
+    "savedAutomatically": "Les modifications sont enregistrées automatiquement",
+    "checkout": "Paiement",
+    "_withdrawal": {
+        "title": "Droit de rétractation",
+        "subtitle": "Utilisez ce formulaire pour déclarer la rétractation de votre achat. Nous traiterons votre demande dans les meilleurs délais.",
+        "note": "L'envoi de ce formulaire ne fait que déclarer votre rétractation. Il ne remplace pas les autres moyens de nous contacter, et votre demande sera examinée par la suite.",
+        "name": "Nom",
+        "email": "E-mail",
+        "purchaseDate": "Date d'achat",
+        "purchaseId": "Identifiant d'achat",
+        "comment": "Commentaire",
+        "commentPlaceholder": "Toute autre information que vous souhaitez nous communiquer concernant cette rétractation.",
+        "success": "Votre rétractation a été envoyée. Vous recevrez une confirmation sous peu."
+    }
 }

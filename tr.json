@@ -320,7 +320,11 @@
             "showWidgetsOnShopPage": "Mağaza sayfasında istatistik bileşenlerini göster",
             "showWidgetsOnShopPageDesc": "Devre dışı bırakılırsa, etkin bileşenler (en çok bağış yapanlar, ...) mağaza sayfasında gösterilmez.",
             "purchasesWithoutAddressLimit": "Şu tutardan fazla alışverişlerde müşteri adresi gerekir",
-            "purchasesWithoutAddressLimitDescription": "Toplam tutarı burada belirtilenden az olan alışverişlerde müşterinin adres girmesi gerekmez. Yalnızca varsayılan para birimini kullanan alışverişler için geçerlidir."
+            "purchasesWithoutAddressLimitDescription": "Toplam tutarı burada belirtilenden az olan alışverişlerde müşterinin adres girmesi gerekmez. Yalnızca varsayılan para birimini kullanan alışverişler için geçerlidir.",
+            "topDonators": "En İyi Bağışçılar",
+            "lastDonations": "Son Bağışlar",
+            "enableWithdrawalForm": "Cayma formunu etkinleştir",
+            "enableWithdrawalFormDesc": "Alt bilgide bağlantısı bulunan herkese açık bir cayma formu gösterir. Her gönderim bir talep olarak kaydedildiğinden talep sistemini gerektirir."
         },
         "messages": {
             "couponApplySuccess": "Kupon başarıyla uygulandı.",
@@ -387,7 +391,9 @@
         "title_too_long": "Başlık çok uzun",
         "invalid_token": "Oturumunuzun süresi doldu, lütfen tekrar giriş yapın.",
         "validation_error": "Doğrulama hatası: {msg}",
-        "address_required": "Bu satın alma için bir adres gereklidir."
+        "address_required": "Bu satın alma için bir adres gereklidir.",
+        "no_purchase_for_email": "Bu e-posta adresine ait bir satın alma bulamadık. Lütfen satın alırken kullandığınız adresi kullanın veya doğrudan bizimle iletişime geçin.",
+        "withdrawal_form_requires_tickets": "Cayma formu her gönderimi bir talep olarak kaydeder. Önce genel ayarlardan talep sistemini etkinleştirin."
     },
     "_packet": {
         "labels": {
@@ -789,7 +795,10 @@
         "manageForum": "Forumu yönet",
         "manageCategories": "Kategorileri yönet",
         "addSubforum": "Alt forum ekle",
-        "editSubforum": "Alt forumu düzenle"
+        "editSubforum": "Alt forumu düzenle",
+        "manageTicketCategories": "Kategorileri Yönet",
+        "addTicketCategory": "Kategori Ekle",
+        "editTicketCategory": "Kategoriyi Düzenle"
     },
     "_home": {
         "messageSubject": "Konu",
@@ -809,7 +818,8 @@
             "PROPERTY_SB": "Kullanıcının belirli bir sunucu paketinde bir özelliğe sahip olup olmadığını kontrol eder.",
             "USER_ATTRIBUTE": "Adlandırılmış bir kullanıcı özniteliğini bir değerle karşılaştırır.",
             "PACKET": "Kullanıcı için belirli bir paketin etkinleşme durumunu kontrol eder.",
-            "DATE": "Geçerli tarihi sabit bir tarihle karşılaştırır."
+            "DATE": "Geçerli tarihi sabit bir tarihle karşılaştırır.",
+            "USER_SELF": "Gereksinimin kullanıcının kendisi için değerlendirilip değerlendirilmediğini kontrol eder."
         },
         "operators": {
             "LT": "Daha Az",
@@ -862,7 +872,8 @@
         "addCondition": "Koşul ekle",
         "addGroup": "Grup ekle",
         "missingRequirement": "Eksik gereksinim",
-        "logicHint": "Gereksinimlerinizi VE/VEYA ile birleştirin. Koşulları iç içe yerleştirmek için grupları kullanın."
+        "logicHint": "Gereksinimlerinizi VE/VEYA ile birleştirin. Koşulları iç içe yerleştirmek için grupları kullanın.",
+        "editRequirement": "Gereksinimi Düzenle"
     },
     "_pageTitle": {
         "legal": "Legal",
@@ -885,7 +896,8 @@
         "serverDashboard": "Sunucu Panosu",
         "forum": "Forum",
         "search": "Kullanıcı Arama",
-        "news": "Haberler"
+        "news": "Haberler",
+        "withdrawal": "Cayma Hakkı"
     },
     "_notification": {
         "notifications": "Bildirimler",
@@ -1300,7 +1312,8 @@
             "payment_successful": "Ödeme başarılı, fatura hazır",
             "cart_follow_up": "Deneyiminizi Kaçırmayın",
             "notification": "{name} adlı yerde yeni bildirim",
-            "subscription_cancelled": "Abonelik iptal edildi"
+            "subscription_cancelled": "Abonelik iptal edildi",
+            "withdrawal_received": "Cayma bildiriminizi aldık"
         },
         "base": {
             "hello_x": "Merhaba {name}",
@@ -1329,6 +1342,11 @@
             "product": "Ürün",
             "subscription_id": "Abonelik Kimliği",
             "check_status": "Mevcut durumu {purchase_history} bölümünde kontrol edin."
+        },
+        "withdrawal_received": {
+            "confirmation": "cayma beyanınızı {received_at} tarihinde aldık. Bu mesaj, beyanınızın alındığını onaylar.",
+            "declaration": "Beyanınız",
+            "not_yet_reviewed": "Bunun yalnızca bir alındı onayı olduğunu lütfen unutmayın. Caymanın geçerli olup olmadığı henüz değerlendirilmedi; bu konuda sizinle ayrıca iletişime geçeceğiz."
         }
     },
     "_search": {
@@ -1398,5 +1416,18 @@
     "news": "Haberler",
     "deletedUser": "Silinmiş Kullanıcı",
     "saving": "Kaydediliyor…",
-    "savedAutomatically": "Değişiklikler otomatik olarak kaydedilir"
+    "savedAutomatically": "Değişiklikler otomatik olarak kaydedilir",
+    "checkout": "Ödeme",
+    "_withdrawal": {
+        "title": "Cayma Hakkı",
+        "subtitle": "Satın alımınızdan cayma bildiriminde bulunmak için bu formu kullanın. Talebinizi mümkün olan en kısa sürede işleme alacağız.",
+        "note": "Bu formu göndermek yalnızca cayma beyanınızda bulunur. Diğer iletişim yollarının yerine geçmez ve talebiniz daha sonra incelenecektir.",
+        "name": "Ad",
+        "email": "E-posta",
+        "purchaseDate": "Satın alma tarihi",
+        "purchaseId": "Satın alma kimliği",
+        "comment": "Yorum",
+        "commentPlaceholder": "Bu caymayla ilgili bize iletmek istediğiniz diğer her şey.",
+        "success": "Cayma bildiriminiz gönderildi. Kısa süre içinde bir onay alacaksınız."
+    }
 }
