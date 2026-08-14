@@ -10,7 +10,8 @@
             "cart_follow_up": "Du verpasst etwas!",
             "notification": "Neue Benachrichtigung von {name}",
             "payment_successful": "Zahlung erfolgreich, Rechnung verfügbar",
-            "subscription_cancelled": "Abonnement storniert"
+            "subscription_cancelled": "Abonnement storniert",
+            "withdrawal_received": "Wir haben deinen Widerruf erhalten"
         },
         "base": {
             "hello_x": "Hallo {name}",
@@ -39,6 +40,11 @@
             "product": "Produkt",
             "subscription_id": "Abonnement ID",
             "check_status": "Den aktuellen Status kannst du in der {purchase_history} sehen."
+        },
+        "withdrawal_received": {
+            "confirmation": "wir haben deine Widerrufserklärung am {received_at} erhalten. Diese Nachricht bestätigt den Eingang.",
+            "declaration": "Deine Erklärung",
+            "not_yet_reviewed": "Bitte beachte, dass dies ausschließlich eine Eingangsbestätigung ist. Ob der Widerruf wirksam ist, wurde noch nicht geprüft; dazu melden wir uns gesondert."
         }
     },
     "_membership": {
@@ -194,6 +200,9 @@
             "purchasesWithoutAddressLimitDescription": "Bei Einkäufen mit einem geringeren Betrag als der hier angegebene, ist die Angabe einer Adresse durch den Kunden nicht erforderlich. Gilt nur für Einkäufe, die die Standardwährung verwenden.",
             "showWidgetsOnShopPage": "Statistik-Widgets auf der Shop-Seite anzeigen",
             "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt.",
+            "enableWithdrawalForm": "Widerrufsformular aktivieren",
+            "enableWithdrawalFormDesc": "Zeigt ein öffentliches Widerrufsformular, verlinkt im Footer. Benötigt das Ticketsystem, da jede Einreichung als Ticket angelegt wird.",
+            "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt.",
             "sharePacket": "Schau dir das {title} von {store} an! Tolle Vorteile zu einem tollen Preis."
         },
         "messages": {
@@ -259,7 +268,9 @@
         "title_too_long": "Der Titel ist zu lang",
         "address_required": "Für diesen Kauf ist eine Adresse erforderlich.",
         "validation_error": "Validierungsfehler: {msg}",
-        "invalid_token": "Deine Sitzung ist abgelaufen, bitte melde dich erneut an."
+        "invalid_token": "Deine Sitzung ist abgelaufen, bitte melde dich erneut an.",
+        "no_purchase_for_email": "Zu dieser E-Mail-Adresse konnten wir keinen Kauf finden. Bitte nutze die Adresse, mit der du gekauft hast, oder kontaktiere uns direkt.",
+        "withdrawal_form_requires_tickets": "Das Widerrufsformular legt jede Einreichung als Ticket an. Aktiviere zuerst das Ticketsystem in den allgemeinen Einstellungen."
     },
     "_navigation": {
         "link": "Link",
@@ -874,7 +885,8 @@
         "warnings": "Verwarnungen",
         "forum": "Forum",
         "news": "Neuigkeiten",
-        "search": "Suche"
+        "search": "Suche",
+        "withdrawal": "Widerruf"
     },
     "_api": {
         "labels": {
@@ -1404,5 +1416,15 @@
     "home": "Start",
     "limitedToUser": "Gefiltert auf Benutzer {username}",
     "saving": "Wird gespeichert…",
-    "savedAutomatically": "Änderungen werden automatisch gespeichert"
+    "savedAutomatically": "Änderungen werden automatisch gespeichert",
+    "_withdrawal": {
+        "title": "Widerruf",
+        "subtitle": "Nutze dieses Formular, um den Widerruf deines Kaufs zu erklären. Wir bearbeiten deine Anfrage so schnell wie möglich.",
+        "note": "Mit dem Absenden erklärst du deinen Widerruf. Das Formular ersetzt nicht die übrigen Kontaktwege, und deine Erklärung wird anschließend geprüft.",
+        "name": "Name",
+        "email": "E-Mail",
+        "text": "Dein Widerruf",
+        "textPlaceholder": "Bitte teile uns mit, welchen Kauf du widerrufst und wann du ihn getätigt hast.",
+        "success": "Dein Widerruf wurde übermittelt. Du erhältst in Kürze eine Bestätigung."
+    }
 }

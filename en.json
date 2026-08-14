@@ -10,7 +10,8 @@
             "cart_follow_up": "Don't Miss Out on Your Experience",
             "notification": "New notification at {name}",
             "payment_successful": "Payment successful, invoice available",
-            "subscription_cancelled": "Subscription cancelled"
+            "subscription_cancelled": "Subscription cancelled",
+            "withdrawal_received": "We received your withdrawal"
         },
         "base": {
             "hello_x": "Hello {name}",
@@ -39,6 +40,11 @@
             "product": "Product",
             "subscription_id": "Subscription ID",
             "check_status": "Check the current status in the {purchase_history}."
+        },
+        "withdrawal_received": {
+            "confirmation": "we received your declaration of withdrawal on {received_at}. This message confirms its receipt.",
+            "declaration": "Your declaration",
+            "not_yet_reviewed": "Please note that this is a confirmation of receipt only. Whether the withdrawal is effective has not been assessed yet; we will contact you separately about that."
         }
     },
     "_invoice": {
@@ -281,7 +287,9 @@
             "showWidgetsOnShopPage": "Show statistic widgets on shop page",
             "showWidgetsOnShopPageDesc": "If disabled, the enabled widgets (top donators, ...) are not shown on the shop page.",
             "purchasesWithoutAddressLimit": "Customer address required for purchases of more than",
-            "purchasesWithoutAddressLimitDescription": "For purchases with a total amount less than specified here, the customer does not need to provide an address. Only applies for purchases that use the default currency."
+            "purchasesWithoutAddressLimitDescription": "For purchases with a total amount less than specified here, the customer does not need to provide an address. Only applies for purchases that use the default currency.",
+            "enableWithdrawalForm": "Enable withdrawal form",
+            "enableWithdrawalFormDesc": "Shows a public withdrawal form, linked in the footer. Requires the ticket system, because each submission is filed as a ticket."
         },
         "messages": {
             "confirmCreditsPayment": "Please confirm the payment of {credits} {credits_display_title}.",
@@ -345,7 +353,9 @@
         "address_required": "An address is required for this purchase.",
         "coupon": {
             "not_found": "This code is invalid."
-        }
+        },
+        "no_purchase_for_email": "We could not find a purchase for this email address. Please use the address you bought with, or contact us directly.",
+        "withdrawal_form_requires_tickets": "The withdrawal form files every submission as a ticket. Enable the ticket system in the general settings first."
     },
     "_user": {
         "messages": {
@@ -815,7 +825,8 @@
         "notificationLink": "Notification",
         "serverDashboard": "Server Dashboard",
         "faq": "FAQ",
-        "forum": "Forum"
+        "forum": "Forum",
+        "withdrawal": "Right of Withdrawal"
     },
     "_warning": {
         "title": "Warnings",
@@ -1405,6 +1416,16 @@
     "memberships": "Memberships",
     "news": "News",
     "deletedUser": "Deleted User",
+    "_withdrawal": {
+        "title": "Right of Withdrawal",
+        "subtitle": "Use this form to declare the withdrawal of your purchase. We will process your request as soon as possible.",
+        "note": "Submitting this form only declares your withdrawal. It does not replace the other ways of contacting us, and your request will be reviewed afterwards.",
+        "name": "Name",
+        "email": "Email",
+        "text": "Your withdrawal",
+        "textPlaceholder": "Please tell us which purchase you are withdrawing from, and when you made it.",
+        "success": "ur withdrawal has been submitted. You will receive a confirmation shortly."
+    },
     "saving": "Saving…",
     "savedAutomatically": "Changes are saved automatically"
 }
