@@ -202,7 +202,8 @@
             "showWidgetsOnShopPageDesc": "Wenn deaktiviert werden die Widgets (Top-Spender, ...) nicht auf der Shop-Seite angezeigt.",
             "enableWithdrawalForm": "Widerrufsformular aktivieren",
             "enableWithdrawalFormDesc": "Zeigt ein öffentliches Widerrufsformular, verlinkt im Footer. Benötigt das Ticketsystem, da jede Einreichung als Ticket angelegt wird.",
-            "sharePacket": "Schau dir das {title} von {store} an! Tolle Vorteile zu einem tollen Preis."
+            "sharePacket": "Schau dir das {title} von {store} an! Tolle Vorteile zu einem tollen Preis.",
+            "defaultIntroduction": "Willkommen in unserem Shop! Stöbere durch die Kategorien und finde das Paket, das am besten zu dir passt."
         },
         "messages": {
             "couponsEntered": "Dein Coupon wurde erfolgreich hinzugefügt. Du kannst den Coupon bearbeiten, bis der Kauf genehmigt wurde.",

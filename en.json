@@ -289,7 +289,8 @@
             "purchasesWithoutAddressLimit": "Customer address required for purchases of more than",
             "purchasesWithoutAddressLimitDescription": "For purchases with a total amount less than specified here, the customer does not need to provide an address. Only applies for purchases that use the default currency.",
             "enableWithdrawalForm": "Enable withdrawal form",
-            "enableWithdrawalFormDesc": "Shows a public withdrawal form, linked in the footer. Requires the ticket system, because each submission is filed as a ticket."
+            "enableWithdrawalFormDesc": "Shows a public withdrawal form, linked in the footer. Requires the ticket system, because each submission is filed as a ticket.",
+            "defaultIntroduction": "Welcome to our shop! Browse the categories and find the packet that suits you best."
         },
         "messages": {
             "confirmCreditsPayment": "Please confirm the payment of {credits} {credits_display_title}.",
@@ -1422,22 +1423,12 @@
         "note": "Submitting this form only declares your withdrawal. It does not replace the other ways of contacting us, and your request will be reviewed afterwards.",
         "name": "Name",
         "email": "Email",
-        "text": "Your withdrawal",
-        "textPlaceholder": "Please tell us which purchase you are withdrawing from, and when you made it.",
-        "success": "ur withdrawal has been submitted. You will receive a confirmation shortly."
-    },
-    "saving": "Saving…",
-    "savedAutomatically": "Changes are saved automatically",
-    "_withdrawal": {
-        "title": "Right of Withdrawal",
-        "subtitle": "Use this form to declare the withdrawal of your purchase. We will process your request as soon as possible.",
-        "note": "Submitting this form only declares your withdrawal. It does not replace the other ways of contacting us, and your request will be reviewed afterwards.",
-        "name": "Name",
-        "email": "Email",
         "purchaseDate": "Purchase date",
         "purchaseId": "Purchase ID",
         "comment": "Comment",
         "commentPlaceholder": "Anything else you would like to tell us about this withdrawal.",
         "success": "Your withdrawal has been submitted. You will receive a confirmation shortly."
-    }
+    },
+    "saving": "Saving…",
+    "savedAutomatically": "Changes are saved automatically"
 }

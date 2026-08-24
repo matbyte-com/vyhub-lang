@@ -268,7 +268,8 @@
             "topDonators": "Mejores donantes",
             "lastDonations": "Últimas donaciones",
             "enableWithdrawalForm": "Activar formulario de desistimiento",
-            "enableWithdrawalFormDesc": "Muestra un formulario de desistimiento público, enlazado en el pie de página. Requiere el sistema de tickets, porque cada envío se registra como un ticket."
+            "enableWithdrawalFormDesc": "Muestra un formulario de desistimiento público, enlazado en el pie de página. Requiere el sistema de tickets, porque cada envío se registra como un ticket.",
+            "defaultIntroduction": "¡Bienvenido a nuestra tienda! Explora las categorías y encuentra el paquete que mejor se adapte a ti."
         },
         "shopTitle": "Bienvenido a la tienda",
         "messages": {

@@ -256,7 +256,8 @@
             "topDonators": "Topdonateurs",
             "lastDonations": "Laatste donaties",
             "enableWithdrawalForm": "Herroepingsformulier inschakelen",
-            "enableWithdrawalFormDesc": "Toont een openbaar herroepingsformulier, gelinkt in de footer. Vereist het ticketsysteem, omdat elke inzending als ticket wordt vastgelegd."
+            "enableWithdrawalFormDesc": "Toont een openbaar herroepingsformulier, gelinkt in de footer. Vereist het ticketsysteem, omdat elke inzending als ticket wordt vastgelegd.",
+            "defaultIntroduction": "Welkom in onze winkel! Blader door de categorieën en vind het pakket dat het beste bij je past."
         },
         "messages": {
             "notEnoughCredits": "U heeft niet genoeg tegoed om deze aankoop te betalen. Kies een andere betaalmethode of koop meer credits.",

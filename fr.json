@@ -192,7 +192,8 @@
             "topDonators": "Meilleurs donateurs",
             "lastDonations": "Derniers dons",
             "enableWithdrawalForm": "Activer le formulaire de rétractation",
-            "enableWithdrawalFormDesc": "Affiche un formulaire de rétractation public, accessible depuis le pied de page. Nécessite le système de tickets, car chaque envoi est enregistré comme un ticket."
+            "enableWithdrawalFormDesc": "Affiche un formulaire de rétractation public, accessible depuis le pied de page. Nécessite le système de tickets, car chaque envoi est enregistré comme un ticket.",
+            "defaultIntroduction": "Bienvenue dans notre boutique ! Parcourez les catégories et trouvez le paquet qui vous convient le mieux."
         },
         "messages": {
             "confirmCreditsPayment": "Veuillez confirmer le paiement de {credits} {credits_display_title}.",

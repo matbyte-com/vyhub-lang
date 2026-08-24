@@ -879,7 +879,8 @@
             "topDonators": "Migliori donatori",
             "lastDonations": "Ultime donazioni",
             "enableWithdrawalForm": "Abilita il modulo di recesso",
-            "enableWithdrawalFormDesc": "Mostra un modulo di recesso pubblico, collegato nel piè di pagina. Richiede il sistema di ticket, perché ogni invio viene registrato come ticket."
+            "enableWithdrawalFormDesc": "Mostra un modulo di recesso pubblico, collegato nel piè di pagina. Richiede il sistema di ticket, perché ogni invio viene registrato come ticket.",
+            "defaultIntroduction": "Benvenuto nel nostro negozio! Sfoglia le categorie e trova il pacchetto più adatto a te."
         },
         "messages": {
             "confirmCreditsPayment": "Conferma il pagamento di {credits} {credits_display_title}.",

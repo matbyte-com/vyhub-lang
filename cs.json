@@ -240,7 +240,8 @@
             "topDonators": "Nejlepší dárci",
             "lastDonations": "Poslední dary",
             "enableWithdrawalForm": "Povolit formulář pro odstoupení",
-            "enableWithdrawalFormDesc": "Zobrazí veřejný formulář pro odstoupení, odkazovaný v zápatí. Vyžaduje systém ticketů, protože každé odeslání se zaznamená jako ticket."
+            "enableWithdrawalFormDesc": "Zobrazí veřejný formulář pro odstoupení, odkazovaný v zápatí. Vyžaduje systém ticketů, protože každé odeslání se zaznamená jako ticket.",
+            "defaultIntroduction": "Vítejte v našem obchodě! Projděte si kategorie a najděte balíček, který vám nejvíce vyhovuje."
         },
         "messages": {
             "confirmCreditsPayment": "Prosím, potvrďte platbu {credits} {credits_display_title}.",

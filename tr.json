@@ -324,7 +324,8 @@
             "topDonators": "En İyi Bağışçılar",
             "lastDonations": "Son Bağışlar",
             "enableWithdrawalForm": "Cayma formunu etkinleştir",
-            "enableWithdrawalFormDesc": "Alt bilgide bağlantısı bulunan herkese açık bir cayma formu gösterir. Her gönderim bir talep olarak kaydedildiğinden talep sistemini gerektirir."
+            "enableWithdrawalFormDesc": "Alt bilgide bağlantısı bulunan herkese açık bir cayma formu gösterir. Her gönderim bir talep olarak kaydedildiğinden talep sistemini gerektirir.",
+            "defaultIntroduction": "Mağazamıza hoş geldiniz! Kategorilere göz atın ve size en uygun paketi bulun."
         },
         "messages": {
             "couponApplySuccess": "Kupon başarıyla uygulandı.",

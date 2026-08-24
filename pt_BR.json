@@ -233,7 +233,8 @@
             "topDonators": "Principais doadores",
             "lastDonations": "Últimas doações",
             "enableWithdrawalForm": "Ativar formulário de desistência",
-            "enableWithdrawalFormDesc": "Exibe um formulário de desistência público, com link no rodapé. Requer o sistema de tickets, pois cada envio é registrado como um ticket."
+            "enableWithdrawalFormDesc": "Exibe um formulário de desistência público, com link no rodapé. Requer o sistema de tickets, pois cada envio é registrado como um ticket.",
+            "defaultIntroduction": "Bem-vindo à nossa loja! Navegue pelas categorias e encontre o pacote ideal para você."
         },
         "messages": {
             "notEnoughCredits": "Você não tem créditos suficientes para pagar essa compra. Por favor escolha um método de pagamento diferente ou compre mais créditos.",
