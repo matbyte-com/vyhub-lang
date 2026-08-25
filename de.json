@@ -344,7 +344,8 @@
             "ticket": "Ticket",
             "warning": "Warnung",
             "shop": "Shop",
-            "news": "Neuigkeiten"
+            "news": "Neuigkeiten",
+            "forum": "Forum"
         },
         "packet_applied": "Paket {packet_title} wurde aktiviert!",
         "browserNotifications": "Browser-Benachrichtigungen",
@@ -358,7 +359,9 @@
         "coupon_purchase_new": "{username} eingereicht {gateway_name} Codes ({amount_total} {currency_symbol}) die müssen genehmigt werden.",
         "applied_packet_disabled": "Ihr Paket {packet_title} wurde deaktiviert.",
         "applied_packet_upgraded": "Ihr Paket {old_packet_title} wurde aufgerüstet mit {new_packet_title}.",
-        "purchase_finished_other": "{username} einen Kauf abgeschlossen {amount} via {gateway_name}."
+        "purchase_finished_other": "{username} einen Kauf abgeschlossen {amount} via {gateway_name}.",
+        "forum_thread_new": "{username} hat ein neues Thema in {topic} erstellt: {title}",
+        "forum_post_new": "{username} hat geantwortet in: {title}"
     },
     "_warning": {
         "ttlPlaceholder": "Dauer (in Tagen)",
@@ -496,7 +499,9 @@
     "_personalSettings": {
         "emailNotifications": "E-Mail Benachrichtigungen",
         "enableEmailNotifications": "E-Mail Benachrichtigungen aktivieren",
-        "noEmailSpecified": "Noch keine E-Mail angegeben"
+        "noEmailSpecified": "Noch keine E-Mail angegeben",
+        "forumNotifications": "Forum-Benachrichtigungen",
+        "enableForumNotifications": "E-Mails zu abonnierten Themen und Bereichen erhalten"
     },
     "select": "Auswählen",
     "message": "Nachricht",
@@ -1280,7 +1285,13 @@
         "lastActivity": "Letzte Aktivitäten",
         "lockWithAnswer": "Antworten und schließen",
         "topicAdminGroup": "Themen Admin-Gruppen",
-        "opened": "Offen"
+        "opened": "Offen",
+        "subscribe": "Abonnieren",
+        "unsubscribe": "Abbestellen",
+        "subscribedThread": "Du wirst über neue Beiträge in diesem Thema benachrichtigt.",
+        "subscribedTopic": "Du wirst über neue Themen in diesem Bereich benachrichtigt.",
+        "notSubscribedThread": "Lass dich über neue Beiträge in diesem Thema benachrichtigen.",
+        "notSubscribedTopic": "Lass dich über neue Themen in diesem Bereich benachrichtigen."
     },
     "_invoice": {
         "invoiceDate": "Rechnungsdatum",

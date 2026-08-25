@@ -791,7 +791,8 @@
             "news": "News",
             "ticket": "Ticket",
             "shop": "Shop",
-            "warning": "Warning"
+            "warning": "Warning",
+            "forum": "Forum"
         },
         "news_new": "News: {newsSubject}.",
         "ticket_new": "{username} created ticket: {title}",
@@ -804,7 +805,9 @@
         "purchase_finished": "Your purchase of {amount} has been finished!",
         "purchase_cancelled": "Your purchase of {amount} has been cancelled!",
         "warning_new": "You have been warned. Reason: {reason}",
-        "coupon_purchase_new": "{username} submitted {gateway_name} codes ({amount_total} {currency_symbol}) that need to be approved."
+        "coupon_purchase_new": "{username} submitted {gateway_name} codes ({amount_total} {currency_symbol}) that need to be approved.",
+        "forum_thread_new": "{username} created a new thread in {topic}: {title}",
+        "forum_post_new": "{username} replied in: {title}"
     },
     "_pageTitle": {
         "dashboard": "Dashboard",
@@ -936,7 +939,9 @@
     "_personalSettings": {
         "emailNotifications": "Email Notifications",
         "enableEmailNotifications": "Enable email notifications",
-        "noEmailSpecified": "No email specified yet"
+        "noEmailSpecified": "No email specified yet",
+        "forumNotifications": "Forum Notifications",
+        "enableForumNotifications": "Receive emails about threads and topics you follow"
     },
     "_team": {
         "title": "Team",
@@ -1076,7 +1081,13 @@
             "oldThread": "This thread is older than 3 months. Consider creating a new thread because the thread could be outdated.",
             "closedThread": "You are about to reply to a closed thread.",
             "banned": "You are banned from the forum and cannot create new threads or posts."
-        }
+        },
+        "subscribe": "Subscribe",
+        "unsubscribe": "Unsubscribe",
+        "subscribedThread": "You will be notified about new posts in this thread.",
+        "subscribedTopic": "You will be notified about new threads in this topic.",
+        "notSubscribedThread": "Get notified about new posts in this thread.",
+        "notSubscribedTopic": "Get notified about new threads in this topic."
     },
     "_advert": {
         "title": "Adverts",
