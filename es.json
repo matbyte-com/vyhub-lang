@@ -564,7 +564,8 @@
                 "membership": "Añadir membresía de grupo",
                 "http": "Enviar una solicitud HTTP",
                 "teamspeak_channel": "Crear un canal de Teamspeak"
-            }
+            },
+            "availableReplacements": "Marcadores de posición disponibles"
         },
         "status": {
             "OPEN": "Abierta",

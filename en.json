@@ -564,7 +564,8 @@
                 "membership": "Add group membership",
                 "http": "Send a HTTP request",
                 "teamspeak_channel": "Create a Teamspeak channel"
-            }
+            },
+            "availableReplacements": "Available string replacements"
         },
         "status": {
             "OPEN": "Open",

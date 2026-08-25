@@ -564,7 +564,8 @@
                 "membership": "Přidat členství ve skupině",
                 "http": "Odeslat HTTP požadavek",
                 "teamspeak_channel": "Vytvořit kanál Teamspeak"
-            }
+            },
+            "availableReplacements": "Dostupné zástupné symboly"
         },
         "status": {
             "OPEN": "Otevřeno",

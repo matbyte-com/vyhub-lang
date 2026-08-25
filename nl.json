@@ -539,7 +539,8 @@
             "parentChannelId": "Bovenliggend kanaal-ID",
             "channelGroupId": "Kanaalgroep-ID",
             "clientLimit": "Clientlimiet",
-            "deleteOnExpire": "Verwijderen bij verlopen"
+            "deleteOnExpire": "Verwijderen bij verlopen",
+            "availableReplacements": "Beschikbare tijdelijke aanduidingen"
         },
         "status": {
             "FAILED": "Mislukt",

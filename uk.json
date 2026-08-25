@@ -665,7 +665,8 @@
             "parentChannelId": "ID батьківського каналу",
             "channelGroupId": "ID групи каналів",
             "clientLimit": "Ліміт клієнтів",
-            "deleteOnExpire": "Видалити після закінчення терміну"
+            "deleteOnExpire": "Видалити після закінчення терміну",
+            "availableReplacements": "Доступні підстановки"
         },
         "status": {
             "EXECUTED": "Виконано",

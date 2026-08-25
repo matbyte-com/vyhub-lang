@@ -518,7 +518,8 @@
             "parentChannelId": "ID do canal pai",
             "channelGroupId": "ID do grupo do canal",
             "clientLimit": "Limite de clientes",
-            "deleteOnExpire": "Excluir ao expirar"
+            "deleteOnExpire": "Excluir ao expirar",
+            "availableReplacements": "Marcadores disponíveis"
         },
         "status": {
             "OPEN": "Abrir",

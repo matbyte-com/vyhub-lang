@@ -620,7 +620,8 @@
             "onceDescription": "Wenn aktiviert, wird die Prämie nur einmal auf ALLEN Servern im ausgewählten Serverbundle ausgeführt, einschließlich später hinzugefügter Server. Wenn deaktiviert, wird die Prämie jedes Mal, wenn das ausgewählte Ereignis eintritt, auf allen Servern im ausgewählten Serverbundle ausgeführt.",
             "limitToServers": "Auf Server beschränken",
             "limitToServersDescription": "Beschränke die Ausführung der Prämie auf die ausgewählten Server. Wenn keine Server ausgewählt sind, wird die Belohnung auf allen Servern im Serverbundle ausgeführt.",
-            "onceFromAllDescription": "Wenn aktiviert, wird die Prämie nur auf dem ersten Server (des ausgewählten Serverbundles) ausgeführt, mit dem sich der Benutzer verbindet. Muss mit „Nur einmal ausführen“ kombiniert werden."
+            "onceFromAllDescription": "Wenn aktiviert, wird die Prämie nur auf dem ersten Server (des ausgewählten Serverbundles) ausgeführt, mit dem sich der Benutzer verbindet. Muss mit „Nur einmal ausführen“ kombiniert werden.",
+            "availableReplacements": "Verfügbare Platzhalter"
         },
         "status": {
             "OPEN": "Offen",

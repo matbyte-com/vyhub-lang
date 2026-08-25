@@ -538,7 +538,8 @@
             "parentChannelId": "Üst Kanal ID'si",
             "channelGroupId": "Kanal Grubu ID'si",
             "clientLimit": "İstemci Sınırı",
-            "deleteOnExpire": "Süresi dolduğunda sil"
+            "deleteOnExpire": "Süresi dolduğunda sil",
+            "availableReplacements": "Kullanılabilir yer tutucular"
         },
         "status": {
             "FAILED": "Başarısız",

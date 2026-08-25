@@ -564,7 +564,8 @@
                 "membership": "Добавить членство в группе",
                 "http": "Отправить HTTP-запрос",
                 "teamspeak_channel": "Создать канал Teamspeak"
-            }
+            },
+            "availableReplacements": "Доступные подстановки"
         },
         "status": {
             "OPEN": "Открыто",

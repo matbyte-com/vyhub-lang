@@ -314,7 +314,8 @@
             "parentChannelId": "ID canale padre",
             "channelGroupId": "ID gruppo del canale",
             "clientLimit": "Limite client",
-            "deleteOnExpire": "Elimina alla scadenza"
+            "deleteOnExpire": "Elimina alla scadenza",
+            "availableReplacements": "Segnaposto disponibili"
         },
         "status": {
             "FAILED": "Fallito",
