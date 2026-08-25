@@ -688,7 +688,8 @@
             "news": "Actualités",
             "ticket": "Billet",
             "shop": "Boutique",
-            "warning": "Avertissement"
+            "warning": "Avertissement",
+            "forum": "Forum"
         },
         "news_new": "Nouvelles : {newsSubject}.",
         "ticket_new": "{username} a créé le ticket : {title}",
@@ -703,7 +704,9 @@
         "purchase_finished_other": "{username} a finalisé son achat de {amount} avec {gateway_name}.",
         "timeAgo": "il y a {time}",
         "applied_packet_disabled": "Votre paquet {packet_title} a été désactivé.",
-        "applied_packet_upgraded": "Votre paquet {old_packet_title} a été mis à jour avec {new_packet_title}."
+        "applied_packet_upgraded": "Votre paquet {old_packet_title} a été mis à jour avec {new_packet_title}.",
+        "forum_thread_new": "{username} a créé un nouveau fil dans {topic} : {title}",
+        "forum_post_new": "{username} a répondu dans : {title}"
     },
     "_pageTitle": {
         "dashboard": "Tableau de bord",
@@ -835,7 +838,9 @@
     "_personalSettings": {
         "emailNotifications": "Notifications par email",
         "enableEmailNotifications": "Activer les notifications par e-mail",
-        "noEmailSpecified": "Aucun e-mail spécifié pour le moment"
+        "noEmailSpecified": "Aucun e-mail spécifié pour le moment",
+        "forumNotifications": "Notifications du forum",
+        "enableForumNotifications": "Recevoir des e-mails sur les fils et les sections que vous suivez"
     },
     "_team": {
         "title": "L'Équipe",
@@ -1227,7 +1232,13 @@
         "editSubforum": "Modifier le sous-forum",
         "manageTicketCategories": "Gérer les catégories",
         "addTicketCategory": "Ajouter une catégorie",
-        "editTicketCategory": "Modifier la catégorie"
+        "editTicketCategory": "Modifier la catégorie",
+        "subscribe": "S'abonner",
+        "unsubscribe": "Se désabonner",
+        "subscribedThread": "Vous serez notifié des nouveaux posts dans ce fil.",
+        "subscribedTopic": "Vous serez notifié des nouveaux fils dans cette section.",
+        "notSubscribedThread": "Soyez notifié des nouveaux posts dans ce fil.",
+        "notSubscribedTopic": "Soyez notifié des nouveaux fils dans cette section."
     },
     "_invoice": {
         "invoice": "Facture",

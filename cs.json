@@ -791,7 +791,8 @@
             "news": "Novinky",
             "ticket": "Ticket",
             "shop": "Obchod",
-            "warning": "Varování"
+            "warning": "Varování",
+            "forum": "Fórum"
         },
         "news_new": "Novinky: {newsSubject}.",
         "ticket_new": "{username} vytvořil ticket: {title}",
@@ -804,7 +805,9 @@
         "purchase_finished": "Váš nákup {amount} byl dokončen!",
         "purchase_cancelled": "Váš nákup {amount} byl zrušen!",
         "warning_new": "Byli jste varováni. Důvod: {reason}",
-        "coupon_purchase_new": "{username} odeslal kódy {gateway_name} ({amount_total} {currency_symbol}), které je třeba schválit."
+        "coupon_purchase_new": "{username} odeslal kódy {gateway_name} ({amount_total} {currency_symbol}), které je třeba schválit.",
+        "forum_thread_new": "{username} vytvořil nové vlákno v {topic}: {title}",
+        "forum_post_new": "{username} odpověděl ve vlákně: {title}"
     },
     "_pageTitle": {
         "dashboard": "Nástěnka",
@@ -936,7 +939,9 @@
     "_personalSettings": {
         "emailNotifications": "E-mailová oznámení",
         "enableEmailNotifications": "Povolit e-mailová oznámení",
-        "noEmailSpecified": "Zatím nebyl zadán žádný e-mail"
+        "noEmailSpecified": "Zatím nebyl zadán žádný e-mail",
+        "forumNotifications": "Oznámení z fóra",
+        "enableForumNotifications": "Dostávat e-maily o vláknech a sekcích, které sledujete"
     },
     "_team": {
         "title": "Tým",
@@ -1076,7 +1081,13 @@
         "editSubforum": "Upravit podfórum",
         "manageTicketCategories": "Spravovat kategorie",
         "addTicketCategory": "Přidat kategorii",
-        "editTicketCategory": "Upravit kategorii"
+        "editTicketCategory": "Upravit kategorii",
+        "subscribe": "Odebírat",
+        "unsubscribe": "Zrušit odběr",
+        "subscribedThread": "Budete upozorněni na nové příspěvky v tomto vlákně.",
+        "subscribedTopic": "Budete upozorněni na nová vlákna v této sekci.",
+        "notSubscribedThread": "Nechte si posílat upozornění na nové příspěvky v tomto vlákně.",
+        "notSubscribedTopic": "Nechte si posílat upozornění na nová vlákna v této sekci."
     },
     "_advert": {
         "title": "Reklamy",

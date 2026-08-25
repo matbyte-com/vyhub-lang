@@ -699,7 +699,8 @@
             "news": "Новини",
             "shop": "Магазин",
             "warning": "Попередження",
-            "ticket": "Запит"
+            "ticket": "Запит",
+            "forum": "Форум"
         },
         "noNotification": "Немає сповіщень",
         "timeAgo": "{time} тому",
@@ -715,7 +716,9 @@
         "applied_packet_upgraded": "Ваш пакет {old_packet_title} було оновлено до {new_packet_title}.",
         "purchase_finished_other": "{username} завершив покупку на {amount} через {gateway_name}.",
         "purchase_cancelled": "Ваша покупка на {amount} була скасована!",
-        "warning_new": "Створено нове попередження. Причина: [reason]"
+        "warning_new": "Створено нове попередження. Причина: [reason]",
+        "forum_thread_new": "{username} створив нову гілку в {topic}: {title}",
+        "forum_post_new": "{username} відповів у гілці: {title}"
     },
     "_pageTitle": {
         "settings": "Налаштування",
@@ -919,7 +922,9 @@
     "_personalSettings": {
         "emailNotifications": "Сповіщення по електронній пошті",
         "noEmailSpecified": "Ще не вказано жодної адреси електронної пошти",
-        "enableEmailNotifications": "Увімкнути сповіщення електронною поштою"
+        "enableEmailNotifications": "Увімкнути сповіщення електронною поштою",
+        "forumNotifications": "Сповіщення форуму",
+        "enableForumNotifications": "Отримувати листи про гілки та розділи, на які ви підписані"
     },
     "_import": {
         "messages": {
@@ -1033,7 +1038,13 @@
         "editSubforum": "Редагувати підфорум",
         "manageTicketCategories": "Керувати категоріями",
         "addTicketCategory": "Додати категорію",
-        "editTicketCategory": "Редагувати категорію"
+        "editTicketCategory": "Редагувати категорію",
+        "subscribe": "Підписатися",
+        "unsubscribe": "Відписатися",
+        "subscribedThread": "Ви отримуватимете сповіщення про нові пости в цій гілці.",
+        "subscribedTopic": "Ви отримуватимете сповіщення про нові гілки в цьому розділі.",
+        "notSubscribedThread": "Отримуйте сповіщення про нові пости в цій гілці.",
+        "notSubscribedTopic": "Отримуйте сповіщення про нові гілки в цьому розділі."
     },
     "_advert": {
         "title": "Оголошення",

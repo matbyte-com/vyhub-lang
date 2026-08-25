@@ -531,7 +531,8 @@
             "shop": "Negozio",
             "warning": "Avvertimento",
             "ban": "Ban",
-            "ticket": "Ticket"
+            "ticket": "Ticket",
+            "forum": "Forum"
         },
         "ticket_new": "{username} ha creato un ticket: {titolo}",
         "ticket_update": "Nuovo post in ticket: {titolo}",
@@ -541,7 +542,9 @@
         "purchase_finished": "Il tuo acquisto di {importo} è stato completato!",
         "purchase_cancelled": "L'acquisto di {importo} è stato annullato!",
         "warning_new": "È stato creato un nuovo avviso. Motivo: {ragione}",
-        "isLink": "Link"
+        "isLink": "Link",
+        "forum_thread_new": "{username} ha creato una nuova discussione in {topic}: {title}",
+        "forum_post_new": "{username} ha risposto in: {title}"
     },
     "_warning": {
         "settingFormDesc": "Gli utenti vengono bannati automaticamente quando raggiungono il numero specificato di avvisi ATTIVI.",
@@ -936,7 +939,9 @@
     "_personalSettings": {
         "emailNotifications": "Notifiche email",
         "enableEmailNotifications": "Abilita notifiche email",
-        "noEmailSpecified": "Nessuna email ancora specificata"
+        "noEmailSpecified": "Nessuna email ancora specificata",
+        "forumNotifications": "Notifiche del forum",
+        "enableForumNotifications": "Ricevi email sulle discussioni e sulle sezioni che segui"
     },
     "_team": {
         "title": "Team",
@@ -1076,7 +1081,13 @@
         "editSubforum": "Modifica sottoforum",
         "manageTicketCategories": "Gestisci categorie",
         "addTicketCategory": "Aggiungi categoria",
-        "editTicketCategory": "Modifica categoria"
+        "editTicketCategory": "Modifica categoria",
+        "subscribe": "Iscriviti",
+        "unsubscribe": "Annulla iscrizione",
+        "subscribedThread": "Riceverai una notifica per i nuovi post in questa discussione.",
+        "subscribedTopic": "Riceverai una notifica per le nuove discussioni in questa sezione.",
+        "notSubscribedThread": "Ricevi una notifica per i nuovi post in questa discussione.",
+        "notSubscribedTopic": "Ricevi una notifica per le nuove discussioni in questa sezione."
     },
     "_advert": {
         "title": "Annunci",

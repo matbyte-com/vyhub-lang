@@ -800,7 +800,13 @@
         "editSubforum": "Alt forumu düzenle",
         "manageTicketCategories": "Kategorileri Yönet",
         "addTicketCategory": "Kategori Ekle",
-        "editTicketCategory": "Kategoriyi Düzenle"
+        "editTicketCategory": "Kategoriyi Düzenle",
+        "subscribe": "Abone Ol",
+        "unsubscribe": "Abonelikten Çık",
+        "subscribedThread": "Bu konudaki yeni gönderiler hakkında bilgilendirileceksiniz.",
+        "subscribedTopic": "Bu bölümdeki yeni konular hakkında bilgilendirileceksiniz.",
+        "notSubscribedThread": "Bu konudaki yeni gönderilerden haberdar olun.",
+        "notSubscribedTopic": "Bu bölümdeki yeni konulardan haberdar olun."
     },
     "_home": {
         "messageSubject": "Konu",
@@ -911,7 +917,8 @@
             "shop": "Dükkan",
             "ticket": "Bilet",
             "news": "Haberler",
-            "warning": "Uyarı"
+            "warning": "Uyarı",
+            "forum": "Forum"
         },
         "news_new": "Oluşturulan haberler: {newsSubject}.",
         "ticket_new": "{username} oluşturulan bilet: {title}",
@@ -932,7 +939,9 @@
         "ban_new": "Yasaklandınız. Sebep: {reason}",
         "packet_applied": "{packet_title} paketi etkinleştirildi!",
         "applied_packet_upgraded": "{old_packet_title} paketiniz {new_packet_title} ile yükseltildi.",
-        "isLink": "Bağlantı"
+        "isLink": "Bağlantı",
+        "forum_thread_new": "{username}, {topic} bölümünde yeni bir konu açtı: {title}",
+        "forum_post_new": "{username} şu konuya yanıt verdi: {title}"
     },
     "revoked": "İptal edildi",
     "allGroups": "Tüm Gruplar",
@@ -1188,7 +1197,9 @@
     "_personalSettings": {
         "noEmailSpecified": "Henüz e-posta belirtilmedi",
         "emailNotifications": "E-posta Bildirimleri",
-        "enableEmailNotifications": "E-posta bildirimlerini etkinleştir"
+        "enableEmailNotifications": "E-posta bildirimlerini etkinleştir",
+        "forumNotifications": "Forum Bildirimleri",
+        "enableForumNotifications": "Takip ettiğiniz konular ve bölümler hakkında e-posta al"
     },
     "_team": {
         "editTeam": "Takımı Düzenle",

@@ -791,7 +791,8 @@
             "news": "Новости",
             "ticket": "Тикет",
             "shop": "Магазин",
-            "warning": "Предупреждение"
+            "warning": "Предупреждение",
+            "forum": "Форум"
         },
         "news_new": "Новости: {newsSubject}.",
         "ticket_new": "{username} создал тикет: {title}",
@@ -804,7 +805,9 @@
         "purchase_finished": "Ваша покупка на сумму {amount} была завершена!",
         "purchase_cancelled": "Ваша покупка на сумму {amount} была отменена!",
         "warning_new": "Вам вынесено предупреждение. Причина: {reason}",
-        "coupon_purchase_new": "{username} отправил коды {gateway_name} ({amount_total} {currency_symbol}), которые требуют подтверждения."
+        "coupon_purchase_new": "{username} отправил коды {gateway_name} ({amount_total} {currency_symbol}), которые требуют подтверждения.",
+        "forum_thread_new": "{username} создал новую тему в {topic}: {title}",
+        "forum_post_new": "{username} ответил в теме: {title}"
     },
     "_pageTitle": {
         "dashboard": "Панель управления",
@@ -936,7 +939,9 @@
     "_personalSettings": {
         "emailNotifications": "Уведомления по электронной почте",
         "enableEmailNotifications": "Включить уведомления по электронной почте",
-        "noEmailSpecified": "Электронная почта пока не указана"
+        "noEmailSpecified": "Электронная почта пока не указана",
+        "forumNotifications": "Уведомления форума",
+        "enableForumNotifications": "Получать письма о темах и разделах, на которые вы подписаны"
     },
     "_team": {
         "title": "Команда",
@@ -1076,7 +1081,13 @@
         "editSubforum": "Редактировать подфорум",
         "manageTicketCategories": "Управление категориями",
         "addTicketCategory": "Добавить категорию",
-        "editTicketCategory": "Редактировать категорию"
+        "editTicketCategory": "Редактировать категорию",
+        "subscribe": "Подписаться",
+        "unsubscribe": "Отписаться",
+        "subscribedThread": "Вы будете получать уведомления о новых сообщениях в этой теме.",
+        "subscribedTopic": "Вы будете получать уведомления о новых темах в этом разделе.",
+        "notSubscribedThread": "Получайте уведомления о новых сообщениях в этой теме.",
+        "notSubscribedTopic": "Получайте уведомления о новых темах в этом разделе."
     },
     "_advert": {
         "title": "Объявления",

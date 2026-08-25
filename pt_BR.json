@@ -628,7 +628,8 @@
             "general": "Geral",
             "ban": "Proibições",
             "shop": "Loja",
-            "warning": "Aviso"
+            "warning": "Aviso",
+            "forum": "Fórum"
         },
         "notifications": "Notificações",
         "newNotifications": "Novas notificações",
@@ -648,7 +649,9 @@
         "purchase_cancelled": "Sua compra de {amount} foi cancelada!",
         "warning_new": "Um novo aviso foi criado. Razão: {reason}",
         "coupon_purchase_new": "{username} submetido {gateway_name} códigos ({amount_total} {currency_symbol}) que precisam ser aprovados.",
-        "news_new": "Atualizações criadas: {newsSubject}."
+        "news_new": "Atualizações criadas: {newsSubject}.",
+        "forum_thread_new": "{username} criou um novo tópico em {topic}: {title}",
+        "forum_post_new": "{username} respondeu em: {title}"
     },
     "help": "Ajuda",
     "mappings": "Mapeamentos",
@@ -780,7 +783,13 @@
         "editSubforum": "Editar subfórum",
         "manageTicketCategories": "Gerenciar categorias",
         "addTicketCategory": "Adicionar categoria",
-        "editTicketCategory": "Editar categoria"
+        "editTicketCategory": "Editar categoria",
+        "subscribe": "Inscrever-se",
+        "unsubscribe": "Cancelar inscrição",
+        "subscribedThread": "Você será notificado sobre novas publicações neste tópico.",
+        "subscribedTopic": "Você será notificado sobre novos tópicos nesta seção.",
+        "notSubscribedThread": "Seja notificado sobre novas publicações neste tópico.",
+        "notSubscribedTopic": "Seja notificado sobre novos tópicos nesta seção."
     },
     "_faq": {
         "addQuestionDialog": "Adicionar pergunta",
@@ -1115,7 +1124,9 @@
     "_personalSettings": {
         "emailNotifications": "Notificação do E-mail",
         "enableEmailNotifications": "Ativar notificações por e-mail",
-        "noEmailSpecified": "Nenhum e-mail especificado ainda"
+        "noEmailSpecified": "Nenhum e-mail especificado ainda",
+        "forumNotifications": "Notificações do fórum",
+        "enableForumNotifications": "Receber e-mails sobre os tópicos e as seções que você segue"
     },
     "_team": {
         "title": "Time",

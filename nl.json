@@ -713,14 +713,17 @@
             "news": "Nieuws",
             "ticket": "Ticket",
             "shop": "Winkel",
-            "warning": "Waarschuwing"
+            "warning": "Waarschuwing",
+            "forum": "Forum"
         },
         "news_new": "Nieuws gemaakt: {newsSubject}.",
         "ticket_new": "{username} heeft een ticket gemaakt: {title}",
         "purchase_finished_other": "{username} heeft een aankoop gedaan van {amount} via {gateway_name}.",
         "purchase_finished": "Uw aankoop van {amount} is voltooid!",
         "warning_new": "Er is een nieuwe waarschuwing aangemaakt. Reden: {reden}",
-        "newNotifications": "Nieuwe meldingen"
+        "newNotifications": "Nieuwe meldingen",
+        "forum_thread_new": "{username} heeft een nieuwe thread aangemaakt in {topic}: {title}",
+        "forum_post_new": "{username} heeft gereageerd in: {title}"
     },
     "_warning": {
         "ttlDescription": "Tijd totdat de waarschuwing wordt gemarkeerd als verlopen",
@@ -869,7 +872,13 @@
         "editSubforum": "Subforum bewerken",
         "manageTicketCategories": "Categorieën beheren",
         "addTicketCategory": "Categorie toevoegen",
-        "editTicketCategory": "Categorie bewerken"
+        "editTicketCategory": "Categorie bewerken",
+        "subscribe": "Abonneren",
+        "unsubscribe": "Abonnement opzeggen",
+        "subscribedThread": "Je ontvangt een melding bij nieuwe berichten in deze thread.",
+        "subscribedTopic": "Je ontvangt een melding bij nieuwe threads in deze sectie.",
+        "notSubscribedThread": "Ontvang een melding bij nieuwe berichten in deze thread.",
+        "notSubscribedTopic": "Ontvang een melding bij nieuwe threads in deze sectie."
     },
     "apiKey": "API sleutel",
     "finished": "Afgerond",
@@ -1240,7 +1249,9 @@
     "_personalSettings": {
         "emailNotifications": "Email meldingen",
         "enableEmailNotifications": "Schakel e-mailmeldingen in",
-        "noEmailSpecified": "Er is nog geen e-mailadres opgegeven"
+        "noEmailSpecified": "Er is nog geen e-mailadres opgegeven",
+        "forumNotifications": "Forummeldingen",
+        "enableForumNotifications": "E-mails ontvangen over threads en secties die je volgt"
     },
     "update": "Update",
     "maxUsages": "Maximaal gebruik",

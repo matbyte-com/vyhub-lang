@@ -791,7 +791,8 @@
             "news": "Noticias",
             "ticket": "Ticket",
             "shop": "Tienda",
-            "warning": "Advertencia"
+            "warning": "Advertencia",
+            "forum": "Foro"
         },
         "news_new": "Noticias: {newsSubject}.",
         "ticket_new": "{username} creó el ticket: {title}",
@@ -804,7 +805,9 @@
         "purchase_finished": "¡Tu compra de {amount} se ha finalizado!",
         "purchase_cancelled": "¡Tu compra de {amount} ha sido cancelada!",
         "warning_new": "Has recibido una advertencia. Motivo: {reason}",
-        "coupon_purchase_new": "{username} ha enviado códigos de {gateway_name} ({amount_total} {currency_symbol}) que deben aprobarse."
+        "coupon_purchase_new": "{username} ha enviado códigos de {gateway_name} ({amount_total} {currency_symbol}) que deben aprobarse.",
+        "forum_thread_new": "{username} creó un nuevo hilo en {topic}: {title}",
+        "forum_post_new": "{username} respondió en: {title}"
     },
     "_pageTitle": {
         "dashboard": "Panel de control",
@@ -936,7 +939,9 @@
     "_personalSettings": {
         "emailNotifications": "Notificaciones por correo electrónico",
         "enableEmailNotifications": "Activar notificaciones por correo electrónico",
-        "noEmailSpecified": "Todavía no se ha especificado ningún correo electrónico"
+        "noEmailSpecified": "Todavía no se ha especificado ningún correo electrónico",
+        "forumNotifications": "Notificaciones del foro",
+        "enableForumNotifications": "Recibir correos sobre los hilos y las secciones que sigues"
     },
     "_team": {
         "title": "Equipo",
@@ -1076,7 +1081,13 @@
         "editSubforum": "Editar subforo",
         "manageTicketCategories": "Gestionar categorías",
         "addTicketCategory": "Añadir categoría",
-        "editTicketCategory": "Editar categoría"
+        "editTicketCategory": "Editar categoría",
+        "subscribe": "Suscribirse",
+        "unsubscribe": "Cancelar suscripción",
+        "subscribedThread": "Recibirás notificaciones sobre las nuevas publicaciones de este hilo.",
+        "subscribedTopic": "Recibirás notificaciones sobre los nuevos hilos de esta sección.",
+        "notSubscribedThread": "Recibe notificaciones sobre las nuevas publicaciones de este hilo.",
+        "notSubscribedTopic": "Recibe notificaciones sobre los nuevos hilos de esta sección."
     },
     "_advert": {
         "title": "Anuncios",
