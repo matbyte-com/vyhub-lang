@@ -200,11 +200,6 @@
         "yourAdminInstances": "Instanzen, auf denen du Admin bist"
     },
     "_instance": {
-        "_pricingV3": {
-            "title": "Handlung erforderlich: Wechsel zum neuen Preismodell",
-            "text": "Diese Instanz nutzt noch das alte Preismodell. Bitte wechsle vor dem {date} zum neuen Preismodell, um Unterbrechungen zu vermeiden.",
-            "button": "Preismodell wechseln"
-        },
         "_dpa": {
             "generate": "Auftragsverarbeitungsvertrag erstellen",
             "title": "Auftragsverarbeitungsvertrag (Art. 28 DSGVO)",
@@ -243,7 +238,6 @@
             "agreeWithTermsOfServiceAndUpgradeToVersion14": "Ich stimme den AGB zu und führe ein Upgrade auf Version 1.4 durch",
             "config": "Konfig",
             "operationalTime": "Abozyklus",
-            "extendInstance": "Instanz verlängern",
             "activateInstance": "Instanz aktivieren",
             "setup": "Setup",
             "cloneRepository": "Klone das Github-Repository vyhub-onprem",
@@ -269,11 +263,7 @@
             "selfhostFrontend": "Selbstgehostetes Frontend (Experte)",
             "selfhostFrontendDescription": "Kann aktiviert werden, wenn vyhub-web auf deinem eigenen Server gehostet wird. Dies ist nur für fortgeschrittene Benutzer.",
             "retryScheduled": "Wiederholung geplant",
-            "baseFee": "Grundgebühr",
-            "stopInstanceDescription": "Wenn die Instanz gestoppt wird, wird im nächsten Monat keine Gebühr mehr fällig.",
-            "resumeInstanceDescription": "Wenn die Instanz gestartet wird, wird die monatliche Gebühr von {cloudFee} fällig.",
-            "upgradeToLifetime": "Upgrade auf Lifetime",
-            "forEur": "Für {amount} €"
+            "baseFee": "Grundgebühr"
         },
         "instanceName": "Name der Instanz",
         "cnamePointingAt": "CNAME zeigt auf",
@@ -315,7 +305,6 @@
             "doNotOpenBeforeReady": "Öffne die Seite nicht, bevor die Instanz bereit ist!",
             "noActivePackets": "Es gibt keine aktiven Abos für diese Instanz. Stelle sicher, dass du die Instanz vor Ende der Laufzeit verlängerst.",
             "noResourcesAvailable": "Es sind derzeit keine Ressourcen für eine neue Instanz verfügbar. Bitte versuche es später noch einmal.",
-            "instanceExtended": "Instanz wurde erfolgreich verlängert",
             "instanceSelfhostedLimitedSupport": "Wenn Sie Hilfe bei der Installation von VyHub auf deinem Server benötigst, kannst du das erweiterte Support-Paket erwerben.",
             "instanceSelfhostedRequirements": "Bitte beachte, dass für das Selbsthosting mehrere Voraussetzungen gelten. Du benötigst einen Linux-Server, auf dem Docker und Docker-Compose installiert sind. Darüber hinaus benötigst du eine Domain und ein SSL-Zertifikat. Du benötigst außerdem einen Systemadministrator, der den Server einrichten und warten kann.",
             "noActiveSubscriptions": "Für diese Instanz sind keine aktiven Abonnements vorhanden. Stelle sicher, dass du vor dem Ende der Laufzeit ein neues Abonnement erstellst.",
@@ -323,19 +312,11 @@
             "updateAvailable": "Es ist ein Update verfügbar!",
             "manageSubscriptionHint": "Du kannst deinen Plan jederzeit wechseln – du zahlst nur die Differenz zu deinem bisherigen Plan.",
             "discountsShownInCart": "Anwendbare Rabatte werden im Warenkorb angezeigt.",
-            "upgradeTopUpNeeded": "Du musst Auto-Charge aktivieren und dein Konto mindestens mit {amount} € aufladen, damit du diese Instanz upgraden kannst.",
-            "confirmLifetimeUpgrade": "Bist du sicher, dass du auf Lifetime upgraden möchtest? Die monatliche Grundgebühr wird dann nicht mehr fällig. Das Lifetime-Upgrade kostet einmalig {amount} €.",
             "cloudDiscontinuedTitle": "VyHub Cloud wird eingestellt",
             "cloudDiscontinuedMigrationText": "VyHub Cloud wird nach dem 2026-08-01 eingestellt. Bitte migriere deine Instanzdaten zu einer neuen selbst gehosteten VyHub-Instanz, um VyHub nach diesem Datum weiterhin nutzen zu können. Die Migrationsanleitung findest du in unserer Dokumentation."
         },
         "cnameCheckerTool": "CNAME-Überprüfung",
-        "extendInstance": "Instanz verlängern",
-        "extendInstanceDescription": "Die Laufzeit kann 7 Tage vor Ende der Laufzeit verlängert werden. Wenn die Instanz nicht verlängert wird, wird sie gestoppt.",
         "ownershipTransferSupport": "Bitte kontaktiere den Support, wenn du die Instanz an einen anderen Nutzer übertragen möchtest.",
-        "connectOneServer": "Verbinde einen Spielserver",
-        "automaticExtension": "Automatische Verlängerung",
-        "setUpAutocharge": "Automatische Zahlungen aktivieren",
-        "revenueFee": "Umsatzgebühr",
         "statusHelpSelfhosted": "Bitte folge den Anweisungen in der Dokumentation zum Einrichten der Instanz. Du kannst dich an den Support wenden, wenn du Hilfe benötigst."
     },
     "log": "Log",
@@ -552,8 +533,7 @@
         "too_many_instances": "Du kannst keine weiteren Instanzen erstellen. Bitte kontaktiere den Support um das Limit zu erhöhen.",
         "missing_properties": "Du hast nicht all benötigten Rechte: {properties}",
         "no_resources_available": "Aktuell gibt es nicht genügend verfügbare Rechenleistung.",
-        "packet_relation_violated": "Dieses Paket verletzt eine Paketbeziehung mit einem anderen Paket: {relation_type} {packet_title}.",
-        "insufficient_balance": "Du musst Autocharge aktiviert haben und ein ausreichendes Guthaben haben, damit du diese Aktion ausführen kannst."
+        "packet_relation_violated": "Dieses Paket verletzt eine Paketbeziehung mit einem anderen Paket: {relation_type} {packet_title}."
     },
     "_gateway": {
         "labels": {
@@ -567,13 +547,21 @@
             "acceptPending": "Akzeptiere ausstehende Zahlungen",
             "acceptPendingDescription": "Einige Zahlungsarten (z. B. SEPA-Lastschrift, SOFORT, ...) benötigen mehrere Tage, bis sie abgeschlossen sind. Wenn diese Option aktiviert ist, werden mit diesen Methoden bezahlte Einkäufe direkt nach Abschluss des Bestellvorgangs abgeschlossen. Es besteht eine geringe Chance, dass die Zahlung danach fehlschlägt.",
             "clientCertDescription": "Als Authentifizierungsmethode für die paysafecard API wird ein Client-Zertifikat und -Schlüssel verwendet. Wende dich an den paysafecard-Support, um diese zu erhalten.",
-            "doNotAcceptPending": "Akzeptiere keine ausstehenden Zahlungen"
+            "doNotAcceptPending": "Akzeptiere keine ausstehenden Zahlungen",
+            "cancelSubscriptions": "Alle Abonnements kündigen",
+            "cancelSubscriptionsConfirm": "Abonnements kündigen",
+            "cancelSubscriptionsNotify": "Betroffene Nutzer per E-Mail benachrichtigen",
+            "subscriptionId": "Abonnement-ID"
         },
         "messages": {
             "createSuccess": "Zahlungsmethode wurde erfolgreich erstellt.",
             "deleteSuccess": "Zahlungsmethode erfolreich gelöscht.",
             "editSuccess": "Zahlungsmethode erfolgreich editiert.",
-            "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird."
+            "formAttributeChangeExplanation": "Die folgenden Attribute werden nicht bearbeitet, wenn kein Wert angegeben wird.",
+            "noRunningSubscriptions": "Diese Zahlungsmethode hat keine laufenden Abonnements.",
+            "cancelSubscriptionsWarning": "{count} laufende(s) Abonnement(s) werden beim Zahlungsanbieter gekündigt. Dies kann nicht rückgängig gemacht werden.",
+            "cancelSubscriptionsUnsupported": "{count} Abonnement(s) laufen über einen Zahlungsmethoden-Typ, der nicht automatisch gekündigt werden kann. Sie bleiben unverändert und müssen in der Oberfläche des Anbieters gekündigt werden.",
+            "cancelSubscriptionsStarted": "{count} Abonnement(s) werden im Hintergrund gekündigt."
         }
     },
     "_discount": {
@@ -614,7 +602,6 @@
             "billingAddress": "Rechnungsadresse",
             "removeAllPackets": "Entferne alle Pakete",
             "donationGoal": "Spendenziel",
-            "perMonth": "pro Monat",
             "loginToBuy": "Einloggen um dieses Paket zu kaufen",
             "taxAllowUnknown": "Erlaube Käufe aus Ländern ohne Steuerregel.",
             "taxAllowUnknownDescription": "Wenn deaktiviert, sind Käufe aus Ländern ohne festgelegte explizite Steuerregel nicht möglich.",
@@ -634,7 +621,6 @@
             "afterwardsRecurring": "danach {price}",
             "pleaseWait": "Bitte warten...",
             "redirectDescription": "Du wirst zum Zahlungsanbieter weitergeleitet",
-            "price_override": "Preis Überschreiben",
             "totalMonthly": "Monatlich Gesamt",
             "totalOneTime": "Einmalig Gesamt",
             "varies": "Variiert",
@@ -673,7 +659,6 @@
             "paymentFailed": "Ein Fehler ist während des Zahlvorgangs aufgetreten. Bitte starte den Kauf erneut.",
             "paymentActionFailed": "Beim Weiterleiten auf die Zahlungsseite ist ein Fehler aufgetreten. Bitte versuchen es erneut oder verwende eine andere Zahlungsmethode! Fehlermeldung: {message}",
             "noOngoingPurchase": "Derzeit gibt es keinen laufenden Zahlungsvorgang. Bitte starte diesen im Warenkorb.",
-            "notEnoughLiquidityForAddons": "Du brauchst ein positives VyHub-Guthaben oder eine aktivierte automatische Aufladung, um Add-ons zu aktivieren.",
             "priceMustBeHigherThanMin": "Der Preis muss höher sein als der Mindestpreis."
         },
         "purchaseStatus": {
@@ -762,8 +747,6 @@
             "cloud": "Cloud",
             "selfhosted": "Selbst gehostet",
             "free": "Gratis",
-            "topUpNow": "Jetzt aufladen",
-            "topUpNeeded": "Aufladung benötigt",
             "paymentPlan": "Zahlungs-Plan",
             "license": "Lizenz",
             "createInstance": "Instanz erstellen"
@@ -772,10 +755,7 @@
             "customDomainDescriptionSelfhosting": "Du musst eine Domain besitzen und den DNS-A/AAAA-Eintrag auf den Server verweisen, auf dem VyHub gehostet wird.",
             "selfhostedDescription": "Die selbst gehostete Version von VyHub ist nur für fortgeschrittene Benutzer. Du kannst VyHub selbst hosten und du hast damit vollen Zugriff auf die Datenbank.",
             "cloudDescription": "VyHub Cloud ist der einfachste Weg, mit VyHub zu beginnen. Wir kümmern uns um das Hosting und die Wartung deiner Instanz, damit du dich auf deine Community konzentrieren kannst.",
-            "successSelfhosted": "Deine neue Instanz wurde erfolgreich erstellt.{br}Gehe zum {dashboard}, um einen Zahlungsplan auszuwählen und deine Instanz einzurichten.",
-            "topUpSuccessful": "Aufladung erfolgreich! Du kannst jetzt deine Instanz erstellen.",
-            "waitingForTopUp": "Warten auf Aufladung...",
-            "topUpNeeded": "Du musst Auto-Charge aktivieren und dein Konto mindestens mit {amount} € aufladen, damit du die Instanz erstellen kannst."
+            "successSelfhosted": "Deine neue Instanz wurde erfolgreich erstellt.{br}Gehe zum {dashboard}, um einen Zahlungsplan auszuwählen und deine Instanz einzurichten."
         }
     },
     "_features": {
@@ -1134,38 +1114,17 @@
     "enable": "Aktivieren",
     "users": "Nutzer",
     "_addon": {
-        "addon": "Erweiterung",
         "selectLicenseFirst": "Bitte wähle eine Lizenz aus, um verfügbare Erweiterungen zu sehen.",
         "noAddonsForDuration": "Für die ausgewählte Lizenz-Laufzeit sind keine Erweiterungen verfügbar. Erweiterungen können separat jederzeit erworben werden.",
-        "messages": {
-            "addonEdited": "Erweiterung erfolgreich bearbeitet.",
-            "addonApplied": "Erweiterung erfolgreich hinzugefügt.",
-            "addonCancelled": "Erweiterung erfolgreich gekündigt."
-        },
         "addons": "Erweiterungen",
-        "newAddon": "Neue Erweiterung",
-        "editAddon": "Erweiterung bearbeiten",
-        "noAddonsAvailable": "Keine Erweiterungen verfügbar",
-        "currentAddons": "Aktuelle Erweiterungen",
-        "cancelAddonDescription": "Bist du dir sicher, dass du die Erweiterung deaktivieren möchtest? Die Erweiterung wird zum Ende der aktuellen Laufzeit gekündigt und deaktiviert.",
-        "expiresOn": "Läuft ab"
+        "noAddonsAvailable": "Keine Erweiterungen verfügbar"
     },
     "delete": "Löschen",
     "_account": {
         "labels": {
-            "chargeAccount": "Account aufladen",
-            "chargeOn": "am",
-            "balance": "Kontostand",
-            "autocharge_enabled": "Automatisches Aufladen aktiviert",
-            "autocharge_disabled": "Automatisches Aufladen deaktiviert",
-            "autocharge": "Automatisches Aufladen",
-            "enableAutocharge": "Automatisches Aufladen aktivieren",
-            "nextCharge": "Nächste Zahlung"
+            "balance": "Kontostand"
         },
         "messages": {
-            "autocharge": "Wenn Auto-Charge aktiviert ist, wird dein negativer Kontostand nach Monatsende automatisch von deiner hinterlegten Zahlungsmethode abgebucht. Es gilt ein Mindestbetrag von 5 EUR pro Zahlung.",
-            "noChargeScheduled": "Derzeit ist keine Zahlung geplant. Bitte schaue zu Beginn des nächsten Monats noch einmal vorbei.",
-            "cancelConfirm": "Sind Sie sicher, dass Sie die automatische Kontoaufladung abbrechen möchten?",
             "creditAccountSunsetHint": "Das Guthaben-Konto wird in naher Zukunft eingestellt. Auszahlungen vom Guthaben-Konto sind nicht möglich."
         }
     },
@@ -1346,8 +1305,6 @@
             "relationUpgradeWithDiscount": "Upgradet das ausgewählte Paket: Die verbleibende Zeit wird als Rabatt auf den Preis angerechnet (keine Zeitverlängerung).",
             "multiApply": "Mehrfach anwendbar",
             "multiApplyDetail": "Ob dieses Paket mehrfach gleichzeitig angewendet werden kann.",
-            "isAddon": "Addon",
-            "isAddonDetail": "Ob dieses Paket ein Addon für ein anderes Paket ist.",
             "notBuyable": "Nicht kaufbar",
             "expires": "Läuft ab",
             "limitedPayments": "Begrenzte Zahlungen",

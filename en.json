@@ -228,8 +228,6 @@
             "cloud": "Cloud",
             "selfhosted": "Self-Hosted",
             "free": "Free",
-            "topUpNow": "Top up now",
-            "topUpNeeded": "Top up needed",
             "paymentPlan": "Payment Plan",
             "license": "License",
             "createInstance": "Create instance"
@@ -249,9 +247,6 @@
         "success": "It might take up to 10 minutes for your instance to be created.{br}Go to the {dashboard} to view the status.",
         "smallCommission": "Small <a href='https://docs.vyhub.net/latest/central/account' target='_blank'>commission</a> on your revenue",
         "messages": {
-            "topUpSuccessful": "Top up successful! You can now create your instance.",
-            "waitingForTopUp": "Waiting for top up...",
-            "topUpNeeded": "You need to enable Auto-Charge and top up your account to at least {amount} € to create this instance.",
             "successSelfhosted": "Your instance has been created successfully.{br}Go to the {dashboard} to choose a payment plan and setup your instance.",
             "customDomainDescriptionSelfhosting": "You need to own a domain and point the DNS A/AAAA record to the server where VyHub will be hosted at.",
             "selfhostedDescription": "The self-hosted version of VyHub is for advanced users only. You will be able to host VyHub yourself with full access to the database.",
@@ -259,11 +254,6 @@
         }
     },
     "_instance": {
-        "_pricingV3": {
-            "title": "Action required: switch to the new pricing",
-            "text": "This instance still uses the old pricing model. Please switch to the new pricing before {date} to avoid interruptions.",
-            "button": "Switch pricing"
-        },
         "_dpa": {
             "generate": "Data Processing Agreement (DPA)",
             "title": "Data Processing Agreement (Art. 28 GDPR)",
@@ -302,13 +292,10 @@
             "addAdmin": "Add Admin",
             "advancedSettings": "Advanced Settings",
             "stopInstance": "Stop Instance",
-            "stopInstanceDescription": "When stopping the instance, the monthly fee will not be charged next month.",
             "resumeInstance": "Start Instance",
-            "resumeInstanceDescription": "When starting the instance, the monthly fee of {cloudFee} € is charged.",
             "transferOwnership": "Transfer Ownership",
             "agreeWithTermsOfServiceAndUpgradeToVersion14": "Agree with Terms of Service and Upgrade to Version 1.4",
             "operationalTime": "Subscription Cycle",
-            "extendInstance": "Extend Instance",
             "activateInstance": "Activate Instance",
             "dockerLogin": "Docker Login for registry.matbyte.com",
             "dockerLoginDescription": "Run the following command to authenticate with our container registry:",
@@ -326,8 +313,6 @@
             "manualMethodDescription": "Install on a server you already manage. You run docker login and edit .env on the server yourself.",
             "pasteConfigBlob": "Paste config string into the setup script",
             "pasteConfigBlobDescription": "When ./setup.sh asks for the config string, paste the value below. It contains all instance env variables and the registry credentials required to provision your server.",
-            "upgradeToLifetime": "Upgrade to Lifetime",
-            "forEur": "For {amount} €",
             "cname": "CNAME"
         },
         "instanceName": "Name of Instance",
@@ -345,11 +330,7 @@
         "autoUpdateTime": "Time of auto update (UTC)",
         "autoUpdateDescription": "Instance is automatically updated at given UTC hour",
         "autoUpdateActivated": "Automatic update activated",
-        "extendInstanceDescription": "The runtime of your instance can be extended 7 days before the end. If the instance is not extended in time, it will be stopped.",
         "ownershipTransferSupport": "Please contact the support if you want to transfer the ownership of your instance to another user.",
-        "automaticExtension": "Automatic Extension",
-        "setUpAutocharge": "Set up Auto-Charge",
-        "connectOneServer": "Connect one gameserver",
         "_status": {
             "UNPROVISIONED": "Setting up API server",
             "PROVISION": "Setting up Frontend",
@@ -373,21 +354,17 @@
             "manageSubscriptionHint": "You can switch plans at any time – you only pay the difference to your previous plan.",
             "discountsShownInCart": "Applicable discounts are shown in the cart.",
             "addedAdmin": "Admin successfully added.",
-            "upgradeTopUpNeeded": "You need to enable Auto-Charge and top up your account to at least {amount} € to upgrade this instance.",
             "noActivePackets": "There are no active subscriptions for this instance. Make sure to extend your instance before the end of the runtime.",
             "noResourcesAvailable": "There are currently no resources available for a new instance. Please try again later.",
             "instanceReady": "Your instance is ready!",
             "doNotOpenBeforeReady": "Do not open this page before your instance is ready!",
-            "instanceExtended": "Instance successfully extended",
             "instanceSelfhostedLimitedSupport": "If you need help with installing VyHub on your server, you can purchase the advanced support packet.",
             "instanceSelfhostedRequirements": "Please note that there are several requirements for self-hosting. You need a linux server with docker and docker-compose installed. Furthermore you need a domain and a SSL certificate. You also need a system administrator that can set up and maintain the server.",
             "noActiveSubscriptions": "There are no active subscriptions for this instance. Make sure to create a new subscription before the end of the runtime.",
             "paymentLaterSelfhosted": "After finishing this dialog, you will need to activate your instance by selecting a payment plan.",
-            "updateAvailable": "There is an update available!",
-            "confirmLifetimeUpgrade": "Are you sure you want to upgrade to lifetime? This will remove the monthly fee and you will not be charged anymore. The lifetime upgrade is a one-time payment of {amount} €."
+            "updateAvailable": "There is an update available!"
         },
-        "cnameCheckerTool": "CNAME Check Tool",
-        "revenueFee": "Revenue Fee"
+        "cnameCheckerTool": "CNAME Check Tool"
     },
     "_security": {
         "title": "Two-Factor Authentication",
@@ -524,21 +501,10 @@
         "toLogin": "To Login"
     },
     "_addon": {
-        "addon": "Add-on",
         "addons": "Add-ons",
-        "newAddon": "New Add-on",
-        "editAddon": "Edit Add-on",
         "noAddonsAvailable": "No add-ons available",
         "selectLicenseFirst": "Please select a license to see available add-ons.",
-        "noAddonsForDuration": "No add-ons are available for the selected license duration. Add-ons can be purchased separately at any time.",
-        "currentAddons": "Current Add-ons",
-        "cancelAddonDescription": "Are you sure you want to cancel the add-on? The add-on will be cancelled at the end of the current billing period.",
-        "expiresOn": "Expires On",
-        "messages": {
-            "addonApplied": "Add-on successfully applied.",
-            "addonCancelled": "Add-on successfully cancelled.",
-            "addonEdited": "Add-on successfully edited."
-        }
+        "noAddonsForDuration": "No add-ons are available for the selected license duration. Add-ons can be purchased separately at any time."
     },
     "_discount": {
         "labels": {
@@ -555,7 +521,6 @@
     },
     "_shop": {
         "labels": {
-            "price_override": "Price Override",
             "cart": "Cart",
             "invoiceLogoURL": "Invoice logo URL",
             "invoiceLogoURLDetails": "URL to a logo that is displayed on the invoice.",
@@ -584,7 +549,6 @@
             "unfinishedPurchase": "Unfinished Purchase",
             "billingAddress": "Billing Address",
             "removeAllPackets": "Remove all packets",
-            "perMonth": "per month",
             "loginToBuy": "Log in to buy this packet",
             "checkoutCheckboxes": "Checkout checkboxes",
             "taxAllowUnknown": "Allow purchases from countries without tax rule.",
@@ -636,7 +600,6 @@
             "selectEmailFirst": "Please update your email address first",
             "cancelPurchaseConfirmation": "Started payments are cancelled. All entered coupons are lost. Cancelling a purchase cannot be undone.",
             "variablePricePaymentSuccess": "Payment method registered successfully for future use.",
-            "notEnoughLiquidityForAddons": "You need a positive VyHub Balance or enabled Auto-Charge to activate Add-ons.",
             "priceMustBeHigherThanMin": "The price must be higher than the minimum price."
         },
         "purchaseStatus": {
@@ -700,7 +663,6 @@
         "no_permissions": "Permission error: {msg}",
         "unauthorized": "You must be logged in to do this.",
         "wrong_currency": "You cannot have packets with different currencies in your cart.",
-        "insufficient_balance": "You need to have auto-charge enabled and a sufficient balance to do this.",
         "coupon": {
             "not_found": "This code is invalid."
         }
@@ -717,13 +679,21 @@
             "acceptPending": "Accept pending payments",
             "acceptPendingDescription": "Some payment methods (e.g. SEPA Direct Debit, SOFORT, ...) take several days until completed. If this option is enabled, purchases paid with these methods are finished directly after completing the checkout process. There is a small chance that the payment fails afterwards.",
             "clientCertDescription": "A client certificate and key is used as authentication method for the paysafecard API. Contact the paysafecard support to get one.",
-            "doNotAcceptPending": "Do not accept pending payments"
+            "doNotAcceptPending": "Do not accept pending payments",
+            "cancelSubscriptions": "Cancel all subscriptions",
+            "cancelSubscriptionsConfirm": "Cancel subscriptions",
+            "cancelSubscriptionsNotify": "Notify affected users by email",
+            "subscriptionId": "Subscription ID"
         },
         "messages": {
             "createSuccess": "Payment gateway successfully created.",
             "deleteSuccess": "Payment gateway successfully deleted.",
             "editSuccess": "Payment gateway successfully edited.",
-            "formAttributeChangeExplanation": "The attributes below will not be edited if no value is given."
+            "formAttributeChangeExplanation": "The attributes below will not be edited if no value is given.",
+            "noRunningSubscriptions": "This payment gateway has no running subscriptions.",
+            "cancelSubscriptionsWarning": "{count} running subscription(s) will be cancelled at the payment provider. This cannot be undone.",
+            "cancelSubscriptionsUnsupported": "{count} subscription(s) run on a gateway type that cannot be cancelled automatically. They are left untouched and have to be cancelled in the provider’s interface.",
+            "cancelSubscriptionsStarted": "Cancelling {count} subscription(s) in the background."
         }
     },
     "_payInstance": {
@@ -1189,19 +1159,9 @@
     "account": "Account",
     "_account": {
         "labels": {
-            "balance": "Balance",
-            "autocharge_enabled": "Auto-Charge Enabled",
-            "autocharge_disabled": "Auto-Charge Disabled",
-            "autocharge": "Auto-Charge",
-            "enableAutocharge": "Enable Auto-Charge",
-            "nextCharge": "Next Charge",
-            "chargeOn": "on",
-            "chargeAccount": "Charge Account"
+            "balance": "Balance"
         },
         "messages": {
-            "autocharge": "When Auto-Charge is enabled, your negative account balance will be automatically charged from your stored payment method after the end of the month. A minimum of 5 EUR per charge applies.",
-            "noChargeScheduled": "There is currently no planned charge. Please check back at the beginning of the next month.",
-            "cancelConfirm": "Are you sure that you want to cancel the automatic account top up?",
             "creditAccountSunsetHint": "The credit account feature will be discontinued in the near future. Payouts from the credit account are not possible."
         }
     },
@@ -1259,8 +1219,6 @@
             "relationUpgradeWithDiscount": "Upgrades the selected packet: its remaining time is credited as a discount on the price (no time extension).",
             "multiApply": "Multi Apply",
             "multiApplyDetail": "Whether this packet can be applied multiple times at once.",
-            "isAddon": "Addon",
-            "isAddonDetail": "Whether this packet is an addon for another packet.",
             "notBuyable": "Not Buyable",
             "expires": "Expires",
             "limitedPayments": "Limited Payments",
