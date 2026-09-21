@@ -18,7 +18,8 @@
         "editSuccess": "Successfully edited",
         "deleteSuccess": "Successfully deleted",
         "addSuccess": "Successfully added.",
-        "removeSuccess": "Successfully removed."
+        "removeSuccess": "Successfully removed.",
+        "updateOrderSuccess": "Successfully updated order."
     },
     "_settings": {
         "title": "Settings",

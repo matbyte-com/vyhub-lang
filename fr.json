@@ -1028,7 +1028,8 @@
         "removeSuccess": "Retiré avec succès.",
         "createSuccess": "Création réussie.",
         "editSuccess": "Modification réussie.",
-        "deleteSuccess": "Suppression réussie."
+        "deleteSuccess": "Suppression réussie.",
+        "updateOrderSuccess": "Mise à jour réussie de la commande."
     },
     "contact": "Contact",
     "firstName": "Prénom",

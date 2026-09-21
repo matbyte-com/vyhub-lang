@@ -1277,7 +1277,8 @@
         "editSuccess": "Erfolgreich bearbeitet",
         "deleteSuccess": "Erfolgreich gelöscht",
         "addSuccess": "Erfolgreich hinzugefügt.",
-        "removeSuccess": "Erfolgreich entfernt."
+        "removeSuccess": "Erfolgreich entfernt.",
+        "updateOrderSuccess": "Reihenfolge erfolgreich aktualisiert."
     },
     "frequentlyAskedQuestions": "Häufig gestellte Fragen",
     "retry": "Erneut versuchen",
