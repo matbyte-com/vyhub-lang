@@ -199,6 +199,50 @@
         "title": "Dashboard",
         "yourAdminInstances": "Instanzen, auf denen du Admin bist"
     },
+    "_instanceLive": {
+        "title": "Cluster-Status",
+        "state": {
+            "healthy": "Gesund",
+            "progressing": "Rollout l\u00e4uft",
+            "degraded": "Beeintr\u00e4chtigt",
+            "down": "Ausgefallen",
+            "scaled_to_zero": "Auf null skaliert",
+            "missing": "Nicht deployed"
+        },
+        "podState": {
+            "ready": "Bereit",
+            "terminating": "Wird beendet"
+        },
+        "labels": {
+            "refresh": "Aktualisieren",
+            "rollout": "Rollout",
+            "image": "Image",
+            "replicas": "Replicas",
+            "autoscaling": "Autoscaling",
+            "atMax": "Am Maximum",
+            "replicaRange": "Replicas (min\u2013max)",
+            "pods": "Pods",
+            "podsReady": "Pods bereit",
+            "node": "Node",
+            "restarts": "Neustarts",
+            "memory": "Arbeitsspeicher",
+            "cpuUsage": "CPU-Auslastung",
+            "memoryUsage": "Speicherauslastung",
+            "cores": "Kerne",
+            "age": "Alter",
+            "containerIssues": "Container-Probleme",
+            "exitCode": "Exit-Code",
+            "events": "Letzte Ereignisse",
+            "noReading": "kein Messwert"
+        },
+        "messages": {
+            "noMetricsServer": "Live-Werte f\u00fcr CPU und Arbeitsspeicher sind nicht verf\u00fcgbar, da im Cluster kein metrics-server installiert ist.",
+            "replicaBreakdown": "{ready} von {desired} bereit, {updated} aktuell",
+            "noPods": "F\u00fcr diese Instanz laufen keine Pods.",
+            "podsPending": "{count} nicht bereit",
+            "unavailable": "Der Live-Cluster-Status ist derzeit nicht verf\u00fcgbar."
+        }
+    },
     "_instance": {
         "_dpa": {
             "generate": "Auftragsverarbeitungsvertrag erstellen",

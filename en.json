@@ -254,6 +254,50 @@
             "cloudDescription": "VyHub Cloud is the easiest way to get started with VyHub. We take care of the hosting and maintenance of your instance so you can focus on your community."
         }
     },
+    "_instanceLive": {
+        "title": "Cluster Status",
+        "state": {
+            "healthy": "Healthy",
+            "progressing": "Rolling out",
+            "degraded": "Degraded",
+            "down": "Down",
+            "scaled_to_zero": "Scaled to zero",
+            "missing": "Not deployed"
+        },
+        "podState": {
+            "ready": "Ready",
+            "terminating": "Terminating"
+        },
+        "labels": {
+            "refresh": "Refresh",
+            "rollout": "Rollout",
+            "image": "Image",
+            "replicas": "Replicas",
+            "autoscaling": "Autoscaling",
+            "atMax": "At maximum",
+            "replicaRange": "Replicas (min\u2013max)",
+            "pods": "Pods",
+            "podsReady": "Pods ready",
+            "node": "Node",
+            "restarts": "Restarts",
+            "memory": "Memory",
+            "cpuUsage": "CPU usage",
+            "memoryUsage": "Memory usage",
+            "cores": "cores",
+            "age": "Age",
+            "containerIssues": "Container issues",
+            "exitCode": "exit code",
+            "events": "Recent events",
+            "noReading": "no reading"
+        },
+        "messages": {
+            "noMetricsServer": "Live CPU and memory usage is unavailable because metrics-server is not installed in the cluster.",
+            "replicaBreakdown": "{ready} of {desired} ready, {updated} up to date",
+            "noPods": "No pods are running for this instance.",
+            "podsPending": "{count} not ready",
+            "unavailable": "Live cluster status is currently unavailable."
+        }
+    },
     "_instance": {
         "_dpa": {
             "generate": "Data Processing Agreement (DPA)",

@@ -815,6 +815,50 @@
         "noLicensesAvailable": "Aucune licence n'est disponible pour le moment. Veuillez réessayer plus tard.",
         "noLicenseSelected": "Veuillez sélectionner une licence pour continuer."
     },
+    "_instanceLive": {
+        "title": "\u00c9tat du cluster",
+        "state": {
+            "healthy": "Sain",
+            "progressing": "D\u00e9ploiement en cours",
+            "degraded": "D\u00e9grad\u00e9",
+            "down": "Hors service",
+            "scaled_to_zero": "R\u00e9duit \u00e0 z\u00e9ro",
+            "missing": "Non d\u00e9ploy\u00e9"
+        },
+        "podState": {
+            "ready": "Pr\u00eat",
+            "terminating": "Arr\u00eat en cours"
+        },
+        "labels": {
+            "refresh": "Actualiser",
+            "rollout": "D\u00e9ploiement",
+            "image": "Image",
+            "replicas": "R\u00e9pliques",
+            "autoscaling": "Mise \u00e0 l'\u00e9chelle automatique",
+            "atMax": "Au maximum",
+            "replicaRange": "R\u00e9pliques (min\u2013max)",
+            "pods": "Pods",
+            "podsReady": "Pods pr\u00eats",
+            "node": "N\u0153ud",
+            "restarts": "Red\u00e9marrages",
+            "memory": "M\u00e9moire",
+            "cpuUsage": "Utilisation CPU",
+            "memoryUsage": "Utilisation m\u00e9moire",
+            "cores": "c\u0153urs",
+            "age": "\u00c2ge",
+            "containerIssues": "Probl\u00e8mes de conteneur",
+            "exitCode": "code de sortie",
+            "events": "\u00c9v\u00e9nements r\u00e9cents",
+            "noReading": "aucune mesure"
+        },
+        "messages": {
+            "noMetricsServer": "L'utilisation en direct du CPU et de la m\u00e9moire est indisponible car metrics-server n'est pas install\u00e9 dans le cluster.",
+            "replicaBreakdown": "{ready} sur {desired} pr\u00eates, {updated} \u00e0 jour",
+            "noPods": "Aucun pod ne fonctionne pour cette instance.",
+            "podsPending": "{count} non pr\u00eat(s)",
+            "unavailable": "L'\u00e9tat en direct du cluster est actuellement indisponible."
+        }
+    },
     "_instance": {
         "_dpa": {
             "generate": "Générer un contrat de sous-traitance",
